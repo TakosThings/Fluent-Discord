@@ -1,0 +1,56 @@
+// Type ramp ordered smalled to largest
+@mixin TypeCaption{
+    // Variant: Small
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+@mixin TypeBody{
+    // Varient: Text
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+@mixin TypeBodyStrong{
+    // Varient: Text, Semibold
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+@mixin TypeBodyLarge{
+    // Varient: Text
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+@mixin TypeSubtitle{
+    // Varient: Display, Semibold
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+@mixin TypeTitle{
+    // Varient: Display, Semibold
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+@mixin TypeTitleLarge{
+    // Varient: Display, Semibold
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+@mixin TypeDisplay{
+    // Varient: Display, Semibold
+    font-size: 68px;
+    font-weight: 600;
+    line-height: 92px;
+}
