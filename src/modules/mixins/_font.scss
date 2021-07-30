@@ -1,0 +1,12 @@
+// DEBUG: 2021-07-30 - Comic sans used as fall back font for debugging
+@mixin FontNormal{
+    font-family: "Segoe UI", "Comic Sans MS", Helvetica, Arial, sans-serif;
+}
+
+@mixin FontMonospace{
+    font-family: Consolas, Menlo, Monaco, "Courier New", monospace;
+}
+
+@mixin FontIcon{
+    font-family: "Segoe MDL2 Assets";
+}
