@@ -1,0 +1,212 @@
+
+// Accent Colours
+$YellowGold:                                    #ffb900;
+$Gold:                                          #ff8c00;
+$OrangeBright:                                  #f7630c;
+$OrangeDark:                                    #ca5010;
+$Rust:                                          #da3b01;
+$PaleRust:                                      #ef6950;
+$BrickRed:                                      #d13438;
+$ModRed:                                        #ff4343;
+
+$PaleRed:                                       #e74856;
+$Red:                                           #e81123;
+$RoseBright:                                    #ea005e;
+$Rose:                                          #c30052;
+$PlumLight:                                     #e3008c;
+$Plum:                                          #bf0077;
+$OrchidLight:                                   #c239b3;
+$Orchid:                                        #9a0089;
+
+$DefaultBlue:                                   #0078d7;
+$NavyBlue:                                      #0063b1;
+$PurpleShadow:                                  #8e8cd8;
+$PurpleShadowDark:                              #6b69d6;
+$IrisPastel:                                    #8764b8;
+$IrisSpring:                                    #744da9;
+$VioletRedLight:                                #b146c2;
+$VioletRed:                                     #881798;
+
+$CoolBlueBright:                                #0099bc;
+$CoolBlue:                                      #2d7d9a;
+$Seafoam:                                       #00b7c3;
+$SeafoamTeal:                                   #038387;
+$MintLight:                                     #00b294;
+$MintDark:                                      #018574;
+$TurfGreen:                                     #00cc6a;
+$SportGreen:                                    #10893e;
+
+$Grey:                                          #7a7574;
+$GreyBrown:                                     #5d5a58;
+$SteelBlue:                                     #68768a;
+$MetalBlue:                                     #515c6b;
+$PaleMoss:                                      #567c73;
+$Moss:                                          #486860;
+$MeadowGreen:                                   #498205;
+$Green:                                         #107c10;
+
+$Overcast:                                      #767676;
+$Storm:                                         #4c4a48;
+$BlueGrey:                                      #69797e;
+$GreyDark:                                      #4a5459;
+$LiddyGreen:                                    #647c64;
+$Sage:                                          #525e54;
+$CamouflageDesert:                              #847545;
+$Camouflage:                                    #7e735f;
+
+// Accent
+$AccentBase:                                    $DefaultBlue;
+$AccentLight1:                                  lighten($AccentBase, 10%);
+$AccentLight2:                                  lighten($AccentBase, 20%);
+$AccentLight3:                                  lighten($AccentBase, 30%);
+$AccentDark1:                                   darken($AccentBase, 10%);
+$AccentDark2:                                   darken($AccentBase, 20%);
+$AccentDark3:                                   darken($AccentBase, 30%);
+
+// Text
+// Text
+// UI labels and static text
+$TextFillColorPrimary:                          #FFF; // Rest/hover
+$TextFillColorSecondary:                        rgba(#FFF, 78.6%); // Rest/hover
+$TextFillColorTertiary:                         rgba(#FFF, 54.42%); // Pressed
+$TextFillColorDisabled:                         rgba(#FFF, 36.28%); // Disabled
+// Accent Text
+// Links
+$AccentTextFillColorPrimary:                    $AccentLight3; // Rest/hover
+$AccentTextFillColorSecondary:                  $AccentLight3; // Rest/hover
+$AccentTextFillColorTertiary:                   $AccentLight2; // Pressed
+$AccentTextFillColorDisabled:                   rgba(#FFF, 36.28%); // Disabled
+// Text On Accent
+// Text on accent colored controls for fills
+$TextOnAccentFillColorPrimary:                  #000; // Rest/hover
+$TextOnAccentFillColorSecondary:                rgba(#000, 50%); // Pressed
+$TextOnAccentFillColorDisabled:                 rgba(#000, 50%); // Disabled
+$TextOnAccentFillColorSelected:                 #FFF; // Highlighted text in text entry experiences
+
+// Fill
+// Control Fill
+// Fills used for standard controls - Button, Dropdown, Search
+$ControlFillColorDefault:                       rgba(#FFF, 6.05%); // Rest
+$ControlFillColorSecondary:                     rgba(#FFF, 8.37%); // Hover
+$ControlFillColorTertiary:                      rgba(#FFF, 3.26%); // Pressed
+$ControlFillColorDisabled:                      rgba(#FFF, 4.19%); // Disabled
+$ControlFillColorTransparent:                   transparent; // Rest
+$ControlFillColorInputActiveBrush:              rgba(#1E1E1E, 70%); // Active/focused text input fields
+// Control Alt Fill
+// Fills used for the 'off' states of toggle type controls - Toggle, Radio , Checkbox, Rating Control
+$ControlAltFillColorTransparent:                transparent; //
+$ControlAltFillColorSecondary:                  rgba(#000, 10%); // Rest
+$ControlAltFillColorTertiary:                   rgba(#FFF, 4.19%); // Hover
+$ControlAltFillColorQuarternary:                rgba(#FFF, 6.98%); // Pressed
+$ControlAltFillColorDisabled:                   rgba(#1C1C1C, 100%); // Disabled
+// Control Strong Fill
+// Used for control fills that must meet contrast ratio requirements of 3:1 - Scrollbar, Slider, Flip view
+$ControlStrongFillColorDefault:                 rgba(#FFF, 54.42%); // Rest/hover
+$ControlStrongFillColorDisabled:                rgba(#FFF, 24.65%); // Disabled
+// Subtle Fill
+// Used for list items and fills that are transparent at rest and appear upon interaction
+$SubtleFillColorTransparent:                    transparent; // Rest
+$SubtleFillColorSecondary:                      rgba(#FFF, 6.05%); // Hover
+$SubtleFillColorTertiary:                       rgba(#FFF, 4.19%); // Pressed
+$SubtleFillColorDisabled:                       transparent; // Disabled
+// Control On Image Fill
+// Used for controls living on top of imagery. Currently used only for grid view checkbox
+$ControlOnImageFillColorDefault:                rgba(#1C1C1C, 70%); // Rest
+$ControlOnImageFillColorSecondary:              rgba(#1A1A1A, 100%); // Hover
+$ControlOnImageFillColorTertiary:               rgba(#131313, 100%); // Pressed
+$ControlOnImageFillColorDisabled:               transparent; // Disabled
+// Accent Fill
+// Accent fills on controls - Primary button, Selected toggle controls, Pill selected indicator
+$AccentFillColorDefault:                        $AccentBase; // Rest
+$AccentFillColorSecondary:                      $AccentLight1; // Hover
+$AccentFillColorTertiary:                       $AccentLight2; // Pressed
+$AccentFillColorDisabled:                       #F00; // Disabled
+$AccentFillColorSelectedTextBackground:         #F00; // Highlighted/selected text background
+
+// Stroke
+// Control stroke
+// Gradient stops in elevation border, and for control states - Button, Dropdown, Search
+$ControlStrokeColorDefault:                     rgba(#FFF, 6.98%); // Used in control elevation brushes pressed or disabled
+$ControlStrokeColorSecondary:                   rgba(#FFF, 9.3%); // Used in control elevation brushes
+$ControlStrokeColorOnAccentDefault:             rgba(#FFF, 8%); // Used in control elevation brushes pressed or disabled
+$ControlStrokeColorOnAccentSecondary:           rgba(#000, 14%); // Used in control elevation brushes
+$ControlStrokeColorOnAccentTertiary:            rgba(#000, 21.69%); // Linework on Accent controls (ie. dividers)
+$ControlStrokeColorOnAccentDisabled:            rgba(#000, 20%); // Disabled
+$ControlStrokeColorForStrongFillWhenOnImage:    rgba(#000, 42%); // When used with a 'strong' fill colour, ensures a 3:1 contrast on any background
+// Card Stroke
+// Card and layer stroke colors
+$CardStrokeColorDefault:                        rgba(#000, 10%); // Card and layer strokes
+$CardStrokeColorDefaultSolid:                   rgba(#1C1C1C, 100%); // Solid equivalent of Card Stroke/Default used in command bar for expanded states
+// Control Strong Stokes
+// Control strokes that must meet contrast ratio requirements of 3:1 - Radio button, Toggle Switch, Checkbox
+$ControlStrongStrokeColorDefault:               rgba(#FFF, 54.42%);
+$ControlStrongStrokeColorDisabled:              rgba(#FFF, 15.81%);
+// Surface Stroke
+// Strokes on background surfaces (i.e flyouts, windows, dialogs)
+$SurfaceStrokeColorDefault:                     rgba(#FFF, 8.37%); // Windows & dialog borders, theme inverse
+$SurfaceStrokeColorFlyout:                      rgba(#FFF, 100%); // Control flyouts, always dark
+// Divider Stroke
+// Divider and graphic lines. Theme inverse.
+$DividerStrokeColorDefault:                     rgba(#FFF, 8.37%); // Content dividers
+// Focus Stroke
+// Divider and graphic lines. Theme inverse.
+$FocusStrokeColorOuter:                         rgba(#FFF, 100%); // Outer stroke color
+$FocusStrokeColorInner:                         rgba(#000, 70%); // Inner stroke color
+
+// Elevation (gradient strokes)
+// Control Elevation
+// Standard control strokes and stroke states - Button, Dropdown, Search
+$ControlElevationBorder:                        $ControlStrokeColorDefault; // Rest
+$CircleElevationBorder:                         linear-gradient(180deg, $ControlStrokeColorDefault 0%, $ControlStrokeColorSecondary 9.57%); // Rest
+$TextControlElevationBorder:                    #F00; // Rest
+$TextControlElevationBorderFocused:             #F00; // Active text fields
+$AccentControlElevationBorder:                  #F00; // Rest
+
+// Backgrounds
+// Card Backgrounds - Used to create 'cards' - content blocks that live on page and layer backgrounds
+$CardBackgroundFillColorDefault:                rgba(#FFF, 5.12%); // Default card color
+$CardBackgroundFillColorSecondary:              rgba(#FFF, 3.26%); // Alt card color: slightly darker
+// Smoke Background
+// Used over windows and desktop to block them out as inaccessible
+$SmokeFillColorDefault:                         rgba(#000, 30%); // Dims backgrounds behind dialogs
+// Layer
+// Background colors of any material to create layering
+$LayerFillColorDefault:                         rgba(#3A3A3A, 30%); // Content layer color
+$LayerFillColorAlt:                             rgba(#FFF, 5.38%); // Alternate color layer color
+// Layer on Acrylic
+// Background of any material to create layering
+$LayerOnAcrylicFillColorDefult:                 rgba(#FFF, 3.59%); // Content layer color on acrylic surfaces
+// Solid Background
+// Solid background colors to place layers, cards or controls on
+$SolidBackgroundFillColorBase:                  rgba(#FFF, 3.59%); // Bottom layer of an experience
+$SolidBackgroundFillColorSecondary:             rgba(#FFF, 3.59%); // Alternate base color for those who need a darker background color
+$SolidBackgroundFillColorTertiary:              rgba(#FFF, 3.59%); // Content layer color
+$SolidbackgroundFillColorQuarternary:           rgba(#FFF, 3.59%); // Alt content layer color
+// Mica Background
+// Mica background colors to place layers, cards, or controls on
+$MicaBackgroundFillColorBase:                   rgba(#202020, 100%);
+// Acrylic Background
+// Acrylic background colors to place layers, cards, or controls on
+$AcrylicBackgroundFillColorBase:                rgba(#202020, 96%);
+$AcrylicBackgroundFillColorDefault:             rgba(#2C2C2C, 96%);
+// Accent Acrylic Background
+// Acrylic background colors to place layers, cards, or controls on
+$AccentAcrylicBackgroundFillColorBase:          $AccentDark3;
+$AccentAcrylicBackgroundFillColorDefault:       $AccentDark2;
+
+// System
+$SystemFillColorAttention:                      $AccentLight2; // Badge
+$SystemFillColorSuccess:                        #6CCB5F; // Badge
+$SystemFillColorCaution:                        #FCE100; // Badge
+$SystemFillColorCritical:                       #FF99A4; // Badge
+$SystemFillColorNeutral:                        rgba(#FFFFFF, 54.42%); // Badge
+$SystemFillColorSolidNeutral:                   #8A8A8A; // Neutral badges over content
+
+$SystemFillColorAttentionBackground:            rgba(#FFF, 3.26%); // Infobar background
+$SystemFillColorSuccesBackgrounds:              rgba(#393D1B, 100%); // Infobar background
+$SystemFillColorCautionBackground:              rgba(#433519, 100%); // Infobar background
+$SystemFillColorCriticalBackground:             rgba(#442726, 100%); // Infobar background
+$SystemFillColorNeutralBackground:              rgba(#FFF, 3.26%); // Infobar background
+$SystemFillColorSolidNeutralBackground:         rgba(#2E2E2E, 100%); // Neutral badges over content
+
+$SystemFillCOlorSolidAttentionBackground:       rgba(#2E2E2E, 100%);
