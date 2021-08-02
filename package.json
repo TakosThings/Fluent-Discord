@@ -3,6 +3,8 @@
     "scripts": {
         "build": "sass src/fluent.scss:dist/fluent.theme.css --no-charset --no-source-map",
         "dev": "sass src/fluent.scss:%APPDATA%/BetterDiscord/themes/fluent.theme.css --no-charset --no-source-map --watch",
-        "translate": "sass src/extra:dist --no-charset --no-source-map"
+        "build-translate": "sass src/extra:dist --no-charset --no-source-map",
+        "dev-translate": "sass src/extra:%APPDATA%/BetterDiscord/themes --no-charset --no-source-map",
+        "dev-translate-only": "sass src/extra/fluent.%npm_config_lang%.theme.scss:%APPDATA%/BetterDiscord/themes/fluent.%npm_config_lang%.theme.css --no-charset --no-source-map"
     }
 }
