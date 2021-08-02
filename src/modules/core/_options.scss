@@ -1,15 +1,32 @@
 /**
  * Start user options
- * Visit the wiki for information on this sections
+ * Visit the wiki for information on this section
  * https://github.com/TakosThings/Fluent-Discord/wiki
  *
  * Accent colour
- * Description:  Change the accent colour.
- * Default:      The default accent colour is 'Default Blue'.
- * Note:         Must be formatted as described on the wiki.
+ * Description: Change the accent colour.
+ * Default:     The default accent colour is 'Default Blue' shown below as '0, 120, 215.
+ * Warning:     The colour formatting is non-standard. Read the wiki page before changing your
+ *              Accent colour.
+ * Wiki:        https://github.com/TakosThings/Fluent-Discord/wiki/Accent-colour
 */
 :root{
     --fluent-accent: 0, 120, 215;
+}
+
+/**
+ * Acrylic
+ * Description: Change the background and adjust filters.
+ * Default:     Blue/green gradient background, filters disabled.
+ * Note:        You MUST read the wiki page about acrylic before enabling backdrop-filters.
+ *              Ignoring this advice will probably result in bad performance.
+ * Wiki:        https://github.com/TakosThings/Fluent-Discord/wiki/Acrylic
+*/
+.bg-h5JY_x{
+    background-image: url(https://cdn.discordapp.com/attachments/862716886067445820/862717236485816401/PoQUA3n.jpg);
+}
+.bg-h5JY_x::before{
+    /* backdrop-filter: blur(20px) saturate(200%); */
 }
 
 /**
