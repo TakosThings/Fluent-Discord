@@ -1,0 +1,37 @@
+// Main UI transparency
+.sidebar-2K8pFh, // channels
+.container-3w7J-x,
+.wrapper-3NnKdC, // guilds
+.scroller-1Bvpku{ // guilds scroll
+    background-color: transparent;
+}
+
+// Settings transparency
+.layer-3QrUeG,
+.standardSidebarView-3F1I7i,
+.contentRegionScroller-26nc1e,
+.contentRegion-3nDuYy{
+    background-color: transparent;
+}
+
+// Background layers
+// NOTE: 2021-07-09 - The 'acrylic' effect is made of two layers
+//    Background image - To be declared by the user in the options section
+//    Filter overlay - Saturate helps bring out some colours from the background layer
+// DEV: 2021-07-06 - Dev textures
+.bg-h5JY_x{
+    background-color: transparent;
+    // Background image in ../core/options
+    background-size: cover;
+    &::before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    // Filters
+    &::before{
+        background-color: $AcrylicBackgroundFillColorBase;
+        // Filters in ../core/options
+    }
+}
