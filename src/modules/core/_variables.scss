@@ -184,11 +184,11 @@ $SolidBackgroundFillColorTertiary:              rgba(#FFF, 3.59%); // Content la
 $SolidbackgroundFillColorQuarternary:           rgba(#FFF, 3.59%); // Alt content layer color
 // Mica Background
 // Mica background colors to place layers, cards, or controls on
-$MicaBackgroundFillColorBase:                   rgba(#202020, 100%);
+$MicaBackgroundFillColorBase:                   linear-gradient(0deg, rgba(32, 32, 32, 0.8), rgba(32, 32, 32, 0.8));
 // Acrylic Background
 // Acrylic background colors to place layers, cards, or controls on
-$AcrylicBackgroundFillColorBase:                rgba(#202020, 96%);
-$AcrylicBackgroundFillColorDefault:             rgba(#2C2C2C, 96%);
+$AcrylicBackgroundFillColorBase:                linear-gradient(0deg, rgba(32, 32, 32, 0.5), rgba(32, 32, 32, 0.5)), rgba(32, 32, 32, 0.96);
+$AcrylicBackgroundFillColorDefault:             linear-gradient(0deg, rgba(44, 44, 44, 0.15), rgba(44, 44, 44, 0.15)), rgba(44, 44, 44, 0.96);
 // Accent Acrylic Background
 // Acrylic background colors to place layers, cards, or controls on
 $AccentAcrylicBackgroundFillColorBase:          $AccentDark3;
