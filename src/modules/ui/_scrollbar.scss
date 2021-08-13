@@ -1,0 +1,29 @@
+// Channels, members, settings nav
+.thin-1ybCId{
+    &::-webkit-scrollbar{
+        width: 6px;
+    }
+    &::-webkit-scrollbar-thumb{
+        background-color: $ControlStrongFillColorDefault;
+    }
+}
+
+// Chat
+.auto-Ge5KZx{
+    &::-webkit-scrollbar{
+        width: 12px;
+    }
+    &::-webkit-scrollbar-track{
+        background-color: transparent;
+    }
+    &::-webkit-scrollbar-thumb{
+        background-color: $ControlStrongFillColorDefault;
+    }
+}
+
+// Giphy/Tenor search popout
+.scrollbarGhostHairline-1mSOM1{
+    &::-webkit-scrollbar-thumb{
+        background-color: $ControlStrongFillColorDefault;
+    }
+}
