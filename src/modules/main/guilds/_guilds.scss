@@ -1,0 +1,164 @@
+.platform-win .scroller-1Bvpku{
+    padding: 0;
+    background-color: transparent;
+}
+
+.theme-dark .wrapper-3NnKdC{
+    width: 48px;
+    // margin-top: 40px;
+    // margin-bottom: 96px;
+    background-color: transparent;
+    z-index: 10;
+
+    .listItem-GuPuDH{
+        margin: 0;
+        width: 48px;
+        &:hover{
+            background-color: $ControlFillColorSecondary;
+        }
+        // Pill
+        .pill-1z4sAY,
+        .pill-3N7f9r,
+        .pill-1Z5PKm,
+        .pill-1aYSec{
+            .item-2hkk8m{
+                width: 3px;
+                height: 24px !important;
+                margin-left: 4px;
+                border-radius: 2px;
+                // Guild is selected
+                &[style*="height: 40px;"]{
+                    height: 24px !important;
+                    background-color: $AccentBase;
+                }
+            }
+        }
+        // Guild icon
+        .wrapper-25eVIn{
+            svg foreignObject{
+                mask: none;
+            }
+            .icon-27yU2q{
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+            }
+            .acronym-2mOFsV{
+                width: 24px;
+                height: 24px;
+                background-color: transparent;
+                color: $TextFillColorPrimary;
+                @include TypeBodyStrong;
+            }
+        }
+        .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+        .wrapper-1BJsBx:hover .childWrapper-anI2G9{
+            background-color: transparent;
+        }
+
+        // Home
+        .wrapper-1BJsBx{
+            &[aria-label="Home"]{
+                .childWrapper-anI2G9{
+                    background-color: transparent;
+                    &::before{
+                        content: "\E80F";
+                        color: $TextFillColorPrimary;
+                        @include FontIcon;
+                        font-size: 16px;
+                    }
+                    svg{
+                        display: none;
+                    }
+                }
+            }
+        }
+        // Remove Home :active transform
+        .listItemWrapper-KhRmzM:active{
+            transform: none;
+        }
+
+        // Separator
+        .guildSeparator-33mFX6{
+            display: none;
+        }
+        // Add server/Server Discovery icons
+        .circleIconButton-1QV--U{
+            background-color: transparent;
+            color: #FFF;
+            &[aria-label]{
+                svg{
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+        }
+        // Offline
+        .guildsError-g6NwOI{
+            background-color: $SystemFillColorCritical;
+            border: 0;
+            border-radius: 0;
+            transition: none;
+            font-weight: 400;
+        }
+        //badge
+        .lowerBadge-29hYVK,
+        .upperBadge-2XnnGB{
+            right: 4px;
+            transform: none !important;
+        }
+        .upperBadge-2XnnGB{
+            top: 4px;
+        }
+        .lowerBadge-29hYVK{
+            bottom: 4px;
+            z-index: 1;
+        }
+    }
+    // Folders
+    .wrapper-3Njo_c{
+        .listItem-GuPuDH{
+            .wrapper-25eVIn{
+                svg{
+                    mask{
+                        display: none;
+                    }
+                }
+            }
+        }
+        // Fix folder container being too tall
+        ul[role="group"]{
+            height: auto !important;
+        }
+    }
+    .folder-1hbNCn{
+        background-color: transparent;
+    }
+    .folderIconWrapper-1_bOZe{
+        background-color: transparent !important;
+        border-radius: 0;
+    }
+    .closedFolderIconWrapper-2sTcE6{
+        padding: 8px;
+    }
+    .expandedFolderBackground-1cujaW{
+        left: 0;
+        bottom: 0;
+        background-color: $ControlFillColorInputActiveBrush;
+        border-radius: 0;
+        &.collapsed-2ZrjoL{
+            background-color: transparent;
+        }
+    }
+    .expandedFolderIconWrapper-Huv7rA{
+        svg path{
+            clip-path: inset(1px 1px 1px 1px);
+        }
+    }
+    // Unread notification bars
+    // These break due to our fixed buttons at the bottom, so we remove them
+    .unreadMentionsIndicatorTop-2-tcdU,
+    .unreadMentionsIndicatorBottom-2mDYbI{
+        display: none;
+    }
+}
