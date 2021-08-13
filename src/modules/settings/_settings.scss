@@ -1,0 +1,48 @@
+.contentRegion-3nDuYy{
+    background-color: $LayerFillColorDefault;
+    border-top: 1px solid $CardStrokeColorDefault;
+    border-left: 1px solid $CardStrokeColorDefault;
+    border-radius: 7px 0 0 0;
+}
+.contentColumnDefault-1VQkGM{
+    padding: 32px;
+}
+
+// Close button
+.closeButton-1tv5uR{
+    width: 32px;
+    height: 32px;
+    flex: 0 0 32px;
+    border-radius: 4px
+}
+.keybind-KpFkfr{
+    @include TypeBody;
+}
+
+// Title
+.sectionTitle-2vauyC{
+    h1{
+        @include TypeTitle;
+    }
+}
+
+// Dark theme
+.theme-dark{
+    // Close button
+    .closeButton-1tv5uR{
+        background-color: $ControlFillColorDefault;
+        border: 1px solid $ControlStrokeColorDefault;
+        svg path{
+            fill: $TextFillColorPrimary;
+        }
+
+    }
+    .keybind-KpFkfr{
+        color: $TextFillColorPrimary;
+    }
+}
+
+// Light theme
+.theme-light{
+
+}

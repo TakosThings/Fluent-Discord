@@ -1,0 +1,64 @@
+.sidebarRegion-VFTUkN{
+    flex: 0;
+}
+// Hide scrollbar when not required
+.sidebarRegionScroller-3MXcoP{
+    background-color: transparent;
+}
+
+.sidebar-CFHs9e{
+    width: 300px;
+    padding: 24px 4px;
+}
+
+.side-8zPYf6 .header-2RyJ0Y{
+    padding: 0 0 0 16px;
+    @include TypeBodyStrong;
+    color: $TextFillColorPrimary;
+    line-height: 34px;
+    text-transform: none;
+}
+.side-8zPYf6 .item-PXvHYJ{
+    padding: 0 12px 0 44px;
+    margin-bottom: 4px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: $TextFillColorPrimary;
+    @include TypeBody;
+    line-height: 34px;
+    &::after{
+        position: absolute;
+        left: 16px;
+        color: #FFF;
+        @include FontIcon;
+        font-size: 14px;
+    }
+    &:hover{
+        color: $TextFillColorPrimary;
+        background-color: $SubtleFillColorSecondary;
+        border-color: $SubtleFillColorSecondary;
+    }
+    &:hover{
+        color: $TextFillColorSecondary;
+        background-color: $SubtleFillColorTertiary;
+    }
+    &.selected-3s45Ha{
+        background-color: $SubtleFillColorSecondary;
+        &::before{
+            content: "";
+            width: 3px;
+            height: 16px;
+            position: absolute;
+            top: 8px;
+            left: 0;
+            background-color: $AccentBase;
+            border-radius: 2px;
+        }
+    }
+}
+
+// Divider
+.side-8zPYf6 .separator-gCa7yv{
+    margin: calc(12px - 4px) 0 12px 0;
+    background-color: $DividerStrokeColorDefault;
+}
