@@ -1,0 +1,48 @@
+// Adopted from https://codepen.io/rbv912/pen/dYbqLQ
+
+@keyframes fluent-loading-circle{
+    0%   { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+@keyframes fluent-loading-circle-progress-1 {
+	0%   { transform: rotate(0deg); }
+	100% { transform: rotate(220deg); }
+}
+@keyframes fluent-loading-circle-progress-2 {
+	0%   { transform: rotate(-140deg); }
+	50%  { transform: rotate(-160deg); }
+	100% { transform: rotate(140deg); }
+}
+
+.spinner-2enMB9{
+    display: block;
+    .inner-1gJC7_{
+        display: block;
+        animation: fluent-loading-circle 1s linear infinite;
+        .wanderingCubesItem-WPXqao:first-child{
+            width: 32px;
+            height: 32px;
+            position: absolute;
+
+            background-color: transparent;
+            clip: rect(0, 32px, 32px, 16px);
+            animation: fluent-loading-circle-progress-1 2s linear infinite;
+            &::after{
+                content: "";
+                position: absolute;
+                height: 32px;
+                width: 32px;
+                top: 0;
+                left: 0;
+                clip: rect(0, 32px, 32px, 16px);
+                border: 3px solid #FFF;
+                border-radius: 50%;
+                animation: fluent-loading-circle-progress-2 2s linear infinite;
+                box-sizing: border-box;
+            }
+        }
+        .wanderingCubesItem-WPXqao:last-child{
+            display: none;
+        }
+    }
+}
