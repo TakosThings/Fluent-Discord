@@ -1,0 +1,209 @@
+// Remove border radius from top-left
+.platform-win .sidebar-2K8pFh{
+    border-radius: 0;
+}
+// Channel header
+.header-2V-4Sw{
+    box-shadow: none;
+    .name-1jkAdW{
+        @include TypeBodyStrong
+    }
+    svg{
+        display: none;
+    }
+}
+// Remove server boost icon
+.guildIconContainer-2FW_iA{
+    display: none;
+}
+
+// Remove server banner
+// DEV: 2021-07-11 - Testing, Removes server banner
+.animatedContainer-1NSq4T{
+    display: none;
+}
+.content-3YMskv > div[style="height: 84px;"]{
+    display: none;
+}
+
+// Hide channel notice
+.channelNotice-1-XFjC{
+    display: none;
+}
+
+
+// Category
+.containerDefault-3tr_sE{
+    .wrapper-PY0fhH{
+        height: 34px;
+        margin: 0 0 0 8px;
+        padding-left: 10px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        color: $TextFillColorPrimary;
+        &:hover{
+            background-color: $SubtleFillColorSecondary;
+            border-color: $SubtleFillColorSecondary;
+        }
+
+        // Wrapper types
+        // Muted
+        &.muted-2JBAyG{
+            .name-3l27Hl{
+                color: $TextFillColorDisabled;
+            }
+        }
+
+        // Colapse chevrons
+        // Remove default chevron
+        .arrow-gKvcEx{
+            display: none;
+        }
+        // Chevron replacement
+        &::after{
+            content: "\E70E"; // ChevronDown
+            padding-left: 8px;
+            @include FontIcon;
+            font-size: 12px;
+        }
+        &.collapsed-2-tg8y{
+            &::after{
+                content: "\E70D"; // ChevronDown
+            }
+        }
+    }
+
+    // Category name
+    .container-2ax-kl{
+        color: $TextFillColorPrimary;
+        @include TypeBody;
+        text-transform: none;
+    }
+
+    // Hide 'Create Channel' buttons when not hovered
+    .children-L002ao{
+        visibility: hidden;
+    }
+    &:hover{
+        .children-L002ao{
+            visibility: visible;
+        }
+    }
+}
+
+// Channels
+.containerDefault--pIXnN{
+    .content-1x5b-n{
+        padding-left: 23px;
+    }
+
+    .wrapper-2jXpOf{
+        .content-1x5b-n{
+            border: 1px outset transparent;
+        }
+
+        // Channel name
+        .name-23GUGE{
+            color: $TextFillColorSecondary;
+            @include TypeBody;
+        }
+
+        // Hide channel buttons when not hovered
+        .children-3rEycc .iconItem-F7GRxr{
+            visibility: hidden;
+        }
+
+        &:hover{
+            .content-1x5b-n{
+                background-color: $SubtleFillColorSecondary;
+                border-color: $SubtleFillColorSecondary;
+            }
+
+            // Reveal channel buttons
+            .children-3rEycc .iconItem-F7GRxr{
+                visibility: visible;
+            }
+        }
+
+        // Remove default icon
+        .iconContainer-1BBaeJ{
+            &::before{
+                color: $TextFillColorSecondary;
+                @include FontIcon;
+                font-size: 14px;
+                // Icon replacements in /modules/icons/main/channels
+            }
+            .icon-1DeIlz{
+                display: none;
+            }
+        }
+
+        // Channel types
+        // Selected channel
+        &.modeSelected-346R90{
+            // Pill
+            &::before{
+                content: "";
+                width: 3px;
+                height: 16px;
+                position: absolute;
+                top: 10px;
+                left: 8px;
+                background-color: $AccentBase;
+                border-radius: 2px;
+            }
+            .content-1x5b-n{
+                background-color: $SubtleFillColorSecondary;
+            }
+            // Channel icon
+            .iconContainer-1BBaeJ::before{
+                color: $TextFillColorPrimary;
+                font-size: 14px;
+            }
+            .name-23GUGE{
+                color: $TextFillColorPrimary;
+            }
+        }
+        // Unread channel
+        &.modeUnread-1qO3K1{
+            // Channel icon
+            .iconContainer-1BBaeJ::before{
+                color: $TextFillColorPrimary;
+            }
+            .name-23GUGE{
+                color: $TextFillColorPrimary;
+            }
+        }
+        // Muted channel
+        &.modeMuted-onO3r-{
+            // Channel icon
+            .iconContainer-1BBaeJ::before{
+                color: $TextFillColorDisabled;
+            }
+            .name-23GUGE{
+                color: $TextFillColorDisabled;
+            }
+        }
+    }
+
+    // Unread channel pill
+    .unread-2lAfLh{
+        width: 3px;
+        height: 16px;
+        left: 8px;
+        margin-top: -8px;
+        border-radius: 2px;
+    }
+    // Threads
+    // Thread channel
+    .typeThread-3ESTm- .content-1x5b-n{
+        margin-left: 8px;
+        padding-left: 47px;
+    }
+}
+
+// Threads
+// Channel tree spine
+.spine--Wla_O{
+    left: 32px;
+}
