@@ -1,0 +1,70 @@
+.title-3qD0b-{
+    padding: 0 0 0 32px;
+    &.themed-ANHk51{
+        background-color: transparent;
+    }
+    // Channel & MOTD
+    // Remove hash symbol
+    .children-19S4PO{
+        // Gradient at end of MOTD field
+        &::after{
+            display: none;
+        }
+        .iconWrapper-2OrFZ1{
+            display: none;
+        }
+    }
+    // Channel name
+    .title-29uC1r{
+        @include TypeBodyStrong
+    }
+
+    // Remove divider
+    .divider-3FBTu8{
+        display: none;
+    }
+
+    // MOTD
+    .topic-TCb_qw{
+        color: $TextFillColorPrimary;
+        @include TypeBody;
+    }
+}
+
+// Toolbar
+.toolbar-1t6TWx{
+    .iconWrapper-2OrFZ1{
+        margin: 0 4px 0 0;
+        border-radius: 4px;
+        &:hover{
+            background-color: $ControlFillColorSecondary;
+        }
+    }
+    .iconWrapper-2OrFZ1,
+    .button-38aScr{
+        width: 64px;
+        height: 36px;
+        &::before{
+            @include FontIcon;
+            width: 62px;
+            position: absolute;
+            font-size: 16px;
+            line-height: 36px;
+            text-align: center;
+            display: block;
+        }
+        // Remove default icon
+        .icon-22AiRD,
+        .controlIcon-35oS15{
+            display: none;
+        }
+        // Selected
+        &.selected-1GqIat{
+            background-color: $AccentFillColorSecondary;
+        }
+        // Toggled (mute channel)
+        &[aria-checked="true"]{
+            color: $SystemFillColorCritical;
+        }
+    }
+}
