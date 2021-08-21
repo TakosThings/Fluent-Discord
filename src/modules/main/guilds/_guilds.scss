@@ -130,6 +130,11 @@
         ul[role="group"]{
             height: auto !important;
         }
+
+        // Round bottom of last guild in folder
+        ul[id^="folder-items"] .listItem-GuPuDH:last-of-type{
+            border-radius: 0 0 24px 24px;
+        }
     }
     .folder-1hbNCn{
         background-color: transparent;
@@ -144,10 +149,13 @@
     .expandedFolderBackground-1cujaW{
         left: 0;
         bottom: 0;
-        background-color: $ControlFillColorInputActiveBrush;
-        border-radius: 0;
+        background-color: $CardBackgroundFillColorDefault;
+        border-radius: 24px;
         &.collapsed-2ZrjoL{
             background-color: transparent;
+        }
+        &:not(.collapsed-2ZrjoL) ~ .listItem-GuPuDH{
+            border-radius: 24px 24px 0 0;
         }
     }
     .expandedFolderIconWrapper-Huv7rA{
