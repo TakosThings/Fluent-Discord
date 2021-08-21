@@ -20,6 +20,7 @@
 //    Filter overlay - Saturate helps bring out some colours from the background layer
 // DEV: 2021-07-06 - Dev textures
 .bg-h5JY_x{
+    margin-top: -10px; // Hides the black bar at top of titlebar (ie. grabber)
     background-color: transparent;
     // Background image in ../core/options
     background-size: cover;
