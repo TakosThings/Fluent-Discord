@@ -19,7 +19,8 @@
         }
 
         // Member list
-        &[aria-label="#{map-get($translate, MEMBER_LIST)}"]::before{
+        &[aria-label="#{map-get($translate, MEMBER_LIST_SHOWN)}"]::before,
+        &[aria-label="#{map-get($translate, MEMBER_LIST_HIDDEN)}"]::before{
             content: "\E716"; // People
         }
 
