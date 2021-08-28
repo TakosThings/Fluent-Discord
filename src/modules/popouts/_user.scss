@@ -1,0 +1,125 @@
+.popoutBanner-19WKGg,
+.popoutBannerPremium-1n96gg{
+    position: absolute;
+    height: 100%;
+    border-radius: 8px;
+    filter: saturate(150%);
+    &::after{
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background-image: linear-gradient(0deg, rgba(0,0,0,80%) 50%, transparent 100%);
+        border-radius: 8px;
+    }
+    .bannerOverlayPopout-1clJ34{
+        display: none;
+    }
+}
+// Premium banner
+.popoutBannerPremium-1n96gg{
+    background-position: 0 0;
+    background-size: 300px 120px
+}
+.avatarPositionPremium-3We5Ho{
+    top: 16px;
+}
+
+// Avatar
+.avatar-37jOim{
+    background-color: transparent;
+    border: 0;
+}
+.avatarHint-2A3RNb{
+    top: 0;
+    left: 0;
+}
+// 'view profile' text
+.avatarHintInner-1TvA8u{
+    font-size: 0;
+    &::before{
+        content: "\e8d4"; // Contact2
+        @include FontIcon;
+        font-size: 32px;
+        font-weight: normal;
+    }
+}
+
+// Usernames
+.headerTop-3vNv-a{
+    padding-top: 132px;
+}
+.headerTag-3GFl76{
+    @include TypeSubtitle;
+    span{
+        color: $TextFillColorPrimary;
+    }
+}
+// Bot tag
+.headerBotTag-qNEsTk{
+    background-color: transparent;
+    line-height: unset;
+    svg, span{
+        display: none;
+    }
+    &::before{
+        content: "\e99a";
+        @include TypeSubtitle;
+        @include FontIcon;
+        font-weight: normal;
+    }
+}
+
+
+// Body
+.bodyInnerWrapper-26fQXj{
+    background-color: transparent;
+}
+.base-1x0h_U{
+    color: $TextFillColorPrimary !important;
+    @include TypeBodyStrong;
+    text-transform: none;
+}
+.role-2irmRk{
+    background-color: $ControlFillColorDefault;
+    border: 1px solid $ControlStrokeColorDefault;
+    border-radius: 11px;
+}
+.roleName-32vpEy{
+    color: $TextFillColorPrimary;
+    @include TypeCaption;
+}
+
+// Spotify/games
+.assetsLargeImage-eYwpTX{
+    border-radius: 4px;
+}
+.timeBarUserPopout-AWPFf2{
+    .bar-3urHkF{
+        height: 3px;
+        background-color: $ControlStrokeColorDefault;
+    }
+    .barInner-3NDaY_{
+        height: 3px;
+        background-color: $AccentBase;
+    }
+
+    // Timecode
+    .text-AOoUen{
+        @include TypeCaption;
+    }
+}
+// Remove buttons we can't interact with
+.disabledButtonWrapper-3wH6-b{
+    display: none;
+}
+
+// Note
+.note-1oo11U{
+    margin: 0;
+}
+
+// Footer
+.footer-3UKYOU{
+    background-color: transparent;
+}
