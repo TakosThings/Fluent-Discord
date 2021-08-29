@@ -1,4 +1,49 @@
+// Order: Meta, User options, variables, reset
 @import 'modules/betterdiscord/meta';
 @import 'modules/core/options';
 @import 'modules/core/variables';
-@import 'modules/core/reset'
+@import 'modules/core/reset';
+
+// Mixins
+// Order: None, alpabetic
+@import 'modules/mixins/font';
+@import 'modules/mixins/type';
+
+// Acrylic
+// Order: None, alphabetic
+@import 'modules/main/acrylic';
+
+// UI
+// Order: None, alphabetic
+@import 'modules/ui/scrollbar';
+@import 'modules/ui/titlebar';
+
+// Main UI
+// Order: None, alphabetic
+@import 'modules/main/channels/channels';
+@import 'modules/main/chat/chat';
+@import 'modules/main/guilds/guilds';
+@import 'modules/main/members/members';
+@import 'modules/main/toolbar/search';
+@import 'modules/main/toolbar/toolbar';
+
+// Popouts
+// Order: None, alphabetic
+@import 'modules/popouts/user';
+
+// Settings
+// Order: None, alphabetic
+@import 'modules/settings/settings';
+@import 'modules/settings/navigation';
+
+// Icons
+// Order: Language, then alphabetic
+@import 'modules/translations/en-US';
+@import 'modules/translations/en-GB';
+@import 'modules/icons/main/channels';
+@import 'modules/icons/main/toolbar';
+@import 'modules/icons/settings/settings';
+
+// Misc
+// Order: None, alphabetic
+@import 'modules/misc/loading';
