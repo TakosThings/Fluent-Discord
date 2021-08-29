@@ -1,0 +1,72 @@
+.members-1998pB{
+    background-color: $LayerFillColorDefault;
+    border-left: 1px solid $CardStrokeColorDefault;
+}
+.members-1998pB > div{
+    background-color: transparent;
+}
+
+// Group header
+.membersGroup-v9BXpm{
+    padding: 20px 8px 0 16px;
+}
+.container-2ax-kl{
+    color: $TextFillColorPrimary;
+    @include TypeBodyStrong;
+    text-transform: none;
+}
+
+
+// Member
+.container-2Pjhx-{
+    color: $TextFillColorPrimary;
+    // Greyscale offline avatars
+    &.offline-3nJYBR{
+        .avatar-3uk_u9{
+            filter: grayscale(100%);
+        }
+        &:hover{
+            .avatar-3uk_u9{
+                filter: grayscale(0%);
+            }
+        }
+    }
+}
+.layout-2DM8Md{
+    border: 1px solid transparent;
+}
+// Avatar
+.avatar-3uk_u9{
+    foreignObject{
+        mask: none;
+    }
+    .avatar-VxgULZ{
+        border-radius: 50%;
+    }
+}
+// Username
+.name-uJV0GL{
+    @include TypeBody;
+}
+// Activity
+.activity-2Gy-9S{
+    color: $TextFillColorSecondary;
+    @include TypeCaption;
+    strong{
+        font-weight: 400;
+    }
+}
+
+.theme-dark{
+    .layout-2DM8Md{
+        &:hover{
+            background-color: $SubtleFillColorSecondary;
+            border-color: $SubtleFillColorSecondary;
+        }
+    }
+    // Selected (user popout open)
+    .selected-aXhQR6 .layout-2DM8Md{
+        background-color: $SubtleFillColorSecondary;
+        border-color: $SubtleFillColorSecondary;
+    }
+}
