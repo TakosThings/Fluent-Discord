@@ -122,4 +122,13 @@
     &:hover{
         background-color: transparent !important;
     }
+    // Remove background on mentioned message
+    &.mentioned-xhSam7{
+        background-color: transparent;
+        &::before{
+            left: 8px;
+            background-color: $SystemFillColorCaution;
+            border-radius: 1px;
+        }
+    }
 }
