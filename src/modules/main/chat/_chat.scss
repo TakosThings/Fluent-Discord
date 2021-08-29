@@ -108,8 +108,11 @@
         }
         .unreadPill-2HyYtt{
             position: relative;
-            border-radius: 0 8px 8px 0;
         }
+    }
+    // Border radius when date and new message divider are combined
+    span+span{
+        border-radius: 0 8px 8px 0 !important;
     }
 }
 
