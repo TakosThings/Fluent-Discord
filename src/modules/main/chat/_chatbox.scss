@@ -1,0 +1,162 @@
+.theme-dark .form-2fGMdU{
+    margin-top: 0;
+    // Remove gradient on left
+    &::before{
+        display: none;
+    }
+
+    .channelTextArea-rNsIhG{
+        margin-bottom: 16px;
+        background-color: $ControlFillColorDefault;
+        border: 1px solid $ControlStrokeColorDefault;
+        border-bottom: 2px solid $ControlStrokeColorDefault;
+        border-radius: 4px;
+        &:hover{
+            background-color: $ControlFillColorSecondary;
+        }
+        &:focus-within{
+            background-color: $ControlFillColorInputActiveBrush;
+            border-color: $ControlStrokeColorDefault;
+            border-bottom-color: $AccentBase;
+        }
+    }
+    .scrollableContainer-2NUZem{
+        background-color: transparent;
+        border-radius: 4px;
+        overflow-y: auto;
+    }
+
+    .sansAttachButton-td2irx{
+        padding-left: 0;
+    }
+
+    // Placeholder
+    .placeholder-37qJjk{
+        right: 8px;
+        left: 8px;
+        color: $TextFillColorSecondary;
+    }
+
+    // User's input text
+    .slateTextArea-1Mkdgw{
+        right: 8px;
+        left: 8px;
+        color: $TextFillColorPrimary;
+    }
+
+
+    // Upload button
+    .attachButton-2WznTc{
+        width: 44px;
+        height: 44px;
+        margin: 0;
+        border-radius: 2px;
+        &::before{
+            content: "\E898"; // Upload
+            color: $TextFillColorSecondary;
+            @include FontIcon;
+            font-size: 16px;
+        }
+        &:hover{
+            &::before{
+                color: $TextFillColorPrimary;
+            }
+        }
+        .contents-18-Yxp{
+            display: none;
+        }
+    }
+
+
+    // Gift/GIF/Sticker/Emoji buttons
+    .buttons-3JBrkn{
+        height: unset;
+        margin-right: 0;
+        // Remove gift
+        & > .button-38aScr{
+            display: none;
+        }
+        // Remove GIF
+        .buttonContainer-28fw2U:nth-child(2){
+            display: none;
+        }
+        // Remove Sticker
+        .buttonContainer-28fw2U:nth-child(3){
+            display: none;
+        }
+        // Set a static emoji icon
+        .emojiButton-3uL3Aw{
+            width: 44px;
+            height: 44px;
+            margin: 0;
+            border-radius: 2px;
+            &::before{
+                content: "\E76E"; //Emoji2
+                color: $TextFillColorSecondary;
+                @include FontIcon;
+                font-size: 16px;
+            }
+            &:hover{
+                &::before{
+                    color: $TextFillColorPrimary;
+                }
+            }
+            .contents-18-Yxp{
+                display: none;
+            }
+        }
+
+    }
+
+    // Is Typing
+    .typing-2GQL18{
+        height: 32px;
+        top: -32px;
+        right: 16px;
+        bottom: unset;
+        background-color: transparent;
+        font-size: 11px;
+        line-height: 20px;
+        align-items: flex-end;
+        justify-content: flex-end;
+        pointer-events: none;
+        svg{
+            display: none;
+        }
+        span[class^="text-"]{
+            // Force text to right side when slowmode is enabled
+            right: 0;
+            position: absolute;
+            strong{
+                font-weight: normal;
+            }
+        }
+        // Slowmode font-weight
+        .cooldownWrapper-3joyFc{
+            font-weight: normal;
+        }
+        // Fix position of countdown timer
+        .text-1y-e8-:not(:empty) + .cooldownWrapper-3joyFc{
+            margin-bottom: 14px;
+        }
+    }
+
+    // Various chatbox states
+    // Announce channel follow
+    .wrapper-39oAo3{
+        margin-bottom: 16px;
+        background-color: $ControlFillColorDisabled;
+        border: 1px solid $ControlStrokeColorDefault;
+        // Remove image
+        .content-c_0cLD{
+            img{
+                display: none;
+            }
+            .base-1x0h_U{
+                color: $TextFillColorDisabled !important;
+                @include TypeBody;
+            }
+        }
+    }
+}
+
