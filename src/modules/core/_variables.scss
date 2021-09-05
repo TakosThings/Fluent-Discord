@@ -75,7 +75,7 @@ $TextFillColorDisabled:                         rgba(#FFF, 36.28%); // Disabled
 $AccentTextFillColorPrimary:                    $AccentLight3; // Rest/hover
 $AccentTextFillColorSecondary:                  $AccentLight3; // Rest/hover
 $AccentTextFillColorTertiary:                   $AccentLight2; // Pressed
-$AccentTextFillColorDisabled:                   rgba(#FFF, 36.28%); // Disabled
+$AccentTextFillColorDisabled:                   $TextFillColorDisabled; // Disabled
 // Text On Accent
 // Text on accent colored controls for fills
 $TextOnAccentFillColorPrimary:                  #000; // Rest/hover
@@ -120,7 +120,7 @@ $ControlOnImageFillColorDisabled:               transparent; // Disabled
 $AccentFillColorDefault:                        $AccentBase; // Rest
 $AccentFillColorSecondary:                      $AccentLight1; // Hover
 $AccentFillColorTertiary:                       $AccentLight2; // Pressed
-$AccentFillColorDisabled:                       #F00; // Disabled
+$AccentFillColorDisabled:                       rgba(#FFFFFF, 15.81%); // Disabled
 $AccentFillColorSelectedTextBackground:         #F00; // Highlighted/selected text background
 
 // Stroke
@@ -143,8 +143,8 @@ $ControlStrongStrokeColorDefault:               rgba(#FFF, 54.42%);
 $ControlStrongStrokeColorDisabled:              rgba(#FFF, 15.81%);
 // Surface Stroke
 // Strokes on background surfaces (i.e flyouts, windows, dialogs)
-$SurfaceStrokeColorDefault:                     rgba(#FFF, 8.37%); // Windows & dialog borders, theme inverse
-$SurfaceStrokeColorFlyout:                      rgba(#FFF, 100%); // Control flyouts, always dark
+$SurfaceStrokeColorDefault:                     rgba(#757575, 40%); // Windows & dialog borders, theme inverse
+$SurfaceStrokeColorFlyout:                      rgba(#000000, 20%); // Control flyouts, always dark
 // Divider Stroke
 // Divider and graphic lines. Theme inverse.
 $DividerStrokeColorDefault:                     rgba(#FFF, 8.37%); // Content dividers
@@ -178,10 +178,10 @@ $LayerFillColorAlt:                             rgba(#FFF, 5.38%); // Alternate 
 $LayerOnAcrylicFillColorDefult:                 rgba(#FFF, 3.59%); // Content layer color on acrylic surfaces
 // Solid Background
 // Solid background colors to place layers, cards or controls on
-$SolidBackgroundFillColorBase:                  rgba(#FFF, 3.59%); // Bottom layer of an experience
-$SolidBackgroundFillColorSecondary:             rgba(#FFF, 3.59%); // Alternate base color for those who need a darker background color
-$SolidBackgroundFillColorTertiary:              rgba(#FFF, 3.59%); // Content layer color
-$SolidbackgroundFillColorQuarternary:           rgba(#FFF, 3.59%); // Alt content layer color
+$SolidBackgroundFillColorBase:                  #202020; // Bottom layer of an experience
+$SolidBackgroundFillColorSecondary:             #1C1C1C; // Alternate base color for those who need a darker background color
+$SolidBackgroundFillColorTertiary:              #282828; // Content layer color
+$SolidbackgroundFillColorQuarternary:           #2C2C2C; // Alt content layer color
 // Mica Background
 // Mica background colors to place layers, cards, or controls on
 $MicaBackgroundFillColorBase:                   linear-gradient(0deg, rgba(32, 32, 32, 0.8), rgba(32, 32, 32, 0.8));
@@ -203,10 +203,10 @@ $SystemFillColorNeutral:                        rgba(#FFFFFF, 54.42%); // Badge
 $SystemFillColorSolidNeutral:                   #8A8A8A; // Neutral badges over content
 
 $SystemFillColorAttentionBackground:            rgba(#FFF, 3.26%); // Infobar background
-$SystemFillColorSuccesBackgrounds:              rgba(#393D1B, 100%); // Infobar background
-$SystemFillColorCautionBackground:              rgba(#433519, 100%); // Infobar background
-$SystemFillColorCriticalBackground:             rgba(#442726, 100%); // Infobar background
+$SystemFillColorSuccesBackgrounds:              #393D1B; // Infobar background
+$SystemFillColorCautionBackground:              #433519; // Infobar background
+$SystemFillColorCriticalBackground:             #442726; // Infobar background
 $SystemFillColorNeutralBackground:              rgba(#FFF, 3.26%); // Infobar background
-$SystemFillColorSolidNeutralBackground:         rgba(#2E2E2E, 100%); // Neutral badges over content
+$SystemFillColorSolidNeutralBackground:         #2E2E2E; // Neutral badges over content
 
-$SystemFillCOlorSolidAttentionBackground:       rgba(#2E2E2E, 100%);
+$SystemFillColorSolidAttentionBackground:       #1C1C1C;
