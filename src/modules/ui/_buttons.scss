@@ -1,0 +1,81 @@
+.theme-dark .button-38aScr{
+    border-radius: 4px;
+    @include TypeBody;
+
+    // Sizes
+    &.sizeSmall-2cSMqn,
+    &.sizeMedium-1AC_Sl, // eg. Create new server
+    &.sizeLarge-1vSeWK, // eg. Add a keybind
+    &.sizeXlarge-2yFAlZ{ // eg. Untrusted link modal
+        min-width: 120px;
+        min-height: 32px;
+        height: 32px;
+    }
+
+    // Filled buttons
+    &.lookFilled-1Gx00P{
+        // Brand buttons
+        &.colorBrand-3pXr91,
+        &.colorBrandNew-g5lmBU{ // eg. User Settings > Accessibility > TTS Rate
+            background-color: $AccentFillColorDefault;
+            border: 1px solid $ControlStrokeColorOnAccentDefault;
+            color: $TextOnAccentFillColorPrimary;
+            &:hover{
+                background-color: $AccentFillColorSecondary;
+            }
+            &:active{
+                background-color: $AccentFillColorTertiary;
+            }
+        }
+        // Grey
+        &.colorGrey-2DXtkV{
+            background-color: $ControlFillColorDefault;
+            border: 1px solid $ControlStrokeColorDefault;
+            color: $TextFillColorPrimary;
+            &:hover{
+                background-color: $ControlFillColorSecondary;
+            }
+            &:active{
+                background-color: $ControlFillColorTertiary;
+            }
+        }
+
+        // Red
+        &.colorRed-1TFJan{
+            background-color: $SystemFillColorCriticalBackground;
+            color: $SystemFillColorCritical;
+            &:hover{
+                background-color: lighten($SystemFillColorCriticalBackground, 20%);
+                color: $TextFillColorPrimary;
+            }
+            &:active{
+                background-color: lighten($SystemFillColorCriticalBackground, 40%);
+                color: $TextOnAccentFillColorPrimary;
+            }
+        }
+
+        // Disabled
+        // eg. Add game popout
+        &:disabled{
+            background-color: $ControlFillColorDisabled;
+            color: $TextFillColorDisabled;
+            pointer-events: none;
+        }
+    }
+
+    // Outlined
+    &.lookOutlined-3sRXeN{
+        &.colorRed-1TFJan,
+        &.colorBrand-3pXr91{ // eg. Request Data
+            border-color: $ControlStrokeColorDefault;
+            color: $TextFillColorPrimary;
+            &:hover{
+                background-color: $ControlFillColorSecondary;
+            }
+            &:active{
+                background-color: $ControlFillColorTertiary;
+            }
+        }
+    }
+
+}
