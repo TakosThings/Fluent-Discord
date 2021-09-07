@@ -67,4 +67,12 @@
             color: $SystemFillColorCritical;
         }
     }
+    .iconBadge-qZ4Ksk{
+        width: 32px;
+        height: 2px;
+        right: 16px;
+        border-radius: 2px;
+        background-color: $SystemFillColorCritical;
+        z-index: -1;
+    }
 }
