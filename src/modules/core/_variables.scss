@@ -56,12 +56,12 @@ $Camouflage:                                    #7e735f;
 
 // Accent
 $AccentBase:                                    $DefaultBlue;
-$AccentLight1:                                  lighten($AccentBase, 10%);
+$AccentLight1:                                  lighten($AccentBase, 15%);
 $AccentLight2:                                  lighten($AccentBase, 20%);
-$AccentLight3:                                  lighten($AccentBase, 30%);
-$AccentDark1:                                   darken($AccentBase, 10%);
+$AccentLight3:                                  lighten($AccentBase, 25%);
+$AccentDark1:                                   darken($AccentBase, 15%);
 $AccentDark2:                                   darken($AccentBase, 20%);
-$AccentDark3:                                   darken($AccentBase, 30%);
+$AccentDark3:                                   darken($AccentBase, 25%);
 
 // Text
 // Text
@@ -117,9 +117,9 @@ $ControlOnImageFillColorTertiary:               rgba(#131313, 100%); // Pressed
 $ControlOnImageFillColorDisabled:               transparent; // Disabled
 // Accent Fill
 // Accent fills on controls - Primary button, Selected toggle controls, Pill selected indicator
-$AccentFillColorDefault:                        $AccentBase; // Rest
-$AccentFillColorSecondary:                      $AccentLight1; // Hover
-$AccentFillColorTertiary:                       $AccentLight2; // Pressed
+$AccentFillColorDefault:                        $AccentLight1; // Rest
+$AccentFillColorSecondary:                      $AccentLight2; // Hover
+$AccentFillColorTertiary:                       $AccentLight3; // Pressed
 $AccentFillColorDisabled:                       rgba(#FFFFFF, 15.81%); // Disabled
 $AccentFillColorSelectedTextBackground:         #F00; // Highlighted/selected text background
 
