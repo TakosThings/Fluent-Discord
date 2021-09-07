@@ -1,0 +1,86 @@
+.theme-dark .chat-3bRxxu .container-1r6BKw .search-36MZv-{
+    margin: 0;
+    .searchBar-3dMhjb{
+        width: 64px;
+        height: 36px;
+        background-color: transparent;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        &:hover{
+            background-color: $ControlFillColorSecondary;
+        }
+        .public-DraftEditorPlaceholder-root,
+        .icon-38sknP{
+            display: none;
+        }
+    }
+
+    // Icon when not active
+    .search-2oPWTC:not(.focused-31_ccS)::before{
+        width: 64px;
+        font-size: 16px;
+        @include FontIcon;
+        text-align: center;
+        line-height: 36px;
+        vertical-align: middle;
+        position: absolute;
+    }
+
+    .search-2oPWTC.focused-31_ccS .searchBar-3dMhjb,
+    .search-2oPWTC.open-6_Y_aH .searchBar-3dMhjb,
+    .search-2oPWTC.popout-open .searchBar-3dMhjb{
+        width: 232px;
+        height: 32px;
+        margin: 0 4px;
+        background-color: $ControlFillColorDefault;
+        background-image: none;
+        cursor: text;
+        border: 1px solid $ControlElevationBorder;
+        border-bottom-width: 2px;
+        border-radius: 2px;
+    }
+    .search-2oPWTC.focused-31_ccS .searchBar-3dMhjb{
+        background-color: $ControlFillColorInputActiveBrush;
+        border-color: $ControlElevationBorder;
+        border-bottom-color: $AccentBase;
+    }
+
+    .search-2oPWTC.open-6_Y_aH .icon-38sknP,
+    .search-2oPWTC.focused-31_ccS .icon-38sknP,
+    .search-2oPWTC.open-6_Y_aH .searchBar-3dMhjb .public-DraftEditorPlaceholder-root,
+    .search-2oPWTC.focused-31_ccS .searchBar-3dMhjb .public-DraftEditorPlaceholder-root{
+        display: block;
+    }
+    .search-2oPWTC .DraftEditor-root .DraftEditor-editorContainer{
+        height: 26px;
+    }
+    .search-2oPWTC .searchBar-3dMhjb .DraftEditor-root{
+        color: $TextFillColorPrimary;
+        @include TypeBody;
+        .public-DraftEditor-content{
+            overflow-x: hidden;
+        }
+        .public-DraftEditor-content,
+        .public-DraftEditorPlaceholder-root{
+            padding: 3px 8px 0;
+            box-sizing: border-box;
+        }
+    }
+    .seasearch-2oPWTCrch .searchBar-3dMhjb .public-DraftEditorPlaceholder-root{
+        color: $TextFillColorSecondary;
+        @include TypeBody;
+    }
+    .search-2oPWTC .searchBar-3dMhjb .icon-3cZ1F_{
+        top: 7px;
+    }
+
+    span[class^="searchAnswer-"],
+    span[class^="searchFilter-"]{
+        background-color: $TextFillColorPrimary;
+        color: #000;
+        font-weight: normal;
+    }
+}
