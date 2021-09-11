@@ -54,7 +54,7 @@
         &::before{
             content: "\E898"; // Upload
             color: $TextFillColorSecondary;
-            @include FontIcon;
+            @include FontIconFluent;
             font-size: 16px;
         }
         &:hover{
@@ -93,7 +93,7 @@
             &::before{
                 content: "\E76E"; //Emoji2
                 color: $TextFillColorSecondary;
-                @include FontIcon;
+                @include FontIconFluent;
                 font-size: 16px;
             }
             &:hover{

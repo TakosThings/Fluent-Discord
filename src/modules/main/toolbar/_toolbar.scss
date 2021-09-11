@@ -45,7 +45,7 @@
         width: 64px;
         height: 36px;
         &::before{
-            @include FontIcon;
+            @include FontIconFluent;
             width: 62px;
             position: absolute;
             font-size: 16px;

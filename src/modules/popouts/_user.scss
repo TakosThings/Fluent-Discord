@@ -39,7 +39,7 @@
     font-size: 0;
     &::before{
         content: "\e8d4"; // Contact2
-        @include FontIcon;
+        @include FontIconFluent;
         font-size: 32px;
         font-weight: normal;
     }
@@ -65,7 +65,7 @@
     &::before{
         content: "\e99a";
         @include TypeSubtitle;
-        @include FontIcon;
+        @include FontIconFluent;
         font-weight: normal;
     }
 }

@@ -63,7 +63,7 @@
         &::after{
             content: "\E70E"; // ChevronDown
             padding-left: 8px;
-            @include FontIcon;
+            @include FontIconFluent;
             font-size: 12px;
         }
         &.collapsed-2-tg8y{
@@ -129,7 +129,7 @@
         .iconContainer-1BBaeJ{
             &::before{
                 color: $TextFillColorSecondary;
-                @include FontIcon;
+                @include FontIconFluent;
                 font-size: 14px;
                 // Icon replacements in /modules/icons/main/channels
             }

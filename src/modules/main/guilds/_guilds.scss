@@ -64,7 +64,7 @@
                     &::before{
                         content: "\E80F";
                         color: $TextFillColorPrimary;
-                        @include FontIcon;
+                        @include FontIconFluent;
                         font-size: 16px;
                     }
                     svg{

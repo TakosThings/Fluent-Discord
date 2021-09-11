@@ -1,10 +1,12 @@
 // Override Discord brand fronts
 // DEV: 2021-07-02 - Comic Sans for testing with the new Segoe font
 :root{
-    --font-primary: "Segoe UI", "Comic Sans MS", Helvetica, Arial, sans-serif;
-    --font-display: "Segoe UI", "Comic Sans MS", Helvetica, Arial, sans-serif;
+    --font-primary: "Segoe UI Variable Static Text", "Comic Sans MS", Helvetica, Arial, sans-serif;
+    --font-display: "Segoe UI Variable Static Display", "Comic Sans MS", Helvetica, Arial, sans-serif;
 }
 
-*{
+*,
+::before,
+::after{
     letter-spacing: normal;
 }
