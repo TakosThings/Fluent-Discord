@@ -1,0 +1,80 @@
+.theme-dark .audioControls-2HsaU6,
+.theme-dark .videoControls-2kcYic{
+    height: 48px;
+    padding: 0 8px;
+    background-color: $SolidbackgroundFillColorQuarternary;
+    border: 1px solid $SurfaceStrokeColorFlyout;
+    border-radius: 8px;
+    box-sizing: border-box;
+    .mediaBarWrapper-3D7r67{
+        height: 4px;
+        background-color: $ControlStrongFillColorDefault;
+        border-radius: 2px;
+    }
+    .durationTimeDisplay-jww5fr,
+    .durationTimeSeparator-2_xpJ7{
+        @include FontNormal;
+        font-weight: normal;
+        font-size: 14px;
+    }
+    .mediaBarProgress-1xaPtl{
+        background-color: $AccentLight1;
+        border-radius: 2px;
+    }
+    .mediaBarGrabber-1FqnbN{
+        background-color: $AccentLight1;
+        border: 4px solid #454545;
+        border-radius: 50%;
+        top: -2px;
+    }
+    .fakeEdges-27pgtp{
+        &::before,
+        &::after{
+            display: none;
+        }
+    }
+
+    .mediaBarInteractionVolume-3QZqYd{
+        height: 32px;
+        padding: 0 16px;
+        background-color: $SolidbackgroundFillColorQuarternary;
+        border: 1px solid $SurfaceStrokeColorFlyout;
+        border-radius: 8px;
+    }
+}
+
+.theme-dark .videoControls-2kcYic{
+    width: calc(100% - 16px);
+    bottom: 8px;
+    left: 8px;
+    &[style*="translateY(100%)"]{
+        transform: translateY(calc(100% + 8px)) !important;
+    }
+}
+
+.theme-dark .messageAttachment-1aDidq{
+    .wrapperAudio-1jDe0Q{
+        background-color: $CardBackgroundFillColorDefault;
+        border: 1px solid $CardStrokeColorDefault;
+        border-radius: 8px;
+    }
+
+    .metadataContent-3c_ZXw{
+        .metadataName-14STf-{
+            @include TypeBody;
+        }
+        .metadataSize-2UOOLK{
+            color: $TextFillColorTertiary;
+            font-weight: normal;
+            opacity: 1;
+        }
+    }
+    // Remove icon
+    .audioMetadata-3zOuGv::before{
+        display: none;
+    }
+    // Remove Download button (title serves as download link)
+    .metadataDownload-1fk90V{
+        display: none;
+    }
+}
