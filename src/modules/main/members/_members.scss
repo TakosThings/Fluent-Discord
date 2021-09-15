@@ -51,9 +51,13 @@
 // Activity
 .activity-2Gy-9S{
     color: $TextFillColorSecondary;
-    @include TypeCaption;
     strong{
+        @include TypeCaption;
         font-weight: 400;
+    }
+
+    .activityText-yGKsKm{
+        font-size: 0;
     }
 }
 
