@@ -1,0 +1,59 @@
+.theme-dark .attachment-33OFj0{
+    width: 400px;
+    background-color: $CardBackgroundFillColorDefault;
+    border: 1px solid $SurfaceStrokeColorFlyout;
+    border-color: $SurfaceStrokeColorFlyout; // Override Discord CSS
+    border-radius: 8px;
+
+    img{
+        display: none;
+        & ~ div{
+            &::before{
+                position: absolute;
+                left: 12px;
+                top: 10px;
+                color: $TextFillColorPrimary;
+                @include FontIconFluent;
+                font-size: 32px;
+            }
+        }
+
+    }
+
+    img[title="acrobat"] ~ div::before{
+        content: "\ea90"; // PDF
+    }
+    img[title="archive"] ~ div::before{
+        content: "\f012"; // ZipFolder
+    }
+    img[title="document"] ~ div::before{
+        content: "\f000"; // KnowledgeArticle
+    }
+    img[title="spreadsheet"] ~ div::before{
+        content: "\E9F9"; // ReportDocument
+    }
+    img[title="unknown"] ~ div::before{
+        content: "\e9ce"; // Unknown
+    }
+
+    img[title="ae"] ~ div::before,
+    img[title="ai"] ~ div::before,
+    img[title="sketch"] ~ div::before{
+        content: "\e8a5"; // Document
+    }
+
+    .attachmentInner-3vEpKt{
+        padding-left: 42px;
+    }
+
+    .metadata-3WGS0M{
+        color: $TextFillColorSecondary;
+        @include TypeCaption;
+        font-weight: normal;
+    }
+
+    // Remove download button
+    .downloadWrapper-vhAtLx{
+        display: none;
+    }
+}
