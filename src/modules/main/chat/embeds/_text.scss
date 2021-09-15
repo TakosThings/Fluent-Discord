@@ -1,0 +1,19 @@
+.theme-dark .textContainer-C0szpm{
+    background-color: $CardBackgroundFillColorDefault;
+    border: 1px solid $SurfaceStrokeColorFlyout;
+    border-radius: 8px 8px 0 0;
+    .codeView-1JPDeA{
+        white-space: break-spaces;
+    }
+}
+
+// Footer
+.theme-dark .footer-2yA7Ep{
+    background-color: $CardBackgroundFillColorDefault;
+    border: 1px solid $SurfaceStrokeColorFlyout;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+
+    @include TypeCaption;
+    color: $TextFillColorPrimary;
+}
