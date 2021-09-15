@@ -1,0 +1,41 @@
+.theme-dark .invite-18yqGF{
+    background-color: $CardBackgroundFillColorDefault;
+    border: 1px solid $SurfaceStrokeColorFlyout;
+    border-radius: 8px;
+
+    // Header
+    .header-Hg_qNF{
+        color: $TextFillColorPrimary;
+        @include FontNormal;
+        @include TypeBodyStrong;
+        text-transform: none;
+    }
+
+    .partyStatus-6AjDud{
+        @include TypeBody;
+    }
+    .details-3NqflA,
+    .state-2dqgON{
+        font-size: inherit;
+    }
+
+    // Artwork
+    .artwork-1vrmJ_{
+        border-radius: 4px;
+    }
+
+    // Ended
+    .artworkSpotifySessionEnded-11d_If{
+        background-image: none;
+        &::before{
+            content: "\EA39"; // ErrorBadge
+            position: absolute;
+            width: 100px;
+            @include FontIconFluent;
+            color: $TextFillColorDisabled;
+            font-size: 64px;
+            line-height: 100px;
+            text-align: center;
+        }
+    }
+}
