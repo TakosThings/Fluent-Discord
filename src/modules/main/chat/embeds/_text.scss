@@ -17,3 +17,10 @@
     @include TypeCaption;
     color: $TextFillColorPrimary;
 }
+
+// Codeblock
+.markup-2BOw-j code{
+    background-color: $CardBackgroundFillColorDefault;
+    border: 1px solid $SurfaceStrokeColorFlyout;
+    border-radius: 8px;
+}
