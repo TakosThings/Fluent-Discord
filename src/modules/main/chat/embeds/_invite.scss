@@ -1,0 +1,51 @@
+.theme-dark .wrapper-35wsBm{
+    background-color: $CardBackgroundFillColorDefault;
+    border: 1px solid $SurfaceStrokeColorFlyout;
+    border-radius: 8px;
+
+    // Header
+    .header-2BTCnc{
+        color: $TextFillColorPrimary;
+        @include FontNormal;
+        @include TypeBodyStrong;
+        text-transform: none;
+    }
+
+    // Icon
+    .guildIcon-lQ0uiM{
+        border-radius: 50%;
+    }
+    // Expired icon
+    .guildIconExpired-2Qcq05{
+        background-color: transparent;
+        background-image: none;
+        &::before{
+            content: "\EA39"; // ErrorBadge
+            position: absolute;
+            width: 48px;
+            @include FontIconFluent;
+            color: $TextFillColorDisabled;
+            font-size: 48px;
+            line-height: 48px;
+            text-align: center;
+        }
+    }
+
+    // Online users
+    i.status-2L8Zc7{
+        display: none;
+    }
+    .count-30T-5k{
+        @include TypeBody;
+        border: 1px solid $CardStrokeColorDefault;
+        padding: 0 8px;
+        border-radius: 15px;
+        color: $TextOnAccentFillColorPrimary;
+    }
+    i.statusOnline-8PnF5L ~ span{
+        background-color: $SystemFillColorSuccess;
+    }
+    i.statusOffline-37RKt7 ~ span{
+        background-color: $SystemFillColorSolidNeutral;
+    }
+}
