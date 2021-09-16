@@ -1,4 +1,4 @@
-.title-3qD0b-{
+.theme-dark .title-3qD0b-{
     padding: 0 0 0 32px;
     &.themed-ANHk51{
         background-color: transparent;
@@ -29,10 +29,15 @@
         color: $TextFillColorPrimary;
         @include TypeBody;
     }
+
+    // Add some margin to the caret when in fullscreen thread view
+    .caret-3W7cBB{
+        margin-right: 8px;
+    }
 }
 
 // Toolbar
-.toolbar-1t6TWx{
+.theme-dark .toolbar-1t6TWx{
     .iconWrapper-2OrFZ1{
         margin: 0 4px 0 0;
         border-radius: 4px;
