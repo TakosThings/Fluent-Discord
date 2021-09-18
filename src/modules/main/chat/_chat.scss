@@ -6,7 +6,7 @@
     background-color: $LayerFillColorDefault;
     border-top: 1px solid $CardStrokeColorDefault;
     border-left: 1px solid $CardStrokeColorDefault;
-    border-radius: 7px 0 0 0;
+    border-radius: 8px 0 0 0;
     // Remove drop-shadow
     &::before{
         content: unset;
