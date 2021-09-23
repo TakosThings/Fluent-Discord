@@ -125,19 +125,6 @@
             }
         }
 
-        // Remove default icon
-        .iconContainer-1BBaeJ{
-            &::before{
-                color: $TextFillColorSecondary;
-                @include FontIconFluent;
-                font-size: 14px;
-                // Icon replacements in /modules/icons/main/channels
-            }
-            .icon-1DeIlz{
-                display: none;
-            }
-        }
-
         // Channel types
         // Selected channel
         &.modeSelected-346R90{
