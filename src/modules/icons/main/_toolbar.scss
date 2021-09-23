@@ -72,7 +72,8 @@
     .button-38aScr{
         // Call tiles
         // Focus
-        &[aria-label="#{map-get($translate, VIDEO_CALL_AUTO_SELECT)}"]::before{
+        &[aria-label="#{map-get($translate, VIDEO_CALL_AUTO_SELECT)}"]::before,
+        &[aria-label="#{map-get($translate, VIDEO_CALL_RETURN_TO_GRID)}"]::before{
             content: "\ECA5"; // Tiles
         }
         // More
