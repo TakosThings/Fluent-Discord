@@ -1,0 +1,38 @@
+.theme-dark .sidebar-2K8pFh{
+    .privateChannels-1nO12o{
+        background-color: transparent;
+    }
+
+    .searchBar-6Kv8R2{
+        box-shadow: none;
+        button{
+            background-color: transparent;
+            @include TypeBody;
+            color: $TextFillColorSecondary;
+            text-align: center;
+            &::after{
+                content: "...";
+            }
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .scroller-1JbKMe{
+        background-color: transparent;
+    }
+
+    // Remove DMs header
+    .privateChannelsHeaderContainer-3NB1K1{
+        display: none;
+    }
+
+    // Remove store and discovery tabs
+    .channel-2QD9_O{
+        &[href="/store"],
+        &[href="/discovery"]{
+            display: none;
+        }
+    }
+}
