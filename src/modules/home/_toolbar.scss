@@ -1,0 +1,69 @@
+.theme-dark .container-1D34oG{
+    background-color: transparent;
+    // Toolbar
+    .container-1r6BKw{
+        background-color: transparent;
+
+        // Remove icon
+        .children-19S4PO > .iconWrapper-2OrFZ1{
+            display: none;
+        }
+
+        .title-29uC1r{
+            margin-left: 20px;
+        }
+
+        // Tab bar
+        .item-PXvHYJ{
+            height: 36px;
+            margin: 0 0 0 8px;
+            border-radius: 0;
+            color: $TextFillColorPrimary;
+            @include TypeBody;
+            &:hover{
+                background-color: transparent;
+                color: $TextFillColorSecondary;
+            }
+            &.selected-3s45Ha{
+                background-color: transparent;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 3px;
+                    background-color: $AccentLight1;
+                    border-radius: 2px;
+                    bottom: 2px;
+                }
+            }
+            // Add friend button
+            &[style]{
+                background-color: transparent !important; // why though
+                &:hover{
+                    color: $TextFillColorSecondary !important;
+                }
+                &[aria-selected=true]{
+                    color: $TextFillColorPrimary !important;
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        height: 3px;
+                        background-color: $AccentLight1;
+                        border-radius: 2px;
+                        bottom: 2px;
+                    }
+                }
+            }
+        }
+
+        // Remove gradient on right-side of tab bar
+        .children-19S4PO::after{
+            display: none;
+        }
+        // Remove divider between Group DM and Inbox
+        .divider-3FBTu8{
+            display: none;
+        }
+    }
+}
