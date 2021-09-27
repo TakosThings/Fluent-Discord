@@ -85,6 +85,7 @@
         padding: 2px 8px;
         color: $TextFillColorPrimary;
         @include TypeCaption;
+        font-weight: normal;
     }
     .unreadPill-2HyYtt{
         height: unset;
