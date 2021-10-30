@@ -8,9 +8,8 @@
     // margin-top: 40px;
     // margin-bottom: 96px;
     background-color: transparent;
-    z-index: 10;
 
-    .listItem-GuPuDH{
+    .listItem-1hlISG{
         margin: 0;
         width: 48px;
         &:hover{
@@ -79,11 +78,11 @@
         }
 
         // Separator
-        .guildSeparator-33mFX6{
+        .guildSeparator-EOYZLM{
             display: none;
         }
         // Add server/Server Discovery icons
-        .circleIconButton-1QV--U{
+        .circleIconButton-1XqULR{
             background-color: transparent;
             color: #FFF;
             &[aria-label]{
@@ -94,7 +93,7 @@
             }
         }
         // Offline
-        .guildsError-g6NwOI{
+        .guildsError-11GiUv{
             background-color: $SystemFillColorCritical;
             border: 0;
             border-radius: 0;
@@ -117,7 +116,7 @@
     }
     // Folders
     .wrapper-3Njo_c{
-        .listItem-GuPuDH{
+        .listItem-1hlISG{
             .wrapper-25eVIn{
                 svg{
                     mask{
@@ -132,7 +131,7 @@
         }
 
         // Round bottom of last guild in folder
-        ul[id^="folder-items"] .listItem-GuPuDH:last-of-type{
+        ul[id^="folder-items"] .listItem-1hlISG:last-of-type{
             border-radius: 0 0 24px 24px;
         }
     }
@@ -154,7 +153,7 @@
         &.collapsed-2ZrjoL{
             background-color: transparent;
         }
-        &:not(.collapsed-2ZrjoL) ~ .listItem-GuPuDH{
+        &:not(.collapsed-2ZrjoL) ~ .listItem-1hlISG{
             border-radius: 24px 24px 0 0;
         }
     }
