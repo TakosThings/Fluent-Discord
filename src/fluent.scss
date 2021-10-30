@@ -21,7 +21,9 @@
 
 // Main UI
 // Order: None, alphabetic
+@import 'modules/main/channels/account';
 @import 'modules/main/channels/channels';
+@import 'modules/main/channels/rtc';
 @import 'modules/main/chat/chat';
 @import 'modules/main/chat/chatbox';
 @import 'modules/main/chat/thread';
@@ -56,6 +58,7 @@
 // Order: Language, then alphabetic
 @import 'modules/translations/en-US';
 @import 'modules/translations/en-GB';
+@import 'modules/icons/main/account';
 @import 'modules/icons/home/main';
 @import 'modules/icons/main/toolbar';
 @import 'modules/icons/settings/settings';

@@ -1,0 +1,25 @@
+// Remove background from RTC/account
+.panels-j1Uci_{
+    background-color: transparent;
+
+    .button-14-BFJ{
+        margin-left: 4px;
+        background-color: $ControlFillColorDefault;
+        border: 1px solid $ControlStrokeColorDefault;
+        border-radius: 4px;
+        color: $TextFillColorPrimary;
+        &:hover{
+            background-color: $ControlFillColorSecondary;
+        }
+        &:active{
+            background-color: $ControlFillColorTertiary;
+        }
+        .contents-18-Yxp{
+            display: none;
+        }
+        &::before{
+            @include FontIconFluent;
+            font-size: 16px;
+        }
+    }
+}

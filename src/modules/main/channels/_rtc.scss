@@ -1,0 +1,33 @@
+.container-1giJp5{
+    border: 0;
+
+    // Video/screen share buttons
+    .actionButtons-14eAc_{
+        button{
+            min-width: calc(120px - 16px) !important;
+            margin: 0;
+            border-radius: 0;
+
+            background-color: $ControlFillColorDefault !important;
+            border: 1px solid $ControlStrokeColorDefault !important;
+            color: $TextFillColorPrimary !important;
+            &:hover{
+                background-color: $ControlFillColorSecondary !important;
+            }
+            &:active{
+                background-color: $ControlFillColorTertiary !important;
+            }
+            &:first-child{
+                border-radius: 4px 0 0 4px;
+            }
+            &:last-child{
+                border-radius: 0 4px 4px 0;
+            }
+
+            // Replace icon
+            svg{
+                display: none;
+            }
+        }
+    }
+}
