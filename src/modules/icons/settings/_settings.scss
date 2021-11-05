@@ -25,6 +25,9 @@
         .item-PXvHYJ[aria-controls="nitro-server-boost-tab"]::after{ // Server boost
             content: "\EC4A" // SpeedHigh
         }
+        .item-PXvHYJ[aria-controls="subscriptions-tab"]::after{ // Subscriptions
+            content: "\ED0E" // SubscriptionAdd
+        }
         .item-PXvHYJ[aria-controls="library-inventory-tab"]::after{ // Gift inventory
             content: "\F133"; // GiftboxOpen
         }
