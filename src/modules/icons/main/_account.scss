@@ -21,10 +21,10 @@
     &[aria-label="#{map-get($translate, MUTE)}"][aria-checked=false]::before{
         content: "\E720"; // Microphone
     }
-    &[aria-label="#{map-get($translate, USER_SETTINGS)}"]::before{
+    &[aria-label="#{map-get($translate, USER_SETTINGS)}" i]::before{
         content: "\E713"; // Settings
     }
-    &[aria-label="#{map-get($translate, USER_SETTINGS)}"]{
+    &[aria-label="#{map-get($translate, USER_SETTINGS)}" i]{
         &:hover{
             &::before{
                 animation: fluent-setting-rot 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
@@ -33,7 +33,7 @@
     }
 
     // RTC
-    &[aria-label="#{map-get($translate, NOISE_CANCELLATION_TOOLTIP)}"]::before{
+    &[aria-label="#{map-get($translate, NOISE_CANCELLATION_TOOLTIP)}" i]::before{
         content: "\F61F"; // NoiseCancellation
     }
     &[aria-label="#{map-get($translate, SERVICE_CONNECTIONS_DISCONNECT)}"]::before{

@@ -14,7 +14,7 @@
         }
 
         // Pinned Messages
-        &[aria-label="#{map-get($translate, PINNED_MESSAGES)}"]::before{
+        &[aria-label="#{map-get($translate, PINNED_MESSAGES)}" i]::before{
             content: "\E840"; // Pinned
         }
 
@@ -51,19 +51,19 @@
 
         // Home
         // New group DM
-        &[aria-label="#{map-get($translate, NEW_GROUP_DM)}"]::before{
+        &[aria-label="#{map-get($translate, NEW_GROUP_DM)}" i]::before{
             content: "\E902"; // Group
         }
 
         // DM
         // Start voice call
-        &[aria-label="#{map-get($translate, START_VOICE_CALL)}"]::before{
+        &[aria-label="#{map-get($translate, START_VOICE_CALL)}" i]::before{
             content: "\E717"; // Phone
         }
-        &[aria-label="#{map-get($translate, START_VIDEO_CALL)}"]::before{
+        &[aria-label="#{map-get($translate, START_VIDEO_CALL)}" i]::before{
             content: "\E8AA"; // VideoChat
         }
-        &[aria-label="#{map-get($translate, GROUP_DM_ADD_FRIENDS)}"]::before{
+        &[aria-label="#{map-get($translate, GROUP_DM_ADD_FRIENDS)}" i]::before{
             content: "\E902"; // Group
         }
 
