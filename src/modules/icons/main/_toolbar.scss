@@ -30,7 +30,7 @@
         }
 
         // Threads: Notification Settings
-        &[aria-label="#{map-get($translate, NOTIFICATION_SETTINGS)}"]::before{
+        &[aria-label="#{map-get($translate, NOTIFICATION_SETTINGS)}" i]::before{
             content: "\EA8F"; // Ringer
         }
 
