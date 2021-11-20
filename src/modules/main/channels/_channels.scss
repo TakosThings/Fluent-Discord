@@ -5,15 +5,24 @@
 // Channel header
 .header-2V-4Sw{
     box-shadow: none;
+    cursor: default;
     .name-1jkAdW{
-        @include TypeBodyStrong
+        @include TypeBodyStrong;
+        cursor: pointer;
+        &:hover{
+            text-decoration: underline;
+        }
     }
     svg{
         display: none;
     }
 }
+.clickable-25tGDB .header-2V-4Sw:hover,
+.selected-31Nl7x .header-2V-4Sw{
+    background-color: transparent;
+}
 // Remove server boost icon
-.guildIconContainer-2FW_iA{
+.guildIconContainer-2hr-Lk{
     display: none;
 }
 
