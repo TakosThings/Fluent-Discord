@@ -19,8 +19,8 @@
     &::before,
     &::after{
         content: "";
-        width: 128px;
-        height: 128px;
+        width: 1024px;
+        height: 1024px;
         position: absolute;
         background: radial-gradient(circle, $AccentBase 0%, transparent 70%);
     }
@@ -29,14 +29,14 @@
 
         opacity: 0;
         animation: fluent-loading-blobs 10s linear infinite;
-        animation-delay: 30s; // Delay starting animations
+        animation-delay: 20s; // Delay starting animations
     }
     &::after{
         transform: translate(192px, 64px);
 
         opacity: 0;
         animation: fluent-loading-blobs 17s linear infinite;
-        animation-delay: 45s; // Delay starting animations
+        animation-delay: 35s; // Delay starting animations
     }
 }
 
