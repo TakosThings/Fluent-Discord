@@ -58,9 +58,8 @@
             content: "\F2B7"; // LocaleLanguage
         }
         .item-PXvHYJ[aria-controls="windows-tab"]::after{ // Windows settings
-            content: "\E782"; // ViewAll
+            content: "\E782"; // WindowsLogo
             font-family: 'HoloLens MDL2 Assets';
-
         }
         .item-PXvHYJ[aria-controls="streamer-mode-tab"]::after{ // Streamer mode
             content: "\E93E"; // Streaming
@@ -69,13 +68,31 @@
             content: "\E7BE"; // Education
         }
 
-        // Gaming Settings
+        // Activity Settings
         .item-PXvHYJ[aria-controls="game-activity-tab"]::after{ // Game activity
             content: "\E7FC"; // Game
         }
         .item-PXvHYJ[aria-controls="overlay-tab"]::after{ // Overlay
             content: "\E9A6"; // FitPage
         }
+
+        // BetterDiscord
+        .item-PXvHYJ[aria-controls="settings-tab"]::after{ // BD:Settings
+            content: "\E713"; // Setting
+        }
+        .item-PXvHYJ[aria-controls="emotes-tab"]::after{ // BD:Emotes
+            content: "\ED56"; // EmojiTabFoodPlants
+        }
+        .item-PXvHYJ[aria-controls="customcss-tab"]::after{ // BD:Custom CSS
+            content: "\E943"; // Code
+        }
+        .item-PXvHYJ[aria-controls="plugins-tab"]::after{ // BD: Plugins
+            content: "\EA86"; // Puzzle
+        }
+        .item-PXvHYJ[aria-controls="themes-tab"]::after{ // BD:Themes
+            content: "\E771"; // Personalise
+        }
+
         .item-PXvHYJ[aria-controls="changelog-tab"]::after{ // Changelog
             content: "\E77C"; // Memo
         }
