@@ -35,6 +35,15 @@
     display: none;
 }
 
+// Remove boost goal meter
+// DEV: 2021-12-04 - Testing, removes boost goal meter
+.container-3qpZp9{
+    display: none;
+}
+.content-3YMskv > div[style="height: 16px;"]{
+    display: none;
+}
+
 // Hide channel notice
 .channelNotice-1-XFjC{
     display: none;
