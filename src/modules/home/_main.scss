@@ -49,4 +49,15 @@
             visibility: visible;
         }
     }
+
+    // Empty
+    .friendsEmpty-1K9B4k{
+        .image-1GzsFd{
+            filter: brightness(200%)
+        }
+        .text-GwUZgS{
+            @include TypeBody;
+            color: $TextFillColorPrimary;
+        }
+    }
 }
