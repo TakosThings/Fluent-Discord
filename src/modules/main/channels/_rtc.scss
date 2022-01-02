@@ -1,11 +1,12 @@
-.container-1giJp5{
-    border: 0;
-    padding-bottom: 0;
+.theme-dark .container-1giJp5{
+    border-top: 1px solid $DividerStrokeColorDefault;
+    border-bottom: 1px solid $DividerStrokeColorDefault;
 
     // Video/screen share buttons
     .actionButtons-14eAc_{
+        grid-gap: 4px;
         button{
-            min-width: calc(120px - 8px) !important;
+            min-width: calc(120px - 16px) !important;
             background-color: $ControlFillColorDefault !important;
             border: 1px solid $ControlStrokeColorDefault !important;
             border-radius: 4px;
@@ -22,5 +23,14 @@
                 display: none;
             }
         }
+    }
+}
+
+// Streaming game/app
+.theme-dark .activityPanel-28dQGo{
+    border-top: 1px solid $DividerStrokeColorDefault;
+    border-bottom: 0;
+    .title-eS5yk3{
+        @include TypeBody;
     }
 }
