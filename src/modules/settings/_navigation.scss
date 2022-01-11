@@ -62,3 +62,12 @@
     margin: calc(12px - 4px) 0 12px 0;
     background-color: $DividerStrokeColorDefault;
 }
+
+.info-1sUqUG{
+    &::before{
+        content: "Fluent Discord #{$version}";
+        color: #72767d;
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
