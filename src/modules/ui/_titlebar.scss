@@ -1,9 +1,9 @@
-.titleBar-AC4pGV{
+.titleBar-1it3bQ{
     background-color: transparent;
-    &.withFrame-haYltI{
+    &.withFrame-2dL45i{
         height: calc(32px - 4px);
     }
-    .wordmarkWindows-1v0lYD{
+    .wordmarkWindows-2dq6rw{
         color: $TextFillColorDisabled;
         &::after{
             content: "Discord";
@@ -19,7 +19,7 @@
     }
 
     // Controls
-    .winButton-iRh8-Z{
+    .winButton-3UMjdg{
         width: 46px;
         height: 32px;
         color: $TextFillColorDisabled;
@@ -29,7 +29,7 @@
             color: $TextFillColorPrimary; // Always change button icon color to primary when hovering
         }
 
-        &.winButtonClose-1HsbF-:hover{
+        &.winButtonClose-3Q8ZH5:hover{
             background-color: #C42B1C;
         }
     }
@@ -37,8 +37,8 @@
 
 // Change titlebar name and controls colour when app is focused
 html.app-focused{
-    .wordmarkWindows-1v0lYD,
-    .winButton-iRh8-Z{
+    .wordmarkWindows-2dq6rw,
+    .winButton-3UMjdg{
         color: $TextFillColorPrimary;
     }
 }

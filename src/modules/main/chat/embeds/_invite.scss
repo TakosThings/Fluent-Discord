@@ -1,11 +1,11 @@
-.theme-dark .wrapper-35wsBm{
+.theme-dark .wrapper-1HIH0j{
     width: 400px;
     background-color: $CardBackgroundFillColorDefault;
     border: 1px solid $SurfaceStrokeColorFlyout;
     border-radius: 8px;
 
     // Header
-    .header-2BTCnc{
+    .header-3anOjb{
         color: $TextFillColorPrimary;
         @include FontNormal;
         @include TypeBodyStrong;
@@ -13,11 +13,11 @@
     }
 
     // Icon
-    .guildIcon-lQ0uiM{
+    .guildIcon-3ZfRfI{
         border-radius: 50%;
     }
     // Expired icon
-    .guildIconExpired-2Qcq05{
+    .guildIconExpired-2BFmZC{
         background-color: transparent;
         background-image: none;
         &::before{
@@ -33,20 +33,20 @@
     }
 
     // Online users
-    i.status-2L8Zc7{
+    i.status-JIDx3x{
         display: none;
     }
-    .count-30T-5k{
+    .count-62gVQ0{
         @include TypeBody;
         border: 1px solid $CardStrokeColorDefault;
         padding: 0 8px;
         border-radius: 15px;
         color: $TextOnAccentFillColorPrimary;
     }
-    i.statusOnline-8PnF5L ~ span{
+    i.statusOnline-Iw3r2o ~ span{
         background-color: $SystemFillColorSuccess;
     }
-    i.statusOffline-37RKt7 ~ span{
+    i.statusOffline-2R-ArP ~ span{
         background-color: $SystemFillColorSolidNeutral;
     }
 }

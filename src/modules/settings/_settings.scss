@@ -1,26 +1,26 @@
-.contentRegion-3nDuYy{
+.contentRegion-3HkfJJ{
     background-color: $LayerFillColorDefault;
     border-top: 1px solid $CardStrokeColorDefault;
     border-left: 1px solid $CardStrokeColorDefault;
     border-radius: 7px 0 0 0;
 }
-.contentColumnDefault-1VQkGM{
+.contentColumnDefault-1C7as6{
     padding: 32px;
 }
 
 // Close button
-.closeButton-1tv5uR{
+.closeButton-PCZcma{
     width: 32px;
     height: 32px;
     flex: 0 0 32px;
     border-radius: 4px
 }
-.keybind-KpFkfr{
+.keybind-13vtq8{
     @include TypeBody;
 }
 
 // Title
-.sectionTitle-2vauyC{
+.sectionTitle-3j2YI1{
     h1{
         @include TypeTitle;
     }
@@ -29,7 +29,7 @@
 // Dark theme
 .theme-dark{
     // Close button
-    .closeButton-1tv5uR{
+    .closeButton-PCZcma{
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
         svg path{
@@ -37,7 +37,7 @@
         }
 
     }
-    .keybind-KpFkfr{
+    .keybind-13vtq8{
         color: $TextFillColorPrimary;
     }
 }

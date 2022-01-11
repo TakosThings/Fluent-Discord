@@ -1,22 +1,22 @@
-.theme-dark .button-38aScr{
+.theme-dark .button-f2h6uQ{
     border-radius: 4px;
     @include TypeBody;
 
     // Sizes
-    &.sizeSmall-2cSMqn,
-    &.sizeMedium-1AC_Sl, // eg. Create new server
-    &.sizeLarge-1vSeWK, // eg. Add a keybind
-    &.sizeXlarge-2yFAlZ{ // eg. Untrusted link modal
+    &.sizeSmall-wU2dO-,
+    &.sizeMedium-2bFIHr, // eg. Create new server
+    &.sizeLarge-3mScP9, // eg. Add a keybind
+    &.sizeXlarge-2TyITf{ // eg. Untrusted link modal
         min-width: 120px;
         min-height: 32px;
         height: 32px;
     }
 
     // Filled buttons
-    &.lookFilled-1Gx00P{
+    &.lookFilled-yCfaCM{
         // Brand buttons
-        &.colorBrand-3pXr91,
-        &.colorBrandNew-g5lmBU{ // eg. User Settings > Accessibility > TTS Rate
+        &.colorBrand-I6CyqQ,
+        &.colorBrandNew-2-gGsS{ // eg. User Settings > Accessibility > TTS Rate
             background-color: $AccentFillColorDefault;
             border: 1px solid $ControlStrokeColorOnAccentDefault;
             color: $TextOnAccentFillColorPrimary;
@@ -28,7 +28,7 @@
             }
         }
         // Grey
-        &.colorGrey-2DXtkV{
+        &.colorGrey-2iAG-B{
             background-color: $ControlFillColorDefault;
             border: 1px solid $ControlStrokeColorDefault;
             color: $TextFillColorPrimary;
@@ -41,7 +41,7 @@
         }
 
         // Red
-        &.colorRed-1TFJan{
+        &.colorRed-rQXKgM{
             background-color: $SystemFillColorCriticalBackground;
             color: $SystemFillColorCritical;
             &:hover{
@@ -64,9 +64,9 @@
     }
 
     // Outlined
-    &.lookOutlined-3sRXeN{
-        &.colorRed-1TFJan,
-        &.colorBrand-3pXr91{ // eg. Request Data
+    &.lookOutlined-3yKVGo{
+        &.colorRed-rQXKgM,
+        &.colorBrand-I6CyqQ{ // eg. Request Data
             border-color: $ControlStrokeColorDefault;
             color: $TextFillColorPrimary;
             &:hover{

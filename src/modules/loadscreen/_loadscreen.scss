@@ -1,18 +1,18 @@
 // Hide titlebar
-.platform-win .container-16j22k{
+.platform-win .container-2RRFHK{
     padding-top: 32px;
     top: -32px;
 }
 
 @keyframes fluent-loading-blobs{
-    0%   { opacity: 0; }
+    0%   { opacity: 0; left: 0; top: 0%}
     25%  { opacity: .7; }
-    50%  { opacity: 0; }
+    50%  { opacity: 0; left: 25%; top: 50%; }
 	100% { opacity: 0; }
 }
 
 
-.container-16j22k{
+.container-2RRFHK{
     background-color: #000;
 
     // Loading blob animations
@@ -40,7 +40,7 @@
     }
 }
 
-.content-1-zrf2{
+.content-3AIQZv{
     video{
         display: none;
     }
@@ -55,12 +55,12 @@
     }
 
     // Loading circle
-    .text-3c9Zq1{
+    .text-2bYgPB{
         width: 64px;
         height: 64px;
         display: block;
         animation: fluent-loading-circle 1.5s linear infinite;
-        .body-2Vra9D{
+        .body-15LvnD{
             line-height: unset;
             font-size: 0;
 
@@ -86,17 +86,17 @@
             }
         }
 
-        .tipTitle-GL9qAt,
-        .tip-2cgoli{
+        .tipTitle-3FYEQp,
+        .tip-1AwED_{
             display: none;
         }
     }
 }
 
 // Links
-.problemsText-1Yx-Kl{
+.problemsText-1DBHh5{
     color: $TextFillColorPrimary;
 }
-.anchor-3Z-8Bb{
+.anchor-1MIwyf{
     color: $AccentTextFillColorPrimary;
 }

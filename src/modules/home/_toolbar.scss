@@ -1,20 +1,20 @@
-.theme-dark .container-1D34oG{
+.theme-dark .container-2cd8Mz{
     background-color: transparent;
     // Toolbar
-    .container-1r6BKw{
+    .container-ZMc96U{
         background-color: transparent;
 
         // Remove icon
-        .children-19S4PO > .iconWrapper-2OrFZ1{
+        .children-3xh0VB > .iconWrapper-2awDjA{
             display: none;
         }
 
-        .title-29uC1r{
+        .title-17SveM{
             margin-left: 20px;
         }
 
         // Tab bar
-        .item-PXvHYJ{
+        .item-3mHhwr{
             height: 36px;
             margin: 0 0 0 8px;
             border-radius: 0;
@@ -24,7 +24,7 @@
                 background-color: transparent;
                 color: $TextFillColorSecondary;
             }
-            &.selected-3s45Ha{
+            &.selected-g-kMVV{
                 background-color: transparent;
                 &::before{
                     content: "";
@@ -58,11 +58,11 @@
         }
 
         // Remove gradient on right-side of tab bar
-        .children-19S4PO::after{
+        .children-3xh0VB::after{
             display: none;
         }
         // Remove divider between Group DM and Inbox
-        .divider-3FBTu8{
+        .divider-q3P9HC{
             display: none;
         }
     }

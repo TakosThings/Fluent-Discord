@@ -1,8 +1,8 @@
-.theme-dark .chat-3bRxxu{
+.theme-dark .chat-2ZfjoI{
     background-color: transparent;
 }
 
-.theme-dark .content-yTz4x3{
+.theme-dark .content-1jQy2l{
     background-color: $LayerFillColorDefault;
     border-top: 1px solid $CardStrokeColorDefault;
     border-left: 1px solid $CardStrokeColorDefault;
@@ -14,7 +14,7 @@
 }
 
 // New/old messages bars
-.theme-dark .barBase-1c2Rfb{
+.theme-dark .barBase-3xxDXu{
     left: 50%;
     margin-left: -299px;
     width: 598px;
@@ -22,20 +22,20 @@
     border: 1px solid $CardStrokeColorDefault;
     box-shadow: none;
     border-radius: 8px;
-    .barButtonMain-3K-jeJ{
+    .barButtonMain-2GIx4o{
         @include TypeBody;
     }
-    .barButtonAlt-mYL1lj{
+    .barButtonAlt-TQoCdZ{
         display: none;
     }
 }
 // New messages bar
-.theme-dark .newMessagesBar-265mhP{
+.theme-dark .newMessagesBar-1hF-9G{
     top: 8px;
     background-color: $AccentLight1;
 }
 // Old messages bar
-.theme-dark .jumpToPresentBar-G1R9s6{
+.theme-dark .jumpToPresentBar-1cEnH0{
     bottom: 8px;
     padding-bottom: 0;
     background-color: $SystemFillColorAttentionBackground;
@@ -43,10 +43,10 @@
 
 
 // Start of server
-.theme-dark .container-3zqIcM{
+.theme-dark .container-1yy5xN{
     align-items: flex-start;
     padding: 0;
-    .titleName-3-Lp3Z{
+    .titleName-2vkJTW{
         text-align: left;
         @include TypeTitle;
         p{
@@ -54,7 +54,7 @@
             display: inline-block;
         }
     }
-    .subtitle-2UIIw0{
+    .subtitle-3tY4DQ{
         text-align: left;
         color: $TextFillColorPrimary;
         @include TypeBody;
@@ -62,32 +62,32 @@
 }
 
 // Start of channel
-.theme-dark .container-3RCQyg{
+.theme-dark .container-1yy5xN{
     padding: 16px;
-    .header-3uLluP{
+    .header-1dhDWV{
         @include TypeTitle;
     }
-    .description-1sDbzZ{
+    .description-22d6ux{
         color: $TextFillColorPrimary;
         @include TypeBody;
     }
 }
-.theme-dark .emptyChannelIcon-cc932w{
+.theme-dark .emptyChannelIcon-1YdEz2{
     display: none;
 }
 
 // Divider
-.theme-dark .divider-JfaTT5{
+.theme-dark .divider-2rZFJK{
     justify-content: flex-end;
     border-color: $DividerStrokeColorDefault;
-    .content-1o0f9g,
-    .unreadPill-2HyYtt{
+    .content-3spvdd,
+    .unreadPill-3nEWYM{
         padding: 2px 8px;
         color: $TextFillColorPrimary;
         @include TypeCaption;
         font-weight: normal;
     }
-    .unreadPill-2HyYtt{
+    .unreadPill-3nEWYM{
         height: unset;
         top: -1px;
         background-color: $SystemFillColorCriticalBackground;
@@ -99,13 +99,13 @@
             display: none;
         }
     }
-    &.isUnread-3Ef-o9{
+    &.isUnread-3Lojb-{
         // NOTE: 2021-08-29 - The border should technically be SystemFillColorCriticalBackground, but is barely visisble, so using the text fill instead.
         border-color: $SystemFillColorCritical;
-        .content-1o0f9g{
+        .content-3spvdd{
             border-radius: 8px 0 0 8px;
         }
-        .unreadPill-2HyYtt{
+        .unreadPill-3nEWYM{
             position: relative;
         }
     }
@@ -116,13 +116,13 @@
 }
 
 // Chat message
-.theme-dark .message-2qnXI6{
+.theme-dark .message-2CShn3{
     // Remove hover
     &:hover{
         background-color: transparent !important;
     }
     // Remove background on mentioned message
-    &.mentioned-xhSam7{
+    &.mentioned-Tre-dv{
         background-color: transparent;
         &::before{
             left: 8px;

@@ -1,6 +1,6 @@
-.theme-dark .container-1D34oG{
+.theme-dark .container-2cd8Mz{
     // Body
-    .tabBody-3YRQ8W{
+    .tabBody-2dgbAs{
         background-color: $LayerFillColorDefault;
         border-top: 1px solid $CardStrokeColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
@@ -10,28 +10,28 @@
         }
 
         // Header
-        .title-30qZAO{
+        .title-x4dI75{
             @include TypeBodyLarge;
             letter-spacing: normal;
         }
 
         // Item
-        .peopleListItem-2nzedh.active-rhSpJJ,
-        .peopleListItem-2nzedh:hover{
+        .peopleListItem-u6dGxF.active-2UF8Zh,
+        .peopleListItem-u6dGxF:hover{
             border-radius: 4px;
         }
 
         // Username
-        .username-31C1TQ{
+        .username-Qpc78p{
             @include TypeBodyStrong;
         }
         // User Status
-        .text-3MU_QQ{
+        .text-MPIeXO{
             @include TypeCaption;
         }
 
         // Buttons
-        .actionButton-uPB8Fs{
+        .actionButton-3-B2x-{
             background-color: transparent;
             visibility: hidden;
 
@@ -44,18 +44,18 @@
             }
         }
         // Show buttons when hovered
-        .peopleListItem-2nzedh.active-rhSpJJ .actionButton-uPB8Fs,
-        .peopleListItem-2nzedh:hover .actionButton-uPB8Fs{
+        .peopleListItem-u6dGxF.active-2UF8Zh .actionButton-3-B2x-,
+        .peopleListItem-u6dGxF:hover .actionButton-3-B2x-{
             visibility: visible;
         }
     }
 
     // Empty
-    .friendsEmpty-1K9B4k{
-        .image-1GzsFd{
+    .friendsEmpty-gs15T1{
+        .image-20MDYu{
             filter: brightness(200%)
         }
-        .text-GwUZgS{
+        .text-27cdrj{
             @include TypeBody;
             color: $TextFillColorPrimary;
         }

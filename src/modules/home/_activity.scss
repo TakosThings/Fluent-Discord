@@ -1,37 +1,37 @@
-.theme-dark .nowPlayingColumn-2sl4cE{
+.theme-dark .nowPlayingColumn-1eCBCN{
     background: transparent;
-    .container-lRFx4q{
+    .container-1oAagU{
         background-color: $LayerFillColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
     }
-    .scroller-2ZPeAD{
+    .scroller-hE2gWq{
         border: 0;
     }
 
     // Header
-    .header-2SF4Nh{
+    .header-Imy05m{
         @include TypeBodyLarge;
     }
 
     // Card
-    .wrapper-3D2qGf{
+    .wrapper-2RrXDg{
         background-color: $LayerFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         &:hover{
             background-color: $LayerFillColorAlt;
         }
     }
-    .inset-3sAvek{
+    .inset-SbsSFp{
         background-color: $LayerFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 4px;
-        .section-2gLsgF{
+        .section-3G9aLW{
             background-color: transparent;
         }
     }
 
     // Empty
-    .emptyCard-1RJw8n{
+    .emptyCard-KDifrB{
         background-color: $LayerFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
     }

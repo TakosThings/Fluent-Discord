@@ -1,52 +1,51 @@
-.theme-dark .title-3qD0b-{
+.theme-dark .title-31SJ6t{
     padding: 0 0 0 32px;
-    &.themed-ANHk51{
+    &.themed-Hp1KC_{
         background-color: transparent;
     }
     // Channel & MOTD
     // Remove hash symbol
-    .children-19S4PO{
+    .children-3xh0VB{
         // Gradient at end of MOTD field
         &::after{
             display: none;
         }
-        .iconWrapper-2OrFZ1{
+        .iconWrapper-2awDjA{
             display: none;
         }
     }
     // Channel name
-    .title-29uC1r{
+    .title-17SveM{
         @include TypeBodyStrong
     }
 
     // Remove divider
-    .divider-3FBTu8{
+    .divider-q3P9HC{
         display: none;
     }
 
     // MOTD
-    .topic-TCb_qw{
+    .topic-11NuQZ{
         color: $TextFillColorPrimary;
         @include TypeBody;
     }
 
     // Add some margin to the caret when in fullscreen thread view
-    .caret-3W7cBB{
+    .caret-1le2LN{
         margin-right: 8px;
     }
 }
 
 // Toolbar
-.theme-dark .toolbar-1t6TWx{
-    .iconWrapper-2OrFZ1{
+.theme-dark .toolbar-3_r2xA{
+    .iconWrapper-2awDjA{
         margin: 0 4px 0 0;
         border-radius: 4px;
         &:hover{
             background-color: $ControlFillColorSecondary;
         }
     }
-    .iconWrapper-2OrFZ1,
-    .button-38aScr{
+    .iconWrapper-2awDjA{
         width: 64px;
         height: 36px;
         &::before{
@@ -59,12 +58,12 @@
             display: block;
         }
         // Remove default icon
-        .icon-22AiRD,
+        .icon-2xnN2Y,
         .controlIcon-35oS15{
             display: none;
         }
         // Selected
-        &.selected-1GqIat{
+        &.selected-29KTGM{
             background-color: $AccentFillColorSecondary;
         }
         // Toggled (mute channel)
@@ -72,7 +71,7 @@
             color: $SystemFillColorCritical;
         }
     }
-    .iconBadge-qZ4Ksk{
+    .iconBadge-3Mmg92{
         width: 32px;
         height: 3px;
         right: 16px;

@@ -1,5 +1,5 @@
-.toolbar-1t6TWx{
-    .iconWrapper-2OrFZ1{
+.toolbar-3_r2xA{
+    .iconWrapper-2awDjA{
         // Threads
         &[aria-label="#{map-get($translate, THREADS)}"]::before{
             content: "\E8C4"; // ShowBcc
@@ -69,7 +69,7 @@
 
 
     }
-    .button-38aScr{
+    .button-1fGHAH{
         // Call tiles
         // Focus
         &[aria-label="#{map-get($translate, VIDEO_CALL_AUTO_SELECT)}"]::before,
@@ -83,7 +83,7 @@
     }
 
     // Search
-    .search-2oPWTC:not(.open-6_Y_aH)::before{
+    .search-1FM8Qc:not(.open-3y3yI_)::before{
         content: "\e721";
     }
 }

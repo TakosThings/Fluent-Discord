@@ -1,11 +1,11 @@
-.theme-dark .form-2fGMdU{
+.theme-dark .form-3gdLxP{
     margin-top: 0;
     // Remove gradient on left
     &::before{
         display: none;
     }
 
-    .channelTextArea-rNsIhG{
+    .channelTextArea-1FufC0{
         margin-bottom: 16px;
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
@@ -20,25 +20,25 @@
             border-bottom-color: $AccentBase;
         }
     }
-    .scrollableContainer-2NUZem{
+    .scrollableContainer-15eg7h{
         background-color: transparent;
         border-radius: 4px;
         overflow-y: auto;
     }
 
-    .sansAttachButton-td2irx{
+    .sansAttachButton-1ERHue{
         padding-left: 0;
     }
 
     // Placeholder
-    .placeholder-37qJjk{
+    .placeholder-1_mJY1{
         right: 8px;
         left: 8px;
         color: $TextFillColorSecondary;
     }
 
     // User's input text
-    .slateTextArea-1Mkdgw{
+    .slateTextArea-27tjG0{
         right: 8px;
         left: 8px;
         color: $TextFillColorPrimary;
@@ -46,7 +46,7 @@
 
 
     // Upload button
-    .attachButton-2WznTc{
+    .attachButton-_ACFSu{
         width: 44px;
         height: 44px;
         margin: 0;
@@ -62,34 +62,34 @@
                 color: $TextFillColorPrimary;
             }
         }
-        .contents-18-Yxp{
+        .contents-3ca1mk{
             display: none;
         }
     }
 
     // NOTE: 2021-11-21 - This fixes an issue where syntax will 'collapse' on itself due to the Segoe Variable font
-    .codeBlockSyntax-2i-tMA{
+    .codeBlockSyntax-2MZ-Qy{
         font-family: Consolas, monospace;
     }
 
     // Gift/GIF/Sticker/Emoji buttons
-    .buttons-3JBrkn{
+    .buttons-uaqb-5{
         height: unset;
         margin-right: 0;
         // Remove gift
-        & > .button-38aScr{
+        & > .button-f2h6uQ{
             display: none;
         }
         // Remove GIF
-        .buttonContainer-28fw2U:nth-child(2){
+        .buttonContainer-2lnNiN:nth-child(2){
             display: none;
         }
         // Remove Sticker
-        .buttonContainer-28fw2U:nth-child(3){
+        .buttonContainer-2lnNiN:nth-child(3){
             display: none;
         }
         // Set a static emoji icon
-        .emojiButton-3uL3Aw{
+        .emojiButton-3FRTuj{
             width: 44px;
             height: 44px;
             margin: 0;
@@ -105,7 +105,7 @@
                     color: $TextFillColorPrimary;
                 }
             }
-            .contents-18-Yxp{
+            .contents-3ca1mk{
                 display: none;
             }
         }
@@ -113,7 +113,7 @@
     }
 
     // Is Typing
-    .typing-2GQL18{
+    .typing-2J1mQU{
         height: 32px;
         top: -32px;
         right: 16px;
@@ -136,27 +136,27 @@
             }
         }
         // Slowmode font-weight
-        .cooldownWrapper-3joyFc{
+        .cooldownWrapper-2k1jHK{
             font-weight: normal;
         }
         // Fix position of countdown timer
-        .text-1y-e8-:not(:empty) + .cooldownWrapper-3joyFc{
+        .text-3S7XCz:not(:empty) + .cooldownWrapper-2k1jHK{
             margin-bottom: 14px;
         }
     }
 
     // Various chatbox states
     // Announce channel follow
-    .wrapper-39oAo3{
+    .wrapper-2SplAX{
         margin-bottom: 16px;
         background-color: $ControlFillColorDisabled;
         border: 1px solid $ControlStrokeColorDefault;
         // Remove image
-        .content-c_0cLD{
+        .content-2M_BlY{
             img{
                 display: none;
             }
-            .base-1x0h_U{
+            .base-21yXnu{
                 color: $TextFillColorDisabled !important;
                 @include TypeBody;
             }

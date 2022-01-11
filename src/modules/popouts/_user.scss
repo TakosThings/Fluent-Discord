@@ -1,5 +1,5 @@
-.popoutBanner-19WKGg,
-.popoutBannerPremium-1n96gg{
+.popoutBanner-3cqRD9,
+.popoutBannerPremium-3i5EEI{
     position: absolute;
     height: 100%;
     border-radius: 8px;
@@ -17,25 +17,25 @@
     }
 }
 // Premium banner
-.popoutBannerPremium-1n96gg{
+.popoutBannerPremium-3i5EEI{
     background-position: 0 0;
     background-size: 300px 120px
 }
-.avatarPositionPremium-3We5Ho{
+.avatarPositionPremium-1zPBq9{
     top: 16px;
 }
 
 // Avatar
-.avatar-37jOim{
+.avatar-2Vndt_{
     background-color: transparent;
     border: 0;
 }
-.avatarHint-2A3RNb{
+.avatarHint-k7pYop{
     top: 0;
     left: 0;
 }
 // 'view profile' text
-.avatarHintInner-1TvA8u{
+.avatarHintInner-2HUAWj{
     font-size: 0;
     &::before{
         content: "\e8d4"; // Contact2
@@ -46,17 +46,17 @@
 }
 
 // Usernames
-.headerTop-3vNv-a{
+.headerTop-3GPUSF{
     padding-top: 132px;
 }
-.headerTag-3GFl76{
+.headerTag-3GXZkV{
     @include TypeSubtitle;
     span{
         color: $TextFillColorPrimary;
     }
 }
 // Bot tag
-.headerBotTag-qNEsTk{
+.headerBotTag-1xw5Ck{
     background-color: transparent;
     line-height: unset;
     svg, span{
@@ -72,50 +72,50 @@
 
 
 // Body
-.bodyInnerWrapper-26fQXj{
+.bodyInnerWrapper-2bQs1k{
     background-color: transparent;
 }
-.base-1x0h_U{
+.base-21yXnu{
     color: $TextFillColorPrimary !important;
     @include TypeBodyStrong;
     text-transform: none;
 }
-.role-2irmRk{
+.role-2TIOKu{
     background-color: $ControlFillColorDefault;
     border: 1px solid $ControlStrokeColorDefault;
     border-radius: 11px;
 }
-.roleName-32vpEy{
+.roleName-2ZJJYR{
     color: $TextFillColorPrimary;
     @include TypeCaption;
 }
 
 // Spotify/games
-.assetsLargeImage-eYwpTX{
+.assetsLargeImage-8U5dlz{
     border-radius: 4px;
 }
-.timeBarUserPopout-AWPFf2{
-    .bar-3urHkF{
+.timeBarUserPopout-qLXZaR{
+    .bar-1GpknY{
         height: 3px;
         background-color: $ControlStrokeColorDefault;
     }
-    .barInner-3NDaY_{
+    .barInner-3dHef4{
         height: 3px;
         background-color: $AccentBase;
     }
 
     // Timecode
-    .text-AOoUen{
+    .text-31kWmP{
         @include TypeCaption;
     }
 }
 // Remove buttons we can't interact with
-.disabledButtonWrapper-3wH6-b{
+.disabledButtonWrapper-2Oz3aY{
     display: none;
 }
 
 // Note
-.note-1oo11U{
+.note-Go5ZP2{
     margin: 0;
 }
 

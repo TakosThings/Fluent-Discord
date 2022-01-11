@@ -1,24 +1,24 @@
-.sidebarRegion-VFTUkN{
+.sidebarRegion-1VBisG{
     flex: 0;
 }
 // Hide scrollbar when not required
-.sidebarRegionScroller-3MXcoP{
+.sidebarRegionScroller-FXiQOh{
     background-color: transparent;
 }
 
-.sidebar-CFHs9e{
+.sidebar-nqHbhN{
     width: 300px;
     padding: 24px 4px;
 }
 
-.side-8zPYf6 .header-2RyJ0Y{
+.side-2ur1Qk .header-2Kx1US{
     padding: 0 0 0 16px;
     @include TypeBodyStrong;
     color: $TextFillColorPrimary;
     line-height: 34px;
     text-transform: none;
 }
-.side-8zPYf6 .item-PXvHYJ{
+.side-2ur1Qk .item-3XjbnG{
     padding: 0 12px 0 44px;
     margin-bottom: 4px;
     border: 1px solid transparent;
@@ -42,7 +42,7 @@
         color: $TextFillColorSecondary;
         background-color: $SubtleFillColorTertiary;
     }
-    &.selected-3s45Ha{
+    &.selected-g-kMVV{
         background-color: $SubtleFillColorSecondary;
         &::before{
             content: "";
@@ -58,7 +58,7 @@
 }
 
 // Divider
-.side-8zPYf6 .separator-gCa7yv{
+.side-2ur1Qk .separator-2wx7h6{
     margin: calc(12px - 4px) 0 12px 0;
     background-color: $DividerStrokeColorDefault;
 }

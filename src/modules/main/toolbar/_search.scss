@@ -1,6 +1,6 @@
-.theme-dark .chat-3bRxxu .container-1r6BKw .search-36MZv-{
+.theme-dark .chat-2ZfjoI .search-39IXmY{
     margin: 0;
-    .searchBar-3dMhjb{
+    .searchBar-zdmu7v{
         width: 64px;
         height: 36px;
         background-color: transparent;
@@ -13,13 +13,13 @@
             background-color: $ControlFillColorSecondary;
         }
         .public-DraftEditorPlaceholder-root,
-        .icon-38sknP{
+        .icon-1nNws_{
             display: none;
         }
     }
 
     // Icon when not active
-    .search-2oPWTC:not(.focused-31_ccS)::before{
+    .search-1FM8Qc:not(.focused-8aNhVB)::before{
         width: 64px;
         font-size: 16px;
         @include FontIconFluent;
@@ -29,9 +29,9 @@
         position: absolute;
     }
 
-    .search-2oPWTC.focused-31_ccS .searchBar-3dMhjb,
-    .search-2oPWTC.open-6_Y_aH .searchBar-3dMhjb,
-    .search-2oPWTC.popout-open .searchBar-3dMhjb{
+    .search-1FM8Qc.focused-8aNhVB .searchBar-zdmu7v,
+    .search-1FM8Qc.open-3y3yI_ .searchBar-zdmu7v,
+    .search-1FM8Qc.popout-open .searchBar-zdmu7v{
         width: 232px;
         height: 32px;
         margin: 0 4px;
@@ -42,22 +42,22 @@
         border-bottom-width: 2px;
         border-radius: 2px;
     }
-    .search-2oPWTC.focused-31_ccS .searchBar-3dMhjb{
+    .search-1FM8Qc.focused-8aNhVB .searchBar-zdmu7v{
         background-color: $ControlFillColorInputActiveBrush;
         border-color: $ControlElevationBorder;
         border-bottom-color: $AccentBase;
     }
 
-    .search-2oPWTC.open-6_Y_aH .icon-38sknP,
-    .search-2oPWTC.focused-31_ccS .icon-38sknP,
-    .search-2oPWTC.open-6_Y_aH .searchBar-3dMhjb .public-DraftEditorPlaceholder-root,
-    .search-2oPWTC.focused-31_ccS .searchBar-3dMhjb .public-DraftEditorPlaceholder-root{
+    .search-1FM8Qc.open-3y3yI_ .icon-38sknP,
+    .search-1FM8Qc.focused-8aNhVB .icon-38sknP,
+    .search-1FM8Qc.open-3y3yI_ .searchBar-zdmu7v .public-DraftEditorPlaceholder-root,
+    .search-1FM8Qc.focused-8aNhVB .searchBar-zdmu7v .public-DraftEditorPlaceholder-root{
         display: block;
     }
-    .search-2oPWTC .DraftEditor-root .DraftEditor-editorContainer{
+    .search-1FM8Qc .DraftEditor-root .DraftEditor-editorContainer{
         height: 26px;
     }
-    .search-2oPWTC .searchBar-3dMhjb .DraftEditor-root{
+    .search-1FM8Qc .searchBar-zdmu7v .DraftEditor-root{
         color: $TextFillColorPrimary;
         @include TypeBody;
         .public-DraftEditor-content{
@@ -69,11 +69,11 @@
             box-sizing: border-box;
         }
     }
-    .seasearch-2oPWTCrch .searchBar-3dMhjb .public-DraftEditorPlaceholder-root{
+    .seasearch-1FM8Qcrch .searchBar-zdmu7v .public-DraftEditorPlaceholder-root{
         color: $TextFillColorSecondary;
         @include TypeBody;
     }
-    .search-2oPWTC .searchBar-3dMhjb .icon-3cZ1F_{
+    .search-1FM8Qc .searchBar-zdmu7v .icon-3cZ1F_{
         top: 7px;
     }
 

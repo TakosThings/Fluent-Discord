@@ -1,205 +1,205 @@
-.theme-dark .layer-3QrUeG[aria-label="USER_SETTINGS"]{
-    .sidebar-CFHs9e{
+.theme-dark .layer-86YKbF[aria-label="USER_SETTINGS"]{
+    .sidebar-nqHbhN{
         // User Settings
-        .item-PXvHYJ[aria-controls="my-account-tab"]::after{ // My account
+        .item-3XjbnG[aria-controls="my-account-tab"]::after{ // My account
             content: "\E77B"; // Contact
         }
-        .item-PXvHYJ[aria-controls="profile-customization-tab"]::after{ // User Profile
+        .item-3XjbnG[aria-controls="profile-customization-tab"]::after{ // User Profile
             content: "\E7EE"; // OtherUser
         }
-        .item-PXvHYJ[aria-controls="privacy-&-safety-tab"]::after{ // Privacy & safety
+        .item-3XjbnG[aria-controls="privacy-&-safety-tab"]::after{ // Privacy & safety
             content: "\EA18"; // Shield
         }
-        .item-PXvHYJ[aria-controls="authorized-apps-tab"]::after{ // Authorised apps
+        .item-3XjbnG[aria-controls="authorized-apps-tab"]::after{ // Authorised apps
             content: "\E8D7"; // Permissions
         }
-        .item-PXvHYJ[aria-controls="connections-tab"]::after{ // connections
+        .item-3XjbnG[aria-controls="connections-tab"]::after{ // connections
             content: "\F0B9"; // Connected
         }
 
         // Billing Settings
-        .item-PXvHYJ[aria-controls="discord-nitro-tab"]::after{ // Nitro
+        .item-3XjbnG[aria-controls="discord-nitro-tab"]::after{ // Nitro
             content: "\EC49"; // SpeedMedium
             top: 0; // force fix positioning for Nitro
         }
-        .item-PXvHYJ[aria-controls="nitro-server-boost-tab"]::after{ // Server boost
+        .item-3XjbnG[aria-controls="nitro-server-boost-tab"]::after{ // Server boost
             content: "\EC4A" // SpeedHigh
         }
-        .item-PXvHYJ[aria-controls="subscriptions-tab"]::after{ // Subscriptions
+        .item-3XjbnG[aria-controls="subscriptions-tab"]::after{ // Subscriptions
             content: "\ED0E" // SubscriptionAdd
         }
-        .item-PXvHYJ[aria-controls="library-inventory-tab"]::after{ // Gift inventory
+        .item-3XjbnG[aria-controls="library-inventory-tab"]::after{ // Gift inventory
             content: "\F133"; // GiftboxOpen
         }
-        .item-PXvHYJ[aria-controls="billing-tab"]::after{ // Billing
+        .item-3XjbnG[aria-controls="billing-tab"]::after{ // Billing
             content: "\E8C7"; // PaymentCard
         }
 
         // App Settings
-        .item-PXvHYJ[aria-controls="appearance-tab"]::after{ // Appearance
+        .item-3XjbnG[aria-controls="appearance-tab"]::after{ // Appearance
             content: "\E771"; // Personalise
         }
-        .item-PXvHYJ[aria-controls="accessibility-tab"]::after{ // Accessibility
+        .item-3XjbnG[aria-controls="accessibility-tab"]::after{ // Accessibility
             content: "\E776"; // EaseOfAccess
         }
-        .item-PXvHYJ[aria-controls="voice-&-video-tab"]::after{ // Voice and Video
+        .item-3XjbnG[aria-controls="voice-&-video-tab"]::after{ // Voice and Video
             content: "\E720"; // Microphone
         }
-        .item-PXvHYJ[aria-controls="text-&-images-tab"]::after{ // Text and images
+        .item-3XjbnG[aria-controls="text-&-images-tab"]::after{ // Text and images
             content: "\EA69"; // Media
         }
-        .item-PXvHYJ[aria-controls="notifications-tab"]::after{ // Notifications
+        .item-3XjbnG[aria-controls="notifications-tab"]::after{ // Notifications
             content: "\E91C"; // ActionCentre
         }
-        .item-PXvHYJ[aria-controls="keybinds-tab"]::after{ // Keybinds
+        .item-3XjbnG[aria-controls="keybinds-tab"]::after{ // Keybinds
             content: "\E765"; // KeyboardClassic
         }
-        .item-PXvHYJ[aria-controls="language-tab"]::after{ // Language
+        .item-3XjbnG[aria-controls="language-tab"]::after{ // Language
             content: "\F2B7"; // LocaleLanguage
         }
-        .item-PXvHYJ[aria-controls="windows-tab"]::after{ // Windows settings
+        .item-3XjbnG[aria-controls="windows-tab"]::after{ // Windows settings
             content: "\E782"; // WindowsLogo
             font-family: 'HoloLens MDL2 Assets';
         }
-        .item-PXvHYJ[aria-controls="streamer-mode-tab"]::after{ // Streamer mode
+        .item-3XjbnG[aria-controls="streamer-mode-tab"]::after{ // Streamer mode
             content: "\E93E"; // Streaming
         }
-        .item-PXvHYJ[aria-controls="advanced-tab"]::after{ // Advanced
+        .item-3XjbnG[aria-controls="advanced-tab"]::after{ // Advanced
             content: "\E7BE"; // Education
         }
 
         // Activity Settings
-        .item-PXvHYJ[aria-controls="game-activity-tab"]::after{ // Game activity
+        .item-3XjbnG[aria-controls="game-activity-tab"]::after{ // Game activity
             content: "\E7FC"; // Game
         }
-        .item-PXvHYJ[aria-controls="overlay-tab"]::after{ // Overlay
+        .item-3XjbnG[aria-controls="overlay-tab"]::after{ // Overlay
             content: "\E9A6"; // FitPage
         }
 
         // BetterDiscord
-        .item-PXvHYJ[aria-controls="settings-tab"]::after{ // BD:Settings
+        .item-3XjbnG[aria-controls="settings-tab"]::after{ // BD:Settings
             content: "\E713"; // Setting
         }
-        .item-PXvHYJ[aria-controls="emotes-tab"]::after{ // BD:Emotes
+        .item-3XjbnG[aria-controls="emotes-tab"]::after{ // BD:Emotes
             content: "\ED56"; // EmojiTabFoodPlants
         }
-        .item-PXvHYJ[aria-controls="customcss-tab"]::after{ // BD:Custom CSS
+        .item-3XjbnG[aria-controls="customcss-tab"]::after{ // BD:Custom CSS
             content: "\E943"; // Code
         }
-        .item-PXvHYJ[aria-controls="plugins-tab"]::after{ // BD: Plugins
+        .item-3XjbnG[aria-controls="plugins-tab"]::after{ // BD: Plugins
             content: "\EA86"; // Puzzle
         }
-        .item-PXvHYJ[aria-controls="themes-tab"]::after{ // BD:Themes
+        .item-3XjbnG[aria-controls="themes-tab"]::after{ // BD:Themes
             content: "\E771"; // Personalise
         }
 
-        .item-PXvHYJ[aria-controls="changelog-tab"]::after{ // Changelog
+        .item-3XjbnG[aria-controls="changelog-tab"]::after{ // Changelog
             content: "\E77C"; // Memo
         }
-        .item-PXvHYJ[aria-controls="hypesquad-online-tab"]::after{ // Hype Squad
+        .item-3XjbnG[aria-controls="hypesquad-online-tab"]::after{ // Hype Squad
             content: "\F157"; // DialShape2
         }
-        .item-PXvHYJ[aria-controls="logout-tab"]::after{ // Log out
+        .item-3XjbnG[aria-controls="logout-tab"]::after{ // Log out
             content: "\F3B1"; // SignOut
         }
     }
 }
-.theme-dark .layer-3QrUeG[aria-label="GUILD_SETTINGS"]{
-    .sidebar-CFHs9e{
+.theme-dark .layer-86YKbF[aria-label="GUILD_SETTINGS"]{
+    .sidebar-nqHbhN{
         // Server Name
-        .item-PXvHYJ[aria-controls="overview-tab"]::after{ // Overview
+        .item-3XjbnG[aria-controls="overview-tab"]::after{ // Overview
             content: "\F246"; // ViewDashboard
         }
-        .item-PXvHYJ[aria-controls="roles-tab"]::after{ // Roles
+        .item-3XjbnG[aria-controls="roles-tab"]::after{ // Roles
             content: "\EC1B"; // Badge
         }
-        .item-PXvHYJ[aria-controls="emoji-tab"]::after{ // Emoji
+        .item-3XjbnG[aria-controls="emoji-tab"]::after{ // Emoji
             content: "\ED54"; // EmojiTabSmilesAnimals
         }
-        .item-PXvHYJ[aria-controls="stickers-tab"]::after{ // Emoji
+        .item-3XjbnG[aria-controls="stickers-tab"]::after{ // Emoji
             content: "\F4AA"; // Sticker2
         }
-        .item-PXvHYJ[aria-controls="moderation-tab"]::after{ // Moderation
+        .item-3XjbnG[aria-controls="moderation-tab"]::after{ // Moderation
             content: "\EC81"; // PoliceCar
         }
-        .item-PXvHYJ[aria-controls="audit_log-tab"]::after{ // Audit Log
+        .item-3XjbnG[aria-controls="audit_log-tab"]::after{ // Audit Log
             content: "\E9D5"; // CheckList
         }
-        .item-PXvHYJ[aria-controls="integrations-tab"]::after{ // Integrations
+        .item-3XjbnG[aria-controls="integrations-tab"]::after{ // Integrations
             content: "\E774"; // Globe
         }
-        .item-PXvHYJ[aria-controls="widget-tab"]::after{ // Widget
+        .item-3XjbnG[aria-controls="widget-tab"]::after{ // Widget
             content: "\EA86"; // Puzzle
         }
-        .item-PXvHYJ[aria-controls="guild_templates-tab"]::after{ // Server template
+        .item-3XjbnG[aria-controls="guild_templates-tab"]::after{ // Server template
             content: "\E8C8"; // Copy
         }
 
         // Community
-        .item-PXvHYJ[aria-controls="community-tab"]::after{ // Enable Community
+        .item-3XjbnG[aria-controls="community-tab"]::after{ // Enable Community
             content: "\E902"; // Group
         }
-        .item-PXvHYJ[aria-controls="guild_premium-tab"]::after{ // Server boost status
+        .item-3XjbnG[aria-controls="guild_premium-tab"]::after{ // Server boost status
             content: "\EC4A"; // SpeedHigh
             top: 0;
         }
         // Community Server tabs
-        .item-PXvHYJ[aria-controls="analytics-tab"]::after{ // Server insights
+        .item-3XjbnG[aria-controls="analytics-tab"]::after{ // Server insights
             content: "\E9D2"; // AreaChart
         }
-        .item-PXvHYJ[aria-controls="partner-tab"]::after{ // Partner program
+        .item-3XjbnG[aria-controls="partner-tab"]::after{ // Partner program
             content: "\E902"; // Group
         }
-        .item-PXvHYJ[aria-controls="discovery-tab"]::after{ // Discovery
+        .item-3XjbnG[aria-controls="discovery-tab"]::after{ // Discovery
             content: "\E707"; // MapPin
         }
-        .item-PXvHYJ[aria-controls="member_verification-tab"]::after{ // Membership screening
+        .item-3XjbnG[aria-controls="member_verification-tab"]::after{ // Membership screening
             content: "\E73E"; // CheckMark
         }
-        .item-PXvHYJ[aria-controls="community_welcome-tab"]::after{ // Welcome screen
+        .item-3XjbnG[aria-controls="community_welcome-tab"]::after{ // Welcome screen
             content: "\EBFC"; // TabletMode
         }
 
         // User Management
-        .item-PXvHYJ[aria-controls="members-tab"]::after{ // Members
+        .item-3XjbnG[aria-controls="members-tab"]::after{ // Members
             content: "\E716"; // People
         }
-        .item-PXvHYJ[aria-controls="instant_invites-tab"]::after{ // Invites
+        .item-3XjbnG[aria-controls="instant_invites-tab"]::after{ // Invites
             content: "\E8FA"; // AddFriend
         }
-        .item-PXvHYJ[aria-controls="bans-tab"]::after{ // Bans
+        .item-3XjbnG[aria-controls="bans-tab"]::after{ // Bans
             content: "\E8F8"; // BlockContact
         }
-        .item-PXvHYJ[aria-controls="delete-tab"]::after{ // Delete server
+        .item-3XjbnG[aria-controls="delete-tab"]::after{ // Delete server
             content: "\E74D"; // Delete
         }
     }
 }
-.theme-dark .layer-3QrUeG[aria-label="CHANNEL_SETTINGS"]{
-    .sidebar-CFHs9e{
-        .item-PXvHYJ[aria-controls="overview-tab"]::after{ // Overview
+.theme-dark .layer-86YKbF[aria-label="CHANNEL_SETTINGS"]{
+    .sidebar-nqHbhN{
+        .item-3XjbnG[aria-controls="overview-tab"]::after{ // Overview
             content: "\F246"; // ViewDashboard
         }
-        .item-PXvHYJ[aria-controls="permissions-tab"]::after{ // Permissions
+        .item-3XjbnG[aria-controls="permissions-tab"]::after{ // Permissions
             content: "\E8D7"; // Permissions
         }
-        .item-PXvHYJ[aria-controls="instant_invites-tab"]::after{ // Invites
+        .item-3XjbnG[aria-controls="instant_invites-tab"]::after{ // Invites
             content: "\E8FA"; // AddFriend
         }
-        .item-PXvHYJ[aria-controls="integrations-tab"]::after{ // Web hook
+        .item-3XjbnG[aria-controls="integrations-tab"]::after{ // Web hook
             content: "\E774"; // Globe
         }
-        .item-PXvHYJ[aria-controls="delete-tab"]::after{ // Delete channel
+        .item-3XjbnG[aria-controls="delete-tab"]::after{ // Delete channel
             content: "\E74D"; // Delete
         }
     }
 }
 .theme-dark .layer-3QrUeG[aria-label="RTC_DEBUG"]{
-    .sidebar-CFHs9e{
-        .item-PXvHYJ[aria-controls="default:transport:0-tab"]::after{ // Transport
+    .sidebar-nqHbhN{
+        .item-3XjbnG[aria-controls="default:transport:0-tab"]::after{ // Transport
             content: "\E804"; // Car
         }
-        .item-PXvHYJ[aria-controls="default:outbound:0-tab"]::after{ // Permissions
+        .item-3XjbnG[aria-controls="default:outbound:0-tab"]::after{ // Permissions
             content: "\E898"; // Upload
         }
     }

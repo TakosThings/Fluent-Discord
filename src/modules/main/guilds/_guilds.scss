@@ -1,31 +1,31 @@
-.platform-win .scroller-1Bvpku{
+.platform-win .scroller-3X7KbA{
     padding: 0;
     background-color: transparent;
 }
 
-.theme-dark .wrapper-3NnKdC{
+.theme-dark .wrapper-1_HaEi{
     width: 48px;
     // margin-top: 40px;
     // margin-bottom: 96px;
     background-color: transparent;
 
 
-    .listItem-2Ig28I:hover .pill-ZqtR4i:empty{
+    .listItem-3SmSlK:hover .pill-2RsI5Q:empty{
         display: none !important;
     }
 
-    .listItem-2Ig28I{
+    .listItem-3SmSlK{
         margin: 0;
         width: 48px;
         &:hover{
             background-color: $ControlFillColorSecondary;
         }
         // Pill
-        .pill-ZqtR4i,
-        .pill-61ft1C,
-        .pill-gcH-8B,
+        .pill-2RsI5Q, // Guild
+        .pill-L_aLMQ, // Home
+        .pill-22lZHo, // DM
         .pill-1aYSec{
-            .item-2hkk8m{
+            .item-2LIpTv{
                 width: 3px;
                 height: 24px !important;
                 margin-left: 4px;
@@ -38,16 +38,16 @@
             }
         }
         // Guild icon
-        .wrapper-25eVIn{
+        .wrapper-28eC3z{
             svg foreignObject{
                 mask: none;
             }
-            .icon-27yU2q{
+            .icon-3AqZ2e{
                 width: 24px;
                 height: 24px;
                 border-radius: 50%;
             }
-            .acronym-2mOFsV{
+            .acronym-2zrAHN{
                 width: 24px;
                 height: 24px;
                 background-color: transparent;
@@ -55,15 +55,11 @@
                 @include TypeBodyStrong;
             }
         }
-        .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
-        .wrapper-1BJsBx:hover .childWrapper-anI2G9{
-            background-color: transparent;
-        }
 
         // Home
-        .wrapper-1BJsBx{
+        .wrapper-3kah-n{
             &[aria-label="Home"]{
-                .childWrapper-anI2G9{
+                .childWrapper-1j_1ub{
                     background-color: transparent;
                     &::before{
                         content: "\E80F";
@@ -79,16 +75,16 @@
             }
         }
         // Remove Home :active transform
-        .listItemWrapper-2MsAsM:active{
+        .blobContainer-ikKyFs:active{
             transform: none;
         }
 
         // Separator
-        .guildSeparator-nWMCrR{
+        .guildSeparator-a4uisj{
             display: none;
         }
         // Add server/Server Discovery icons
-        .circleIconButton-hZmpE8{
+        .circleIconButton-1VxDrg{
             background-color: transparent;
             color: #FFF;
             &[aria-label]{
@@ -99,7 +95,7 @@
             }
         }
         // Offline
-        .guildsError-11GiUv{
+        .guildsError-2gzNaD{
             background-color: $SystemFillColorCritical;
             border: 0;
             border-radius: 0;
@@ -107,23 +103,23 @@
             font-weight: 400;
         }
         //badge
-        .lowerBadge-29hYVK,
-        .upperBadge-2XnnGB{
+        .lowerBadge-3WTshO,
+        .upperBadge-1V6Iyi{
             right: 4px;
             transform: none !important;
         }
-        .upperBadge-2XnnGB{
+        .upperBadge-1V6Iyi{
             top: 4px;
         }
-        .lowerBadge-29hYVK{
+        .lowerBadge-3WTshO{
             bottom: 4px;
             z-index: 1;
         }
     }
     // Folders
-    .wrapper-shyHJt{
-        .listItem-2Ig28I{
-            .wrapper-25eVIn{
+    .wrapper-38slSD{
+        .listItem-3SmSlK{
+            .wrapper-28eC3z{
                 svg{
                     mask{
                         display: none;
@@ -137,40 +133,40 @@
         }
 
         // Round bottom of last guild in folder
-        ul[id^="folder-items"] .listItem-2Ig28I:last-of-type{
+        ul[id^="folder-items"] .listItem-3SmSlK:last-of-type{
             border-radius: 0 0 24px 24px;
         }
     }
-    .folder-2w6LX1{
+    .folder-241Joy{
         background-color: transparent;
     }
-    .folderIconWrapper-1Ml_1q{
+    .folderIconWrapper-1oRIZr{
         background-color: transparent !important;
         border-radius: 0;
     }
-    .closedFolderIconWrapper-1I9YfS{
+    .closedFolderIconWrapper-3tRb2d{
         padding: 8px;
     }
-    .expandedFolderBackground-3ZDF05{
+    .expandedFolderBackground-1kSAf6{
         left: 0;
         bottom: 0;
         background-color: $CardBackgroundFillColorDefault;
         border-radius: 24px;
-        &.collapsed-2Zqqnx{
+        &.collapsed-uGXEbi{
             background-color: transparent;
         }
-        &:not(.collapsed-2Zqqnx) ~ .listItem-2Ig28I{
+        &:not(.collapsed-uGXEbi) ~ .listItem-3SmSlK{
             border-radius: 24px 24px 0 0;
         }
     }
-    .expandedFolderIconWrapper-3fmTfW{
+    .expandedFolderIconWrapper-3RwQpD{
         svg path{
             clip-path: inset(1px 1px 1px 1px);
         }
     }
     // Unread notification bars
     // These break due to our fixed buttons at the bottom, so we remove them
-    .unreadMentionsIndicatorTop-2-tcdU,
+    .unreadMentionsIndicatorTop-2bTgUU,
     .unreadMentionsIndicatorBottom-2mDYbI{
         display: none;
     }

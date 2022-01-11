@@ -1,18 +1,17 @@
-.theme-dark .threadSidebar-1o3BTy,
-.theme-dark .chatContent-a9vAAp{
+.theme-dark .container-3XgAHv{
     background-color: transparent;
     border-radius: 0;
 
     // Toolbar
-    .container-1r6BKw{
+    .container-ZMc96U{
         background-color: transparent;
-        .icon-22AiRD{
+        .iconWrapper-2awDjA{
             display: none;
         }
     }
 
     // Chat
-    .chat-15Vmww{
+    .chat-1-OBC7{
         background-color: $LayerFillColorDefault;
         border-top: 1px solid $CardStrokeColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
@@ -22,7 +21,7 @@
         }
     }
     // Archived header
-    .chatHeaderBar-4vZS1x{
+    .chatHeaderBar-2fUORh{
         margin: 8px;
         background-color: $SystemFillColorSolidNeutralBackground;
         border: 1px solid $CardStrokeColorDefault;
@@ -33,20 +32,20 @@
     }
 
     // Start of history
-    .container-3RCQyg{
-        .iconWrapper-L3hQuc{
+    .container-1yy5xN{
+        .iconWrapper-3plkqh{
             display: none;
         }
-        .colorHeaderSecondary-3Sp3Ft{
+        .colorHeaderSecondary-g5teka{
             color: $TextFillColorPrimary;
             @include TypeBody;
         }
     }
 }
 
-.theme-dark .chat-3bRxxu.threadSidebarOpen-vdkwIh{
+.theme-dark .chat-2ZfjoI.threadSidebarOpen-1LSXvU{
     border-radius: 0;
-    .content-yTz4x3{
+    .content-1jQy2l{
         border-right: 1px solid $CardStrokeColorDefault;
         border-radius: 8px 8px 0 0;
     }
