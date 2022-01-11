@@ -1,0 +1,31 @@
+// Remove background from RTC/account
+.panels-3wFtMD{
+    background-color: transparent;
+
+    .button-12Fmur{
+        margin-left: 4px;
+        background-color: $ControlFillColorDefault;
+        border: 1px solid $ControlStrokeColorDefault;
+        border-radius: 4px;
+        color: $TextFillColorPrimary;
+        &:hover{
+            background-color: $ControlFillColorSecondary;
+        }
+        &:active{
+            background-color: $ControlFillColorTertiary;
+        }
+        .contents-3ca1mk{
+            display: none;
+        }
+        &::before{
+            @include FontIconFluent;
+            font-size: 16px;
+        }
+
+        // Make muted buttons red
+        &[aria-checked=true]{
+            border-color: $SystemFillColorCritical;
+            color: $SystemFillColorCritical;
+        }
+    }
+}

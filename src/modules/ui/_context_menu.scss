@@ -1,0 +1,100 @@
+.theme-dark .menu-1QACrS{
+    min-width: 240px;
+    padding: 8px 0;
+    background-color: rgba($color: #2d2d2d, $alpha: .93);
+    border: 1px solid $SurfaceStrokeColorFlyout;
+    border-radius: 4px;
+    position: relative;
+
+    &::before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        backdrop-filter: blur(10px);
+        border-radius: 4px;
+    }
+
+    .scroller-1bVxF5{
+        // padding: 0 8px;
+        max-height: calc(100vh - 64px);
+    }
+
+    // Separators
+    .separator-1So4YB{
+        margin: 10px 4px;
+        border-bottom-color: $DividerStrokeColorDefault;
+    }
+
+    // Item
+    .item-1OdjEX{
+        margin: 0 0 0 -4px;
+        padding: 0 12px;
+        border-radius: 4px;
+        @include TypeBody;
+        color: $TextFillColorPrimary;
+        &.focused-3qFvc8{
+            background-color: $CardBackgroundFillColorSecondary;
+        }
+        &.colorDanger-3n-KnP{
+            color: $SystemFillColorCritical;
+        }
+        &.disabled-oOAXat{
+            color: $TextFillColorDisabled;
+            opacity: 1;
+        }
+
+        // Remove subtext on Spotify menu items
+        &[id*="spotify"],
+        &[id*="listen"]{
+            .subtext-2GlkbE{
+                display: none;
+            }
+        }
+
+        // Items with subtext
+        .subtext-2GlkbE{
+            margin-top: 0;
+        }
+    }
+
+    // Emoji items
+    .button-1zW0-r{
+        width: 24px;
+        height: 24px;
+        background-color: $CardBackgroundFillColorSecondary;
+        &.focused-H4w81f{
+            background-color: $CardBackgroundFillColorSecondary;
+            box-shadow: none;
+        }
+        .icon-Yl4xbA{
+            width: 18px;
+            height: 18px;
+
+        }
+    }
+
+    // Volume slider
+    .grabber-2GQyvM{
+        margin-top: -2px !important;
+    }
+
+    .submenu-1apzyU{
+        min-width: 240px;
+        padding: 8px 0;
+        background-color: rgba($color: #2d2d2d, $alpha: .95);
+        border: 1px solid $SurfaceStrokeColorFlyout;
+        position: relative;
+        &::before{
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            backdrop-filter: blur(10px);
+        }
+    }
+}

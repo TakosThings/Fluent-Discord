@@ -1,0 +1,30 @@
+.theme-dark .container-1ILvLB{
+    background-color: $SolidBackgroundFillColorBase;
+    border: 1px solid $SurfaceStrokeColorDefault;
+    border-radius: 8px;
+
+    .header-2C89wJ{
+        padding: 24px 24px 0 24px;
+        background-color: transparent;
+        justify-content: flex-start;
+    }
+
+    section{
+        padding: 20px;
+        background-color: transparent;
+        p{
+            color: $TextFillColorPrimary;
+            @include TypeBody;
+        }
+        strong{
+            color: $TextFillColorSecondary;
+            @include TypeBodyStrong;
+        }
+        a{
+            color: $AccentTextFillColorPrimary;
+            &:active{
+                color: $AccentTextFillColorTertiary;
+            }
+        }
+    }
+}

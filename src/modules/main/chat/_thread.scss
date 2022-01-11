@@ -1,0 +1,53 @@
+.theme-dark .container-3XgAHv{
+    background-color: transparent;
+    border-radius: 0;
+
+    // Toolbar
+    .container-ZMc96U{
+        background-color: transparent;
+        .iconWrapper-2awDjA{
+            display: none;
+        }
+    }
+
+    // Chat
+    .chat-1-OBC7{
+        background-color: $LayerFillColorDefault;
+        border-top: 1px solid $CardStrokeColorDefault;
+        border-left: 1px solid $CardStrokeColorDefault;
+        border-radius: 8px 0 0 0;
+        &::before{
+            display: none;
+        }
+    }
+    // Archived header
+    .chatHeaderBar-2fUORh{
+        margin: 8px;
+        background-color: $SystemFillColorSolidNeutralBackground;
+        border: 1px solid $CardStrokeColorDefault;
+        border-radius: 8px;
+        .colorHeaderSecondary-3Sp3Ft{
+            color: $TextFillColorPrimary;
+        }
+    }
+
+    // Start of history
+    .container-1yy5xN{
+        .iconWrapper-3plkqh{
+            display: none;
+        }
+        .colorHeaderSecondary-g5teka{
+            color: $TextFillColorPrimary;
+            @include TypeBody;
+        }
+    }
+}
+
+.theme-dark .chat-2ZfjoI.threadSidebarOpen-1LSXvU{
+    border-radius: 0;
+    .content-1jQy2l{
+        border-right: 1px solid $CardStrokeColorDefault;
+        border-radius: 8px 8px 0 0;
+    }
+}
+

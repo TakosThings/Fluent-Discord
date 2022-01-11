@@ -1,0 +1,26 @@
+.theme-dark .textContainer-36wgKK{
+    background-color: $CardBackgroundFillColorDefault;
+    border: 1px solid $SurfaceStrokeColorFlyout;
+    border-radius: 8px 8px 0 0;
+    .codeView-1JPDeA{
+        white-space: break-spaces;
+    }
+}
+
+// Footer
+.theme-dark .footer-GXWBBp{
+    background-color: $CardBackgroundFillColorDefault;
+    border: 1px solid $SurfaceStrokeColorFlyout;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+
+    @include TypeCaption;
+    color: $TextFillColorPrimary;
+}
+
+// Codeblock
+.markup-eYLPri code{
+    background-color: $CardBackgroundFillColorDefault;
+    border: 1px solid $SurfaceStrokeColorFlyout;
+    border-radius: 8px;
+}

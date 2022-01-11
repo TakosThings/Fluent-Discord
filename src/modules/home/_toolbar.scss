@@ -1,0 +1,69 @@
+.theme-dark .container-2cd8Mz{
+    background-color: transparent;
+    // Toolbar
+    .container-ZMc96U{
+        background-color: transparent;
+
+        // Remove icon
+        .children-3xh0VB > .iconWrapper-2awDjA{
+            display: none;
+        }
+
+        .title-17SveM{
+            margin-left: 20px;
+        }
+
+        // Tab bar
+        .item-3mHhwr{
+            height: 36px;
+            margin: 0 0 0 8px;
+            border-radius: 0;
+            color: $TextFillColorPrimary;
+            @include TypeBody;
+            &:hover{
+                background-color: transparent;
+                color: $TextFillColorSecondary;
+            }
+            &.selected-g-kMVV{
+                background-color: transparent;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 3px;
+                    background-color: $AccentLight1;
+                    border-radius: 2px;
+                    bottom: 2px;
+                }
+            }
+            // Add friend button
+            &[style]{
+                background-color: transparent !important; // why though
+                &:hover{
+                    color: $TextFillColorSecondary !important;
+                }
+                &[aria-selected=true]{
+                    color: $TextFillColorPrimary !important;
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        height: 3px;
+                        background-color: $AccentLight1;
+                        border-radius: 2px;
+                        bottom: 2px;
+                    }
+                }
+            }
+        }
+
+        // Remove gradient on right-side of tab bar
+        .children-3xh0VB::after{
+            display: none;
+        }
+        // Remove divider between Group DM and Inbox
+        .divider-q3P9HC{
+            display: none;
+        }
+    }
+}

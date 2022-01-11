@@ -1,0 +1,38 @@
+// Main UI transparency
+.sidebar-1tnWFu, // channels
+.container-1NXEtd,
+.wrapper-1_HaEi, // guilds
+.scroller-3X7KbA{ // guilds scroll
+    background-color: transparent;
+}
+
+// Settings transparency
+.layer-86YKbF,
+.standardSidebarView-E9Pc3j,
+.contentRegionScroller-2_GT_N,
+.contentRegion-3HkfJJ{
+    background-color: transparent;
+}
+
+// Background layers
+// NOTE: 2021-07-09 - The 'acrylic' effect is made of two layers
+//    Background image - To be declared by the user in the options section
+//    Filter overlay - Saturate helps bring out some colours from the background layer
+// DEV: 2021-07-06 - Dev textures
+.bg-1QIAus{
+    margin-top: -10px; // Hides the black bar at top of titlebar (ie. grabber)
+    background-color: transparent;
+    // Background image in ../core/options
+    background-size: cover;
+    &::before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    // Filters
+    &::before{
+        background: $MicaBackgroundFillColorBase;
+        // Filters in ../core/options
+    }
+}

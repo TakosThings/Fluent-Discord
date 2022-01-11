@@ -1,0 +1,102 @@
+// Hide titlebar
+.platform-win .container-2RRFHK{
+    padding-top: 32px;
+    top: -32px;
+}
+
+@keyframes fluent-loading-blobs{
+    0%   { opacity: 0; left: 0; top: 0%}
+    25%  { opacity: .7; }
+    50%  { opacity: 0; left: 25%; top: 50%; }
+	100% { opacity: 0; }
+}
+
+
+.container-2RRFHK{
+    background-color: #000;
+
+    // Loading blob animations
+    &::before,
+    &::after{
+        content: "";
+        width: 1024px;
+        height: 1024px;
+        position: absolute;
+        background: radial-gradient(circle, $AccentBase 0%, transparent 70%);
+    }
+    &::before{
+        transform: translate(-192px, -192px);
+
+        opacity: 0;
+        animation: fluent-loading-blobs 10s linear infinite;
+        animation-delay: 20s; // Delay starting animations
+    }
+    &::after{
+        transform: translate(192px, 64px);
+
+        opacity: 0;
+        animation: fluent-loading-blobs 17s linear infinite;
+        animation-delay: 35s; // Delay starting animations
+    }
+}
+
+.content-3AIQZv{
+    video{
+        display: none;
+    }
+    &::after{
+        content: "Connecting";
+        width: 100%;
+        position: absolute;
+        left: 0;
+        color: $TextFillColorPrimary;
+        @include TypeSubtitle;
+        text-align: center;
+    }
+
+    // Loading circle
+    .text-2bYgPB{
+        width: 64px;
+        height: 64px;
+        display: block;
+        animation: fluent-loading-circle 1.5s linear infinite;
+        .body-15LvnD{
+            line-height: unset;
+            font-size: 0;
+
+            width: 64px;
+            height: 64px;
+            position: absolute;
+
+            background-color: transparent;
+            clip: rect(0, 64px, 64px, 32px);
+            animation: fluent-loading-circle-progress-1 5s linear infinite;
+            &::after{
+                content: "";
+                position: absolute;
+                height: 64px;
+                width: 64px;
+                top: 0;
+                left: 0;
+                clip: rect(0, 64px, 64px, 32px);
+                border: 3px solid #FFF;
+                border-radius: 50%;
+                animation: fluent-loading-circle-progress-2 5s linear infinite;
+                box-sizing: border-box;
+            }
+        }
+
+        .tipTitle-3FYEQp,
+        .tip-1AwED_{
+            display: none;
+        }
+    }
+}
+
+// Links
+.problemsText-1DBHh5{
+    color: $TextFillColorPrimary;
+}
+.anchor-1MIwyf{
+    color: $AccentTextFillColorPrimary;
+}

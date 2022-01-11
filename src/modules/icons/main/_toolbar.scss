@@ -1,0 +1,90 @@
+.toolbar-3_r2xA{
+    .iconWrapper-2awDjA{
+        // Threads
+        &[aria-label="#{map-get($translate, THREADS)}"]::before{
+            content: "\E8C4"; // ShowBcc
+        }
+
+        // Mute channel
+        &[aria-label*="#{map-get($translate, CHANNEL_MUTE_LABEL)}"][aria-checked="false"]::before{
+            content: "\EA8F"; // Ringer
+        }
+        &[aria-label*="#{map-get($translate, CHANNEL_MUTE_LABEL)}"][aria-checked="true"]::before{
+            content: "\E7ED"; // RingerSilent
+        }
+
+        // Pinned Messages
+        &[aria-label="#{map-get($translate, PINNED_MESSAGES)}" i]::before{
+            content: "\E840"; // Pinned
+        }
+
+        // Member list
+        &[aria-label="#{map-get($translate, MEMBER_LIST_SHOWN)}"]::before,
+        &[aria-label="#{map-get($translate, MEMBER_LIST_HIDDEN)}"]::before{
+            content: "\E716"; // People
+        }
+
+        // Mail
+        &[aria-label="#{map-get($translate, INBOX)}"]::before{
+            content: "\E715"; // Mail
+        }
+
+        // Threads: Notification Settings
+        &[aria-label="#{map-get($translate, NOTIFICATION_SETTINGS)}" i]::before{
+            content: "\EA8F"; // Ringer
+        }
+
+        // Threads: More
+        &[aria-label="#{map-get($translate, MORE)}"]::before{
+            content: "\E712"; // More
+        }
+
+         // Threads: Close
+         &[aria-label="#{map-get($translate, CLOSE)}"]::before{
+            content: "\E89F"; // More
+        }
+
+        // Help
+        &[aria-label="#{map-get($translate, HELP)}"]{
+            display: none;
+        }
+
+        // Home
+        // New group DM
+        &[aria-label="#{map-get($translate, NEW_GROUP_DM)}" i]::before{
+            content: "\E902"; // Group
+        }
+
+        // DM
+        // Start voice call
+        &[aria-label="#{map-get($translate, START_VOICE_CALL)}" i]::before{
+            content: "\E717"; // Phone
+        }
+        &[aria-label="#{map-get($translate, START_VIDEO_CALL)}" i]::before{
+            content: "\E8AA"; // VideoChat
+        }
+        &[aria-label="#{map-get($translate, GROUP_DM_ADD_FRIENDS)}" i]::before{
+            content: "\E902"; // Group
+        }
+
+
+    }
+    .button-1fGHAH{
+        // Call tiles
+        // Focus
+        &[aria-label="#{map-get($translate, VIDEO_CALL_AUTO_SELECT)}"]::before,
+        &[aria-label="#{map-get($translate, VIDEO_CALL_RETURN_TO_GRID)}"]::before{
+            content: "\ECA5"; // Tiles
+        }
+        // More
+        &[aria-label="#{map-get($translate, MORE)}"]::before{
+            content: "\E712"; // More
+        }
+    }
+
+    // Search
+    .search-1FM8Qc:not(.open-3y3yI_)::before{
+        content: "\e721";
+    }
+}
+

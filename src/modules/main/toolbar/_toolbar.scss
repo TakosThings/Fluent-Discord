@@ -1,0 +1,82 @@
+.theme-dark .title-31SJ6t{
+    padding: 0 0 0 32px;
+    &.themed-Hp1KC_{
+        background-color: transparent;
+    }
+    // Channel & MOTD
+    // Remove hash symbol
+    .children-3xh0VB{
+        // Gradient at end of MOTD field
+        &::after{
+            display: none;
+        }
+        .iconWrapper-2awDjA{
+            display: none;
+        }
+    }
+    // Channel name
+    .title-17SveM{
+        @include TypeBodyStrong
+    }
+
+    // Remove divider
+    .divider-q3P9HC{
+        display: none;
+    }
+
+    // MOTD
+    .topic-11NuQZ{
+        color: $TextFillColorPrimary;
+        @include TypeBody;
+    }
+
+    // Add some margin to the caret when in fullscreen thread view
+    .caret-1le2LN{
+        margin-right: 8px;
+    }
+}
+
+// Toolbar
+.theme-dark .toolbar-3_r2xA{
+    .iconWrapper-2awDjA{
+        margin: 0 4px 0 0;
+        border-radius: 4px;
+        &:hover{
+            background-color: $ControlFillColorSecondary;
+        }
+    }
+    .iconWrapper-2awDjA{
+        width: 64px;
+        height: 36px;
+        &::before{
+            @include FontIconFluent;
+            width: 62px;
+            position: absolute;
+            font-size: 16px;
+            line-height: 36px;
+            text-align: center;
+            display: block;
+        }
+        // Remove default icon
+        .icon-2xnN2Y,
+        .controlIcon-35oS15{
+            display: none;
+        }
+        // Selected
+        &.selected-29KTGM{
+            background-color: $AccentFillColorSecondary;
+        }
+        // Toggled (mute channel)
+        &[aria-checked="true"]{
+            color: $SystemFillColorCritical;
+        }
+    }
+    .iconBadge-3Mmg92{
+        width: 32px;
+        height: 3px;
+        right: 16px;
+        border-radius: 2px;
+        background-color: $SystemFillColorCritical;
+        z-index: -1;
+    }
+}

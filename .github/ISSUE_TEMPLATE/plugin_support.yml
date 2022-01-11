@@ -1,0 +1,22 @@
+name: Plugin Support Request
+description: Request support for a plugin
+title: Plugin name here
+labels: [better discord, plugin support]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Put the name of the plugin in the Title, then complete the form.
+        The plugin must be approved on [BetterDiscord.app](https://betterdiscord.app).
+  - type: input
+    id: url
+    attributes:
+      label: Plugin Link
+      description: Link to the BetterDiscord.app page
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything I need to know?

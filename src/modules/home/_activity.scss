@@ -1,0 +1,38 @@
+.theme-dark .nowPlayingColumn-1eCBCN{
+    background: transparent;
+    .container-1oAagU{
+        background-color: $LayerFillColorDefault;
+        border-left: 1px solid $CardStrokeColorDefault;
+    }
+    .scroller-hE2gWq{
+        border: 0;
+    }
+
+    // Header
+    .header-Imy05m{
+        @include TypeBodyLarge;
+    }
+
+    // Card
+    .wrapper-2RrXDg{
+        background-color: $LayerFillColorDefault;
+        border: 1px solid $CardStrokeColorDefault;
+        &:hover{
+            background-color: $LayerFillColorAlt;
+        }
+    }
+    .inset-SbsSFp{
+        background-color: $LayerFillColorDefault;
+        border: 1px solid $CardStrokeColorDefault;
+        border-radius: 4px;
+        .section-3G9aLW{
+            background-color: transparent;
+        }
+    }
+
+    // Empty
+    .emptyCard-KDifrB{
+        background-color: $LayerFillColorDefault;
+        border: 1px solid $CardStrokeColorDefault;
+    }
+}

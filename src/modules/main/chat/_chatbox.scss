@@ -1,0 +1,166 @@
+.theme-dark .form-3gdLxP{
+    margin-top: 0;
+    // Remove gradient on left
+    &::before{
+        display: none;
+    }
+
+    .channelTextArea-1FufC0{
+        margin-bottom: 16px;
+        background-color: $ControlFillColorDefault;
+        border: 1px solid $ControlStrokeColorDefault;
+        border-bottom: 2px solid $ControlStrokeColorDefault;
+        border-radius: 4px;
+        &:hover{
+            background-color: $ControlFillColorSecondary;
+        }
+        &:focus-within{
+            background-color: $ControlFillColorInputActiveBrush;
+            border-color: $ControlStrokeColorDefault;
+            border-bottom-color: $AccentBase;
+        }
+    }
+    .scrollableContainer-15eg7h{
+        background-color: transparent;
+        border-radius: 4px;
+        overflow-y: auto;
+    }
+
+    .sansAttachButton-1ERHue{
+        padding-left: 0;
+    }
+
+    // Placeholder
+    .placeholder-1_mJY1{
+        right: 8px;
+        left: 8px;
+        color: $TextFillColorSecondary;
+    }
+
+    // User's input text
+    .slateTextArea-27tjG0{
+        right: 8px;
+        left: 8px;
+        color: $TextFillColorPrimary;
+    }
+
+
+    // Upload button
+    .attachButton-_ACFSu{
+        width: 44px;
+        height: 44px;
+        margin: 0;
+        border-radius: 2px;
+        &::before{
+            content: "\E898"; // Upload
+            color: $TextFillColorSecondary;
+            @include FontIconFluent;
+            font-size: 16px;
+        }
+        &:hover{
+            &::before{
+                color: $TextFillColorPrimary;
+            }
+        }
+        .contents-3ca1mk{
+            display: none;
+        }
+    }
+
+    // NOTE: 2021-11-21 - This fixes an issue where syntax will 'collapse' on itself due to the Segoe Variable font
+    .codeBlockSyntax-2MZ-Qy{
+        font-family: Consolas, monospace;
+    }
+
+    // Gift/GIF/Sticker/Emoji buttons
+    .buttons-uaqb-5{
+        height: unset;
+        margin-right: 0;
+        // Remove gift
+        & > .button-f2h6uQ{
+            display: none;
+        }
+        // Remove GIF
+        .buttonContainer-2lnNiN:nth-child(2){
+            display: none;
+        }
+        // Remove Sticker
+        .buttonContainer-2lnNiN:nth-child(3){
+            display: none;
+        }
+        // Set a static emoji icon
+        .emojiButton-3FRTuj{
+            width: 44px;
+            height: 44px;
+            margin: 0;
+            border-radius: 2px;
+            &::before{
+                content: "\E76E"; //Emoji2
+                color: $TextFillColorSecondary;
+                @include FontIconFluent;
+                font-size: 16px;
+            }
+            &:hover{
+                &::before{
+                    color: $TextFillColorPrimary;
+                }
+            }
+            .contents-3ca1mk{
+                display: none;
+            }
+        }
+
+    }
+
+    // Is Typing
+    .typing-2J1mQU{
+        height: 32px;
+        top: -32px;
+        right: 16px;
+        bottom: unset;
+        background-color: transparent;
+        font-size: 11px;
+        line-height: 20px;
+        align-items: flex-end;
+        justify-content: flex-end;
+        pointer-events: none;
+        svg{
+            display: none;
+        }
+        span[class^="text-"]{
+            // Force text to right side when slowmode is enabled
+            right: 0;
+            position: absolute;
+            strong{
+                font-weight: normal;
+            }
+        }
+        // Slowmode font-weight
+        .cooldownWrapper-2k1jHK{
+            font-weight: normal;
+        }
+        // Fix position of countdown timer
+        .text-3S7XCz:not(:empty) + .cooldownWrapper-2k1jHK{
+            margin-bottom: 14px;
+        }
+    }
+
+    // Various chatbox states
+    // Announce channel follow
+    .wrapper-2SplAX{
+        margin-bottom: 16px;
+        background-color: $ControlFillColorDisabled;
+        border: 1px solid $ControlStrokeColorDefault;
+        // Remove image
+        .content-2M_BlY{
+            img{
+                display: none;
+            }
+            .base-21yXnu{
+                color: $TextFillColorDisabled !important;
+                @include TypeBody;
+            }
+        }
+    }
+}
+

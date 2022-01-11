@@ -1,0 +1,63 @@
+.theme-dark .container-2cd8Mz{
+    // Body
+    .tabBody-2dgbAs{
+        background-color: $LayerFillColorDefault;
+        border-top: 1px solid $CardStrokeColorDefault;
+        border-left: 1px solid $CardStrokeColorDefault;
+        border-radius: 8px 0 0 0;
+        &::before{
+            display: none;
+        }
+
+        // Header
+        .title-x4dI75{
+            @include TypeBodyLarge;
+            letter-spacing: normal;
+        }
+
+        // Item
+        .peopleListItem-u6dGxF.active-2UF8Zh,
+        .peopleListItem-u6dGxF:hover{
+            border-radius: 4px;
+        }
+
+        // Username
+        .username-Qpc78p{
+            @include TypeBodyStrong;
+        }
+        // User Status
+        .text-MPIeXO{
+            @include TypeCaption;
+        }
+
+        // Buttons
+        .actionButton-3-B2x-{
+            background-color: transparent;
+            visibility: hidden;
+
+            &::before{
+                @include FontIconFluent;
+                color: $TextFillColorSecondary;
+            }
+            svg{
+                display: none;
+            }
+        }
+        // Show buttons when hovered
+        .peopleListItem-u6dGxF.active-2UF8Zh .actionButton-3-B2x-,
+        .peopleListItem-u6dGxF:hover .actionButton-3-B2x-{
+            visibility: visible;
+        }
+    }
+
+    // Empty
+    .friendsEmpty-gs15T1{
+        .image-20MDYu{
+            filter: brightness(200%)
+        }
+        .text-27cdrj{
+            @include TypeBody;
+            color: $TextFillColorPrimary;
+        }
+    }
+}

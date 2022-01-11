@@ -1,0 +1,36 @@
+.theme-dark .container-1zzFcN{
+    border-top: 1px solid $DividerStrokeColorDefault;
+    border-bottom: 1px solid $DividerStrokeColorDefault;
+
+    // Video/screen share buttons
+    .actionButtons-2vEOUh{
+        grid-gap: 4px;
+        button{
+            min-width: calc(120px - 16px) !important;
+            background-color: $ControlFillColorDefault !important;
+            border: 1px solid $ControlStrokeColorDefault !important;
+            border-radius: 4px;
+            color: $TextFillColorPrimary !important;
+            &:hover{
+                background-color: $ControlFillColorSecondary !important;
+            }
+            &:active{
+                background-color: $ControlFillColorTertiary !important;
+            }
+
+            // Replace icon
+            svg{
+                display: none;
+            }
+        }
+    }
+}
+
+// Streaming game/app
+.theme-dark .activityPanel-9icbyU{
+    border-top: 1px solid $DividerStrokeColorDefault;
+    border-bottom: 0;
+    .title-338goq{
+        @include TypeBody;
+    }
+}

@@ -1,0 +1,19 @@
+.theme-dark .peopleList-2VBrVI{
+    [aria-label="#{map-get($translate, SEND_DM)}"]::before{
+        content: "\e8bd"; // Message
+    }
+    [aria-label="#{map-get($translate, MORE)}"]::before{
+        content: "\e712"; // More
+    }
+
+    [aria-label="#{map-get($translate, UNBLOCK)}"]::before{
+        content: "\e8f8"; // BlockContact
+    }
+
+    [aria-label="#{map-get($translate, FRIEND_REQUEST_ACCEPT)}"]::before{
+        content: "\e8fb"; // Accept
+    }
+    [aria-label="#{map-get($translate, FRIEND_REQUEST_IGNORE)}"]::before{
+        content: "\e711"; // Cancel
+    }
+}
