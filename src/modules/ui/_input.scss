@@ -1,0 +1,40 @@
+// Type: Single-line text input
+.input-2g-os5{
+    height: 32px;
+    background-color: transparent;
+    border: 1px solid;
+    border-bottom-width: 2px;
+    border-radius: 4px;
+    @include TypeBody;
+
+    // Sizing
+    &.inputDefault-3FGxgL{
+        padding: 0 12px;
+        // height: 32px;
+    }
+    &.textArea-3WXAeD,
+    &.textarea-_59yqs{
+        padding: 4px 12px;
+    }
+}
+
+.theme-dark{
+    .input-2g-os5{
+        background-color: $ControlFillColorDefault;
+        color: $TextFillColorSecondary;
+        border-color: $ControlElevationBorder;
+
+        &:hover{
+            border-color: $ControlStrokeColorSecondary;
+        }
+        &:focus{
+            background-color: $ControlFillColorInputActiveBrush;
+            color: $TextFillColorPrimary;
+            border-color: $ControlElevationBorder;
+            border-bottom-color: $AccentBase;
+        }
+        &::placeholder{
+            color: $TextFillColorSecondary;
+        }
+    }
+}
