@@ -3,6 +3,7 @@
     @include TypeBody;
 
     // Sizes
+    &.sizeMin-DfpWCE, // eg. Add server 'back' buttons
     &.sizeSmall-wU2dO-,
     &.sizeMedium-2bFIHr, // eg. Create new server
     &.sizeLarge-3mScP9, // eg. Add a keybind
@@ -78,4 +79,34 @@
         }
     }
 
+    // Blank
+    &.lookBlank-21BCro{ // eg. Add server 'back' buttons
+        &.backButton-2Ps-B8{
+            background-color: $ControlFillColorDefault;
+            border: 1px solid $ControlStrokeColorDefault;
+            color: $TextFillColorPrimary;
+            &:hover{
+                background-color: $ControlFillColorSecondary;
+            }
+            &:active{
+                background-color: $ControlFillColorTertiary;
+            }
+        }
+    }
+
+    // Link button
+    &.lookLink-15mFoz{
+        background-color: $ControlFillColorDefault;
+        border: 1px solid $ControlStrokeColorDefault;
+        color: $TextFillColorPrimary;
+        &:hover{
+            background-color: $ControlFillColorSecondary;
+            .contents-3ca1mk{
+                background-image: none;
+            }
+        }
+        &:active{
+            background-color: $ControlFillColorTertiary;
+        }
+    }
 }
