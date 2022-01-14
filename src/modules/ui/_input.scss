@@ -19,6 +19,11 @@
 }
 
 .theme-dark{
+    .title-3hptVQ{
+        color: $TextFillColorPrimary;
+        @include TypeBody;
+        text-transform: none;
+    }
     .input-2g-os5{
         background-color: $ControlFillColorDefault;
         color: $TextFillColorSecondary;
