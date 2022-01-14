@@ -1,0 +1,229 @@
+// This file is courtesy of Discord's Department of Redundancy Depart at Discord
+// Add server modal has light theme manually applied to it for some reason.
+.theme-light .root-g14mjS{
+    background: $SolidBackgroundFillColorBase;
+    border: 1px solid $SurfaceStrokeColorDefault;
+    border-radius: 8px;
+    box-shadow: none;
+
+    // Main page
+    // Header (main page)
+    .header-1c1AhF{
+        padding: 24px 24px 0 24px;
+        background-color: $CardBackgroundFillColorDefault;
+        align-items: unset;
+        .title-1_TkpU,
+        .subtitle-3m-md1{
+            text-align: left;
+            color: $TextFillColorPrimary;
+        }
+        .title-1_TkpU{
+            @include TypeSubtitle;
+        }
+        .subtitle-3m-md1{
+            @include TypeBody;
+        }
+    }
+
+    // Content
+    .content-2hZxGK{
+        padding: 24px 24px 0 24px;
+        background-color: $CardBackgroundFillColorDefault;
+    }
+    .templatesList-uohY49,
+    .optionsList-dmHy1l{
+        margin-top: 0;
+        padding-top: 24px;
+        .optionHeader-27AHfD{
+            color: $TextFillColorPrimary;
+            @include TypeBodyStrong;
+            text-transform: none;
+        }
+        .container-x8Y1ix{
+            height: 32px;
+            margin-bottom: 4px;
+            padding: 0 12px;
+            background-color: transparent;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            .icon-AynerZ{
+                display: none;
+            }
+            .text-PdAsFQ{
+                color: $TextFillColorPrimary;
+                @include TypeBody;
+            }
+            .arrow-2yY1Tm{
+                margin-right: 0;
+                filter: brightness(200%);
+            }
+            &:hover{
+                background-color: $SubtleFillColorSecondary;
+            }
+            &:active{
+                background-color: $SubtleFillColorTertiary;
+            }
+        }
+    }
+    // Server name
+    .nameInput-ph8KMi{
+        .title-3hptVQ{
+            color: $TextFillColorPrimary;
+            @include TypeBody;
+            text-transform: none;
+        }
+    }
+    // Community guidelines
+    .guidelines-FvqqF2{
+        margin-bottom: 16px;
+        color: $TextFillColorSecondary;
+        @include TypeCaption;
+    }
+    // Skip question
+    .skip-2hTIXL{
+        color: $TextFillColorSecondary;
+        @include TypeCaption;
+        text-align: left;
+    }
+    // Server link
+    .input-m1-Y7Q{
+        background-color: transparent;
+    }
+    .input-2g-os5,
+    .input-2g-os5::placeholder{
+        font-weight: normal;
+    }
+    // Example links
+    .formTitle-2YQyhj{
+        color: $TextFillColorPrimary;
+        @include TypeBody;
+        text-transform: none;
+    }
+    .sampleLink-5BWNy9{
+        color: $AccentTextFillColorPrimary;
+        &:hover{
+            color: $AccentTextFillColorSecondary;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+    // Server discovery
+    .rowContainer-3t7486{
+        height: 32px;
+        margin-bottom: 16px;
+        padding: 0 12px;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        .rowIcon-1mRvtM{
+            display: none;
+        }
+        .size16-rrJ6ag{
+            display: none;
+        }
+        .size12-oc4dx4{
+            color: $TextFillColorPrimary;
+            @include TypeBody;
+        }
+        .rowArrow-TIwwIc{
+            margin-right: 0;
+            filter: brightness(200%);
+        }
+        &:hover{
+            background-color: $SubtleFillColorSecondary;
+        }
+        &:active{
+            background-color: $SubtleFillColorTertiary;
+        }
+    }
+
+    // Footer
+    .footer-31IekZ{
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+
+    // Sub page (de ja vu?)
+    // Header
+    .header-12n7su{
+        padding: 24px 24px 0 24px;
+        background-color: $CardBackgroundFillColorDefault;
+        align-items: unset;
+        .title-OdeD-o,
+        .subtitle-1cc8Nz{
+            text-align: left;
+            color: $TextFillColorPrimary;
+        }
+        .title-OdeD-o{
+            @include TypeSubtitle;
+        }
+        .subtitle-1cc8Nz{
+            @include TypeBody;
+        }
+    }
+
+    // Content
+    .content-2hZxGK{
+        background-color: $CardBackgroundFillColorDefault;
+    }
+    .optionsList-dmHy1l{
+        margin-top: 0;
+        padding-top: 24px;
+    }
+
+    // Sub sub page (de ja vu?)
+    // At least we don't have to do this again
+    // Header
+    .header-1zd7se{
+        padding: 24px 24px 0 24px;
+        background-color: $CardBackgroundFillColorDefault;
+        align-items: unset;
+        .title-2Giw-4,
+        .subtitle-bIoUVX{
+            text-align: left;
+            color: $TextFillColorPrimary;
+        }
+        .title-2Giw-4{
+            @include TypeSubtitle;
+        }
+        .subtitle-bIoUVX{
+            @include TypeBody;
+        }
+    }
+
+    // Content
+    .content-2hZxGK{
+        background-color: $CardBackgroundFillColorDefault;
+    }
+    .createGuild-2m1V10{
+        margin-top: 0;
+        padding-top: 24px;
+    }
+
+    // I lied just before
+    // Join server by URL page
+    // Header
+    .header-1zd7se{
+        padding: 24px 24px 0 24px;
+        background-color: $CardBackgroundFillColorDefault;
+        align-items: unset;
+        .title-1LqMUp,
+        .colorHeaderSecondary-g5teka{
+            text-align: left;
+            color: $TextFillColorPrimary;
+        }
+        .title-1LqMUp{
+            margin: 0;
+            @include TypeSubtitle;
+        }
+        .colorHeaderSecondary-g5teka{
+            @include TypeBody;
+        }
+    }
+    // Content
+    .content-2hZxGK{
+        padding-top: 24px;
+        border-radius: 0;
+    }
+}
