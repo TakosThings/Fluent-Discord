@@ -1,0 +1,43 @@
+// Radio groups
+.theme-dark div[role=radiogroup]{
+    .item-2idW98{
+        border: 1px solid transparent;
+        border-radius: 4px;
+        &.itemFilled-1cPbtg{
+            background-color: transparent;
+        }
+        &[aria-checked=true]{
+            background-color: $SubtleFillColorSecondary;
+            &:hover{
+                background-color: $SubtleFillColorTertiary;
+            }
+        }
+
+        &:hover{
+            background-color: $SubtleFillColorSecondary;
+        }
+        &:active{
+            background-color: $SubtleFillColorTertiary;
+        }
+
+        .info-2FZci4{
+            grid-gap: 0;
+            .radioText-3Mv1MY{ // See create channel modal
+                color: $TextFillColorPrimary;
+                &.size16-rrJ6ag{
+                    @include TypeBodyStrong;
+                }
+                &.size12-oc4dx4{
+                    @include TypeBody;
+                }
+            }
+            .title-1yyp9V{
+                color: $TextFillColorPrimary;
+                @include TypeBodyStrong;
+            }
+            .size14-3fJ-ot{
+                @include TypeBody;
+            }
+        }
+    }
+}
