@@ -18,8 +18,11 @@
 // Order: None, alphabetic
 @import 'modules/ui/buttons';
 @import 'modules/ui/context_menu';
+@import 'modules/ui/form';
+@import 'modules/ui/input';
 @import 'modules/ui/scrollbar';
 @import 'modules/ui/titlebar';
+@import 'modules/ui/tooltip';
 
 // Main UI
 // Order: None, alphabetic
@@ -48,9 +51,17 @@
 // Order: None, alphabetic
 @import 'modules/loadscreen/loadscreen';
 
+// Modals
+// Order: None, alphabetic
+@import 'modules/modals/add_server';
+@import 'modules/modals/lightbox';
+@import 'modules/modals/modal';
+
 // Popouts
 // Order: None, alphabetic
+@import 'modules/popouts/inbox';
 @import 'modules/popouts/noise_cancellation';
+@import 'modules/popouts/pinned_messages';
 @import 'modules/popouts/rtc';
 @import 'modules/popouts/user';
 

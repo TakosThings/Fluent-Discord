@@ -1,0 +1,23 @@
+.theme-dark .tooltip-14MtrL{
+    padding: 8px 12px;
+    background-color: $AcrylicBackgroundFillColorBase;
+    border: 1px solid $SurfaceStrokeColorFlyout;
+    border-radius: 4px;
+    color: $TextFillColorPrimary;
+    // box-sizing: unset;
+    @include TypeBody;
+    .tooltipPointer-3L49xb{
+        display: none;
+    }
+    .tooltipContent-Nejnvh{
+        padding: 0;
+    }
+}
+
+// Hide settings button tooltip
+.theme-dark .layer-v9HyYc{
+    &[style*="left: -29px;"],       //  100%, 110%, 125%, 150%, 175%
+    &[style*="left: -30px;"]{       //  50%, 67%, 75%, 80%, 90%, 200%
+        display: none;
+    }
+}

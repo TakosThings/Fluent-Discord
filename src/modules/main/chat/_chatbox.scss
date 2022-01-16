@@ -162,5 +162,13 @@
             }
         }
     }
+
+    // No permission
+    .textAreaDisabled-10ObTX{
+        .placeholder-1_mJY1{
+            color: $TextFillColorSecondary;
+            @include TypeBody;
+        }
+    }
 }
 

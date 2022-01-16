@@ -1,0 +1,9 @@
+.modal-3Crloo{
+    border: 0 !important; // Removes border that is set for all modals
+
+    .downloadLink-1OAglv{
+        color: $TextFillColorSecondary;
+        @include TypeBody;
+        opacity: 1;
+    }
+}

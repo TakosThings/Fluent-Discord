@@ -1,0 +1,47 @@
+.theme-dark .title-3hptVQ{
+    color: $TextFillColorPrimary;
+    @include TypeBody;
+    text-transform: none;
+}
+.theme-dark .input-2g-os5{
+    height: 32px;
+    background-color: transparent;
+    border: 1px solid;
+    border-bottom-width: 2px;
+    border-radius: 4px;
+    @include TypeBody;
+    background-color: $ControlFillColorDefault;
+    color: $TextFillColorSecondary;
+    border-color: $ControlElevationBorder;
+
+    // Sizing
+    &.inputDefault-3FGxgL{
+        padding: 0 12px;
+        // height: 32px;
+    }
+
+    &:hover{
+        border-color: $ControlStrokeColorSecondary;
+    }
+    &:focus{
+        background-color: $ControlFillColorInputActiveBrush;
+        color: $TextFillColorPrimary;
+        border-color: $ControlElevationBorder;
+        border-bottom-color: $AccentBase;
+    }
+    &::placeholder{
+        color: $TextFillColorSecondary;
+    }
+
+    &.textArea-3WXAeD,
+    &.textarea-_59yqs{
+        padding: 4px 12px;
+    }
+}
+// Create channel prefix
+.theme-dark .inputPrefix-1HHwWv{
+    top: 8px;
+    ~ .input-2g-os5{
+        padding-left: 32px !important;
+    }
+}
