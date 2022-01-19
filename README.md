@@ -4,8 +4,7 @@ A Windows 11 theme for Discord
 ## Download
 The theme is still in-development.
 * Some parts of the UI are not themed yet or may display slightly incorrectly.
-* At the moment you must have 'English US' selected or most icons will disappear.
-Go to [Releases](https://github.com/TakosThings/Fluent-Discord/releases/latest) and click 'Assets' under the latest pre-release.
+* Go to [Releases](https://github.com/TakosThings/Fluent-Discord/releases/latest) and click 'Assets' under the latest pre-release.
 
 ## Requirements
 * Windows 10 or Windows 11
