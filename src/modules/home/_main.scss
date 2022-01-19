@@ -34,15 +34,8 @@
         .actionButton-3-B2x-{
             background-color: transparent;
             visibility: hidden;
-
-            &::before{
-                @include FontIconFluent;
-                color: $TextFillColorSecondary;
-            }
-            svg{
-                display: none;
-            }
         }
+
         // Show buttons when hovered
         .peopleListItem-u6dGxF.active-2UF8Zh .actionButton-3-B2x-,
         .peopleListItem-u6dGxF:hover .actionButton-3-B2x-{
@@ -58,6 +51,19 @@
         .text-27cdrj{
             @include TypeBody;
             color: $TextFillColorPrimary;
+        }
+    }
+}
+
+// Icon replacements
+html[lang^="en-"].theme-dark .container-2cd8Mz{
+    .actionButton-3-B2x-{
+        &::before{
+            @include FontIconFluent;
+            color: $TextFillColorSecondary;
+        }
+        svg{
+            display: none;
         }
     }
 }

@@ -20,6 +20,7 @@
 
     // Icon when not active
     .search-1FM8Qc:not(.focused-8aNhVB)::before{
+        content: "\e721";
         width: 64px;
         font-size: 16px;
         @include FontIconFluent;

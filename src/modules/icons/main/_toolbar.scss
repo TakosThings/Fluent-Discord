@@ -1,4 +1,4 @@
-.toolbar-3_r2xA{
+html[lang^="en-"].theme-dark .toolbar-3_r2xA{
     .iconWrapper-2awDjA{
         // Threads
         &[aria-label="#{map-get($translate, THREADS)}"]::before{
@@ -19,8 +19,8 @@
         }
 
         // Member list
-        &[aria-label="#{map-get($translate, MEMBER_LIST_SHOWN)}"]::before,
-        &[aria-label="#{map-get($translate, MEMBER_LIST_HIDDEN)}"]::before{
+        &[aria-label="#{map-get($translate, MEMBER_LIST_SHOWN)}" i]::before,
+        &[aria-label="#{map-get($translate, MEMBER_LIST_HIDDEN)}" i]::before{
             content: "\E716"; // People
         }
 
@@ -80,11 +80,6 @@
         &[aria-label="#{map-get($translate, MORE)}"]::before{
             content: "\E712"; // More
         }
-    }
-
-    // Search
-    .search-1FM8Qc:not(.open-3y3yI_)::before{
-        content: "\e721";
     }
 }
 
