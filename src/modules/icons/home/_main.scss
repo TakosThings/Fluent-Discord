@@ -1,4 +1,4 @@
-.theme-dark .peopleList-2VBrVI{
+html[lang^="en-"].theme-dark .peopleList-2VBrVI{
     [aria-label="#{map-get($translate, SEND_DM)}"]::before{
         content: "\e8bd"; // Message
     }

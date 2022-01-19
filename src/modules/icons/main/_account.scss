@@ -8,7 +8,7 @@
 }
 
 // Also includes the RTC controls icons to save having another file
-.panels-3wFtMD .button-12Fmur{
+html[lang^="en-"].theme-dark .panels-3wFtMD .button-12Fmur{
     &[aria-label="#{map-get($translate, DEAFEN)}"][aria-checked=true]::before{
         content: "\E74F"; // Mute
     }

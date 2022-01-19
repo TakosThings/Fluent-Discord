@@ -48,20 +48,12 @@
     .iconWrapper-2awDjA{
         width: 64px;
         height: 36px;
-        &::before{
-            @include FontIconFluent;
-            width: 62px;
+        > svg{ // Non-EN position fix
             position: absolute;
-            font-size: 16px;
-            line-height: 36px;
-            text-align: center;
-            display: block;
+            top: 6px;
+            left: 22px;
         }
-        // Remove default icon
-        .icon-2xnN2Y,
-        .controlIcon-35oS15{
-            display: none;
-        }
+
         // Selected
         &.selected-29KTGM{
             background-color: $AccentFillColorSecondary;
@@ -78,5 +70,25 @@
         border-radius: 2px;
         background-color: $SystemFillColorCritical;
         z-index: -1;
+    }
+}
+
+// Icon replacements
+html[lang^="en-"].theme-dark .toolbar-3_r2xA{
+    .iconWrapper-2awDjA{
+        &::before{
+            @include FontIconFluent;
+            width: 62px;
+            position: absolute;
+            font-size: 16px;
+            line-height: 36px;
+            text-align: center;
+            display: block;
+        }
+        // Remove default icon
+        .icon-2xnN2Y,
+        .controlIcon-35oS15{
+            display: none;
+        }
     }
 }

@@ -14,18 +14,30 @@
         &:active{
             background-color: $ControlFillColorTertiary;
         }
-        .contents-3ca1mk{
-            display: none;
-        }
-        &::before{
-            @include FontIconFluent;
-            font-size: 16px;
+        .contents-3ca1mk{ // Non-EN sizing fix
+            svg{
+                width: 16px;
+                height: 16px;
+            }
         }
 
         // Make muted buttons red
         &[aria-checked=true]{
             border-color: $SystemFillColorCritical;
             color: $SystemFillColorCritical;
+        }
+    }
+}
+
+// Icon replacements
+html[lang^="en-"].theme-dark .panels-3wFtMD{
+    .contents-3ca1mk{
+        display: none;
+    }
+    .button-12Fmur{
+        &::before{
+            @include FontIconFluent;
+            font-size: 16px;
         }
     }
 }
