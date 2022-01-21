@@ -14,8 +14,5 @@ assignees: ''
 **Describe the bug**
 A clear and concise description of what the bug is.
 
-**Steps to reproduce**
-Explain the steps to reproduce the issue (if required).
-
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
