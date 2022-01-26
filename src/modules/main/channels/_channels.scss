@@ -213,6 +213,13 @@
         left: 40px;
     }
 
+    // Unread badge
+    .numberBadge-37OJ3S{
+        background-color: $SystemFillColorCriticalBackground !important; // For some reason this is in line
+        @include TypeCaption;
+        color: $SystemFillColorCritical;
+    }
+
     // Unread bars
     .unread-XRkyaQ{
         .bar-2eAyLE{
