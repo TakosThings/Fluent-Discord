@@ -200,14 +200,14 @@
     .unreadMentionsIndicatorBottom-3RJMnQ{
         span{
             &::before{
-                content: "\F08E";
+                content: "\EDDC"; // CaretDownSolid8
             }
         }
     }
     .unreadMentionsIndicatorTop-2bTgUU{
         span{
             &::before{
-                content: "\F090";
+                content: "\EDDB"; // CaretUpSolid8
             }
         }
     }
