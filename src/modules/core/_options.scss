@@ -32,5 +32,27 @@
 }
 
 /**
+ * Chat box GIF button
+ * Description: Removes the GIF button from the right side of the chatbox.
+ * Default:     The GIF button is hidden.
+ * To modify:   Remove 'display: none;' from the below code
+ * Wiki:        https://github.com/TakosThings/Fluent-Discord/wiki/Options#chat-box-gif-button
+*/
+.theme-dark .form-3gdLxP .buttons-uaqb-5 .buttonContainer-2lnNiN:nth-child(2){
+    display: none;
+}
+
+/**
+ * Chat box sticker button
+ * Description: Removes the sticker button from the right side of the chatbox.
+ * Default:     The sticker button is hidden.
+ * To modify:   Remove 'display: none;' from the below code
+ * Wiki:        https://github.com/TakosThings/Fluent-Discord/wiki/Options#chat-box-sticker-button
+*/
+.theme-dark .form-3gdLxP .buttons-uaqb-5 .buttonContainer-2lnNiN:nth-child(3){
+    display: none;
+}
+
+/**
  * End user options
 */
