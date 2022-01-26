@@ -1,213 +1,257 @@
-// Remove border radius from top-left
-.platform-win .sidebar-1tnWFu{
-    border-radius: 0;
-}
-// Channel header
-.header-3OsQeK{
-    box-shadow: none;
-    cursor: default;
-    .name-3Uvkvr{
-        @include TypeBodyStrong;
-        cursor: pointer;
-        &:hover{
-            text-decoration: underline;
-        }
+.theme-dark{
+    // Remove border radius from top-left
+    .platform-win .sidebar-1tnWFu{
+        border-radius: 0;
     }
-    svg{
-        display: none;
-    }
-}
-.clickable-vvKY2q .header-3OsQeK:hover,
-.selected-1GtAC5 .header-2V-4Sw{
-    background-color: transparent;
-}
-// Remove server boost icon
-.guildIconContainer-3QvE6w{
-    display: none;
-}
-
-// Remove server banner
-// DEV: 2021-07-11 - Testing, Removes server banner
-.animatedContainer-2laTjx{
-    display: none;
-}
-.animatedBannerHoverLayer-129r1v{
-    display: none;
-}
-.content-2a4AW9 > div[style="height: 84px;"]{
-    display: none;
-}
-
-// Remove boost goal meter
-// DEV: 2021-12-04 - Testing, removes boost goal meter
-.container-1eD8xH{
-    display: none;
-}
-.content-2a4AW9 > div[style="height: 16px;"]{
-    display: none;
-}
-
-// Hide channel notice
-.channelNotice-tO6Tus{
-    display: none;
-}
-
-
-// Category
-.containerDefault-3TQ5YN{
-    .wrapper-1S43wv{
-        margin: 0 0 0 8px;
-        padding-left: 10px;
-        border: 1px solid transparent;
-        border-radius: 4px;
-        color: $TextFillColorPrimary;
-        &:hover{
-            .name-3BUDLf{
-                color: $TextFillColorSecondary;
+    // Channel header
+    .header-3OsQeK{
+        box-shadow: none;
+        cursor: default;
+        .name-3Uvkvr{
+            @include TypeBodyStrong;
+            cursor: pointer;
+            &:hover{
+                text-decoration: underline;
             }
         }
-
-        // Wrapper types
-        // Muted
-        &.muted-19J0ih{
-            .name-3BUDLf{
-                color: $TextFillColorDisabled;
-            }
-        }
-
-        // Colapse chevrons
-        // Remove default chevron
-        .arrow-2HswgU{
-            display: none;
-        }
-        // Chevron replacement
-        &::after{
-            content: "\E70E"; // ChevronDown
-            padding-left: 8px;
-            @include FontIconFluent;
-            font-size: 12px;
-        }
-        &.collapsed-2KOacR{
-            &::after{
-                content: "\E70D"; // ChevronDown
-            }
-        }
-    }
-
-    // Category name
-    .container-q97qHp{
-        color: $TextFillColorPrimary;
-        @include TypeBody;
-        text-transform: none;
-    }
-
-    // Hide 'Create Channel' buttons when not hovered
-    .children-3MeUvj{
-        visibility: hidden;
-    }
-    &:hover{
-        .children-3MeUvj{
-            visibility: visible;
-        }
-    }
-}
-
-// Channels
-.containerDefault-YUSmu3{
-    .content-1gYQeQ{
-        padding-left: 23px;
-    }
-
-    .wrapper-NhbLHG{
-        // Channel name
-        .name-28HaxV{
-            color: $TextFillColorSecondary;
-            @include TypeBody;
-        }
-
-        // Hide channel buttons when not hovered
-        .children-1MGS9G .iconItem-1EjiK0{
+        svg{
             visibility: hidden;
         }
+    }
+    .clickable-vvKY2q .header-3OsQeK:hover,
+    .selected-1GtAC5 .header-2V-4Sw{
+        background-color: transparent;
+    }
+    // Remove server boost icon
+    .guildIconContainer-3QvE6w{
+        display: none;
+    }
 
-        &:hover{
-            .content-1gYQeQ{
-                background-color: $SubtleFillColorSecondary;
-                box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary; // Using box-shadow because borders cause the div to grow
+    // Remove server banner
+    // DEV: 2021-07-11 - Testing, Removes server banner
+    .animatedContainer-2laTjx{
+        display: none;
+    }
+    .animatedBannerHoverLayer-129r1v{
+        display: none;
+    }
+    .content-2a4AW9 > div[style="height: 84px;"]{
+        display: none;
+    }
+
+    // Remove boost goal meter
+    // DEV: 2021-12-04 - Testing, removes boost goal meter
+    .container-1eD8xH{
+        display: none;
+    }
+    .content-2a4AW9 > div[style="height: 16px;"]{
+        display: none;
+    }
+
+    // Hide channel notice
+    .channelNotice-7cg_jN{
+        display: none;
+    }
+
+
+    // Category
+    .containerDefault-3TQ5YN{
+        .wrapper-1S43wv{
+            margin: 0 0 0 8px;
+            padding-left: 10px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            color: $TextFillColorPrimary;
+            &:hover{
+                .name-3BUDLf{
+                    color: $TextFillColorSecondary;
+                }
             }
 
-            // Reveal channel buttons
-            .children-1MGS9G .iconItem-1EjiK0{
+            // Wrapper types
+            // Muted
+            &.muted-19J0ih{
+                .name-3BUDLf{
+                    color: $TextFillColorDisabled;
+                }
+            }
+
+            // Colapse chevrons
+            // Remove default chevron
+            .arrow-2HswgU{
+                display: none;
+            }
+            // Chevron replacement
+            &::after{
+                content: "\E70E"; // ChevronDown
+                padding-left: 8px;
+                @include FontIconFluent;
+                font-size: 12px;
+            }
+            &.collapsed-2KOacR{
+                &::after{
+                    content: "\E70D"; // ChevronDown
+                }
+            }
+        }
+
+        // Category name
+        .container-q97qHp{
+            color: $TextFillColorPrimary;
+            @include TypeBody;
+            text-transform: none;
+        }
+
+        // Hide 'Create Channel' buttons when not hovered
+        .children-3MeUvj{
+            visibility: hidden;
+        }
+        &:hover{
+            .children-3MeUvj{
                 visibility: visible;
             }
         }
+    }
 
-        // Channel types
-        // Selected channel
-        &.modeSelected-3DmyhH{
-            // Pill
-            &::before{
-                content: "";
-                width: 3px;
-                height: 16px;
-                position: absolute;
-                top: 10px;
-                left: 8px;
-                background-color: $AccentBase;
-                border-radius: 2px;
-            }
-            .content-1gYQeQ{
-                background-color: $SubtleFillColorSecondary;
-            }
-            // Channel icon
-            .iconContainer-21RCa3::before{
-                color: $TextFillColorPrimary;
-                font-size: 14px;
-            }
+    // Channels
+    .containerDefault-YUSmu3{
+        .content-1gYQeQ{
+            padding-left: 23px;
+        }
+
+        .wrapper-NhbLHG{
+            // Channel name
             .name-28HaxV{
-                color: $TextFillColorPrimary;
+                color: $TextFillColorSecondary;
+                @include TypeBody;
+            }
+
+            // Hide channel buttons when not hovered
+            .children-1MGS9G .iconItem-1EjiK0{
+                visibility: hidden;
+            }
+
+            &:hover{
+                .content-1gYQeQ{
+                    background-color: $SubtleFillColorSecondary;
+                    box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary; // Using box-shadow because borders cause the div to grow
+                }
+
+                // Reveal channel buttons
+                .children-1MGS9G .iconItem-1EjiK0{
+                    visibility: visible;
+                }
+            }
+
+            // Channel types
+            // Selected channel
+            &.modeSelected-3DmyhH{
+                // Pill
+                &::before{
+                    content: "";
+                    width: 3px;
+                    height: 16px;
+                    position: absolute;
+                    top: 10px;
+                    left: 8px;
+                    background-color: $AccentBase;
+                    border-radius: 2px;
+                }
+                .content-1gYQeQ{
+                    background-color: $SubtleFillColorSecondary;
+                }
+                // Channel icon
+                .iconContainer-21RCa3::before{
+                    color: $TextFillColorPrimary;
+                    font-size: 14px;
+                }
+                .name-28HaxV{
+                    color: $TextFillColorPrimary;
+                }
+            }
+            // Unread channel
+            &.modeUnread-1qO3K1{
+                // Channel icon
+                .iconContainer-21RCa3::before{
+                    color: $TextFillColorPrimary;
+                }
+                .name-28HaxV{
+                    color: $TextFillColorPrimary;
+                }
+            }
+            // Muted channel
+            &.modeMuted-2T4MDZ{
+                // Channel icon
+                .iconContainer-21RCa3::before{
+                    color: $TextFillColorDisabled;
+                }
+                .name-28HaxV{
+                    color: $TextFillColorDisabled;
+                }
             }
         }
-        // Unread channel
-        &.modeUnread-1qO3K1{
-            // Channel icon
-            .iconContainer-21RCa3::before{
-                color: $TextFillColorPrimary;
-            }
-            .name-28HaxV{
-                color: $TextFillColorPrimary;
-            }
+
+        // Unread channel pill
+        .unread-36eUEm{
+            width: 3px;
+            height: 16px;
+            left: 8px;
+            margin-top: -8px;
+            border-radius: 2px;
         }
-        // Muted channel
-        &.modeMuted-2T4MDZ{
-            // Channel icon
-            .iconContainer-21RCa3::before{
-                color: $TextFillColorDisabled;
-            }
-            .name-28HaxV{
-                color: $TextFillColorDisabled;
-            }
+        // Threads
+        // Thread channel
+        .typeThread-2Aqh6X .content-1gYQeQ{
+            margin-left: 8px;
+            padding-left: 47px;
         }
     }
 
-    // Unread channel pill
-    .unread-36eUEm{
-        width: 3px;
-        height: 16px;
-        left: 8px;
-        margin-top: -8px;
-        border-radius: 2px;
-    }
     // Threads
-    // Thread channel
-    .typeThread-2Aqh6X .content-1gYQeQ{
-        margin-left: 8px;
-        padding-left: 47px;
+    // Channel tree spine
+    .spine-29OFwR{
+        left: 40px;
     }
-}
 
-// Threads
-// Channel tree spine
-.spine-29OFwR{
-    left: 40px;
+    // Unread badge
+    .numberBadge-37OJ3S{
+        background-color: $SystemFillColorCriticalBackground !important; // For some reason this is in line
+        @include TypeCaption;
+        color: $SystemFillColorCritical;
+    }
+
+    // Unread bars
+    .unread-XRkyaQ{
+        .bar-2eAyLE{
+            background-color: $SystemFillColorCriticalBackground;
+        }
+        span{
+            font-size: 0;
+            &::before{
+                @include FontIconFluent;
+                color: $SystemFillColorCritical;
+                vertical-align: middle;
+                font-size: 16px;
+            }
+        }
+        &:hover span::before{
+            color: $TextFillColorSecondary;
+        }
+    }
+
+    .unreadBottom-3Ojk6R{
+        span{
+            &::before{
+                content: "\F08E";
+            }
+        }
+    }
+
+    .unreadTop-1DJtGv{
+        span{
+            &::before{
+                content: "\F090";
+            }
+        }
+    }
 }

@@ -1,0 +1,117 @@
+.theme-dark .browser-mnQ1T7{
+    background: $MicaBackgroundFillColorBase;
+    backdrop-filter: blur(16px);
+    border: 1px solid $CardStrokeColorDefault;
+    border-radius: 8px;
+
+    .header-3_zmOb{
+        background-color: transparent;
+        svg.threadIcon-rd1kqG{
+            display: none;
+        }
+
+        // Search
+        .searchIcon-zpxirk{
+            width: 32px;
+            height: 32px;
+            background-color: $ControlFillColorDefault;
+            border: 1px solid $ControlStrokeColorDefault;
+            border-radius: 4px;
+            svg{
+                margin: 6px;
+            }
+        }
+        .searchBox-3IjAC1{
+            background-color: transparent;
+            .input-2m5SfJ{
+                height: 32px;
+                padding: 0 8px;
+                border: 1px solid;
+                border-bottom-width: 2px;
+                border-color: $ControlElevationBorder;
+                border-radius: 4px;
+                @include TypeBody;
+                background-color: $ControlFillColorDefault;
+                color: $TextFillColorSecondary;
+                &:hover{
+                    border-color: $ControlStrokeColorSecondary;
+                }
+                &:focus{
+                    background-color: $ControlFillColorInputActiveBrush;
+                    color: $TextFillColorPrimary;
+                    border-color: $ControlElevationBorder;
+                    border-bottom-color: $AccentBase;
+                }
+                &::placeholder{
+                    color: $TextFillColorSecondary;
+                }
+            }
+
+            .iconLayout-3Bjizv{
+                position: absolute;
+                top: 6px;
+                right: 8px;
+            }
+        }
+    }
+    // Tabs
+    .tabBar-2WhZ9G, // Header
+    .tabBar-3N44FC{ // Archived public/private threads
+        .tab-2Jo-cu,
+        .tab-1tp4jL{
+            padding-left: 0;
+            padding-right: 0;
+            margin-right: 16px;
+            color: $TextFillColorPrimary;
+            border-radius: 0;
+            &:hover{
+                background-color: transparent;
+                color: $TextFillColorSecondary;
+            }
+
+            &.active-346HgG,
+            &.selected-g-kMVV{
+                background-color: transparent;
+                color: $AccentTextFillColorPrimary;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    bottom: 0px;
+                    width: 100%;
+                    height: 2px;
+                    background-color: $AccentLight3;
+                    border-radius: 2px;
+                }
+                &:hover{
+                    color: $TextFillColorSecondary;
+                }
+            }
+        }
+    }
+
+    // Body
+    .container-2c4_8A{
+        // Empty
+        .icon-mJhEWn,
+        .stars-3UP9-A{
+            display: none;
+        }
+        .header-En5hqg{
+            @include TypeBodyStrong;
+        }
+        .colorHeaderSecondary-g5teka{
+            color: $TextFillColorPrimary;
+            @include TypeBody;
+        }
+    }
+
+    // Thread card
+    .container-2rzKKA{
+        background-color: $CardBackgroundFillColorDefault;
+        border: 1px solid $CardStrokeColorDefault;
+        border-radius: 4px;
+        &:hover{
+            background-color: $CardBackgroundFillColorSecondary;
+        }
+    }
+}

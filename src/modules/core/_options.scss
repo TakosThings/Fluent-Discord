@@ -6,6 +6,7 @@
  * Accent colour
  * Description: Change the accent colour.
  * Default:     The default accent colour is 'Default Blue' shown below as '0, 120, 215.
+ * To modify:   Change the numbers after '--fluent-accent' in the line below.
  * Warning:     The colour formatting is non-standard. Read the wiki page before changing your
  *              Accent colour.
  * Wiki:        https://github.com/TakosThings/Fluent-Discord/wiki/Accent-colour
@@ -18,6 +19,7 @@
  * Acrylic
  * Description: Change the background and adjust filters.
  * Default:     Blue/green gradient background, filters disabled.
+ * To modify:   Change the URL below.
  * Note:        You MUST read the wiki page about acrylic before enabling backdrop-filters.
  *              Ignoring this advice will probably result in bad performance.
  * Wiki:        https://github.com/TakosThings/Fluent-Discord/wiki/Acrylic
@@ -27,6 +29,28 @@
 }
 .bg-1QIAus::before{
     /* backdrop-filter: blur(240px); */
+}
+
+/**
+ * Chat box GIF button
+ * Description: Removes the GIF button from the right side of the chatbox.
+ * Default:     The GIF button is hidden.
+ * To modify:   Remove 'display: none;' from the below code
+ * Wiki:        https://github.com/TakosThings/Fluent-Discord/wiki/Options#chat-box-gif-button
+*/
+.theme-dark .form-3gdLxP .buttons-uaqb-5 .buttonContainer-2lnNiN:nth-child(2){
+    display: none;
+}
+
+/**
+ * Chat box sticker button
+ * Description: Removes the sticker button from the right side of the chatbox.
+ * Default:     The sticker button is hidden.
+ * To modify:   Remove 'display: none;' from the below code
+ * Wiki:        https://github.com/TakosThings/Fluent-Discord/wiki/Options#chat-box-sticker-button
+*/
+.theme-dark .form-3gdLxP .buttons-uaqb-5 .buttonContainer-2lnNiN:nth-child(3){
+    display: none;
 }
 
 /**

@@ -1,0 +1,14 @@
+.theme-dark .modalContent-3YXA7I{
+    padding: 24px;
+    h2{
+        @include TypeSubtitle;
+        text-align: left;
+    }
+    .body-_jWL8l{
+        @include TypeBody;
+        text-align: left;
+        strong{
+            color: $AccentTextFillColorPrimary;
+        }
+    }
+}

@@ -32,6 +32,7 @@
 @import 'modules/main/channels/rtc';
 @import 'modules/main/chat/chat';
 @import 'modules/main/chat/chatbox';
+@import 'modules/main/chat/search_results';
 @import 'modules/main/chat/thread';
 @import 'modules/main/chat/embeds/file';
 @import 'modules/main/chat/embeds/invite';
@@ -55,6 +56,7 @@
 // Order: None, alphabetic
 @import 'modules/modals/add_server';
 @import 'modules/modals/lightbox';
+@import 'modules/modals/link_gate';
 @import 'modules/modals/modal';
 
 // Popouts
@@ -63,6 +65,7 @@
 @import 'modules/popouts/noise_cancellation';
 @import 'modules/popouts/pinned_messages';
 @import 'modules/popouts/rtc';
+@import 'modules/popouts/threads';
 @import 'modules/popouts/user';
 
 // Settings
@@ -83,3 +86,6 @@
 // Order: None, alphabetic
 @import 'modules/misc/loading';
 @import 'modules/third_party/hljs';
+
+// BetterDiscord
+@import 'modules/betterdiscord/public';

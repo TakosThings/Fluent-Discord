@@ -19,7 +19,7 @@
     }
 
     // Icon when not active
-    .search-1FM8Qc:not(.focused-8aNhVB)::before{
+    .search-1FM8Qc:not(.focused-8aNhVB):not(.open-3y3yI_)::before{
         content: "\e721";
         width: 64px;
         font-size: 16px;
@@ -41,7 +41,7 @@
         cursor: text;
         border: 1px solid $ControlElevationBorder;
         border-bottom-width: 2px;
-        border-radius: 2px;
+        border-radius: 4px;
     }
     .search-1FM8Qc.focused-8aNhVB .searchBar-zdmu7v{
         background-color: $ControlFillColorInputActiveBrush;

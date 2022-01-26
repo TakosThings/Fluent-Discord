@@ -5,10 +5,7 @@
 
 .theme-dark .wrapper-1_HaEi{
     width: 48px;
-    // margin-top: 40px;
-    // margin-bottom: 96px;
     background-color: transparent;
-
 
     .listItem-3SmSlK:hover .pill-2RsI5Q:empty{
         display: none !important;
@@ -164,10 +161,54 @@
             clip-path: inset(1px 1px 1px 1px);
         }
     }
+
+    // Connected to voice
+    .iconBadge-32fMme.participating-2Z81oO{
+        background-color: $SystemFillColorSuccesBackground;
+        &::before{
+            content: "\F0B9";
+            @include FontIconFluent;
+            color: $SystemFillColorSuccess;
+            font-size: 10px;
+        }
+        svg{
+            display: none;
+        }
+    }
+
     // Unread notification bars
-    // These break due to our fixed buttons at the bottom, so we remove them
-    .unreadMentionsIndicatorTop-2bTgUU,
-    .unreadMentionsIndicatorBottom-2mDYbI{
-        display: none;
+    .unreadMentionsIndicatorBottom-3RJMnQ,
+    .unreadMentionsIndicatorTop-2bTgUU{
+        width: 48px;
+        .bar-2eAyLE{
+            background-color: $SystemFillColorCriticalBackground;
+        }
+        span{
+            font-size: 0;
+            &::before{
+                @include FontIconFluent;
+                color: $SystemFillColorCritical;
+                vertical-align: middle;
+                font-size: 16px;
+            }
+        }
+        &:hover span::before{
+            color: $TextFillColorSecondary;
+        }
+    }
+
+    .unreadMentionsIndicatorBottom-3RJMnQ{
+        span{
+            &::before{
+                content: "\F08E";
+            }
+        }
+    }
+    .unreadMentionsIndicatorTop-2bTgUU{
+        span{
+            &::before{
+                content: "\F090";
+            }
+        }
     }
 }

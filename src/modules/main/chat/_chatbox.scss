@@ -80,14 +80,6 @@
         & > .button-f2h6uQ{
             display: none;
         }
-        // Remove GIF
-        .buttonContainer-2lnNiN:nth-child(2){
-            display: none;
-        }
-        // Remove Sticker
-        .buttonContainer-2lnNiN:nth-child(3){
-            display: none;
-        }
         // Set a static emoji icon
         .emojiButton-3FRTuj{
             width: 44px;
@@ -170,5 +162,8 @@
             @include TypeBody;
         }
     }
+
+    // Showing command help
+
 }
 
