@@ -212,4 +212,39 @@
     .spine-29OFwR{
         left: 40px;
     }
+
+    // Unread bars
+    .unread-XRkyaQ{
+        .bar-2eAyLE{
+            background-color: $SystemFillColorCriticalBackground;
+        }
+        span{
+            font-size: 0;
+            &::before{
+                @include FontIconFluent;
+                color: $SystemFillColorCritical;
+                vertical-align: middle;
+                font-size: 16px;
+            }
+        }
+        &:hover span::before{
+            color: $TextFillColorSecondary;
+        }
+    }
+
+    .unreadBottom-3Ojk6R{
+        span{
+            &::before{
+                content: "\F08E";
+            }
+        }
+    }
+
+    .unreadTop-1DJtGv{
+        span{
+            &::before{
+                content: "\F090";
+            }
+        }
+    }
 }
