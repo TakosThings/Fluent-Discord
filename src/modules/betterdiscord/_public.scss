@@ -1,0 +1,10 @@
+#bd-pub-button{
+    background-color: transparent;
+    border-radius: 4px;
+    color: $TextFillColorPrimary;
+    font-size: 10px;
+    text-transform: capitalize;
+    &:hover{
+        background-color: $ControlFillColorSecondary;
+    }
+}
