@@ -164,6 +164,21 @@
             clip-path: inset(1px 1px 1px 1px);
         }
     }
+
+    // Connected to voice
+    .iconBadge-32fMme.participating-2Z81oO{
+        background-color: $SystemFillColorSuccesBackground;
+        &::before{
+            content: "\F0B9";
+            @include FontIconFluent;
+            color: $SystemFillColorSuccess;
+            font-size: 10px;
+        }
+        svg{
+            display: none;
+        }
+    }
+
     // Unread notification bars
     .unreadMentionsIndicatorBottom-3RJMnQ,
     .unreadMentionsIndicatorTop-2bTgUU{
