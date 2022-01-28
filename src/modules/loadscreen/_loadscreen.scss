@@ -29,14 +29,14 @@
 
         opacity: 0;
         animation: fluent-loading-blobs 10s linear infinite;
-        animation-delay: 20s; // Delay starting animations
+        animation-delay: 5s; // Delay starting animations
     }
     &::after{
         transform: translate(192px, 64px);
 
         opacity: 0;
         animation: fluent-loading-blobs 17s linear infinite;
-        animation-delay: 35s; // Delay starting animations
+        animation-delay: 20s; // Delay starting animations
     }
 }
 
