@@ -8,12 +8,12 @@ The theme is still in-development.
 
 ## Requirements
 * Windows 10 or Windows 11
-* For non-Windows go to the [Design toolkits](https://docs.microsoft.com/en-gb/windows/apps/design/downloads/#fonts) page on Microsoft Docs and download and install:
+* Non-Windows users can download the Windows 11 fonts from [Design toolkits](https://docs.microsoft.com/en-gb/windows/apps/design/downloads/#fonts) on Microsoft Docs
   * Segoe UI Variable
   * Segoe Fluent Icons
   * Hololens icon font is used by the theme, but is not required
 
-## Getting help
+## Getting Help
 * Visit the [wiki](https://github.com/TakosThings/Fluent-Discord/wiki)
 * Open an [issue](https://github.com/TakosThings/Fluent-Discord/issues)
 * Join the [Discord server](https://discord.gg/ZYrCacRuez)
