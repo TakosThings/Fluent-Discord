@@ -15,5 +15,9 @@
 - [ ] Correct tag version
 - [ ] Target correct branch (master)
 - [ ] Correct version in title
-- [ ] Changelog pasted into body
+- [ ] Release body is
+```
+## What's Changed
+* See PR # for a full list
+```
 - [ ] CSS files are uploaded
