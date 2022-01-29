@@ -61,10 +61,12 @@
 
 // Popouts
 // Order: None, alphabetic
+@import 'modules/popouts/emoji_picker';
 @import 'modules/popouts/inbox';
 @import 'modules/popouts/noise_cancellation';
 @import 'modules/popouts/pinned_messages';
 @import 'modules/popouts/rtc';
+@import 'modules/popouts/search';
 @import 'modules/popouts/threads';
 @import 'modules/popouts/user';
 

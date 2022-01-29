@@ -44,6 +44,22 @@ html[lang^="en-"].theme-dark .toolbar-3_r2xA{
             content: "\E89F"; // More
         }
 
+        // Update
+        &[aria-label="#{map-get($translate, UPDATE_DOWNLOADED)}"]::before{
+            content: "\F83E"; // UpdateRestore
+        }
+        &[aria-label="#{map-get($translate, UPDATE_DOWNLOADED)}"]::after{
+            content: "";
+            width: 8px;
+            height: 8px;
+            position: absolute;
+            top: 19px;
+            left: 32px;
+            background-color: $Gold;
+
+            border-radius: 4px;
+        }
+
         // Help
         &[aria-label="#{map-get($translate, HELP)}"]{
             display: none;

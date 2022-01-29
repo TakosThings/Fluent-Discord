@@ -59,7 +59,7 @@
                 .childWrapper-1j_1ub{
                     background-color: transparent;
                     &::before{
-                        content: "\E80F";
+                        content: "\E80F"; // Home
                         color: $TextFillColorPrimary;
                         @include FontIconFluent;
                         font-size: 16px;
@@ -166,7 +166,7 @@
     .iconBadge-32fMme.participating-2Z81oO{
         background-color: $SystemFillColorSuccesBackground;
         &::before{
-            content: "\F0B9";
+            content: "\F0B9"; // Connected
             @include FontIconFluent;
             color: $SystemFillColorSuccess;
             font-size: 10px;
@@ -200,14 +200,14 @@
     .unreadMentionsIndicatorBottom-3RJMnQ{
         span{
             &::before{
-                content: "\F08E";
+                content: "\EDDC"; // CaretDownSolid8
             }
         }
     }
     .unreadMentionsIndicatorTop-2bTgUU{
         span{
             &::before{
-                content: "\F090";
+                content: "\EDDB"; // CaretUpSolid8
             }
         }
     }

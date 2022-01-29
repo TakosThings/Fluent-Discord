@@ -242,7 +242,7 @@
     .unreadBottom-3Ojk6R{
         span{
             &::before{
-                content: "\F08E";
+                content: "\EDDC"; // CaretDownSolid8
             }
         }
     }
@@ -250,7 +250,7 @@
     .unreadTop-1DJtGv{
         span{
             &::before{
-                content: "\F090";
+                content: "\EDDB"; // CaretUpSolid8
             }
         }
     }

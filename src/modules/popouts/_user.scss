@@ -63,7 +63,7 @@
         display: none;
     }
     &::before{
-        content: "\e99a";
+        content: "\e99a"; // Robot
         @include TypeSubtitle;
         @include FontIconFluent;
         font-weight: normal;
