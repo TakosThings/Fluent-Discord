@@ -12,6 +12,8 @@ The theme is still in-development.
   * Segoe UI Variable
   * Segoe Fluent Icons
   * Hololens icon font is used by the theme, but is not required
+### Optional Extras
+* [EmojiReplace](https://betterdiscord.app/theme/EmojiReplace) theme by DevilBro to get Windows 11 emoji on Discord
 
 ## Getting Help
 * Visit the [wiki](https://github.com/TakosThings/Fluent-Discord/wiki)
