@@ -1,0 +1,204 @@
+.theme-dark .contentWrapper-3vHNP2{
+    background: $MicaBackgroundFillColorBase;
+    backdrop-filter: blur(16px);
+    border: 1px solid $SurfaceStrokeColorDefault;
+    border-radius: 8px;
+
+    // Navigation
+    .nav-1zWVQw{
+        .navButton-1XuvI-{
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 16px;
+            color: $TextFillColorPrimary;
+            border-radius: 0;
+            &:hover{
+                background-color: transparent;
+                color: $TextFillColorSecondary;
+            }
+
+        }
+        .navButtonActive-1EqC5l{
+            background-color: transparent;
+            color: $AccentTextFillColorPrimary;
+            &::before{
+                content: "";
+                position: absolute;
+                bottom: 0px;
+                width: 100%;
+                height: 2px;
+                background-color: $AccentLight3;
+                border-radius: 2px;
+            }
+            &:hover{
+                color: $TextFillColorSecondary;
+            }
+        }
+    }
+
+    // Header
+    .header-11eigE, // Emoji
+    .header-uVCAlo, // Stickers
+    .header-2TLOnc{ // GIFs
+        box-shadow: none;
+    }
+    // Search
+    .container-1SX9VC,
+    .container-2oNtJn{ // GIFs search
+        background-color: transparent;
+    }
+    .input-2FSSDe,
+    .input-2m5SfJ{ // GIFs search
+        height: 32px;
+        padding-right: 32px;
+        background-color: $ControlFillColorDefault;
+        color: $TextFillColorSecondary;
+        border: 1px solid $ControlElevationBorder;
+        border-bottom: 2px solid $ControlElevationBorder;
+        border-radius: 4px;
+        @include TypeBody;
+        &:hover{
+            border-color: $ControlStrokeColorSecondary;
+        }
+        &:focus{
+            background-color: $ControlFillColorInputActiveBrush;
+            color: $TextFillColorPrimary;
+            border-color: $ControlElevationBorder;
+            border-bottom-color: $AccentBase;
+        }
+    }
+    // Search clear button
+    .iconLayout-SqV3nb,
+    .iconLayout-3Bjizv{ // GIFs search
+        position: absolute;
+        right: 4px;
+    }
+
+    // Emoji
+    // Sidebar
+    .categoryList-2qRrlj{
+        top: 52px;
+        background-color: $SolidBackgroundFillColorBase;
+    }
+    // Replace emoji icons
+    .categoryItemDefaultCategory-3haEDq {
+        &.categoryItem-1sHzUv{
+            svg{
+                display: none;
+            }
+            &::before{
+                padding: 2px;
+                color: $TextFillColorPrimary;
+                @include FontIconFluent;
+                font-size: 20px;
+                line-height: calc(32px - 8px);
+                vertical-align: middle;
+            }
+            &[aria-label="recent"]::before{
+                content: "\E81C";
+            }
+            &[aria-label="custom"]::before{
+                content: "\E74C";
+            }
+            &[aria-label="people"]::before{
+                content: "\ED53";
+            }
+            &[aria-label="nature"]::before{
+                content: "\E708";
+            }
+            &[aria-label="food"]::before{
+                content: "\ED56";
+            }
+            &[aria-label="activity"]::before{
+                content: "\EA86";
+            }
+            &[aria-label="travel"]::before{
+                content: "\ED57";
+            }
+            &[aria-label="objects"]::before{
+                content: "\ED55";
+            }
+            &[aria-label="symbols"]::before{
+                content: "\EB51";
+            }
+            &[aria-label="flags"]::before{
+                content: "🏳‍🌈";
+                @include TypeBody;
+            }
+        }
+    }
+    // Info bar
+    .inspector-DFKXwB{
+        background-color: $SolidBackgroundFillColorSecondary;
+    }
+    // Emoji category header
+    .header-1ULbqO{
+        margin: 0 -8px;
+        padding: 0 16px;
+        background-color: $SolidBackgroundFillColorTertiary;
+        border-radius: 4px;
+        .headerLabel-1g790w{
+            @include TypeBodyStrong;
+            color: $TextFillColorPrimary;
+            text-transform: none;
+        }
+    }
+
+    // Colour change
+    .diversitySelectorButton-2CGlo5{
+        width: 30px;
+        height: 30px;
+        background-color: $ControlFillColorDefault;
+        border: 1px solid $ControlElevationBorder;
+        border-radius: 4px;
+        .diversityEmojiItemImage-1pfGqI{
+            margin: 3px;
+        }
+    }
+    .diversitySelectorOptionsInExpressionPicker-3wybQR{
+        top: 2px;
+        right: 8px;
+    }
+    .diversitySelectorOptions-3DhNYs{
+        border: 1px solid $ControlElevationBorder;
+        .diversityEmojiItem-2bgZKv{
+            width: 30px;
+            height: 30px;
+            padding: 0;
+        }
+        .diversityEmojiItemImage-1pfGqI{
+            margin: 3px;
+        }
+    }
+
+
+    // Nitro prompt
+    .premiumPromo-1eKAIB{
+        background-color: $CardStrokeColorDefaultSolid;
+        .premiumPromoImage-2q0gnA{
+            display: none;
+        }
+        .premiumPromoTitle-3tWrPT{
+            @include TypeBodyLarge;
+        }
+        .premiumPromoDescription-1kf0Oa{
+            @include TypeBody;
+            color: $TextFillColorPrimary;
+        }
+    }
+
+
+    // GIF results
+    .result-pzZrwj{
+        border-radius: 4px;
+    }
+    .gif-2kTiNB{
+        border-radius: 4px;
+    }
+    .focused-16Owih:after,
+    .result-pzZrwj:hover:after{
+        box-shadow: inset 0 0 0 2px $AccentLight3;
+        border-radius: 4px;
+    }
+}
