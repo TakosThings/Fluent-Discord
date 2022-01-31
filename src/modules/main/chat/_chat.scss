@@ -132,6 +132,34 @@
     }
 }
 
+// Blocked message
+.theme-dark .compact-2Nkcau .blockedSystemMessage-3FmE9n{
+    margin-left: -5ch;
+    .iconContainer-2rPbqG{
+        margin-right: 1ch;
+        padding-top: 2px;
+        &::before{
+            content: "\ECE4";
+            @include FontIconFluent
+        }
+        svg{
+            display: none;
+        }
+    }
+}
+.theme-dark .cozy-VmLDNB .blockedSystemMessage-3FmE9n{
+    .iconContainer-2rPbqG{
+        padding-top: 2px;
+        &::before{
+            content: "\ECE4";
+            @include FontIconFluent
+        }
+        svg{
+            display: none;
+        }
+    }
+}
+
 // Loading chat messages
 .wrapper-3HVHpV{
     background-color: transparent;
