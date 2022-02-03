@@ -26,20 +26,34 @@ This assumes a Windows OS. You will need to modify the output paths in `package.
 ### Setup
 * `npm i sass -g` to install Dart Sass. This should be all you need to get started.
 
-NPM Commands
+#### NPM Commands
 * `npm run dev` watches files for changes and automatically builds and emits the theme to your BetterDiscord themes folder. BD will reload the theme with the changes each time.
 * `npm run build` builds and emits the theme to the dist directory. Generally just used for building a release.
+
+#### Translation Commands
+These were added for planned/future functions and are currently unused.
 * `npm run build-translate` builds *all* the translation add-on files and emits them to the dist directory.
 * `npm run dev-translate` builds *all* the translation add-on files and emits them to the BetterDiscord themes folder. You should almost never have to use this. Use the below command instead.
 * `npm run dev-translate-only --lang=<languageCode>` Substitute `<languageCode>` with the language you want to emit to your BetterDiscord themes folder. Example: `npm run dev-translate-only --lang=de`. This is most useful for fixing spelling and grammar issues.
 
 ### Comments & Debugging
 * Where required a code comment should start with `TODO, NOTE, DEV, DEBUG or HACK` and the date in YYYY-MM-DD format, followed by the comment: 
-```CSS
+```SCSS
 // TODO: 2021-07-01 - Find better icon
 ```
 * Including a Fluent Icon from the icon font should always inlude the description in a comment at the end of the line: 
-```CSS
+```SCSS
 content: "\F159"; // DialShape4
 ```
-* Use `red` or `#F00` for debugging
+* Use `red`, `$red` or `#F00` for debugging
+
+### Plugin Support
+Use the [Plugin Support Request](https://github.com/TakosThings/Fluent-Discord/issues/new?assignees=&labels=better+discord%2Cplugin+support&template=plugin_support.yml&title=Plugin+name+here) issue template to request support for a plugin. The plugin __must__ be approved on [betterdiscord.app](https://betterdiscord.app)
+
+If you are interested in creating a PR for a plugin use the following formatting:
+* Create a new file in `src/modules/betterdiscord/plugins` with the following formatting: `_GitHubUsername.PluginName.scss`. Note the underscore at the start of the filename. Capitalisation should also match the username and plugin name. Example: `_TakosThings.FluentDiscord.scss`
+* Add an import to `src/modules/betterdiscord/_plugin_support.scss` with the following formatting:
+```SCSS
+// https://betterdiscord.app/plugin/PluginName
+@import "_GitHubUsername.PluginName.scss";
+```
