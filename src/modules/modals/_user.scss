@@ -1,0 +1,47 @@
+.theme-dark{
+    .tabBarContainer-sCZC4w{
+        border: 0;
+        .tabBar-2hXqzU{
+            height: 32px
+        }
+        .tabBarItem-30Te4-{
+            margin-right: 16px;
+            @include TypeBodyStrong;
+            &.selected-g-kMVV{
+                color: $AccentTextFillColorPrimary;
+                border-bottom-color: $AccentTextFillColorPrimary;
+            }
+        }
+    }
+
+    .body-1Ukv50{
+        // Connected accounts
+        .connectedAccount-1xKpli{
+            .connectedAccountName-j0meX4{
+                @include TypeBody;
+            }
+            a{
+                &::before{
+                    content: "\E8A7";
+                    @include FontIconFluent;
+                }
+                svg{
+                    display: none;
+                }
+            }
+        }
+
+        // Server/friend list
+        .listRow-2nO1T6{
+            border: 1px solid transparent;
+            &:hover{
+                background-color: $ControlFillColorDefault;
+                border-color: $ControlStrokeColorDefault;
+                border-radius: 4px;
+            }
+            .iconActiveMedium-27_R5B{
+                border-radius: 50%;
+            }
+        }
+    }
+}

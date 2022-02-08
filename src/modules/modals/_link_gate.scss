@@ -3,6 +3,7 @@
     h2{
         @include TypeSubtitle;
         text-align: left;
+        text-transform: none;
     }
     .body-_jWL8l{
         @include TypeBody;

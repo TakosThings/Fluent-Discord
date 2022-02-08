@@ -1,0 +1,55 @@
+.theme-dark .container-2O1UgZ{
+    background-color: $SolidBackgroundFillColorBase;
+    border: 1px solid $SurfaceStrokeColorDefault;
+    border-radius: 8px;
+
+    // Search
+    .container-2oNtJn{
+        background-color: transparent;
+        border-radius: 0;
+        .input-2m5SfJ{
+            height: 32px;
+            background-color: transparent;
+            border: 1px solid;
+            border-bottom-width: 2px;
+            border-radius: 4px;
+            @include TypeBody;
+            background-color: $ControlFillColorDefault;
+            color: $TextFillColorSecondary;
+            border-color: $ControlElevationBorder;
+            &:hover{
+                border-color: $ControlStrokeColorSecondary;
+            }
+            &:focus{
+                background-color: $ControlFillColorInputActiveBrush;
+                color: $TextFillColorPrimary;
+                border-color: $ControlElevationBorder;
+                border-bottom-color: $AccentBase;
+            }
+            &::placeholder{
+                color: $TextFillColorSecondary;
+            }
+        }
+    }
+
+    // Items
+    .item-1BCeuB{
+        &:hover{
+            background-color: $SubtleFillColorSecondary;
+            box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary;
+        }
+    }
+
+    // No results
+    .empty-1RfdnO{
+        &::before{
+            content: "\E25B";
+            @include FontIconFluent;
+            font-size: 32px;
+            color: $TextFillColorDisabled;
+        }
+        h4,div{
+            display: none;
+        }
+    }
+}

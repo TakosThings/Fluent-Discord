@@ -8,16 +8,19 @@
     },
     "repository": "git:TakosThings/Fluent-Discord",
     "os": [
-        "win32"
+        "win32",
+        "linux"
     ],
     "scripts": {
         "build": "sass src/fluent.scss:dist/fluent.theme.css --no-charset --no-source-map",
-        "dev": "sass src/fluent.scss:%APPDATA%/BetterDiscord/themes/fluent.theme.css --no-charset --no-source-map --watch",
-        "build-translate": "sass src/extra:dist --no-charset --no-source-map",
-        "dev-translate": "sass src/extra:%APPDATA%/BetterDiscord/themes --no-charset --no-source-map",
-        "dev-translate-only": "sass src/extra/fluent.%npm_config_lang%.theme.scss:%APPDATA%/BetterDiscord/themes/fluent.%npm_config_lang%.theme.css --no-charset --no-source-map"
+        "dev": "cross-os xdev",
+        "xdev": {
+            "win32": "sass src/fluent.scss:%APPDATA%/BetterDiscord/themes/fluent.theme.css --no-charset --no-source-map --watch",
+            "linux": "sass src/fluent.scss:$HOME/.config/BetterDiscord/themes/fluent.theme.css --no-charset --no-source-map --watch"
+        }
     },
     "devDependencies": {
-        "sass": "^1.47.0"
+        "cross-os": "^1.4.0",
+        "sass": "^1.49.7"
     }
 }
