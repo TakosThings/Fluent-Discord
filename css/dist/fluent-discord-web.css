@@ -1,0 +1,608 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+body {
+  background-color: #202020;
+  background-image: url(https://cdn.discordapp.com/attachments/862716886067445820/873634258118397972/blue_teal_purple_gradient.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Segoe UI Variable Text", "Segoe UI Variable Static Text", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-feature-settings: "rclt" 0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.shell {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+code {
+  background-color: rgba(255, 255, 255, 0.3628);
+  padding: 0 4px;
+  border-radius: 4px;
+}
+
+code.codeblock {
+  white-space: pre-line;
+  display: block;
+  overflow-x: auto;
+  text-indent: 1px;
+  padding: 0.5em;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.app {
+  width: 482px;
+  height: auto;
+  background: linear-gradient(0deg, rgba(32, 32, 32, 0.8), rgba(32, 32, 32, 0.8));
+  backdrop-filter: blur(64px);
+  border: 1px solid rgba(117, 117, 117, 0.4);
+  border-radius: 8px;
+  box-shadow: 0px 32px 64px rgba(0, 0, 0, 0.28), 0px 2px 21px rgba(0, 0, 0, 0.22);
+  display: flex;
+  flex-direction: column;
+}
+
+.titlebar {
+  height: 32px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.body {
+  padding: 0 16px 16px;
+}
+.body h1 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.grid {
+  font-size: 0;
+  line-height: 0;
+}
+.grid .row .item {
+  width: 48px;
+  height: 48px;
+  margin: 0 2px 2px 0;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+}
+.grid .row .item:last-child {
+  margin-right: 0;
+}
+.grid .row .item::before {
+  content: attr(data-tooltip);
+  min-width: 120px;
+  position: absolute;
+  top: -42px;
+  padding: 4px 8px;
+  left: 50%;
+  margin-left: -60px;
+  background: linear-gradient(0deg, rgba(32, 32, 32, 0.5), rgba(32, 32, 32, 0.5)), rgba(32, 32, 32, 0.96);
+  border: 1px solid rgba(117, 117, 117, 0.4);
+  border-radius: 4px;
+  text-align: center;
+  visibility: hidden;
+  z-index: 1;
+  pointer-events: none;
+  font-feature-settings: "rclt" 0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 20px;
+}
+.grid .row .item:hover {
+  border-color: rgba(255, 255, 255, 0.5442);
+}
+.grid .row .item:hover::before {
+  visibility: visible;
+}
+.grid .row .item:active {
+  border-color: rgba(255, 255, 255, 0.1581);
+}
+.grid .row .item.color.YellowGold {
+  background-color: #ffbb00;
+}
+.grid .row .item.color.Gold {
+  background-color: darkorange;
+}
+.grid .row .item.color.OrangeBright {
+  background-color: #f8630d;
+}
+.grid .row .item.color.OrangeDark {
+  background-color: #cb5210;
+}
+.grid .row .item.color.Rust {
+  background-color: #da3b01;
+}
+.grid .row .item.color.PaleRust {
+  background-color: #ef6a52;
+}
+.grid .row .item.color.BrickRed {
+  background-color: #d13339;
+}
+.grid .row .item.color.ModRed {
+  background-color: #ff4242;
+}
+.grid .row .item.color.PaleRed {
+  background-color: #e74653;
+}
+.grid .row .item.color.Red {
+  background-color: #e81123;
+}
+.grid .row .item.color.RoseBright {
+  background-color: #eb005e;
+}
+.grid .row .item.color.Rose {
+  background-color: #c20051;
+}
+.grid .row .item.color.PlumLight {
+  background-color: #e6008e;
+}
+.grid .row .item.color.Plum {
+  background-color: #bd0074;
+}
+.grid .row .item.color.OrchidLight {
+  background-color: #c238b2;
+}
+.grid .row .item.color.Orchid {
+  background-color: #990087;
+}
+.grid .row .item.color.DefaultBlue {
+  background-color: #0076d6;
+}
+.grid .row .item.color.NavyBlue {
+  background-color: #0065b3;
+}
+.grid .row .item.color.PurpleShadow {
+  background-color: #908dd8;
+}
+.grid .row .item.color.PurpleShadowDark {
+  background-color: #6d6bd6;
+}
+.grid .row .item.color.IrisPastel {
+  background-color: #8865b8;
+}
+.grid .row .item.color.IrisSpring {
+  background-color: #734da8;
+}
+.grid .row .item.color.VioletRedLight {
+  background-color: #b147c2;
+}
+.grid .row .item.color.VioletRed {
+  background-color: #881797;
+}
+.grid .row .item.color.CoolBlueBright {
+  background-color: #009abd;
+}
+.grid .row .item.color.CoolBlue {
+  background-color: #2d7d9a;
+}
+.grid .row .item.color.Seafoam {
+  background-color: #00b5c2;
+}
+.grid .row .item.color.SeafoamTeal {
+  background-color: #038387;
+}
+.grid .row .item.color.MintLight {
+  background-color: #00b395;
+}
+.grid .row .item.color.MintDark {
+  background-color: #018472;
+}
+.grid .row .item.color.TurfGreen {
+  background-color: #00cc69;
+}
+.grid .row .item.color.SportGreen {
+  background-color: #10893e;
+}
+.grid .row .item.color.Grey {
+  background-color: #7b7574;
+}
+.grid .row .item.color.GreyBrown {
+  background-color: #5c5957;
+}
+.grid .row .item.color.SteelBlue {
+  background-color: #677589;
+}
+.grid .row .item.color.MetalBlue {
+  background-color: #515c6c;
+}
+.grid .row .item.color.PaleMoss {
+  background-color: #567b73;
+}
+.grid .row .item.color.Moss {
+  background-color: #496961;
+}
+.grid .row .item.color.MeadowGreen {
+  background-color: #488005;
+}
+.grid .row .item.color.Green {
+  background-color: #107a10;
+}
+.grid .row .item.color.Overcast {
+  background-color: #757575;
+}
+.grid .row .item.color.Storm {
+  background-color: #4c4a48;
+}
+.grid .row .item.color.BlueGrey {
+  background-color: #68787d;
+}
+.grid .row .item.color.GreyDark {
+  background-color: #4a5459;
+}
+.grid .row .item.color.LiddyGreen {
+  background-color: #647d64;
+}
+.grid .row .item.color.Sage {
+  background-color: #535f55;
+}
+.grid .row .item.color.CamouflageDesert {
+  background-color: #827445;
+}
+.grid .row .item.color.Camouflage {
+  background-color: #7d725e;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  margin: 16px 0;
+  background-color: rgba(255, 255, 255, 0.0837);
+}

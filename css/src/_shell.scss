@@ -1,0 +1,39 @@
+body{
+    background-color: $SolidBackgroundFillColorBase;
+    background-image: url(https://cdn.discordapp.com/attachments/862716886067445820/873634258118397972/blue_teal_purple_gradient.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @include FontNormal;
+    @include TypeBody;
+    color: $TextFillColorPrimary;
+}
+
+.shell{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+code{
+    background-color: $TextFillColorDisabled;
+    padding: 0 4px;
+    border-radius: 4px;
+}
+code.codeblock{
+    white-space: pre-line;
+    display: block;
+    overflow-x: auto;
+    text-indent: 1px;
+    padding: 0.5em;
+}
+
+*,
+::before,
+::after{
+    box-sizing: border-box;
+}
