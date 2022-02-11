@@ -40,6 +40,17 @@
 }
 
 /**
+ * Guild icon size
+ * Description: Adjust the size of the server icons.
+ * Default:     24px
+ * To modify:   Adjust the width value below. You do not need to specify the height value. The maximum size is 48px.
+ * Wiki:        https://github.com/TakosThings/Fluent-Discord/wiki/Options
+*/
+.theme-dark .wrapper-1_HaEi .listItem-3SmSlK .wrapper-28eC3z .icon-3AqZ2e{
+    width: 24px;
+}
+
+/**
  * Chat box GIF button
  * Description: Removes the GIF button from the right side of the chatbox.
  * Default:     The GIF button is hidden.
