@@ -1,0 +1,19 @@
+{
+    "private": true,
+    "name": "fluent-discord",
+    "license": "MIT",
+    "author": {
+        "name": "TakosThings",
+        "url": "https://github.com/TakosThings/Fluent-Discord"
+    },
+    "repository": "git:TakosThings/Fluent-Discord",
+    "os": [
+        "win32"
+    ],
+    "scripts": {
+        "dev": "sass css/src/fluent-discord-web.scss:css/dist/fluent-discord-web.css --no-charset --no-source-map --watch"
+    },
+    "devDependencies": {
+        "sass": "^1.49.7"
+    }
+}
