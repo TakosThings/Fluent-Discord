@@ -10,67 +10,21 @@
  * This option is found in User settings > Appearance.
 */
 
- /**
- * Accent colour
- * Description: Change the accent colour.
- * Default:     The default accent colour is 'Default Blue'.
- * To modify:   Change the numbers after '--fluent-accent-hue-sat' and '--fluent-accent-lightness' in the lines below.
- * Note:        The colour formatting is non-standard. Read the wiki page for instructions.
- * Wiki:        https://github.com/TakosThings/Fluent-Discord/wiki/Options
- * Site:        https://takosthings.github.io/Fluent-Discord/color.html
-*/
+/**
+  * Visit the wiki for in-depth help on changing the below variables: https://github.com/TakosThings/Fluent-Discord/wiki/Options
+  * You can change the accent colour by using the Colour Selector tool: https://takosthings.github.io/Fluent-Discord/color.html
+**/
+
 :root{
+    /* DefaultBlue */
     --fluent-accent-hue-sat: 207, 100%;
     --fluent-accent-lightness: 42%;
-}
-
-/**
- * Acrylic
- * Description: Change the background and adjust filters.
- * Default:     Blue/green gradient background, filters disabled.
- * To modify:   Change the URL below.
- * Warning:     You MUST read the wiki page about acrylic before enabling backdrop-filters.
- *              Ignoring this advice will probably result in bad performance.
- * Wiki:        https://github.com/TakosThings/Fluent-Discord/wiki/Acrylic
-*/
-.bg-1QIAus{
-    background: url(https://cdn.discordapp.com/attachments/862716886067445820/873634258118397972/blue_teal_purple_gradient.jpg);
-}
-.bg-1QIAus::before{
-    /* backdrop-filter: blur(32px); */
-}
-
-/**
- * Guild icon size
- * Description: Adjust the size of the server icons.
- * Default:     24px
- * To modify:   Adjust the width value below. You do not need to specify the height value. The maximum size is 48px.
- * Wiki:        https://github.com/TakosThings/Fluent-Discord/wiki/Options
-*/
-.theme-dark .wrapper-1_HaEi .listItem-3SmSlK .wrapper-28eC3z .icon-3AqZ2e{
-    width: 24px;
-}
-
-/**
- * Chat box GIF button
- * Description: Removes the GIF button from the right side of the chatbox.
- * Default:     The GIF button is hidden.
- * To modify:   Remove 'display: none;' from the below code
- * Wiki:        https://github.com/TakosThings/Fluent-Discord/wiki/Options#chat-box-gif-button
-*/
-.theme-dark .form-3gdLxP .buttons-uaqb-5 .buttonContainer-2lnNiN:nth-child(2){
-    display: none;
-}
-
-/**
- * Chat box sticker button
- * Description: Removes the sticker button from the right side of the chatbox.
- * Default:     The sticker button is hidden.
- * To modify:   Remove 'display: none;' from the below code
- * Wiki:        https://github.com/TakosThings/Fluent-Discord/wiki/Options#chat-box-sticker-button
-*/
-.theme-dark .form-3gdLxP .buttons-uaqb-5 .buttonContainer-2lnNiN:nth-child(3){
-    display: none;
+    --fluent-acrylic-background: url(https://cdn.discordapp.com/attachments/862716886067445820/873634258118397972/blue_teal_purple_gradient.jpg);
+    --fluent-acrylic-background-blur: 0px;
+    --fluent-acrylic-background-saturation: 100%;
+    --fluent-guilds-icon-size: 24px;
+    --fluent-chatbox-gif-button-visibility: none;
+    --fluent-chatbox-stickers-button-visibility: none;
 }
 
 /**

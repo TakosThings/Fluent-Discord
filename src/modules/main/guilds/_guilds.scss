@@ -40,7 +40,7 @@
                 mask: none;
             }
             .icon-3AqZ2e{
-                // Width is a uservar in options.scss
+                width: var(--fluent-guilds-icon-size);
                 height: auto;
                 border-radius: 50%;
             }
