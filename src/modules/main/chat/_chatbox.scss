@@ -102,6 +102,14 @@
             }
         }
 
+        // Remove GIF and Sticker buttons
+        .buttonContainer-2lnNiN:nth-child(2){
+            display: var(--fluent-chatbox-gif-button-visibility);
+        }
+        .buttonContainer-2lnNiN:nth-child(3){
+            display: var(--fluent-chatbox-stickers-button-visibility);
+        }
+
     }
 
     // Is Typing

@@ -1,0 +1,30 @@
+name: make-release
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout
+      - uses: actions/checkout@v2
+
+      # Build CSS
+      - name: Sass Build
+        uses: gha-utilities/sass-build@v0.4.8
+        with:
+          source: src/fluent.scss
+          destination: dist/fluent-discord.css
+          outputStyle: expanded
+
+      # Deploy to gh-pages
+      - name: GitHub Pages action
+        uses: peaceiris/actions-gh-pages@v3.7.3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./dist
+          destination_dir: ./theme
+          keep_files: true
+          commit_message: Deployment from Action

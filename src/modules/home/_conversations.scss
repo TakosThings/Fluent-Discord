@@ -1,0 +1,54 @@
+.privateChannels-oVe7HL{
+    .link-39sEB3[href="/channels/@me"]{
+        .avatar-1HDIsL{
+            &::before{
+                content: "\E13D";
+                @include FontIconFluent;
+                color: $TextFillColorSecondary;
+            }
+            svg{
+                display: none;
+            }
+        }
+    }
+    .link-39sEB3[href="/store"]{
+        display: none;
+    }
+
+    .interactive-1vLZ_I{
+        &:hover,
+        &:focus-within{
+            background-color: $SubtleFillColorSecondary;
+            box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary;
+            .name-2m3Cms{
+                color: $TextFillColorPrimary;
+            }
+        }
+
+        .layout-1LjVue{
+            padding: 0 8px;
+        }
+
+        // Avatar
+        .avatar-1HDIsL{
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+        }
+        .wrapper-1VLyxH{
+            width: 24px !important;
+            height: 24px !important;
+        }
+
+        // Name
+        .name-2m3Cms{
+            @include TypeBody;
+            color: $TextFillColorSecondary;
+        }
+        // Activity
+        .activityText-ev7Z1T{
+            @include TypeCaption;
+            color: $TextFillColorSecondary;
+        }
+    }
+}

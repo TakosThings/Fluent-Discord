@@ -55,13 +55,13 @@ $CamouflageDesert:                              #847545;
 $Camouflage:                                    #7e735f;
 
 // Accent
-$AccentBase:                                    $DefaultBlue;
-$AccentLight1:                                  lighten($AccentBase, 15%);
-$AccentLight2:                                  lighten($AccentBase, 20%);
-$AccentLight3:                                  lighten($AccentBase, 25%);
-$AccentDark1:                                   darken($AccentBase, 15%);
-$AccentDark2:                                   darken($AccentBase, 20%);
-$AccentDark3:                                   darken($AccentBase, 25%);
+$AccentBase:                                    hsl(var(--fluent-accent-hue-sat), var(--fluent-accent-lightness));
+$AccentLight1:                                  hsl(var(--fluent-accent-hue-sat), calc(var(--fluent-accent-lightness) + 15%));
+$AccentLight2:                                  hsl(var(--fluent-accent-hue-sat), calc(var(--fluent-accent-lightness) + 20%));
+$AccentLight3:                                  hsl(var(--fluent-accent-hue-sat), calc(var(--fluent-accent-lightness) + 25%));
+$AccentDark1:                                   hsl(var(--fluent-accent-hue-sat), calc(var(--fluent-accent-lightness) - 15%));
+$AccentDark2:                                   hsl(var(--fluent-accent-hue-sat), calc(var(--fluent-accent-lightness) - 20%));
+$AccentDark3:                                   hsl(var(--fluent-accent-hue-sat), calc(var(--fluent-accent-lightness) - 25%));
 
 // Text
 // Text
