@@ -56,6 +56,16 @@
                 border-radius: 2px;
             }
         }
+        // Move nitro icon to left side
+        .premiumLabel-V52REm svg{
+            position: absolute;
+            left: -32px;
+            fill: $TextFillColorPrimary;
+        }
+        // Remove background div from nitro option
+        .selectedBackground-1qyzak{
+            display: none;
+        }
     }
     // Divider
     .side-2ur1Qk .separator-2wx7h6{
