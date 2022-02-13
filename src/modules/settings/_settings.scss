@@ -32,34 +32,32 @@
             @include TypeTitle;
         }
     }
+}
+// Pages transition
+@keyframes fluent-settings-pages-transition{
+    from{
+        transform: translateY(120px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.contentColumn-1C7as6 > div:first-child{
+    animation: fluent-settings-pages-transition 250ms cubic-bezier(0, 0, 0, 1);
+}
 
-    // Pages transition
-    @keyframes fluent-settings-pages-transition{
-        from{
-            transform: translateY(120px);
-            opacity: 0;
-        }
-        to{
-            transform: translateY(0);
-            opacity: 1;
-        }
+// Layer transition
+// Also applies to Edit server profile
+@keyframes fluent-layer-transition{
+    from{
+        transform: translateY(120px);
     }
-    .contentColumn-1C7as6 > div:first-child{
-        animation: fluent-settings-pages-transition 250ms cubic-bezier(0, 0, 0, 1);
+    to{
+        transform: translateY(0);
     }
-
-    // Layer transition
-    // Also applies to Edit server profile
-    @keyframes fluent-layer-transition{
-        from{
-            transform: translateY(120px);
-        }
-        to{
-            transform: translateY(0);
-        }
-    }
-
-    .animating-1rIrGV{
-        animation: fluent-layer-transition 250ms cubic-bezier(0,0,0,1);
-    }
+}
+.animating-1rIrGV{
+    animation: fluent-layer-transition 250ms cubic-bezier(0,0,0,1);
 }
