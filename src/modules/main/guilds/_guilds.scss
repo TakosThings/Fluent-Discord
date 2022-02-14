@@ -22,7 +22,6 @@
             height: 40px;
             top: 4px;
             background-color: $ControlFillColorSecondary;
-
             border-radius: 4px;
         }
         &:hover::before{
@@ -43,10 +42,10 @@
                 left: 4px;
                 top: 16px;
                 border-radius: 2px;
-                // z-index: 1; //
             }
             &.bd-unread::before{
                 border-radius: 2px;
+                background-color: $TextFillColorSecondary;
             }
             &.bd-selected::before{
                 background-color: $AccentFillColorDefault;
