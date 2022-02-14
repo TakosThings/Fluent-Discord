@@ -1,0 +1,105 @@
+.theme-dark .channelTextArea-1FufC0{
+    &:focus-within{
+        .autocomplete-3NRXG8{
+            border-color: $ControlStrokeColorDefault;
+        }
+    }
+}
+
+.theme-dark .autocomplete-3NRXG8{
+    bottom: calc(100% + 4px);
+    box-shadow: none;
+    background-color: $CardStrokeColorDefaultSolid;
+    border: 1px solid $ControlStrokeColorDefault;
+    border-radius: 4px;
+
+    .rail-1BiMhk{
+        background-color: $CardStrokeColorDefault;
+    }
+
+    .section-Dep3No{
+        > div[role=button]{
+            width: 32px;
+            height: 32px;
+            background-color: $ControlFillColorDefault;
+            border: 1px solid $ControlStrokeColorDefault;
+            border-radius: 4px;
+            &:hover{
+                background-color: $ControlFillColorSecondary;
+            }
+            &:active{
+                background-color: $ControlFillColorTertiary;
+            }
+            svg{
+                width: 24px;
+                height: 24px;
+                margin: 4px;
+            }
+            .wrapper-1wwiGV{
+                padding: 0 !important;
+            }
+        }
+    }
+
+    // Commands header
+    .categoryHeader-OpJ1Ly{
+        background-color: $CardStrokeColorDefaultSolid;
+        .headerLabel-1g790w{
+            @include TypeBody;
+            color: $TextFillColorPrimary;
+            text-transform: none;
+        }
+    }
+
+    // Commands matching: header
+    .contentTitle-3CylD3{
+        @include TypeBody;
+        color: $TextFillColorPrimary;
+        text-transform: none;
+        strong{
+            @include FontMonospace;
+            @include TypeBody;
+            &::before,
+            &::after{
+                content: "\"";
+            }
+        }
+    }
+
+    // Command
+    .base-2v-uc0{
+        &.selected-3H3-RC{
+            background-color: $SubtleFillColorSecondary;
+            box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary; // Using box-shadow because borders cause the div to grow;
+        }
+        .title-158kHv{
+            @include FontMonospace;
+            @include TypeBody;
+        }
+        .usageWrapper-2eaALZ{
+            .optionalCount-1BzEgg{
+                @include TypeBody;
+                color: $TextFillColorTertiary;
+            }
+            .option-c0n68t{
+                padding: 0;
+                margin-left: 1ch;
+                background-color: transparent;
+                @include FontMonospace;
+                @include TypeBody;
+                &::before{
+                    content: "{";
+                }
+                &::after{
+                    content: "}";
+                }
+            }
+        }
+
+        // Command description
+        .description-1T7FK8{
+            @include TypeCaption;
+            color: $TextFillColorTertiary;
+        }
+    }
+}
