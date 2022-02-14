@@ -14,24 +14,46 @@
     .listItem-3SmSlK{
         margin: 0;
         width: 48px;
-        &:hover{
+        &:hover::before,
+        &.bd-selected::before{
+            content: "";
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            top: 4px;
             background-color: $ControlFillColorSecondary;
+
+            border-radius: 4px;
+        }
+        &:hover::before{
+            box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary;
         }
         // Pill
         .pill-2RsI5Q, // Guild
         .pill-L_aLMQ, // Home
         .pill-22lZHo, // DM
-        .pill-1aYSec{
-            .item-2LIpTv{
+        .pill-1NRFie{
+            // NOTE: 2021-02-14 - Order is important here. Apply unread style, then selected.
+            &.bd-unread::before,
+            &.bd-selected::before{
+                content: "";
                 width: 3px;
-                height: 24px !important;
-                margin-left: 4px;
+                height: 16px;
+                position: absolute;
+                left: 4px;
+                top: 16px;
                 border-radius: 2px;
-                // Guild is selected
-                &[style*="height: 40px;"]{
-                    height: 24px !important;
-                    background-color: $AccentBase;
-                }
+                // z-index: 1; //
+            }
+            &.bd-unread::before{
+                border-radius: 2px;
+            }
+            &.bd-selected::before{
+                background-color: $AccentFillColorDefault;
+            }
+
+            .item-2LIpTv{
+                display: none;
             }
         }
         // Guild icon
@@ -145,15 +167,15 @@
         padding: 8px;
     }
     .expandedFolderBackground-1kSAf6{
-        left: 0;
-        bottom: 0;
-        background-color: $CardBackgroundFillColorDefault;
-        border-radius: 24px;
+        width: 40px;
+        top: 4px;
+        bottom: 4px;
+        left: 4px;
+        background-color: $SubtleFillColorSecondary;
+        border-radius: 4px;
         &.collapsed-uGXEbi{
             background-color: transparent;
-        }
-        &:not(.collapsed-uGXEbi) ~ .listItem-3SmSlK{
-            border-radius: 24px 24px 0 0;
+            box-shadow: none;
         }
     }
     .expandedFolderIconWrapper-3RwQpD{
