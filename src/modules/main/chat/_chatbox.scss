@@ -47,9 +47,10 @@
 
     // Upload button
     .attachButton-_ACFSu{
-        width: 44px;
-        height: 44px;
-        margin: 0;
+        width: 32px;
+        height: 32px;
+        margin: 6px 0 0 6px;
+        border: 1px solid transparent;
         border-radius: 2px;
         &::before{
             content: "\E898"; // Upload
@@ -57,7 +58,10 @@
             @include FontIconFluent;
             font-size: 16px;
         }
-        &:hover{
+        &:hover,
+        &[aria-expanded=true]{
+            background-color: $ControlFillColorSecondary;
+            border-color: $ControlStrokeColorDefault;
             &::before{
                 color: $TextFillColorPrimary;
             }
@@ -73,26 +77,22 @@
     }
 
     // Gift/GIF/Sticker/Emoji buttons
-    .buttons-uaqb-5{
-        height: unset;
-        margin-right: 0;
-        // Remove gift
-        & > .button-f2h6uQ{
-            display: none;
-        }
-        // Set a static emoji icon
-        .emojiButton-3FRTuj{
-            width: 44px;
-            height: 44px;
-            margin: 0;
-            border-radius: 2px;
+    .expression-picker-chat-input-button{
+        margin: 6px 4px 0 0;
+        .button-f2h6uQ{
+            height: 32px;
+            width: 32px;
+            border: 1px solid transparent;
             &::before{
-                content: "\E76E"; //Emoji2
                 color: $TextFillColorSecondary;
                 @include FontIconFluent;
-                font-size: 16px;
+                font-size: 18px;
             }
-            &:hover{
+            &:hover,
+            &.active-z80xEj,
+            &.emojiButtonHovered-s44uQ8{
+                background-color: $ControlFillColorDisabled;
+                border-color: $ControlStrokeColorDefault;
                 &::before{
                     color: $TextFillColorPrimary;
                 }
@@ -102,14 +102,42 @@
             }
         }
 
-        // Remove GIF and Sticker buttons
-        .buttonContainer-2lnNiN:nth-child(2){
+        // GIF
+        &:nth-of-type(1){
             display: var(--fluent-chatbox-gif-button-visibility);
+            .button-f2h6uQ{
+                &::before{
+                    content: "\F4A9"; //GIF
+                }
+            }
         }
-        .buttonContainer-2lnNiN:nth-child(3){
+        // Sticker
+        &:nth-of-type(2){
             display: var(--fluent-chatbox-stickers-button-visibility);
+            .button-f2h6uQ{
+                &::before{
+                    content: "\F4AA"; // Sticker2
+                }
+            }
         }
-
+    }
+    .buttons-uaqb-5{
+        height: unset;
+        margin-right: 0;
+        // Remove gift
+        & > .button-f2h6uQ{
+            display: none;
+        }
+        // Set a static emoji icon
+        .emojiButton-3FRTuj{
+            margin: 0 4px 0 0;
+            &::before{
+                content: "\E76E"; //Emoji2
+                color: $TextFillColorSecondary;
+                @include FontIconFluent;
+                font-size: 16px;
+            }
+        }
     }
 
     // Is Typing
