@@ -200,6 +200,27 @@
     }
 
     // Showing command help
+    .attachedBars-2BCP3l{
+        background-color: $CardStrokeColorDefaultSolid;
+        border-radius: 4px 4px 0 0;
+        .title-158kHv{
+            @include TypeBody;
+        }
+        .option-Tt7anD{
+            margin-left: 0;
+            @include FontMonospace;
+            @include TypeBody;
+            &::before{
+                content: "{";
+            }
+            &::after{
+                content: "}";
+            }
 
+            &.active-WHsd77{
+                background-color: transparent !important;
+            }
+        }
+    }
 }
 
