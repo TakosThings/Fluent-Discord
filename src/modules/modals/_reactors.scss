@@ -1,0 +1,43 @@
+.theme-dark .container-KM8BU6{
+    .scroller-2GkvCq{
+        background-color: $CardBackgroundFillColorDefault;
+    }
+
+    .reactionDefault-1Sjj1f{
+        &:hover{
+            background-color: $SubtleFillColorSecondary;
+        }
+    }
+    .reactionSelected-1aMb2K{
+        position: relative;
+        background-color: $SubtleFillColorSecondary;
+        &::before{
+            content: "";
+            width: 3px;
+            height: 12px;
+            position: absolute;
+            left: 0;
+            top: 7px;
+            background-color: $AccentFillColorDefault;
+            border-radius: 2px;
+        }
+    }
+
+    .reactors-1VXca7{
+        background-color: transparent;
+    }
+
+    .nickname-1PaREw{
+        @include TypeBody;
+        color: $TextFillColorPrimary;
+    }
+    .nameTag-H6kSJ0{
+        opacity: 1;
+        @include TypeBody;
+        color: $TextFillColorSecondary;
+    }
+    .discriminator-1DCM-o{
+        padding-left: .5ch;
+        color: $TextFillColorTertiary;
+    }
+}
