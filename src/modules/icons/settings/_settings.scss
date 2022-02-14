@@ -18,10 +18,6 @@
         }
 
         // Billing Settings
-        .item-3XjbnG[aria-controls="discord-nitro-tab"]::after{ // Nitro
-            content: "\EC49"; // SpeedMedium
-            top: 0; // force fix positioning for Nitro
-        }
         .item-3XjbnG[aria-controls="nitro-server-boost-tab"]::after{ // Server boost
             content: "\EC4A" // SpeedHigh
         }

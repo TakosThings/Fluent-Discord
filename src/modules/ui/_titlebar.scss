@@ -1,4 +1,4 @@
-.titleBar-1it3bQ{
+.theme-dark .titleBar-1it3bQ{
     background-color: transparent;
     &.withFrame-2dL45i{
         height: calc(32px - 4px);
@@ -36,7 +36,7 @@
 }
 
 // Change titlebar name and controls colour when app is focused
-html.app-focused{
+html.theme-dark.app-focused{
     .wordmarkWindows-2dq6rw,
     .winButton-3UMjdg{
         color: $TextFillColorPrimary;

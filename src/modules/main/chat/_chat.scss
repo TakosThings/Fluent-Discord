@@ -1,167 +1,165 @@
 .theme-dark .chat-2ZfjoI{
     background-color: transparent;
-}
 
-.theme-dark .content-1jQy2l{
-    background-color: $LayerFillColorDefault;
-    border-top: 1px solid $CardStrokeColorDefault;
-    border-left: 1px solid $CardStrokeColorDefault;
-    border-radius: 8px 0 0 0;
-    // Remove drop-shadow
-    &::before{
-        content: unset;
+    .content-1jQy2l{
+        background-color: $LayerFillColorDefault;
+        border-top: 1px solid $CardStrokeColorDefault;
+        border-left: 1px solid $CardStrokeColorDefault;
+        border-radius: 8px 0 0 0;
+        // Remove drop-shadow
+        &::before{
+            content: unset;
+        }
     }
-}
 
-// New/old messages bars
-.theme-dark .barBase-3xxDXu{
-    left: 50%;
-    margin-left: -299px;
-    width: 598px;
-    min-height: 32px;
-    border: 1px solid $CardStrokeColorDefault;
-    box-shadow: none;
-    border-radius: 8px;
-    .barButtonMain-2GIx4o{
-        @include TypeBody;
+    // New/old messages bars
+    .barBase-3xxDXu{
+        left: 50%;
+        margin-left: -299px;
+        width: 598px;
+        min-height: 32px;
+        border: 1px solid $CardStrokeColorDefault;
+        box-shadow: none;
+        border-radius: 8px;
+        .barButtonMain-2GIx4o{
+            @include TypeBody;
+        }
+        .barButtonAlt-TQoCdZ{
+            display: none;
+        }
     }
-    .barButtonAlt-TQoCdZ{
+    // New messages bar
+    .newMessagesBar-1hF-9G{
+        top: 8px;
+        background-color: $AccentLight1;
+    }
+    // Old messages bar
+    .jumpToPresentBar-1cEnH0{
+        bottom: 8px;
+        padding-bottom: 0;
+        background-color: $CardStrokeColorDefaultSolid;
+    }
+
+    // Start of server
+    .container-1yy5xN{
+        align-items: flex-start;
+        padding: 0;
+        .titleName-2vkJTW{
+            text-align: left;
+            @include TypeTitle;
+            p{
+                margin-right: .5rem;
+                display: inline-block;
+            }
+        }
+        .subtitle-3tY4DQ{
+            text-align: left;
+            color: $TextFillColorPrimary;
+            @include TypeBody;
+        }
+    }
+
+    // Start of channel
+    .container-1yy5xN{
+        padding: 16px;
+        .header-1dhDWV{
+            @include TypeTitle;
+        }
+        .description-22d6ux{
+            color: $TextFillColorPrimary;
+            @include TypeBody;
+        }
+    }
+    .emptyChannelIcon-1YdEz2{
         display: none;
     }
-}
-// New messages bar
-.theme-dark .newMessagesBar-1hF-9G{
-    top: 8px;
-    background-color: $AccentLight1;
-}
-// Old messages bar
-.theme-dark .jumpToPresentBar-1cEnH0{
-    bottom: 8px;
-    padding-bottom: 0;
-    background-color: $CardStrokeColorDefaultSolid;
-}
 
-
-// Start of server
-.theme-dark .chat-2ZfjoI .container-1yy5xN{
-    align-items: flex-start;
-    padding: 0;
-    .titleName-2vkJTW{
-        text-align: left;
-        @include TypeTitle;
-        p{
-            margin-right: .5rem;
-            display: inline-block;
-        }
-    }
-    .subtitle-3tY4DQ{
-        text-align: left;
-        color: $TextFillColorPrimary;
-        @include TypeBody;
-    }
-}
-
-// Start of channel
-.theme-dark .container-1yy5xN{
-    padding: 16px;
-    .header-1dhDWV{
-        @include TypeTitle;
-    }
-    .description-22d6ux{
-        color: $TextFillColorPrimary;
-        @include TypeBody;
-    }
-}
-.theme-dark .emptyChannelIcon-1YdEz2{
-    display: none;
-}
-
-// Divider
-.theme-dark .divider-2rZFJK{
-    justify-content: flex-end;
-    border-color: $DividerStrokeColorDefault;
-    .content-3spvdd,
-    .unreadPill-3nEWYM{
-        padding: 2px 8px;
-        color: $TextFillColorPrimary;
-        @include TypeCaption;
-        font-weight: normal;
-    }
-    .unreadPill-3nEWYM{
-        height: unset;
-        top: -1px;
-        background-color: $SystemFillColorCriticalBackground;
-        border-radius: 8px;
-        color: $SystemFillColorCritical;
-        text-transform: capitalize;
-        svg{
-
-            display: none;
-        }
-    }
-    &.isUnread-3Lojb-{
-        // NOTE: 2021-08-29 - The border should technically be SystemFillColorCriticalBackground, but is barely visisble, so using the text fill instead.
-        border-color: $SystemFillColorCritical;
-        .content-3spvdd{
-            border-radius: 8px 0 0 8px;
+    // Divider
+    .divider-2rZFJK{
+        justify-content: flex-end;
+        border-color: $DividerStrokeColorDefault;
+        .content-3spvdd,
+        .unreadPill-3nEWYM{
+            padding: 2px 8px;
+            color: $TextFillColorPrimary;
+            @include TypeCaption;
+            font-weight: normal;
         }
         .unreadPill-3nEWYM{
-            position: relative;
-        }
-    }
-    // Border radius when date and new message divider are combined
-    span+span{
-        border-radius: 0 8px 8px 0 !important;
-    }
-}
+            height: unset;
+            top: -1px;
+            background-color: $SystemFillColorCriticalBackground;
+            border-radius: 8px;
+            color: $SystemFillColorCritical;
+            text-transform: capitalize;
+            svg{
 
-// Chat message
-.theme-dark .message-2CShn3{
-    // Remove hover
-    &:hover{
-        background-color: transparent !important;
-    }
-    // Remove background on mentioned message
-    &.mentioned-Tre-dv{
-        background-color: transparent;
-        &::before{
-            left: 8px;
-            background-color: $SystemFillColorCaution;
-            border-radius: 1px;
+                display: none;
+            }
+        }
+        &.isUnread-3Lojb-{
+            // NOTE: 2021-08-29 - The border should technically be SystemFillColorCriticalBackground, but is barely visisble, so using the text fill instead.
+            border-color: $SystemFillColorCritical;
+            .content-3spvdd{
+                border-radius: 8px 0 0 8px;
+            }
+            .unreadPill-3nEWYM{
+                position: relative;
+            }
+        }
+        // Border radius when date and new message divider are combined
+        span+span{
+            border-radius: 0 8px 8px 0 !important;
         }
     }
-}
 
-// Blocked message
-.theme-dark .compact-2Nkcau .blockedSystemMessage-3FmE9n{
-    margin-left: -5ch;
-    .iconContainer-2rPbqG{
-        margin-right: 1ch;
-        padding-top: 2px;
-        &::before{
-            content: "\ECE4";
-            @include FontIconFluent
+    // Chat message
+    .message-2CShn3{
+        // Remove hover
+        &:hover{
+            background-color: transparent !important;
         }
-        svg{
-            display: none;
-        }
-    }
-}
-.theme-dark .cozy-VmLDNB .blockedSystemMessage-3FmE9n{
-    .iconContainer-2rPbqG{
-        padding-top: 2px;
-        &::before{
-            content: "\ECE4";
-            @include FontIconFluent
-        }
-        svg{
-            display: none;
+        // Remove background on mentioned message
+        &.mentioned-Tre-dv{
+            background-color: transparent;
+            &::before{
+                left: 4px;
+                background-color: $SystemFillColorCaution;
+                border-radius: 1px;
+            }
         }
     }
-}
 
-// Loading chat messages
-.wrapper-3HVHpV{
+    // Blocked message
+    .compact-2Nkcau .blockedSystemMessage-3FmE9n{
+        margin-left: -5ch;
+        .iconContainer-2rPbqG{
+            margin-right: 1ch;
+            padding-top: 2px;
+            &::before{
+                content: "\ECE4";
+                @include FontIconFluent
+            }
+            svg{
+                display: none;
+            }
+        }
+    }
+    .cozy-VmLDNB .blockedSystemMessage-3FmE9n{
+        .iconContainer-2rPbqG{
+            padding-top: 2px;
+            &::before{
+                content: "\ECE4";
+                @include FontIconFluent
+            }
+            svg{
+                display: none;
+            }
+        }
+    }
+
+    // Loading chat messages
+    .wrapper-3HVHpV{
     background-color: transparent;
     // The placeholding items wrappers
     .wrapper-15CKyy{
@@ -208,3 +206,12 @@
         }
     }
 }
+
+}
+
+
+
+
+
+
+

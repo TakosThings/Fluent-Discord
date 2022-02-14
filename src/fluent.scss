@@ -30,10 +30,12 @@
 @import 'modules/main/channels/account';
 @import 'modules/main/channels/channels';
 @import 'modules/main/channels/rtc';
+@import 'modules/main/chat/autocomplete';
 @import 'modules/main/chat/chat';
 @import 'modules/main/chat/chatbox';
 @import 'modules/main/chat/search_results';
 @import 'modules/main/chat/thread';
+@import 'modules/main/chat/voice_channel';
 @import 'modules/main/chat/embeds/file';
 @import 'modules/main/chat/embeds/invite';
 @import 'modules/main/chat/embeds/mediaplayer';
@@ -59,6 +61,8 @@
 @import 'modules/modals/lightbox';
 @import 'modules/modals/link_gate';
 @import 'modules/modals/modal';
+@import 'modules/modals/quickswitcher';
+@import 'modules/modals/reactors';
 
 // Popouts
 // Order: None, alphabetic

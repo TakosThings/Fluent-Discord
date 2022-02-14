@@ -1,8 +1,7 @@
-.theme-dark{
-    // Remove border radius from top-left
-    .platform-win .sidebar-1tnWFu{
-        border-radius: 0;
-    }
+// Remove border radius from top-left
+.theme-dark.platform-win .sidebar-1tnWFu{
+    border-radius: 0;
+
     // Channel header
     .header-3OsQeK{
         background-color: transparent;

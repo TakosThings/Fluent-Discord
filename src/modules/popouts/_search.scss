@@ -27,6 +27,7 @@
         .answer-2fBfuP,
         .displayedNick-2dDbfG,
         .displayUsername-14aOpK,
+        .nonText-3_4gtu,
         strong{
             @include TypeBody;
         }
@@ -40,6 +41,10 @@
         .displayUsername-14aOpK{
             color: $TextFillColorSecondary;
         }
+    }
+    .resultsGroup-1BPR25 .searchClearHistory-2Be-92,
+    .resultsGroup-1BPR25 .searchLearnMore-7__o_n{
+        top: 16px;
     }
 
 

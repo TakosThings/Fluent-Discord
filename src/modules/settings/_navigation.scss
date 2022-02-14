@@ -1,8 +1,8 @@
-.sidebarRegion-1VBisG{
+.theme-dark .sidebarRegion-1VBisG{
     flex: 0;
 }
 // Hide scrollbar when not required
-.sidebarRegionScroller-FXiQOh{
+.theme-dark .sidebarRegionScroller-FXiQOh{
     background-color: transparent;
 }
 
@@ -55,6 +55,16 @@
                 background-color: $AccentBase;
                 border-radius: 2px;
             }
+        }
+        // Move nitro icon to left side
+        .premiumLabel-V52REm svg{
+            position: absolute;
+            left: -32px;
+            fill: $TextFillColorPrimary;
+        }
+        // Remove background div from nitro option
+        .selectedBackground-1qyzak{
+            display: none;
         }
     }
     // Divider

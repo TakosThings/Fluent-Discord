@@ -1,0 +1,105 @@
+.theme-dark .quickswitcher-pKcM9U{
+    height: 100%;
+    background-color: $SolidBackgroundFillColorBase;
+
+    &::before{
+        content: "Quickswitcher";
+        margin-bottom: 16px;
+        @include TypeSubtitle;
+        color: $TextFillColorPrimary;
+    }
+
+    .input-3r5zZY{
+        height: 32px;
+        background-color: transparent;
+        border: 1px solid;
+        border-bottom-width: 2px;
+        border-radius: 4px;
+        @include TypeBody;
+        background-color: $ControlFillColorDefault;
+        color: $TextFillColorSecondary;
+        border-color: $ControlElevationBorder;
+        &:hover{
+            border-color: $ControlStrokeColorSecondary;
+        }
+        &:focus{
+            background-color: $ControlFillColorInputActiveBrush;
+            color: $TextFillColorPrimary;
+            border-color: $ControlElevationBorder;
+            border-bottom-color: $AccentBase;
+        }
+        &::placeholder{
+            color: $TextFillColorSecondary;
+        }
+    }
+
+    // Scroll content
+    .scroller-2qwVWY{
+        max-height: unset;
+        margin-top: 0;
+        margin-right: -4px;
+        background-color: transparent;
+        overflow-y: auto !important;
+    }
+
+    .header-1ZpMzy{
+        @include TypeBodyStrong;
+        color: $TextFillColorPrimary;
+        text-transform: none;
+    }
+
+    .result-u66Ywh{
+        &[aria-selected=true]{
+            background-color: $SubtleFillColorSecondary;
+            &::before{
+                content: "";
+                width: 3px;
+                height: 16px;
+                position: absolute;
+                left: 0;
+                top: 8px;
+                background-color: $AccentFillColorDefault;
+                border-radius: 2px;
+            }
+        }
+
+        .name-3qeTY-{
+            @include TypeBody;
+            color: $TextFillColorPrimary;
+            .username-wzYIu4,
+            .note-OhIxFa{
+                margin: 0;
+                opacity: 1;
+                @include TypeCaption;
+                color: $TextFillColorSecondary;
+                text-transform: none;
+            }
+        }
+        .miscContainer-33U-X-{
+            opacity: 1;
+            @include TypeBody;
+            color: $TextFillColorTertiary;
+        }
+    }
+
+    // Footer
+    .protip-1jXzAl{
+        .pro-3GwLMX{
+            display: none;
+        }
+        .tip-Jl__cG{
+            @include TypeCaption;
+            color: $TextFillColorSecondary;
+            opacity: 1;
+        }
+        .autocompleteQuerySymbol-1iAOG7{
+            background-color: transparent;
+            @include FontMonospace;
+        }
+    }
+
+    // Remove 'tutorial'
+    .tutorial-1iwync{
+        display: none;
+    }
+}
