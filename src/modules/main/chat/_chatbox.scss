@@ -208,7 +208,6 @@
         }
         .option-Tt7anD{
             margin-left: 0;
-            @include FontMonospace;
             @include TypeBody;
             &::before{
                 content: "{";
