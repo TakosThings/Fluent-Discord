@@ -1,6 +1,6 @@
 .theme-dark .chat-2ZfjoI .search-39IXmY{
     margin: 0;
-    .searchBar-zdmu7v{
+    .searchBar-jGtisZ{
         width: 64px;
         height: 36px;
         background-color: transparent;
@@ -13,13 +13,13 @@
             background-color: $ControlFillColorSecondary;
         }
         .public-DraftEditorPlaceholder-root,
-        .icon-1nNws_{
+        .icon-tZMHgY{
             display: none;
         }
     }
 
     // Icon when not active
-    .search-1FM8Qc:not(.focused-8aNhVB):not(.open-3y3yI_)::before{
+    .search-2Mwzzq:not(.focused-1xh-wG):not(.open-1F8u2c)::before{
         content: "\e721"; // Search
         width: 64px;
         font-size: 16px;
@@ -30,9 +30,9 @@
         position: absolute;
     }
 
-    .search-1FM8Qc.focused-8aNhVB .searchBar-zdmu7v,
-    .search-1FM8Qc.open-3y3yI_ .searchBar-zdmu7v,
-    .search-1FM8Qc.popout-open .searchBar-zdmu7v{
+    .search-2Mwzzq.focused-1xh-wG .searchBar-jGtisZ,
+    .search-2Mwzzq.open-1F8u2c .searchBar-jGtisZ,
+    .search-2Mwzzq.popout-open .searchBar-jGtisZ{
         width: 232px;
         height: 32px;
         margin: 0 4px;
@@ -43,22 +43,22 @@
         border-bottom-width: 2px;
         border-radius: 4px;
     }
-    .search-1FM8Qc.focused-8aNhVB .searchBar-zdmu7v{
+    .search-2Mwzzq.focused-1xh-wG .searchBar-jGtisZ{
         background-color: $ControlFillColorInputActiveBrush;
         border-color: $ControlElevationBorder;
         border-bottom-color: $AccentBase;
     }
 
-    .search-1FM8Qc.open-3y3yI_ .icon-38sknP,
-    .search-1FM8Qc.focused-8aNhVB .icon-38sknP,
-    .search-1FM8Qc.open-3y3yI_ .searchBar-zdmu7v .public-DraftEditorPlaceholder-root,
-    .search-1FM8Qc.focused-8aNhVB .searchBar-zdmu7v .public-DraftEditorPlaceholder-root{
+    .search-2Mwzzq.open-1F8u2c .icon-38sknP,
+    .search-2Mwzzq.focused-1xh-wG .icon-38sknP,
+    .search-2Mwzzq.open-1F8u2c .searchBar-jGtisZ .public-DraftEditorPlaceholder-root,
+    .search-2Mwzzq.focused-1xh-wG .searchBar-jGtisZ .public-DraftEditorPlaceholder-root{
         display: block;
     }
-    .search-1FM8Qc .DraftEditor-root .DraftEditor-editorContainer{
+    .search-2Mwzzq .DraftEditor-root .DraftEditor-editorContainer{
         height: 26px;
     }
-    .search-1FM8Qc .searchBar-zdmu7v .DraftEditor-root{
+    .search-2Mwzzq .searchBar-jGtisZ .DraftEditor-root{
         color: $TextFillColorPrimary;
         @include TypeBody;
         .public-DraftEditor-content{
@@ -70,11 +70,11 @@
             box-sizing: border-box;
         }
     }
-    .seasearch-1FM8Qcrch .searchBar-zdmu7v .public-DraftEditorPlaceholder-root{
+    .seasearch-2Mwzzqrch .searchBar-jGtisZ .public-DraftEditorPlaceholder-root{
         color: $TextFillColorSecondary;
         @include TypeBody;
     }
-    .search-1FM8Qc .searchBar-zdmu7v .icon-3cZ1F_{
+    .search-2Mwzzq .searchBar-jGtisZ .icon-3cZ1F_{
         top: 7px;
     }
 

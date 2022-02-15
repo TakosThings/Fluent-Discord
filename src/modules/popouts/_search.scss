@@ -4,13 +4,13 @@
     border: 1px solid $SurfaceStrokeColorDefault;
     border-radius: 8px;
 
-    .header-3A13BX{
+    .header-1BR0Ro{
         @include TypeBodyStrong;
         color: $TextFillColorPrimary;
         text-transform: none;
     }
 
-    .option-2KkUJO{
+    .option-ayUoaq{
         margin: 1px 10px;
         height: 32px;
         border: 1px solid transparent;
@@ -23,28 +23,44 @@
             display: none;
         }
 
-        .filter-5YbOzJ,
-        .answer-2fBfuP,
+        .filter-2QaH9y,
+        .answer-14OVbQ,
         .displayedNick-2dDbfG,
         .displayUsername-14aOpK,
-        .nonText-3_4gtu,
+        .nonText-28q_Ot,
         strong{
             @include TypeBody;
         }
 
-        .filter-5YbOzJ,
-        .displayedNick-2dDbfG,
+        .filter-2QaH9y,
+        .displayedNick-1atSpT,
         strong{
-            color: $TextFillColorPrimary
+            color: $TextFillColorPrimary;
+            @include TypeBody;
         }
-        .answer-2fBfuP,
-        .displayUsername-14aOpK{
+        .answer-14OVbQ,
+        .displayUsername-UTerwm{
             color: $TextFillColorSecondary;
+            @include TypeBody;
         }
     }
-    .resultsGroup-1BPR25 .searchClearHistory-2Be-92,
-    .resultsGroup-1BPR25 .searchLearnMore-7__o_n{
+    .resultsGroup-cfY57t .resultsGroup-cfY57t,
+    .resultsGroup-cfY57t .searchLearnMore-1gNL3A{
         top: 16px;
+    }
+
+    // "Search for..." header
+    .queryContainer-ZunrLZ{
+        background-color: $CardStrokeColorDefault;
+        .queryText-j8z984{
+            @include TypeBody;
+            color: $TextFillColorPrimary;
+            text-transform: none;
+            strong::before,
+            strong::after{
+                content: "\"";
+            }
+        }
     }
 
 
