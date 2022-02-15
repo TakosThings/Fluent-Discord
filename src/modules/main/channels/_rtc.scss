@@ -6,7 +6,7 @@
     .actionButtons-2vEOUh{
         grid-gap: 4px;
         button{
-            min-width: calc(120px - 16px) !important;
+            min-width: unset;
             background-color: $ControlFillColorDefault !important;
             border: 1px solid $ControlStrokeColorDefault !important;
             border-radius: 4px;
@@ -18,9 +18,11 @@
                 background-color: $ControlFillColorTertiary !important;
             }
 
-            // Replace icon
-            svg{
-                display: none;
+            .contents-3ca1mk{
+                font-size: 0;
+                svg{
+                    margin-right: 0;
+                }
             }
         }
     }
@@ -32,5 +34,16 @@
     border-bottom: 0;
     .title-338goq{
         @include TypeBody;
+    }
+}
+
+// Icons
+html[lang^="en-"].theme-dark .panels-3wFtMD .button-1EGGcP{
+    &::before{
+        @include FontIconFluent;
+        font-size: 16px;
+    }
+    .contents-3ca1mk{
+        display: none;
     }
 }
