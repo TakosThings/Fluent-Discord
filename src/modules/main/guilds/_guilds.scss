@@ -133,6 +133,11 @@
             bottom: 4px;
             z-index: 1;
         }
+        .numberBadge-37OJ3S{
+            background-color: $SystemFillColorCriticalBackground !important; // For some reason this is in line
+            @include TypeCaption;
+            color: $SystemFillColorCritical;
+        }
     }
     // Folders
     .wrapper-38slSD{
