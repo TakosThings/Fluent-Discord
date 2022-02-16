@@ -208,7 +208,6 @@
         }
         .option-Tt7anD{
             margin-left: 0;
-            @include FontMonospace;
             @include TypeBody;
             &::before{
                 content: "{";
@@ -220,6 +219,17 @@
             &.active-WHsd77{
                 background-color: transparent !important;
             }
+        }
+    }
+
+    // Replying to message
+    .clipContainer-31nYlH{
+        margin-top: 0;
+    }
+    .replyBar-1oi75v{
+        background-color: transparent;
+        .replyLabel-WWnhHi{
+            color: $TextFillColorPrimary;
         }
     }
 }

@@ -1,10 +1,9 @@
-// DEBUG: 2021-07-30 - Comic sans used as fall back font for debugging
 @mixin FontNormal{
     font-family: var(--font-primary);
 }
 
 @mixin FontMonospace{
-    font-family: Consolas, Menlo, Monaco, "Courier New", monospace;
+    font-family: var(--font-code);
 }
 
 @mixin FontIconFluent{

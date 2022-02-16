@@ -1,0 +1,15 @@
+.theme-dark .listItem-3SmSlK.frame-oXWS21{
+    &:active{
+        transform: none;
+    }
+    .childWrapper-1j_1ub{
+        background-color: transparent;
+        color: $TextFillColorSecondary;
+        font-size: 10px;
+        text-transform: capitalize;
+
+        &:hover{
+            background-color: $ControlFillColorDefault;
+        }
+    }
+}
