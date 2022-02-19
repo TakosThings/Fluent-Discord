@@ -141,9 +141,9 @@
             z-index: 1;
         }
         .numberBadge-37OJ3S{
-            background-color: $SystemFillColorCriticalBackground !important; // For some reason this is in line
+            background-color: $SystemFillColorCritical !important; // For some reason this is in line
             @include TypeCaption;
-            color: $SystemFillColorCritical;
+            color: $TextOnAccentFillColorPrimary;
         }
     }
     // Folders
