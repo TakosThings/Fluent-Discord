@@ -83,7 +83,16 @@ html[lang^="en-"].theme-dark .toolbar-3_r2xA{
             content: "\E902"; // Group
         }
 
-
+        // Stage channel
+        &[aria-label="#{map-get($translate, STAGE_SETTINGS)}" i]::before{
+            content: "\E115"; // Setting
+        }
+    }
+    .eventsButton-25vYOY{
+        // Stage channel
+        &[aria-label="#{map-get($translate, CREATE_AND_VIEW_EVENTS)}" i]::before{
+            content: "\E163"; // Calendar
+        }
     }
     .button-f2h6uQ{
         // Call tiles
