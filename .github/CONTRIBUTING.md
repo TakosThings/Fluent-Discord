@@ -6,6 +6,11 @@
 * Don't 'bulk report' unrelated issues in the same issue
 * Don't report a new issue in the comments of an existing issue
 * Check previous feature requests using the *Feature request* tag before making a new one
+### Scope
+The following is out of scope of this project
+* Issues affecting the canary and PTB clients
+* Discord in the web browser
+* Features gated behind a Discord Nitro subscription
 
 ## Plugin Support Requests
 * You may request theme support for any plugin published on [betterdiscord.app](https://betterdiscord.app/plugins).
