@@ -1,5 +1,6 @@
 .theme-dark .attachment-1PZZB2{
     width: 400px;
+    position: relative;
     background-color: $CardBackgroundFillColorDefault;
     border: 1px solid $SurfaceStrokeColorFlyout;
     border-color: $SurfaceStrokeColorFlyout; // Override Discord CSS
@@ -7,38 +8,41 @@
 
     img{
         display: none;
-        & ~ div{
+        & ~ .attachmentInner-1fP7iq{
+            position: relative;
             &::before{
+                width: 32px;
+                height: 32px;
                 position: absolute;
-                left: 12px;
-                top: 10px;
+                left: 4px;
+                top: 4px;
                 color: $TextFillColorPrimary;
                 @include FontIconFluent;
-                font-size: 32px;
+                font-size: 24px;
             }
         }
 
     }
 
-    img[title="acrobat"] ~ div::before{
+    img[title="acrobat"] ~ .attachmentInner-1fP7iq::before{
         content: "\ea90"; // PDF
     }
-    img[title="archive"] ~ div::before{
+    img[title="archive"] ~ .attachmentInner-1fP7iq::before{
         content: "\f012"; // ZipFolder
     }
-    img[title="document"] ~ div::before{
+    img[title="document"] ~ .attachmentInner-1fP7iq::before{
         content: "\f000"; // KnowledgeArticle
     }
-    img[title="spreadsheet"] ~ div::before{
+    img[title="spreadsheet"] ~ .attachmentInner-1fP7iq::before{
         content: "\E9F9"; // ReportDocument
     }
-    img[title="unknown"] ~ div::before{
+    img[title="unknown"] ~ .attachmentInner-1fP7iq::before{
         content: "\e9ce"; // Unknown
     }
 
-    img[title="ae"] ~ div::before,
-    img[title="ai"] ~ div::before,
-    img[title="sketch"] ~ div::before{
+    img[title="ae"] ~ .attachmentInner-1fP7iq::before,
+    img[title="ai"] ~ .attachmentInner-1fP7iq::before,
+    img[title="sketch"] ~ .attachmentInner-1fP7iq::before{
         content: "\e8a5"; // Document
     }
 
