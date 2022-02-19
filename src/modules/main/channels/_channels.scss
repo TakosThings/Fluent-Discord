@@ -208,6 +208,19 @@
     }
 
     // Threads
+    // Active threads
+    .wrapper-NhbLHG{
+        &:hover{
+            .content-1gYQeQ{
+                background-color: $SubtleFillColorSecondary;
+                box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary; // Using box-shadow because borders cause the div to grow
+            }
+        }
+        .name-28HaxV{
+            @include TypeBody;
+            color: $TextFillColorPrimary;
+        }
+    }
     // Channel tree spine
     .spine-29OFwR{
         left: 40px;
