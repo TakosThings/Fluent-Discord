@@ -1,0 +1,5 @@
+// A drop-shadow filter is added by this plugin which causes images to flicker and z-fight when scrolling chat.
+// See #30
+.imageAccessory-2yA7Kb > div:not(.selected-7JJuv5) > svg {
+    filter: unset !important;
+}
