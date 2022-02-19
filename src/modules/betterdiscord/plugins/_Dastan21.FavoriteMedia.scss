@@ -3,3 +3,41 @@
 .imageAccessory-2yA7Kb > div:not(.selected-7JJuv5) > svg {
     filter: unset !important;
 }
+
+// Chat box icons
+.buttonContainer-2lnNiN.fm-buttonContainer{
+    .button-f2h6uQ{
+        width: 32px;
+        height: 32px;
+        margin-top: 6px;
+        margin-right: 2px;
+        &:hover{
+            background-color: $ControlFillColorDefault;
+            border: 1px solid $ControlStrokeColorDefault;
+        }
+    }
+    .fm-buttonWrapper::before{
+        @include FontIconFluent;
+        font-size: 16px;
+    }
+    svg{
+        display: none;
+    }
+    &:nth-of-type(4){
+        margin-left: -6px; // adjust pos between emoji button and plugin buttons
+        .fm-buttonWrapper::before{
+            content: "\EB9F"; // Image2
+        }
+    }
+    &:nth-of-type(5){
+        .fm-buttonWrapper::before{
+            content: "\E116"; // Video
+        }
+    }
+    &:nth-of-type(6){
+        margin-right: 6px; // Add padding to right - 6px + 2px from between buttons
+        .fm-buttonWrapper::before{
+            content: "\E189"; // Audio
+        }
+    }
+}
