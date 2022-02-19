@@ -26,6 +26,10 @@
             }
         }
     }
+    // NOTE: 2022-02-19 - Removing the stream buttons when you don't have permission. This may cause the channels jiggling bug to resurface. See #31.
+    .disabledButtonWrapper-2Oz3aY{
+        display: none;
+    }
 }
 
 // Streaming game/app
@@ -34,6 +38,12 @@
     border-bottom: 0;
     .title-338goq{
         @include TypeBody;
+    }
+    // NOTE: 2022-02-19 - Removing the stream buttons when you don't have permission. This may cause the channels jiggling bug to resurface. See #31.
+    .actions-zk2vB_{
+        .disabledButtonWrapper-2Oz3aY{
+            display: none;
+        }
     }
 }
 
