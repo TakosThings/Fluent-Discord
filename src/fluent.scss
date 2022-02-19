@@ -25,7 +25,7 @@
 @import 'modules/ui/tooltip';
 
 // Main UI
-// Order: None, alphabetic
+// Order: main, then home, then discover, alphabetic
 @import 'modules/main/call/call';
 @import 'modules/main/channels/account';
 @import 'modules/main/channels/channels';
@@ -50,6 +50,7 @@
 @import 'modules/home/home';
 @import 'modules/home/main';
 @import 'modules/home/toolbar';
+@import 'modules/discover/discovery';
 
 // Loadscreen
 // Order: None, alphabetic

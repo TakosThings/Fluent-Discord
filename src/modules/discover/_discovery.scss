@@ -1,0 +1,145 @@
+.theme-dark{
+    .discoverHeader-1vsvZ0{
+        @include TypeBodyStrong;
+    }
+
+    .pageWrapper-2PwDoS{
+        background-color: $LayerFillColorDefault;
+        border-top: 1px solid $CardStrokeColorDefault;
+        border-left: 1px solid $CardStrokeColorDefault;
+        border-radius: 8px 0 0 0;
+    }
+
+    .sidebar-1tnWFu{
+        .container-1oeRFJ{
+            height: 32px;
+            margin-bottom: 2px;
+            position: relative;
+
+            .itemInner-3e_4G4{
+                height: 32px;
+                padding: 0 8px;
+            }
+
+            .avatar-6qzftW{
+                width: 16px;
+                height: 16px;
+            }
+            .name-3Vmqxm{
+                @include TypeBody;
+                color: $TextFillColorPrimary;
+            }
+
+            &.selected-1-Z6gm{
+                .itemInner-3e_4G4{
+                    background-color: $SubtleFillColorSecondary;
+                }
+
+                &::before{
+                    content: "";
+                    width: 3px;
+                    height: 16px;
+                    position: absolute;
+                    top: 10px;
+                    left: 0;
+                    background-color: $AccentBase;
+                    border-radius: 2px;
+                }
+            }
+        }
+    }
+
+    // Main
+    // Search
+    .container-2rCwVJ{
+        .searchBox-31Zv9h{
+            background-color: transparent;
+            box-shadow: none;
+
+            &:focus,
+            &:focus-within{
+                box-shadow: none;
+            }
+            .searchBoxInput-3h4etz{
+                @include TypeBody;
+                color: $TextFillColorPrimary;
+                &::placeholder{
+                    @include TypeBody;
+                    color: $TextFillColorSecondary;
+                }
+            }
+            .clearIcon-TMIIUa,
+            .searchIcon-34RNw9{
+                width: 16px;
+                height: 16px;
+                position: absolute;
+                top: 8px;
+                right: 16px;
+                path{
+                    fill: #FFF;
+                }
+            }
+            .cta-25g9OT{
+                display: none;
+            }
+        }
+    }
+
+    // Search results
+    // Header
+    .header-3lOo5J{
+        @include TypeSubtitle;
+        color: $TextFillColorPrimary;
+    }
+
+    // Search box
+    .searchBox-pyIJJj{
+        padding-right: 0;
+        background-color: transparent;
+        border: 0;
+        box-shadow: none;
+
+        &:focus,
+        &:focus-within{
+            box-shadow: none;
+        }
+        .searchBoxInput-P0mWHW{
+            @include TypeBody;
+            color: $TextFillColorPrimary;
+            &::placeholder{
+                @include TypeBody;
+                color: $TextFillColorSecondary;
+            }
+        }
+        .clearIcon-TMIIUa,
+        .searchIcon-34RNw9{
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            top: 8px;
+            right: 16px;
+            path{
+                fill: #FFF;
+            }
+        }
+        .cta-25g9OT{
+            display: none;
+        }
+    }
+
+    // Results
+    .categories-2LoSbA{
+        .categoryPill-1zjNrr{
+            .categoryLabel-2m4AT-{
+                @include TypeBody;
+                color: $TextFillColorSecondary;
+            }
+            &.selected-bLcqYK{
+                background-color: $AccentBase;
+                .categoryLabel-2m4AT-{
+                    color: $TextFillColorPrimary;
+                }
+            }
+        }
+    }
+}
