@@ -1,0 +1,86 @@
+html[lang^="en-"].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA.cursorPointer-B3uwDA{
+    &::before{ // Annoyingly has no aria-label
+        content: "\E70B"; // Note
+    }
+}
+
+.popout-xwjvsX.messagesPopoutWrap-3zryHW.themedPopout-1TrfdI{
+    // Search
+    .container-2oNtJn{
+        background-color: transparent;
+        .input-2m5SfJ{
+            height: 32px;
+            padding-right: 32px;
+            padding-left: 8px;
+            background-color: $ControlFillColorDefault;
+            color: $TextFillColorSecondary;
+            border: 1px solid $ControlElevationBorder;
+            border-bottom: 2px solid $ControlElevationBorder;
+            border-radius: 4px;
+            @include TypeBody;
+            &:hover{
+                border-color: $ControlStrokeColorSecondary;
+            }
+            &:focus{
+                background-color: $ControlFillColorInputActiveBrush;
+                color: $TextFillColorPrimary;
+                border-color: $ControlElevationBorder;
+                border-bottom-color: $AccentBase;
+            }
+        }
+        // Search clear button
+        .iconLayout-SqV3nb,
+        .iconLayout-3Bjizv{ // GIFs search
+            position: absolute;
+            top: 6px;
+            right: 4px;
+        }
+    }
+
+    // Tabs
+    .tabBar-1qdMr5{
+        .tab-TRrPC8{
+            padding-left: 0;
+            padding-right: 0;
+            margin-right: 16px;
+            color: $TextFillColorPrimary;
+            border-radius: 0;
+            &:hover{
+                background-color: transparent;
+                color: $TextFillColorSecondary;
+            }
+
+            &.active-1grPyy{
+                background-color: transparent;
+                color: $AccentTextFillColorPrimary;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    bottom: 0px;
+                    width: 100%;
+                    height: 2px;
+                    background-color: $AccentLight3;
+                    border-radius: 2px;
+                }
+                &:hover{
+                    color: $TextFillColorSecondary;
+                }
+            }
+        }
+    }
+
+    // Sorting
+    .quickSelectWrapper-UCfTKz{
+        .quickSelectLabel-ArUyd9{
+            @include TypeBody;
+            color: $TextFillColorPrimary;
+        }
+    }
+
+    // Body
+    .messagesPopout-eVzQcI.list-PIKebU.mini-GMiniS{
+        padding: 16px;
+        padding-right: 16px !important;
+    }
+
+}
