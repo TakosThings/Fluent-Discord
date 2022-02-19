@@ -9,7 +9,7 @@ assignees: ''
 
 <!-- Before opening an issue:
 * Use the template below.
-* Include the plugin name uf the issue is being caused by a plugin.
+* Include the plugin name if the issue is being caused by a plugin.
 * Make sure you have updated to the latest available version.
 * Try not to report multiple unrelated issues in the same submission, open new issues for them instead. -->
 
