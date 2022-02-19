@@ -1,0 +1,78 @@
+.theme-dark{
+    .art-1TvEXv{
+        display: none;
+        &~form{
+            h3{
+                align-self: baseline;
+                @include TypeSubtitle;
+            }
+            .headerDescription-yFPU-Q{
+                padding: 0;
+                @include TypeBody;
+                color: $TextFillColorPrimary;
+                text-align: left;
+            }
+
+            div[style*="position: relative;"]{
+                background-color: $CardBackgroundFillColorDefault;
+            }
+
+            // App/screen selection
+            .selected-1i-g6T{
+                .sourceThumbnail-ERDcZE{
+                    box-shadow: inset 0 0 0 2px $AccentBase;
+                }
+            }
+            .sourceName-3Wf8QG{
+                @include TypeBody;
+            }
+
+            // Stream settings
+            .card-m7VgZ8{
+                height: 32px;
+                padding: 0 8px;
+                background-color: $ControlFillColorDefault;
+                border: 0;
+                border-radius: 4px;
+                color: $TextFillColorSecondary;
+                .channelInfo-3xAwr2,
+                .ellipsisText-1-5iVA{
+                    @include TypeBody;
+                    color: $TextFillColorPrimary;
+                }
+                .changeButton-2kfgQt{
+                    margin-right: -8px;
+                }
+            }
+
+            .qualitySettingsContainer-2LjkfM{
+                padding: 0;
+                border: 0;
+            }
+
+            .group-1_ptLP{
+                .selectorButton-3fWZ0_{
+                    background-color: transparent;
+                    border: 1px solid $ControlStrokeColorOnAccentDefault;
+
+                    &:hover{
+                        background-color: $ControlFillColorSecondary;
+                    }
+                    &.selectorButtonSelected-3cQUnj{
+                        background-color: $AccentFillColorDefault;
+                        color: $TextOnAccentFillColorPrimary;
+                        &:hover{
+                            background-color: $AccentFillColorSecondary;
+                        }
+                    }
+                    &.selectorButtonPremiumRequired-IZXhgV{
+                        cursor: not-allowed;
+                        &:hover{
+                            background-color: transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
