@@ -1,7 +1,7 @@
-name: Plugin Support Request
-description: Request support for a plugin
+name: Plugin Compatibility Request
+description: Request Compatibility for a plugin
 title: Plugin name here
-labels: [better discord, plugin support]
+labels: [better discord, plugin compatibility]
 body:
   - type: markdown
     attributes:

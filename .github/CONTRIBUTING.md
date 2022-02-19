@@ -12,9 +12,9 @@ The following is out of scope of this project
 * Discord in the web browser
 * Features gated behind a Discord Nitro subscription
 
-## Plugin Support Requests
-* You may request theme support for any plugin published on [betterdiscord.app](https://betterdiscord.app/plugins).
-* Open an issue using the [template](https://github.com/TakosThings/Fluent-Discord/issues/new?assignees=&labels=better+discord%2Cplugin+support&template=plugin_support.yml&title=Plugin+name+here). 
+## Plugin Compatibility Requests
+* You may request compatibility for any plugin published on [betterdiscord.app](https://betterdiscord.app/plugins).
+* Open an issue using the [template](https://github.com/TakosThings/Fluent-Discord/issues/new?assignees=&labels=better+discord%2Cplugin+compatibility&template=plugin_compat.yml&title=Plugin+name+here). 
 
 ## Pull Requests
 * Major changes: Open an issue using the *Change proposal* template to discuss your changes 
@@ -49,12 +49,12 @@ content: "\F159"; // DialShape4
 ```
 * Use `red`, `$red` or `#F00` for debugging
 
-### Plugin Support
-Use the [Plugin Support Request](https://github.com/TakosThings/Fluent-Discord/issues/new?assignees=&labels=better+discord%2Cplugin+support&template=plugin_support.yml&title=Plugin+name+here) issue template to request support for a plugin. The plugin __must__ be approved on [betterdiscord.app](https://betterdiscord.app)
+### Plugin Compatibility
+Use the [Plugin Compatibility Request](https://github.com/TakosThings/Fluent-Discord/issues/new?assignees=&labels=better+discord%2Cplugin+compatibility&template=plugin_compat.yml&title=Plugin+name+here) issue template to request compatibility for a plugin. The plugin __must__ be approved on [betterdiscord.app](https://betterdiscord.app)
 
 If you are interested in creating a PR for a plugin use the following formatting:
 * Create a new file in `src/modules/betterdiscord/plugins` with the following formatting: `_GitHubUsername.PluginName.scss`. Note the underscore at the start of the filename. Capitalisation should also match the username and plugin name. Example: `_TakosThings.FluentDiscord.scss`
-* Add an import to `src/modules/betterdiscord/_plugin_support.scss` with the following formatting:
+* Add an import to `src/modules/betterdiscord/_plugin_compat.scss` with the following formatting:
 ```SCSS
 // https://betterdiscord.app/plugin/PluginName
 @import "_GitHubUsername.PluginName.scss";
