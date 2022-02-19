@@ -20,7 +20,7 @@
         min-height: 32px;
         border: 1px solid $CardStrokeColorDefault;
         box-shadow: none;
-        border-radius: 8px;
+        border-radius: 4px;
         .barButtonMain-2GIx4o{
             @include TypeBody;
         }
@@ -38,6 +38,13 @@
         bottom: 8px;
         padding-bottom: 0;
         background-color: $CardStrokeColorDefaultSolid;
+    }
+    // Errored bar
+    .messagesErrorBar-1IQ1rH{
+        bottom: 8px;
+        background-color: $SystemFillColorCriticalBackground;
+        border-color: $CardStrokeColorDefault;
+        padding-bottom: 0;
     }
 
     // Start of server
