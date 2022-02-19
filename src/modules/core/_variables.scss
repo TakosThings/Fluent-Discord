@@ -78,9 +78,9 @@ $AccentTextFillColorTertiary:                   $AccentLight2; // Pressed
 $AccentTextFillColorDisabled:                   $TextFillColorDisabled; // Disabled
 // Text On Accent
 // Text on accent colored controls for fills
-$TextOnAccentFillColorPrimary:                  #000; // Rest/hover
-$TextOnAccentFillColorSecondary:                rgba(#000, 50%); // Pressed
-$TextOnAccentFillColorDisabled:                 rgba(#000, 50%); // Disabled
+$TextOnAccentFillColorPrimary:                  rgba(var(--fluent-text-on-accent-color), 100%); // Rest/hover
+$TextOnAccentFillColorSecondary:                rgba(var(--fluent-text-on-accent-color), 50%); // Pressed
+$TextOnAccentFillColorDisabled:                 rgba(var(--fluent-text-on-accent-color), 50%); // Disabled
 $TextOnAccentFillColorSelected:                 #FFF; // Highlighted text in text entry experiences
 
 // Fill

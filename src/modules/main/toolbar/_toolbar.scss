@@ -57,6 +57,9 @@
         // Selected
         &.selected-29KTGM{
             background-color: $AccentFillColorSecondary;
+            &::before{
+                color: $TextOnAccentFillColorPrimary;
+            }
         }
         // Toggled (mute channel)
         &[aria-checked="true"]{
