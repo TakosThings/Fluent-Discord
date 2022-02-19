@@ -40,8 +40,10 @@
 
         // Header
         .title-x4dI75{
-            @include TypeBodyLarge;
+            @include TypeSubtitle;
+            color: $TextFillColorPrimary;
             letter-spacing: normal;
+            text-transform: none;
         }
 
         // Item

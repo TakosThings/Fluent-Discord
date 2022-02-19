@@ -11,7 +11,7 @@
     font-feature-settings: 'rclt' 0;
     font-size: 14px;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     line-height: 20px;
 
 }
@@ -28,14 +28,14 @@
     // Varient: Text
     font-feature-settings: 'fina' 1, 'init' 1;
     font-size: 18px;
-    // font-weight: 400;
+    font-weight: 400;
     line-height: 24px;
 }
 
 @mixin TypeSubtitle{
     // Varient: Display, Semibold
     font-size: 20px;
-    // font-weight: 600;
+    font-weight: 600;
     line-height: 28px;
 }
 
