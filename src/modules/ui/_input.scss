@@ -45,3 +45,56 @@
         padding-left: 32px !important;
     }
 }
+
+// Select
+.theme-dark{
+    .select-1Ia3hD{
+        padding: 3px 8px 3px 12px;
+        background-color: $ControlFillColorDefault;
+        border: 1px solid $ControlElevationBorder;
+        @include TypeBody;
+        &:hover{
+            border-color: $ControlStrokeColorSecondary;
+        }
+    }
+
+    // Options popout
+    .popout-1KHNAq{
+        background: $SolidbackgroundFillColorQuarternary;
+        border: 1px solid $SurfaceStrokeColorFlyout;
+        .option-2eIyOn{
+            min-height: 32px;
+            margin: 4px;
+            padding: 8px;
+            @include TypeBody;
+            color: $TextFillColorPrimary;
+            position: relative;
+            &:hover{
+                background-color: $SubtleFillColorSecondary;
+                border-radius: 4px;
+            }
+            &[aria-selected=true]{
+                background-color: transparent;
+
+                &::before{
+                    content: "";
+                    width: 3px;
+                    height: 16px;
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -8px;
+                    left: 0;
+                    background-color: $AccentBase;
+                    border-radius: 2px;
+                }
+                &:hover{
+                    background-color: $SubtleFillColorSecondary;
+                    border-radius: 4px;
+                }
+                .selectedIcon-19TbzU{
+                    display: none;
+                }
+            }
+        }
+    }
+}
