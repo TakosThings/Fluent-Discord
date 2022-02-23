@@ -98,3 +98,16 @@
         }
     }
 }
+
+// Keybind
+.theme-dark .container-30qY7E{
+    height: 32px;
+    background-color: $ControlFillColorDefault;
+    border: 1px solid $ControlElevationBorder;
+    border-radius: 4px;
+    .button-ZJ9ZzX{
+        min-height: calc(32px - 6px);
+        height: calc(32px - 6px);
+        margin: 2px;
+    }
+}
