@@ -51,14 +51,10 @@
     }
     // Activity
     .activity-2EQDZv{
+        @include TypeCaption;
         color: $TextFillColorSecondary;
         strong{
             @include TypeCaption;
-            font-weight: 400;
-        }
-
-        .activityText-1rR-8O{
-            font-size: 0;
         }
     }
 
