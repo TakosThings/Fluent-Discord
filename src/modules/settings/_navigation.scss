@@ -43,17 +43,28 @@
             color: $TextFillColorSecondary;
             background-color: $SubtleFillColorTertiary;
         }
+        // Pill
+        &::before{
+            content: "";
+            width: 3px;
+            height: 16px;
+            position: absolute;
+            top: 8px;
+            left: 0;
+            background-color: $AccentBase;
+            border-radius: 2px;
+            transform: scaleY(0%);
+            opacity: .3;
+            transition: transform 167ms Cubic-bezier(0,0,0,1),
+                        opacity 167ms Cubic-bezier(0,0,0,1);
+        }
         &.selected-g-kMVV{
             background-color: $SubtleFillColorSecondary;
             &::before{
-                content: "";
-                width: 3px;
-                height: 16px;
-                position: absolute;
-                top: 8px;
-                left: 0;
-                background-color: $AccentBase;
-                border-radius: 2px;
+                transform: scaleY(100%);
+                opacity: 1;
+                transition: transform 250ms Cubic-bezier(0.55,0.55,0,1),
+                            opacity 250ms Cubic-bezier(0.55,0.55,0,1);
             }
         }
         // Move nitro icon to left side
