@@ -67,7 +67,6 @@
 
     // Outlined
     &.lookOutlined-3yKVGo{
-        &.colorRed-rQXKgM,
         &.colorBrand-I6CyqQ{ // eg. Request Data
             border-color: $ControlStrokeColorDefault;
             color: $TextFillColorPrimary;
@@ -76,6 +75,18 @@
             }
             &:active{
                 background-color: $ControlFillColorTertiary;
+            }
+        }
+        &.colorRed-rQXKgM{
+            border-color: $SystemFillColorCritical;
+            color: $SystemFillColorCritical;
+            &:hover{
+                background-color: lighten($SystemFillColorCriticalBackground, 20%);
+                color: $TextFillColorPrimary;
+            }
+            &:active{
+                background-color: lighten($SystemFillColorCriticalBackground, 40%);
+                color: $TextFillColorPrimary;
             }
         }
     }
