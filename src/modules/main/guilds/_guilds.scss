@@ -188,8 +188,12 @@
         }
     }
     .expandedFolderIconWrapper-3RwQpD{
-        svg path{
-            clip-path: inset(1px 1px 1px 1px);
+        &::before{
+            content: "\E8B7";
+            @include FontIconFluent;
+            position: absolute;
+            z-index: 1;
+            font-size: 22px;
         }
     }
 
