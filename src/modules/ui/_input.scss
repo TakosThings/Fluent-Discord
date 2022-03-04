@@ -12,7 +12,7 @@
     @include TypeBody;
     background-color: $ControlFillColorDefault;
     color: $TextFillColorSecondary;
-    border-color: $ControlElevationBorder;
+    border-color: $ControlStrokeColorDefault;
 
     // Sizing
     &.inputDefault-3FGxgL{
@@ -26,7 +26,7 @@
     &:focus{
         background-color: $ControlFillColorInputActiveBrush;
         color: $TextFillColorPrimary;
-        border-color: $ControlElevationBorder;
+        border-color: $ControlStrokeColorDefault;
         border-bottom-color: $AccentBase;
     }
     &::placeholder{
@@ -51,7 +51,7 @@
     .select-1Ia3hD{
         padding: 3px 8px 3px 12px;
         background-color: $ControlFillColorDefault;
-        border: 1px solid $ControlElevationBorder;
+        border: 1px solid $ControlStrokeColorDefault;
         @include TypeBody;
         &:hover{
             border-color: $ControlStrokeColorSecondary;
@@ -103,7 +103,7 @@
 .theme-dark .container-30qY7E{
     height: 32px;
     background-color: $ControlFillColorDefault;
-    border: 1px solid $ControlElevationBorder;
+    border: 1px solid $ControlStrokeColorDefault;
     border-radius: 4px;
     .button-ZJ9ZzX{
         min-height: calc(32px - 6px);

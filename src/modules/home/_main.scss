@@ -17,7 +17,7 @@
                 @include TypeBody;
                 border: 1px solid;
                 border-bottom-width: 2px;
-                border-color: $ControlElevationBorder;
+                border-color: $ControlStrokeColorDefault;
                 border-radius: 4px;
                 &:hover{
                     border-color: $ControlStrokeColorSecondary;
@@ -25,7 +25,7 @@
                 &:focus{
                     background-color: $ControlFillColorInputActiveBrush;
                     color: $TextFillColorPrimary;
-                    border-color: $ControlElevationBorder;
+                    border-color: $ControlStrokeColorDefault;
                     border-bottom-color: $AccentBase;
                 }
                 &::placeholder{

@@ -28,7 +28,7 @@
                 padding: 0 8px;
                 border: 1px solid;
                 border-bottom-width: 2px;
-                border-color: $ControlElevationBorder;
+                border-color: $ControlStrokeColorDefault;
                 border-radius: 4px;
                 @include TypeBody;
                 background-color: $ControlFillColorDefault;
@@ -39,7 +39,7 @@
                 &:focus{
                     background-color: $ControlFillColorInputActiveBrush;
                     color: $TextFillColorPrimary;
-                    border-color: $ControlElevationBorder;
+                    border-color: $ControlStrokeColorDefault;
                     border-bottom-color: $AccentBase;
                 }
                 &::placeholder{

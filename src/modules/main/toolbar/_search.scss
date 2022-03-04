@@ -39,13 +39,13 @@
         background-color: $ControlFillColorDefault;
         background-image: none;
         cursor: text;
-        border: 1px solid $ControlElevationBorder;
+        border: 1px solid $ControlStrokeColorDefault;
         border-bottom-width: 2px;
         border-radius: 4px;
     }
     .search-2Mwzzq.focused-1xh-wG .searchBar-jGtisZ{
         background-color: $ControlFillColorInputActiveBrush;
-        border-color: $ControlElevationBorder;
+        border-color: $ControlStrokeColorDefault;
         border-bottom-color: $AccentBase;
     }
 

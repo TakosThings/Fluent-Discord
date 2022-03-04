@@ -14,8 +14,8 @@ html[lang^="en-"].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA.cursorPointer-B
             padding-left: 8px;
             background-color: $ControlFillColorDefault;
             color: $TextFillColorSecondary;
-            border: 1px solid $ControlElevationBorder;
-            border-bottom: 2px solid $ControlElevationBorder;
+            border: 1px solid $ControlStrokeColorDefault;
+            border-bottom: 2px solid $ControlStrokeColorDefault;
             border-radius: 4px;
             @include TypeBody;
             &:hover{
@@ -24,7 +24,7 @@ html[lang^="en-"].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA.cursorPointer-B
             &:focus{
                 background-color: $ControlFillColorInputActiveBrush;
                 color: $TextFillColorPrimary;
-                border-color: $ControlElevationBorder;
+                border-color: $ControlStrokeColorDefault;
                 border-bottom-color: $AccentBase;
             }
         }

@@ -18,14 +18,14 @@
         @include TypeBody;
         background-color: $ControlFillColorDefault;
         color: $TextFillColorSecondary;
-        border-color: $ControlElevationBorder;
+        border-color: $ControlStrokeColorDefault;
         &:hover{
             border-color: $ControlStrokeColorSecondary;
         }
         &:focus{
             background-color: $ControlFillColorInputActiveBrush;
             color: $TextFillColorPrimary;
-            border-color: $ControlElevationBorder;
+            border-color: $ControlStrokeColorDefault;
             border-bottom-color: $AccentBase;
         }
         &::placeholder{

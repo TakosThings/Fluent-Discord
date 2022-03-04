@@ -54,8 +54,8 @@
         padding-right: 32px;
         background-color: $ControlFillColorDefault;
         color: $TextFillColorSecondary;
-        border: 1px solid $ControlElevationBorder;
-        border-bottom: 2px solid $ControlElevationBorder;
+        border: 1px solid $ControlStrokeColorDefault;
+        border-bottom: 2px solid $ControlStrokeColorDefault;
         border-radius: 4px;
         @include TypeBody;
         &:hover{
@@ -64,7 +64,7 @@
         &:focus{
             background-color: $ControlFillColorInputActiveBrush;
             color: $TextFillColorPrimary;
-            border-color: $ControlElevationBorder;
+            border-color: $ControlStrokeColorDefault;
             border-bottom-color: $AccentBase;
         }
     }
@@ -150,7 +150,7 @@
         width: 30px;
         height: 30px;
         background-color: $ControlFillColorDefault;
-        border: 1px solid $ControlElevationBorder;
+        border: 1px solid $ControlStrokeColorDefault;
         border-radius: 4px;
         .diversityEmojiItemImage-1pfGqI{
             margin: 3px;
@@ -161,7 +161,7 @@
         right: 8px;
     }
     .diversitySelectorOptions-3DhNYs{
-        border: 1px solid $ControlElevationBorder;
+        border: 1px solid $ControlStrokeColorDefault;
         .diversityEmojiItem-2bgZKv{
             width: 30px;
             height: 30px;
