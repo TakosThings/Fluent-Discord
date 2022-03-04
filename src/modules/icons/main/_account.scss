@@ -58,7 +58,7 @@ html[lang^="en-"].theme-dark .panels-3wFtMD .actionButtons-2vEOUh .button-1EGGcP
     // &[aria-label="#{map-get($translate, CAMERA_OFF)}"]::before,
     // &[aria-label="#{map-get($translate, CAMERA_UNAVAILABLE)}"]::before{
     &:nth-of-type(1)::before{
-        content: "\E114"; // Camera
+        content: "\E156"; // WebCam
     }
     // &[aria-label="#{map-get($translate, SHARE_YOUR_SCREEN)}"]::before,
     // &[aria-label="#{map-get($translate, SCREEN_SHARE_ON)}"]::before{
