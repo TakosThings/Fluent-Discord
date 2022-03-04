@@ -1,0 +1,61 @@
+.theme-dark .members-3WRCEx{
+    background-color: $LayerFillColorDefault;
+    border-left: 1px solid $CardStrokeColorDefault;
+
+    // Group header
+    .membersGroup-2eiWxl{
+        padding: 20px 8px 0 16px;
+        color: $TextFillColorPrimary;
+        @include TypeBodyStrong;
+        text-transform: none;
+    }
+
+     // Member
+     .container-1oeRFJ{
+        background-color: transparent;
+        color: $TextFillColorPrimary;
+        // Greyscale offline avatars
+        &.offline-22aM7E{
+            .avatar-6qzftW{
+                filter: grayscale(100%);
+            }
+            &:hover{
+                .avatar-6qzftW{
+                    filter: grayscale(0%);
+                }
+            }
+        }
+        .layout-1qmrhw{
+            border: 1px solid transparent;
+            &:hover{
+                background-color: $SubtleFillColorSecondary;
+                border-color: $SubtleFillColorSecondary;
+            }
+        }
+        &[aria-expanded=true] .layout-1qmrhw{
+            background-color: $SubtleFillColorSecondary;
+            border-color: $SubtleFillColorSecondary;
+        }
+        // Avatar
+        .avatar-6qzftW{
+            foreignObject{
+                mask: none;
+            }
+            .avatar-b5OQ1N{
+                border-radius: 50%;
+            }
+        }
+        // Username
+        .name-3Vmqxm{
+            @include TypeBody;
+        }
+        // Activity
+        .activity-2EQDZv{
+            @include TypeCaption;
+            color: $TextFillColorSecondary;
+            strong{
+                @include TypeCaption;
+            }
+        }
+    }
+}
