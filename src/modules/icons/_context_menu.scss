@@ -1,0 +1,459 @@
+// User settings (User area > Settings)
+.theme-dark .menu-1QACrS .item-1OdjEX{
+    &[id="user-settings-cog-My_Account"]::before{
+        content: "\E77B"; // Contact
+    }
+    &[id="user-settings-cog-Profile_Customization"]::before{
+        content: "\E7EE"; // OtherUser
+    }
+    &[id="user-settings-cog-Privacy___Safety"]::before{
+        content: "\EA18"; // Shield
+    }
+    &[id="user-settings-cog-Authorized_Apps"]::before{
+        content: "\E8D7"; // Permissions
+    }
+    &[id="user-settings-cog-Connections"]::before{
+        content: "\F0B9"; // Connected
+    }
+    &[id="user-settings-cog-Discord_Nitro"]::before{
+        content: "N";
+        @include FontNormal;
+    }
+    &[id="user-settings-cog-Nitro_Server_Boost"]::before{
+        content: "\EC4A" // SpeedHigh
+    }
+    &[id="user-settings-cog-Subscriptions"]::before{
+        content: "\ED0E" // SubscriptionAdd
+    }
+    &[id="user-settings-cog-Library_Inventory"]::before{
+        content: "\F133"; // GiftboxOpen
+    }
+    &[id="user-settings-cog-Billing"]::before{
+        content: "\E8C7"; // PaymentCard
+    }
+    &[id="user-settings-cog-Appearance"]::before{
+        content: "\E771"; // Personalise
+    }
+    &[id="user-settings-cog-Accessibility"]::before{
+        content: "\E776"; // EaseOfAccess
+    }
+    &[id="user-settings-cog-Voice___Video"]::before{
+        content: "\E720"; // Microphone
+    }
+    &[id="user-settings-cog-Text___Images"]::before{
+        content: "\EA69"; // Media
+    }
+    &[id="user-settings-cog-Notifications"]::before{
+        content: "\E91C"; // ActionCentre
+    }
+    &[id="user-settings-cog-Keybinds"]::before{
+        content: "\E765"; // KeyboardClassic
+    }
+    &[id="user-settings-cog-Language"]::before{
+        content: "\F2B7"; // LocaleLanguage
+    }
+    &[id="user-settings-cog-Windows"]::before{
+        content: "\E782"; // WindowsLogo
+        font-family: 'HoloLens MDL2 Assets';
+    }
+    &[id="user-settings-cog-Streamer_Mode"]::before{
+        content: "\E93E"; // Streaming
+    }
+    &[id="user-settings-cog-Advanced"]::before{
+        content: "\E93E"; // Streaming
+    }
+    &[id="user-settings-cog-Game_Activity"]::before{
+        content: "\E7BE"; // Education
+    }
+    &[id="user-settings-cog-Overlay"]::before{
+        content: "\E9A6"; // FitPage
+    }
+    &[id="user-settings-cog-changelog"]::before{
+        content: "\E77C"; // Memo
+    }
+    &[id="user-settings-cog-Hypesquad_Online"]::before{
+        content: "\F157"; // DialShape2
+    }
+}
+
+// User
+.theme-dark .menu-1QACrS .item-1OdjEX{
+    &[id="user-context-user-profile"]::before{
+        content: "\E77B"; // Contact
+    }
+    &[id="user-context-mention"]::before{
+        content: "@";
+        @include FontNormal;
+    }
+    &[id="user-context-change-nickname"]::before{
+        content: "\E136"; // ContactInfo
+    }
+    &[id="user-context-message-user"]::before{
+        content: "\E15F"; // Message
+    }
+    &[id="user-context-call"]::before{
+        content: "\E13A"; // Phone
+    }
+    &[id="user-context-note"]::before{
+        content: "\E70B"; // QuickNote
+    }
+    &[id="user-context-mute"]::before{
+        content: "\E198"; // Mute
+    }
+    &[id="user-context-disable-video"]::before{
+        content: "\EA14"; // DisconnectDisplay
+    }
+    &[id="user-context-invite-to-server"]::before{
+        content: "\E109"; // Add
+    }
+    &[id="user-context-remove-friend"]::before{
+        content: "\E107"; // Delete
+    }
+    &[id="user-context-block"]::before{
+        content: "\E1E0"; // BlockContact
+    }
+    &[id="user-context-voice-mute"]::before{
+        content: "\EC54"; // MicOff
+    }
+    &[id="user-context-voice-deafen"]::before{
+        content: "\E198"; // Mute
+    }
+    &[id="user-context-voice-disconnect"]::before{
+        content: "\E137"; // HangUp
+    }
+    &[id="user-context-timeout"]::before{
+        content: "\E916"; // Stopwatch
+    }
+    &[id="user-context-kick"]::before{
+        content: "\F140"; // StopCircleBlock
+    }
+    &[id="user-context-ban"]::before{
+        content: "\F140"; // StopCircleBlock
+    }
+    &[id="user-context-roles"]::before{
+        content: "\EC1B"; // Badge
+    }
+    &[id="user-context-voice-move"]::before{
+        content: "\E759"; // SIPMove
+    }
+    &[id="user-context-deafen"]::before{
+        content: "\E198"; // Mute
+    }
+    &[id="user-context-add-friend"]::before{
+        content: "\E1E2"; // AddFriend
+    }
+    &[id="user-context-close-dm"]::before{
+        content: "\E8BB"; // ChromeClose
+    }
+    &[id="user-context-mark-channel-read"]::before{
+        content: "\E166"; // Read
+    }
+}
+
+// Server
+.theme-dark .menu-1QACrS .item-1OdjEX{
+    &[id="guild-header-popout-premium-subscribe"]::before{
+        content: "\EC4A"; // SpeedHigh
+    }
+    &[id="guild-header-popout-invite-people"]::before{
+        content: "\E1E2"; // AddFriend
+    }
+    &[id="guild-header-popout-settings"]::before{
+        content: "\E115"; // Setting
+    }
+    &[id="guild-header-popout-create-channel"]::before{
+        content: "\E15F"; // Message
+    }
+    &[id="guild-header-popout-create-category"]::before{
+        content: "\E169"; // ShowBcc
+    }
+    &[id="guild-header-popout-create-event"]::before{
+        content: "\E163"; // Calendar
+    }
+    &[id="guild-header-popout-notifications"]::before{
+        content: "\E91C"; // ActionCenter
+    }
+    &[id="guild-header-popout-privacy"]::before{
+        content: "\E72E"; // Lock
+    }
+    &[id="guild-header-popout-change-nickname"]::before{
+        content: "\E13E"; // Rename
+    }
+    &[id="guild-header-popout-hide-muted-channels"]::before{
+        content: "\ED1A"; // Hide
+    }
+    &[id="guild-header-popout-leave"]::before{
+        content: "\F3B1"; // SignOut
+    }
+}
+
+// Channel
+.theme-dark .menu-1QACrS .item-1OdjEX{
+    &[id="channel-context-mark-channel-read"]::before{
+        content: "\E166"; // Read
+    }
+    &[id="channel-context-mute-channel"]::before{
+        content: "\EE79"; // ActionCenterQuiet
+    }
+    &[id="channel-context-unmute-channel"]::before{
+        content: "\EE79"; // ActionCenterQuiet
+    }
+    &[id="channel-context-channel-notifications"]::before{
+        content: "\E91C"; // ActionCentre
+    }
+    &[id="channel-context-channel-copy-link"]::before{
+        content: "\E167"; // Link
+    }
+    &[id="channel-context-hide-voice-names"]::before{
+        content: "\E16A"; // HideBcc
+    }
+    &[id="channel-context-collapse-category"]::before{
+        content: "\E16A"; // HideBcc
+    }
+    &[id="channel-context-collapse-all-categories"]::before{
+        content: "\F168"; // GroupList
+    }
+    &[id="channel-context-invite-people"]::before{
+        content: "\E1E2"; // AddFriend
+    }
+    &[id="channel-context-edit-channel"]::before{
+        content: "\E104"; // Edit
+    }
+    &[id="channel-context-clone-channel"]::before{
+        content: "\E16F"; // Copy
+    }
+    &[id="channel-context-create-text-channel"]::before{
+        content: "\E109"; // Add
+    }
+    &[id="channel-context-create-voice-channel"]::before{
+        content: "\E109"; // Add
+    }
+}
+
+// Guild
+.theme-dark .menu-1QACrS .item-1OdjEX{
+    &[id="guild-context-mark-guild-read"]::before{
+        content: "\E166"; // Read
+    }
+    &[id="guild-context-invite-people"]::before{
+        content: "\E1E2"; // AddFriend
+    }
+    &[id="guild-context-mute-guild"]::before{
+        content: "\EE79"; // ActionCenterQuiet
+    }
+    &[id="guild-context-guild-notifications"]::before{
+        content: "\E91C"; // ActionCentre
+    }
+    &[id="guild-context-hide-muted-channels"]::before{
+        content: "\ED1A"; // Hide
+    }
+    &[id="guild-context-guild-settings"]::before{
+        content: "\E115"; // Setting
+    }
+    &[id="guild-context-privacy"]::before{
+        content: "\E72E"; // Lock
+    }
+    &[id="guild-context-change-nickname"]::before{
+        content: "\E136"; // ContactInfo
+    }
+    &[id="guild-context-create-channel"]::before{
+        content: "\E109"; // Add
+    }
+    &[id="guild-context-create-category"]::before{
+        content: "\E109"; // Add
+    }
+    &[id="guild-context-create-event"]::before{
+        content: "\E163"; // Calendar
+    }
+    &[id="guild-context-leave-guild"]::before{
+        content: "\F3B1"; // SignOut
+    }
+
+    // Guild settings sub menu
+    &[id="guild-context-guild-settings--OVERVIEW"]::before{
+        content: "\F246"; // ViewDashboard
+    }
+    &[id="guild-context-guild-settings--ROLES"]::before{
+        content: "\EC1B"; // Badge
+    }
+    &[id="guild-context-guild-settings--EMOJI"]::before{
+        content: "\ED54"; // EmojiTabSmilesAnimals
+    }
+    &[id="guild-context-guild-settings--STICKERS"]::before{
+        content: "\F4AA"; // Sticker2
+    }
+    &[id="guild-context-guild-settings--MODERATION"]::before{
+        content: "\EC81"; // PoliceCar
+    }
+    &[id="guild-context-guild-settings--AUDIT_LOG"]::before{
+        content: "\E9D5"; // CheckList
+    }
+    &[id="guild-context-guild-settings--INTEGRATIONS"]::before{
+        content: "\E774"; // Globe
+    }
+    &[id="guild-context-guild-settings--WIDGET"]::before{
+        content: "\EA86"; // Puzzle
+    }
+    &[id="guild-context-guild-settings--GUILD_TEMPLATES"]::before{
+        content: "\E8C8"; // Copy
+    }
+    &[id="guild-context-guild-settings--COMMUNITY"]::before{
+        content: "\E902"; // Group
+    }
+    &[id="guild-context-guild-settings--ANALYTICS"]::before{
+        content: "\E9D2"; // AreaChart
+    }
+    &[id="guild-context-guild-settings--PARTNER"]::before{
+        content: "\E902"; // Group
+    }
+    &[id="guild-context-guild-settings--DISCOVERY"]::before{
+        content: "\E707"; // MapPin
+    }
+    &[id="guild-context-guild-settings--MEMBER_VERIFICATION"]::before{
+        content: "\E73E"; // CheckMark
+    }
+    &[id="guild-context-guild-settings--COMMUNITY_WELCOME"]::before{
+        content: "\EBFC"; // TabletMode
+    }
+    &[id="guild-context-guild-settings--GUILD_PREMIUM"]::before{
+        content: "\EC4A"; // SpeedHigh
+    }
+    &[id="guild-context-guild-settings--MEMBERS"]::before{
+        content: "\E716"; // People
+    }
+    &[id="guild-context-guild-settings--INSTANT_INVITES"]::before{
+        content: "\E8FA"; // AddFriend
+    }
+    &[id="guild-context-guild-settings--BANS"]::before{
+        content: "\E8F8"; // BlockContact
+    }
+}
+
+// Message
+.theme-dark .menu-1QACrS .item-1OdjEX{
+    &[id="message-add-reaction"]::before{
+        content: "\E11D"; // Emoji
+    }
+    &[id="message-edit"]::before{
+        content: "\E104"; // Edit
+    }
+    &[id="message-pin"]::before{
+        content: "\E141"; // Pin
+    }
+    &[id="message-reply"]::before{
+        content: "\E97A"; // Reply
+    }
+    &[id="message-thread"]::before{
+        content: "\E15C"; // ShowResults
+    }
+    &[id="message-mark-unread"]::before{
+        content: "\E119"; // Mail
+    }
+    &[id="message-copy-link"]::before{
+        content: "\E167"; // Link
+    }
+    &[id="message-tts"]::before{
+        content: "\EFA9"; // Speech
+    }
+    &[id="message-delete"]::before{
+        content: "\E107"; // Delete
+    }
+    &[id="message-save-image"]::before{
+        content: "\E159"; // SaveLocal
+    }
+    &[id="message-copy-native-link"]::before{
+        content: "\E167"; // Link
+    }
+    &[id="message-open-native-link"]::before{
+        content: "\E8A7"; // OpenInNewWindow
+    }
+}
+
+// Thread
+.theme-dark .menu-1QACrS .item-1OdjEX{
+    &[id="thread-context-leave-thread"]::before{
+        content: "\E11F"; // LeaveChat
+    }
+    &[id="thread-context-mark-channel-read"]::before{
+        content: "\E166"; // Read
+    }
+    &[id="thread-context-channel-copy-link"]::before{
+        content: "\E166"; // Read
+    }
+    &[id="thread-context-mute-channel"]::before{
+        content: "\EE79"; // ActionCenterQuiet
+    }
+    &[id="thread-context-thread-notifications"]::before{
+        content: "\E91C"; // ActionCenter
+    }
+    &[id="thread-context-edit-thread"]::before{
+        content: "\E104"; // Edit
+    }
+    &[id="thread-context-auto-archive-thread"]::before{
+        content: "\E1D3"; // Library
+    }
+    &[id="thread-context-unarchive-thread"]::before{
+        content: "\E1D3"; // Library
+    }
+    &[id="thread-context-delete-channel"]::before{
+        content: "\E107"; // Delete
+    }
+}
+
+// Chatbox
+.theme-dark .menu-1QACrS .item-1OdjEX{
+    &[id="textarea-context-suggestions"]::before{
+        content: "\E1CE"; // OutlineStar
+    }
+    &[id="textarea-context-submit-button"]::before{
+        content: "\E122"; // Send
+    }
+    &[id="textarea-context-spellcheck"]::before{
+        content: "\F87B"; // Spelling
+    }
+    &[id="textarea-context-languages"]::before{
+        content: "\F2B7"; // LocaleLanguage
+    }
+    &[id="textarea-context-paste"]::before{
+        content: "\E16D"; // Paste
+    }
+}
+
+// Attachment/upload
+.theme-dark .menu-1QACrS .item-1OdjEX{
+    &[id="channel-attach-upload-file"]::before{
+        content: "\E11C"; // Upload
+    }
+    &[id="channel-attach-THREAD"]::before{
+        content: "\E15C"; // ShowResults
+    }
+    &[id="channel-attach-SLASH_COMMAND"]::before{
+        content: "\E756"; // CommandPrompt
+    }
+}
+
+// RTC
+.theme-dark .menu-1QACrS .item-1OdjEX{
+    &[id="rtc-channel-VOICE_ACTIVITY"]::before{
+        content: "\F12E"; // MicrophoneListening
+    }
+    &[id="rtc-channel-PUSH_TO_TALK"]::before{
+        content: "\F093"; // ButtonA
+    }
+    &[id="rtc-channel-popout-call"]::before{
+        content: "\E17C"; // NewWindow
+    }
+    &[id="rtc-channel-show-voice-states"]::before{
+        content: "\E976"; // ExpandTile
+    }
+}
+
+// Mic
+.theme-dark .menu-1QACrS .item-1OdjEX{
+    &[id="audio-device-context-VOICE_ACTIVITY"]::before{
+        content: "\F12E"; // MicrophoneListening
+    }
+    &[id="audio-device-context-PUSH_TO_TALK"]::before{
+        content: "\F093"; // ButtonA
+    }
+}
