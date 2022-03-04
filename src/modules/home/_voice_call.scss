@@ -1,0 +1,37 @@
+.theme-dark .wrapper-1gVUIN.minimum-fXpVNc{
+    background-color: unset;
+
+    // Have to use a ::before so the background doesn't include the toolbar
+    &::before{
+        content: "";
+        width: 100%;
+        height: calc(100% - 48px);
+        position: absolute;
+        top: 48px;
+        background: $LayerFillColorAlt;
+        border-top: 1px solid $CardStrokeColorDefault;
+        border-left: 1px solid $CardStrokeColorDefault;
+        border-radius: 8px 0 0 0;
+    }
+
+    // Remove border radius from chat area
+    ~ .content-1jQy2l{
+        border-radius: 0;
+    }
+
+    // Region select
+    .quickSelectLabel-ArUyd9{
+        margin-top: 8px;
+        @include TypeBody;
+        color: $TextFillColorPrimary;
+        text-transform: capitalize;
+    }
+    .quickSelectClick-2ycwNA{
+        margin-top: 8px;
+        .quickSelectValue-rmtkbe{
+            @include TypeBody;
+            color: $TextFillColorSecondary;
+            text-transform: capitalize;
+        }
+    }
+}
