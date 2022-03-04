@@ -8,13 +8,13 @@
     .overlayTitle-2efoIF{
         border-radius: 4px;
     }
+}
 
-    // Call controls
-    .controlSection-1mNixL{
-        .wrapper-3t3Yqv{
-            .controlButton-2PMNom{
-                border-radius: 50%;
-            }
+html[lang^="en-"].theme-dark .wrapper-1gVUIN .controlSection-1mNixL{
+    .button-f2h6uQ{
+        &::before{
+            @include FontIconFluent;
+            font-size: 16px;
         }
     }
 }

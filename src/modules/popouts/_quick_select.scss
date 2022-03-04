@@ -8,11 +8,28 @@
     .quickSelectPopoutOption-2E2UmS{
         max-height: 34px;
         border-radius: 4px;
+        position: relative;
         &:hover{
             background-color: $SubtleFillColorSecondary;
         }
         &:focus{
             background-color: $SubtleFillColorTertiary;
+        }
+        &.selected{
+            background-color: $SubtleFillColorSecondary;
+            .check-K_srvn{
+                display: none;
+            }
+            &::before{
+                content: "";
+                width: 3px;
+                height: 16px;
+                position: absolute;
+                left: 0;
+                top: 9px;
+                background-color: $AccentBase;
+                border-radius: 2px;
+            }
         }
     }
     .regionSelectName-1Tj9C9{

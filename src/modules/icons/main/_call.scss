@@ -1,0 +1,20 @@
+html[lang^="en-"].theme-dark .wrapper-1gVUIN .controlSection-1mNixL .button-f2h6uQ{
+    &[aria-label*="Camera"]::before{
+        content: "\E156";
+    }
+    &[aria-label="Share Your Screen"]::before{
+        content: "\EC15";
+    }
+    &[aria-label="Unmute"]::before{
+        content: "\EC54"; // MicOff
+    }
+    &[aria-label="Mute"]::before{
+        content: "\E720"; // Microphone
+    }
+    &[aria-label="Disconnect"]::before{
+        content: "\E137";
+    }
+    &[aria-label="Join Call"]::before{
+        content: "\E13A";
+    }
+}

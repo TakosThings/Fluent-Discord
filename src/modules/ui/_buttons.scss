@@ -129,3 +129,64 @@
         }
     }
 }
+
+// Call/Voice channel control buttons
+.theme-dark .controlButton-2PMNom{
+    height: 32px;
+    margin: 0 4px;
+    &.button-f2h6uQ{
+        min-width: 64px;
+        height: 32px;
+        padding: 8px 16px;
+        background-color: $ControlFillColorDefault;
+        border: 1px solid $ControlStrokeColorDefault;
+        border-radius: 4px;
+        &:hover{
+            background-color: $ControlFillColorSecondary;
+        }
+        &:active{
+            background-color: $ControlFillColorTertiary;
+        }
+    }
+
+    .contents-3ca1mk{
+        svg{
+            display: none;
+        }
+    }
+
+    &.contextMenuContainer-1RO4DQ{
+        margin: 0 4px;
+        display: flex;
+        svg{
+            width: 64px !important;
+        }
+        foreignObject{
+            width: 64px !important;
+            mask: none;
+        }
+        .button-f2h6uQ{
+            min-width: 64px;
+            height: 32px;
+            padding: 8px 16px;
+            background-color: $ControlFillColorDefault;
+            border: 1px solid $ControlStrokeColorDefault;
+            border-radius: 4px;
+            &:hover{
+                background-color: $ControlFillColorSecondary;
+            }
+            &:active{
+                background-color: $ControlFillColorTertiary;
+            }
+        }
+    }
+    .contextMenuNub-NuTZ_U{
+        max-height: 32px;
+        position: relative;
+        padding: 7px 8px;
+        background-color: $ControlFillColorDefault;
+        border: 1px solid $ControlStrokeColorDefault;
+        border-radius: 0 4px 4px 0;
+    }
+}
+
