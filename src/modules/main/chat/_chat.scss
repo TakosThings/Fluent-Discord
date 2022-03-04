@@ -32,6 +32,9 @@
     .newMessagesBar-1hF-9G{
         top: 8px;
         background-color: $AccentLight1;
+        .barButtonBase-Sk2mdB{
+            color: $TextOnAccentFillColorPrimary;
+        }
     }
     // Old messages bar
     .jumpToPresentBar-1cEnH0{
