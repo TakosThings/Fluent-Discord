@@ -121,4 +121,11 @@
             background-color: $ControlFillColorTertiary;
         }
     }
+
+    // Button with loading ellipses (Server Settings > Save changes)
+    &.submitting-3uDn4C{
+        .spinner-2RT7ZC{
+            display: flex;
+        }
+    }
 }
