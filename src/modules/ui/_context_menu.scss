@@ -76,9 +76,11 @@
             }
         }
 
-        // Remove Discord icons
-        .icon-E4cW1l{
-            display: none;
+        // Remove Discord icons, unless it's a checkbox
+        &:not([role="menuitemcheckbox"]){
+            .icon-E4cW1l{
+                display: none;
+            }
         }
         // Remove icons from upload/attach menu
         .optionIcon-1Ft8w0{
