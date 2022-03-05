@@ -61,9 +61,19 @@
             }
         }
 
+        // Remove left margin from 'Upload file' option
+        .optionName-1ebPjH{
+            margin: 0;
+        }
+
         // Items with subtext
         .subtext-2GlkbE{
             margin-top: 0;
+            @include TypeCaption;
+            color: $TextFillColorSecondary;
+            strong{
+                font-weight: normal;
+            }
         }
 
         // Remove Discord icons
