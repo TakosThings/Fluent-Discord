@@ -358,6 +358,9 @@
     &[id="message-delete"]::before{
         content: "\E107"; // Delete
     }
+    &[id="message-copy-image"]::before{
+        content: "\E16F"; // Copy
+    }
     &[id="message-save-image"]::before{
         content: "\E159"; // SaveLocal
     }
