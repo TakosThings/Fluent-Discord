@@ -146,3 +146,40 @@
         }
     }
 }
+
+// Checkbox
+.theme-dark .checkboxWrapper-2fDzaA{
+    .input-3xr72x{
+        width: 18px;
+        height: 18px;
+        position: relative;
+        background-color: $ControlAltFillColorSecondary;
+        border: 1px solid $ControlStrongFillColorDefault;
+        border-radius: 3px;
+        appearance: none;
+        opacity: 1;
+        &:hover{
+            background-color: $ControlAltFillColorTertiary;
+        }
+    }
+    &.checked-1pZh2h{
+        .input-3xr72x{
+            background-color: $AccentTextFillColorPrimary;
+            border-color: $AccentTextFillColorPrimary;
+            &:hover{
+                background-color: $AccentTextFillColorSecondary;
+            }
+            &::before{
+                content: "\E001";
+                position: absolute;
+                top: 3px;
+                left: 3px;
+                @include FontIconFluent;
+                font-size: 16px;
+            }
+        }
+    }
+    .checkbox-f1HnKB{
+        display: none;
+    }
+}
