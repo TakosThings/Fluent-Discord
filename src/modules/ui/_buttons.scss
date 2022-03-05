@@ -172,6 +172,7 @@
             background-color: $ControlFillColorDefault;
             border: 1px solid $ControlStrokeColorDefault;
             border-radius: 4px;
+            color: $TextFillColorPrimary;
             &:hover{
                 background-color: $ControlFillColorSecondary;
             }
@@ -187,6 +188,7 @@
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
         border-radius: 0 4px 4px 0;
+        color: $TextFillColorPrimary;
     }
 }
 
