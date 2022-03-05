@@ -90,3 +90,59 @@
         }
     }
 }
+
+// Radio button
+.theme-dark .item-2idW98{
+    .radioBar-3w9XY-{
+        > div:first-child{
+            width: 18px;
+            height: 18px;
+            position: relative;
+            background-color: $ControlAltFillColorSecondary;
+            border: 1px solid $ControlStrongFillColorDefault;
+            border-radius: 50%;
+            &:hover{
+                background-color: $ControlAltFillColorTertiary;
+            }
+            svg{
+                display: none;
+            }
+        }
+    }
+    &[aria-checked=true] .radioBar-3w9XY-{
+        > div:first-child{
+            background-color: $AccentTextFillColorPrimary;
+            border-color: $AccentTextFillColorPrimary;
+            &:hover{
+                background-color: $AccentTextFillColorSecondary;
+                &::before{
+                    transform: scale(1.167);
+                }
+            }
+            &::before{
+                content: "";
+                width: 10px;
+                height: 10px;
+                position: absolute;
+                top: 3px;
+                left: 3px;
+                background-color: $TextOnAccentFillColorPrimary;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    &:hover{
+        .radioBar-3w9XY- > div:first-child{
+            background-color: $ControlAltFillColorTertiary;
+        }
+    }
+    &[aria-checked=true]:hover{
+        .radioBar-3w9XY- > div:first-child{
+            background-color: $AccentTextFillColorSecondary;
+            &::before{
+                transform: scale(1.167);
+            }
+        }
+    }
+}
