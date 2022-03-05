@@ -1,0 +1,69 @@
+.theme-dark .root-1e2tfc{
+    min-height: auto !important;
+    background-color: $SolidBackgroundFillColorBase;
+    border: 1px solid $SurfaceStrokeColorDefault;
+    border-radius: 8px;
+    justify-content: space-between;
+
+    .icon-kZI9Yh{
+        margin: 0 0 16px 0;
+    }
+
+    .titleGroup-Wf8cWW{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .title-1xszmS{
+            @include TypeSubtitle;
+        }
+        .subtitle-NatkZZ{
+            margin-bottom: 16px;
+            @include TypeBody;
+            color: $TextFillColorPrimary;
+        }
+    }
+
+    .actions-AdUAR0{
+        .actionButton-2S7dMn{
+            min-width: 94px;
+            height: 32px;
+            margin-right: 8px;
+
+            &.red-3T8maV{
+                background-color: transparent;
+                border: 1px solid $SystemFillColorCritical;
+                &:hover{
+                    background-color: lighten($SystemFillColorCriticalBackground, 20%);
+                    color: $TextFillColorPrimary;
+                    &::before{
+                        color: $TextFillColorPrimary;
+                    }
+                }
+                &::before{
+                    content: "\E137"; // HangUp
+                    color: $SystemFillColorCritical;
+                }
+            }
+            &.green-3wkLbx{
+                background-color: $AccentFillColorDefault;
+                &:hover{
+                    background-color: $AccentFillColorSecondary;
+                }
+                &:active{
+                    background-color: $AccentFillColorTertiary;
+                }
+                &::before{
+                    content: "\E13A"; // Phone
+                }
+            }
+            &::before{
+                @include FontIconFluent;
+                font-size: 16px;
+                color: $TextOnAccentFillColorPrimary;
+            }
+            .centerIcon-JYpTUi{
+                display: none;
+            }
+        }
+    }
+}
