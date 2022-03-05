@@ -21,4 +21,4 @@ The theme is still in-development.
 * Join the [Discord server](https://discord.gg/ZYrCacRuez)
 
 ## Preview
-![Preview](/images/ui-0.0.3.png)
+![Preview](/images/ui-0.0.13.png)
