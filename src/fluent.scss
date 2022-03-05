@@ -84,9 +84,10 @@
 @import 'modules/popouts/user';
 
 // Settings
-// Order: None, alphabetic
+// Order: Settings, then navigation, then others, alphabetic
 @import 'modules/settings/settings';
 @import 'modules/settings/navigation';
+@import 'modules/settings/server_settings';
 @import 'modules/settings/user_settings';
 
 // Icons
