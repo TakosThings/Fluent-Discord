@@ -1,23 +1,26 @@
 // Radio groups
 .theme-dark div[role=radiogroup]{
+    background-color: $SystemFillColorAttentionBackground;
+    border: 1px solid $CardStrokeColorDefault;
+    border-radius: 4px;
     .item-2idW98{
+        margin-bottom: 0;
         border: 1px solid transparent;
         border-radius: 4px;
         &.itemFilled-1cPbtg{
             background-color: transparent;
         }
         &[aria-checked=true]{
-            background-color: $SubtleFillColorSecondary;
+            background-color: transparent;
             &:hover{
-                background-color: $SubtleFillColorTertiary;
+                background-color: transparent;
             }
         }
 
-        &:hover{
-            background-color: $SubtleFillColorSecondary;
-        }
-        &:active{
-            background-color: $SubtleFillColorTertiary;
+        // Privacy & Safety
+        // Remove coloured bars on left side
+        .radioBar-3w9XY-{
+            border: 0;
         }
 
         .info-2FZci4{
@@ -32,11 +35,12 @@
                 }
             }
             .title-1yyp9V{
-                color: $TextFillColorPrimary;
                 @include TypeBodyStrong;
+                color: $TextFillColorPrimary;
             }
             .size14-3fJ-ot{
-                @include TypeBody;
+                @include TypeCaption;
+                color: $TextFillColorSecondary;
             }
         }
     }

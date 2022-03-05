@@ -1,0 +1,284 @@
+.theme-dark .contentColumn-1C7as6{
+    // Misc
+    .notice-1Qe0b_{
+        background-color: $SystemFillColorAttentionBackground;
+        border: 1px solid $CardStrokeColorDefault;
+        .text-3bXy2L{
+            @include TypeBody;
+            color: $TextFillColorPrimary;
+            strong{
+                font-weight: normal;
+            }
+        }
+    }
+    // Remove dividers
+    .divider-_0um2u,
+    .divider-ogkn3u{
+        display: none;
+    }
+
+    // My Account
+    .accountProfileCard-lbN7n-{
+        background-color: transparent;
+        // Remove coloured banner
+        .settingsBanner-1eDJ5w{
+            display: none;
+        }
+
+        .userInfo-regn9W{
+            height: calc(64px + 8px);
+            padding: 16px 16px 0 calc(64px + 16px);
+            margin: 8px 0;
+        }
+        // Avatar
+        .avatar-3mTjvZ{
+            width: 64px !important;
+            height: 64px !important;
+            top: 0;
+            left: 0;
+            border: 2px solid #000;
+            svg{
+                foreignobject{
+                    mask: unset;
+                }
+                rect{
+                    display: none;
+                }
+                img{
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        // Body
+        .background-3d_SjE{
+            margin: 0;
+            padding: 0;
+            background-color: transparent;
+        }
+        .fieldList-in8WkP{
+            background-color: transparent;
+            .field-21XZwa{
+                min-height: 64px;
+                padding: 0 16px;
+                margin: 0 0 4px 0;
+                background-color: $CardBackgroundFillColorDefault;
+                border: 1px solid $CardStrokeColorDefault;
+                border-radius: 4px;
+
+                .constrainedRow-3y91Xf{
+                    align-items: center;
+                }
+
+                .usernameRow-1x50RR,
+                .usernameInnerRow-1-STdK,
+                h5.title-3hptVQ,
+                span.size16-rrJ6ag{
+                    @include TypeBody;
+                }
+
+                // Override the reveal button
+                .button-f2h6uQ.lookLink-15mFoz{
+                    min-width: unset;
+                    padding: 0 0 0 4px;
+                    background-color: unset;
+                    border: unset;
+                    .contents-3ca1mk{
+                        color: $AccentLight3;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Password and auth
+    .userSettingsSecurity-2kODPN{
+        .sectionTitle-3j2YI1 h1{
+            @include TypeBodyLarge;
+            margin-bottom: 8px;
+        }
+        > .children-1xdcWE{
+            // Change Password
+            > div:first-of-type{
+                height: 62px;
+                padding: 8px 16px;
+                background-color: $CardBackgroundFillColorDefault;
+                border: 1px solid $CardStrokeColorDefault;
+                border-radius: 4px;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: center;
+            }
+            .changePasswordButton-3j5UVD{
+                margin-bottom: 0;
+            }
+
+            // 2FA
+            > div > .flexChild-3PzYmX{
+                // border: 1px solid red;
+                margin-top: 8px;
+                > div{
+                    > h5{
+                        margin: 0;
+                        padding: 16px 16px 4px 16px;
+                        background-color: $CardBackgroundFillColorDefault;
+                        border: 1px solid $CardStrokeColorDefault;
+                        border-bottom: 0;
+                        border-radius: 4px 4px 0 0;
+                    }
+                    > .description-30xx7u{
+                        margin: 0;
+                        padding: 0 16px 8px 16px;
+                        background-color: $CardBackgroundFillColorDefault;
+                        border: 1px solid $CardStrokeColorDefault;
+                        border-top: 0;
+                        border-bottom: 0;
+                        color: $TextFillColorSecondary;
+                    }
+                    > .flex-2S1XBF{
+                        margin-bottom: 0;
+                        padding: 16px;
+                        background-color: $CardBackgroundFillColorDefault;
+                        border: 1px solid $CardStrokeColorDefault;
+                        border-radius: 0 0 4px 4px;
+                        justify-content: flex-end;
+                        .flexChild-3PzYmX{
+                            flex: unset !important;
+                        }
+                    }
+
+                    // SMS backup auth
+                    > .marginTop40-Q4o1tS{
+                        margin-top: 8px;
+                        padding: 16px;
+                        background-color: $CardBackgroundFillColorDefault;
+                        border: 1px solid $CardStrokeColorDefault;
+                        border-radius: 4px;
+                        .description-30xx7u{
+                            color: $TextFillColorSecondary;
+                        }
+                        .children-1xdcWE{
+                            .flex-2S1XBF{
+                                justify-content: flex-end;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // Remove divider between SMS backup and delete account
+        ~ .divider-_0um2u{
+            display: none;
+            ~ .marginTop40-Q4o1tS{
+                margin-top: 8px;
+                padding: 16px;
+                background-color: $CardBackgroundFillColorDefault;
+                border: 1px solid $CardStrokeColorDefault;
+                border-radius: 4px;
+                .buttonContainer-cmXa0P{
+                    padding-top: 16px;
+                    border-top: 1px solid $CardStrokeColorDefault;
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+
+    // Authorised apps
+    // Banner
+    .formNotice-2nS8ey{
+        background-color: $SystemFillColorAttentionBackground;
+        border: 1px solid $CardStrokeColorDefault;
+        .title-3hptVQ{
+            @include TypeBodyStrong;
+            color: $TextFillColorPrimary;
+        }
+        .formText-2ngGjI{
+            @include TypeBody;
+            color: $TextFillColorPrimary;
+        }
+    }
+    // Apps
+    .authedApp-8q3NA9{
+        background-color: $SystemFillColorAttentionBackground;
+        border: 1px solid $CardStrokeColorDefault;
+        .title-3hptVQ{
+            @include TypeBodyStrong;
+        }
+        .permission-CbNHIg{
+            .permissionCheckmark-ji-OoY{
+                width: 16px;
+                height: 16px;
+                margin-right: 8px;
+                background-color: $SystemFillColorSuccess;
+                background-size: unset;
+                background-image: none;
+                border-radius: 50%;
+                filter: none;
+                &::before{
+                    content: "\E001";
+                    @include FontIconFluent;
+                    font-size: 12px;
+                    font-weight: bold;
+                    line-height: 16px;
+                    text-align: center;
+                    color: $TextOnAccentFillColorPrimary;
+                }
+            }
+        }
+    }
+
+
+    // Connections
+    .connection-YOVI9j{
+        background-color: $SystemFillColorAttentionBackground;
+        border: 1px solid $CardStrokeColorDefault;
+        .connectionHeader-Ixbb1s{
+            padding: 16px;
+            background-color: $SystemFillColorAttentionBackground;
+            border-bottom: 1px solid $CardStrokeColorDefault;
+            .connectionAccountValue-YkFI6F{
+                margin-left: 16px;
+                @include TypeBodyStrong;
+            }
+            .connectionAccountLabel-28GEPk{
+                margin-left: 16px;
+                @include TypeCaption;
+            }
+        }
+        .connectionOptionsWrapper-3aVWcp{
+            padding: 16px 16px 0 16px;
+        }
+        .connectionOptionSwitch-y1S-cR{
+            padding: 0;
+            background-color: transparent;
+            border: 0;
+        }
+        .title-2dsDLn{
+            @include TypeBody;
+        }
+    }
+
+    // Privacy & Safety
+    .container-1zDvAE{
+        margin-bottom: 8px;
+        padding: 16px;
+        background-color: $SystemFillColorAttentionBackground;
+        border: 1px solid $CardStrokeColorDefault;
+        border-radius: 4px;
+        .title-2dsDLn{
+            @include TypeBody;
+        }
+        .description-30xx7u{
+            @include TypeCaption;
+            color: $TextFillColorSecondary;
+        }
+        .divider-_0um2u{
+            display: none;
+        }
+    }
+}
