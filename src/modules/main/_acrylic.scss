@@ -21,7 +21,6 @@
     //    Filter overlay - Saturate helps bring out some colours from the background layer
     .bg-1QIAus{
         margin-top: -10px; // Hides the black bar at top of titlebar (ie. grabber)
-        background-color: transparent;
         background: var(--fluent-acrylic-background);
         background-size: cover;
         &::before{
@@ -29,12 +28,9 @@
             width: 100%;
             height: 100%;
             position: absolute;
-        }
-        // Filters
-        // NOTE: 2022-02-12 - SASS won't compile due to a conflict with the saturate filter, so `#{}` is added as a workaround.
-        &::before{
-            background: $MicaBackgroundFillColorBase;
-            backdrop-filter: blur(var(--fluent-acrylic-background-blur)) #{"saturate(var(--fluent-acrylic-background-saturation))"};
+            background: linear-gradient(0deg, rgba(32, 32, 32, 0.8), rgba(32, 32, 32, 0.8)), rgba(32, 32, 32, 0.8);
+            background-blend-mode: color, luminosity;
+            backdrop-filter: blur(var(--fluent-acrylic-background-blur));
         }
     }
 }
