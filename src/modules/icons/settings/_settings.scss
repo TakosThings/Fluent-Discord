@@ -95,6 +95,12 @@
         .item-3XjbnG[aria-controls="hypesquad-online-tab"]::after{ // Hype Squad
             content: "\F157"; // DialShape2
         }
+        .item-3XjbnG[aria-controls="experiments-tab"]::after{ // Experiments
+            content: "\f1ad"; // WindowsInsider
+        } // TODO: 2022-03-06 - Find better icon
+        .item-3XjbnG[aria-controls="developer-options-tab"]::after{ // Developer Options
+            content: "\ec7a"; // DeveloperOptions
+        }
         .item-3XjbnG[aria-controls="logout-tab"]::after{ // Log out
             content: "\F3B1"; // SignOut
         }
