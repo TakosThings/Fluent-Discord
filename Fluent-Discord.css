@@ -1,3 +1,33 @@
+:root {
+  --font-primary: "Segoe UI Variable Text", "Segoe UI Variable Static Text", "Segoe UI", "Comic Sans MS", Helvetica, Arial, sans-serif;
+  --font-display: "Segoe UI Variable Display", "Segoe UI Variable Static Display", "Segoe UI", "Comic Sans MS", Helvetica, Arial, sans-serif;
+  --font-code: Consolas, Menlo, Monaco, "Courier New", monospace;
+}
+
+*,
+::before,
+::after {
+  letter-spacing: normal;
+}
+
+.theme-dark .sidebar-1tnWFu,
+.theme-dark .container-1NXEtd,
+.theme-dark .wrapper-1_HaEi,
+.theme-dark .scroller-3X7KbA {
+  background-color: transparent;
+}
+.theme-dark .layer-86YKbF,
+.theme-dark .standardSidebarView-E9Pc3j,
+.theme-dark .contentRegionScroller-2_GT_N,
+.theme-dark .contentRegion-3HkfJJ {
+  background-color: transparent;
+}
+.theme-dark .bg-1QIAus {
+  margin-top: -10px;
+  background: var(--fluent-acrylic-background);
+  background-size: cover;
+}
+.theme-dark .bg-1QIAus::before {
   content: "";
   width: 100%;
   height: 100%;
