@@ -9,14 +9,22 @@ jobs:
     steps:
       # Checkout
       - uses: actions/checkout@v2
+      
+      # Create dist directory
+      - name: Create /dist
+        run: mkdir dist
 
       # Build CSS
       - name: Sass Build
         uses: gha-utilities/sass-build@v0.4.8
         with:
-          source: src/fluent.scss
-          destination: dist/fluent-discord.css
+          source: src/fluent-build.scss
+          destination: dist/Fluent-Discord.css
           outputStyle: expanded
+          
+      # Delete lines 1-31 - the user options part
+      - name: Delete user options
+        run: sed -i '1,31d' dist/Fluent-Discord.css
 
       # Deploy to gh-pages
       - name: GitHub Pages action
@@ -25,6 +33,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./dist
-          destination_dir: ./theme
           keep_files: true
           commit_message: Deployment from Action
