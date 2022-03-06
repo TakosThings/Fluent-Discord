@@ -120,8 +120,7 @@
                 content: "\ED58"; // EmojiTabSymbols
             }
             &[aria-label="flags"]::before{
-                content: "🏳‍🌈";
-                @include TypeBody;
+                content: "\ED5B"; // EmojiSwatch
             }
         }
     }
