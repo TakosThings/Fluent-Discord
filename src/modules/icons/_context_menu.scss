@@ -394,6 +394,9 @@
     &[id="message-actions-mark-unread"]::before{
         content: "\E119"; // Mail
     }
+    &[id="message-actions-reactions"]::before{
+        content: "\E11D"; // Emoji
+    }
     &[id="message-actions-copy-link"]::before{
         content: "\E167"; // Link
     }
