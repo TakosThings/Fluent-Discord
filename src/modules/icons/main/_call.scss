@@ -23,4 +23,7 @@ html[lang^="en-"].theme-dark .wrapper-1gVUIN .controlSection-1mNixL .button-f2h6
     &[aria-label="Join Call"]::before{
         content: "\E13A"; // Phone
     }
+    &[aria-label="Start an Activity"]::before{
+        content: "\EA86"; // Puzzle
+    }
 }
