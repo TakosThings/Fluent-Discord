@@ -75,7 +75,7 @@
         content: "\F157"; // DialShape2
     }
     &[id="user-settings-cog-Experiments"]::before{
-        content: "\f1ad"; // WindowsInsider
+        content: "\E9cA"; // Frigid
     }
     &[id="user-settings-cog-Developer_Options"]::before{
         content: "\ec7a"; // DeveloperTools
@@ -352,6 +352,9 @@
     &[id="message-thread"]::before{
         content: "\E15C"; // ShowResults
     }
+    &[id="message-apps"]::before{
+        content: "\E74C"; // OEM
+    }
     &[id="message-mark-unread"]::before{
         content: "\E119"; // Mail
     }
@@ -376,6 +379,9 @@
     &[id="message-open-native-link"]::before{
         content: "\E8A7"; // OpenInNewWindow
     }
+    &[id="message-devmode-copy-id"]::before{
+        content: "\E943"; // Code
+    }
 }
 // Message action
 .theme-dark .menu-1QACrS .item-1OdjEX{
@@ -391,6 +397,9 @@
     &[id="message-actions-thread"]::before{
         content: "\E15C"; // ShowResults
     }
+    &[id="message-actions-apps"]::before{
+        content: "\E74C"; // OEM
+    }
     &[id="message-actions-mark-unread"]::before{
         content: "\E119"; // Mail
     }
@@ -405,6 +414,9 @@
     }
     &[id="message-actions-delete"]::before{
         content: "\E107"; // Delete
+    }
+    &[id="message-actions-copy-id"]::before{
+        content: "\E943"; // Code
     }
 }
 
