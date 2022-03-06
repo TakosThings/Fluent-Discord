@@ -23,9 +23,8 @@ html[lang^="en-"].theme-dark .wrapper-2vIMkT{
             @include FontNormal;
         }
         &[aria-label="Delete"]::before{
-            content: "\E107";
+            content: "\E107"; // Delete
         }
-
         &[aria-label="Add Reaction"]::before{
             content: "\E11D"; // Emoji
         }

@@ -22,7 +22,7 @@
             }
             a{
                 &::before{
-                    content: "\E8A7";
+                    content: "\E8A7"; // OpenInNewWindow
                     @include FontIconFluent;
                 }
                 svg{

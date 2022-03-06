@@ -83,7 +83,7 @@
             border: 0;
             border-radius: 4px;
             &::before{
-                content: "\EDDB";
+                content: "\EDDB"; // CaretUpSolid8
                 @include FontIconFluent;
                 color: $TextFillColorSecondary;
             }
@@ -106,7 +106,7 @@
             border: 0;
             border-radius: 4px;
             &::before{
-                content: "\EDDC";
+                content: "\EDDC"; // CaretDownSolid8
                 @include FontIconFluent;
                 color: $TextFillColorSecondary;
             }

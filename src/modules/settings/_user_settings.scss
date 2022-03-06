@@ -220,7 +220,7 @@
                 border-radius: 50%;
                 filter: none;
                 &::before{
-                    content: "\E001";
+                    content: "\E001"; // CheckMark(Private)
                     @include FontIconFluent;
                     font-size: 12px;
                     font-weight: bold;

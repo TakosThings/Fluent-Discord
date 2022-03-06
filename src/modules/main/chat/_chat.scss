@@ -164,7 +164,7 @@
             margin-right: 1ch;
             padding-top: 2px;
             &::before{
-                content: "\ECE4";
+                content: "\ECE4"; // Blocked2
                 @include FontIconFluent
             }
             svg{
@@ -176,7 +176,7 @@
         .iconContainer-2rPbqG{
             padding-top: 2px;
             &::before{
-                content: "\ECE4";
+                content: "\ECE4"; // Blocked2
                 @include FontIconFluent
             }
             svg{

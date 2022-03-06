@@ -2,7 +2,7 @@
     .link-39sEB3[href="/channels/@me"]{
         .avatar-1HDIsL{
             &::before{
-                content: "\E13D";
+                content: "\E13D"; // Contact
                 @include FontIconFluent;
                 color: $TextFillColorSecondary;
             }

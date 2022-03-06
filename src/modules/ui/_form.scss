@@ -170,7 +170,7 @@
                 background-color: $AccentTextFillColorSecondary;
             }
             &::before{
-                content: "\E001";
+                content: "\E001"; // CheckMark(Private)
                 position: absolute;
                 top: 3px;
                 left: 3px;
@@ -202,7 +202,7 @@
         border-color: $AccentTextFillColorPrimary;
         color: $TextOnAccentFillColorPrimary;
         &::before{
-            content: "\E001";
+            content: "\E001"; // CheckMark(Private)
             position: absolute;
             top: -1px;
             left: 1px;

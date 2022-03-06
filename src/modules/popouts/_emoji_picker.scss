@@ -96,31 +96,28 @@
                 vertical-align: middle;
             }
             &[aria-label="recent"]::before{
-                content: "\E81C";
-            }
-            &[aria-label="custom"]::before{
-                content: "\E74C";
+                content: "\E81C"; // History
             }
             &[aria-label="people"]::before{
-                content: "\ED53";
+                content: "\ED53"; // EmojiTabPeople
             }
             &[aria-label="nature"]::before{
-                content: "\E708";
+                content: "\E8BE"; // Leaf
             }
             &[aria-label="food"]::before{
-                content: "\ED56";
+                content: "\ED56"; // EmojiTabFoodPlants
             }
             &[aria-label="activity"]::before{
-                content: "\EA86";
+                content: "\EA86"; // Puzzle
             }
             &[aria-label="travel"]::before{
-                content: "\ED57";
+                content: "\ED57"; // EmojiTabTransitPlaces
             }
             &[aria-label="objects"]::before{
-                content: "\ED55";
+                content: "\ED55"; // EmojiTabCelebrationObjects
             }
             &[aria-label="symbols"]::before{
-                content: "\EB51";
+                content: "\ED58"; // EmojiTabSymbols
             }
             &[aria-label="flags"]::before{
                 content: "🏳‍🌈";
