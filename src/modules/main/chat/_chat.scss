@@ -140,6 +140,23 @@
         }
     }
 
+    // Reactions
+    .reaction-2A2y9y{
+        background-color: $ControlFillColorDefault;
+        border: 1px solid $ControlStrokeColorDefault;
+        color: $TextFillColorPrimary;
+        border-radius: 4px;
+        &:hover{
+            background-color: $ControlFillColorSecondary;
+        }
+        &:active{
+            background-color: $ControlFillColorTertiary;
+        }
+        &.reactionMe-3I9gFK{
+            border-color: $AccentBase;
+        }
+    }
+
     // Blocked message
     .compact-2Nkcau .blockedSystemMessage-3FmE9n{
         margin-left: -5ch;
