@@ -22,9 +22,9 @@ jobs:
           destination: dist/Fluent-Discord.css
           outputStyle: expanded
           
-      # Delete lines 1-31 - the user options part
-      - name: Delete user options
-        run: sed -i '1,31d' dist/Fluent-Discord.css
+      # Delete @charset
+      - name: Delete charset
+        run: sed -i '1d' dist/Fluent-Discord.css
 
       # Deploy to gh-pages
       - name: GitHub Pages action
