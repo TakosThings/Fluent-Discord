@@ -22,6 +22,9 @@ html[lang^="en-"].theme-dark .wrapper-2vIMkT{
             content: "ID";
             @include FontNormal;
         }
+        &[aria-label="Reactions"]::before{
+            content: "\E11D"; // Emoji
+        }
         &[aria-label="Delete"]::before{
             content: "\E107"; // Delete
         }
@@ -30,6 +33,17 @@ html[lang^="en-"].theme-dark .wrapper-2vIMkT{
         }
         &[aria-label="More"]::before{
             content: "\E10C"; // More
+        }
+
+        // Upload attachment
+        &[aria-label="Spoiler Attachment"]::before{
+            content: "\ED1A"; // Hide
+        }
+        &[aria-label="Modify Attachment"]::before{
+            content: "\E104"; // Edit
+        }
+        &[aria-label="Remove Attachment"]::before{
+            content: "\E107"; // Delete
         }
     }
 }
