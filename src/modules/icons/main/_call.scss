@@ -1,9 +1,9 @@
 html[lang^="en-"].theme-dark .wrapper-1gVUIN .controlSection-1mNixL .button-f2h6uQ{
     &[aria-label*="Camera"]::before{
-        content: "\E156";
+        content: "\E156"; // WebCam
     }
     &[aria-label="Share Your Screen"]::before{
-        content: "\EC15";
+        content: "\EC15"; // MiracastLogoSmall
     }
     &[aria-label="Stop Streaming"]::before{
         content: "\EA14"; // DisconnectDisplay
@@ -15,12 +15,12 @@ html[lang^="en-"].theme-dark .wrapper-1gVUIN .controlSection-1mNixL .button-f2h6
         content: "\E720"; // Microphone
     }
     &[aria-label="Disconnect"]::before{
-        content: "\E137";
+        content: "\E137"; // HangUp
     }
     &[aria-label="Stop Watching"]::before{
         content: "\E191"; // StopSlideShow
     }
     &[aria-label="Join Call"]::before{
-        content: "\E13A";
+        content: "\E13A"; // Phone
     }
 }
