@@ -1,0 +1,12 @@
+.theme-dark .embedFull-1HGV2S{
+    background-color: $CardBackgroundFillColorDefault;
+    .embedProvider-1GSN0c{
+        @include TypeCaption;
+    }
+    .embedAuthor-TJIHp5{
+        @include TypeBody;
+    }
+    .embedTitle-2n1pEb{
+        @include TypeBody;
+    }
+}
