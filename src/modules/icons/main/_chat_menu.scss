@@ -1,0 +1,36 @@
+html[lang^="en-"].theme-dark .wrapper-2vIMkT{
+    .button-3bklZh{
+        &[aria-label="Reply"]::before{
+            content: "\E97A"; // Reply
+        }
+        &[aria-label="Edit"]::before{
+            content: "\E104"; // Edit
+        }
+        &[aria-label="Create Thread"]::before{
+            content: "\E15C"; // ShowResults
+        }
+        &[aria-label="Mark Unread"]::before{
+            content: "\E119"; // Mail
+        }
+        &[aria-label="Pin Message"]::before{
+            content: "\E141"; // Pin
+        }
+        &[aria-label="Copy Link"]::before{
+            content: "\E167"; // Link
+        }
+        &[aria-label="Copy ID"]::before{
+            content: "ID";
+            @include FontNormal;
+        }
+        &[aria-label="Delete"]::before{
+            content: "\E107";
+        }
+
+        &[aria-label="Add Reaction"]::before{
+            content: "\E11D"; // Emoji
+        }
+        &[aria-label="More"]::before{
+            content: "\E10C"; // More
+        }
+    }
+}

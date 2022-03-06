@@ -1,0 +1,15 @@
+.theme-dark .wrapper-2vIMkT{
+    background-color: $ControlOnImageFillColorDefault;
+    border: 1px solid $ControlStrokeColorDefault;
+}
+
+html[lang^="en-"].theme-dark .wrapper-2vIMkT{
+    .button-3bklZh{
+        &::before{
+            @include FontIconFluent;
+        }
+        svg{
+            display: none;
+        }
+    }
+}
