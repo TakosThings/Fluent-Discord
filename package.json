@@ -12,11 +12,12 @@
         "linux"
     ],
     "scripts": {
-        "build": "sass src/fluent.scss:dist/fluent.theme.css --no-charset --no-source-map",
+        "build": "sass src/fluent.scss:dist/Fluent-Discord.theme.css --no-charset --no-source-map",
+        "build-auto": "sass src/fluent-auto.scss:dist/Fluent-Discord.theme.css --no-charset --no-source-map",
         "dev": "cross-os xdev",
         "xdev": {
-            "win32": "sass src/fluent.scss:%APPDATA%/BetterDiscord/themes/fluent.theme.css --no-charset --no-source-map --watch",
-            "linux": "sass src/fluent.scss:$HOME/.config/BetterDiscord/themes/fluent.theme.css --no-charset --no-source-map --watch"
+            "win32": "sass src/fluent.scss:%APPDATA%/BetterDiscord/themes/Fluent-Discord.theme.css --no-charset --no-source-map --watch",
+            "linux": "sass src/fluent.scss:$HOME/.config/BetterDiscord/themes/Fluent-Discord.theme.css --no-charset --no-source-map --watch"
         }
     },
     "devDependencies": {

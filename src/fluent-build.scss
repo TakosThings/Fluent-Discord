@@ -1,0 +1,115 @@
+// Order: Metadata, BD meta, User options, variables, reset
+@import 'modules/core/metadata';
+@import 'modules/core/options';
+@import 'modules/core/variables';
+@import 'modules/core/reset';
+
+// Mixins
+// Order: None, alpabetic
+@import 'modules/mixins/font';
+@import 'modules/mixins/type';
+
+// Acrylic
+// Order: None, alphabetic
+@import 'modules/main/acrylic';
+
+// UI
+// Order: None, alphabetic
+@import 'modules/ui/buttons';
+@import 'modules/ui/context_menu';
+@import 'modules/ui/form';
+@import 'modules/ui/input';
+@import 'modules/ui/scrollbar';
+@import 'modules/ui/titlebar';
+@import 'modules/ui/tooltip';
+
+// Main UI
+// Order: main, then home, then discover, alphabetic
+@import 'modules/main/call/call';
+@import 'modules/main/channels/account';
+@import 'modules/main/channels/channels';
+@import 'modules/main/channels/rtc';
+@import 'modules/main/chat/autocomplete';
+@import 'modules/main/chat/chat_menu';
+@import 'modules/main/chat/chat';
+@import 'modules/main/chat/chatbox';
+@import 'modules/main/chat/search_results';
+@import 'modules/main/chat/thread';
+@import 'modules/main/chat/voice_channel';
+@import 'modules/main/chat/embeds/file';
+@import 'modules/main/chat/embeds/invite';
+@import 'modules/main/chat/embeds/mediaplayer';
+@import 'modules/main/chat/embeds/site_preview';
+@import 'modules/main/chat/embeds/spotify';
+@import 'modules/main/chat/embeds/text';
+@import 'modules/main/guilds/guilds';
+@import 'modules/main/members/members';
+@import 'modules/main/toolbar/search';
+@import 'modules/main/toolbar/toolbar';
+@import 'modules/home/activity';
+@import 'modules/home/conversations';
+@import 'modules/home/home';
+@import 'modules/home/main';
+@import 'modules/home/members';
+@import 'modules/home/toolbar';
+@import 'modules/home/voice_call';
+@import 'modules/discover/discovery';
+
+// Loadscreen
+// Order: None, alphabetic
+@import 'modules/loadscreen/loadscreen';
+
+// Modals
+// Order: None, alphabetic
+@import 'modules/modals/add_server';
+@import 'modules/modals/incoming_call';
+@import 'modules/modals/lightbox';
+@import 'modules/modals/link_gate';
+@import 'modules/modals/modal';
+@import 'modules/modals/quality_rating';
+@import 'modules/modals/quickswitcher';
+@import 'modules/modals/reactors';
+@import 'modules/modals/screen_share';
+@import 'modules/modals/user';
+
+// Popouts
+// Order: None, alphabetic
+@import 'modules/popouts/emoji_picker';
+@import 'modules/popouts/inbox';
+@import 'modules/popouts/noise_cancellation';
+@import 'modules/popouts/pinned_messages';
+@import 'modules/popouts/quick_select';
+@import 'modules/popouts/roles';
+@import 'modules/popouts/rtc';
+@import 'modules/popouts/search';
+@import 'modules/popouts/threads';
+@import 'modules/popouts/user';
+
+// Settings
+// Order: Settings, then navigation, then others, alphabetic
+@import 'modules/settings/settings';
+@import 'modules/settings/navigation';
+@import 'modules/settings/server_settings';
+@import 'modules/settings/user_settings';
+
+// Icons
+// Order: Language, then alphabetic
+@import 'modules/translations/en-US';
+@import 'modules/translations/en-GB';
+@import 'modules/icons/home/main';
+@import 'modules/icons/main/account';
+@import 'modules/icons/main/call';
+@import 'modules/icons/main/chat_menu';
+@import 'modules/icons/main/toolbar';
+@import 'modules/icons/settings/settings';
+@import 'modules/icons/context_menu';
+
+// Misc
+// Order: None, alphabetic
+@import 'modules/misc/loading';
+@import 'modules/third_party/hljs';
+
+// BetterDiscord
+@import 'modules/betterdiscord/public';
+@import 'modules/betterdiscord/plugin_compat';
+@import 'modules/betterdiscord/settings';
