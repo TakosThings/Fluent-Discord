@@ -74,6 +74,12 @@
     &[id="user-settings-cog-Hypesquad_Online"]::before{
         content: "\F157"; // DialShape2
     }
+    &[id="user-settings-cog-Experiments"]::before{
+        content: "\f1ad"; // WindowsInsider
+    }
+    &[id="user-settings-cog-Developer_Options"]::before{
+        content: "\ec7a"; // DeveloperTools
+    }
 }
 
 // User
