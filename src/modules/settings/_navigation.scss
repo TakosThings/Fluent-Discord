@@ -17,6 +17,12 @@
         color: $TextFillColorPrimary;
         line-height: 34px;
         text-transform: none;
+        svg{
+            display: none;
+        }
+        .category-CysNYv{
+            @include TypeCaption;
+        }
     }
 
     .side-2ur1Qk .item-3XjbnG{
