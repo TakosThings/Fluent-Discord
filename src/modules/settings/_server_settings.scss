@@ -3,4 +3,28 @@
     .scroller-3_YDR2{
         background-color: transparent;
     }
+    // Left
+    .container-JyRf62{
+        .titleContainer-3fPic2{
+            padding-top: 40px;
+            background-color: transparent;
+            .titleText-3LapIU{
+                @include TypeSubtitle;
+                text-transform: none;
+            }
+        }
+        .list-1AJFv_{
+            padding: 0 16px 96px 16px;
+        }
+    }
+
+    // Right
+    .header-JUTO-g{
+        padding-top: 40px;
+        background-color: $SolidBackgroundFillColorTertiary;
+        .titleText-35PD5k{
+            @include TypeSubtitle;
+            text-transform: none;
+        }
+    }
 }
