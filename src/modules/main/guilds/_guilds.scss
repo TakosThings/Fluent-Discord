@@ -198,11 +198,11 @@
     }
     .expandedFolderIconWrapper-3RwQpD{
         &::before{
-            content: "\E8B7";
+            content: "\F12B"; // FolderHorizontal
             @include FontIconFluent;
             position: absolute;
             z-index: 1;
-            font-size: 22px;
+            font-size: 23px;
         }
     }
 
