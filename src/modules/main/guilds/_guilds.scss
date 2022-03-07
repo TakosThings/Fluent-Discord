@@ -88,22 +88,6 @@
             }
         }
 
-        // Inbox
-        .iconButton-2z1iK7 { // NOTE 2022-03-07 - Updated Inbox icon when Experiment 2022-01_inbox_redesign is on. No hover effect however unlike the Home button. Please check.
-            &[aria-label="Inbox"] {
-                background-color: transparent;
-                &::before{
-                    content: "\E715"; // Mail
-                    color: $TextFillColorPrimary;
-                    @include FontIconFluent;
-                    font-size: 16px;
-                }
-                svg{
-                    display: none;
-                }
-            }
-        }
-
         // Home
         .wrapper-3kah-n{
             &[aria-label="Home"]{
