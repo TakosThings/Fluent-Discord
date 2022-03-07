@@ -1,5 +1,11 @@
 .theme-dark .wrapper-1gVUIN{
     border-radius: 8px 0 0 0;
+    &.fullScreen-KhZZcz{
+        border-radius: 0;
+        .callContainer-HtHELf{
+            border-radius: 0;
+        }
+    }
     .callContainer-HtHELf{
         border-radius: 8px 0 0 0;
     }
