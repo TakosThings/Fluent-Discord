@@ -94,6 +94,9 @@
     &[id="user-context-change-nickname"]::before{
         content: "\E136"; // ContactInfo
     }
+    &[id="user-context-apps"]::before{
+        content: "\E74C"; // OEM
+    }
     &[id="user-context-message-user"]::before{
         content: "\E15F"; // Message
     }
@@ -138,6 +141,9 @@
     }
     &[id="user-context-roles"]::before{
         content: "\EC1B"; // Badge
+    }
+    &[id="user-context-devmode-copy-id"]::before{
+        content: "\E943"; // Code
     }
     &[id="user-context-voice-move"]::before{
         content: "\E759"; // SIPMove
@@ -209,6 +215,12 @@
     }
     &[id="channel-context-channel-copy-link"]::before{
         content: "\E167"; // Link
+    }
+    &[id="channel-context-delete-channel"]::before{
+        content: "\E107"; // Delete
+    }
+    &[id="channel-context-devmode-copy-id"]::before{
+        content: "\E943"; // Code
     }
     &[id="channel-context-hide-voice-names"]::before{
         content: "\E16A"; // HideBcc
