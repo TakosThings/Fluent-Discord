@@ -1,8 +1,7 @@
 // Override Discord brand fronts
-// DEV: 2021-07-02 - Comic Sans for testing with the new Segoe font
 :root{
-    --font-primary: "Segoe UI Variable Text", "Segoe UI Variable Static Text", "Segoe UI", "Comic Sans MS", Helvetica, Arial, sans-serif;
-    --font-display: "Segoe UI Variable Display", "Segoe UI Variable Static Display", "Segoe UI", "Comic Sans MS", Helvetica, Arial, sans-serif;
+    --font-primary: "Segoe UI Variable Text", "Segoe UI Variable Static Text", "Segoe UI", Helvetica, Arial, sans-serif;
+    --font-display: "Segoe UI Variable Display", "Segoe UI Variable Static Display", "Segoe UI", Helvetica, Arial, sans-serif;
     --font-code: Consolas, Menlo, Monaco, "Courier New", monospace;
 }
 
