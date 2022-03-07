@@ -23,6 +23,7 @@
         margin-top: -10px; // Hides the black bar at top of titlebar (ie. grabber)
         background: var(--fluent-acrylic-background);
         background-size: cover;
+        filter: blur(var(--fluent-acrylic-background-blur));
         &::before{
             content: "";
             width: 100%;
@@ -31,7 +32,6 @@
             background: linear-gradient(0deg, rgba(32, 32, 32, var(--fluent-acrylic-background-dimness)), rgba(32, 32, 32,var(--fluent-acrylic-background-dimness))),
                         rgba(32, 32, 32, var(--fluent-acrylic-background-dimness));
             background-blend-mode: color, luminosity;
-            backdrop-filter: blur(var(--fluent-acrylic-background-blur));
         }
     }
 }

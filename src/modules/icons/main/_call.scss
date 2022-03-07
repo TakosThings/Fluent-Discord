@@ -1,5 +1,6 @@
 html[lang^="en-"].theme-dark .wrapper-1gVUIN .controlSection-1mNixL .button-f2h6uQ{
-    &[aria-label*="Camera"]::before{
+    &[aria-label*="Camera"]::before,
+    &[aria-label*="Join Video Call"]::before{
         content: "\E156"; // WebCam
     }
     &[aria-label="Share Your Screen"]::before{

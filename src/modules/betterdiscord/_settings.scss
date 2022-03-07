@@ -226,7 +226,7 @@
 }
 
 // Select
-.theme-dark .bd-select{
+.theme-dark .bd-select:not(.bd-select-transparent){
     height: 32px;
     background-color: $ControlFillColorDefault;
     border: 1px solid $ControlStrokeColorDefault;
