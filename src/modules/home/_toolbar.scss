@@ -55,6 +55,13 @@
                     }
                 }
             }
+
+            // Badge
+            .badge-3wMLmL{
+                background-color: $SystemFillColorCritical !important; // For some reason this is in line
+                @include TypeCaption;
+                color: $TextOnAccentFillColorPrimary;
+            }
         }
 
         // Remove gradient on right-side of tab bar
