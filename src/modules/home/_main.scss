@@ -103,10 +103,14 @@ html[lang^="en-"].theme-dark .container-2cd8Mz{
         &::before{
             @include FontIconFluent;
             color: $TextFillColorSecondary;
-            content: "\e711"; // Cancel
         }
         svg{
             display: none;
         }
     }
+}
+
+// Pending friend requests Cancel button
+[aria-label="Cancel"]::before{
+    content: "\E711"; // Cancel
 }
