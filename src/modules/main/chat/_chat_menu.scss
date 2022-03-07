@@ -4,7 +4,7 @@
 }
 
 html[lang^="en-"].theme-dark .wrapper-2vIMkT{
-    .button-3bklZh{
+    .button-3bklZh[aria-label]{
         &::before{
             @include FontIconFluent;
         }
