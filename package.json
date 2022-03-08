@@ -12,7 +12,7 @@
         "linux"
     ],
     "scripts": {
-        "build": "sass src/fluent.scss:dist/Fluent-Discord.theme.css --no-charset --no-source-map",
+        "build-static": "sass src/fluent.scss:dist/Fluent-Discord-static.theme.css --no-charset --no-source-map",
         "build-auto": "sass src/fluent-auto.scss:dist/Fluent-Discord.theme.css --no-charset --no-source-map",
         "dev": "cross-os xdev",
         "xdev": {
