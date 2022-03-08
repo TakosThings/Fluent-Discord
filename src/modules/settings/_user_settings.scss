@@ -175,6 +175,7 @@
             display: none;
             ~ .marginTop40-Q4o1tS{
                 margin-top: 8px;
+                margin-bottom: 8px;
                 padding: 16px;
                 background-color: $CardBackgroundFillColorDefault;
                 border: 1px solid $CardStrokeColorDefault;
@@ -185,6 +186,14 @@
                     justify-content: flex-end;
                 }
             }
+        }
+    }
+
+    // 2FA backup codes
+    .backupCode-QOE1Yz{
+        .checked-1pZh2h{
+            color: $ControlFillColorDisabled;
+            text-decoration: line-through;
         }
     }
 
