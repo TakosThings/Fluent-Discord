@@ -73,7 +73,7 @@
         }
 
         // BetterDiscord
-        .item-3XjbnG[aria-controls="settings-tab"]::after{ // BD:Settings
+        .bd-settings-tab::after {
             content: "\E713"; // Setting
         }
         .item-3XjbnG[aria-controls="emotes-tab"]::after{ // BD:Emotes
