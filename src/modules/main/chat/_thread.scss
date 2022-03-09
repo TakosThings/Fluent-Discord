@@ -5,8 +5,14 @@
     // Toolbar
     .container-ZMc96U{
         background-color: transparent;
-        .children-3xh0VB > .iconWrapper-2awDjA{
-            display: none;
+        .children-3xh0VB{
+            // Removes small gradient
+            &::after{
+                display: none;
+            }
+            > .iconWrapper-2awDjA{
+                display: none;
+            }
         }
     }
 
