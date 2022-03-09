@@ -434,6 +434,12 @@
 
 // Thread
 .theme-dark .menu-1QACrS .item-1OdjEX{
+    &[id="thread-context-join-thread"]::before{
+        content: "\E13F";
+    }
+    &[id="thread-context-open"]::before{
+        content: "\E7EA"; // ResizeTouchNarrower
+    }
     &[id="thread-context-leave-thread"]::before{
         content: "\E11F"; // LeaveChat
     }
@@ -452,6 +458,12 @@
     &[id="thread-context-edit-thread"]::before{
         content: "\E104"; // Edit
     }
+    &[id="thread-context-search"]::before{
+        content: "\E721"; // Search
+    }
+    &[id="thread-context-pins"]::before{
+        content: "\E141"; // Pins
+    }
     &[id="thread-context-auto-archive-thread"]::before{
         content: "\E1D3"; // Library
     }
@@ -460,6 +472,10 @@
     }
     &[id="thread-context-delete-channel"]::before{
         content: "\E107"; // Delete
+    }
+    &[id="thread-context-devmode-copy-id"]::before{
+        content: "ID";
+        @include FontNormal;
     }
 }
 

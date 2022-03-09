@@ -129,7 +129,7 @@
 
         // Home
         .wrapper-3kah-n{
-            &[data-list-item-id="guildsnav___home"] { // NOTE: 2022-03-09 - Used data-list-item-id instead. aria-label's value Home wouldn't work on other languages.
+            &[data-list-item-id="guildsnav___home"]{
                 .childWrapper-1j_1ub{
                     background-color: transparent;
                     &::before{
