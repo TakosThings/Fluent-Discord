@@ -9,6 +9,9 @@ html[lang^="en-"].theme-dark .wrapper-2vIMkT{
         &[aria-label="Create Thread"]::before{
             content: "\E15C"; // ShowResults
         }
+        &[aria-label="View Thread"]::before{
+            content: "\E15C"; // ShowResults
+        }
         &[aria-label="Mark Unread"]::before{
             content: "\E119"; // Mail
         }
