@@ -129,7 +129,7 @@
 
         // Home
         .wrapper-3kah-n{
-            &[aria-label="Home"]{
+            &[data-list-item-id="guildsnav___home"]{
                 .childWrapper-1j_1ub{
                     background-color: transparent;
                     &::before{
