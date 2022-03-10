@@ -1,4 +1,4 @@
-.theme-dark .layer-86YKbF[aria-label="USER_SETTINGS"]{
+.theme-dark .layer-86YKbF { // NOTE: 2022/03/11 - There is no longer an aria-label="USER_SETTINGS" on the Settings page.
     .sidebar-nqHbhN{
         .item-3XjbnG[aria-controls="themerepo-tab"]::after{ // Theme Repo
             content: "\E8F1"; // Library
