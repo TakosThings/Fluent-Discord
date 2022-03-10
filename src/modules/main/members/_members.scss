@@ -72,3 +72,19 @@
         }
     }
 }
+
+// Empty state
+.theme-dark .members-3WRCEx{
+    &.emptyState-2DwxJe{
+        .emptyStateHeader-3X-dcc{
+            display: none;
+        }
+        .emptyStateIconContainer-1Jbvk4{
+            background-color: transparent;
+        }
+        .emptyStateSubtext-hyd30M{
+            background-color: transparent;
+            color: $TextFillColorSecondary;
+        }
+    }
+}

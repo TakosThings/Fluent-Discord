@@ -240,4 +240,44 @@
             }
         }
     }
+
+    // Edit message
+    .channelTextArea-220_Gz{
+        .scrollableContainer-15eg7h{
+            background-color: $ControlFillColorDefault;
+            border: 1px solid $ControlStrokeColorDefault;
+            border-bottom: 2px solid $ControlStrokeColorDefault;
+            border-radius: 4px;
+            &:hover{
+                background-color: $ControlFillColorSecondary;
+            }
+            &:focus-within{
+                background-color: $ControlFillColorInputActiveBrush;
+                border-color: $ControlStrokeColorDefault;
+                border-bottom-color: $AccentBase;
+            }
+        }
+        .emojiButton-3FRTuj{
+            height: 32px;
+            width: 32px;
+            margin: 6px 4px 0 0;
+            border: 1px solid transparent;
+            &::before{
+                content: "\E76E"; //Emoji2
+                color: $TextFillColorSecondary;
+                @include FontIconFluent;
+                font-size: 16px;
+            }
+            &.emojiButtonHovered-s44uQ8{
+                background-color: $ControlFillColorDisabled;
+                border-color: $ControlStrokeColorDefault;
+                &::before{
+                    color: $TextFillColorPrimary;
+                }
+            }
+            .contents-3ca1mk{
+                display: none;
+            }
+        }
+    }
 }
