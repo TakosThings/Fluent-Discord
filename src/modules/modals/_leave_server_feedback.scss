@@ -1,0 +1,15 @@
+.theme-dark .problemInfo-1QppuA{
+    .root-cw9rWQ{
+        background-color: $CardBackgroundFillColorDefault;
+        border: 1px solid $CardStrokeColorDefault;
+        border-radius: 4px;
+    }
+    .option-1O-Hwt{
+        &:hover{
+            background-color: $CardBackgroundFillColorSecondary;
+        }
+    }
+    .text-3MkjKY{
+        @include TypeBody;
+    }
+}
