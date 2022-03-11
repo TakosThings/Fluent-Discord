@@ -1,0 +1,28 @@
+.theme-dark .InvisibleTyping-typingButton-invisibleTypingButton{
+    position: relative;
+    &::before{
+        content: "\E087";
+        @include FontIconFluent;
+        color: $TextFillColorSecondary;
+        font-size: 18px;
+    }
+    &.disabled{
+        &::before{
+            color: $SystemFillColorCritical;
+        }
+        &::after{
+            content: "";
+            width: 24px;
+            height: 2px;
+            top: 17px;
+            left: 4px;
+            position: absolute;
+            background-color: $SystemFillColorCritical;
+            transform: rotate(-45deg);
+        }
+    }
+
+    svg{
+        display: none;
+    }
+}
