@@ -146,6 +146,7 @@
                         border-radius: 0 0 4px 4px;
                         justify-content: flex-end;
                         .flexChild-3PzYmX{
+                            margin-right: 0;
                             flex: unset !important;
                         }
                     }
@@ -163,6 +164,9 @@
                         .children-1xdcWE{
                             .flex-2S1XBF{
                                 justify-content: flex-end;
+                            }
+                            button:last-child{
+                                margin-left: 8px;
                             }
                         }
                     }
