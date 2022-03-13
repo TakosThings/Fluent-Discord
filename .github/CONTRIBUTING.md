@@ -36,10 +36,11 @@ The following is out of scope of this project
 
 #### NPM Commands
 * `npm run dev` watches files for changes and automatically builds and emits the theme to your BetterDiscord themes folder. BD will reload the theme with the changes each time.
-* `npm run build` builds and emits the theme to the dist directory. Generally just used for building a release.
+* `npm run build-static` builds and emits a 'static' theme file to the dist directory
+* `npm run build-auto` builds and emits the auto-updating theme file. This file only contains user vars and imports the theme from GitHub.
 
 ### Comments & Debugging
-* Where required a code comment should start with `TODO, NOTE, DEV, DEBUG or HACK` and the date in YYYY-MM-DD format, followed by the comment: 
+* In most cases code comments should start with `TODO, NOTE, DEV, DEBUG or HACK` and the date in YYYY-MM-DD format, followed by the comment: 
 ```SCSS
 // TODO: 2021-07-01 - Find better icon
 ```
@@ -48,6 +49,10 @@ The following is out of scope of this project
 content: "\F159"; // DialShape4
 ```
 * Use `red`, `$red` or `#F00` for debugging
+
+### Icon usage
+* Avoid using the same icon for multiple purposes.
+* In context menus, when an appropriate icon isn't available set the icon to `\E9CE` (Unknown) and add `visibility: hidden;` This will provide the correct spacing to indent the item label and hides the icon.
 
 ### Plugin Compatibility
 Use the [Plugin Compatibility Request](https://github.com/TakosThings/Fluent-Discord/issues/new?assignees=&labels=better+discord%2Cplugin+compatibility&template=plugin_compat.yml&title=Plugin+name+here) issue template to request compatibility for a plugin. The plugin __must__ be approved on [betterdiscord.app](https://betterdiscord.app)
