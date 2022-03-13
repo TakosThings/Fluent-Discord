@@ -350,6 +350,10 @@
 // Message
 .theme-dark .menu-1QACrS .item-1OdjEX{
     &[id="message-add-reaction"]::before{
+        content: "\E9CE"; // Unknown
+        visibility: hidden;
+    }
+    &[id="message-reactions"]::before{
         content: "\E11D"; // Emoji
     }
     &[id="message-edit"]::before{
