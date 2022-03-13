@@ -27,4 +27,7 @@ html[lang^="en-"].theme-dark .wrapper-1gVUIN .controlSection-1mNixL .button-f2h6
     &[aria-label="Start an Activity"]::before{
         content: "\EA86"; // Puzzle
     }
+    &[aria-label="Leave Activity"]::before{
+        content: "\E137"; // HangUp
+    }
 }
