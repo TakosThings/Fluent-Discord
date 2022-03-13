@@ -1,0 +1,11 @@
+.theme-dark .translateButton-DhP9x8{
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    &:hover{
+        background-color: $ControlFillColorDisabled;
+        border-color: $ControlStrokeColorDefault;
+    }
+}
