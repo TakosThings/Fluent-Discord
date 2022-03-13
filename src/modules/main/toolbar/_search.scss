@@ -16,6 +16,9 @@
         .icon-tZMHgY{
             display: none;
         }
+        .icon-tZMHgY{
+            margin-top: 6px;
+        }
     }
 
     // Icon when not active
@@ -49,8 +52,8 @@
         border-bottom-color: $AccentBase;
     }
 
-    .search-2Mwzzq.open-1F8u2c .icon-38sknP,
-    .search-2Mwzzq.focused-1xh-wG .icon-38sknP,
+    .search-2Mwzzq.open-1F8u2c .icon-tZMHgY,
+    .search-2Mwzzq.focused-1xh-wG .icon-tZMHgY,
     .search-2Mwzzq.open-1F8u2c .searchBar-jGtisZ .public-DraftEditorPlaceholder-root,
     .search-2Mwzzq.focused-1xh-wG .searchBar-jGtisZ .public-DraftEditorPlaceholder-root{
         display: block;
