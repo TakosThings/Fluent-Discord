@@ -184,6 +184,9 @@
                     padding-top: 16px;
                     border-top: 1px solid $CardStrokeColorDefault;
                     justify-content: flex-end;
+                    button:first-child{
+                        margin-right: 8px;
+                    }
                 }
             }
         }
