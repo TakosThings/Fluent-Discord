@@ -15,4 +15,4 @@ A Windows 11 theme for Discord
 * Join the [Discord server](https://discord.gg/ZYrCacRuez)
 
 ## Preview
-![Preview](/images/ui-0.0.13.png)
+![Preview](https://raw.githubusercontent.com/TakosThings/Fluent-Discord/develop/images/ui-0.0.13.png)
