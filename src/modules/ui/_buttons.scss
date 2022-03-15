@@ -152,16 +152,13 @@
 
     .contents-3ca1mk{
         svg{
-            display: none;
+            width: 16px !important;
         }
     }
 
     &.contextMenuContainer-1RO4DQ{
         margin: 0 4px;
         display: flex;
-        svg{
-            width: 64px !important;
-        }
         foreignObject{
             width: 64px !important;
             mask: none;
@@ -192,4 +189,10 @@
         color: $TextFillColorPrimary;
     }
 }
-
+html[lang^="en-"].theme-dark .controlButton-2PMNom{
+    .contents-3ca1mk{
+        svg{
+            display: none;
+        }
+    }
+}
