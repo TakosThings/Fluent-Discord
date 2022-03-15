@@ -91,6 +91,7 @@
         .content-3spvdd,
         .unreadPill-3nEWYM{
             padding: 2px 8px;
+            background-color: $SystemFillColorSolidNeutralBackground;
             color: $TextFillColorPrimary;
             @include TypeCaption;
             font-weight: normal;
@@ -103,7 +104,6 @@
             color: $SystemFillColorCritical;
             text-transform: capitalize;
             svg{
-
                 display: none;
             }
         }
