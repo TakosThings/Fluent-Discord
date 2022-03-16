@@ -197,47 +197,7 @@
         background-color: transparent;
         // The placeholding items wrappers
         .wrapper-15CKyy{
-            display: none;
-        }
-        &::before,
-        &::after{
-            content: "";
-            height: 4px;
-            position: absolute;
-            // Hacks ahead
-            // 100vh - titlebar - toolbar - scrollbar spacer - chatbox - height of ::before,::after
-            bottom: calc(100vh - 170px);
-            left: 0;
-            border-radius: 2px;
-        }
-        &::before{
-            background-color: $AccentBase;
-            animation: fluent-indeterminate-loading-inc 3s infinite;
-        }
-        &::after{
-            background-color: $AccentBase;
-            animation: fluent-indeterminate-loading-dec 3s 1.5s infinite;
-        }
-
-        @keyframes fluent-indeterminate-loading-inc{
-            from{
-                left: -5%;
-                width: 5%;
-            }
-            to{
-                left: 130%;
-                width: 100%;
-            }
-        }
-        @keyframes fluent-indeterminate-loading-dec{
-            from{
-                left: -80%;
-                width: 80%;
-            }
-            to{
-                left: 110%;
-                width: 10%;
-            }
+            background-color: transparent;
         }
     }
 
