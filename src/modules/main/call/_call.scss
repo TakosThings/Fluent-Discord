@@ -21,6 +21,7 @@ html[lang^="en-"].theme-dark .wrapper-1gVUIN .controlSection-1mNixL{
         &::before{
             @include FontIconFluent;
             font-size: 16px;
+            color: $TextFillColorPrimary;
         }
     }
 }
