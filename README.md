@@ -2,6 +2,7 @@
 A Windows 11 theme for Discord
 
 ## Download
+* From [BetterDiscord](https://betterdiscord.app/theme/Fluent%20Discord)
 * From [Releases](https://github.com/TakosThings/Fluent-Discord/releases/latest)
   * `Fluent-Discord.theme.css` will automatically update with new releases
   * `Fluent-Discord-static.theme.css` if you prefer to manually update
