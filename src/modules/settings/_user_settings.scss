@@ -250,6 +250,28 @@
 
 
     // Connections
+    // List of services
+    .accountList-Wii_T5{
+        background-color: $SystemFillColorAttentionBackground;
+        border: 1px solid $CardStrokeColorDefault;
+        // Hide redundant header
+        h5{
+            display: none;
+        }
+        // Account button
+        .accountBtnInner-3ttD-i{
+            background-color: $ControlFillColorDefault;
+            border: 1px solid $ControlStrokeColorDefault;
+            &:hover{
+                background-color: $ControlFillColorSecondary;
+            }
+            &:active{
+                background-color: $ControlFillColorTertiary;
+            }
+        }
+    }
+
+    // Connection
     .connection-YOVI9j{
         background-color: $SystemFillColorAttentionBackground;
         border: 1px solid $CardStrokeColorDefault;
