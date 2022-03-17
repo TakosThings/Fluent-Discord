@@ -326,4 +326,14 @@
         background-color: $LayerFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
     }
+
+    // a11y
+    // Custom colours preview
+    .preview-3k9WhO{
+        background-color: $LayerFillColorDefault;
+        border: 1px solid $CardStrokeColorDefault;
+        .previewMessage-2g_aBv{
+            background-color: $LayerFillColorDefault;
+        }
+    }
 }
