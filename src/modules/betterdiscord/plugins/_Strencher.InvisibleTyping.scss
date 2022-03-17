@@ -1,5 +1,14 @@
 .theme-dark .InvisibleTyping-typingButton-invisibleTypingButton{
+    width: 32px;
+    height: 32px;
+    margin: 6px 4px 0 0;
     position: relative;
+    border: 1px solid transparent;
+    &:hover{
+        background-color: $ControlFillColorSecondary;
+        border: 1px solid $ControlStrokeColorDefault;
+        border-radius: 4px;
+    }
     &::before{
         content: "\E087";
         @include FontIconFluent;
@@ -14,7 +23,7 @@
             content: "";
             width: 24px;
             height: 2px;
-            top: 17px;
+            top: 13px;
             left: 4px;
             position: absolute;
             background-color: $SystemFillColorCritical;
