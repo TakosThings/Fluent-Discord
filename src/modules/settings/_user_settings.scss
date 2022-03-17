@@ -336,4 +336,70 @@
             background-color: $LayerFillColorDefault;
         }
     }
+
+    // Keybinds
+    // Warning
+    .container-3jbRo5.warning-RBGtx2{
+        height: 48px;
+        padding: 8px 16px;
+        background-color: $CardBackgroundFillColorDefault;
+        border: 1px solid $CardStrokeColorDefault;
+        @include TypeBody;
+        .iconDiv-3ISDKO{
+            align-self: center;
+            svg{
+                width: 16px;
+                height: 16px;
+                color: $SystemFillColorAttention;
+            }
+        }
+        .text-2iTkaw{
+            margin-left: 16px;
+        }
+
+        ~.flexChild-3PzYmX{
+            align-self: center;
+        }
+    }
+    // Default keybinds
+    .defaultKeybindGroup-36Wpyv{
+        border: 1px solid $CardStrokeColorDefault;
+    }
+    .defaultKeybindGroupHeader-18_214{
+        margin-bottom: 0;
+        padding: 16px;
+        background-color: $CardBackgroundFillColorDefault;
+        border-bottom: 0;
+        border-radius: 4px 4px 0 0;
+        @include TypeBody;
+        text-transform: none;
+    }
+    .defaultKeybindGroupDescription-3c3NhW{
+        margin-bottom: 0;
+        padding: 0 16px 16px 16px;
+        background-color: $CardBackgroundFillColorDefault;
+        @include TypeCaption;
+        color: $TextFillColorSecondary;
+    }
+    .defaultKeybind-1rEiTa{
+        height: 64px;
+        padding: 0 16px;
+        background-color: $CardBackgroundFillColorSecondary;
+        border-top: 1px solid $DividerStrokeColorDefault;
+        .size16-rrJ6ag{
+            @include TypeBody;
+            color: $TextFillColorPrimary;
+        }
+        .keybindShortcut-3zF1P9 span{
+            background-color: transparent;
+            border: 1px solid $ControlStrokeColorDefault;
+            box-shadow: inset 0 -4px 0 $ControlStrokeColorDefault;
+            @include FontMonospace;
+        }
+    }
+    // Catches the first keybind
+    .children-1xdcWE > .defaultKeybind-1rEiTa{
+        border: 1px solid $CardStrokeColorDefault;
+        border-radius: 4px;
+    }
 }
