@@ -73,19 +73,19 @@
     }
 
     // BetterDiscord
-    .item-3XjbnG[aria-controls="settings-tab"]::after{ // BD:Settings
+    .item-3XjbnG.bd-settings-tab::after{ // BD:Settings
         content: "\E713"; // Setting
     }
-    .item-3XjbnG[aria-controls="emotes-tab"]::after{ // BD:Emotes
+    .item-3XjbnG.bd-emotes-tab::after{ // BD:Emotes
         content: "\ED56"; // EmojiTabFoodPlants
     }
-    .item-3XjbnG[aria-controls="customcss-tab"]::after{ // BD:Custom CSS
+    .item-3XjbnG.bd-customcss-tab::after{ // BD:Custom CSS
         content: "\E943"; // Code
     }
-    .item-3XjbnG[aria-controls="plugins-tab"]::after{ // BD: Plugins
+    .item-3XjbnG.bd-plugins-tab::after{ // BD: Plugins
         content: "\EA86"; // Puzzle
     }
-    .item-3XjbnG[aria-controls="themes-tab"]::after{ // BD:Themes
+    .item-3XjbnG.bd-themes-tab::after{ // BD:Themes
         content: "\E771"; // Personalise
     }
 
