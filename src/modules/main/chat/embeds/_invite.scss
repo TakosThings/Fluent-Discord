@@ -15,6 +15,7 @@
     // Icon
     .guildIcon-3ZfRfI{
         border-radius: 50%;
+        align-self: center;
     }
     // Expired icon
     .guildIconExpired-2BFmZC{
@@ -32,21 +33,41 @@
         }
     }
 
+    .statusCounts-3GLDH6{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     // Online users
     i.status-JIDx3x{
         display: none;
     }
     .count-62gVQ0{
+        padding-left: 12px;
+        position: relative;
         @include TypeBody;
-        border: 1px solid $CardStrokeColorDefault;
-        padding: 0 8px;
-        border-radius: 15px;
-        color: $TextOnAccentFillColorPrimary;
+        flex-direction: row;
     }
     i.statusOnline-Iw3r2o ~ span{
-        background-color: $SystemFillColorSuccess;
+        &::before{
+            content: "";
+            width: 8px;
+            height: 8px;
+            position: absolute;
+            top: 6px;
+            left: 0;
+            background-color: #6bb700;
+            border-radius: 4px;
+        }
     }
     i.statusOffline-2R-ArP ~ span{
-        background-color: $SystemFillColorSolidNeutral;
+        &::before{
+            background-color: #8a8886;
+        }
+    }
+
+    // Button
+    .button-2b4VEQ.buttonSize-3QlBTl{
+        height: 32px;
     }
 }
