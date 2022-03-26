@@ -16,4 +16,8 @@ html[lang^="en-"].theme-dark .peopleList-2VBrVI{
     [aria-label="#{map-get($translate, FRIEND_REQUEST_IGNORE)}"]::before{
         content: "\e711"; // Cancel
     }
+    // Pending friend requests Cancel button
+    [aria-label="Cancel"]::before{
+        content: "\E711"; // Cancel
+    }
 }

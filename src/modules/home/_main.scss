@@ -109,8 +109,3 @@ html[lang^="en-"].theme-dark .container-2cd8Mz{
         }
     }
 }
-
-// Pending friend requests Cancel button
-[aria-label="Cancel"]::before{
-    content: "\E711"; // Cancel
-}
