@@ -160,6 +160,19 @@
     &[id="user-context-mark-channel-read"]::before{
         content: "\E166"; // Read
     }
+    // Options added in group DMs
+    // Start a call and have a use not connect to reveal the next 2 options
+    &[id="user-context-ring"]::before{
+        content: "\E9CE"; // Unknown
+        visibility: hidden;
+    }
+    &[id="user-context-stop-ringing"]::before{
+        content: "\E9CE"; // Unknown
+        visibility: hidden;
+    }
+    &[id="user-context-remove"]::before{
+        content: "\E108"; // Remove
+    }
 }
 
 // Server
