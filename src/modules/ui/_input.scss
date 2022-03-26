@@ -3,7 +3,9 @@
     @include TypeBody;
     text-transform: none;
 }
-.theme-dark .input-2g-os5{
+
+// NOTE: 2022-03-26 - hiddenDiv-2qTqSF is used in the credit card field. See #99
+.theme-dark .input-2g-os5:not(.hiddenDiv-2qTqSF){
     height: 32px;
     background-color: transparent;
     border: 1px solid;
