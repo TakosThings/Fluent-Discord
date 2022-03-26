@@ -29,6 +29,10 @@
     }
 
     // Avatar
+    .avatarWrapper-eenWra{
+        top: 24px;
+        left: 24px;
+    }
     .avatar-2Vndt_{
         background-color: transparent;
         border: 0;
@@ -50,7 +54,7 @@
 
     // Usernames
     .headerTop-3GPUSF{
-        padding-top: 132px;
+        padding: 132px 24px 12px 24px;
     }
     .headerTag-3GXZkV{
         @include TypeSubtitle;
@@ -75,8 +79,16 @@
 
 
     // Body
+    .body-2wLx-E{
+        padding: 0 24px 24px 24px;
+        padding-right: 24px !important;
+        overflow-y: auto !important;
+    }
     .bodyInnerWrapper-2bQs1k{
         background-color: transparent;
+    }
+    .divider-1wtgZ3{
+        display: none;
     }
     .base-21yXnu{
         color: $TextFillColorPrimary !important;
@@ -130,6 +142,7 @@
 
     // Footer
     .footer-3naVBw{
+        padding: 0 24px 24px;
         background-color: transparent;
     }
 }
