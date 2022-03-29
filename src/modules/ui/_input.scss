@@ -146,3 +146,42 @@
         }
     }
 }
+
+// Text toolbar
+.theme-dark .toolbar-37BrJ5{
+    padding: 4px;
+    background: $AcrylicBackgroundFillColorDefault;
+    backdrop-filter: blur(10px);
+    border: 1px solid $SurfaceStrokeColorFlyout;
+    border-radius: 8px;
+    // Remove arrow
+    &::before{
+        display: none;
+    }
+
+    button{
+        margin-right: 4px;
+        &:hover{
+            background-color: $SubtleFillColorSecondary;
+            &.active-136ioF{
+                background-color: $AccentTextFillColorSecondary;
+            }
+        }
+        &:last-child{
+            margin-right: 0;
+        }
+        &.active-136ioF{
+            background-color: $AccentFillColorDefault;
+            .icon-3g7qdA{
+                color: $TextOnAccentFillColorPrimary;
+            }
+        }
+
+        .buttonInner-1RE0NV,
+        .icon-3g7qdA{
+            width: 16px;
+            height: 16px;
+        }
+
+    }
+}
