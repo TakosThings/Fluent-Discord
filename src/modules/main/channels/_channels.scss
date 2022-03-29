@@ -150,7 +150,7 @@
                 top: 10px;
                 left: 8px;
                 background-color: $AccentBase;
-                border-radius: 2px;
+                border-radius: 999px;
                 transform: scaleY(0%);
                 opacity: .3;
                 transition: transform 167ms Cubic-bezier(0,0,0,1),
@@ -207,6 +207,7 @@
             height: 16px;
             left: 8px;
             margin-top: -8px;
+            background-color: $TextFillColorSecondary;
             border-radius: 2px;
         }
         // Threads
