@@ -548,6 +548,9 @@
     &[id="channel-attach-SLASH_COMMAND"]::before{
         content: "\E756"; // CommandPrompt
     }
+    &[id="channel-attach-listen"]::before{
+        content: "\E102"; // Play
+    }
 }
 
 // RTC
