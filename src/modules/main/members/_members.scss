@@ -54,6 +54,19 @@
     .name-3Vmqxm{
         @include TypeBody;
     }
+    // Bot tag
+    .botTag-2mryIa{
+        padding: 0;
+        background-color: transparent;
+        &::before{
+            content: "\E99A"; // Robot
+            @include FontIconFluent;
+            font-size: 14px;
+        }
+        span{
+            display: none;
+        }
+    }
     // Activity
     .activity-2EQDZv{
         @include TypeCaption;

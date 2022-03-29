@@ -1,4 +1,23 @@
 .theme-dark{
+    // Name
+    .nameTag-2Nlmsy{
+        // Bot tag
+        .botTag-7aX5WZ{
+            padding: 0;
+            background-color: transparent;
+            &::before{
+                content: "\E99A"; // Robot
+                @include FontIconFluent;
+                font-size: 16px;
+                font-weight: normal;
+            }
+            span{
+                display: none;
+            }
+        }
+    }
+
+    // Tabs
     .tabBarContainer-sCZC4w{
         border: 0;
         .tabBar-2hXqzU{
@@ -15,6 +34,10 @@
     }
 
     .body-1Ukv50{
+        // Note
+        .note-3M15gE{
+            margin: 0;
+        }
         // Connected accounts
         .connectedAccount-1xKpli{
             .connectedAccountName-j0meX4{
