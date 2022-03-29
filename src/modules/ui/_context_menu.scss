@@ -66,6 +66,11 @@
             margin: 0;
         }
 
+        // Fix font size in upload menu
+        .optionLabel-1o-h-l{
+            @include TypeBody;
+        }
+
         // Items with subtext
         .subtext-2GlkbE{
             margin-top: 0;
