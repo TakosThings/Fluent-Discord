@@ -95,10 +95,16 @@
         @include TypeBodyStrong;
         text-transform: none;
     }
+    // Roles
     .role-2TIOKu{
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
         border-radius: 11px;
+    }
+    .roleCircle-1EgnFN{
+        width: 16px;
+        height: 16px;
+        margin: 0 4px 0 -2px;
     }
     .roleName-2ZJJYR{
         color: $TextFillColorPrimary;
