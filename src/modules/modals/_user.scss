@@ -1,6 +1,8 @@
 .theme-dark{
     // Name
     .nameTag-2Nlmsy{
+        margin-left: 24px;
+        margin-right: 24px;
         // Bot tag
         .botTag-7aX5WZ{
             padding: 0;
@@ -19,27 +21,48 @@
 
     // Tabs
     .tabBarContainer-sCZC4w{
+        padding-left: 24px;
         border: 0;
         .tabBar-2hXqzU{
             height: 32px
         }
         .tabBarItem-30Te4-{
             margin-right: 16px;
+            border: 0;
             @include TypeBodyStrong;
             &.selected-g-kMVV{
-                color: $AccentTextFillColorPrimary;
-                border-bottom-color: $AccentTextFillColorPrimary;
+                &::after{
+                    content: "";
+                    width: 16px;
+                    height: 3px;
+                    position: absolute;
+                    bottom: 0;
+                    left: calc(50% - 16px/2 - 1px);
+                    background-color: $AccentTextFillColorPrimary;
+                    border-radius: 999px;
+                }
             }
         }
     }
 
     .body-1Ukv50{
+        height: 300px;
+        // Scroller container
+        .infoScroller-1QMpon{
+            padding: 0 24px;
+        }
         // Note
         .note-3M15gE{
             margin: 0;
         }
         // Connected accounts
         .connectedAccount-1xKpli{
+            height: 32px;
+            margin-top: 4px;
+            padding: 0 16px;
+            .connectedAccountIcon-2vls0t{
+                width: 20px;
+            }
             .connectedAccountName-j0meX4{
                 @include TypeBody;
             }
@@ -52,6 +75,11 @@
                     display: none;
                 }
             }
+        }
+
+        // Remove border between sections
+        .userInfoSection-2u2hir+.userInfoSection-2u2hir{
+            border: 0;
         }
 
         // Server/friend list
