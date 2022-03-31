@@ -50,6 +50,11 @@ html[lang^="en-"].theme-dark .panels-3wFtMD .button-12Fmur{
     &[aria-label="#{map-get($translate, STOP_STREAMING)}"]::before{
         content: "\EA14"; // DisconnectDisplay
     }
+
+    // Spotify
+    &[aria-label="Stop"]::before{
+        content: "\E15B"; // Stop
+    }
 }
 
 html[lang^="en-"].theme-dark .panels-3wFtMD .actionButtons-2vEOUh .button-1EGGcP{
