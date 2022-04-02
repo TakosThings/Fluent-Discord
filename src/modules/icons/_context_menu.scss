@@ -526,11 +526,24 @@
     &[id="textarea-context-submit-button"]::before{
         content: "\E122"; // Send
     }
+    &[id^="textarea-context-correction-"]::before{
+        content: "\E9CE"; // Unknown
+        visibility: hidden;
+    }
+    &[id="textarea-context-add-to-dictionary"]::before{
+        content: "\E82D"; // Dictionary
+    }
     &[id="textarea-context-spellcheck"]::before{
         content: "\F87B"; // Spelling
     }
     &[id="textarea-context-languages"]::before{
         content: "\F2B7"; // LocaleLanguage
+    }
+    &[id="textarea-context-copy"]::before{
+        content: "\E16F"; // Copy
+    }
+    &[id="textarea-context-cut"]::before{
+        content: "\E16B"; // Cut
     }
     &[id="textarea-context-paste"]::before{
         content: "\E16D"; // Paste
