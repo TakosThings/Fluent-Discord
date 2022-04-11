@@ -30,18 +30,14 @@
         padding-left: 0;
     }
 
-    // Placeholder
-    .placeholder-1_mJY1{
-        right: 8px;
-        left: 8px;
-        color: $TextFillColorSecondary;
-    }
-
     // User's input text
     .slateTextArea-27tjG0{
         right: 8px;
         left: 8px;
         color: $TextFillColorPrimary;
+        &.placeholder-1rCBhr{
+            color: $TextFillColorSecondary;
+        }
     }
 
 
