@@ -217,3 +217,16 @@
         background-color: $AccentTextFillColorSecondary;
     }
 }
+
+// Textbox with emoji button (set custom status modal)
+.theme-dark .inputContainer-3envCr{
+    .emojiButtonContainer-gCE6AT{
+        right: 0;
+        left: unset;
+        ~ .inputWrapper-1YNMmM{
+            .input-3AAlUz{
+                padding-right: 40px;
+            }
+        }
+    }
+}
