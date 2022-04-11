@@ -35,6 +35,7 @@
         line-height: 34px;
         &::after{
             position: absolute;
+            top: 0;
             left: 16px;
             color: #FFF;
             @include FontIconFluent;
@@ -73,6 +74,7 @@
                             opacity 250ms Cubic-bezier(0.55,0.55,0,1);
             }
         }
+        // Special cases
         // Move nitro icon to left side
         .premiumLabel-3HPvdB svg{
             position: absolute;
@@ -82,6 +84,12 @@
         // Remove background div from nitro option
         .selectedBackground-1t6xXq{
             display: none;
+        }
+        // Delete channel trash icon
+        .tabBarItemContainer-2HdIlr{
+            svg{
+                display: none;
+            }
         }
     }
     // Divider
