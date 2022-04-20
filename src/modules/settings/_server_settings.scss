@@ -27,4 +27,13 @@
             text-transform: none;
         }
     }
+
+    // Edge case fixes
+    // Channel Settings - Overview
+    // Fixes no spacing between channel name text box and Bitrate sections
+    .channel-settings-overview{
+        .inputDefault-3FGxgL{
+            margin-bottom: 24px;
+        }
+    }
 }
