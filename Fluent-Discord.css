@@ -35,6 +35,7 @@
   background: var(--fluent-acrylic-background);
   background-size: cover;
   filter: blur(var(--fluent-acrylic-background-blur));
+  transform: scale(1.1);
 }
 .theme-dark .bg-1QIAus::before {
   content: "";
@@ -553,6 +554,14 @@ html[lang^=en-].theme-dark .controlButton-2PMNom .contents-3ca1mk svg {
   background-color: hsl(var(--fluent-accent-hue-sat), calc(var(--fluent-accent-lightness) + 25%));
 }
 
+.theme-dark .inputContainer-3envCr .emojiButtonContainer-gCE6AT {
+  right: 0;
+  left: unset;
+}
+.theme-dark .inputContainer-3envCr .emojiButtonContainer-gCE6AT ~ .inputWrapper-1YNMmM .input-3AAlUz {
+  padding-right: 40px;
+}
+
 .theme-dark .title-3hptVQ {
   color: #FFF;
   font-feature-settings: "rclt" 0;
@@ -900,6 +909,9 @@ html[lang^=en-].theme-dark .panels-3wFtMD .button-12Fmur::before {
   background-color: transparent;
 }
 .theme-dark.platform-win .sidebar-1tnWFu .guildIconContainer-3QvE6w {
+  display: none;
+}
+.theme-dark.platform-win .sidebar-1tnWFu .communityInfoContainer-1dMVpU {
   display: none;
 }
 .theme-dark.platform-win .sidebar-1tnWFu .animatedContainer-2laTjx {
@@ -1525,15 +1537,13 @@ html[lang^=en-].theme-dark .wrapper-2vIMkT .button-3bklZh[aria-label] svg {
 .theme-dark .form-3gdLxP .sansAttachButton-1ERHue {
   padding-left: 0;
 }
-.theme-dark .form-3gdLxP .placeholder-1_mJY1 {
-  right: 8px;
-  left: 8px;
-  color: rgba(255, 255, 255, 0.786);
-}
 .theme-dark .form-3gdLxP .slateTextArea-27tjG0 {
   right: 8px;
   left: 8px;
   color: #FFF;
+}
+.theme-dark .form-3gdLxP .slateTextArea-27tjG0.placeholder-1rCBhr {
+  color: rgba(255, 255, 255, 0.786);
 }
 .theme-dark .form-3gdLxP .attachButton-_ACFSu {
   width: 32px;
@@ -5283,6 +5293,7 @@ html[lang^=en-].theme-dark .container-2cd8Mz .actionButton-3-B2x- svg {
 }
 .theme-dark .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG::after {
   position: absolute;
+  top: 0;
   left: 16px;
   color: #FFF;
   font-family: "Segoe Fluent Icons", "Segoe MDL2 Assets";
@@ -5326,12 +5337,15 @@ html[lang^=en-].theme-dark .container-2cd8Mz .actionButton-3-B2x- svg {
 .theme-dark .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG .selectedBackground-1t6xXq {
   display: none;
 }
+.theme-dark .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG .tabBarItemContainer-2HdIlr svg {
+  display: none;
+}
 .theme-dark .sidebar-nqHbhN .side-2ur1Qk .separator-2wx7h6 {
   margin: 8px 0 12px 0;
   background-color: rgba(255, 255, 255, 0.0837);
 }
 .theme-dark .sidebar-nqHbhN .info-3pQQBb::before {
-  content: "Fluent Discord 1.1.3";
+  content: "Fluent Discord 1.1.4";
   color: #72767d;
   font-size: 12px;
   line-height: 16px;
@@ -5362,6 +5376,9 @@ html[lang^=en-].theme-dark .container-2cd8Mz .actionButton-3-B2x- svg {
   font-weight: 600;
   line-height: 28px;
   text-transform: none;
+}
+.theme-dark .contentColumn-1C7as6 .channel-settings-overview .inputDefault-3FGxgL {
+  margin-bottom: 24px;
 }
 
 .theme-dark .contentColumn-1C7as6 .notice-1Qe0b_ {
@@ -5683,6 +5700,10 @@ html[lang^=en-].theme-dark .container-2cd8Mz .actionButton-3-B2x- svg {
 .theme-dark .contentColumn-1C7as6 .preview-3k9WhO .previewMessage-2g_aBv {
   background-color: rgba(58, 58, 58, 0.3);
 }
+.theme-dark .contentColumn-1C7as6 .userSettingsVoice-1fEtsL .title-3hptVQ.marginBottom20-315RVT {
+  margin-top: 24px;
+  background-color: red;
+}
 .theme-dark .contentColumn-1C7as6 .container-3jbRo5.warning-RBGtx2 {
   height: 48px;
   padding: 8px 16px;
@@ -5964,6 +5985,9 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Start
 }
 html[lang^=en-].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Add friends to DM" i]::before {
   content: "\e902";
+}
+html[lang^=en-].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Join Voice Call" i]::before {
+  content: "\e77e";
 }
 html[lang^=en-].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Stage Settings" i]::before {
   content: "\e115";
@@ -6651,11 +6675,24 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .button-f2h6uQ[aria-label=More]::befo
 .theme-dark .menu-1QACrS .item-1OdjEX[id=textarea-context-submit-button]::before {
   content: "\e122";
 }
+.theme-dark .menu-1QACrS .item-1OdjEX[id^=textarea-context-correction-]::before {
+  content: "\e9ce";
+  visibility: hidden;
+}
+.theme-dark .menu-1QACrS .item-1OdjEX[id=textarea-context-add-to-dictionary]::before {
+  content: "\e82d";
+}
 .theme-dark .menu-1QACrS .item-1OdjEX[id=textarea-context-spellcheck]::before {
   content: "\f87b";
 }
 .theme-dark .menu-1QACrS .item-1OdjEX[id=textarea-context-languages]::before {
   content: "\f2b7";
+}
+.theme-dark .menu-1QACrS .item-1OdjEX[id=textarea-context-copy]::before {
+  content: "\e16f";
+}
+.theme-dark .menu-1QACrS .item-1OdjEX[id=textarea-context-cut]::before {
+  content: "\e16b";
 }
 .theme-dark .menu-1QACrS .item-1OdjEX[id=textarea-context-paste]::before {
   content: "\e16d";
@@ -7121,6 +7158,18 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA.cursorPointer-B3u
 
 .theme-dark .BetterInvites-iconWrapper img {
   height: 24px !important;
+}
+
+.theme-dark .container-1zzFcN[style*=transition] .actionButtons-2vEOUh .button-1EGGcP::before {
+  content: unset !important;
+}
+
+.theme-dark #cui-toolbar-container .iconWrapper-2awDjA.selected-29KTGM svg {
+  color: rgba(var(--fluent-text-on-accent-color), 100%);
+}
+.theme-dark #cui-toolbar-container .iconWrapper-2awDjA svg {
+  width: 18px;
+  display: block;
 }
 
 .theme-dark .bd-settings-group {
