@@ -82,6 +82,10 @@ html[lang^="en-"].theme-dark .toolbar-3_r2xA{
         &[aria-label="#{map-get($translate, GROUP_DM_ADD_FRIENDS)}" i]::before{
             content: "\E902"; // Group
         }
+        // Join call
+        &[aria-label="Join Voice Call" i]::before{
+            content: "\E77E"; // IncomingCall
+        }
 
         // Stage channel
         &[aria-label="#{map-get($translate, STAGE_SETTINGS)}" i]::before{
