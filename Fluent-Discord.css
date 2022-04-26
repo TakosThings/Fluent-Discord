@@ -35,7 +35,6 @@
   background: var(--fluent-acrylic-background);
   background-size: cover;
   filter: blur(var(--fluent-acrylic-background-blur));
-  transform: scale(1.1);
 }
 .theme-dark .bg-1QIAus::before {
   content: "";
@@ -5345,7 +5344,7 @@ html[lang^=en-].theme-dark .container-2cd8Mz .actionButton-3-B2x- svg {
   background-color: rgba(255, 255, 255, 0.0837);
 }
 .theme-dark .sidebar-nqHbhN .info-3pQQBb::before {
-  content: "Fluent Discord 1.1.4";
+  content: "Fluent Discord 1.1.5";
   color: #72767d;
   font-size: 12px;
   line-height: 16px;
@@ -5702,7 +5701,6 @@ html[lang^=en-].theme-dark .container-2cd8Mz .actionButton-3-B2x- svg {
 }
 .theme-dark .contentColumn-1C7as6 .userSettingsVoice-1fEtsL .title-3hptVQ.marginBottom20-315RVT {
   margin-top: 24px;
-  background-color: red;
 }
 .theme-dark .contentColumn-1C7as6 .container-3jbRo5.warning-RBGtx2 {
   height: 48px;
