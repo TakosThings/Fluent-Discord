@@ -22,17 +22,4 @@
     .scroller-WSmht3{
         background-color: transparent;
     }
-
-    // Remove DMs header
-    .privateChannelsHeaderContainer-1UWASm{
-        display: none;
-    }
-
-    // Remove store and discovery tabs
-    .channel-1Shao0{
-        &[href="/store"],
-        &[href="/discovery"]{
-            display: none;
-        }
-    }
 }
