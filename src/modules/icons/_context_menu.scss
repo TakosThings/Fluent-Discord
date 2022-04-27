@@ -160,6 +160,9 @@
     &[id="user-context-mark-channel-read"]::before{
         content: "\E166"; // Read
     }
+    &[id="user-context-mute-channel"]::before{
+        content: "\EE79"; // ActionCenterQuiet
+    }
     // Options added in group DMs
     // Start a call and have a use not connect to reveal the next 2 options
     &[id="user-context-ring"]::before{
