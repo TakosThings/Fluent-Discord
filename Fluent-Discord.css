@@ -1622,7 +1622,8 @@ html[lang^=en-].theme-dark .wrapper-2vIMkT .button-3bklZh[aria-label] svg {
   font-size: 16px;
 }
 .theme-dark .form-3gdLxP .typing-2J1mQU {
-  top: -34px;
+  height: 20px;
+  top: -20px;
   right: 16px;
   bottom: unset;
   background-color: transparent;
@@ -1636,6 +1637,7 @@ html[lang^=en-].theme-dark .wrapper-2vIMkT .button-3bklZh[aria-label] svg {
   display: none;
 }
 .theme-dark .form-3gdLxP .typing-2J1mQU span[class^=text-] {
+  top: 0;
   right: 0;
   position: absolute;
 }
@@ -5387,7 +5389,7 @@ html[lang^=en-].theme-dark .container-2cd8Mz .actionButton-3-B2x- svg {
   background-color: rgba(255, 255, 255, 0.0837);
 }
 .theme-dark .sidebar-nqHbhN .info-3pQQBb::before {
-  content: "Fluent Discord 1.2.0";
+  content: "Fluent Discord 1.2.1";
   color: #72767d;
   font-size: 12px;
   line-height: 16px;
