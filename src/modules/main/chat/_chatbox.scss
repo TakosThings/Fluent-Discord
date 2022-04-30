@@ -137,8 +137,8 @@
 
     // Is Typing
     .typing-2J1mQU{
-        // height: 32px;
-        top: -34px;
+        height: 20px;
+        top: -20px;
         right: 16px;
         bottom: unset;
         background-color: transparent;
@@ -152,6 +152,7 @@
         }
         span[class^="text-"]{
             // Force text to right side when slowmode is enabled
+            top: 0;
             right: 0;
             position: absolute;
             strong{
