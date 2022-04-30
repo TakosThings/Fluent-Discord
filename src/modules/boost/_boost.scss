@@ -1,0 +1,46 @@
+.theme-dark .layerContainer-2v_Sit{
+    // Close button
+    .closeButton-PCZcma{
+        width: 32px;
+        height: 32px;
+        flex: 0 0 32px;
+        background-color: $ControlFillColorDefault;
+        border: 1px solid $ControlStrokeColorDefault;
+        border-radius: 4px;
+        svg path{
+            fill: $TextFillColorPrimary;
+        }
+    }
+}
+
+.theme-dark .perksModal-CLcR1c{
+    background-color: transparent;
+    background-image: none;
+
+    .ctaBar-Nhk8yY{
+        background-color: $CardBackgroundFillColorDefault;
+        background-image: none;
+        border: 1px solid $CardStrokeColorDefault;
+        border-radius: 8px;
+    }
+
+    // Progress
+    .barBackground-unEPDT{
+        background-color: $SolidbackgroundFillColorQuarternary;
+    }
+    .tierMarkerBackground-G8FoN4{
+        background-color: $SolidbackgroundFillColorQuarternary;
+    }
+
+    // Tier card
+    .tierBody-3ju-rc{
+        background-color: $CardBackgroundFillColorDefault;
+        border: 1px solid $CardStrokeColorDefault;
+    }
+
+    // Perks
+    .perk-19D_HN{
+        background-color: $CardBackgroundFillColorDefault;
+        border: 1px solid $CardStrokeColorDefault;
+    }
+}
