@@ -34,6 +34,12 @@ html[lang^="en-"].theme-dark .wrapper-2vIMkT{
         &[aria-label="Add Reaction"]::before{
             content: "\E11D"; // Emoji
         }
+        &[aria-label="Publish"]::before{
+            content: "\E789"; // Megaphone
+        }
+        &[aria-label="Published"]::before{
+            content: "\E081"; // Checkmark
+        }
         &[aria-label="More"]::before{
             content: "\E10C"; // More
         }
