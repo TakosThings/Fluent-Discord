@@ -7,14 +7,13 @@
 // NOTE: 2022-03-26 - hiddenDiv-2qTqSF is used in the credit card field. See #99
 .theme-dark .input-2g-os5:not(.hiddenDiv-2qTqSF){
     height: 32px;
-    background-color: transparent;
+    background-color: $ControlFillColorDefault;
     border: 1px solid;
     border-bottom-width: 2px;
+    border-color: $ControlStrokeColorDefault;
     border-radius: 4px;
     @include TypeBody;
-    background-color: $ControlFillColorDefault;
     color: $TextFillColorSecondary;
-    border-color: $ControlStrokeColorDefault;
 
     // Sizing
     &.inputDefault-3FGxgL{
