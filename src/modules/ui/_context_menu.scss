@@ -82,7 +82,7 @@
         }
 
         // Remove Discord icons, unless it's a checkbox
-        &:not([role="menuitemcheckbox"]){
+        &:not([role="menuitemcheckbox"]):not([role="menuitemradio"]){
             .icon-E4cW1l{
                 display: none;
             }
