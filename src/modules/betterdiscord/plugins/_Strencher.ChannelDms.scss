@@ -1,0 +1,209 @@
+.theme-dark .ChannelDms-channelmembers-wrap{
+    width: 240px;
+    .ChannelDms-channelmembers-header{
+        margin-left: 1px;
+        background-color: $LayerFillColorDefault;
+        border-bottom: 0;
+        border-left: 1px solid $CardStrokeColorDefault;
+        .item-3XjbnG{
+            background-color: transparent;
+            border-radius: 0;
+            &:hover{
+                background-color: transparent;
+            }
+            &::before{
+                content: "";
+                width: 16px;
+                height: 2px;
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                margin-left: -8px;
+                border-radius: 999px;
+
+                transform: scaleX(0%);
+                transition: transform 167ms Cubic-bezier(0,0,0,1),
+                            opacity 167ms Cubic-bezier(0,0,0,1);
+            }
+            &.selected-g-kMVV::before{
+                background-color: $AccentBase;
+
+                transform: scaleX(100%);
+                transition: transform 250ms Cubic-bezier(0.55,0.55,0,1),
+                            opacity 250ms Cubic-bezier(0.55,0.55,0,1);
+            }
+        }
+    }
+
+    .privateChannels-oVe7HL{
+        margin-left: 1px;
+        background-color: $LayerFillColorDefault;
+        border-left: 1px solid $CardStrokeColorDefault;
+        // Search
+        .searchBar-3TnChZ{
+            box-shadow: none;
+        }
+        .searchBarComponent-3N7dCG{
+            background-color: transparent;
+            @include TypeBody;
+            color: $TextFillColorPrimary;
+            &::after{
+                content: "...";
+            }
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+
+
+        // Contacts
+        .scroller-WSmht3{
+            background-color: transparent;
+        }
+    }
+}
+
+// Chat popout
+.theme-dark .ChannelDms-channelpopout-popout{
+    background-color: $CardStrokeColorDefaultSolid;
+    border: 1px solid $SurfaceStrokeColorDefault;
+    border-radius: 8px;
+    // Header
+    .ChannelDms-channelpopout-header{
+        padding: 8px;
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .ChannelDms-channelpopout-channelIcon svg{
+        width: 16px;
+        height: 16px;
+    }
+    .ChannelDms-channelpopout-headerName{
+        font-feature-settings: 'fina' 1, 'init' 1;
+        font-size: 18px !important;
+        color: $TextFillColorPrimary;
+    }
+    .ChannelDms-channelpopout-buttons{
+        margin-right: 32px;
+        .iconWrapper-2awDjA{
+            &::before{
+                @include FontIconFluent;
+                font-size: 16px;
+                line-height: 24px;
+                vertical-align: middle;
+            }
+            svg{
+                display: none;
+            }
+            &:first-child::before{
+                content: "\E717"; // Phone                
+            }
+            &:last-child::before{
+                content: "\E156"; // WebCam
+            }
+        }
+    }
+
+    // Close button
+    .ChannelDms-channelpopout-removeButton{
+        top: 8px;
+        right: 8px;
+        background-color: transparent;
+        box-shadow: none;
+        filter: brightness(300%) grayscale(100%);
+        &:hover{
+            filter: brightness(500%) grayscale(100%);
+        }
+    }
+
+    // Collapse button
+    .ChannelDms-channelpopout-collapseButton{
+        top: 50%;
+        left: -16px;
+        margin-top: -16px;
+        background-color: $ControlFillColorDefault;
+        &:hover{
+            background-color: $ControlFillColorSecondary;
+        }
+        &:active{
+            background-color: $ControlFillColorTertiary;
+        }
+    }
+
+    // Chat
+    .chatContent-3KubbW{
+        // New messages bar
+        .barBase-3xxDXu{
+            min-height: 32px;
+            border: 1px solid $CardStrokeColorDefault;
+            box-shadow: none;
+            border-radius: 4px;
+            .barButtonMain-2GIx4o{
+                @include TypeBody;
+            }
+            .barButtonAlt-TQoCdZ{
+                display: none;
+            }
+        }
+        .newMessagesBar-1hF-9G{
+            top: 8px;
+            background-color: $AccentLight1;
+            .barButtonBase-Sk2mdB{
+                color: $TextOnAccentFillColorPrimary;
+            }
+        }
+        // Old messages bar
+        .jumpToPresentBar-1cEnH0{
+            bottom: 8px;
+            padding-bottom: 0;
+            background-color: $CardStrokeColorDefaultSolid;
+        }
+        // Errored bar
+        .messagesErrorBar-1IQ1rH{
+            bottom: 8px;
+            background-color: $SystemFillColorCriticalBackground;
+            border-color: $CardStrokeColorDefault;
+            padding-bottom: 0;
+        }
+
+        // Divider
+        .divider-2rZFJK{
+            justify-content: flex-end;
+            border-color: $DividerStrokeColorDefault;
+            .content-3spvdd,
+            .unreadPill-3nEWYM{
+                padding: 2px 8px;
+                background-color: $SystemFillColorSolidNeutralBackground;
+                color: $TextFillColorPrimary;
+                @include TypeCaption;
+                font-weight: normal;
+            }
+            .unreadPill-3nEWYM{
+                height: unset;
+                top: 0px;
+                background-color: $SystemFillColorCriticalBackground;
+                border-radius: 8px;
+                color: $SystemFillColorCritical;
+                text-transform: capitalize;
+                svg{
+                    display: none;
+                }
+            }
+            &.isUnread-3Lojb-{
+                // NOTE: 2021-08-29 - The border should technically be SystemFillColorCriticalBackground, but is barely visisble, so using the text fill instead.
+                border-color: $SystemFillColorCritical;
+                .content-3spvdd{
+                    border-radius: 8px 0 0 8px;
+                }
+                .unreadPill-3nEWYM{
+                    position: relative;
+                }
+            }
+            // Border radius when date and new message divider are combined
+            span+span{
+                border-radius: 0 8px 8px 0 !important;
+            }
+        }
+    }
+
+}
