@@ -43,6 +43,11 @@
                 background-color: $ControlFillColorTertiary;
             }
 
+            // Remove default button appearance
+            .button-3Vyz67{
+                background-color: transparent;
+            }
+
             // Replace icon
             &.addCTA-1NH40P{
                 &::before{
