@@ -26,7 +26,6 @@
 
 // Main UI
 // Order: main, then home, then discover, then boost, alphabetic
-@import 'modules/main/call/call';
 @import 'modules/main/channels/account';
 @import 'modules/main/channels/channels';
 @import 'modules/main/channels/rtc';
@@ -36,7 +35,6 @@
 @import 'modules/main/chat/chatbox';
 @import 'modules/main/chat/search_results';
 @import 'modules/main/chat/thread';
-@import 'modules/main/chat/voice_channel';
 @import 'modules/main/chat/embeds/file';
 @import 'modules/main/chat/embeds/invite';
 @import 'modules/main/chat/embeds/mediaplayer';
@@ -47,13 +45,13 @@
 @import 'modules/main/members/members';
 @import 'modules/main/toolbar/search';
 @import 'modules/main/toolbar/toolbar';
+@import 'modules/main/voice/voice';
 @import 'modules/home/activity';
 @import 'modules/home/conversations';
 @import 'modules/home/home';
 @import 'modules/home/main';
 @import 'modules/home/members';
 @import 'modules/home/toolbar';
-@import 'modules/home/voice_call';
 @import 'modules/discover/discovery';
 @import 'modules/boost/boost';
 

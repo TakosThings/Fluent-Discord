@@ -1,0 +1,253 @@
+// DEBUG: 2022-06-04 - Useful debug snippets to help with theming
+// Force display voice screen elements (toolbars)
+// .root-22AK9z.idle-39sGPO *{
+//     opacity: 1 !important;
+//     transform: unset !important;
+// }
+// Draw debug borders on top toolbar buttons
+// .toolbar-3_r2xA{
+//     border: 1px solid red;
+//     div[role=button],
+//     button[type=button]{
+//         border: 1px solid green;
+//     }
+// }
+
+.theme-dark .wrapper-1gVUIN{
+    background-color: #000;
+    border-radius: 8px 0 0 0;
+
+    // Round top-left corner
+    .callContainer-HtHELf{
+        border-radius: 8px 0 0 0;
+    }
+
+    // Toolbars
+    .videoControls-353CsJ{
+        // Top
+        .topControls-23RE3h{
+            .container-ZMc96U{
+                .children-3xh0VB{
+                    // Remove voice icon
+                    .iconWrapper-2awDjA{
+                        display: none;
+                    }
+                    .title-17SveM{
+                        padding-left: 12px;
+                        @include TypeBodyStrong
+                    }
+                    .playingText-16QsYy{
+                        color: $TextFillColorSecondary;
+                        @include TypeBody;
+                    }
+                }
+
+                // Quality
+                .liveQualityIndicator-2GyS_e{
+                    height: 20px;
+                    margin-right: 0;
+                    padding: 0 12px;
+                    background-color: $SystemFillColorSolidNeutralBackground !important;
+                    border-radius: 10px 0 0 10px;
+                    .qualityIndicator-39wQDy{
+                        height: 20px;
+                        @include TypeBody;
+                    }
+                }
+                .live-1V2D-f{
+                    height: 20px;
+                    padding: 0 12px 0 8px;
+                    background-color: $SystemFillColorCritical !important;
+                    border-radius: 0 10px 10px 0;
+                    color: $TextOnAccentFillColorPrimary;
+                    @include TypeBody;
+                    line-height: 20px;
+                    text-transform: none;
+                }
+
+                // There's a chat button that is always hidden for some reason, but still messes with layout
+                .chatButtonSpacer-16BvMu{
+                    margin-right: 0;
+                }
+
+                // Go to "REF: Chat button" for chat button CSS
+
+                .divider-q3P9HC{
+                    display: none;
+                }
+            }
+        }
+        // REF: Chat button
+        ~ div > .button-f2h6uQ{
+            width: 64px;
+            height: 36px;
+            top: 6px;
+            right: 12px;
+            &::before{
+                content: "\E8F2"; // ChatBubbles
+                @include FontIconFluent;
+                font-size: 16px;
+                color: $TextFillColorPrimary;
+                margin-left: 20px;
+            }
+            &:hover{
+                background-color: $ControlFillColorSecondary;
+            }
+            svg{
+                display: none;
+            }
+        }
+
+        // Bottom
+        .bottomControls-31YuPK{
+            .controlButton-2PMNom{
+                height: 32px;
+                margin: 0 4px;
+                &.button-f2h6uQ{
+                    min-width: 64px;
+                    height: 32px;
+                    padding: 8px 16px;
+                    background-color: $ControlFillColorDefault;
+                    border: 1px solid $ControlStrokeColorDefault;
+                    border-radius: 4px;
+                    &:hover{
+                        background-color: $ControlFillColorSecondary;
+                    }
+                    &:active{
+                        background-color: $ControlFillColorTertiary;
+                    }
+                }
+
+                .contents-3ca1mk{
+                    // Non-EN style fixes
+                    svg{
+                        width: 16px !important;
+                        color: #FFF; // Set the colour when mic is muted
+                    }
+                }
+
+                &.contextMenuContainer-1RO4DQ{
+                    margin: 0 4px;
+                    display: flex;
+                    foreignObject{
+                        width: 64px !important;
+                        mask: none;
+                    }
+                    .button-f2h6uQ{
+                        min-width: 64px;
+                        height: 32px;
+                        padding: 8px 16px;
+                        background-color: $ControlFillColorDefault;
+                        border: 1px solid $ControlStrokeColorDefault;
+                        border-radius: 4px;
+                        color: $TextFillColorPrimary;
+                        &:hover{
+                            background-color: $ControlFillColorSecondary;
+                        }
+                        &:active{
+                            background-color: $ControlFillColorTertiary;
+                        }
+                    }
+                }
+                .contextMenuNub-NuTZ_U{
+                    max-height: 32px;
+                    position: relative;
+                    padding: 7px 8px;
+                    background-color: $ControlFillColorDefault;
+                    border: 1px solid $ControlStrokeColorDefault;
+                    border-radius: 0 4px 4px 0;
+                    color: $TextFillColorPrimary;
+                }
+            }
+
+            // Popout/fullscreen
+            .rightTrayIcon-1m3hnG{
+                width: 32px;
+                height: 32px;
+                background-color: $ControlFillColorDefault;
+                border: 1px solid $ControlStrokeColorDefault;
+                color: $TextFillColorPrimary;
+                &:hover{
+                    background-color: $ControlFillColorSecondary;
+                }
+                &:active{
+                    background-color: $ControlFillColorTertiary;
+                }
+                svg{
+                    width: 16px;
+                }
+            }
+        }
+    }
+
+    // User tiles
+    .tile-2TcwiO{
+        background-color: $SubtleFillColorTertiary;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        // Only apply border colour to users
+        &.tile-2Dr6M1:hover{
+            border-color: $ControlStrokeColorDefault;
+        }
+        .overlayTitle-2efoIF{
+            background-color: $ControlOnImageFillColorDefault;
+            border-radius: 4px;
+        }
+        // Status button
+        .status-15kcmy{
+            background-color: $ControlOnImageFillColorDefault;
+            border-radius: 4px;
+            &:hover{
+                background-color: $ControlOnImageFillColorSecondary;
+            }
+            &:active{
+                background-color: $ControlOnImageFillColorTertiary;
+            }
+        }
+    }
+    .participantsButton-1WBdFP{
+        background-color: $ControlOnImageFillColorDefault;
+        border: 1px solid $ControlStrokeColorDefault;
+        &:hover{
+            background-color: $ControlOnImageFillColorSecondary;
+        }
+        &:active{
+            background-color: $ControlOnImageFillColorTertiary;
+        }
+    }
+}
+
+// Icon replacements
+// Top toolbar (excludes Inbox button)
+html[lang^="en-"].theme-dark .toolbar-3_r2xA{
+    .button-f2h6uQ{
+        &::before{
+            @include FontIconFluent;
+            width: 62px;
+            position: absolute;
+            font-size: 16px;
+            line-height: 36px;
+            text-align: center;
+            display: block;
+        }
+        // Remove default icon
+        svg{
+            display: none;
+        }
+    }
+}
+// Bottom toolbar (mic/speaker mute, leave, activity buttons)
+html[lang^="en-"].theme-dark .wrapper-1gVUIN .controlSection-1mNixL .button-f2h6uQ{
+    &::before{
+        @include FontIconFluent;
+        width: 62px;
+        position: absolute;
+        font-size: 16px;
+        line-height: 36px;
+        text-align: center;
+        display: block;
+    }
+    svg{
+        display: none;
+    }
+}

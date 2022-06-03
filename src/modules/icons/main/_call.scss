@@ -30,4 +30,11 @@ html[lang^="en-"].theme-dark .wrapper-1gVUIN .controlSection-1mNixL .button-f2h6
     &[aria-label="Leave Activity"]::before{
         content: "\E137"; // HangUp
     }
+
+    &[aria-label="Pop Out"]::before{
+        content: "\E17C"; // HangUp
+    }
+    &[aria-label="Full Screen"]::before{
+        content: "\E1D9"; // HangUp
+    }
 }

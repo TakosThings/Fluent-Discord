@@ -38,16 +38,16 @@
 
 // Toolbar
 .theme-dark .toolbar-3_r2xA{
-    .iconWrapper-2awDjA{
+    // Using these selectors so there a less conflicts in the voice screen
+    div[role=button]:not(.iconLayout-SqV3nb), // The :not excluded the search/clear button in the search bar
+    button[type=button]{
+        width: 64px;
+        height: 36px;
         margin: 0 4px 0 0;
         border-radius: 4px;
         &:hover{
             background-color: $ControlFillColorSecondary;
         }
-    }
-    .iconWrapper-2awDjA{
-        width: 64px;
-        height: 36px;
         > svg{ // Non-EN position fix
             position: absolute;
             top: 6px;
