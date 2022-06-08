@@ -7,7 +7,7 @@
     }
     .textBadge-1fdDPJ{
         &[style*="hsl(139"]{
-            background-color: SystemFillColorSuccess !important;
+            background-color: SystemFillColorSuccess !important; // Override inline
             color: $TextOnAccentFillColorPrimary;
         }
     }

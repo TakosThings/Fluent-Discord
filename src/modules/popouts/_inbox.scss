@@ -1,5 +1,6 @@
 .theme-dark .recentMentionsPopout-2bI1ZN{
-    max-height: calc(100vh - 32px - 48px - 16px) !important; // 100vh - titlebar - toolbar - (margin-top + margin-bottom)
+    // NOTE - 2022-06-08: Calculation is based on: 100vh - titlebar - toolbar - (margin-top + margin-bottom)
+    max-height: calc(100vh - 32px - 48px - 16px) !important;  // Override inline
     margin: 8px;
     background: $MicaBackgroundFillColorBase;
     backdrop-filter: blur(16px);

@@ -45,8 +45,8 @@
         .checkboxWrapper-2fDzaA{
             .input-3xr72x{
                 // Yes Discord, it was completely necessary to in-line the dimensions...
-                width: 18px !important;
-                height: 18px !important;
+                width: 18px !important; // Override inline
+                height: 18px !important; // Override inline
                 &::before{
                     top: 0;
                     left: 0;

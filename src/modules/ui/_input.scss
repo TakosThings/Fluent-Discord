@@ -43,7 +43,8 @@
 .theme-dark .inputPrefix-1HHwWv{
     top: 8px;
     ~ .input-2g-os5{
-        padding-left: 32px !important;
+        // TODO - 2022-06-08: Resolve this conflict
+        padding-left: 32px !important; // Conflicts with .theme-dark .input-2g-os5:not(.hiddenDiv-2qTqSF)
     }
 }
 

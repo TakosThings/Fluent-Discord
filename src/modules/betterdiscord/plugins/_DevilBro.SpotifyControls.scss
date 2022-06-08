@@ -10,7 +10,7 @@
     }
     // Can't detect if Spotify is playing or not, so just use default icons by plugin
     .contents-3ca1mk{
-        display: block !important;
+        display: block !important; // Override plugin CSS
     }
 }
 
@@ -18,10 +18,10 @@
     .button-12Fmur{
         margin-left: 2px;
         &[style="margin-right: 4px;"]{
-            margin-right: 0 !important;
+            margin-right: 0 !important; // Override plugin CSS
         }
         &[style="margin-left: 4px;"]{
-            margin-left: 2px !important;
+            margin-left: 2px !important; // Override plugin CSS
         }
     }
 }

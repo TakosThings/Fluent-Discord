@@ -12,6 +12,7 @@
         width: 0;
     }
 
+    // TODO - 2022-06-08: Find out if this is still required
     .listItem-3SmSlK:hover .pill-2RsI5Q:empty{
         display: none !important;
     }
@@ -139,8 +140,7 @@
                         font-size: 16px;
                     }
                     svg{
-                        // NOTE: 2021-12-07 - '!important' is required to remove the 'festive' Discord icon
-                        display: none !important;
+                        display: none !important; // Required to remove 'festive' Discord icon
                     }
                 }
             }
@@ -177,7 +177,7 @@
         .lowerBadge-3WTshO,
         .upperBadge-1V6Iyi{
             right: 4px;
-            transform: none !important;
+            transform: none !important; // Override inline
         }
         .upperBadge-1V6Iyi{
             top: 4px;
@@ -187,7 +187,7 @@
             z-index: 1;
         }
         .numberBadge-37OJ3S{
-            background-color: $SystemFillColorCritical !important; // For some reason this is in line
+            background-color: $SystemFillColorCritical !important; // Override inline
             @include TypeCaption;
             color: $TextOnAccentFillColorPrimary;
         }
@@ -205,7 +205,7 @@
         }
         // Fix folder container being too tall
         ul[role="group"]{
-            height: auto !important;
+            height: auto !important; // Override inline
         }
 
         // Round bottom of last guild in folder
@@ -217,7 +217,7 @@
         background-color: transparent;
     }
     .folderIconWrapper-1oRIZr{
-        background-color: transparent !important;
+        background-color: transparent !important; // Override inline
         border-radius: 0;
     }
     .closedFolderIconWrapper-3tRb2d{

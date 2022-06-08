@@ -47,7 +47,7 @@
                     height: 20px;
                     margin-right: 0;
                     padding: 0 12px;
-                    background-color: $SystemFillColorSolidNeutralBackground !important;
+                    background-color: $SystemFillColorSolidNeutralBackground !important; // Override inline
                     border-radius: 10px 0 0 10px;
                     .qualityIndicator-39wQDy{
                         height: 20px;
@@ -57,7 +57,7 @@
                 .live-1V2D-f{
                     height: 20px;
                     padding: 0 12px 0 8px;
-                    background-color: $SystemFillColorCritical !important;
+                    background-color: $SystemFillColorCritical !important; // Override inline
                     border-radius: 0 10px 10px 0;
                     color: $TextOnAccentFillColorPrimary;
                     @include TypeBody;
@@ -121,7 +121,7 @@
                 .contents-3ca1mk{
                     // Non-EN style fixes
                     svg{
-                        width: 16px !important;
+                        width: 16px !important; // Icons are otherwise too large
                         color: #FFF; // Set the colour when mic is muted
                     }
                 }
@@ -130,7 +130,7 @@
                     margin: 0 4px;
                     display: flex;
                     foreignObject{
-                        width: 64px !important;
+                        width: 64px !important; // Force width
                         mask: none;
                     }
                     .button-f2h6uQ{

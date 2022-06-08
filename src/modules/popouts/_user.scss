@@ -82,8 +82,8 @@
     // Body
     .body-2wLx-E{
         padding: 0 24px 24px 24px;
-        padding-right: 24px !important;
-        overflow-y: auto !important;
+        padding-right: 24px !important; // Override inline
+        overflow-y: auto !important; // Override inline
     }
     .bodyInnerWrapper-2bQs1k{
         background-color: transparent;
@@ -92,7 +92,7 @@
         display: none;
     }
     .eyebrow-Ejf06y{
-        color: $TextFillColorPrimary !important;
+        color: $TextFillColorPrimary !important; // Override inline
         @include TypeBodyStrong;
         text-transform: none;
     }

@@ -47,8 +47,9 @@
     width: calc(100% - 16px);
     bottom: 8px;
     left: 8px;
+    // Completely hides control bar when inactive due to size changes
     &[style*="translateY(100%)"]{
-        transform: translateY(calc(100% + 8px)) !important;
+        transform: translateY(calc(100% + 8px)) !important; // Override inline
     }
 }
 

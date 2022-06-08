@@ -118,7 +118,7 @@
         }
         // Border radius when date and new message divider are combined
         span+span{
-            border-radius: 0 8px 8px 0 !important;
+            border-radius: 0 8px 8px 0 !important; // Override inline
         }
     }
 
@@ -126,7 +126,7 @@
     .message-2CShn3{
         // Remove hover
         &:hover{
-            background-color: transparent !important;
+            background-color: transparent !important; // Force catch-all to avoid adding .mouse-mode etc classes for this
         }
         // Remove background on mentioned message
         &.mentioned-Tre-dv{

@@ -32,8 +32,8 @@
         }
         // Avatar
         .avatar-3mTjvZ{
-            width: 64px !important;
-            height: 64px !important;
+            width: 64px !important; // Override inline
+            height: 64px !important; // Override inline
             top: 0;
             left: 0;
             border: 2px solid #000;
@@ -147,7 +147,7 @@
                         justify-content: flex-end;
                         .flexChild-3PzYmX{
                             margin-right: 0;
-                            flex: unset !important;
+                            flex: unset !important; // Override inline
                         }
                     }
 

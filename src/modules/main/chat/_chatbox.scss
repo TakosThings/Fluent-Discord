@@ -181,7 +181,7 @@
                 display: none;
             }
             .title-Do_30w{
-                color: $TextFillColorDisabled !important;
+                color: $TextFillColorDisabled !important; // Override inline
                 @include TypeBody;
             }
         }

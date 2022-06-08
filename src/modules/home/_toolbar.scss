@@ -38,12 +38,12 @@
             }
             // Add friend button
             &[style]{
-                background-color: transparent !important; // why though
+                background-color: transparent !important; // Override inline
                 &:hover{
-                    color: $TextFillColorSecondary !important;
+                    color: $TextFillColorSecondary !important; // Override inline
                 }
                 &[aria-selected=true]{
-                    color: $TextFillColorPrimary !important;
+                    color: $TextFillColorPrimary !important; // Override inline
                     &::before{
                         content: "";
                         position: absolute;

@@ -5,6 +5,7 @@
     // Video/screen share buttons
     .actionButtons-2vEOUh{
         grid-gap: 4px;
+        // !importants to make these appear as 'default' button instead of accent
         button{
             min-width: unset;
             background-color: $ControlFillColorDefault !important;

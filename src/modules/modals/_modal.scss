@@ -1,7 +1,7 @@
 .theme-dark{
     .backdrop-2ByYRN{
-        background: $SmokeFillColorDefault !important;
-        opacity: 1 !important;
+        background: $SmokeFillColorDefault !important; // Override inline
+        opacity: 1 !important; // Override inline
     }
 
     // Modal body
@@ -59,7 +59,7 @@
         background-color: $CardBackgroundFillColorDefault;
         // NOTE: 2021-07-05 - For some reason they sometimes place a padding-right in-line (see: Disable 2FA modal)
         &[style*="padding-right"]{
-            padding-right: 24px !important;
+            padding-right: 24px !important; // Override inline
         }
         // Removes memay from the ban user modal
         video{

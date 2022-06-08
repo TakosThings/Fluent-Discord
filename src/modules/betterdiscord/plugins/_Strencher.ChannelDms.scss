@@ -80,7 +80,7 @@
     }
     .ChannelDms-channelpopout-headerName{
         font-feature-settings: 'fina' 1, 'init' 1;
-        font-size: 18px !important;
+        font-size: 18px !important; // Override plugin CSS
         color: $TextFillColorPrimary;
     }
     .ChannelDms-channelpopout-buttons{
@@ -201,7 +201,7 @@
             }
             // Border radius when date and new message divider are combined
             span+span{
-                border-radius: 0 8px 8px 0 !important;
+                border-radius: 0 8px 8px 0 !important; // Override inline
             }
         }
     }
