@@ -10,7 +10,7 @@
 The following is out of scope of this project
 * Issues affecting the canary and PTB clients
 * Discord in the web browser
-* Features gated behind a Discord Nitro subscription
+* Features gated behind a Discord Nitro subscription (or HypeSquad membership)
 
 ## Plugin Compatibility Requests
 * You may request compatibility for any plugin published on [betterdiscord.app](https://betterdiscord.app/plugins).
@@ -21,18 +21,18 @@ The following is out of scope of this project
 * Small changes and tweaks can get away without an issue
 * Clone/rebase the repo
 * Make sure your editor is obeying `.editorconfig` (VS Code needs the plugin!)
-* Make changes in a new branch (not master)
+* Make changes in a new branch (not develop or gh-pages)
 * Submit your PR
 
 ## Development
 ### Environment
 * Visual Studio Code
-* [Editorconfig Plugin](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) for VS Code
+* [EditorConfig Plugin](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) for VS Code
 * Git
 * Node.js
 
 ### Setup
-* `npm i` to install Dart Sass. This should be all you need to get started.
+* `npm i` to install required packages (Dart SASS and Cross-OS)
 
 #### NPM Commands
 * `npm run dev` watches files for changes and automatically builds and emits the theme to your BetterDiscord themes folder. BD will reload the theme with the changes each time.
@@ -40,14 +40,18 @@ The following is out of scope of this project
 * `npm run build-auto` builds and emits the auto-updating theme file. This file only contains user vars and imports the theme from GitHub.
 
 ### Comments & Debugging
-* In most cases code comments should start with `TODO, NOTE, DEV, DEBUG or HACK` and the date in YYYY-MM-DD format, followed by the comment: 
-```SCSS
-// TODO: 2021-07-01 - Find better icon
-```
-* Including a Fluent Icon from the icon font should always inlude the description in a comment at the end of the line: 
-```SCSS
-content: "\F159"; // DialShape4
-```
+* Add a comment with `TODO, NOTE, DEV, DEBUG or HACK` and the date when something needs to be explained or revisited later:
+  ```SCSS
+  // TODO: 2021-07-01 - Find better icon
+  ```
+* Add the icon description when including a Fluent Icon:
+  ```SCSS
+  content: "\F159"; // DialShape4
+  ```
+* Explain why an `!important` is being used:
+  ```SCSS
+  width: 32px !important; // Override in-line style
+  ```
 * Use `red`, `$red` or `#F00` for debugging
 
 ### Icon usage
