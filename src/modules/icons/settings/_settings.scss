@@ -136,6 +136,9 @@
     .item-3XjbnG[aria-controls="guild_templates-tab"]::after{ // Server template
         content: "\E8C8"; // Copy
     }
+    .item-3XjbnG[aria-controls="vanity_url-tab"]::after{ // Server template
+        content: "\E167"; // Link
+    }
 
     // Community
     .item-3XjbnG[aria-controls="community-tab"]::after{ // Enable Community
