@@ -1,11 +1,13 @@
-.theme-dark .form-3gdLxP{
+.theme-dark .form-3gdLxP, // Main chatbox
+.theme-dark .submitContainer-1DHMA0{ // Thread start
     margin-top: 0;
     // Remove gradient on left
     &::before{
         display: none;
     }
 
-    .channelTextArea-1FufC0{
+    .channelTextArea-1FufC0,
+    .channelTextArea-1VQBuV{
         margin-bottom: 11px;
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
@@ -230,7 +232,8 @@
     }
 
     // Hide 'game support game invites' message
-    .activityInviteEducation-3dYEeQ{
+    .activityInviteEducation-3dYEeQ, // Main chatbox
+    .applicationCommandEducation-1stoia{ // Thread
         display: none;
     }
 }
