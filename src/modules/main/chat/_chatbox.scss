@@ -99,22 +99,16 @@
             }
         }
 
-        // GIF
-        &:nth-last-of-type(3){
-            display: var(--fluent-chatbox-gif-button-visibility);
+        &[aria-label]{
+            display: var(--fluent-chatbox-activity-button-visibility);
             .button-f2h6uQ{
                 &::before{
-                    content: "\F4A9"; //GIF
+                    content: "\EA86" // Puzzle
                 }
             }
-        }
-        // Sticker
-        &:nth-last-of-type(2){
-            display: var(--fluent-chatbox-stickers-button-visibility);
-            .button-f2h6uQ{
-                &::before{
-                    content: "\F4AA"; // Sticker2
-                }
+            // Remove sparkle animation
+            .sparkleContainer-QK2z-k{
+                display: none;
             }
         }
     }
