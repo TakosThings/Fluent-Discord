@@ -1,7 +1,7 @@
 /**
  * @name Fluent Discord
  * @author TakosThings
- * @version 1.0.0
+ * @version 1.3.0
  * @description Fluent theme for Discord
  * @invite ZYrCacRuez
  * @source https://github.com/TakosThings/Fluent-Discord
@@ -30,8 +30,7 @@
   --fluent-acrylic-background-blur: 24px;
   --fluent-acrylic-background-dimness: 75%;
   --fluent-guilds-icon-size: 24px;
-  --fluent-chatbox-gif-button-visibility: none;
-  --fluent-chatbox-stickers-button-visibility: none;
+  --fluent-chatbox-activity-button-visibility: block;
 }
 
 /**
