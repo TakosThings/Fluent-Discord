@@ -129,6 +129,35 @@
                 font-size: 16px;
             }
         }
+
+        // Send button
+        .separator-3ng7S5{
+            margin-top: 6px;
+            margin-left: -4px;
+            &::before{
+                display: none;
+            }
+            .button-y6hemj{
+                width: 32px;
+                height: 32px;
+                margin-right: 4px;
+                &::before{
+                    content: "\E122";
+                    color: $TextFillColorSecondary;
+                    @include FontIconFluent;
+                    font-size: 18px;
+                }
+                &:disabled::before{
+                    color: $TextFillColorDisabled;
+                }
+                &:hover:not(:disabled):before{
+                    color: $TextFillColorPrimary;
+                }
+                .contents-3ca1mk{
+                    display: none;
+                }
+            }
+        }
     }
 
     // Is Typing
