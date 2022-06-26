@@ -124,6 +124,9 @@
     .item-3XjbnG[aria-controls="moderation-tab"]::after{ // Moderation
         content: "\EC81"; // PoliceCar
     }
+    .item-3XjbnG[aria-controls="guild_automod_message_filter-tab"]::after{ // Content Moderation
+        content: "\ECE4"; // Blocked2
+    }
     .item-3XjbnG[aria-controls="audit_log-tab"]::after{ // Audit Log
         content: "\E9D5"; // CheckList
     }
