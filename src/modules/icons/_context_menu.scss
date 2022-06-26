@@ -189,6 +189,9 @@
     &[id="guild-header-popout-settings"]::before{
         content: "\E115"; // Setting
     }
+    &[id="guild-header-popout-insights"]::before{
+        content: "\E9D2"; // AreaChart
+    }
     &[id="guild-header-popout-create-channel"]::before{
         content: "\E15F"; // Message
     }
