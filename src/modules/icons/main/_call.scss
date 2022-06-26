@@ -32,9 +32,9 @@ html[lang^="en-"].theme-dark .wrapper-1gVUIN .controlSection-1mNixL .button-f2h6
     }
 
     &[aria-label="Pop Out"]::before{
-        content: "\E17C"; // HangUp
+        content: "\E17C"; // NewWindow
     }
     &[aria-label="Full Screen"]::before{
-        content: "\E1D9"; // HangUp
+        content: "\E1D9"; // FullScreen
     }
 }
