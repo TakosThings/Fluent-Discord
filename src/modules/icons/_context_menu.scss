@@ -265,6 +265,9 @@
     &[id="channel-context-create-voice-channel"]::before{
         content: "\E109"; // Add
     }
+    &[id="channel-context-open-chat"]::before{
+        content: "\E8F2"; // ChatBubbles
+    }
 }
 
 // Group DM
