@@ -37,4 +37,7 @@ html[lang^="en-"].theme-dark .wrapper-1gVUIN .controlSection-1mNixL .button-f2h6
     &[aria-label="Full Screen"]::before{
         content: "\E1D9"; // FullScreen
     }
+    &[aria-label="Exit Full Screen"]::before{
+        content: "\E1D8"; // BackToWindow
+    }
 }
