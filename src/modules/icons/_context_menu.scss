@@ -410,6 +410,9 @@
     &[id="message-pin"]::before{
         content: "\E141"; // Pin
     }
+    &[id="message-unpin"]::before{
+        content: "\E196"; // UnPin
+    }
     &[id="message-reply"]::before{
         content: "\E97A"; // Reply
     }
