@@ -58,6 +58,10 @@
                         height: 20px;
                         @include TypeBody;
                     }
+                    // #141 - Speculative fix: Remove Nitro icon from quality indicator
+                    svg{
+                        display: none;
+                    }
                 }
                 .live-1V2D-f{
                     height: 20px;
