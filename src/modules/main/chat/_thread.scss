@@ -81,3 +81,16 @@
         transition: opacity 250ms Cubic-bezier(0.55,0.55,0,1);
     }
 }
+
+// Narrow window
+.theme-dark .layerContainer-2v_Sit{
+    .container-3XgAHv{
+        background-color: $SolidBackgroundFillColorBase;
+        &.floating-3M3WeH{
+            border-left: 0;
+        }
+        .chat-1-OBC7{
+            border-radius: 0;
+        }
+    }
+}
