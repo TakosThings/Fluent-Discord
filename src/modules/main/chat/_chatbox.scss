@@ -94,16 +94,13 @@
                     color: $TextFillColorPrimary;
                 }
             }
-            .contents-3ca1mk{
-                display: none;
-            }
         }
 
         &[aria-label]{
             display: var(--fluent-chatbox-activity-button-visibility);
             .button-f2h6uQ{
                 &::before{
-                    content: "\EA86" // Puzzle
+                    content: "\EA86"; // Puzzle
                 }
             }
             // Remove sparkle animation
@@ -111,6 +108,40 @@
                 display: none;
             }
         }
+
+        // Always hide the emoji button icon since it can be directly selected
+        .emojiButton-1fMsf3{
+            .contents-3ca1mk{
+                display: none;
+            }
+        }
+
+        // Replace sticker icon
+        .contents-3ca1mk.stickerButton-1-nFh2{
+            &::before{
+                content: "\F4AA"; // Sticker2
+                @include FontIconFluent;
+                font-size: 18px;
+            }
+            svg{
+                display: none;
+            }
+        }
+
+        // Replace GIF icon
+        .button-f2h6uQ[aria-label*="GIF"]{
+            .contents-3ca1mk{
+                &::before{
+                    content: "\F4A9"; // GIF
+                    @include FontIconFluent;
+                    font-size: 18px;
+                }
+                svg{
+                    display: none;
+                }
+            }
+        }
+
     }
     .buttons-uaqb-5{
         height: unset;
