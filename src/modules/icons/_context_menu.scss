@@ -434,6 +434,9 @@
     &[id="message-delete"]::before{
         content: "\E107"; // Delete
     }
+    &[id="message-copy"]::before{
+        content: "\E16F"; // Copy
+    }
     &[id="message-copy-image"]::before{
         content: "\E16F"; // Copy
     }
@@ -448,6 +451,9 @@
     }
     &[id="message-devmode-copy-id"]::before{
         content: "\E943"; // Code
+    }
+    &[id="message-search-google"]::before{
+        content: "\F6FA"; // WebSearch
     }
 }
 // Message action
