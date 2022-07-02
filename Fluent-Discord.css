@@ -1540,10 +1540,6 @@ html[lang^=en-].theme-dark .wrapper-2vIMkT .button-3bklZh[aria-label] svg {
 .theme-dark .submitContainer-1DHMA0 .expression-picker-chat-input-button .button-f2h6uQ.emojiButtonHovered-s44uQ8::before {
   color: #FFF;
 }
-.theme-dark .form-3gdLxP .expression-picker-chat-input-button .button-f2h6uQ .contents-3ca1mk,
-.theme-dark .submitContainer-1DHMA0 .expression-picker-chat-input-button .button-f2h6uQ .contents-3ca1mk {
-  display: none;
-}
 .theme-dark .form-3gdLxP .expression-picker-chat-input-button[aria-label],
 .theme-dark .submitContainer-1DHMA0 .expression-picker-chat-input-button[aria-label] {
   display: var(--fluent-chatbox-activity-button-visibility);
@@ -1554,6 +1550,30 @@ html[lang^=en-].theme-dark .wrapper-2vIMkT .button-3bklZh[aria-label] svg {
 }
 .theme-dark .form-3gdLxP .expression-picker-chat-input-button[aria-label] .sparkleContainer-QK2z-k,
 .theme-dark .submitContainer-1DHMA0 .expression-picker-chat-input-button[aria-label] .sparkleContainer-QK2z-k {
+  display: none;
+}
+.theme-dark .form-3gdLxP .expression-picker-chat-input-button .emojiButton-1fMsf3 .contents-3ca1mk,
+.theme-dark .submitContainer-1DHMA0 .expression-picker-chat-input-button .emojiButton-1fMsf3 .contents-3ca1mk {
+  display: none;
+}
+.theme-dark .form-3gdLxP .expression-picker-chat-input-button .contents-3ca1mk.stickerButton-1-nFh2::before,
+.theme-dark .submitContainer-1DHMA0 .expression-picker-chat-input-button .contents-3ca1mk.stickerButton-1-nFh2::before {
+  content: "\f4aa";
+  font-family: "Segoe Fluent Icons", "Segoe MDL2 Assets";
+  font-size: 18px;
+}
+.theme-dark .form-3gdLxP .expression-picker-chat-input-button .contents-3ca1mk.stickerButton-1-nFh2 svg,
+.theme-dark .submitContainer-1DHMA0 .expression-picker-chat-input-button .contents-3ca1mk.stickerButton-1-nFh2 svg {
+  display: none;
+}
+.theme-dark .form-3gdLxP .expression-picker-chat-input-button .button-f2h6uQ[aria-label*=GIF] .contents-3ca1mk::before,
+.theme-dark .submitContainer-1DHMA0 .expression-picker-chat-input-button .button-f2h6uQ[aria-label*=GIF] .contents-3ca1mk::before {
+  content: "\f4a9";
+  font-family: "Segoe Fluent Icons", "Segoe MDL2 Assets";
+  font-size: 18px;
+}
+.theme-dark .form-3gdLxP .expression-picker-chat-input-button .button-f2h6uQ[aria-label*=GIF] .contents-3ca1mk svg,
+.theme-dark .submitContainer-1DHMA0 .expression-picker-chat-input-button .button-f2h6uQ[aria-label*=GIF] .contents-3ca1mk svg {
   display: none;
 }
 .theme-dark .form-3gdLxP .buttons-uaqb-5,
@@ -1868,6 +1888,16 @@ html[lang^=en-].theme-dark .wrapper-2vIMkT .button-3bklZh[aria-label] svg {
 .theme-dark .resizeHandle-PBRzPC:hover::before {
   opacity: 1;
   transition: opacity 250ms Cubic-bezier(0.55, 0.55, 0, 1);
+}
+
+.theme-dark .layerContainer-2v_Sit .container-3XgAHv {
+  background-color: #202020;
+}
+.theme-dark .layerContainer-2v_Sit .container-3XgAHv.floating-3M3WeH {
+  border-left: 0;
+}
+.theme-dark .layerContainer-2v_Sit .container-3XgAHv .chat-1-OBC7 {
+  border-radius: 0;
 }
 
 .theme-dark .attachment-1PZZB2 {
@@ -2735,6 +2765,9 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA .controlIcon-35oS
   background-color: #000;
   border-radius: 8px 0 0 0;
 }
+.theme-dark .wrapper-1gVUIN ~ .content-1jQy2l {
+  border-radius: 0;
+}
 .theme-dark .wrapper-1gVUIN .callContainer-HtHELf {
   border-radius: 8px 0 0 0;
 }
@@ -2770,6 +2803,12 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA .controlIcon-35oS
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+}
+.theme-dark .wrapper-1gVUIN .videoControls-353CsJ .topControls-23RE3h .container-ZMc96U .liveQualityIndicator-2GyS_e:hover {
+  background-color: transparent;
+}
+.theme-dark .wrapper-1gVUIN .videoControls-353CsJ .topControls-23RE3h .container-ZMc96U .liveQualityIndicator-2GyS_e svg {
+  display: none;
 }
 .theme-dark .wrapper-1gVUIN .videoControls-353CsJ .topControls-23RE3h .container-ZMc96U .live-1V2D-f {
   height: 20px;
@@ -2867,6 +2906,7 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA .controlIcon-35oS
 .theme-dark .wrapper-1gVUIN .videoControls-353CsJ .bottomControls-31YuPK .rightTrayIcon-1m3hnG {
   width: 32px;
   height: 32px;
+  margin-left: 8px;
   background-color: rgba(255, 255, 255, 0.0605);
   border: 1px solid rgba(255, 255, 255, 0.0698);
   color: #FFF;
@@ -5527,9 +5567,7 @@ html[lang^=en-].theme-dark .container-2cd8Mz .actionButton-3-B2x- svg {
   transition: transform 250ms Cubic-bezier(0.55, 0.55, 0, 1), opacity 250ms Cubic-bezier(0.55, 0.55, 0, 1);
 }
 .theme-dark .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG .premiumLabel-3HPvdB svg {
-  position: absolute;
-  left: -32px;
-  fill: #FFF;
+  display: none;
 }
 .theme-dark .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG .selectedBackground-1t6xXq {
   display: none;
@@ -5542,7 +5580,7 @@ html[lang^=en-].theme-dark .container-2cd8Mz .actionButton-3-B2x- svg {
   background-color: rgba(255, 255, 255, 0.0837);
 }
 .theme-dark .sidebar-nqHbhN .info-3pQQBb::before {
-  content: "Fluent Discord 1.3.0";
+  content: "Fluent Discord 1.3.1";
   color: #72767d;
   font-size: 12px;
   line-height: 16px;
@@ -6085,6 +6123,9 @@ html[lang^=en-].theme-dark .wrapper-1gVUIN .controlSection-1mNixL .button-f2h6uQ
 html[lang^=en-].theme-dark .wrapper-1gVUIN .controlSection-1mNixL .button-f2h6uQ[aria-label="Full Screen"]::before {
   content: "\e1d9";
 }
+html[lang^=en-].theme-dark .wrapper-1gVUIN .controlSection-1mNixL .button-f2h6uQ[aria-label="Exit Full Screen"]::before {
+  content: "\e1d8";
+}
 
 html[lang^=en-].theme-dark .wrapper-2vIMkT .button-3bklZh[aria-label=Reply]::before {
   content: "\e97a";
@@ -6225,6 +6266,10 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .button-f2h6uQ[aria-label=More]::befo
 .theme-dark .side-2ur1Qk .item-3XjbnG[aria-controls=connections-tab]::after {
   content: "\f0b9";
 }
+.theme-dark .side-2ur1Qk .item-3XjbnG[aria-controls=discord-nitro-tab]::after {
+  content: "N";
+  font-family: var(--font-primary);
+}
 .theme-dark .side-2ur1Qk .item-3XjbnG[aria-controls=nitro-server-boost-tab]::after {
   content: "\ec4a";
 }
@@ -6320,6 +6365,9 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .button-f2h6uQ[aria-label=More]::befo
 .theme-dark .side-2ur1Qk .item-3XjbnG[aria-controls=moderation-tab]::after {
   content: "\ec81";
 }
+.theme-dark .side-2ur1Qk .item-3XjbnG[aria-controls=guild_automod_message_filter-tab]::after {
+  content: "\ece4";
+}
 .theme-dark .side-2ur1Qk .item-3XjbnG[aria-controls=audit_log-tab]::after {
   content: "\e9d5";
 }
@@ -6384,13 +6432,6 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .button-f2h6uQ[aria-label=More]::befo
 }
 .theme-dark .side-2ur1Qk .item-3XjbnG[aria-controls=delete-tab]::after {
   content: "\e74d";
-}
-
-.theme-dark .side-2ur1Qk .item-3XjbnG[aria-controls="default:transport:0-tab"]::after {
-  content: "\e804";
-}
-.theme-dark .side-2ur1Qk .item-3XjbnG[aria-controls="default:outbound:0-tab"]::after {
-  content: "\e898";
 }
 
 .theme-dark .menu-1QACrS .item-1OdjEX[id=user-settings-cog-My_Account]::before {
@@ -6574,6 +6615,9 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .button-f2h6uQ[aria-label=More]::befo
 .theme-dark .menu-1QACrS .item-1OdjEX[id=guild-header-popout-settings]::before {
   content: "\e115";
 }
+.theme-dark .menu-1QACrS .item-1OdjEX[id=guild-header-popout-insights]::before {
+  content: "\e9d2";
+}
 .theme-dark .menu-1QACrS .item-1OdjEX[id=guild-header-popout-create-channel]::before {
   content: "\e15f";
 }
@@ -6643,6 +6687,12 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .button-f2h6uQ[aria-label=More]::befo
 }
 .theme-dark .menu-1QACrS .item-1OdjEX[id=channel-context-create-voice-channel]::before {
   content: "\e109";
+}
+.theme-dark .menu-1QACrS .item-1OdjEX[id=channel-context-open-chat]::before {
+  content: "\e8f2";
+}
+.theme-dark .menu-1QACrS .item-1OdjEX[id=channel-context-copy-channel-topic]::before {
+  content: "\e16f";
 }
 
 .theme-dark .menu-1QACrS .item-1OdjEX[id=gdm-context-mark-channel-read]::before {
@@ -6768,6 +6818,9 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .button-f2h6uQ[aria-label=More]::befo
 .theme-dark .menu-1QACrS .item-1OdjEX[id=message-pin]::before {
   content: "\e141";
 }
+.theme-dark .menu-1QACrS .item-1OdjEX[id=message-unpin]::before {
+  content: "\e196";
+}
 .theme-dark .menu-1QACrS .item-1OdjEX[id=message-reply]::before {
   content: "\e97a";
 }
@@ -6789,6 +6842,9 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .button-f2h6uQ[aria-label=More]::befo
 .theme-dark .menu-1QACrS .item-1OdjEX[id=message-delete]::before {
   content: "\e107";
 }
+.theme-dark .menu-1QACrS .item-1OdjEX[id=message-copy]::before {
+  content: "\e16f";
+}
 .theme-dark .menu-1QACrS .item-1OdjEX[id=message-copy-image]::before {
   content: "\e16f";
 }
@@ -6803,6 +6859,9 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .button-f2h6uQ[aria-label=More]::befo
 }
 .theme-dark .menu-1QACrS .item-1OdjEX[id=message-devmode-copy-id]::before {
   content: "\e943";
+}
+.theme-dark .menu-1QACrS .item-1OdjEX[id=message-search-google]::before {
+  content: "\f6fa";
 }
 
 .theme-dark .menu-1QACrS .item-1OdjEX[id=message-actions-edit]::before {
