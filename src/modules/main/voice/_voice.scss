@@ -58,6 +58,9 @@
                         height: 20px;
                         @include TypeBody;
                     }
+                    &:hover{
+                        background-color: transparent;
+                    }
                     // #141 - Speculative fix: Remove Nitro icon from quality indicator
                     svg{
                         display: none;
