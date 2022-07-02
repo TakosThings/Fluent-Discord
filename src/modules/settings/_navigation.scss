@@ -75,11 +75,9 @@
             }
         }
         // Special cases
-        // Move nitro icon to left side
+        // Remove right side Nitro icon (may differ in some regions)
         .premiumLabel-3HPvdB svg{
-            position: absolute;
-            left: -32px;
-            fill: $TextFillColorPrimary;
+            display: none;
         }
         // Remove background div from nitro option
         .selectedBackground-1t6xXq{
