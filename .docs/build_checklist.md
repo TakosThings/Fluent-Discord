@@ -6,7 +6,7 @@
 
 **Commit**
 - [ ] Commit `/src/modules/core/metadata` only
-- [ ] Commit message is `Bump version > 1.1.*`
+- [ ] Commit message is `Bump version > 1.3.*`
 
 **Actions**
 - [ ] Run make-release
@@ -17,7 +17,7 @@
 - [ ] Release body is
 ```
 ## What's Changed
-[Full Changelog](https://github.com/TakosThings/Fluent-Discord/compare/v1.0.0...v1.1.0)
+[Full Changelog](https://github.com/TakosThings/Fluent-Discord/compare/v1.3.1...v1.3.*)
 ```
 - [ ] Ensure version numbers to compare are correct
 - [ ] Add highlights of any major changes (if any)
