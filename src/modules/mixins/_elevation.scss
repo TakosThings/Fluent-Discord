@@ -1,0 +1,37 @@
+@mixin Elevation0{
+    // Layers, Card pressed
+    // Flat stroke
+}
+
+@mixin Elevation2{
+    // Standard control
+    // Gradient stroke
+}
+
+@mixin Elevation8{
+    // Card rest
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.13);
+}
+
+@mixin Elevation16{
+    // Tooltip
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.26);
+}
+
+@mixin Elevation32{
+    // Flyout
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.14);
+}
+
+@mixin Elevation128{
+    // Dialog
+    box-shadow: 0px 32px 64px rgba(0, 0, 0, 0.37), 0px 2px 21px rgba(0, 0, 0, 0.37);
+}
+
+
+@mixin ElevationShellInactive{
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.37), 0px 2px 10.67px rgba(0, 0, 0, 0.37);
+}
+@mixin ElevationShellActive{
+    box-shadow: 0px 32px 64px rgba(0, 0, 0, 0.56), 0px 2px 21px rgba(0, 0, 0, 0.55);
+}
