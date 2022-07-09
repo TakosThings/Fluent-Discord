@@ -195,12 +195,44 @@
             }
         }
     }
-
     // 2FA backup codes
     .backupCode-QOE1Yz{
         .checked-1pZh2h{
             color: $ControlFillColorDisabled;
             text-decoration: line-through;
+        }
+    }
+
+    // User profile
+    // About me
+    .channelTextArea-1VQBuV{
+        .bioTextArea-dDGOeC{
+            height: auto;
+            background-color: $ControlFillColorDefault;
+            border: 1px solid;
+            border-bottom-width: 2px;
+            border-color: $ControlStrokeColorDefault;
+            border-radius: 4px;
+            // Set a static emoji icon
+            .emojiButton-3FRTuj{
+                margin: 0 4px 0 0;
+                &::before{
+                    content: "\E76E"; //Emoji2
+                    color: $TextFillColorSecondary;
+                    @include FontIconFluent;
+                    font-size: 16px;
+                }
+                &.emojiButtonHovered-s44uQ8::before{
+                    color: $TextFillColorPrimary;
+                }
+                .contents-3ca1mk{
+                    display: none;
+                }
+            }
+        }
+        .characterCount-8yNPfb{
+            top: -24px;
+            bottom: unset;
         }
     }
 
