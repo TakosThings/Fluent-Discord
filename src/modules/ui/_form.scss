@@ -42,6 +42,9 @@
                 @include TypeCaption;
                 color: $TextFillColorSecondary;
             }
+            .text-md-medium-2avxhQ{ // Used in Safe Direc Messaging
+                @include TypeBody;
+            }
         }
     }
 }
