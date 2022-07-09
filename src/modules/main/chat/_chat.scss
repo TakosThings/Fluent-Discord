@@ -14,9 +14,8 @@
 
     // New/old messages bars
     .barBase-3xxDXu{
-        left: 50%;
-        margin-left: -299px;
-        width: 598px;
+        margin: 0 auto;
+        max-width: 598px;
         min-height: 32px;
         border: 1px solid $CardStrokeColorDefault;
         box-shadow: none;
