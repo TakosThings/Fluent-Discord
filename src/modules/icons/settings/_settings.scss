@@ -16,6 +16,9 @@
     .item-3XjbnG[aria-controls="connections-tab"]::after{ // connections
         content: "\F0B9"; // Connected
     }
+    .item-3XjbnG[aria-controls="friend-requests-tab"]::after{ // Friend Requests
+        content: "\E1E2"; // AddFriend
+    }
 
     // Billing Settings
     .item-3XjbnG[aria-controls="discord-nitro-tab"]::after{ // Server boost
@@ -69,6 +72,9 @@
     }
 
     // Activity Settings
+    .item-3XjbnG[aria-controls="activity-privacy-tab"]::after{ // Activity Privacy
+        content: "\E72E"; // Lock
+    }
     .item-3XjbnG[aria-controls="game-activity-tab"]::after{ // Game activity
         content: "\E7FC"; // Game
     }
