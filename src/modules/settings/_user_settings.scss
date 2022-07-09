@@ -453,4 +453,27 @@
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 4px;
     }
+
+    // Registered games
+    // Active game
+    .activeGame-1OdxzI{
+        &.notDetected-M3Ghh2{
+            background-color: $SystemFillColorAttentionBackground;
+            border: 1px solid $CardStrokeColorDefault;
+            border-radius: 4px;
+        }
+    }
+    .nowPlayingAdd-3I4RbE{
+        span{
+            display: none;
+        }
+        button{
+            &::before{
+                content: "Add game"
+            }
+            .contents-3ca1mk{
+                display: none;
+            }
+        }
+    }
 }
