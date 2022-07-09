@@ -245,6 +245,11 @@
         }
     }
 
+    // Nitro marketing
+    .listItem-3SmSlK ~ div[aria-label] + .listItem-3SmSlK{
+        display: none;
+    }
+
     // Connected to voice
     .iconBadge-32fMme.participating-2Z81oO{
         background-color: $SystemFillColorSuccess;
