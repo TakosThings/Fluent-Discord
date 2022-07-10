@@ -1,0 +1,73 @@
+#bd-editor-controls{
+    height: 40px;
+    border-radius: 8px 8px 0 0;
+    .controls-section{
+        .btn{
+            width: 34px;
+            height: 34px;
+            border-radius: 4px;
+            padding: 2px 8px;
+        }
+        &.controls-right{
+            .checkbox-wrapper{
+                margin-right: 12px;
+            }
+        }
+    }
+}
+
+// Line numbering
+.monaco-editor{
+    //
+    border-radius: 0 0 8px 8px;
+    .margin{
+        border-radius: 0 0 0 8px;
+    }
+    .editor-scrollable{
+        border-radius: 0 0 8px 0;
+    }
+}
+
+
+// Detached
+#floating-editor-window{
+    padding-bottom: 0;
+    z-index: 3002; // This is +1 above the titlebar
+    background-color: transparent;
+    @include ElevationShellActive;
+    border: 1px solid $SurfaceStrokeColorDefault;
+    border-radius: 8px;
+
+    .floating-window-titlebar{
+        height: 32px;
+        background-color: $SolidBackgroundFillColorBase;
+        .title{
+            @include TypeCaption;
+            color: $TextFillColorPrimary;
+        }
+        .floating-window-buttons{
+            .button{
+                width: 46px;
+                height: 32px;
+
+                // Maximise doesn't work correctly, so remove it
+                &.maximize-button{
+                    display: none;
+                }
+                &.close-button{
+                    &:hover{
+                        background-color: #C42B1C;
+                    }
+                }
+            }
+        }
+    }
+
+    .floating-window-content{
+        background-color: $SolidBackgroundFillColorBase;
+    }
+    #bd-editor-controls{
+        background-color: transparent;
+        border-radius: 0;
+    }
+}
