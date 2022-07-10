@@ -42,7 +42,14 @@
         }
     }
 
-
+    // No messages
+    .iconContainer-33_6mP{
+        display: none;
+    }
+    .header-3rvP-v{
+        margin-bottom: 24px;
+        @include TypeBodyLarge;
+    }
 
     // Result
     .container-iA3Qrz, // Mentions
