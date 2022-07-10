@@ -4,14 +4,21 @@
     border: 1px solid $SurfaceStrokeColorDefault;
     border-radius: 8px;
 
+    // header
     .header-3_zmOb{
+        height: unset;
+        min-height: unset;
+        padding: 12px 24px;
+
         background-color: transparent;
-        svg.threadIcon-rd1kqG{
+        .threadIcon-rd1kqG{
             display: none;
         }
-
-        // Search
-        .searchIcon-zpxirk{
+        .title-10Au0i{
+            @include TypeSubtitle;
+        }
+         // Search
+         .searchIcon-zpxirk{
             width: 32px;
             height: 32px;
             background-color: $ControlFillColorDefault;
@@ -54,64 +61,35 @@
             }
         }
     }
-    // Tabs
-    .tabBar-2WhZ9G, // Header
-    .tabBar-3N44FC{ // Archived public/private threads
-        .tab-2Jo-cu,
-        .tab-1tp4jL{
-            padding-left: 0;
-            padding-right: 0;
-            margin-right: 16px;
-            color: $TextFillColorPrimary;
-            border-radius: 0;
-            &:hover{
-                background-color: transparent;
-                color: $TextFillColorSecondary;
-            }
 
-            &.active-346HgG,
-            &.selected-g-kMVV{
-                background-color: transparent;
-                color: $AccentTextFillColorPrimary;
-                &::before{
-                    content: "";
-                    position: absolute;
-                    bottom: 0px;
-                    width: 100%;
-                    height: 2px;
-                    background-color: $AccentLight3;
-                    border-radius: 2px;
-                }
-                &:hover{
-                    color: $TextFillColorSecondary;
-                }
-            }
-        }
-    }
+    // Thread list
+    .list-3YHPPb{
+        padding: 0 24px !important; // Override inline
 
-    // Body
-    .container-2c4_8A{
-        // Empty
-        .icon-mJhEWn,
-        .stars-3UP9-A{
-            display: none;
-        }
-        .header-En5hqg{
+        .sectionHeader-QsOv68{
             @include TypeBodyStrong;
-        }
-        .colorHeaderSecondary-g5teka{
-            color: $TextFillColorPrimary;
-            @include TypeBody;
+            color: $TextFillColorPrimary !important; // Override inline
+            text-transform: capitalize;
         }
     }
 
-    // Thread card
+    // Thread
     .container-2rzKKA{
         background-color: $CardBackgroundFillColorDefault;
-        border: 1px solid $CardStrokeColorDefault;
         border-radius: 4px;
-        &:hover{
-            background-color: $CardBackgroundFillColorSecondary;
+        .threadNameLine-1FNzAW{
+            margin-bottom: 4px;
+            @include TypeBody;
+            .threadName-2k9mLl{
+                color: $TextFillColorPrimary;
+            }
+        }
+        .subtext-21DUaG{
+            @include TypeCaption;
+            color: $TextFillColorSecondary;
+            .markup-eYLPri{
+                @include TypeCaption;
+            }
         }
     }
 }
