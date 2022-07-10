@@ -122,6 +122,7 @@
                     background-color: $ControlFillColorDefault;
                     border: 1px solid $ControlStrokeColorDefault;
                     border-radius: 4px;
+                    color: $TextFillColorPrimary;
                     &:hover{
                         background-color: $ControlFillColorSecondary;
                     }
