@@ -4,6 +4,7 @@
     border: 1px solid $SurfaceStrokeColorFlyout;
     border-radius: 4px;
     color: $TextFillColorPrimary;
+    @include Elevation16;
     // box-sizing: unset;
     @include TypeBody;
     .tooltipPointer-3L49xb{
