@@ -1,0 +1,79 @@
+// Voice activity
+.theme-dark .container-8Futzw{
+    background: $MicaBackgroundFillColorBase;
+    backdrop-filter: blur(16px);
+    border: 1px solid $SurfaceStrokeColorFlyout;
+    border-radius: 8px;
+    @include Elevation32;
+
+    .channelIcon-3Oew8h{
+        display: none;
+    }
+    .channelName-3lwMH6{
+        @include TypeBodyStrong;
+        color: $TextFillColorPrimary !important; // Override inline
+    }
+    .container-3MQTjc{
+        background-color: transparent;
+        svg{
+            display: none;
+        }
+        .userCountText-1ZKTJR{
+            color: $TextFillColorSecondary;
+        }
+    }
+
+    // Activity
+    .activityVoiceChannel-2vojOH .headerText-3g1XK9{
+        @include TypeBody;
+        color: $TextFillColorPrimary;
+        text-transform: none;
+    }
+    .content-tXPNDw{
+        .base-ZDDK0g{
+            @include TypeBody;
+        }
+        .details-2-ciHo,
+        .state-2NT76I{
+            color: $TextFillColorSecondary;
+        }
+    }
+
+    // Timebar
+    .bar-1GpknY{
+        height: 3px;
+        background-color: $ControlStrokeColorDefault;
+        margin: 0 8px;
+    }
+    .barInner-3dHef4{
+        height: 3px;
+        background-color: $AccentBase;
+    }
+
+    // Timecode
+    .text-31kWmP{
+        @include TypeCaption;
+    }
+}
+
+// Active thread
+.popout-TdhJ6Z{
+    background: $MicaBackgroundFillColorBase;
+    backdrop-filter: blur(16px);
+    border: 1px solid $SurfaceStrokeColorFlyout;
+    border-radius: 8px;
+    @include Elevation32;
+    .title-1yq5kT{
+        @include TypeBodyStrong;
+        color: $TextFillColorPrimary !important; // Override inline
+        text-transform: none;
+    }
+
+    .row-1qtctT:hover{
+        background-color: $AccentBase;
+        color: $TextOnAccentFillColorPrimary;
+        .timestamp-3gPmzJ{
+            color: $TextOnAccentFillColorPrimary;
+        }
+    }
+}
