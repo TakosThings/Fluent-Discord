@@ -1,0 +1,96 @@
+.theme-dark .modal-ZdazA8{
+    background-color: $SolidBackgroundFillColorBase !important; // Override inline
+
+    .container-18GwIk{
+        background-color: transparent;
+    }
+
+    // header
+    .header-3_zmOb{
+        height: unset;
+        min-height: unset;
+        padding: 24px;
+
+        background-color: transparent;
+        .threadIcon-rd1kqG{
+            display: none;
+        }
+        .title-10Au0i{
+            @include TypeSubtitle;
+        }
+         // Search
+         .searchIcon-zpxirk{
+            width: 32px;
+            height: 32px;
+            background-color: $ControlFillColorDefault;
+            border: 1px solid $ControlStrokeColorDefault;
+            border-radius: 4px;
+            svg{
+                margin: 6px;
+            }
+        }
+        .searchBox-3IjAC1{
+            background-color: transparent;
+            .input-2m5SfJ{
+                height: 32px;
+                padding: 0 8px;
+                border: 1px solid;
+                border-bottom-width: 2px;
+                border-color: $ControlStrokeColorDefault;
+                border-radius: 4px;
+                @include TypeBody;
+                background-color: $ControlFillColorDefault;
+                color: $TextFillColorSecondary;
+                &:hover{
+                    border-color: $ControlStrokeColorSecondary;
+                }
+                &:focus{
+                    background-color: $ControlFillColorInputActiveBrush;
+                    color: $TextFillColorPrimary;
+                    border-color: $ControlStrokeColorDefault;
+                    border-bottom-color: $AccentBase;
+                }
+                &::placeholder{
+                    color: $TextFillColorSecondary;
+                }
+            }
+
+            .iconLayout-3Bjizv{
+                position: absolute;
+                top: 6px;
+                right: 8px;
+            }
+        }
+    }
+
+    // Thread list
+    .list-3YHPPb{
+        padding: 0 24px !important; // Override inline
+
+        .sectionHeader-QsOv68{
+            @include TypeBodyStrong;
+            color: $TextFillColorPrimary !important; // Override inline
+            text-transform: capitalize;
+        }
+    }
+
+    // Thread
+    .container-2rzKKA{
+        background-color: $CardBackgroundFillColorDefault;
+        border-radius: 4px;
+        .threadNameLine-1FNzAW{
+            margin-bottom: 4px;
+            @include TypeBody;
+            .threadName-2k9mLl{
+                color: $TextFillColorPrimary;
+            }
+        }
+        .subtext-21DUaG{
+            @include TypeCaption;
+            color: $TextFillColorSecondary;
+            .markup-eYLPri{
+                @include TypeCaption;
+            }
+        }
+    }
+}
