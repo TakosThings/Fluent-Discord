@@ -36,15 +36,6 @@
             background-color: $SubtleFillColorSecondary;
             border-color: $SubtleFillColorSecondary;
         }
-        // Avatar
-        .avatar-6qzftW{
-            foreignObject{
-                mask: none;
-            }
-            .avatar-b5OQ1N{
-                border-radius: 50%;
-            }
-        }
         // Username
         .name-3Vmqxm{
             @include TypeBody;
