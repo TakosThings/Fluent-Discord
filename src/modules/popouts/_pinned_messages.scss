@@ -16,6 +16,17 @@
         padding-top: 0;
     }
 
+    // Empty
+    .emptyPlaceholder-1-a1LK{
+        .image-t6rLT3{
+            display: none;
+        }
+        .body-GBnhET{
+            white-space: unset;
+            @include TypeBody;
+        }
+    }
+
     // Message
     .messageGroupWrapper-1jf_7C{
         background-color: $CardBackgroundFillColorDefault;
