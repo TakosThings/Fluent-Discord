@@ -1,6 +1,6 @@
 // Voice activity
 .theme-dark .container-8Futzw{
-    background: $MicaBackgroundFillColorBase;
+    background: $SolidBackgroundFillColorSecondary;
     backdrop-filter: blur(16px);
     border: 1px solid $SurfaceStrokeColorFlyout;
     border-radius: 8px;
@@ -58,7 +58,7 @@
 
 // Active thread
 .popout-TdhJ6Z{
-    background: $MicaBackgroundFillColorBase;
+    background: $SolidBackgroundFillColorSecondary;
     backdrop-filter: blur(16px);
     border: 1px solid $SurfaceStrokeColorFlyout;
     border-radius: 8px;
@@ -75,5 +75,18 @@
         .timestamp-3gPmzJ{
             color: $TextOnAccentFillColorPrimary;
         }
+    }
+}
+
+// Stream preview
+.theme-dark .streamPreview-I7itZ6{
+    background: $SolidBackgroundFillColorSecondary;
+    backdrop-filter: blur(16px);
+    border: 1px solid $SurfaceStrokeColorFlyout;
+    border-radius: 8px;
+    @include Elevation32;
+
+    .previewContainer-35LFgt{
+        background-color: transparent;
     }
 }
