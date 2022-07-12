@@ -15,6 +15,9 @@
     &[id="user-settings-cog-Connections"]::before{
         content: "\F0B9"; // Connected
     }
+    &[id="user-settings-cog-Friend_Requests"]::before{
+        content: "\E1E2"; // AddFriend
+    }
     &[id="user-settings-cog-Discord_Nitro"]::before{
         content: "N";
         @include FontNormal;
@@ -61,6 +64,9 @@
     }
     &[id="user-settings-cog-Advanced"]::before{
         content: "\E7BE"; // Education
+    }
+    &[id="user-settings-cog-Activity_Privacy"]::before{
+        content: "\E72E"; // Lock
     }
     &[id="user-settings-cog-Game_Activity"]::before{
         content: "\E7FC"; // Game
