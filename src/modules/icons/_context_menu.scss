@@ -340,6 +340,9 @@
     &[id="guild-context-leave-guild"]::before{
         content: "\F3B1"; // SignOut
     }
+    &[id="guild-context-devmode-copy-id"]::before{
+        content: "\E943"; // Code
+    }
 
     // Guild settings sub menu
     &[id="guild-context-guild-settings--OVERVIEW"]::before{
