@@ -337,6 +337,9 @@
     &[id="guild-context-create-event"]::before{
         content: "\E163"; // Calendar
     }
+    &[id="guild-context-report-raid"]::before{
+        content: "\E1DE"; // ReportHacked
+    }
     &[id="guild-context-leave-guild"]::before{
         content: "\F3B1"; // SignOut
     }
