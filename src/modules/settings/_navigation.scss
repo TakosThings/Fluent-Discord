@@ -99,7 +99,7 @@
     .info-3pQQBb{
         &::before{
             content: "Fluent Discord #{$version}";
-            color: #72767d;
+            color: $TextFillColorSecondary;
             font-size: 12px;
             line-height: 16px;
         }
