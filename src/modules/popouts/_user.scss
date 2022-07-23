@@ -1,25 +1,27 @@
 .theme-dark .userPopout-2j1gM4{
     @include Elevation128;
+    background-color: $SolidBackgroundFillColorTertiary;
+    border: 1px solid $SurfaceStrokeColorFlyout;
 
-    .popoutBanner-3cqRD9,
-    .popoutBannerPremium-3i5EEI{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        border-radius: 8px;
-        filter: saturate(150%);
-        &::after{
-            content: "";
-            height: 100%;
-            width: 100%;
-            position: absolute;
-            background-image: linear-gradient(0deg, rgba(0,0,0,80%) 50%, transparent 100%);
-            border-radius: 8px;
-        }
-        .bannerOverlayPopout-1clJ34{
-            display: none;
-        }
-    }
+    // .popoutBanner-3cqRD9,
+    // .popoutBannerPremium-3i5EEI{
+    //     position: absolute;
+    //     width: 100%;
+    //     height: 100%;
+    //     border-radius: 8px;
+    //     filter: saturate(150%);
+    //     &::after{
+    //         content: "";
+    //         height: 100%;
+    //         width: 100%;
+    //         position: absolute;
+    //         background-image: linear-gradient(0deg, rgba(0,0,0,80%) 50%, transparent 100%);
+    //         border-radius: 8px;
+    //     }
+    //     .bannerOverlayPopout-1clJ34{
+    //         display: none;
+    //     }
+    // }
     // Premium banner
     .popoutBannerPremium-3i5EEI{
         background-position: 0 0;
@@ -55,7 +57,7 @@
 
     // Usernames
     .headerTop-3GPUSF{
-        padding: 132px 24px 12px 24px;
+        // padding: 132px 24px 12px 24px;
     }
     .headerTag-3GXZkV{
         @include TypeSubtitle;
