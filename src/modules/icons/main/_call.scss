@@ -31,6 +31,13 @@ html[lang^="en-"].theme-dark .wrapper-1gVUIN .controlSection-1mNixL .button-f2h6
         content: "\E137"; // HangUp
     }
 
+    &[aria-label="Hide chat"]::before{
+        content: "\E70D"; // ChevronDown
+    }
+    &[aria-label="Show chat"]::before{
+        content: "\E70D"; // ChevronDown
+    }
+
     &[aria-label="Pop Out"]::before{
         content: "\E17C"; // NewWindow
     }
