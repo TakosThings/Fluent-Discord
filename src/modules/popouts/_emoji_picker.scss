@@ -44,12 +44,11 @@
         box-shadow: none;
     }
     // Search
-    .container-1SX9VC,
-    .container-2oNtJn{ // GIFs search
+    .container-1SX9VC{ // GIFs search
         background-color: transparent;
     }
-    .input-2FSSDe,
-    .input-2m5SfJ{ // GIFs search
+    // Emoji search
+    .input-2FSSDe{
         height: 32px;
         padding-right: 32px;
         background-color: $ControlFillColorDefault;
@@ -69,10 +68,18 @@
         }
     }
     // Search clear button
-    .iconLayout-SqV3nb,
-    .iconLayout-3Bjizv{ // GIFs search
+    .iconLayout-SqV3nb{
         position: absolute;
+        top: 6px;
         right: 4px;
+        &.medium-13kyaW{
+            width: 22px;
+            height: 22px;
+            .iconContainer-1RqWJj{
+                width: 16px;
+                height: 16px;
+            }
+        }
     }
 
     // Emoji

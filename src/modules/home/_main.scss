@@ -12,30 +12,6 @@
         // Search bar
         .searchBar-2aylmZ{
             background-color: transparent;
-            .input-2m5SfJ{
-                background-color: $ControlFillColorDefault;
-                @include TypeBody;
-                border: 1px solid;
-                border-bottom-width: 2px;
-                border-color: $ControlStrokeColorDefault;
-                border-radius: 4px;
-                &:hover{
-                    border-color: $ControlStrokeColorSecondary;
-                }
-                &:focus{
-                    background-color: $ControlFillColorInputActiveBrush;
-                    color: $TextFillColorPrimary;
-                    border-color: $ControlStrokeColorDefault;
-                    border-bottom-color: $AccentBase;
-                }
-                &::placeholder{
-                    color: $TextFillColorSecondary;
-                }
-            }
-            .iconLayout-3Bjizv{
-                position: absolute;
-                right: 8px;
-            }
         }
 
         // Header

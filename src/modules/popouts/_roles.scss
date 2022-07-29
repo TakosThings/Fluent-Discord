@@ -7,29 +7,6 @@
     .container-2oNtJn{
         background-color: transparent;
         border-radius: 0;
-        .input-2m5SfJ{
-            height: 32px;
-            background-color: transparent;
-            border: 1px solid;
-            border-bottom-width: 2px;
-            border-radius: 4px;
-            @include TypeBody;
-            background-color: $ControlFillColorDefault;
-            color: $TextFillColorSecondary;
-            border-color: $ControlStrokeColorDefault;
-            &:hover{
-                border-color: $ControlStrokeColorSecondary;
-            }
-            &:focus{
-                background-color: $ControlFillColorInputActiveBrush;
-                color: $TextFillColorPrimary;
-                border-color: $ControlStrokeColorDefault;
-                border-bottom-color: $AccentBase;
-            }
-            &::placeholder{
-                color: $TextFillColorSecondary;
-            }
-        }
     }
 
     // Items

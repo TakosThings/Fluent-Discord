@@ -30,35 +30,6 @@
         }
         .searchBox-3IjAC1{
             background-color: transparent;
-            .input-2m5SfJ{
-                height: 32px;
-                padding: 0 8px;
-                border: 1px solid;
-                border-bottom-width: 2px;
-                border-color: $ControlStrokeColorDefault;
-                border-radius: 4px;
-                @include TypeBody;
-                background-color: $ControlFillColorDefault;
-                color: $TextFillColorSecondary;
-                &:hover{
-                    border-color: $ControlStrokeColorSecondary;
-                }
-                &:focus{
-                    background-color: $ControlFillColorInputActiveBrush;
-                    color: $TextFillColorPrimary;
-                    border-color: $ControlStrokeColorDefault;
-                    border-bottom-color: $AccentBase;
-                }
-                &::placeholder{
-                    color: $TextFillColorSecondary;
-                }
-            }
-
-            .iconLayout-3Bjizv{
-                position: absolute;
-                top: 6px;
-                right: 8px;
-            }
         }
     }
 
