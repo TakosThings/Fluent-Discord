@@ -20,7 +20,9 @@
         &.colorGreen-3y-Z79, // Join server terms modal
         &.colorBrandNew-2-gGsS{ // eg. User Settings > Accessibility > TTS Rate
             background-color: $AccentFillColorDefault;
-            border: 1px solid $ControlStrokeColorOnAccentDefault;
+            border-width: 1px;
+            border-style: inset;
+            border-color: $AccentControlElevationBorder;
             color: $TextOnAccentFillColorPrimary;
             &:hover{
                 background-color: $AccentFillColorSecondary;
@@ -34,7 +36,9 @@
         &.colorPrimary-2AuQVo,
         &.buttonColor-28DXIe{ // Voice screen invite button
             background-color: $ControlFillColorDefault;
-            border: 1px solid $ControlStrokeColorDefault;
+            border-width: 1px;
+            border-style: outset;
+            border-color: $ControlElevationBorder;
             color: $TextFillColorPrimary;
             &:hover{
                 background-color: $ControlFillColorSecondary;
@@ -97,7 +101,9 @@
     &.lookBlank-21BCro{ // eg. Add server 'back' buttons
         &.backButton-2Ps-B8{
             background-color: $ControlFillColorDefault;
-            border: 1px solid $ControlStrokeColorDefault;
+            border-width: 1px;
+            border-style: outset;
+            border-color: $ControlElevationBorder;
             color: $TextFillColorPrimary;
             &:hover{
                 background-color: $ControlFillColorSecondary;
@@ -111,7 +117,9 @@
     // Link button
     &.lookLink-15mFoz{
         background-color: $ControlFillColorDefault;
-        border: 1px solid $ControlStrokeColorDefault;
+        border-width: 1px;
+        border-style: outset;
+        border-color: $ControlElevationBorder;
         color: $TextFillColorPrimary;
         &:hover{
             background-color: $ControlFillColorSecondary;
