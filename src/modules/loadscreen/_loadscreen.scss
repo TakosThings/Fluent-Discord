@@ -4,11 +4,77 @@
     top: -32px;
 }
 
-@keyframes fluent-loading-blobs{
-    0%   { opacity: 0; left: 0; top: 0%}
-    25%  { opacity: .7; }
-    50%  { opacity: 0; left: 25%; top: 50%; }
-	100% { opacity: 0; }
+// Source: C:\Windows\System32\oobe\FirstLogonAnim.html
+@keyframes fluent-loading-blob1-path{
+    0%{
+        top:50vh;
+        left:50vw;
+        width:5vw;
+        height:5vw;
+        opacity:0.5;
+    }
+    50%{
+        top:0vh;
+        left:45vw;
+        width:60vw;
+        height:60vw;
+        opacity: 1;
+    }
+    100%{
+        top:50vh;
+        left:50vw;
+        width:5vw;
+        height:5vw;
+        opacity:0.5;
+    }
+}
+@keyframes fluent-loading-blob2-path {
+    0%{
+        top:40vh;
+        left:45vw;
+        width:15vw;
+        height:15vw;
+    }
+    50%{
+        top:37vh;
+        left:-10vw;
+        width:80vw;
+        height:80vw;
+    }
+    100%{
+        top:40vh;
+        left:45vw;
+        width:15vw;
+        height:15vw;
+    }
+}
+@keyframes fluent-loading-blob3-path {
+    0%{
+        top:30vh;
+        left:30vw;
+        width:25vw;
+        height:25vw;
+    }
+    50%{
+        top:-50vh;
+        left:-20vw;
+        width:120vw;
+        height:120vw;
+    }
+    100%{
+        top:30vh;
+        left:30vw;
+        width:25vw;
+        height:25vw;
+    }
+}
+@keyframes fluent-loading-blob-fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 
@@ -19,24 +85,26 @@
     &::before,
     &::after{
         content: "";
-        width: 1024px;
-        height: 1024px;
         position: absolute;
-        background: radial-gradient(circle, $AccentBase 0%, transparent 70%);
     }
     &::before{
-        transform: translate(-192px, -192px);
-
-        opacity: 0;
-        animation: fluent-loading-blobs 10s linear infinite;
-        animation-delay: 5s; // Delay starting animations
+        background: radial-gradient(50% 50% at 50% 50%, rgba(12, 119, 255, 0.3) 15.62%, rgba(12, 119, 255, 0) 100%);
+        animation: fluent-loading-blob1-path 15s infinite, fluent-loading-blob-fade 1332ms ease-out;
     }
     &::after{
-        transform: translate(192px, 64px);
-
-        opacity: 0;
-        animation: fluent-loading-blobs 17s linear infinite;
-        animation-delay: 20s; // Delay starting animations
+        background: radial-gradient(50% 50% at 50% 50%, rgba(0, 56, 255, 0.3) 15.62%, rgba(12, 119, 255, 0) 100%);
+        animation: fluent-loading-blob2-path 20s infinite, fluent-loading-blob-fade 1332ms ease-out;
+    }
+}
+.content-3AIQZv{
+    width: 64px;
+    height: 64px;
+    &::before{
+        content: "";
+        position: absolute;
+        display: block;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(65, 56, 210, 0.5) 15.62%, rgba(65, 56, 210, 0) 100%);
+        animation: fluent-loading-blob3-path 30s infinite, fluent-loading-blob-fade 1332ms ease-out;
     }
 }
 
