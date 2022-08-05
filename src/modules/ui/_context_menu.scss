@@ -1,8 +1,9 @@
 .theme-dark .menu-1QACrS{
-    min-width: 240px;
-    background-color: rgba($color: #2d2d2d, $alpha: .93);
-    border: 1px solid $SurfaceStrokeColorFlyout;
-    border-radius: 4px;
+    min-width: 280px;
+    background: $AcrylicBackgroundFillColorDefault;
+    border: 1px solid $SurfaceStrokeColorDefault;
+    border-radius: 8px;
+    @include Elevation32;
     position: relative;
 
     &::before{
@@ -12,12 +13,12 @@
         position: absolute;
         top: 0;
         left: 0;
-        backdrop-filter: blur(10px);
-        border-radius: 4px;
+        backdrop-filter: blur(8px);
+        border-radius: 8px;
     }
 
     .scroller-1bVxF5{
-        // padding: 0 8px;
+        padding: 4px 8px;
         max-height: calc(100vh - 64px);
     }
 
@@ -36,7 +37,7 @@
         @include TypeBody;
         color: $TextFillColorPrimary;
         &.focused-3qFvc8{
-            background-color: $CardBackgroundFillColorSecondary;
+            background-color: $SubtleFillColorSecondary;
         }
         &.colorDanger-3n-KnP{
             color: $SystemFillColorCritical;
@@ -97,9 +98,9 @@
     .button-1zW0-r{
         width: 24px;
         height: 24px;
-        background-color: $CardBackgroundFillColorSecondary;
+        background-color: transparent;
         &.focused-H4w81f{
-            background-color: $CardBackgroundFillColorSecondary;
+            background-color: $SubtleFillColorSecondary;
             box-shadow: none;
         }
         .icon-Yl4xbA{
@@ -146,8 +147,8 @@
 
     .submenu-1apzyU{
         min-width: 240px;
-        background-color: rgba($color: #2d2d2d, $alpha: .95);
-        border: 1px solid $SurfaceStrokeColorFlyout;
+        background-color: $AcrylicBackgroundFillColorDefault;
+        border: 1px solid $SurfaceStrokeColorDefault;
         position: relative;
         &::before{
             content: "";
@@ -156,7 +157,7 @@
             position: absolute;
             top: 0;
             left: 0;
-            backdrop-filter: blur(10px);
+            backdrop-filter: blur(8px);
         }
     }
 }
