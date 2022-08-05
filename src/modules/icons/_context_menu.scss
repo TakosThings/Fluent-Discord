@@ -347,6 +347,19 @@
         content: "\E943"; // Code
     }
 
+    // Mark folder as read
+    &[id="guild-context-mark-folder-read"]::before{
+        content: "\E166"; // Read
+    }
+    // Folder settings
+    &[id="guild-context-folder-settings"]::before{
+        content: "\E8B7"; // Folder
+    }
+    // Close all folders
+    &[id="guild-context-folder-collapse"]::before{
+        content: "\ED41"; // TreeFolderFolder
+    }
+
     // Guild settings sub menu
     &[id="guild-context-guild-settings--OVERVIEW"]::before{
         content: "\F246"; // ViewDashboard
