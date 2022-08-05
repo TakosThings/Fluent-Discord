@@ -60,11 +60,11 @@ $AccentFillColorSelectedTextBackground:         $AccentDark1;           // Highl
 
 // Elevation (gradient strokes)
 // Control Elevation - Standard control strokes and stroke states: Button, Dropdown, Search
-$ControlElevationBorder:                        linear-gradient(180deg, rgba(#FFFFFF, 0.093) 0%,    rgba(#FFFFFF, 0.0698) 9.57%);                                      // Rest
-$CircleElevationBorder:                         linear-gradient(180deg, rgba(#FFFFFF, 0.093) 0%,    rgba(#FFFFFF, 0.0698) 50%);                                        // Rest
-$TextControlElevationBorder:                    linear-gradient(180deg, rgba(#FFFFFF, 0.08) 99.98%, rgba(#FFFFFF, 0.5442) 100%, rgba(#FFFFFF, 0.5442) 100%);  // Rest
-$TextControlElevationBorderFocused:             linear-gradient(180deg, rgba(#FFFFFF, 0.08) 96.89%, $AccentBase 96.9%);                                                   // Active text fields
-$AccentControlElevationBorder:                  linear-gradient(180deg, rgba(#FFFFFF, 0.08) 90.67%, rgba(#000000, 0.14) 100%);                                            // Rest
+$ControlElevationBorder:                        rgba(255, 255, 255, 0.09) rgba(255, 255, 255, 0.09) rgba(255, 255, 255, 0.07) rgba(255, 255, 255, 0.09);        // Rest
+$CircleElevationBorder:                         linear-gradient(180deg, rgba(#FFFFFF, 0.093) 0%,    rgba(#FFFFFF, 0.0698) 50%);                                 // Rest
+$TextControlElevationBorder:                    linear-gradient(180deg, rgba(#FFFFFF, 0.08) 99.98%, rgba(#FFFFFF, 0.5442) 100%, rgba(#FFFFFF, 0.5442) 100%);    // Rest
+$TextControlElevationBorderFocused:             linear-gradient(180deg, rgba(#FFFFFF, 0.08) 96.89%, $AccentBase 96.9%);                                         // Active text fields
+$AccentControlElevationBorder:                  rgba(255, 255, 255, 0.08) rgba(255, 255, 255, 0.08) rgba(0, 0, 0, 0.4);                                         // Rest
 
 // Stroke
 // Control stroke - Used for gradient stops in elevation border, and for control states: Button, Dropdown, Search
@@ -129,6 +129,20 @@ $SystemFillColorCriticalBackground:             #442726;                // Infob
 $SystemFillColorNeutralBackground:              rgba(#FFF, 3.26%);      // Infobar background
 $SystemFillColorSolidNeutralBackground:         #2E2E2E;                // Neutral badges over content
 $SystemFillColorSolidAttentionBackground:       #1C1C1C;
+
+// Animation
+$AnimationFastInvokeFast:                       187ms cubic-bezier(0, 0, 0, 1);
+$AnimationFastInvokeMedium:                     333ms cubic-bezier(0, 0, 0, 1);
+$AnimationFastInvokeSlow:                       500ms cubic-bezier(0, 0, 0, 1);
+$AnimationStrongEvoke:                          667ms cubic-bezier(0.13, 1.62, 0, 0.92);
+$AnimationFastDismissFast:                      187ms cubic-bezier(0, 0, 0, 1);
+$AnimationFastDismissMedium:                    333ms cubic-bezier(0, 0, 0, 1);
+$AnimationFastDismissSlow:                      500ms cubic-bezier(0, 0, 0, 1);
+$AnimationSoftDismiss:                          167ms cubic-bezier(1, 0, 1, 1);
+$AnimationPointToPointFast:                     187ms cubic-bezier(0.55, 0.55, 0, 1);
+$AnimationPointToPointMedium:                   333ms cubic-bezier(0.55, 0.55, 0, 1);
+$AnimationPointToPointSlow:                     500ms cubic-bezier(0.55, 0.55, 0, 1);
+$AnimationFadeInOut:                            83ms linear;
 
 // Accent Colours
 $YellowGold:                                    #ffb900;
