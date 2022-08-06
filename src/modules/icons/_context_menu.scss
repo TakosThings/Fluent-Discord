@@ -379,6 +379,9 @@
     &[id="guild-context-guild-settings--MODERATION"]::before{
         content: "\EC81"; // PoliceCar
     }
+    &[id="guild-context-guild-settings--GUILD_AUTOMOD"]::before{
+        content: "\E7BA"; // Warning
+    }
     &[id="guild-context-guild-settings--AUDIT_LOG"]::before{
         content: "\E9D5"; // CheckList
     }
@@ -390,6 +393,9 @@
     }
     &[id="guild-context-guild-settings--GUILD_TEMPLATES"]::before{
         content: "\E8C8"; // Copy
+    }
+    &[id="guild-context-guild-settings--VANITY_URL"]::before{
+        content: "\E167"; // Link
     }
     &[id="guild-context-guild-settings--COMMUNITY"]::before{
         content: "\E902"; // Group
