@@ -219,6 +219,9 @@
     &[id="guild-header-popout-hide-muted-channels"]::before{
         content: "\ED1A"; // Hide
     }
+    &[id="guild-header-popout-report-raid"]::before{
+        content: "\E1DE"; // ReportHacked
+    }
     &[id="guild-header-popout-leave"]::before{
         content: "\F3B1"; // SignOut
     }
