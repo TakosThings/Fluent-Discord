@@ -2,6 +2,14 @@
 .theme-dark .panels-3wFtMD{
     background-color: transparent;
 
+    // Remove margin on avatar/username wrapper
+    .avatarWrapper-1B9FTW{
+        margin-right: 0;
+        &:hover{
+            background-color: transparent;
+        }
+    }
+
     .button-12Fmur{
         margin-left: 4px;
         background-color: $ControlFillColorDefault;
@@ -19,6 +27,9 @@
                 width: 16px;
                 height: 16px;
             }
+        }
+        &:first-child{
+            margin-left: 0;
         }
 
         // Make muted buttons red
