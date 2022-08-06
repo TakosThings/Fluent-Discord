@@ -18,6 +18,9 @@ html[lang^="en-"].theme-dark .wrapper-2vIMkT{
         &[aria-label="Pin Message"]::before{
             content: "\E141"; // Pin
         }
+        &[aria-label="Unpin Message"]::before{
+            content: "\E196"; // UnPin
+        }
         &[aria-label="Copy Link"]::before{
             content: "\E167"; // Link
         }
