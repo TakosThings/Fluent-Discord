@@ -36,7 +36,8 @@
 
 // Streaming game/app
 .theme-dark .activityPanel-9icbyU{
-    border-top: 1px solid $DividerStrokeColorDefault;
+    padding-bottom: 0;
+    border-top: 0;
     border-bottom: 0;
     .title-338goq{
         @include TypeBody;
