@@ -1,0 +1,65 @@
+.theme-dark .menu-2-eHMB{
+    .banner-1YaD3N{
+        margin: -2px 0 0 -8px;
+    }
+
+    .avatar-2Vndt_{
+        background-color: transparent;
+        border: 0;
+    }
+    .avatarHint-k7pYop{
+        top: 0;
+        left: 0;
+    }
+    .avatarHintInner-2HUAWj{
+        mask: none;
+        font-size: 0;
+        &::before{
+            content: "\e8d4"; // Contact2
+            @include FontIconFluent;
+            color: $TextFillColorPrimary;
+            font-size: 32px;
+            font-weight: normal;
+        }
+    }
+
+    .bodyInnerWrapper-2bQs1k{
+        background-color: transparent;
+        color: $TextFillColorPrimary;
+        .divider-1wtgZ3{
+            display: none;
+        }
+        .eyebrow-Ejf06y,
+        .headerText-3g1XK9{
+            color: $TextFillColorPrimary !important; // Override inline
+            @include TypeBodyStrong;
+            text-transform: none;
+        }
+    }
+
+    .item-1OdjEX{
+        &#account-status-picker{
+            .icon-E4cW1l{
+                display: block;
+            }
+        }
+
+        &#account-set-custom-status{
+            &::before{
+                content: "\E8AC"; // Rename
+            }
+            .iconContainerLeft-2NHJgN{
+                display: none;
+            }
+        }
+        &#account-switch-account{
+            &::before{
+                content: "\E748"; // SwitchUser
+            }
+            .iconContainerLeft-2NHJgN{
+                display: none;
+            }
+        }
+    }
+
+}
