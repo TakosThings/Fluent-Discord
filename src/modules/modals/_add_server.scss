@@ -15,7 +15,7 @@
         .title-1_TkpU,
         .subtitle-3m-md1{
             text-align: left;
-            color: $TextFillColorPrimary;
+            color: $TextFillColorPrimary !important; // Override inline
         }
         .title-1_TkpU{
             @include TypeSubtitle;
@@ -35,7 +35,7 @@
         margin-top: 0;
         padding-top: 24px;
         .optionHeader-27AHfD{
-            color: $TextFillColorPrimary;
+            color: $TextFillColorPrimary !important; // Override inline
             @include TypeBodyStrong;
             text-transform: none;
         }
@@ -76,12 +76,12 @@
     // Community guidelines
     .guidelines-FvqqF2{
         margin-bottom: 16px;
-        color: $TextFillColorSecondary;
+        color: $TextFillColorSecondary !important; // Override inline
         @include TypeCaption;
     }
     // Skip question
     .skip-2hTIXL{
-        color: $TextFillColorSecondary;
+        color: $TextFillColorSecondary !important; // Override inline
         @include TypeCaption;
         text-align: left;
     }
@@ -141,6 +141,10 @@
     .footer-31IekZ{
         background-color: transparent;
         box-shadow: none;
+        .footerTitle-3Bslxi{
+            @include TypeBodyStrong;
+            color: $TextFillColorPrimary;
+        }
     }
 
 
@@ -153,7 +157,7 @@
         .title-OdeD-o,
         .subtitle-1cc8Nz{
             text-align: left;
-            color: $TextFillColorPrimary;
+            color: $TextFillColorPrimary !important; // Override inline
         }
         .title-OdeD-o{
             @include TypeSubtitle;
@@ -182,7 +186,7 @@
         .title-2Giw-4,
         .subtitle-bIoUVX{
             text-align: left;
-            color: $TextFillColorPrimary;
+            color: $TextFillColorPrimary !important; // Override inline
         }
         .title-2Giw-4{
             @include TypeSubtitle;
