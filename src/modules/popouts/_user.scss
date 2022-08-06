@@ -50,6 +50,7 @@
         &::before{
             content: "\e8d4"; // Contact2
             @include FontIconFluent;
+            color: $TextFillColorPrimary;
             font-size: 32px;
             font-weight: normal;
         }
