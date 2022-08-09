@@ -21,7 +21,8 @@
 
     // Chat
     .chat-1-OBC7, // Viewing thread
-    .chat-1rZYgu{ // Creating new thread
+    .chat-1rZYgu, // Creating new thread
+    .chat-25x62K{ // Forum thread
         background-color: $LayerFillColorDefault;
         border-top: 1px solid $CardStrokeColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
@@ -39,6 +40,42 @@
         .colorHeaderSecondary-3Sp3Ft{
             color: $TextFillColorPrimary;
         }
+    }
+
+    // Forum thread
+    .container-3YcgdM{
+        margin: 16px;
+        padding: 4px 8px;
+        background: $MicaBackgroundFillColorBase;
+        border: 1px solid $SurfaceStrokeColorFlyout;
+        border-radius: 8px;
+
+        // Only apply filter when stickied
+        &.header-1RJoTb{
+            backdrop-filter: blur(8px);
+            @include Elevation32;
+        }
+
+        // Fix reactions position
+        .reactions-3HFE-S{
+            margin-bottom: -3px;
+        }
+
+        // Fix follow/link button sizes
+        .button-DAkLIy{
+            min-width: unset;
+        }
+        .addReactButton-3bSQb6,
+        .buttonInner-3aRbcx{
+            background-color: $ControlFillColorDefault;
+            border-width: 1px;
+            border-style: outset;
+            border-color: $ControlElevationBorder;
+            border-radius: 4px;
+        }
+    }
+    .divider-AZrXIA{
+        display: none;
     }
 
     // Start of history

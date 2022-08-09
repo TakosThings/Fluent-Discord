@@ -1,5 +1,6 @@
 .theme-dark .chat-2ZfjoI,
-.theme-dark .chat-1-OBC7{
+.theme-dark .chat-1-OBC7,
+.theme-dark .chat-25x62K{ // Forum thread chat
     background-color: transparent;
 
     .content-1jQy2l{
@@ -152,7 +153,8 @@
     }
 
     // Reactions
-    .reaction-3vwAF2{
+    .reaction-3vwAF2,
+    .reaction-102jx9{ // Threads channel
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
         color: $TextFillColorPrimary;
