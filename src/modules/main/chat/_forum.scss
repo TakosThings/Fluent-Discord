@@ -1,0 +1,69 @@
+.theme-dark .container-3wLKDe{
+    background-color: transparent;
+
+    // Search
+    .header-1Uy0p6{
+        border: 0;
+        box-shadow: none;
+        cursor: default;
+        &.mainCard-3KBsBI{
+            background-color: transparent;
+        }
+
+        .container-JhuCwn{
+            padding: 0;
+        }
+
+        .form-25Aujy{
+            .pencilIcon-1d4fcw,
+            .searchIcon-2Nw0OL,
+            .closeIcon-3xe5xL{
+                width: 16px;
+                top: 4px;
+                right: 6px;
+                left: unset;
+            }
+
+            .searchInput-3NGPfp{
+                margin-top: 0;
+                padding-right: 8px;
+                &::placeholder{
+                    @include TypeBody;
+                }
+            }
+
+            .submitButton-3B-dZd{
+                margin-left: 8px;
+            }
+        }
+    }
+
+    // Sidebar
+    .sidebarCard-1Gn1ch{
+        background-color: $LayerFillColorAlt;
+        border: 1px solid $CardStrokeColorDefault;
+        border-radius: 8px;
+    }
+
+    // Threads
+    .mainCard-3KBsBI{
+        background-color: $LayerFillColorAlt;
+        border: 1px solid $CardStrokeColorDefault;
+        border-radius: 8px;
+
+        &.container-2qVG6q:active,
+        &.container-2qVG6q:hover{
+            transform: none;
+            box-shadow: none;
+            border-color: $CardStrokeColorDefaultSolid;
+        }
+
+        .channelName-1On3TJ{
+            color: $TextFillColorPrimary !important; // Override inline
+            @include TypeBodyStrong;
+        }
+        .messageContent-1SOr75{
+            @include TypeBody;
+        }
+    }
+}
