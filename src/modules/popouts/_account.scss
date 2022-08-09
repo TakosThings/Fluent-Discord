@@ -48,7 +48,8 @@
             }
         }
 
-        &#account-set-custom-status{
+        &#account-set-custom-status,
+        &#account-edit-custom-status{
             &::before{
                 content: "\E8AC"; // Rename
             }
