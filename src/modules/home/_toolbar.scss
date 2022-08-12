@@ -37,22 +37,10 @@
                 }
             }
             // Add friend button
-            &[style]{
-                background-color: transparent !important; // Override inline
-                &:hover{
-                    color: $TextFillColorSecondary !important; // Override inline
-                }
-                &[aria-selected=true]{
-                    color: $TextFillColorPrimary !important; // Override inline
-                    &::before{
-                        content: "";
-                        position: absolute;
-                        width: 100%;
-                        height: 3px;
-                        background-color: $AccentLight1;
-                        border-radius: 2px;
-                        bottom: 2px;
-                    }
+            &.addFriend-emTWY1{
+                background-color: transparent;
+                &.selected-g-kMVV{
+                    color: $TextFillColorPrimary;
                 }
             }
 
