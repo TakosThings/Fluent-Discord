@@ -8,7 +8,13 @@
     }
 }
 
-.theme-dark .root-g14mjS.zoomedCarouselModalRoot-1tAxiu{
+.theme-dark .root-g14mjS.zoomedCarouselModalRoot-beLNhM{
     background-color: transparent;
     border: 0;
+
+    .downloadLink-1OAglv{
+        color: $TextFillColorSecondary;
+        @include TypeBody;
+        opacity: 1;
+    }
 }
