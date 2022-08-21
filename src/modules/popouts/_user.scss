@@ -27,9 +27,6 @@
         background-position: 0 0;
         background-size: 300px 120px
     }
-    .avatarPositionPremium-1zPBq9{
-        top: 16px;
-    }
 
     // Avatar
     .avatarWrapper-eenWra{
@@ -56,10 +53,21 @@
         }
     }
 
-    // Usernames
-    .headerTop-3GPUSF{
-        // padding: 132px 24px 12px 24px;
+    .avatarPositionPremium-1zPBq9 {
+        position: absolute;
+        top: 80px;
     }
+
+    // Usernames
+    .headerTop-3GPUSF {
+        // padding: 132px 24px 12px 24px;
+        padding: 64px 24px 24px;
+    }
+
+    .headerTopWithCustomStatus-1aNSNd {
+        padding-bottom: 12px;
+    }
+
     .headerTag-3GXZkV{
         @include TypeSubtitle;
         span{
