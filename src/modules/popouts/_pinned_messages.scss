@@ -1,4 +1,5 @@
 .theme-dark .messagesPopoutWrap-3zryHW{
+    max-height: calc(100vh - 32px - 48px - 12px) !important; // Fixes window jumping when alt-tabbed
     background: $MicaBackgroundFillColorBase;
     backdrop-filter: blur(16px);
     border: 1px solid $SurfaceStrokeColorDefault;
