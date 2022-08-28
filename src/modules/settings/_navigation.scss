@@ -26,7 +26,7 @@
     }
 
     .side-2ur1Qk .item-3XjbnG{
-        padding: 0 12px 0 44px;
+        padding: 0 12px 0 16px;
         margin-bottom: 4px;
         border: 1px solid transparent;
         border-radius: 4px;
@@ -34,6 +34,8 @@
         @include TypeBody;
         line-height: 34px;
         &::after{
+            // NOTE - 2022-08-28: Temporary measure to force no content until aria-label or aria-controls is re-added
+            content: unset !important;
             position: absolute;
             top: 0;
             left: 16px;
