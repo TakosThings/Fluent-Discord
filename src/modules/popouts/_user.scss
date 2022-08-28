@@ -22,10 +22,16 @@
     //         display: none;
     //     }
     // }
+
+    .popoutBanner-3cqRD9{
+        height: 128px;
+    }
+
     // Premium banner
     .popoutBannerPremium-3i5EEI{
+        height: 128px;
         background-position: 0 0;
-        background-size: 300px 120px
+        background-size: 300px 128px
     }
     .avatarPositionPremium-1zPBq9{
         top: 16px;
@@ -58,7 +64,7 @@
 
     // Usernames
     .headerTop-3GPUSF{
-        // padding: 132px 24px 12px 24px;
+        padding: 48px 24px 12px 24px;
     }
     .headerTag-3GXZkV{
         @include TypeSubtitle;
