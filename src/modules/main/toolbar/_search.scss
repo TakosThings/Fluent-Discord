@@ -1,8 +1,8 @@
 .theme-dark .chat-2ZfjoI .search-39IXmY{
     margin: 0;
     .searchBar-jGtisZ{
-        width: 64px;
-        height: 36px;
+        width: 60px;
+        height: 32px;
         background-color: transparent;
         background-position: center;
         background-repeat: no-repeat;
@@ -24,11 +24,11 @@
     // Icon when not active
     .search-2Mwzzq:not(.focused-1xh-wG):not(.open-1F8u2c)::before{
         content: "\e721"; // Search
-        width: 64px;
+        width: 60px;
         font-size: 16px;
         @include FontIconFluent;
         text-align: center;
-        line-height: 36px;
+        line-height: 32px;
         vertical-align: middle;
         position: absolute;
     }

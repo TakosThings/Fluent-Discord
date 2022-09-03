@@ -41,8 +41,8 @@
     // Using these selectors so there a less conflicts in the voice screen
     div[role=button]:not(.iconLayout-SqV3nb), // The :not excluded the search/clear button in the search bar
     button[type=button]{
-        width: 64px;
-        height: 36px;
+        width: 60px;
+        height: 32px;
         margin: 0 4px 0 0;
         border-radius: 4px;
         &:hover{
@@ -76,9 +76,10 @@
         @include TypeCaption;
     }
     .iconBadge-3Mmg92{
-        width: 32px;
+        width: 16px;
         height: 3px;
-        right: 16px;
+        right: 24px;
+        bottom: 0;
         border-radius: 2px;
         background-color: $SystemFillColorCritical;
         z-index: -1;
@@ -90,10 +91,10 @@ html[lang^="en-"].theme-dark .toolbar-3_r2xA{
     .iconWrapper-2awDjA{
         &::before{
             @include FontIconFluent;
-            width: 62px;
+            width: 60px;
             position: absolute;
             font-size: 16px;
-            line-height: 36px;
+            line-height: 32px;
             text-align: center;
             display: block;
         }

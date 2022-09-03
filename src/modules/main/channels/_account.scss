@@ -2,6 +2,12 @@
 .theme-dark .panels-3wFtMD{
     background-color: transparent;
 
+    // Remove 1px margin from bottom of panel
+    .container-YkUktl{
+        height: 56px;
+        margin-bottom: 0;
+    }
+
     // Remove margin on avatar/username wrapper
     .avatarWrapper-1B9FTW{
         margin-right: 0;
