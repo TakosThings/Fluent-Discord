@@ -1,0 +1,12 @@
+.theme-dark .container-2o3qEW .botTag-2mryIa[style]{
+    padding: 0 4px;
+    border-radius: 4px;
+    text-transform: none;
+
+    &::before{
+        content: unset;
+    }
+    span{
+        display: block;
+    }
+}
