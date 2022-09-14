@@ -22,8 +22,8 @@
         width: 48px;
 
         // Hover state
-        &:hover .wrapper-28eC3z::before,
-        &.bd-selected .wrapper-28eC3z::before{
+        &:hover .wrapper-3kah-n::before,
+        .wrapper-3kah-n.selected-1Drb7Z::before{
             content: "";
             position: absolute;
             width: 40px;
@@ -43,36 +43,27 @@
         .pill-L_aLMQ, // Home
         .pill-22lZHo, // DM
         .pill-1NRFie{
-            &::before{
-                content: "";
-                width: 3px;
-                height: 16px;
-                position: absolute;
-                left: 4px;
-                top: 16px;
-                border-radius: 999px;
-                transform: scaleY(0%);
-                opacity: .3;
-                transition: transform 167ms Cubic-bezier(0,0,0,1),
-                            opacity 167ms Cubic-bezier(0,0,0,1);
-            }
-            // NOTE: 2021-02-14 - Order is important here. Apply unread style, then selected.
-            &.bd-unread::before,
-            &.bd-selected::before{
-                transform: scaleY(100%);
-                opacity: 1;
-                transition: transform 250ms Cubic-bezier(0.55,0.55,0,1),
-                            opacity 250ms Cubic-bezier(0.55,0.55,0,1);
-            }
-            &.bd-unread::before{
-                background-color: $TextFillColorSecondary;
-            }
-            &.bd-selected::before{
-                background-color: $AccentFillColorDefault;
-            }
-
             .item-2LIpTv{
-                display: none;
+                width: 3px;
+                height: 16px !important;
+                margin-left: 4px;
+                background-color: $TextFillColorSecondary;
+                border-radius: 999px;
+                transform: none !important;
+
+                // Normal state
+                @for $i from 9 through 20{
+                    &[style*="height: #{$i}"]{
+                        background-color: $TextFillColorPrimary;
+                    }
+                }
+
+                // Selected
+                @for $i from 21 through 40{
+                    &[style*="height: #{$i}"]{
+                        background-color: $AccentFillColorDefault;
+                    }
+                }
             }
         }
         // Guild icon
