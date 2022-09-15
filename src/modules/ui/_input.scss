@@ -185,3 +185,15 @@
 
     }
 }
+
+// Copy box
+.copyInput-3AbKWB{
+    height: 42px;
+    margin-bottom: 8px;
+    background-color: $ControlFillColorDefault;
+    border: 1px solid $ControlStrokeColorDefault;
+    border-radius: 4px;
+    .input-2QVoG3{
+        @include TypeBody;
+    }
+}
