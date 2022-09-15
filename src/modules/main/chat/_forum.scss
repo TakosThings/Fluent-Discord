@@ -8,6 +8,7 @@
         cursor: default;
         &.mainCard-3KBsBI{
             background-color: transparent;
+            border: 0;
         }
 
         .container-JhuCwn{
@@ -15,18 +16,19 @@
         }
 
         .form-25Aujy{
-            .pencilIcon-1d4fcw,
-            .searchIcon-2Nw0OL,
-            .closeIcon-3xe5xL{
-                width: 16px;
-                top: 4px;
-                right: 6px;
-                left: unset;
+            position: relative;
+            .prefixElement-1U4XhR{
+                position: absolute;
+                left: 12px;
+                margin-top: 4px;
+                z-index: 1;
+                svg{
+                    width: 16px;
+                }
             }
-
-            .searchInput-3NGPfp{
+            .title-1v5ZfI{
                 margin-top: 0;
-                padding-right: 8px;
+                padding: 4px 12px 4px 36px;
                 &::placeholder{
                     @include TypeBody;
                 }
@@ -35,6 +37,25 @@
             .submitButton-3B-dZd{
                 margin-left: 8px;
             }
+
+            .contentContainer-2xwoXK{
+                padding-left: 0;
+            }
+            .textArea-2CLwUE{
+                height: auto !important;
+                margin-top: 8px;
+                padding: 4px 12px;
+                background-color: $ControlFillColorDefault;
+                border: 1px solid;
+                border-bottom-width: 2px;
+                border-color: $ControlStrokeColorDefault;
+                border-radius: 4px;
+            }
+        }
+        .uploadInput-3fblkw{
+            background-color: $ControlFillColorDefault;
+            border: 1px solid $ControlStrokeColorDefault;
+            border-radius: 4px;
         }
     }
 
@@ -58,7 +79,7 @@
             border-color: $CardStrokeColorDefaultSolid;
         }
 
-        .channelName-1On3TJ{
+        .channelNameSpan-2CGJt7{
             color: $TextFillColorPrimary !important; // Override inline
             @include TypeBodyStrong;
         }
