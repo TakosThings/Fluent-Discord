@@ -28,6 +28,70 @@
         }
     }
 
+    // Automod
+    // Fix card background
+    .editCard-K9Q9mb{
+        background-color: $CardBackgroundFillColorDefault;
+        border: 1px solid $CardStrokeColorDefault;
+
+        .ruleIconContainer-dXW56-{
+            background-color: transparent;
+        }
+        .actionContainer-EzNGrb{
+            padding: 4px 8px;
+            background-color: $SystemFillColorSolidNeutral;
+            .actionIcon-2VtFPq{
+                color: $TextFillColorPrimary;
+            }
+            .actionTextHeader-yeCKjC{
+                color: $TextFillColorPrimary !important;
+                font-weight: normal;
+            }
+        }
+
+
+        .mentionLimitContainer-zBzr5i,
+        .actionContainer-2krsiT{
+            background-color: $CardBackgroundFillColorDefault;
+        }
+        .keywordListContainer-9ux8nU{
+            margin-bottom: 0;
+            background-color: transparent;
+        }
+        .collapseable-1gVq7r{
+            background-color: $CardBackgroundFillColorDefault;
+            border: 1px solid $CardStrokeColorDefault;
+        }
+
+        // Select/drop down
+        .container-1SX9VC{
+            background-color: $ControlFillColorDefault;
+        }
+        .resultsList-2Bp-2_{
+            background: $SolidbackgroundFillColorQuarternary;
+            border: 1px solid $SurfaceStrokeColorFlyout;
+            border-radius: 4px;
+        }
+
+        // Textarea
+        .keywordsTextArea-3QkFoG{
+            background-color: $ControlFillColorDefault;
+            border: 1px solid;
+            border-bottom-width: 2px;
+            border-color: $ControlStrokeColorDefault;
+            border-radius: 4px;
+            &:hover{
+                border-color: $ControlStrokeColorSecondary;
+            }
+            &:focus{
+                background-color: $ControlFillColorInputActiveBrush;
+                color: $TextFillColorPrimary;
+                border-color: $ControlStrokeColorDefault;
+                border-bottom-color: $AccentBase;
+            }
+        }
+    }
+
     // Edge case fixes
     // Channel Settings - Overview
     // Fixes no spacing between channel name text box and Bitrate sections
