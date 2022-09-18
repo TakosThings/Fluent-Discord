@@ -38,8 +38,8 @@
 
 // Toolbar
 .theme-dark .toolbar-3_r2xA{
-    // Using these selectors so there a less conflicts in the voice screen
-    div[role=button]:not(.iconLayout-SqV3nb), // The :not excluded the search/clear button in the search bar
+    // Using these selectors so there are fewer conflicts in the voice screen
+    div[role=button]:not(.iconLayout-SqV3nb), // :not excludes the search/clear button in the search bar
     button[type=button]{
         width: 60px;
         height: 32px;
