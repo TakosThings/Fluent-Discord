@@ -128,6 +128,10 @@
                 color: $TextFillColorSecondary;
                 @include TypeBody;
             }
+            // Icon
+            .icon-2W8DHg{
+                width: 16px;
+            }
 
             // Hide channel buttons when not hovered
             .children-1MGS9G .iconItem-1EjiK0{
@@ -152,7 +156,7 @@
                 width: 3px;
                 height: 16px;
                 position: absolute;
-                top: 10px;
+                top: 9px;
                 left: 8px;
                 background-color: $AccentFillColorDefault;
                 border-radius: 999px;
@@ -176,28 +180,27 @@
                     background-color: $SubtleFillColorSecondary;
                 }
                 // Channel icon
-                .iconContainer-21RCa3::before{
+                .icon-2W8DHg{
                     color: $TextFillColorPrimary;
-                    font-size: 14px;
                 }
                 .name-28HaxV{
                     color: $TextFillColorPrimary;
                 }
             }
             // Unread channel
-            &.modeUnread-1qO3K1{
+            &.modeUnread-3Cxepe{
                 // Channel icon
-                .iconContainer-21RCa3::before{
-                    color: $TextFillColorPrimary;
+                .icon-2W8DHg{
+                    color: $TextFillColorSecondary;
                 }
                 .name-28HaxV{
-                    color: $TextFillColorPrimary;
+                    color: $TextFillColorSecondary;
                 }
             }
             // Muted channel
             &.modeMuted-2T4MDZ{
                 // Channel icon
-                .iconContainer-21RCa3::before{
+                .icon-2W8DHg{
                     color: $TextFillColorDisabled;
                 }
                 .name-28HaxV{
