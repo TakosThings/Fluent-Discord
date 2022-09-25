@@ -38,8 +38,12 @@
             left: 0;
             border: 2px solid #000;
             svg{
+                width: unset !important; // Override inline
+                height: unset !important; // Override inline
                 foreignobject{
-                    mask: unset;
+                    width: 64px !important; // Override inline
+                    height: 64px !important; // Override inline
+                    mask: unset !important;
                 }
                 rect{
                     display: none;
