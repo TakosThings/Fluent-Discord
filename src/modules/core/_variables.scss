@@ -60,7 +60,7 @@ $AccentFillColorSelectedTextBackground:         $AccentDark1;           // Highl
 
 // Elevation (gradient strokes)
 // Control Elevation - Standard control strokes and stroke states: Button, Dropdown, Search
-$ControlElevationBorder:                        rgba(255, 255, 255, 0.09) rgba(255, 255, 255, 0.09) rgba(255, 255, 255, 0.07) rgba(255, 255, 255, 0.09);        // Rest
+$ControlElevationBorder:                        rgba(255, 255, 255, 0.09) rgba(255, 255, 255, 0.07) rgba(255, 255, 255, 0.07) rgba(255, 255, 255, 0.07);        // Rest
 $CircleElevationBorder:                         linear-gradient(180deg, rgba(#FFFFFF, 0.093) 0%,    rgba(#FFFFFF, 0.0698) 50%);                                 // Rest
 $TextControlElevationBorder:                    linear-gradient(180deg, rgba(#FFFFFF, 0.08) 99.98%, rgba(#FFFFFF, 0.5442) 100%, rgba(#FFFFFF, 0.5442) 100%);    // Rest
 $TextControlElevationBorderFocused:             linear-gradient(180deg, rgba(#FFFFFF, 0.08) 96.89%, $AccentBase 96.9%);                                         // Active text fields
