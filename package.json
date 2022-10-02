@@ -14,14 +14,9 @@
     "scripts": {
         "build-static": "sass src/fluent.scss:dist/Fluent-Discord-static.theme.css --no-charset --no-source-map",
         "build-auto": "sass src/fluent-auto.scss:dist/Fluent-Discord.theme.css --no-charset --no-source-map",
-        "dev": "cross-os xdev",
-        "xdev": {
-            "win32": "sass src/fluent.scss:%APPDATA%/BetterDiscord/themes/Fluent-Discord.theme.css --no-charset --no-source-map --watch",
-            "linux": "sass src/fluent.scss:$HOME/.config/BetterDiscord/themes/Fluent-Discord.theme.css --no-charset --no-source-map --watch"
-        }
+        "dev": "sass src/fluent.scss:%APPDATA%/BetterDiscord/themes/Fluent-Discord.theme.css --no-charset --no-source-map --watch"
     },
     "devDependencies": {
-        "cross-os": "^1.4.0",
         "sass": "^1.49.7"
     }
 }
