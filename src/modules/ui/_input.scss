@@ -48,6 +48,28 @@
     }
 }
 
+// Multi inline field
+// Change username modal
+.theme-dark .multiInput-1VARjC{
+    &.input-2g-os5{
+        background-color: transparent;
+        border: none;
+    }
+    .multiInputLast-35zVz0{
+        margin-left: 4px;
+        &::before{
+            display: none;
+        }
+    }
+    .inputPrefix-1VU7MB{
+        display: none;
+    }
+    // Remove Nitro promotion
+    .questionMark-3V9mGJ{
+        display: none;
+    }
+}
+
 // Select
 .theme-dark{
     .select-1Ia3hD{
