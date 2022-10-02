@@ -32,17 +32,6 @@
             padding: 0 8px;
         }
 
-        // Avatar
-        .avatar-1HDIsL svg{
-            width: 32px;
-            height: 32px;
-            margin-right: 8px;
-        }
-        .wrapper-1VLyxH{
-            width: 24px !important; // Override inline
-            height: 24px !important; // Override inline
-        }
-
         // Name
         .name-2m3Cms{
             @include TypeBody;
