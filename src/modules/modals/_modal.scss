@@ -74,11 +74,22 @@
             margin-left: 8px;
         }
     }
+    // Create channel modal
+    .modalFooter-2XY3GW{
+        border-radius: 0 0 8px 8px;
+    }
 
     // Special cases
     // Create channel - remove extra margin added to the header
     .header-o8wV_s{
         margin: 0;
+    }
+
+    // Create channel modal
+    // Modal has a bunch of rubbish inline CSS...
+    .modal-1Kmy_E.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3[style="opacity: 1; transform: scale(1);"]{
+        max-height: unset !important;
+        min-height: unset !important;
     }
 
     // Close button
