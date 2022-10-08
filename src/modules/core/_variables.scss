@@ -138,17 +138,23 @@ $SystemFillColorSolidNeutralBackground:         #2E2E2E;                // Neutr
 $SystemFillColorSolidAttentionBackground:       #2E2E2E;
 
 // Animation
+// Fast Invoke
 $AnimationFastInvokeFast:                       187ms cubic-bezier(0, 0, 0, 1);
 $AnimationFastInvokeMedium:                     333ms cubic-bezier(0, 0, 0, 1);
 $AnimationFastInvokeSlow:                       500ms cubic-bezier(0, 0, 0, 1);
+// Strong Invoke
 $AnimationStrongEvoke:                          667ms cubic-bezier(0.13, 1.62, 0, 0.92);
+// Fast Dismiss
 $AnimationFastDismissFast:                      187ms cubic-bezier(0, 0, 0, 1);
 $AnimationFastDismissMedium:                    333ms cubic-bezier(0, 0, 0, 1);
 $AnimationFastDismissSlow:                      500ms cubic-bezier(0, 0, 0, 1);
+// Soft Dismiss
 $AnimationSoftDismiss:                          167ms cubic-bezier(1, 0, 1, 1);
+// Point to Point
 $AnimationPointToPointFast:                     187ms cubic-bezier(0.55, 0.55, 0, 1);
 $AnimationPointToPointMedium:                   333ms cubic-bezier(0.55, 0.55, 0, 1);
 $AnimationPointToPointSlow:                     500ms cubic-bezier(0.55, 0.55, 0, 1);
+// Fade in + out
 $AnimationFadeInOut:                            83ms linear;
 
 // Accent Colours
