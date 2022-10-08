@@ -22,15 +22,25 @@
     .winButton-3UMjdg{
         width: 46px;
         height: 32px;
+        background-color: transparent;
         color: $TextFillColorDisabled;
+        transition: background-color $AnimationFadeInOut;
 
         &:hover{
             background-color: $ControlFillColorSecondary;
             color: $TextFillColorPrimary; // Always change button icon color to primary when hovering
         }
+        &:active{
+            background-color: $ControlFillColorTertiary;
+        }
 
-        &.winButtonClose-3Q8ZH5:hover{
-            background-color: #C42B1C;
+        &.winButtonClose-3Q8ZH5{
+            &:hover{
+                background-color: #C42B1C;
+            }
+            &:active{
+                background-color: rgba(#C42B1C, 90%);
+            }
         }
     }
 }
