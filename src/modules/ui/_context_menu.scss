@@ -36,8 +36,10 @@
         border-radius: 4px;
         @include TypeBody;
         color: $TextFillColorPrimary;
+        transition: background-color $AnimationFadeInOut;
         &.focused-3qFvc8{
             background-color: $SubtleFillColorSecondary;
+            transition: background-color $AnimationFadeInOut;
         }
         &.colorDanger-3n-KnP{
             color: $SystemFillColorCritical;
