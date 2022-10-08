@@ -9,8 +9,10 @@
         background-size: 20px;
         border-radius: 4px;
         cursor: pointer;
+        transition: background-color $AnimationFadeInOut;
         &:hover{
             background-color: $ControlFillColorSecondary;
+            transition: background-color $AnimationFadeInOut;
         }
         .public-DraftEditorPlaceholder-root,
         .icon-tZMHgY{

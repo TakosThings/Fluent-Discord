@@ -45,8 +45,10 @@
         height: 32px;
         margin: 0 4px 0 0;
         border-radius: 4px;
+        transition: background-color $AnimationFadeInOut;
         &:hover{
             background-color: $ControlFillColorSecondary;
+            transition: background-color $AnimationFadeInOut;
         }
         > svg{ // Non-EN position fix
             position: absolute;
