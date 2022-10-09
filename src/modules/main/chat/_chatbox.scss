@@ -102,19 +102,6 @@
             }
         }
 
-        &[aria-label]{
-            display: var(--fluent-chatbox-activity-button-visibility);
-            .button-f2h6uQ{
-                &::before{
-                    content: "\EA86"; // Puzzle
-                }
-            }
-            // Remove sparkle animation
-            .sparkleContainer-QK2z-k{
-                display: none;
-            }
-        }
-
         // Always hide the emoji button icon since it can be directly selected
         .emojiButton-1fMsf3{
             .contents-3ca1mk{
