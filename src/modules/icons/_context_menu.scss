@@ -569,8 +569,7 @@
         content: "\E107"; // Delete
     }
     &[id="thread-context-devmode-copy-id"]::before{
-        content: "ID";
-        @include FontNormal;
+        content: "\E943"; // Code
     }
 }
 
