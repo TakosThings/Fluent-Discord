@@ -30,6 +30,7 @@
 
 
 // Detached
+div[id^="bd-floating-window-"],
 #floating-editor-window{
     padding-bottom: 0;
     z-index: 3002; // This is +1 above the titlebar
