@@ -62,6 +62,15 @@
         .infoScroller-1QMpon{
             padding: 0 24px;
         }
+
+        // Subheaders
+        .eyebrow-Ejf06y,
+        .headerText-3g1XK9{
+            @include TypeBodyStrong;
+            text-transform: none;
+            color: $TextFillColorPrimary;
+        }
+
         // Note
         .note-3M15gE{
             margin: 0;
