@@ -1,67 +1,90 @@
-.theme-dark .modal-ZdazA8{
-    background-color: $SolidBackgroundFillColorBase !important; // Override inline
+.theme-dark{
+    // To find: Hover on channel with active threads and click 'See All' on the popout
+    .modal-ZdazA8{
+        background-color: $SolidBackgroundFillColorBase !important; // Override inline
+    }
 
     .container-18GwIk{
         background-color: transparent;
     }
 
-    // header
+    // Header
     .header-3_zmOb{
         height: unset;
         min-height: unset;
-        padding: 24px;
-
+        padding: 24px 24px 0 24px;
         background-color: transparent;
+        // Remove icon
         .threadIcon-rd1kqG{
             display: none;
         }
-        .title-10Au0i{
-            @include TypeSubtitle;
+        // Remove divider
+        .divider-2xk5N2{
+            display: none;
         }
-         // Search
-         .searchIcon-zpxirk{
-            width: 32px;
-            height: 32px;
-            background-color: $ControlFillColorDefault;
-            border: 1px solid $ControlStrokeColorDefault;
-            border-radius: 4px;
-            svg{
-                margin: 6px;
-            }
-        }
-        .searchBox-3IjAC1{
-            background-color: transparent;
+        // Remove spacer
+        .spacer-180E7A{
+            display: none;
         }
     }
 
     // Thread list
     .list-3YHPPb{
-        padding: 0 24px !important; // Override inline
-
-        .sectionHeader-QsOv68{
-            @include TypeBodyStrong;
-            color: $TextFillColorPrimary !important; // Override inline
-            text-transform: capitalize;
-        }
+        padding: 0 24px;
+        padding-right: 24px !important;
     }
-
-    // Thread
+    // Sub headers
+    .sectionHeader-QsOv68{
+        @include TypeBodyStrong;
+        text-transform: none;
+        margin-top: 24px;
+    }
+    // List item
     .container-2rzKKA{
-        background-color: $CardBackgroundFillColorDefault;
+        height: auto;
+        padding: 12px;
+        background-color: $SubtleFillColorSecondary;
+        border: 1px solid $SubtleFillColorSecondary;
         border-radius: 4px;
+        &:hover{
+            background-color: $SubtleFillColorTertiary;
+        }
+        &:active{
+            .threadNameLine-1FNzAW span{
+                color: $TextFillColorSecondary;
+            }
+
+        }
+
+        // Thread title
         .threadNameLine-1FNzAW{
-            margin-bottom: 4px;
-            @include TypeBody;
-            .threadName-2k9mLl{
+            @include TypeBodyStrong;
+            span{
                 color: $TextFillColorPrimary;
             }
         }
+        // Subtext
         .subtext-21DUaG{
+            margin-top: 8px;
             @include TypeCaption;
-            color: $TextFillColorSecondary;
-            .markup-eYLPri{
-                @include TypeCaption;
-            }
+            color: $TextFillColorSecondary !important;
+        }
+    }
+}
+
+// Redundancy in the moderator's Active Threads modal 🙃
+.theme-dark{
+    // To find: Be a moderator in a server with active threads. Open 'Active Threads' from the server dropdown
+    .container-3GP6AV{
+        background-color: transparent;
+    }
+    .header-3cSJjT{
+        height: unset;
+        min-height: unset;
+        padding: 24px;
+        background-color: transparent;
+        .threadIcon-2GVPrZ{
+            display: none;
         }
     }
 }
