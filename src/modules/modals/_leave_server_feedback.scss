@@ -1,15 +1,27 @@
-.theme-dark .problemInfo-1QppuA{
-    .root-cw9rWQ{
-        background-color: $CardBackgroundFillColorDefault;
-        border: 1px solid $CardStrokeColorDefault;
-        border-radius: 4px;
+.theme-dark{
+    .header-C83U_D{
+        @include TypeSubtitle;
+        text-align: left;
     }
-    .option-1O-Hwt{
-        &:hover{
-            background-color: $CardBackgroundFillColorSecondary;
-        }
-    }
-    .text-3MkjKY{
+    .ratingBody-1GrX6N{
         @include TypeBody;
+            color: $TextFillColorPrimary;
+            text-align: left;
+    }
+
+    .problemInfo-1QppuA{
+        .root-cw9rWQ{
+            background-color: $CardBackgroundFillColorDefault;
+            border: 1px solid $CardStrokeColorDefault;
+            border-radius: 4px;
+        }
+        .option-1O-Hwt{
+            &:hover{
+                background-color: $CardBackgroundFillColorSecondary;
+            }
+        }
+        .text-3MkjKY{
+            @include TypeBody;
+        }
     }
 }
