@@ -294,15 +294,15 @@
 
     // Connections
     // List of services
-    .accountList-Wii_T5{
+    .connectContainer-1hylYM{
         background-color: $SystemFillColorAttentionBackground;
         border: 1px solid $CardStrokeColorDefault;
-        // Hide redundant header
-        h5{
-            display: none;
+        // Header
+        .connectHeader-2VkFiv{
+            @include TypeBodyStrong;
         }
         // Account button
-        .accountBtnInner-3ttD-i{
+        .accountButtonInner-33vCDY{
             background-color: $ControlFillColorDefault;
             border: 1px solid $ControlStrokeColorDefault;
             &:hover{
