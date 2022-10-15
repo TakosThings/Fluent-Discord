@@ -46,6 +46,12 @@
     .bd-setting-divider{
         display: none;
     }
+
+    // Add notes to some options
+    label[for="transparency"]::after{
+        content: " (Fluent Discord - This option isn't supported, and may be disabled)";
+        color: $TextFillColorDisabled;
+    }
 }
 
 // Buttons
