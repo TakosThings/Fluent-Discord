@@ -47,6 +47,19 @@
         display: none;
     }
 
+    // Updates page
+    .bd-empty-updates{
+        padding: 10px 16px;
+        background-color: $CardBackgroundFillColorSecondary;
+        @include TypeBody;
+        border: 1px solid $CardStrokeColorDefault;
+        border-top: 0;
+        border-radius: 0 0 4px 4px;
+        svg{
+            margin-bottom: 8px;
+        }
+    }
+
     // Add notes to some options
     label[for="transparency"]::after{
         content: " (Fluent Discord - This option isn't supported, and may be disabled)";
