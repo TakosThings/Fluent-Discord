@@ -76,6 +76,15 @@
                             opacity 250ms Cubic-bezier(0.55,0.55,0,1);
             }
         }
+        // Beta badge
+        .textBadge-1fdDPJ{
+            height: auto;
+            padding: 2px 8px;
+            background-color: $SystemFillColorSolidNeutralBackground !important; // Override inline
+            @include TypeBody;
+            text-transform: none;
+            border-radius: 24px;
+        }
         // Special cases
         // Remove right side Nitro icon (may differ in some regions)
         .premiumLabel-3HPvdB svg{
