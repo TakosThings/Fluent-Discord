@@ -19,11 +19,14 @@
     // NOTE: 2021-07-09 - The 'acrylic' effect is made of two layers
     //    Background image - To be declared by the user in the options section
     //    Filter overlay - Saturate helps bring out some colours from the background layer
+    //
+    // NOTE: 2022-10-16 - Have to use the #{} trick because SASS and CSS saturate() functions collide and throw an error on compile when using a CSS var
+    //    See: https://github.com/sass/libsass/issues/151#issuecomment-54477631
     .bg-1QIAus{
         margin-top: -10px; // Hides the black bar at top of titlebar (ie. grabber)
         background: var(--fluent-acrylic-background);
         background-size: cover;
-        filter: blur(var(--fluent-acrylic-background-blur));
+        filter: #{"saturate(var(--fluent-acrylic-background-saturate))"} blur(var(--fluent-acrylic-background-blur));
         &::before{
             content: "";
             width: 100%;
