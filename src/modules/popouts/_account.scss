@@ -1,77 +1,22 @@
-.theme-dark .menu-2-eHMB{
-    .banner-1YaD3N{
-        margin: -2px 0 0 -8px;
-    }
-
-    .avatar-2Vndt_{
+.theme-dark .userPopoutOuter-3AVBmJ{
+    // Remove style from context menu in user popout
+    .menu-1QACrS.menu-KSaHL1{
         background-color: transparent;
         border: 0;
-    }
-    .avatarHint-k7pYop{
-        top: 0;
-        left: 0;
-    }
-    .avatarHintInner-2HUAWj{
-        mask: none;
-        font-size: 0;
+        box-shadow: none;
         &::before{
-            content: "\e8d4"; // Contact2
-            @include FontIconFluent;
-            color: $TextFillColorPrimary;
-            font-size: 32px;
-            font-weight: normal;
+            content: unset;
         }
-    }
 
-    .headerTop-3GPUSF{
-        padding: 64px 12px 12px;
-    }
-
-    .bodyInnerWrapper-2bQs1k{
-        background-color: transparent;
-        color: $TextFillColorPrimary;
-        .divider-1wtgZ3{
-            display: none;
-        }
-        .eyebrow-Ejf06y,
-        .headerText-3g1XK9{
-            color: $TextFillColorPrimary !important; // Override inline
-            @include TypeBodyStrong;
-            text-transform: none;
-        }
-    }
-
-    .item-1OdjEX{
-        &#account-status-picker{
-            .icon-E4cW1l{
-                display: block;
+        .item-1OdjEX{
+            // Remove dividers
+            &.hideInteraction-2jPGL_{
+                display: none;
             }
-        }
-
-        &#account-set-custom-status,
-        &#account-edit-custom-status{
-            &::before{
-                content: "\E8AC"; // Rename
-            }
+            // Remove icon
             .iconContainerLeft-2NHJgN{
                 display: none;
             }
-        }
-        &#account-switch-account{
-            &::before{
-                content: "\E748"; // SwitchUser
-            }
-            .iconContainerLeft-2NHJgN{
-                display: none;
-            }
-        }
-    }
-    .bannerSVGWrapper-qc0szY{
-        width: 312px;
-        margin-left: -12px;
-        margin-top: -2px;
-        mask{
-            display: none;
         }
     }
 }

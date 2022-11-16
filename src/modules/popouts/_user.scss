@@ -1,127 +1,60 @@
-.theme-dark .userPopout-2j1gM4{
-    @include Elevation128;
-    background-color: $SolidBackgroundFillColorTertiary;
-    border: 1px solid $SurfaceStrokeColorFlyout;
+.theme-dark .userPopoutOuter-3AVBmJ{
+    @include Elevation32;
 
-    // .popoutBanner-3cqRD9,
-    // .popoutBannerPremium-3i5EEI{
-    //     position: absolute;
-    //     width: 100%;
-    //     height: 100%;
-    //     border-radius: 8px;
-    //     filter: saturate(150%);
-    //     &::after{
-    //         content: "";
-    //         height: 100%;
-    //         width: 100%;
-    //         position: absolute;
-    //         background-image: linear-gradient(0deg, rgba(0,0,0,80%) 50%, transparent 100%);
-    //         border-radius: 8px;
-    //     }
-    //     .bannerOverlayPopout-1clJ34{
-    //         display: none;
-    //     }
-    // }
-
-    .popoutBanner-3cqRD9{
-        height: 128px;
-    }
-
-    // Premium banner
-    .popoutBannerPremium-3i5EEI{
-        height: 128px;
-        background-position: 0 0;
-        background-size: 300px 128px
-    }
-    .avatarPositionPremium-1zPBq9{
-        top: 16px;
-    }
-
-    // Avatar
-    .avatar-2Vndt_{
-        background-color: transparent;
-        border: 0;
-    }
-    .avatarHint-k7pYop{
-        top: 0;
-        left: 0;
-    }
-    // 'view profile' text
-    .avatarHintInner-2HUAWj{
-        font-size: 0;
-        &::before{
-            content: "\e8d4"; // Contact2
-            @include FontIconFluent;
-            color: $TextFillColorPrimary;
-            font-size: 32px;
-            font-weight: normal;
+    // 'plebium' mode
+    .userProfileInnerThemedNonPremium-1gT-zY{
+        background: $AcrylicBackgroundFillColorBase;
+        border: 1px solid $SurfaceStrokeColorDefault;
+        border-radius: 8px;
+        .overlayBackground-1KgwVi{
+            background: $LayerOnAcrylicFillColorDefult;
+            border-radius: 4px;
         }
     }
 
-    // Usernames
-    .headerTop-3GPUSF{
-        padding: 48px 24px 12px 24px;
-    }
-    .headerTag-3GXZkV{
-        @include TypeSubtitle;
-        span{
-            color: $TextFillColorPrimary;
-        }
-    }
-    // Bot tag
-    .headerBotTag-1xw5Ck{
-        background-color: transparent;
-        line-height: unset;
-        svg, span{
-            display: none;
-        }
-        &::before{
-            content: "\e99a"; // Robot
-            @include TypeSubtitle;
-            @include FontIconFluent;
-            font-weight: normal;
-        }
+    .overlayBackground-1KgwVi{
+        border-radius: 4px;
     }
 
+    // Only display scroll bar when we need it
+    .scroller-1jBQYo{
+        overflow-y: auto !important;
+    }
 
-    // Body
-    .body-2wLx-E{
-        padding: 0 24px 24px 24px;
-        padding-right: 24px !important; // Override inline
-        overflow-y: auto !important; // Override inline
-    }
-    .bodyInnerWrapper-2bQs1k{
-        background-color: transparent;
-    }
-    .divider-1wtgZ3{
+    // Remove nitro promotion
+    .upsell-27kXsw{
         display: none;
     }
-    .eyebrow-Ejf06y{
-        color: $TextFillColorPrimary !important; // Override inline
+
+    // Section title
+    .title-1r9MQ6,
+    .headerText-3g1XK9{ // 'Deprecated' spotify title
         @include TypeBodyStrong;
         text-transform: none;
     }
+
     // Roles
     .role-2TIOKu{
-        background-color: $ControlFillColorDefault;
+        padding: 4px 4px 4px 0px;
+        background-color: transparent;
         border: 1px solid $ControlStrokeColorDefault;
-        border-radius: 11px;
-    }
-    .roleCircle-1EgnFN{
-        width: 16px;
-        height: 16px;
-        margin: 0 4px 0 -2px;
-    }
-    .roleName-2ZJJYR{
-        color: $TextFillColorPrimary;
+        border-radius: 12px;
         @include TypeCaption;
+        &.addButton-1_dZYu{
+            padding: 4px;
+        }
+    }
+
+    // Remove double border on message box
+    .messageInputContainer-2rGDH8{
+        border: 0;
     }
 
     // Spotify/games
     .assetsLargeImage-8U5dlz{
         border-radius: 4px;
     }
-    .timeBarUserPopout-qLXZaR{
+    .timeBarUserPopoutV2-32DL06{
         .bar-1GpknY{
             height: 3px;
             background-color: $ControlStrokeColorDefault;
@@ -134,27 +67,11 @@
         // Timecode
         .text-31kWmP{
             @include TypeCaption;
+            color: $TextFillColorTertiary;
         }
     }
     // Remove buttons we can't interact with
     .disabledButtonWrapper-2Oz3aY{
         display: none;
-    }
-
-    // Edit profile button
-    .pencilContainer-18TrEJ {
-        display: none; // NOTE 2022-03-07 Hide non-functional Edit profile button
-    }
-
-    // Note
-    .note-Go5ZP2{
-        margin: 0;
-        padding-top: 4px;
-    }
-
-    // Footer
-    .footer-3naVBw{
-        padding: 0 24px 24px;
-        background-color: transparent;
     }
 }

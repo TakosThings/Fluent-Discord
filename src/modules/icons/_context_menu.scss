@@ -646,3 +646,15 @@
         content: "\F093"; // ButtonA
     }
 }
+
+.theme-dark .menu-1QACrS .item-1OdjEX{
+    &[id="account-status-picker"]::before{
+        content: "\F136"; // StatusCircleOuter
+    }
+    &[id="account-set-custom-status"]::before{
+        content: "\E13E"; // Rename
+    }
+    &[id="account-switch-account"]::before{
+        content: "\E748"; // SwitchUser
+    }
+}
