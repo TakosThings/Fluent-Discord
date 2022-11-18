@@ -1,9 +1,19 @@
-.theme-dark .contentWrapper-3vHNP2{
+.theme-dark .contentWrapper-3vHNP2,
+.theme-dark #emoji-picker-tab-panel{
     background: $MicaBackgroundFillColorBase;
     backdrop-filter: blur(16px);
     border: 1px solid $SurfaceStrokeColorDefault;
     border-radius: 8px;
+}
 
+.theme-dark .contentWrapper-3vHNP2 #emoji-picker-tab-panel{
+    background: transparent;
+    backdrop-filter: none;
+    border: 0;
+    border-radius: 0;
+}
+
+.theme-dark{
     // Navigation
     .nav-1zWVQw{
         .navButton-1XuvI-{
@@ -38,18 +48,29 @@
     }
 
     // Header
+    .emojiPickerInExpressionPicker-2nOwH8 .header-11eigE{
+        padding: 0 12px 12px;
+    }
     .header-11eigE, // Emoji
     .header-uVCAlo, // Stickers
     .header-2TLOnc{ // GIFs
+        background-color: transparent;
         box-shadow: none;
     }
     // Search
+    .inner-1NoIT5{
+        padding: 0;
+    }
     .container-1SX9VC{ // GIFs search
         background-color: transparent;
     }
     // Emoji search
-    .input-2FSSDe{
+    // Fix inherited height
+    .medium-13kyaW .input-2FSSDe{
         height: 32px;
+    }
+    .input-2FSSDe{
+        margin: 0;
         padding-right: 32px;
         background-color: $ControlFillColorDefault;
         color: $TextFillColorSecondary;
@@ -65,6 +86,9 @@
             color: $TextFillColorPrimary;
             border-color: $ControlStrokeColorDefault;
             border-bottom-color: $AccentBase;
+        }
+        &::placeholder{
+            @include TypeBody;
         }
     }
     // Search clear button
@@ -132,12 +156,17 @@
             }
         }
     }
+    // Main body
+    .emojiPicker-6YCk8a{
+        background-color: transparent;
+    }
     // Info bar
     .inspector-DFKXwB{
         background-color: $SolidBackgroundFillColorSecondary;
     }
     // Emoji category header
-    .header-1ULbqO{
+    .header-1ULbqO,
+    .wrapper-1NNaWG{
         margin: 0 -8px;
         padding: 0 16px;
         background-color: $SolidBackgroundFillColorTertiary;
@@ -156,13 +185,20 @@
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
         border-radius: 4px;
+        position: relative;
         .diversityEmojiItemImage-1pfGqI{
             margin: 3px;
         }
     }
+    // Diversity selector in stand alone emoji popout (eg. reaction)
+    .diversitySelectorOptions-3DhNYs{
+        // top: 0;
+        right: 12px;
+    }
+    // Diversity selector in gif/sticker/emoji popout
     .diversitySelectorOptionsInExpressionPicker-3wybQR{
-        top: 2px;
-        right: 8px;
+        top: 0px;
+        right: 12px;
     }
     .diversitySelectorOptions-3DhNYs{
         border: 1px solid $ControlStrokeColorDefault;
