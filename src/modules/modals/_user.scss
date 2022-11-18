@@ -1,118 +1,206 @@
 .theme-dark{
-    .body-1Ukv50,
-    .topSection-13QKHs{
-        background-color: transparent;
-    }
-
     // Avatar
-    .avatar-3QF_VA{
-        background-color: transparent;
-        border-color: transparent;
+    .avatar-1YsFQ1{
+        svg circle{
+            display: none;
+        }
     }
 
-    // Name
-    .nameTag-2Nlmsy{
-        margin-left: 24px;
-        margin-right: 24px;
-        // Bot tag
-        .botTag-7aX5WZ{
-            padding: 0;
-            background-color: transparent;
-            &::before{
-                content: "\E99A"; // Robot
-                @include FontIconFluent;
-                font-size: 16px;
-                font-weight: normal;
-            }
-            span{
-                display: none;
-            }
-        }
+    // Body
+    .overlayBackground-1KgwVi{
+        border-radius: 4px;
     }
 
     // Tabs
-    .tabBarContainer-sCZC4w{
-        padding-left: 24px;
+    .tabBarContainer-2UG0vy{
+        margin-bottom: 20px;
         border: 0;
-        .tabBar-2hXqzU{
-            height: 32px
-        }
-        .tabBarItem-30Te4-{
-            margin-right: 16px;
+    }
+    .tabBar-2StdUa{
+        gap: 24px;
+        .item-3XjbnG{
             border: 0;
-            @include TypeBodyStrong;
+            color: $TextFillColorSecondary;
+            @include TypeBody;
+            line-height: 40px;
+            &:hover{
+                color: $TextFillColorPrimary;
+            }
             &.selected-g-kMVV{
-                &::after{
+                color: $TextFillColorPrimary;
+                &::before{
                     content: "";
                     width: 16px;
                     height: 3px;
                     position: absolute;
                     bottom: 0;
-                    left: calc(50% - 16px/2 - 1px);
-                    background-color: $AccentTextFillColorPrimary;
+                    left: calc(50% - 8px);
+                    background-color: $AccentFillColorDefault;
                     border-radius: 999px;
                 }
             }
         }
     }
 
-    .body-1Ukv50{
-        height: 300px;
-        // Scroller container
-        .infoScroller-1QMpon{
-            padding: 0 24px;
-        }
+    // Section headers
+    .userInfoSectionHeader-48g5Qj,
+    .headerText-3g1XK9{
+        @include TypeBodyStrong;
+        text-transform: none;
+    }
 
-        // Subheaders
-        .eyebrow-Ejf06y,
-        .headerText-3g1XK9{
-            @include TypeBodyStrong;
-            text-transform: none;
-            color: $TextFillColorPrimary;
+    // Connected accounts
+    .connectedAccountContainer-3aLMHJ{
+        padding: 8px;
+        .connectedAccountNameText-tCbPXH{
+            @include TypeBody;
         }
-
-        // Note
-        .note-3M15gE{
-            margin: 0;
-        }
-        // Connected accounts
-        .connectedAccount-1xKpli{
-            height: 32px;
-            margin-top: 4px;
-            padding: 0 16px;
-            .connectedAccountIcon-2vls0t{
-                width: 20px;
+        .anchor-1MIwyf{
+            text-decoration: none;
+            &::before{
+                content: "\E8A7";
+                color: $TextFillColorPrimary;
+                @include FontIconFluent;
             }
-            .connectedAccountName-j0meX4{
-                @include TypeBody;
-            }
-            a{
-                &::before{
-                    content: "\E8A7"; // OpenInNewWindow
-                    @include FontIconFluent;
-                }
-                svg{
-                    display: none;
-                }
-            }
-        }
-
-        // Remove border between sections
-        .userInfoSection-2u2hir+.userInfoSection-2u2hir{
-            border: 0;
-        }
-
-        // Server/friend list
-        .listRow-2nO1T6{
-            border: 1px solid transparent;
-            &:hover{
-                background-color: $ControlFillColorDefault;
-                border-color: $ControlStrokeColorDefault;
-                border-radius: 4px;
-            }
-            .iconActiveMedium-27_R5B{
-                border-radius: 50%;
+            svg{
+                display: none;
             }
         }
     }
+
+    // Mutual servers/friends
+    .listRow-Y5zoF8{
+        border: 1px solid transparent;
+        &:hover{
+            background-color: $ControlFillColorDefault;
+            border-color: $ControlStrokeColorDefault;
+            border-radius: 4px;
+        }
+        .listAvatar-2GhWlb{
+            border-radius: 50%;
+        }
+    }
 }
+
+
+
+
+
+// .theme-dark{
+//     .body-1Ukv50,
+//     .topSection-13QKHs{
+//         background-color: transparent;
+//     }
+
+//     // Avatar
+//     .avatar-3QF_VA{
+//         background-color: transparent;
+//         border-color: transparent;
+//     }
+
+//     // Name
+//     .nameTag-2Nlmsy{
+//         margin-left: 24px;
+//         margin-right: 24px;
+//         // Bot tag
+//         .botTag-7aX5WZ{
+//             padding: 0;
+//             background-color: transparent;
+//             &::before{
+//                 content: "\E99A"; // Robot
+//                 @include FontIconFluent;
+//                 font-size: 16px;
+//                 font-weight: normal;
+//             }
+//             span{
+//                 display: none;
+//             }
+//         }
+//     }
+
+//     // Tabs
+//     .tabBarContainer-sCZC4w{
+//         padding-left: 24px;
+//         border: 0;
+//         .tabBar-2hXqzU{
+//             height: 32px
+//         }
+//         .tabBarItem-30Te4-{
+//             margin-right: 16px;
+//             border: 0;
+//             @include TypeBodyStrong;
+//             &.selected-g-kMVV{
+//                 &::after{
+//                     content: "";
+//                     width: 16px;
+//                     height: 3px;
+//                     position: absolute;
+//                     bottom: 0;
+//                     left: calc(50% - 16px/2 - 1px);
+//                     background-color: $AccentTextFillColorPrimary;
+//                     border-radius: 999px;
+//                 }
+//             }
+//         }
+//     }
+
+//     .body-1Ukv50{
+//         height: 300px;
+//         // Scroller container
+//         .infoScroller-1QMpon{
+//             padding: 0 24px;
+//         }
+
+//         // Subheaders
+//         .eyebrow-Ejf06y,
+//         .headerText-3g1XK9{
+//             @include TypeBodyStrong;
+//             text-transform: none;
+//             color: $TextFillColorPrimary;
+//         }
+
+//         // Note
+//         .note-3M15gE{
+//             margin: 0;
+//         }
+//         // Connected accounts
+//         .connectedAccount-1xKpli{
+//             height: 32px;
+//             margin-top: 4px;
+//             padding: 0 16px;
+//             .connectedAccountIcon-2vls0t{
+//                 width: 20px;
+//             }
+//             .connectedAccountName-j0meX4{
+//                 @include TypeBody;
+//             }
+//             a{
+//                 &::before{
+//                     content: "\E8A7"; // OpenInNewWindow
+//                     @include FontIconFluent;
+//                 }
+//                 svg{
+//                     display: none;
+//                 }
+//             }
+//         }
+
+//         // Remove border between sections
+//         .userInfoSection-2u2hir+.userInfoSection-2u2hir{
+//             border: 0;
+//         }
+
+//         // Server/friend list
+//         .listRow-2nO1T6{
+//             border: 1px solid transparent;
+//             &:hover{
+//                 background-color: $ControlFillColorDefault;
+//                 border-color: $ControlStrokeColorDefault;
+//                 border-radius: 4px;
+//             }
+//             .iconActiveMedium-27_R5B{
+//                 border-radius: 50%;
+//             }
+//         }
+//     }
+// }
