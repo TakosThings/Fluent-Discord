@@ -12,6 +12,9 @@
     &[id="user-settings-cog-Authorized_Apps"]::before{
         content: "\E8D7"; // Permissions
     }
+    &[id="user-settings-cog-Sessions"]::before{
+        content: "\E772"; // Devices
+    }
     &[id="user-settings-cog-Connections"]::before{
         content: "\F0B9"; // Connected
     }
