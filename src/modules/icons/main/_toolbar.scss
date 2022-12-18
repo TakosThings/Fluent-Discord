@@ -24,6 +24,12 @@ html[lang^="en-"].theme-dark .toolbar-3_r2xA{
             content: "\E716"; // People
         }
 
+        // User profile (DM)
+        &[aria-label="Hide User Profile"]::before,
+        &[aria-label="Show User Profile"]::before{
+            content: "\E136"; // Contact Info
+        }
+
         // Mail
         &[aria-label="#{map-get($translate, INBOX)}"]::before{
             content: "\E715"; // Mail
