@@ -75,6 +75,13 @@
         }
     }
 
+    // Bot command bot icon
+    // NOTE - 2022-12-18: This can be tested using the `/embed create` command from Carl-bot
+    // NOTE - 2022-12-18: `:not(button)` is required because the normal attach button uses the same class
+    .attachButton-1ijpt9:not(button){
+        margin-left: 0;
+    }
+
     .codeBlockSyntax-2MZ-Qy{
         font-family: Consolas, monospace;
     }
