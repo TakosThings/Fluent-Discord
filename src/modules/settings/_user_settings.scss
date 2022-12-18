@@ -21,12 +21,12 @@
     .accountProfileCard-lbN7n-{
         background-color: transparent;
         // Remove coloured banner
-        .settingsBanner-1eDJ5w{
+        .settingsBanner-2E5fAp{
             display: none;
         }
 
         .userInfo-regn9W{
-            height: calc(64px + 8px);
+            height: 68px;
             padding: 16px 16px 0 calc(64px + 16px);
             margin: 8px 0;
         }
@@ -34,7 +34,7 @@
         .avatar-3mTjvZ{
             width: 64px !important; // Override inline
             height: 64px !important; // Override inline
-            top: 0;
+            top: 8px;
             left: 0;
             border: 2px solid #000;
             svg{
