@@ -185,6 +185,10 @@
     &[id="user-context-remove"]::before{
         content: "\E108"; // Remove
     }
+    // Bot/integration
+    &[id="user-context-manage-integration"]::before{
+        content: "\E774"; // Globe
+    }
 }
 
 // Server
