@@ -30,6 +30,9 @@
         }
         .contents-3ca1mk{ // Non-EN sizing fix
             svg{
+                position: absolute;
+                top: 7px;
+                left: 7px;
                 width: 16px;
                 height: 16px;
             }
