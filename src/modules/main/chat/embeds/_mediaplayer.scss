@@ -47,9 +47,26 @@
     width: calc(100% - 16px);
     bottom: 8px;
     left: 8px;
-    // Completely hides control bar when inactive due to size changes
-    &[style*="translateY(100%)"]{
-        transform: translateY(calc(100% + 8px)) !important; // Override inline
+}
+
+@keyframes fluent-hide-video-controls{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+// Remove default video player animations
+.theme-dark .metadata-3IncIG,
+.theme-dark .videoControls-2NzHnF{
+    transform: unset !important; // Override inline
+}
+.theme-dark .wrapperControlsHidden-2BK8R2{
+    .videoControls-2NzHnF,
+    .metadata-3IncIG{
+        animation: $AnimationSoftDismiss fluent-hide-video-controls;
+        opacity: 0;
     }
 }
 
