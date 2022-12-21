@@ -7,8 +7,8 @@
   src: local("Segoe Fluent Icons"), url("https://takosthings.github.io/Fluent-Discord-Fonts/Segoe-Fluent-Icons.ttf") format("truetype");
 }
 :root {
-  --font-primary: "Segoe UI", "Helvetica Neue", Helvetica, Verdana, Tahoma, Geneva, Arial, sans-serif;
-  --font-display: "Segoe UI", "Helvetica Neue", Helvetica, Verdana, Tahoma, Geneva, Arial, sans-serif;
+  --font-primary: "Segoe UI Variable Text", "Segoe UI", "Helvetica Neue", Helvetica, Verdana, Tahoma, Geneva, Arial, sans-serif;
+  --font-display: "Segoe UI Variable Display", "Segoe UI", "Helvetica Neue", Helvetica, Verdana, Tahoma, Geneva, Arial, sans-serif;
   --font-code: Consolas, Menlo, Monaco, "Courier New", monospace;
 }
 
@@ -916,6 +916,9 @@ html.theme-dark.app-focused .winButton-3UMjdg {
   background-color: rgba(255, 255, 255, 0.0326);
 }
 .theme-dark .panels-3wFtMD .button-12Fmur .contents-3ca1mk svg {
+  position: absolute;
+  top: 7px;
+  left: 7px;
   width: 16px;
   height: 16px;
 }
@@ -1772,6 +1775,10 @@ html[lang^=en-].theme-dark .wrapper-2vIMkT .button-3bklZh[aria-label] svg {
 .theme-dark .submitContainer-1DHMA0 .attachButton-_ACFSu .contents-3ca1mk {
   display: none;
 }
+.theme-dark .form-3gdLxP .attachButton-1ijpt9:not(button),
+.theme-dark .submitContainer-1DHMA0 .attachButton-1ijpt9:not(button) {
+  margin-left: 0;
+}
 .theme-dark .form-3gdLxP .codeBlockSyntax-2MZ-Qy,
 .theme-dark .submitContainer-1DHMA0 .codeBlockSyntax-2MZ-Qy {
   font-family: Consolas, monospace;
@@ -2451,8 +2458,24 @@ html[lang^=en-].theme-dark .wrapper-2vIMkT .button-3bklZh[aria-label] svg {
   bottom: 8px;
   left: 8px;
 }
-.theme-dark .videoControls-2NzHnF[style*="translateY(100%)"] {
-  transform: translateY(calc(100% + 8px)) !important;
+
+@keyframes fluent-hide-video-controls {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.theme-dark .metadata-3IncIG,
+.theme-dark .videoControls-2NzHnF {
+  transform: unset !important;
+}
+
+.theme-dark .wrapperControlsHidden-2BK8R2 .videoControls-2NzHnF,
+.theme-dark .wrapperControlsHidden-2BK8R2 .metadata-3IncIG {
+  animation: 167ms cubic-bezier(1, 0, 1, 1) fluent-hide-video-controls;
+  opacity: 0;
 }
 
 .theme-dark .messageAttachment-CZp8Iv .wrapperAudio-1Bzv_Z {
@@ -3264,8 +3287,9 @@ html[lang^=en-].theme-dark .wrapper-2vIMkT .button-3bklZh[aria-label] svg {
 .theme-dark .toolbar-3_r2xA div[role=button]:not(.iconLayout-SqV3nb) > svg,
 .theme-dark .toolbar-3_r2xA button[type=button] > svg {
   position: absolute;
-  top: 6px;
-  left: 22px;
+  top: 4px;
+  left: 20px;
+  width: 20px;
 }
 .theme-dark .toolbar-3_r2xA div[role=button]:not(.iconLayout-SqV3nb).selected-29KTGM,
 .theme-dark .toolbar-3_r2xA button[type=button].selected-29KTGM {
@@ -3625,6 +3649,25 @@ html[lang^=en-].theme-dark .wrapper-1gVUIN .controlSection-1mNixL .button-f2h6uQ
 }
 .theme-dark .privateChannels-oVe7HL .channel-1Shao0[href="/store"], .theme-dark .privateChannels-oVe7HL .channel-1Shao0[href="/discovery"] {
   display: none;
+}
+
+.theme-dark .profilePanel-2PWEok .userProfileOuterUnthemed-2b2rsv {
+  background-color: transparent;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+.theme-dark .profilePanel-2PWEok .userPanelInnerThemed-2xZFjl {
+  background: rgba(58, 58, 58, 0.3);
+}
+.theme-dark .profilePanel-2PWEok .title-1r9MQ6,
+.theme-dark .profilePanel-2PWEok .headerText-3g1XK9 {
+  font-feature-settings: "fina" 1, "init" 1;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: none;
+}
+.theme-dark .profilePanel-2PWEok .overlayBackground-1KgwVi {
+  background-color: rgba(255, 255, 255, 0.0359);
 }
 
 .theme-dark .sidebar-1tnWFu .privateChannels-oVe7HL {
@@ -6083,6 +6126,7 @@ html[lang^=en-].theme-dark .container-2cd8Mz .actionButton-3-B2x- svg {
   border-radius: 4px;
 }
 .theme-dark .userPopoutOuter-3AVBmJ .scroller-1jBQYo {
+  padding: 0 12px !important;
   overflow-y: auto !important;
 }
 .theme-dark .userPopoutOuter-3AVBmJ .upsell-27kXsw {
@@ -6208,8 +6252,8 @@ html[lang^=en-].theme-dark .container-2cd8Mz .actionButton-3-B2x- svg {
   width: 300px;
   padding: 24px 4px;
 }
-.theme-dark .sidebar-nqHbhN .side-2ur1Qk .header-2Kx1US {
-  padding: 0 0 0 16px;
+.theme-dark .sidebar-nqHbhN .side-2ur1Qk .eyebrow-Ejf06y {
+  padding: 0 0 0 8px;
   font-feature-settings: "fina" 1, "init" 1;
   font-size: 14px;
   font-weight: 600;
@@ -6218,10 +6262,10 @@ html[lang^=en-].theme-dark .container-2cd8Mz .actionButton-3-B2x- svg {
   line-height: 34px;
   text-transform: none;
 }
-.theme-dark .sidebar-nqHbhN .side-2ur1Qk .header-2Kx1US svg {
+.theme-dark .sidebar-nqHbhN .side-2ur1Qk .eyebrow-Ejf06y svg {
   display: none;
 }
-.theme-dark .sidebar-nqHbhN .side-2ur1Qk .header-2Kx1US .category-CysNYv {
+.theme-dark .sidebar-nqHbhN .side-2ur1Qk .eyebrow-Ejf06y .category-CysNYv {
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
@@ -6304,7 +6348,7 @@ html[lang^=en-].theme-dark .container-2cd8Mz .actionButton-3-B2x- svg {
   background-color: rgba(255, 255, 255, 0.0837);
 }
 .theme-dark .sidebar-nqHbhN .info-3pQQBb::before {
-  content: "Fluent Discord 1.5.6";
+  content: "Fluent Discord 1.6.0";
   color: rgba(255, 255, 255, 0.786);
   font-size: 12px;
   line-height: 16px;
@@ -6416,18 +6460,18 @@ html[lang^=en-].theme-dark .container-2cd8Mz .actionButton-3-B2x- svg {
 .theme-dark .contentColumn-1C7as6 .accountProfileCard-lbN7n- {
   background-color: transparent;
 }
-.theme-dark .contentColumn-1C7as6 .accountProfileCard-lbN7n- .settingsBanner-1eDJ5w {
+.theme-dark .contentColumn-1C7as6 .accountProfileCard-lbN7n- .settingsBanner-2E5fAp {
   display: none;
 }
 .theme-dark .contentColumn-1C7as6 .accountProfileCard-lbN7n- .userInfo-regn9W {
-  height: 72px;
+  height: 68px;
   padding: 16px 16px 0 80px;
   margin: 8px 0;
 }
 .theme-dark .contentColumn-1C7as6 .accountProfileCard-lbN7n- .avatar-3mTjvZ {
   width: 64px !important;
   height: 64px !important;
-  top: 0;
+  top: 8px;
   left: 0;
   border: 2px solid #000;
 }
@@ -7036,6 +7080,9 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Pinne
 html[lang^=en-].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Hide Member List" i]::before, html[lang^=en-].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Show Member List" i]::before {
   content: "\e716";
 }
+html[lang^=en-].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Hide User Profile"]::before, html[lang^=en-].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label="Show User Profile"]::before {
+  content: "\e136";
+}
 html[lang^=en-].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA[aria-label=Inbox]::before {
   content: "\e715";
 }
@@ -7296,6 +7343,9 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .button-f2h6uQ[aria-label=More]::befo
 .theme-dark .menu-1QACrS .item-1OdjEX[id=user-settings-cog-Authorized_Apps]::before {
   content: "\e8d7";
 }
+.theme-dark .menu-1QACrS .item-1OdjEX[id=user-settings-cog-Sessions]::before {
+  content: "\e772";
+}
 .theme-dark .menu-1QACrS .item-1OdjEX[id=user-settings-cog-Connections]::before {
   content: "\f0b9";
 }
@@ -7460,6 +7510,9 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .button-f2h6uQ[aria-label=More]::befo
 }
 .theme-dark .menu-1QACrS .item-1OdjEX[id=user-context-remove]::before {
   content: "\e108";
+}
+.theme-dark .menu-1QACrS .item-1OdjEX[id=user-context-manage-integration]::before {
+  content: "\e774";
 }
 
 .theme-dark .menu-1QACrS .item-1OdjEX[id=guild-header-popout-premium-subscribe]::before {
