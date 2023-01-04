@@ -1,0 +1,37 @@
+.theme-dark .homeContainer-r4Hvv1{
+    // Main
+    // Card
+    .card-3x20HF{
+        background-color: $CardBackgroundFillColorDefault;
+        border: 1px solid $CardStrokeColorDefault;
+        border-radius: 4px;
+    }
+
+    // Side bar
+    // Widget container
+    .container-2Hi7Km,
+    .container-xwOzwi{
+        background-color: $CardBackgroundFillColorDefault;
+        border: 1px solid $CardStrokeColorDefault;
+        border-radius: 4px;
+        // Server description
+        .description-y3y2Fg{
+            @include TypeBody;
+        }
+        // Active Now
+        .container-3HMTms{
+            border: 1px solid transparent;
+            border-radius: 4px;
+            &:hover{
+                background-color: $CardBackgroundFillColorDefault;
+                border: 1px solid $CardStrokeColorDefault;
+            }
+        }
+    }
+    // Server icon
+    .icon-2IDTxf{
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+    }
+}
