@@ -51,23 +51,65 @@
         @include TypeBodyLarge;
     }
 
-    // Result
+    // Results
+    // Mentions
+    // NOTE: 2023-01-04 - Mentions tab scroller uses a different class which doesn't have L/R padding
+    .scroller-MIi2ab{
+        padding: 0 0 0 16px;
+    }
+
     .container-iA3Qrz, // Mentions
     .channel-3NJZ1V{ // Unreads
         padding-bottom: 16px;
-
         .channelHeader-DFRX8q{
             top: -1px;
             padding-right: 16px; // Fixes dismiss buttons butting up on right side
-            background-color: $SolidBackgroundFillColorBase;
+            background-color: $SolidBackgroundFillColorSecondary;
             border-radius: 4px 4px 0 0;
+            .guildIcon-IklRcj{
+                background-color: transparent;
+                border-radius: 50%;
+            }
         }
-
         .messageContainer-3VTXBC, // Mentions
         .messages-23can0{ // Unreads
+            margin-left: 0;
             background-color: $CardBackgroundFillColorDefault;
             border: 1px solid $CardStrokeColorDefault;
             border-radius: 0 0 4px 4px;
+        }
+    }
+
+    // Unread headers have a collapse button
+    .channel-3NJZ1V{
+        .channelHeader-DFRX8q{
+            padding-left: 48px;
+        }
+        .collapseButton-39-IRc{
+            left: 16px;
+            &::before{
+                content: "\E70D";
+                @include FontIconFluent;
+                font-size: 16px;
+            }
+            svg{
+                display: none;
+            }
+        }
+    }
+
+    // Buttons
+    .button-1_oXub{
+        background-color: $ControlFillColorDefault;
+        border-width: 1px;
+        border-style: outset;
+        border-color: $ControlElevationBorder;
+        border-radius: 4px;
+        &:hover{
+            background-color: $ControlFillColorSecondary;
+        }
+        &:active{
+            background-color: $ControlFillColorTertiary;
         }
     }
 }
