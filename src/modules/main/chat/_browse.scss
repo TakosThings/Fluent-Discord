@@ -1,0 +1,48 @@
+// Good to see Discord's Department of Redundancy Department is alive and well
+.theme-dark .browser-2ea0yq{
+    .container-27tlK1{
+        background-color: $CardBackgroundFillColorDefault;
+    }
+    .channelRow-4X_3fi{
+        background-color: $CardBackgroundFillColorDefault;
+        border-width: 1px 1px 0 1px;
+        border-style: solid;
+        border-color: $CardStrokeColorDefault;
+        &.firstChannel-3vAGDY{
+            border-radius: 4px 4px 0 0;
+        }
+        &.lastChannel-21yyBC{
+            border-radius: 0 0 4px 4px;
+        }
+    }
+    .separator-3vTHjS{
+        display: none;
+    }
+
+    // Checkboxes
+    .checkbox-f1HnKB{
+        display: block;
+        border-color: $ControlStrongFillColorDefault;
+        border-radius: 4px;
+        &[style*="var(--brand-experiment-500)"]{
+            background-color: $AccentTextFillColorPrimary !important;
+            border-color: $AccentTextFillColorPrimary !important;
+            path{
+                fill: $TextOnAccentFillColorPrimary;
+            }
+        }
+        svg{
+            margin: 2px 0 0 2px;
+        }
+    }
+    // Category row has some issues
+    .categoryRow-2VIZ6m{
+        .checkbox-f1HnKB{
+            svg{
+                width: 12px;
+                height: 12px;
+                margin: 0;
+            }
+        }
+    }
+}
