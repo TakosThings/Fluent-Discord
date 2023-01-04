@@ -19,7 +19,7 @@
             display: none;
         }
         .icon-tZMHgY{
-            margin-top: 6px;
+            margin-top: 2px;
         }
     }
 
@@ -65,6 +65,7 @@
     }
     .search-2Mwzzq .searchBar-jGtisZ .DraftEditor-root{
         color: $TextFillColorPrimary;
+        margin-right: 32px;
         @include TypeBody;
         .public-DraftEditor-content{
             overflow-x: hidden;
