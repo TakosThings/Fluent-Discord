@@ -64,8 +64,8 @@
         height: 26px;
     }
     .search-2Mwzzq .searchBar-jGtisZ .DraftEditor-root{
+        width: 100%;
         color: $TextFillColorPrimary;
-        margin-right: 32px;
         @include TypeBody;
         .public-DraftEditor-content{
             overflow-x: hidden;
@@ -75,6 +75,11 @@
             padding: 3px 8px 0;
             box-sizing: border-box;
         }
+    }
+    // Add margin to textarea when open/focused so text doesn't appear over the search/clear icon
+    .search-2Mwzzq.open-1F8u2c .searchBar-jGtisZ .DraftEditor-root,
+    .search-2Mwzzq.focused-1xh-wG .searchBar-jGtisZ .DraftEditor-root{
+        margin-right: 32px;
     }
     .seasearch-2Mwzzqrch .searchBar-jGtisZ .public-DraftEditorPlaceholder-root{
         color: $TextFillColorSecondary;
@@ -89,5 +94,13 @@
         background-color: $TextFillColorPrimary;
         color: #000;
         font-weight: normal;
+    }
+
+    // Search/clear icon in textarea
+    .iconContainer-1RqWJj{
+        // Flip eyeglass icon so the handle is the same side as the Fluent icon
+        &:first-child{
+            transform: rotateZ(90deg);
+        }
     }
 }
