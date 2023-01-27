@@ -1152,6 +1152,7 @@ html[lang^=en-].theme-dark .panels-3wFtMD .button-12Fmur::before {
 }
 
 .theme-dark .container-1zzFcN {
+  background-color: transparent;
   border-top: 0;
   border-bottom: 0;
   padding-bottom: 0;
@@ -6480,7 +6481,7 @@ html[lang^=en-].theme-dark .container-2cd8Mz .actionButton-3-B2x- svg {
   background-color: rgba(255, 255, 255, 0.0837);
 }
 .theme-dark .sidebar-nqHbhN .info-3pQQBb::before {
-  content: "Fluent Discord 1.7.1";
+  content: "Fluent Discord 1.7.2";
   color: rgba(255, 255, 255, 0.786);
   font-size: 12px;
   line-height: 16px;
