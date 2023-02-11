@@ -1,8 +1,19 @@
-/**
- * @name Fluent Discord
- * @author TakosThings
- * @version #{$version}
- * @description Fluent theme for Discord
- * @invite ZYrCacRuez
- * @source https://github.com/TakosThings/Fluent-Discord
-*/
+@if $isAutoFile {
+    /**
+    * @name Fluent Discord
+    * @author TakosThings
+    * @version #{$version}
+    * @description Fluent theme for Discord (🔄 Auto-updating)
+    * @invite ZYrCacRuez
+    * @source https://github.com/TakosThings/Fluent-Discord
+    */
+} @else{
+    /**
+    * @name Fluent Discord
+    * @author TakosThings
+    * @version #{$version}
+    * @description Fluent theme for Discord (⏹ Static)
+    * @invite ZYrCacRuez
+    * @source https://github.com/TakosThings/Fluent-Discord
+    */
+}
