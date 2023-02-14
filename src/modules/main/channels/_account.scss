@@ -29,7 +29,7 @@
         &:active{
             background-color: $ControlFillColorTertiary;
         }
-        .contents-3ca1mk{ // Non-EN sizing fix
+        .contents-3NembX{ // Non-EN sizing fix
             svg{
                 position: absolute;
                 top: 7px;
@@ -52,7 +52,7 @@
 
 // Icon replacements
 html[lang^="en-"].theme-dark .panels-3wFtMD{
-    :not(.button-1EGGcP, .rtcConnectionStatusLabel-Nodt6L) > .contents-3ca1mk{
+    :not(.button-1EGGcP, .rtcConnectionStatusLabel-Nodt6L) > .contents-3NembX{
         display: none;
     }
     .button-12Fmur{

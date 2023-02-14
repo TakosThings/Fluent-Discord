@@ -77,20 +77,15 @@
                     text-transform: none;
                 }
 
-                // There's a chat button that is always hidden for some reason, but still messes with layout
-                .chatButtonSpacer-16BvMu{
-                    margin-right: 0;
-                }
 
                 // Go to "REF: Chat button" for chat button CSS
-
                 .divider-q3P9HC{
                     display: none;
                 }
             }
         }
         // REF: Chat button
-        ~ div > .button-f2h6uQ{
+        ~ div > .button-ejjZWC{
             width: 64px;
             height: 36px;
             top: 6px;
@@ -115,7 +110,7 @@
             .controlButton-2PMNom{
                 height: 32px;
                 margin: 0 4px;
-                &.button-f2h6uQ{
+                &.button-ejjZWC{
                     min-width: 64px;
                     height: 32px;
                     padding: 8px 16px;
@@ -131,7 +126,7 @@
                     }
                 }
 
-                .contents-3ca1mk{
+                .contents-3NembX{
                     // Non-EN style fixes
                     svg{
                         width: 16px !important; // Icons are otherwise too large
@@ -146,7 +141,7 @@
                         width: 64px !important; // Force width
                         mask: none;
                     }
-                    .button-f2h6uQ{
+                    .button-ejjZWC{
                         min-width: 64px;
                         height: 32px;
                         padding: 8px 16px;
@@ -234,7 +229,7 @@
 // Icon replacements
 // Top toolbar (excludes Inbox button)
 html[lang^="en-"].theme-dark .toolbar-3_r2xA{
-    .button-f2h6uQ{
+    .button-ejjZWC{
         &::before{
             @include FontIconFluent;
             width: 62px;
@@ -251,7 +246,7 @@ html[lang^="en-"].theme-dark .toolbar-3_r2xA{
     }
 }
 // Bottom toolbar (mic/speaker mute, leave, activity buttons)
-html[lang^="en-"].theme-dark .wrapper-1gVUIN .controlSection-1mNixL .button-f2h6uQ{
+html[lang^="en-"].theme-dark .wrapper-1gVUIN .controlSection-1mNixL .button-ejjZWC{
     &::before{
         @include FontIconFluent;
         width: 62px;

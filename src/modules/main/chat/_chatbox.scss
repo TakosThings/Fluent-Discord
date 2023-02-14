@@ -70,7 +70,7 @@
                 color: $TextFillColorPrimary;
             }
         }
-        .contents-3ca1mk{
+        .contents-3NembX{
             display: none;
         }
     }
@@ -89,7 +89,7 @@
     // Gift/GIF/Sticker/Emoji buttons
     .expression-picker-chat-input-button{
         margin: 6px 4px 0 0;
-        .button-f2h6uQ{
+        .button-ejjZWC{
             height: 32px;
             width: 32px;
             border: 1px solid transparent;
@@ -111,13 +111,13 @@
 
         // Always hide the emoji button icon since it can be directly selected
         .emojiButton-1fMsf3{
-            .contents-3ca1mk{
+            .contents-3NembX{
                 display: none;
             }
         }
 
         // Replace sticker icon
-        .contents-3ca1mk.stickerButton-1-nFh2{
+        .contents-3NembX.stickerButton-1-nFh2{
             &::before{
                 content: "\F4AA"; // Sticker2
                 @include FontIconFluent;
@@ -129,8 +129,8 @@
         }
 
         // Replace GIF icon
-        .button-f2h6uQ[aria-label*="GIF"]{
-            .contents-3ca1mk{
+        .button-ejjZWC[aria-label*="GIF"]{
+            .contents-3NembX{
                 &::before{
                     content: "\F4A9"; // GIF
                     @include FontIconFluent;
@@ -147,7 +147,7 @@
         height: unset;
         margin-right: 0;
         // Remove gift
-        & > .button-f2h6uQ{
+        & > .button-ejjZWC{
             display: none;
         }
         // Set a static emoji icon
@@ -184,7 +184,7 @@
                 &:hover:not(:disabled):before{
                     color: $TextFillColorPrimary;
                 }
-                .contents-3ca1mk{
+                .contents-3NembX{
                     display: none;
                 }
             }

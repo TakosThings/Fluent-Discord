@@ -5,7 +5,7 @@
 }
 
 // NOTE: 2022-03-26 - hiddenDiv-2qTqSF is used in the credit card field. See #99
-.theme-dark .input-2g-os5:not(.hiddenDiv-2qTqSF){
+.theme-dark .input-3O04eu:not(.hiddenDiv-2qTqSF){
     height: 32px;
     background-color: $ControlFillColorDefault;
     border: 1px solid;
@@ -16,7 +16,7 @@
     color: $TextFillColorSecondary;
 
     // Sizing
-    &.inputDefault-3FGxgL{
+    &.inputDefault-Ciwd-{
         padding: 0 12px;
         // height: 32px;
     }
@@ -42,16 +42,16 @@
 // Create channel prefix
 .theme-dark .inputPrefix-1HHwWv{
     top: 8px;
-    ~ .input-2g-os5{
+    ~ .input-3O04eu{
         // TODO - 2022-06-08: Resolve this conflict
-        padding-left: 32px !important; // Conflicts with .theme-dark .input-2g-os5:not(.hiddenDiv-2qTqSF)
+        padding-left: 32px !important; // Conflicts with .theme-dark .input-3O04eu:not(.hiddenDiv-2qTqSF)
     }
 }
 
 // Multi inline field
 // Change username modal
 .theme-dark .multiInput-1VARjC{
-    &.input-2g-os5{
+    &.input-3O04eu{
         background-color: transparent;
         border: none;
     }
@@ -61,7 +61,7 @@
             display: none;
         }
     }
-    .inputPrefix-1VU7MB{
+    .inputPrefix-3Nqilo{
         display: none;
     }
     // Remove Nitro promotion
@@ -72,7 +72,7 @@
 
 // Select
 .theme-dark{
-    .select-1Ia3hD{
+    .select-Zz0IcO{
         padding: 3px 8px 3px 12px;
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
@@ -83,10 +83,10 @@
     }
 
     // Options popout
-    .popout-1KHNAq{
+    .popout-15UxD6{
         background: $SolidbackgroundFillColorQuarternary;
         border: 1px solid $SurfaceStrokeColorFlyout;
-        .option-2eIyOn{
+        .option-Uc12mm{
             min-height: 32px;
             margin: 4px;
             padding: 8px;
@@ -115,7 +115,7 @@
                     background-color: $SubtleFillColorSecondary;
                     border-radius: 4px;
                 }
-                .selectedIcon-19TbzU{
+                .selectedIcon-122rMx{
                     display: none;
                 }
             }
@@ -137,19 +137,19 @@
 }
 
 // Slider
-.slider-1NC-Gf{
-    .bar-1Bhnl9{
+.slider-1mmyV6{
+    .bar-2H7Q9u{
         height: 3px;
         background-color: $ControlStrongStrokeColorDefault;
         border-radius: 2px;
     }
-    .barFill-2Bh7CX{
+    .barFill-3RgCsY{
         height: 3px;
         position: absolute;
         background-color: $AccentBase;
         border-radius: 2px;
     }
-    .grabber-2GQyvM{
+    .grabber-3R-Rx9{
         width: 18px;
         height: 18px;
         margin-top: -11px;
@@ -172,7 +172,7 @@
 // Text toolbar
 .theme-dark .toolbar-37BrJ5{
     padding: 4px;
-    background: $AcrylicBackgroundFillColorDefault;
+    background: $Red;
     backdrop-filter: blur(10px);
     border: 1px solid $SurfaceStrokeColorFlyout;
     border-radius: 8px;
