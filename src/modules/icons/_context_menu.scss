@@ -214,6 +214,17 @@
     &[id="guild-header-popout-create-event"]::before{
         content: "\E163"; // Calendar
     }
+
+    // NOTE: 2023-01-27 - Used icon from line 472 for consistency between threads icons
+    &[id="guild-header-popout-active-threads"]::before{
+        content: "\E15C"; // ShowResults
+    }
+    &[id="guild-header-popout-application-directory"]::before{
+        content: "\E99A"; // Robot
+    }
+    &[id="guild-header-popout-guild-connection-roles"]::before{
+        content: "\E71B"; // Link
+    }
     &[id="guild-header-popout-notifications"]::before{
         content: "\E91C"; // ActionCenter
     }
