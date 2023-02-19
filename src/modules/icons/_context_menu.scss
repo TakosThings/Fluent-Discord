@@ -508,6 +508,9 @@
     &[id="message-search-google"]::before{
         content: "\F6FA"; // WebSearch
     }
+    &[id="message-guild-automod-add-selection"]::before{
+        content: "\E16E"; // Filter
+    }
 }
 // Message action
 .theme-dark .menu-1QACrS .item-1OdjEX{
