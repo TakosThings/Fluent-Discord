@@ -126,6 +126,9 @@
                 line-height: calc(32px - 8px);
                 vertical-align: middle;
             }
+            &[aria-label="top guild emoji"]::before{
+                content: "\E734"; // FavoriteStar
+            }
             &[aria-label="recent"]::before{
                 content: "\E81C"; // History
             }
@@ -164,6 +167,11 @@
     .inspector-DFKXwB{
         background-color: $SolidBackgroundFillColorSecondary;
     }
+    // "Popular" badge in info bar
+    .topGuildEmojiBadge-3DiG2v{
+        display: none;
+    }
+
     // Emoji category header
     .header-1ULbqO,
     .wrapper-1NNaWG{
