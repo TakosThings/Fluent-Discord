@@ -1,4 +1,4 @@
-.theme-dark .menu-1QACrS{
+.theme-dark .menu-2TXYjN{
     min-width: 280px;
     background: $AcrylicBackgroundFillColorDefault;
     border: 1px solid $SurfaceStrokeColorDefault;
@@ -17,19 +17,19 @@
         border-radius: 8px;
     }
 
-    .scroller-1bVxF5{
+    .scroller-nxCRu_{
         padding: 4px 8px;
         max-height: calc(100vh - 64px);
     }
 
     // Separators
-    .separator-1So4YB{
+    .separator-12G2Op{
         margin: 10px 4px;
         border-bottom-color: $DividerStrokeColorDefault;
     }
 
     // Item
-    .item-1OdjEX{
+    .item-5ApiZt{
         min-height: 34px;
         margin: 2px 0 2px -4px;
         padding: 4px 12px;
@@ -37,14 +37,14 @@
         @include TypeBody;
         color: $TextFillColorPrimary;
         transition: background-color $AnimationFadeInOut;
-        &.focused-3qFvc8{
+        &.focused-3LIdPu{
             background-color: $SubtleFillColorSecondary;
             transition: background-color $AnimationFadeInOut;
         }
-        &.colorDanger-3n-KnP{
+        &.colorDanger-3umuSx{
             color: $SystemFillColorCritical;
         }
-        &.disabled-oOAXat{
+        &.disabled--8Sav3{
             color: $TextFillColorDisabled;
             opacity: 1;
         }
@@ -59,7 +59,7 @@
         // Remove subtext on Spotify menu items
         &[id*="spotify"],
         &[id*="listen"]{
-            .subtext-2GlkbE{
+            .subtext-1mqKVB{
                 display: none;
             }
         }
@@ -75,7 +75,7 @@
         }
 
         // Items with subtext
-        .subtext-2GlkbE{
+        .subtext-1mqKVB{
             margin-top: 0;
             @include TypeCaption;
             color: $TextFillColorSecondary;
@@ -86,7 +86,7 @@
 
         // Remove Discord icons, unless it's a checkbox
         &:not([role="menuitemcheckbox"]):not([role="menuitemradio"]){
-            .icon-E4cW1l{
+            .icon-3XHs8t{
                 display: none;
             }
         }
@@ -109,41 +109,6 @@
             width: 18px;
             height: 18px;
 
-        }
-    }
-
-    // Volume slider
-    .sliderContainer-2nidiS{
-        padding: 0;
-    }
-    .slider-1NC-Gf.mini-2qY9iv{
-        .bar-1Bhnl9{
-            height: 3px;
-            background-color: $ControlStrongStrokeColorDefault;
-            border-radius: 2px;
-        }
-        .barFill-2Bh7CX{
-            height: 3px;
-            position: absolute;
-            background-color: $AccentBase;
-            border-radius: 2px;
-        }
-        .grabber-2GQyvM{
-            width: 12px;
-            height: 12px;
-            margin-top: -1px;
-            background-color: $AccentBase;
-            border: 4px solid #454545;
-            &:hover{
-                width: 14px;
-                height: 14px;
-                border: 3px solid #454545;
-            }
-            &:active{
-                width: 10px;
-                height: 10px;
-                border: 5px solid #454545;
-            }
         }
     }
 
