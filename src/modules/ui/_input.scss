@@ -152,10 +152,11 @@
     .grabber-3R-Rx9{
         width: 18px;
         height: 18px;
-        margin-top: -11px;
+        margin-top: -0px;
         background-color: $AccentBase;
         border: 4px solid #454545;
         border-radius: 50%;
+        box-sizing: border-box;
         &:hover{
             width: 18px;
             height: 18px;
