@@ -457,6 +457,14 @@
     &[id="message-reactions"]::before{
         content: "\E11D"; // Emoji
     }
+    &[id="message-favorite"]::before{
+        // Right click on a reaction
+        content: "\E113"; // Favorite
+    }
+    &[id="message-unfavorite"]::before{
+        // Right click on a reaction
+        content: "\E195"; // UnFavorite
+    }
     &[id="message-edit"]::before{
         content: "\E104"; // Edit
     }
