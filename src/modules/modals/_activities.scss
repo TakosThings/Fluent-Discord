@@ -1,5 +1,6 @@
 .theme-dark .root-CyPAbQ{
     margin-top: 0;
+    background-color: transparent;
 
     .shelfTopBackground-R55ED9{
         display: none;
@@ -11,17 +12,17 @@
     }
     .activityShelfTitle-1rkbSI{
         justify-content: unset;
-        .heading-xl-bold-NSc3DL{
+        .heading-xl-extrabold-3nqyla{
             @include TypeSubtitle;
         }
     }
-    .text-sm-normal-3Zj3Iv{
+    .text-sm-normal-AEQz4v{
         margin-top: 4px;
     }
 
     // Content
     .scrollTierBackground-BnWR8k{
-        background-color: transparent;
+        background-color: $LayerFillColorAlt;
     }
 
     .activityItem-1Z9CTr{

@@ -1,6 +1,6 @@
 // This file is courtesy of Discord's Department of Redundancy Depart at Discord
 // Add server modal has light theme manually applied to it for some reason.
-.theme-light .root-g14mjS{
+.theme-light .root-1CAIjD{
     background: $SolidBackgroundFillColorBase;
     border: 1px solid $SurfaceStrokeColorDefault;
     border-radius: 8px;
@@ -138,7 +138,7 @@
     }
 
     // Footer
-    .footer-31IekZ{
+    .footer-3ie9JP{
         background-color: transparent;
         box-shadow: none;
         .footerTitle-3Bslxi{
@@ -179,7 +179,7 @@
     // Sub sub page (de ja vu?)
     // At least we don't have to do this again
     // Header
-    .header-1zd7se{
+    .header-1AP5SJ{
         padding: 24px 24px 0 24px;
         background-color: $CardBackgroundFillColorDefault;
         align-items: unset;
@@ -208,12 +208,12 @@
     // I lied just before
     // Join server by URL page
     // Header
-    .header-1zd7se{
+    .header-oub2Vc{
         padding: 24px 24px 0 24px;
         background-color: $CardBackgroundFillColorDefault;
         align-items: unset;
         .title-1LqMUp,
-        .colorHeaderSecondary-g5teka{
+        .text-sm-normal-AEQz4v{
             text-align: left;
             color: $TextFillColorPrimary;
         }
@@ -221,9 +221,13 @@
             margin: 0;
             @include TypeSubtitle;
         }
-        .colorHeaderSecondary-g5teka{
+        .text-sm-normal-AEQz4v{
             @include TypeBody;
+            color: $TextFillColorPrimary !important; // Override inline
         }
+    }
+    .examplesForm-N_P087 ~ .rowContainer-3t7486{
+        display: none;
     }
     // Content
     .content-2hZxGK{
