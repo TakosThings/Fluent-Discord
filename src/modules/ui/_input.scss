@@ -170,10 +170,11 @@
     }
 }
 
-// Text toolbar
+// Text formatting toolbar
+// Highlight text in the chat box to open the formatting bar
 .theme-dark .toolbar-37BrJ5{
     padding: 4px;
-    background: $Red;
+    background: $AcrylicBackgroundFillColorDefault;
     backdrop-filter: blur(10px);
     border: 1px solid $SurfaceStrokeColorFlyout;
     border-radius: 8px;
