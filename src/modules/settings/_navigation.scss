@@ -11,7 +11,7 @@
     padding: 24px 4px;
 
     // Section header
-    .side-2ur1Qk .eyebrow-1Shfyi{
+    .side-1lrxIh .eyebrow-1Shfyi{
         padding: 0 0 0 8px;
         @include TypeBodyStrong;
         color: $TextFillColorPrimary;
@@ -25,7 +25,7 @@
         }
     }
 
-    .side-2ur1Qk .item-3XjbnG{
+    .side-1lrxIh .item-2GWPIy{
         padding: 0 12px 0 16px;
         margin-bottom: 4px;
         border: 1px solid transparent;
@@ -67,7 +67,7 @@
             transition: transform 167ms Cubic-bezier(0,0,0,1),
                         opacity 167ms Cubic-bezier(0,0,0,1);
         }
-        &.selected-g-kMVV{
+        &.selected-1sf9UK{
             background-color: $SubtleFillColorSecondary;
             &::before{
                 transform: scaleY(100%);
@@ -102,7 +102,7 @@
         }
     }
     // Divider
-    .side-2ur1Qk .separator-2wx7h6{
+    .side-1lrxIh .separator-2N511j{
         margin: calc(12px - 4px) 0 12px 0;
         background-color: $DividerStrokeColorDefault;
     }
