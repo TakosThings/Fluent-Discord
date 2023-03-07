@@ -468,16 +468,8 @@
         }
     }
     .nowPlayingAdd-3I4RbE{
-        span{
-            display: none;
-        }
         button{
-            &::before{
-                content: "Add game"
-            }
-            .contents-3ca1mk{
-                display: none;
-            }
+            margin-left: 4px;
         }
     }
 }
