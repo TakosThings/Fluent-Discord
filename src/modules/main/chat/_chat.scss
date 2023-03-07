@@ -153,6 +153,10 @@
                 display: none;
             }
         }
+        // Option to set the max-width of the chat in 'ch'
+        .contents-2MsGLg{
+            max-width: var(--fluent-chat-line-max-width);
+        }
     }
 
     // Reactions
