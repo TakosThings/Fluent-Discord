@@ -10,15 +10,17 @@
         display: none;
         & ~ .attachmentInner-1fP7iq{
             position: relative;
+            padding-left: 40px;
             &::before{
-                width: 32px;
-                height: 32px;
                 position: absolute;
-                left: 4px;
-                top: 4px;
+                left: 0px;
+                top: 8px;
                 color: $TextFillColorPrimary;
                 @include FontIconFluent;
                 font-size: 24px;
+            }
+            .filenameLinkWrapper-3Rc6sk a{
+                line-height: 20px;
             }
         }
 
@@ -46,18 +48,9 @@
         content: "\e8a5"; // Document
     }
 
-    .attachmentInner-1fP7iq{
-        padding-left: 42px;
-    }
-
     .metadata-1E7Z4i{
         color: $TextFillColorSecondary;
         @include TypeCaption;
         font-weight: normal;
-    }
-
-    // Remove download button
-    .downloadWrapper-1Cy2Fi{
-        display: none;
     }
 }
