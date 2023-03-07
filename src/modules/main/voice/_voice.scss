@@ -246,7 +246,8 @@ html[lang^="en-"].theme-dark .toolbar-3_r2xA{
     }
 }
 // Bottom toolbar (mic/speaker mute, leave, activity buttons)
-html[lang^="en-"].theme-dark .wrapper-1gVUIN .controlSection-1mNixL .button-ejjZWC{
+// NOTE - 2023-03-07: Discord removed aria-label from activity and react buttons, so only remove default icons from buttons WITH an aria-label set
+html[lang^="en-"].theme-dark .wrapper-1gVUIN .controlSection-1mNixL .button-ejjZWC[aria-label]{
     &::before{
         @include FontIconFluent;
         width: 62px;
