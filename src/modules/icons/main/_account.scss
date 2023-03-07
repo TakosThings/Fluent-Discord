@@ -45,7 +45,8 @@ html[lang^="en-"].theme-dark .panels-3wFtMD .button-12Fmur{
 
     // Streaming
     &[aria-label*="#{map-get($translate, ACTIVITY_PANEL_GO_LIVE_STREAM_GAME)}"]::before,
-    &[aria-label*="Go Live"]::before{
+    &[aria-label*="Go Live"]::before,
+    &[aria-label*="Navigate to a server to start streaming."]::before{
         content: "\EBC6"; // Project
     }
     &[aria-label="#{map-get($translate, STOP_STREAMING)}"]::before{
