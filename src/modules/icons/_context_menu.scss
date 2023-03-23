@@ -519,6 +519,9 @@
     &[id="message-guild-automod-add-selection"]::before{
         content: "\E16E"; // Filter
     }
+    &[id="message-report"]::before{
+        content: "\E730"; // Filter
+    }
 }
 // Message action
 .theme-dark .menu-2TXYjN .item-5ApiZt{
