@@ -80,6 +80,11 @@
             margin-bottom: 8px;
         }
     }
+    label.bd-setting-title[for="Fluent Discord"]::after{
+        content: " Remember to backup your options before updating";
+        color: $TextFillColorTertiary;
+        @include TypeCaption;
+    }
 
     // Add notes to some options
     label[for="transparency"]::after{
