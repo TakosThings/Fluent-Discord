@@ -555,7 +555,7 @@
     &[id="message-actions-delete"]::before{
         content: "\E107"; // Delete
     }
-    &[id="message-actions-copy-id"]::before{
+    &[id="message-actions-devmode-copy-id"]::before{
         content: "\E943"; // Code
     }
 }
