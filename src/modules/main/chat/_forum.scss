@@ -87,4 +87,11 @@
             @include TypeBody;
         }
     }
+
+    // No threads
+    .container-2nXUah{
+        background-color: $LayerFillColorAlt;
+        border: 1px solid $CardStrokeColorDefault;
+        border-radius: 4px;
+    }
 }
