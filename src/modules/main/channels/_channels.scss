@@ -232,6 +232,22 @@
         box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary; // Using box-shadow because borders cause the div to grow
     }
 
+    // Show all voice channels button
+    .voiceChannelsButton-SRmgo8{
+        background-color: $ControlFillColorDefault;
+        border-width: 1px;
+        border-style: outset;
+        border-color: $ControlElevationBorder;
+        border-radius: 4px;
+        color: $TextFillColorPrimary;
+        &:hover{
+            background-color: $ControlFillColorSecondary;
+        }
+        &:active{
+            background-color: $ControlFillColorTertiary;
+        }
+    }
+
     // Threads
     // Active threads
     .wrapper-NhbLHG{
