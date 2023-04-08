@@ -9,22 +9,22 @@
 
 // Also includes the RTC controls icons to save having another file
 html[lang^="en-"].theme-dark .panels-3wFtMD .button-12Fmur{
-    &[aria-label="#{map-get($translate, DEAFEN)}"][aria-checked=true]::before{
+    &[aria-label="Deafen"][aria-checked=true]::before{
         content: "\E74F"; // Mute
     }
-    &[aria-label="#{map-get($translate, DEAFEN)}"][aria-checked=false]::before{
+    &[aria-label="Deafen"][aria-checked=false]::before{
         content: "\E767"; // Volume
     }
-    &[aria-label="#{map-get($translate, MUTE)}"][aria-checked=true]::before{
+    &[aria-label="Mute"][aria-checked=true]::before{
         content: "\EC54"; // MicOff
     }
-    &[aria-label="#{map-get($translate, MUTE)}"][aria-checked=false]::before{
+    &[aria-label="Mute"][aria-checked=false]::before{
         content: "\E720"; // Microphone
     }
-    &[aria-label^="#{map-get($translate, USER_SETTINGS)}" i]::before{
+    &[aria-label^="User settings" i]::before{
         content: "\E713"; // Settings
     }
-    &[aria-label^="#{map-get($translate, USER_SETTINGS)}" i]{
+    &[aria-label^="User settings" i]{
         &:hover{
             &::before{
                 animation: fluent-setting-rot 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
@@ -33,24 +33,24 @@ html[lang^="en-"].theme-dark .panels-3wFtMD .button-12Fmur{
     }
 
     // RTC
-    &[aria-label="#{map-get($translate, NOISE_CANCELLATION_TOOLTIP)}" i]::before{
+    &[aria-label="Noise Suppression powered by Krisp" i]::before{
         content: "\F61F"; // NoiseCancellation
     }
-    &[aria-label="#{map-get($translate, SERVICE_CONNECTIONS_DISCONNECT)}"]::before{
+    &[aria-label="Disconnect"]::before{
         content: "\E137"; // HangUp
     }
     &[aria-label="Leave Activity"]::before,
-    &[aria-label="#{map-get($translate, AUDIENCE_DISCONNECT)}"]::before{
+    &[aria-label="Exit Quietly"]::before{
         content: "\E11F"; // LeaveChat
     }
 
     // Streaming
-    &[aria-label*="#{map-get($translate, ACTIVITY_PANEL_GO_LIVE_STREAM_GAME)}"]::before,
+    &[aria-label*="Stream"]::before,
     &[aria-label*="Go Live"]::before,
     &[aria-label*="Navigate to a server to start streaming."]::before{
         content: "\EBC6"; // Project
     }
-    &[aria-label="#{map-get($translate, STOP_STREAMING)}"]::before{
+    &[aria-label="Stop Streaming"]::before{
         content: "\EA14"; // DisconnectDisplay
     }
 
@@ -61,15 +61,9 @@ html[lang^="en-"].theme-dark .panels-3wFtMD .button-12Fmur{
 }
 
 html[lang^="en-"].theme-dark .panels-3wFtMD .actionButtons-2vEOUh button.button-1EGGcP{
-    // &[aria-label="#{map-get($translate, CAMERA)}"]::before,
-    // &[aria-label="#{map-get($translate, CAMERA_ON)}"]::before,
-    // &[aria-label="#{map-get($translate, CAMERA_OFF)}"]::before,
-    // &[aria-label="#{map-get($translate, CAMERA_UNAVAILABLE)}"]::before{
     &:nth-of-type(1)::before{
         content: "\E156"; // WebCam
     }
-    // &[aria-label="#{map-get($translate, SHARE_YOUR_SCREEN)}"]::before,
-    // &[aria-label="#{map-get($translate, SCREEN_SHARE_ON)}"]::before{
     &:nth-of-type(2)::before{
         content: "\EC15"; // MiracastLogoSmall
     }

@@ -1,19 +1,19 @@
 html[lang^="en-"].theme-dark .peopleList-2VBrVI{
-    [aria-label="#{map-get($translate, SEND_DM)}"]::before{
+    [aria-label="Message"]::before{
         content: "\e8bd"; // Message
     }
-    [aria-label="#{map-get($translate, MORE)}"]::before{
+    [aria-label="More"]::before{
         content: "\e712"; // More
     }
 
-    [aria-label="#{map-get($translate, UNBLOCK)}"]::before{
+    [aria-label="Unblock"]::before{
         content: "\e8f8"; // BlockContact
     }
 
-    [aria-label="#{map-get($translate, FRIEND_REQUEST_ACCEPT)}"]::before{
+    [aria-label="Accept"]::before{
         content: "\e8fb"; // Accept
     }
-    [aria-label="#{map-get($translate, FRIEND_REQUEST_IGNORE)}"]::before{
+    [aria-label="Ignore"]::before{
         content: "\e711"; // Cancel
     }
     // Pending friend requests Cancel button
