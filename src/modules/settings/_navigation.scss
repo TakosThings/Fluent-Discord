@@ -98,6 +98,10 @@
     }
 
     .info-3pQQBb{
+        // Make all version info match colours
+        span{
+            color: $TextFillColorSecondary !important; // Override inline
+        }
         &::before{
             content: "Fluent Discord #{$version}";
             color: $TextFillColorSecondary;
