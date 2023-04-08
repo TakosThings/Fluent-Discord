@@ -39,6 +39,7 @@ html[lang^="en-"].theme-dark .panels-3wFtMD .button-12Fmur{
     &[aria-label="#{map-get($translate, SERVICE_CONNECTIONS_DISCONNECT)}"]::before{
         content: "\E137"; // HangUp
     }
+    &[aria-label="Leave Activity"]::before,
     &[aria-label="#{map-get($translate, AUDIENCE_DISCONNECT)}"]::before{
         content: "\E11F"; // LeaveChat
     }
