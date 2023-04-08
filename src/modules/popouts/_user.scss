@@ -1,23 +1,23 @@
-.theme-dark .userPopoutOuter-3AVBmJ{
+.theme-dark .userPopoutOuter-1OHwPL{
     @include Elevation32;
 
     // 'plebium' mode
-    .userProfileInnerThemedNonPremium-1gT-zY{
+    .userProfileInnerThemedNonPremium-2AJg-H{
         background: $AcrylicBackgroundFillColorBase;
         border: 1px solid $SurfaceStrokeColorDefault;
         border-radius: 8px;
-        .overlayBackground-1KgwVi{
+        .overlayBackground-2aa7wt{
             background: $LayerOnAcrylicFillColorDefult;
             border-radius: 4px;
         }
     }
 
-    .overlayBackground-1KgwVi{
+    .overlayBackground-2aa7wt{
         border-radius: 4px;
     }
 
     // Only display scroll bar when we need it
-    .scroller-1jBQYo{
+    .scroller-15bIdk{
         padding: 0 12px !important;
         overflow-y: auto !important;
     }
@@ -28,7 +28,7 @@
     }
 
     // Section title
-    .title-1r9MQ6,
+    .title-3CjiSS,
     .headerText-3g1XK9{ // 'Deprecated' spotify title
         @include TypeBodyStrong;
         text-transform: none;
@@ -47,7 +47,7 @@
     }
 
     // Remove double border on message box
-    .messageInputContainer-2rGDH8{
+    .messageInputContainer-24qqTx{
         border: 0;
     }
 
