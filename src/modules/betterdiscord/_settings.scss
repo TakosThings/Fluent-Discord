@@ -1,4 +1,12 @@
 // Sidebar
+// Header
+.bd-sidebar-header h2{
+    padding: 6px 10px 6px 16px;
+    @include TypeBodyStrong;
+    color: $TextFillColorPrimary;
+    line-height: 34px;
+    text-transform: none;
+}
 // Changelog button
 .bd-changelog-button{
     width: 32px;
