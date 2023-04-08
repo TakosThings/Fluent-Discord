@@ -33,16 +33,6 @@
         color: $TextFillColorPrimary;
         @include TypeBody;
         line-height: 34px;
-        &::after{
-            // NOTE - 2022-08-28: Temporary measure to force no content until aria-label or aria-controls is re-added
-            content: unset !important;
-            position: absolute;
-            top: 0;
-            left: 16px;
-            color: #FFF;
-            @include FontIconFluent;
-            font-size: 14px;
-        }
         &:hover{
             color: $TextFillColorPrimary;
             background-color: $SubtleFillColorSecondary;
