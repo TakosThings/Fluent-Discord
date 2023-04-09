@@ -99,11 +99,11 @@
     }
     // Password and auth
     .userSettingsSecurity-2kODPN{
-        .sectionTitle-3j2YI1 h1{
+        .sectionTitle-LdcnyP h2{
             @include TypeBodyLarge;
             margin-bottom: 8px;
         }
-        > .children-1xdcWE{
+        > .children-2C96Ex{
             // Change Password
             > div:first-of-type{
                 height: 62px;
@@ -133,7 +133,7 @@
                         border-bottom: 0;
                         border-radius: 4px 4px 0 0;
                     }
-                    > .description-30xx7u{
+                    > .description-foE_WP{
                         margin: 0;
                         padding: 0 16px 8px 16px;
                         background-color: $CardBackgroundFillColorDefault;
@@ -179,7 +179,7 @@
         }
 
         // Remove divider between SMS backup and delete account
-        ~ .divider-_0um2u{
+        ~ .divider-3nqZNm{
             display: none;
             ~ .marginTop40-Q4o1tS{
                 margin-top: 8px;
