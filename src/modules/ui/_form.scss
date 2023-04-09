@@ -96,8 +96,17 @@
 }
 
 // Radio button
-.theme-dark .item-2idW98{
-    .radioBar-3w9XY-{
+.theme-dark .item-1TA5qI{
+    .radioBar-1XgZqD{
+        padding: 12px 24px !important;
+        // Label
+        .info-3cKxwI{
+            .text-md-medium-2n7Vn5{
+                @include TypeBody;
+            }
+        }
+
+        // Apply our own radio button
         > div:first-child{
             width: 18px;
             min-width: 18px;
@@ -114,7 +123,7 @@
             }
         }
     }
-    &[aria-checked=true] .radioBar-3w9XY-{
+    &[aria-checked=true] .radioBar-1XgZqD{
         > div:first-child{
             background-color: $AccentTextFillColorPrimary;
             border-color: $AccentTextFillColorPrimary;
@@ -138,12 +147,12 @@
     }
 
     &:hover{
-        .radioBar-3w9XY- > div:first-child{
+        .radioBar-1XgZqD > div:first-child{
             background-color: $ControlAltFillColorTertiary;
         }
     }
     &[aria-checked=true]:hover{
-        .radioBar-3w9XY- > div:first-child{
+        .radioBar-1XgZqD > div:first-child{
             background-color: $AccentTextFillColorSecondary;
             &::before{
                 transform: scale(1.167);
