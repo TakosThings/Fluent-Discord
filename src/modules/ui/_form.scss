@@ -203,8 +203,8 @@
     }
 }
 // Checkbox (in context menu)
-.theme-dark .menu-1QACrS .item-1OdjEX[role="menuitemcheckbox"]{
-    .iconContainer-1-SsTR{
+.theme-dark .menu-2TXYjN .item-5ApiZt[role="menuitemcheckbox"]{
+    .iconContainer-Ksy8Oj{
         width: 18px;
         height: 18px;
         position: relative;
@@ -216,7 +216,7 @@
             display: none;
         }
     }
-    &[aria-checked=true] .iconContainer-1-SsTR{
+    &[aria-checked=true] .iconContainer-Ksy8Oj{
         background-color: $AccentTextFillColorPrimary;
         border-color: $AccentTextFillColorPrimary;
         color: $TextOnAccentFillColorPrimary;
@@ -229,15 +229,15 @@
             font-size: 16px;
         }
     }
-    &:hover .iconContainer-1-SsTR{
+    &:hover .iconContainer-Ksy8Oj{
         background-color: $ControlAltFillColorTertiary;
     }
-    &[aria-checked=true]:hover .iconContainer-1-SsTR{
+    &[aria-checked=true]:hover .iconContainer-Ksy8Oj{
         background-color: $AccentTextFillColorSecondary;
     }
 }
 // Checkbox (in partner programme (server settings))
-.inputReadonly-33V1FI{
+.inputReadonly-2iSlw6{
     z-index: 1;
     width: 22px !important;
     height: 22px !important;
