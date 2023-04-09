@@ -178,8 +178,16 @@
     &[id="user-context-add-friend-nickname"]::before{
         content: "\E1CB"; // Tag
     }
+    // No Spotify icon available, so using a blank
+    &[id^="user-context-spotify-play-"]::before{
+        content: "\E9CE"; // Unknown
+        visibility: hidden;
+    }
+    &[id^="user-context-spotify-sync-"]::before{
+        content: "\E102"; // Play
+    }
     // Options added in group DMs
-    // Start a call and have a use not connect to reveal the next 2 options
+    // Start a call and have a user not connect to reveal the next 2 options
     &[id="user-context-ring"]::before{
         content: "\E9CE"; // Unknown
         visibility: hidden;
