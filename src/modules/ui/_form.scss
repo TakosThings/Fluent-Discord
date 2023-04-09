@@ -103,6 +103,11 @@
         .info-3cKxwI{
             .text-md-medium-2n7Vn5{
                 @include TypeBody;
+                color: $TextFillColorPrimary;
+            }
+            .text-sm-normal-AEQz4v{
+                @include TypeCaption;
+                color: $TextFillColorSecondary;
             }
         }
 
