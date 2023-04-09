@@ -172,6 +172,9 @@
     &[id="user-context-mute-channel"]::before{
         content: "\EE79"; // ActionCenterQuiet
     }
+    &[id="user-context-soundboard-sound-mute"]::before{
+        content: "\F0EB"; // SpatialVolume0
+    }
     // Options added in group DMs
     // Start a call and have a use not connect to reveal the next 2 options
     &[id="user-context-ring"]::before{
