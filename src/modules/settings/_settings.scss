@@ -36,6 +36,30 @@
             @include TypeTitle;
         }
     }
+
+    // Setting container
+    .container-31PmuA{
+        margin-bottom: 8px;
+        padding: 18px 24px;
+        background-color: $CardBackgroundFillColorDefault;
+        border: 1px solid $CardStrokeColorDefault;
+        border-radius: 4px;
+
+        .title-2yADjX{
+            @include TypeBody;
+        }
+        .note-3SS3a9{
+            margin-right: 64px;
+        }
+        .description-foE_WP, .labelDescriptor-2top7R{
+            @include TypeCaption;
+            color: $TextFillColorSecondary;
+        }
+
+        .divider-3nqZNm{
+            display: none;
+        }
+    }
 }
 // Pages transition
 @keyframes fluent-settings-pages-transition{
