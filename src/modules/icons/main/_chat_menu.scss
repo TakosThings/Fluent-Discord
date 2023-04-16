@@ -24,7 +24,7 @@ html[lang^="en-"].theme-dark .wrapper-2vIMkT{
         &[aria-label="Copy Link"]::before{
             content: "\E167"; // Link
         }
-        &[aria-label="Copy ID"]::before{
+        &[aria-label="Copy Message ID"]::before{
             content: "ID";
             @include FontNormal;
         }
