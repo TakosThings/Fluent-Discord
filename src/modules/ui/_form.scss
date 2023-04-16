@@ -168,7 +168,8 @@
 
 // Checkbox (in settings UI)
 .theme-dark .checkboxWrapper-3zdYym{
-    .input-1y_Uys{
+    .input-1y_Uys,
+    .box-qwm0Q_{
         width: 18px;
         height: 18px;
         position: relative;
@@ -180,13 +181,17 @@
         &:hover{
             background-color: $ControlAltFillColorTertiary;
         }
+        svg{
+            display: none;
+        }
     }
     &.checked-22NTbO{
-        .input-1y_Uys{
-            background-color: $AccentTextFillColorPrimary;
-            border-color: $AccentTextFillColorPrimary;
+        .input-1y_Uys,
+        .box-qwm0Q_{
+            background-color: $AccentTextFillColorPrimary !important;
+            border-color: $AccentTextFillColorPrimary !important;
             &:hover{
-                background-color: $AccentTextFillColorSecondary;
+                background-color: $AccentTextFillColorSecondary !important;
             }
             &::before{
                 content: "\E001"; // CheckMark(Private)

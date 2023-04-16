@@ -19,22 +19,11 @@
         display: none;
     }
 
-    // Checkboxes
-    .checkbox-f1HnKB{
+    // Fix for channel checkboxes not displaying
+    .channelActions-2FvDct .checkbox-1LuCGM{
         display: block;
-        border-color: $ControlStrongFillColorDefault;
-        border-radius: 4px;
-        &[style*="var(--brand-experiment-500)"]{
-            background-color: $AccentTextFillColorPrimary !important;
-            border-color: $AccentTextFillColorPrimary !important;
-            path{
-                fill: $TextOnAccentFillColorPrimary;
             }
-        }
-        svg{
-            margin: 2px 0 0 2px;
-        }
-    }
+
     // Category row has some issues
     .categoryRow-2VIZ6m{
         .checkbox-f1HnKB{
