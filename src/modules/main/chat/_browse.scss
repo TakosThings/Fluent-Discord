@@ -1,5 +1,34 @@
-// Good to see Discord's Department of Redundancy Department is alive and well
-.theme-dark .browser-2ea0yq{
+.theme-dark .content-1jQy2l{
+    // Tab bar
+    .tabBar-1_P75h{
+        border: 0;
+        .tabBarItem-onx_ng{
+            @include TypeBody;
+            color: $TextFillColorPrimary;
+            border: 0;
+            &:hover{
+                color: $TextFillColorSecondary;
+            }
+            &.selected-1sf9UK{
+                border: 0;
+                &::before{
+                    content: "";
+                    width: 16px;
+                    height: 3px;
+                    position: absolute;
+                    bottom: 0;
+                    left: calc(50% - 8px);
+                    background-color: $AccentTextFillColorPrimary;
+                    border-radius: 999px;
+                }
+            }
+            .textBadge-1fdDPJ{
+                background-color: $SystemFillColorSolidNeutralBackground !important; // Override inline
+                @include TypeCaption;
+            }
+        }
+    }
+
     .container-27tlK1{
         background-color: $CardBackgroundFillColorDefault;
     }
@@ -22,7 +51,7 @@
     // Fix for channel checkboxes not displaying
     .channelActions-2FvDct .checkbox-1LuCGM{
         display: block;
-            }
+    }
 
     // Category row has some issues
     .categoryRow-2VIZ6m{
