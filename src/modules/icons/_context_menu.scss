@@ -468,6 +468,11 @@
         content: "\E9CE"; // Unknown
         visibility: hidden;
     }
+    &[id="message-add-reaction-1"]::before{
+        // Intentionally not displaying an icon as it is a submenu, and would also require icon reuse
+        content: "\E9CE"; // Unknown
+        visibility: hidden;
+    }
     &[id="message-reactions"]::before{
         content: "\E11D"; // Emoji
     }

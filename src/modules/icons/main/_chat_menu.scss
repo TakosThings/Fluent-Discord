@@ -31,6 +31,9 @@ html[lang^="en-"].theme-dark .wrapper-2vIMkT{
         &[aria-label="Reactions"]::before{
             content: "\E11D"; // Emoji
         }
+        &[aria-label="Add Super Reaction"]::before{
+            content: "\EA38"; // Asterisk
+        }
         &[aria-label="Delete"]::before{
             content: "\E107"; // Delete
         }
