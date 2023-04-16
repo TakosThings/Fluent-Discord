@@ -46,6 +46,8 @@
 
     // DMs header
     .privateChannelsHeaderContainer-1UWASm{
+        height: auto;
+        padding: 12px;
         color: $TextFillColorPrimary;
         @include TypeBody;
         text-transform: none;
