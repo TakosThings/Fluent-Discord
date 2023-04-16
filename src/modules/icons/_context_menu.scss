@@ -151,7 +151,7 @@
     &[id="user-context-roles"]::before{
         content: "\EC1B"; // Badge
     }
-    &[id="user-context-devmode-copy-id"]::before{
+    &[id^="user-context-devmode-copy-id"]::before{
         content: "\E943"; // Code
     }
     &[id="user-context-voice-move"]::before{
@@ -279,7 +279,7 @@
     &[id="channel-context-delete-channel"]::before{
         content: "\E107"; // Delete
     }
-    &[id="channel-context-devmode-copy-id"]::before{
+    &[id^="channel-context-devmode-copy-id"]::before{
         content: "\E943"; // Code
     }
     &[id="channel-context-hide-voice-names"]::before{
@@ -329,7 +329,7 @@
 
     // NOTE: 2022-03-26 - Change/Remove icon option has an incompatible structure, ignoring.
 
-    &[id="gdm-context-devmode-copy-id"]::before{
+    &[id^="gdm-context-devmode-copy-id"]::before{
         content: "\E943"; // Code
     }
     &[id="gdm-context-leave-channel"]::before{
@@ -378,7 +378,7 @@
     &[id="guild-context-leave-guild"]::before{
         content: "\F3B1"; // SignOut
     }
-    &[id="guild-context-devmode-copy-id"]::before{
+    &[id^="guild-context-devmode-copy-id"]::before{
         content: "\E943"; // Code
     }
 
@@ -524,7 +524,7 @@
     &[id="message-open-native-link"]::before{
         content: "\E8A7"; // OpenInNewWindow
     }
-    &[id="message-devmode-copy-id"]::before{
+    &[id^="message-devmode-copy-id"]::before{
         content: "\E943"; // Code
     }
     &[id="message-search-google"]::before{
@@ -572,7 +572,7 @@
     &[id="message-actions-report"]::before{
         content: "\E730"; // ReportHacked
     }
-    &[id="message-actions-devmode-copy-id"]::before{
+    &[id^="message-actions-devmode-copy-id"]::before{
         content: "\E943"; // Code
     }
 }
@@ -618,7 +618,7 @@
     &[id="thread-context-delete-channel"]::before{
         content: "\E107"; // Delete
     }
-    &[id="thread-context-devmode-copy-id"]::before{
+    &[id^="thread-context-devmode-copy-id"]::before{
         content: "\E943"; // Code
     }
 }
