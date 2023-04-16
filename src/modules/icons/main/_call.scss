@@ -51,4 +51,7 @@ html[lang^="en-"].theme-dark .wrapper-1gVUIN .controlSection-1mNixL .button-ejjZ
     &[aria-label="Exit Full Screen"]::before{
         content: "\E1D8"; // BackToWindow
     }
+    &[aria-label^="Return"]::before{
+        content: "\F71A"; // ReturnToCall
+    }
 }
