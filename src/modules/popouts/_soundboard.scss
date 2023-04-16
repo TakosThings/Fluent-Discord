@@ -1,0 +1,84 @@
+.theme-dark .picker-20lcBA{
+    background: $MicaBackgroundFillColorBase;
+    backdrop-filter: blur(16px);
+    border: 1px solid $SurfaceStrokeColorDefault;
+    border-radius: 8px;
+
+    // Search box
+    .header-3YNgrp{
+        box-shadow: none;
+    }
+    // Volume control
+    .settingsClickArea-1vKB0J{
+        width: 32px;
+        height: 32px;
+        border-width: 1px;
+        border-style: outset;
+        border-color: $ControlElevationBorder;
+        border-radius: 4px;
+        &:hover{
+            background-color: $ControlFillColorSecondary;
+        }
+        &:active{
+            background-color: $ControlFillColorTertiary;
+        }
+        svg{
+            padding: 6px;
+        }
+    }
+
+    // Servers
+    .categoryList-iuh2t0{
+        background-color: $SolidBackgroundFillColorBase;
+    }
+
+    // Sounds
+    // Section header
+    .sectionHeader-1-lTK9{
+        .sectionTitle-1T_AdY{
+            @include TypeBodyStrong;
+            text-transform: none;
+            color: $TextFillColorPrimary;
+        }
+    }
+
+    // Sound
+    .soundButton-2P2Ua2{
+        background-color: $ControlFillColorDefault;
+        border-width: 1px;
+        border-style: outset;
+        border-color: $ControlElevationBorder;
+        border-radius: 4px;
+        color: $TextFillColorPrimary;
+        &:hover{
+            background-color: $ControlFillColorSecondary;
+        }
+        &:active{
+            background-color: $ControlFillColorTertiary;
+        }
+        .soundName-3m5jfy{
+            @include TypeBody;
+        }
+        .buttonOverlayBackground-3fyfGX{
+            background-color: $ControlFillColorInputActiveBrush;
+            opacity: 1;
+        }
+    }
+
+    // keybind reminder
+    .keybindHint-2zIIxQ{
+        margin: 8px;
+        padding: 8px 16px;
+        background-color: $SystemFillColorAttentionBackground;
+        border: 1px solid $CardStrokeColorDefault;
+        border-radius: 4px;
+        .warningIcon-1SDACq{
+            color: $SystemFillColorAttention;
+            // Wrong icon used for this type of info bar, so rotate it 180deg to change it into an 'i'
+            transform: rotate(180deg);
+        }
+        .keybindHintText-3G9ZG4{
+            @include TypeBody;
+        }
+    }
+}
