@@ -95,4 +95,17 @@
         max-height: unset !important;
         min-height: unset !important;
     }
+
+    // Upload sound
+    .headerContainer-3Hja2u{
+        margin-bottom: 0;
+        .header-XceYjQ{
+            @include TypeSubtitle;
+            text-align: left;
+        }
+        .text-sm-normal-AEQz4v{
+            @include TypeBody;
+            text-align: left;
+        }
+    }
 }
