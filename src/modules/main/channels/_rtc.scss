@@ -25,7 +25,6 @@
     // Video/screen share buttons
     .actionButtons-2vEOUh{
         grid-gap: 4px;
-        // Applying our own grid template to cheat the size of the activity button so it has the same spacing as the buttons above and below it, and saves removing a bunch of needed width from the channels pane
         // !importants to make these appear as 'default' button instead of accent
         button{
             min-width: unset;
@@ -46,6 +45,10 @@
                     margin-right: 0;
                 }
             }
+        }
+        // This only applies to the soundboard button when you are muted (for whatever reason)
+        .disabledButtonWrapper-1m0hYZ{
+            background-color: transparent;
         }
     }
     // NOTE: 2022-02-19 - Removing the stream buttons when you don't have permission. This may cause the channels jiggling bug to resurface. See #31.
