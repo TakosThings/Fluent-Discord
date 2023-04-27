@@ -40,7 +40,7 @@ html[lang^="en-"].theme-dark .panels-3wFtMD .button-12Fmur{
         content: "\E137"; // HangUp
     }
     &[aria-label="Leave Activity"]::before,
-    &[aria-label="Exit Quietly"]::before{
+    &[aria-label="Disconnect Quietly"]::before{
         content: "\E11F"; // LeaveChat
     }
 
