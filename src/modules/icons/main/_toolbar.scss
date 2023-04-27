@@ -116,4 +116,12 @@ html[lang^="en-"].theme-dark .toolbar-3_r2xA{
             content: "\E712"; // More
         }
     }
+
+    // Stage channel
+    .button-ejjZWC{
+        // Show chat
+        &[aria-label^="Show Chat"]::before{
+            content: "\E8A0"; // OpenPane
+        }
+    }
 }
