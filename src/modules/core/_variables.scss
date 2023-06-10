@@ -48,7 +48,7 @@ $ControlStrongFillColorDisabled:                rgba(#FFF, 24.65%); // Disabled
 $SubtleFillColorTransparent:                    transparent; // Rest
 $SubtleFillColorSecondary:                      rgba(#FFF, 6.05%);  // Hover
 $SubtleFillColorTertiary:                       rgba(#FFF, 4.19%);  // Pressed
-$SubtleFillColorDisabled:                       transparent;        // Disabled
+$SubtleFillColorDisabled:                       #1E1E1E;        // Disabled
 // Control On Image Fill - Used for controls living on top of imagery. Currently used only for grid view checkbox
 $ControlOnImageFillColorDefault:                rgba(#1C1C1C, 70%); // Rest
 $ControlOnImageFillColorSecondary:              #1A1A1A;            // Hover
@@ -104,6 +104,11 @@ $LayerFillColorDefault:                         rgba(#3A3A3A, 30%); // Content l
 $LayerFillColorAlt:                             rgba(#FFF, 5.38%);  // Alternate color layer color
 // Layer on Acrylic - Background of any material to create layering
 $LayerOnAcrylicFillColorDefult:                 rgba(#FFF, 3.59%);  // Content layer color on acrylic surfaces
+// Layer on Mica Base Alt - Used for fills on Tab control
+$LayerOnMicaBaseAltFillColor:                   rgba(#3A3A3A, 45%); //Active Tab rest, Content fill layer;
+$LayerOnMicaBaseAltFillColorTertiary:           rgba(#F9F9F9, 100%);// Active Tab drag
+$LayerOnMicaBaseAltFillColorTransparent:        transparent;
+$LayerOnMicaBaseAltFillColorSecondary:          rgba(#FFFFFF, 6.05%);
 // Solid Background - Solid background colors to place layers, cards or controls on
 $SolidBackgroundFillColorBase:                  #202020; // Bottom layer of an experience
 $SolidBackgroundFillColorBaseAlt:               #0A0A0A; // Bottom layer of an experience
@@ -113,7 +118,8 @@ $SolidbackgroundFillColorQuarternary:           #2C2C2C; // Alt content layer co
 $SolidBackgroundFillColorQuinary:               #333333; // Solid fallback color for default card
 $SolidBackgroundFillColorSenary:                #373737; // Solid fallback color for default card hover and pressed
 // Mica Background - Mica background colors to place layers, cards, or controls on
-$MicaBackgroundFillColorBase:                   linear-gradient(0deg, rgba(#202020, 80%), rgba(#202020, 80%));
+$MicaBackgroundFillColorBase:                   linear-gradient(0deg, rgba(#202020, 80%), rgba(#202020, 80%)); // Used for the bottom most layer of an experience
+$MicaBackgroundFillColorAlt:                    #0A0A0A; // Default tab background color
 // Acrylic Background - Acrylic background colors to place layers, cards, or controls on
 $AcrylicBackgroundFillColorBase:                linear-gradient(0deg, rgba(#202020, 50%), rgba(#202020, 50%)), rgba(#202020, 96%);
 $AcrylicBackgroundFillColorDefault:             linear-gradient(0deg, rgba(#2C2C2c, 15%), rgba(#2C2C2c, 15%)), rgba(#2C2C2c, 96%);
