@@ -517,6 +517,9 @@
     &[id="message-copy"]::before{
         content: "\E16F"; // Copy
     }
+    &[id="message-copy-text"]::before{
+        content: "\E16F"; // Copy
+    }
     &[id="message-copy-image"]::before{
         content: "\E16F"; // Copy
     }
