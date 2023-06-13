@@ -88,6 +88,21 @@
     .headerImage-2osrlm{
         display: none;
     }
+    // NOTE: 2023-06-13 - Style fix for the verify email modal which uses the wrong class for the actions div
+    .headerImage-2osrlm ~ div .content-1OG56Q{
+        background-color: transparent;
+    }
+    .buttons-1TBWBN{
+        margin-top: 16px;
+        flex-direction: row;
+        button{
+            flex-grow: 1;
+            width: 50%;
+        }
+        button:first-child{
+            margin-right: 8px;
+        }
+    }
     // Enter phone number
     .phoneField-3NAPDv{
         .countryButton-1cNDvB{
