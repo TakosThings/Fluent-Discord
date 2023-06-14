@@ -38,10 +38,6 @@
             background-color: $SubtleFillColorSecondary;
             border-color: $SubtleFillColorSecondary;
         }
-        &:hover{
-            color: $TextFillColorSecondary;
-            background-color: $SubtleFillColorTertiary;
-        }
         // Pill
         &::before{
             content: "";
