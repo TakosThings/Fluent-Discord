@@ -171,6 +171,20 @@
         &.reactionMe-1PwQAc{
             border-color: $AccentBase;
         }
+        .reactionCount-26U4As{
+            color: $TextFillColorPrimary;
+            @include TypeBody;
+        }
+        &.reactionReadOnly-2cr_d0{
+            background-color: $ControlFillColorDisabled;
+            border: 1px solid $ControlStrokeColorDefault;
+            .reactionCount-26U4As{
+                color: $TextFillColorDisabled;
+            }
+            &:hover .reactionCount-26U4As{
+                color: $TextFillColorDisabled;
+            }
+        }
     }
 
     // Thread
