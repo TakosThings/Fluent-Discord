@@ -7,8 +7,9 @@
 }
 
 .theme-dark .sidebar-nqHbhN{
-    width: 300px;
-    padding: 24px 4px;
+    // NOTE: 2023-06-13 - 6px to account for the scrollbar
+    width: calc(320px - 6px);
+    padding: 40px 4px;
 
     // Section header
     .side-1lrxIh .eyebrow-1Shfyi{
@@ -89,8 +90,7 @@
     }
     // Divider
     .side-1lrxIh .separator-2N511j{
-        margin: calc(12px - 4px) 0 12px 0;
-        background-color: $DividerStrokeColorDefault;
+        margin: 0 -8px;
     }
 
     .info-3pQQBb{
