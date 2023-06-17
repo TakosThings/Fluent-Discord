@@ -1109,8 +1109,8 @@ html[lang^=en-].theme-dark .panels-3wFtMD .button-12Fmur::before {
 .theme-dark.platform-win .sidebar-1tnWFu .containerDefault-YUSmu3 .unread-36eUEm {
   width: 3px;
   height: 16px;
+  top: 1px;
   left: 8px;
-  margin-top: -8px;
   background-color: rgba(255, 255, 255, 0.786);
   border-radius: 2px;
 }
@@ -2718,7 +2718,7 @@ html[lang^=en-].theme-dark .wrapper-2vIMkT .button-3bklZh[aria-label] svg {
   background-image: none;
 }
 .theme-dark .invite-3uuHYQ .artworkSpotifySessionEnded-D18iXB::before {
-  content: "\ea39";
+  content: "\e15b";
   position: absolute;
   width: 100px;
   font-family: "Segoe Fluent Icons", "Segoe MDL2 Assets";
@@ -4955,6 +4955,23 @@ html[lang^=en-].theme-dark .container-2cd8Mz .actionButton-3-B2x- svg {
 .theme-dark .headerImage-2osrlm {
   display: none;
 }
+.theme-dark .headerImage-2osrlm ~ div .content-1OG56Q {
+  background-color: transparent;
+}
+.theme-dark .buttons-1TBWBN {
+  margin-top: 16px;
+  flex-direction: row;
+}
+.theme-dark .buttons-1TBWBN button {
+  flex-grow: 1;
+  width: 50%;
+}
+.theme-dark .buttons-1TBWBN button:first-child {
+  margin-right: 8px;
+}
+.theme-dark .phoneField-3NAPDv .countryButton-1cNDvB {
+  min-width: 64px;
+}
 .theme-dark .modal-1Kmy_E.root-1CAIjD.small-2xUY-3.fullscreenOnMobile-2971EC[style="opacity: 1; transform: scale(1);"] {
   max-height: unset !important;
   min-height: unset !important;
@@ -6630,10 +6647,6 @@ html[lang^=en-].theme-dark .container-2cd8Mz .actionButton-3-B2x- svg {
   background-color: rgba(255, 255, 255, 0.0605);
   border-color: rgba(255, 255, 255, 0.0605);
 }
-.theme-dark .sidebar-nqHbhN .side-1lrxIh .item-2GWPIy:hover {
-  color: rgba(255, 255, 255, 0.786);
-  background-color: rgba(255, 255, 255, 0.0419);
-}
 .theme-dark .sidebar-nqHbhN .side-1lrxIh .item-2GWPIy::before {
   content: "";
   width: 3px;
@@ -6684,7 +6697,7 @@ html[lang^=en-].theme-dark .container-2cd8Mz .actionButton-3-B2x- svg {
   color: rgba(255, 255, 255, 0.786) !important;
 }
 .theme-dark .sidebar-nqHbhN .info-3pQQBb::before {
-  content: "Fluent Discord 1.8.0";
+  content: "Fluent Discord 1.8.1";
   color: rgba(255, 255, 255, 0.786);
   font-size: 12px;
   line-height: 16px;
@@ -6795,8 +6808,7 @@ html[lang^=en-].theme-dark .container-2cd8Mz .actionButton-3-B2x- svg {
 .theme-dark .contentColumn-1C7as6 .notice-1Qe0b_ .text-3bXy2L strong {
   font-weight: normal;
 }
-.theme-dark .contentColumn-1C7as6 .divider-_0um2u,
-.theme-dark .contentColumn-1C7as6 .divider-ogkn3u {
+.theme-dark .contentColumn-1C7as6 .divider-3nqZNm {
   display: none;
 }
 .theme-dark .contentColumn-1C7as6 .accountProfileCard-lbN7n- {
@@ -7276,7 +7288,7 @@ html[lang^=en-].theme-dark .panels-3wFtMD .button-12Fmur[aria-label="Noise Suppr
 html[lang^=en-].theme-dark .panels-3wFtMD .button-12Fmur[aria-label=Disconnect]::before {
   content: "\e137";
 }
-html[lang^=en-].theme-dark .panels-3wFtMD .button-12Fmur[aria-label="Leave Activity"]::before, html[lang^=en-].theme-dark .panels-3wFtMD .button-12Fmur[aria-label="Exit Quietly"]::before {
+html[lang^=en-].theme-dark .panels-3wFtMD .button-12Fmur[aria-label="Leave Activity"]::before, html[lang^=en-].theme-dark .panels-3wFtMD .button-12Fmur[aria-label="Disconnect Quietly"]::before {
   content: "\e11f";
 }
 html[lang^=en-].theme-dark .panels-3wFtMD .button-12Fmur[aria-label*=Stream]::before, html[lang^=en-].theme-dark .panels-3wFtMD .button-12Fmur[aria-label*="Go Live"]::before, html[lang^=en-].theme-dark .panels-3wFtMD .button-12Fmur[aria-label*="Navigate to a server to start streaming."]::before {
@@ -7485,6 +7497,9 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .button-ejjZWC[aria-label=Focus]::bef
 }
 html[lang^=en-].theme-dark .toolbar-3_r2xA .button-ejjZWC[aria-label=More]::before {
   content: "\e712";
+}
+html[lang^=en-].theme-dark .toolbar-3_r2xA .button-ejjZWC[aria-label^="Show Chat"]::before {
+  content: "\e8a0";
 }
 
 .theme-dark .menu-2TXYjN .item-5ApiZt[id=user-settings-cog-My_Account]::before {
@@ -7964,6 +7979,9 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .button-ejjZWC[aria-label=More]::befo
   content: "\e107";
 }
 .theme-dark .menu-2TXYjN .item-5ApiZt[id=message-copy]::before {
+  content: "\e16f";
+}
+.theme-dark .menu-2TXYjN .item-5ApiZt[id=message-copy-text]::before {
   content: "\e16f";
 }
 .theme-dark .menu-2TXYjN .item-5ApiZt[id=message-copy-image]::before {
@@ -8834,6 +8852,10 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA.cursorPointer-B3u
 .theme-dark .botTag-2mryIa[style] span,
 .theme-dark .botTag-7aX5WZ[style] span {
   display: block !important;
+}
+
+.voiceTimer {
+  margin-top: 0 !important;
 }
 
 .bd-sidebar-header h2 {
