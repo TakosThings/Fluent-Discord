@@ -14,8 +14,13 @@
                 text-decoration: underline;
             }
         }
-        svg{
-            visibility: hidden;
+        // Remove guild boost icon
+        .guildIconV2Container-2H8IRS{
+            display: none;
+        }
+        // Remove dropdown icon
+        .headerChildren-2qV9P8{
+            display: none;
         }
     }
     .clickable-vvKY2q .header-3OsQeK:hover,
