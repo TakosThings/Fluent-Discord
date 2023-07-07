@@ -1,0 +1,54 @@
+.theme-dark .contentColumn-1C7as6{
+    // Permissions
+    // Fix header
+    &#permissions-tab{
+        .title-lXcL8p{
+            @include TypeTitle;
+        }
+
+        // Advanced permissions
+        // Header
+        .advancedModeDivider-2GZv7R ~ .button-ejjZWC{
+            margin-top: 32px;
+            .contents-3NembX{
+                h2{
+                    @include TypeBodyStrong;
+                }
+            }
+        }
+        // Sidebar
+        .sidebarScrollable-2mW9Ls{
+            .scroller-3_YDR2{
+                background-color: transparent;
+            }
+        }
+
+        // Permissions list
+        // Fix width
+        .sidebarScrollable-2mW9Ls+.content-2ssVKB{
+            max-width: calc(1000px - 232px);
+        }
+
+        // The permissions
+        .permissionsForm-35gjPz{
+            .flex-2S1XBF.vertical-3aLnqW{
+                margin-bottom: 8px;
+                padding: 8px 16px;
+                background-color: $CardBackgroundFillColorDefault;
+                border: 1px solid $CardStrokeColorDefault;
+                border-radius: 4px;
+                h4{
+                    @include TypeBody;
+                    line-height: 32px;
+                }
+                .description-foE_WP{
+                    margin-right: 100px;
+                    @include TypeCaption;
+                }
+            }
+        }
+    }
+
+    // Invites
+    // NOTE: 2023-06-17 - Cannot target Invites page
+}

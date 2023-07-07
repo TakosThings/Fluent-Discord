@@ -106,6 +106,7 @@ $isAutoFile: false;
 // Order: Settings, then navigation, then others, alphabetic
 @import 'modules/settings/settings';
 @import 'modules/settings/navigation';
+@import 'modules/settings/channel_settings';
 @import 'modules/settings/server_settings';
 @import 'modules/settings/user_settings';
 
