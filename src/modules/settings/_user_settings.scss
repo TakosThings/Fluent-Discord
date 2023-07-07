@@ -341,6 +341,7 @@
     .connectContainer-1hylYM{
         background-color: $SystemFillColorAttentionBackground;
         border: 1px solid $CardStrokeColorDefault;
+        border-radius: 4px;
         // Header
         .connectHeader-2VkFiv{
             @include TypeBodyStrong;
@@ -362,10 +363,12 @@
     .connection-YOVI9j{
         background-color: $SystemFillColorAttentionBackground;
         border: 1px solid $CardStrokeColorDefault;
+        border-radius: 4px;
         .connectionHeader-Ixbb1s{
             padding: 16px;
             background-color: $SystemFillColorAttentionBackground;
             border-bottom: 1px solid $CardStrokeColorDefault;
+            border-radius: 4px 4px 0 0;
             .connectionAccountValue-YkFI6F{
                 margin-left: 16px;
                 @include TypeBodyStrong;
@@ -389,6 +392,7 @@
         .integration-1qC-fv{
             background-color: $SystemFillColorAttentionBackground;
             border: 1px solid $CardStrokeColorDefault;
+            border-radius: 4px;
         }
     }
 
