@@ -397,21 +397,26 @@
     }
 
     // Privacy & Safety
-    .container-1zDvAE{
-        margin-bottom: 8px;
-        padding: 16px;
-        background-color: $SystemFillColorAttentionBackground;
-        border: 1px solid $CardStrokeColorDefault;
-        border-radius: 4px;
-        .title-2dsDLn{
-            @include TypeBody;
+    &#privacy-\&-safety-tab{
+        .container-1zDvAE{
+            margin-bottom: 8px;
+            padding: 16px;
+            background-color: $SystemFillColorAttentionBackground;
+            border: 1px solid $CardStrokeColorDefault;
+            border-radius: 4px;
+            .title-2dsDLn{
+                @include TypeBody;
+            }
+            .description-30xx7u{
+                @include TypeCaption;
+                color: $TextFillColorSecondary;
+            }
+            .divider-_0um2u{
+                display: none;
+            }
         }
-        .description-30xx7u{
-            @include TypeCaption;
-            color: $TextFillColorSecondary;
-        }
-        .divider-_0um2u{
-            display: none;
+        .dependentSetting-2ewJ4W{
+            padding-left: 0;
         }
     }
 
