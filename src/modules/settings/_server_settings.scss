@@ -1,30 +1,66 @@
 .theme-dark .contentColumn-1C7as6{
-    // Permissions
-    .scroller-3_YDR2{
-        background-color: transparent;
-    }
-    // Left
-    .container-JyRf62{
-        .titleContainer-3fPic2{
+    // Roles
+    // Fix header
+    &#roles-tab{
+        .title-lXcL8p{
+            @include TypeTitle;
+        }
+
+
+        // Advanced permissions
+        .contentContainer-3hXFtK{
+            left: 256px;
+        }
+        .contentWidth-3aWel5{
+            max-width: calc(1000px - 232px);
+        }
+
+        // Left
+        .container-JyRf62{
+            .titleContainer-3fPic2{
+                padding-top: 40px;
+                background-color: transparent;
+                .titleText-3LapIU{
+                    @include TypeSubtitle;
+                    text-transform: none;
+                }
+            }
+            .list-1AJFv_{
+                padding: 0 16px 96px 16px;
+            }
+        }
+        // Right
+        .header-JUTO-g{
             padding-top: 40px;
-            background-color: transparent;
-            .titleText-3LapIU{
+            background-color: $CardStrokeColorDefaultSolid;
+            .titleText-35PD5k{
                 @include TypeSubtitle;
                 text-transform: none;
             }
         }
-        .list-1AJFv_{
-            padding: 0 16px 96px 16px;
+    }
+
+
+    // Server template
+    // Fix header
+    &#guild_templates-tab{
+        .title-lXcL8p{
+            @include TypeTitle;
         }
     }
 
-    // Right
-    .header-JUTO-g{
-        padding-top: 40px;
-        background-color: $SolidBackgroundFillColorTertiary;
-        .titleText-35PD5k{
-            @include TypeSubtitle;
-            text-transform: none;
+    // Custom invite link
+    // Fix header
+    &#vanity_url-tab{
+        .title-lXcL8p{
+            @include TypeTitle;
+        }
+    }
+
+    // Integrations
+    &#integrations-tab{
+        .title-lXcL8p{
+            @include TypeTitle;
         }
     }
 
@@ -91,6 +127,23 @@
             }
         }
     }
+
+    // Audit Log
+    // NOTE: 2023-06-17 - Cannot target Audit log page
+
+    // Server boot status
+    // Fix title
+    &#guild_premium-tab{
+        .title-lXcL8p{
+            @include TypeTitle;
+        }
+    }
+
+    // Members
+    // NOTE: 2023-06-17 - Cannot target Members page
+
+    // Invites
+    // NOTE: 2023-06-17 - Cannot target Invites page
 
     // Edge case fixes
     // Channel Settings - Overview
