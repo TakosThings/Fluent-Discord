@@ -26,30 +26,37 @@
 
         .userInfo-regn9W{
             height: 68px;
-            padding: 16px 16px 0 calc(64px + 16px);
-            margin: 8px 0;
-        }
-        // Avatar
-        .avatar-3mTjvZ{
-            width: 64px !important; // Override inline
-            height: 64px !important; // Override inline
-            top: 8px;
-            left: 0;
-            border: 2px solid #000;
-            svg{
-                width: unset !important; // Override inline
-                height: unset !important; // Override inline
-                foreignobject{
-                    width: 64px !important; // Override inline
-                    height: 64px !important; // Override inline
-                    mask: unset !important;
+            margin: 0 0 32px 0;
+            padding: 0;
+            justify-content: flex-start;
+            gap: 16px;
+            align-items: center;
+            // Avatar
+            .avatar-3mTjvZ{
+                width: 64px !important; // Override inline
+                height: 64px !important; // Override inline
+                position: relative;
+                top: unset;
+                left: unset;
+                border: 2px solid #000;
+                svg{
+                    width: unset !important; // Override inline
+                    height: unset !important; // Override inline
+                    foreignobject{
+                        width: 64px !important; // Override inline
+                        height: 64px !important; // Override inline
+                        mask: unset !important;
+                    }
+                    rect{
+                        display: none;
+                    }
+                    img{
+                        border-radius: 50%;
+                    }
                 }
-                rect{
-                    display: none;
-                }
-                img{
-                    border-radius: 50%;
-                }
+            }
+            .button-ejjZWC{
+                display: none;
             }
         }
 
@@ -63,7 +70,7 @@
             background-color: transparent;
             .field-21XZwa{
                 min-height: 64px;
-                padding: 0 16px;
+                padding: 0 16px 0 48px;
                 margin: 0 0 4px 0;
                 background-color: $CardBackgroundFillColorDefault;
                 border: 1px solid $CardStrokeColorDefault;
@@ -73,11 +80,13 @@
                     align-items: center;
                 }
 
-                .usernameRow-1x50RR,
-                .usernameInnerRow-1-STdK,
-                h5.title-3hptVQ,
-                span.size16-rrJ6ag{
+                .fieldTitle-2g5r_V{
+                    margin-bottom: 0;
                     @include TypeBody;
+                }
+                .text-md-normal-2rFCH3{
+                    @include TypeCaption;
+                    color: $TextFillColorSecondary !important;
                 }
 
                 // Override the reveal button
@@ -94,6 +103,37 @@
                     }
                 }
             }
+
+            // Icons
+            .field-21XZwa{
+                position: relative;
+                &::before{
+                    position: absolute;
+                    top: 24px;
+                    left: 16px;
+                    @include FontIconFluent;
+                    font-size: 16px;
+                    color: $TextFillColorPrimary;
+                }
+                // Display name
+                &:nth-child(1)::before{
+                    content: "\E2AF"; // ContactInfo
+                }
+                // Username
+                &:nth-child(2)::before{
+                    content: "\E136"; // ContactInfo
+                }
+                // Email
+                &:nth-child(3)::before{
+                    content: "\E119"; // Mail
+                }
+                // Phone Number
+                &:nth-child(4)::before{
+                    content: "\E1C9"; // CellPhone
+                }
+            }
+
+
         }
     }
     // Password and auth
@@ -146,6 +186,7 @@
                         padding: 16px;
                         background-color: $CardBackgroundFillColorDefault;
                         border: 1px solid $CardStrokeColorDefault;
+                        border-top: 0;
                         border-radius: 0 0 4px 4px;
                         justify-content: flex-end;
                         .flexChild-3PzYmX{
@@ -164,7 +205,7 @@
                         .description-30xx7u{
                             color: $TextFillColorSecondary;
                         }
-                        .children-1xdcWE{
+                        .children-2C96Ex{
                             .flex-2S1XBF{
                                 justify-content: flex-end;
                             }
@@ -189,7 +230,6 @@
                 border-radius: 4px;
                 .buttonContainer-cmXa0P{
                     padding-top: 16px;
-                    border-top: 1px solid $CardStrokeColorDefault;
                     justify-content: flex-end;
                     button:first-child{
                         margin-right: 8px;
@@ -207,6 +247,11 @@
     }
 
     // User profile
+    &#profile-customization-tab{
+        .heading-lg-semibold-14ouVv{
+            @include TypeTitle;
+        }
+    }
     // About me
     .channelTextArea-1VQBuV{
         .bioTextArea-dDGOeC{
@@ -366,11 +411,50 @@
         }
     }
 
+    // Subscriptions
+    &#subscriptions-tab{
+        .sectionTitle-3vprZ6{
+            margin-bottom: 32px;
+            @include TypeTitle;
+        }
+    }
+
+    // Billing
+    &#billing-tab{
+        // Only apply to the main header, not the secondary "Transaction History" header
+        .title-lXcL8p .flex-2S1XBF{
+            margin-bottom: 32px;
+            @include TypeTitle;
+            // Remove lock icon
+            svg{
+                display: none;
+            }
+        }
+    }
+
     // Appearance
     // Chat preview
     .preview-QJ3OG3{
         background-color: $LayerFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
+    }
+    // Theme
+    .presets-2zm9Ir{
+        padding: 16px;
+        margin-bottom: 0;
+    }
+    // Nitro themes
+    .premiumFeatureBorder-1i95si{
+        margin: 0;
+        background: transparent;
+        border: 0;
+        .headings-1UkJbq{
+            .title-1ezOSD::after{
+                content: "Fluent Discord - Colour themes are not supported";
+                padding-left: 4px;
+                color: $TextFillColorDisabled;
+            }
+        }
     }
 
     // a11y
@@ -458,17 +542,102 @@
     }
 
     // Registered games
-    // Active game
-    .activeGame-1OdxzI{
-        &.notDetected-M3Ghh2{
-            background-color: $SystemFillColorAttentionBackground;
+    &#game-activity-tab{
+        // Active game
+        .activeGame-1OdxzI{
+            &.notDetected-M3Ghh2{
+                background-color: $SystemFillColorAttentionBackground;
+                border: 1px solid $CardStrokeColorDefault;
+                border-radius: 4px;
+            }
+            &.nowPlaying-3UpuKc{
+                background-color: $SystemFillColorSuccesBackground;
+            }
+        }
+        // Add new game
+        .nowPlayingAdd-3I4RbE{
+            width: 100%;
+            padding: 8px 16px;
+            background-color: $CardBackgroundFillColorDefault;
             border: 1px solid $CardStrokeColorDefault;
             border-radius: 4px;
+            span{
+                color: $TextFillColorPrimary;
+                line-height: 32px;
+            }
+            .button-ejjZWC{
+                float: right;
+            }
+        }
+
+        // The games list
+        .game-2f2vPC{
+            padding: 12px 16px;
+            background-color: $CardBackgroundFillColorDefault;
+            border: 1px solid $CardStrokeColorDefault;
+            border-bottom: 0;
+            box-shadow: none;
+            &:first-of-type{
+                border-radius: 4px 4px 0 0;
+            }
+            &:last-of-type{
+                border-bottom: 1px solid $CardStrokeColorDefault;
+                border-radius: 0 0 4px 4px;
+            }
+            &::before{
+                display: none;
+            }
+        }
+
+        // App name
+        .gameName-zbZetm{
+            @include TypeBodyStrong;
+        }
+        // Last played
+        .lastPlayed-1jum9A{
+            color: $TextFillColorSecondary;
+            .default-rFvAvS{
+                @include TypeCaption;
+                strong{
+                    font-weight: normal;
+                }
+            }
+            .hovered-20u3oh{
+                @include FontMonospace;
+                @include TypeCaption;
+            }
+        }
+        // Overlay status
+        .overlayStatusText-In0YrK{
+            margin-right: 8px;
+            color: $TextFillColorSecondary;
+            @include TypeBody;
+            text-transform: none;
+            text-align: right;
+        }
+        .overlayToggleIcon-1WRcQ9{
+            margin-right: 8px;
+        }
+        // Remove button
+        .removeGame-3V7nss{
+            position: relative;
+            top: unset;
+            right: unset;
+            opacity: 1;
+            background-color: transparent;
+            box-shadow: none;
+            filter: brightness(200%) grayscale(100%);
+            &:hover{
+                filter: unset;
+            }
         }
     }
-    .nowPlayingAdd-3I4RbE{
-        button{
-            margin-left: 4px;
+
+    // Game Overlay
+    &#overlay-tab{
+        // Remove extra border from enable container
+        .container-31PmuA[style="margin-top: 16px;"]{
+            margin-top: 0 !important;
         }
     }
 }
