@@ -28,6 +28,10 @@
 }
 
 // Settings
+.theme-dark .bd-settings-title{
+    margin-bottom: 32px;
+    @include TypeTitle;
+}
 .theme-dark .bd-settings-group{
     margin-bottom: 16px;
     &.collapsed{
