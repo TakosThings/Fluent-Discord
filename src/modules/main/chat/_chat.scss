@@ -141,18 +141,6 @@
                 border-radius: 1px;
             }
         }
-        .botTag-7aX5WZ{
-            padding: 0;
-            background-color: transparent;
-            &::before{
-                content: "\E99A"; // Robot
-                @include FontIconFluent;
-                font-size: 14px;
-            }
-            span{
-                display: none;
-            }
-        }
     }
 
     // Reactions
