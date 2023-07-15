@@ -80,6 +80,10 @@
   text-transform: none;
 }
 
+.botTagOP-3pUTXu {
+  color: rgba(255, 255, 255, 0.786);
+}
+
 .theme-dark .sidebar-1tnWFu,
 .theme-dark .container-1NXEtd,
 .theme-dark .wrapper-1_HaEi,
@@ -1081,7 +1085,7 @@ html[lang^=en-].theme-dark .panels-3wFtMD .button-12Fmur::before {
   height: 16px;
   position: absolute;
   top: 9px;
-  left: 8px;
+  left: 0px;
   background-color: hsl(var(--fluent-accent-hue-sat), calc(var(--fluent-accent-lightness) + 20%));
   border-radius: 999px;
   transform: scaleY(0%);
@@ -1123,14 +1127,17 @@ html[lang^=en-].theme-dark .panels-3wFtMD .button-12Fmur::before {
 .theme-dark.platform-win .sidebar-1tnWFu .containerDefault-YUSmu3 .unread-36eUEm {
   width: 3px;
   height: 16px;
-  top: 1px;
-  left: 8px;
+  top: 13px;
+  left: 0px;
   background-color: rgba(255, 255, 255, 0.786);
   border-radius: 2px;
 }
-.theme-dark.platform-win .sidebar-1tnWFu .containerDefault-YUSmu3 .typeThread-2Aqh6X .link-1_kTxV {
+.theme-dark.platform-win .sidebar-1tnWFu .containerDefault-YUSmu3 .typeThread-2Aqh6X.wrapper-NhbLHG {
   margin-left: 8px;
-  padding-left: 47px;
+}
+.theme-dark.platform-win .sidebar-1tnWFu .containerDefault-YUSmu3 .typeThread-2Aqh6X .link-1_kTxV {
+  margin-left: 0;
+  padding-left: 48px;
 }
 .theme-dark.platform-win .sidebar-1tnWFu .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42 {
   background-color: rgba(255, 255, 255, 0.0605);
@@ -6721,7 +6728,7 @@ html[lang^=en-].theme-dark .container-2cd8Mz .actionButton-3-B2x- svg {
   color: rgba(255, 255, 255, 0.786) !important;
 }
 .theme-dark .sidebar-nqHbhN .info-3pQQBb::before {
-  content: "Fluent Discord 1.9.0";
+  content: "Fluent Discord 1.9.1";
   color: rgba(255, 255, 255, 0.786);
   font-size: 12px;
   line-height: 16px;
