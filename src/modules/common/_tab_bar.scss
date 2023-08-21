@@ -1,0 +1,38 @@
+.theme-dark{
+    .tabBar-1_P75h,         // A: Guild > Channels & Roles
+    .tabBar-2hXqzU,         // B: User profile modal
+    .tabBar-11FwuO,         // C: User Settings > Profiles
+    .settingsTabBar-1Fi_kb{ // D: User Settings > Family Centre
+        border-bottom: 0;
+
+        // Items
+        .item-2GWPIy{
+            @include TypeBody;
+            color: $TextFillColorPrimary;
+            border: 0;
+            &:hover{
+                color: $TextFillColorSecondary;
+            }
+            &.selected-1sf9UK{
+                border: 0;
+                &::before{
+                    content: "";
+                    width: 16px;
+                    height: 3px;
+                    position: absolute;
+                    bottom: 0;
+                    left: calc(50% - 8px);
+                    background-color: $AccentTextFillColorPrimary;
+                    border-radius: 999px;
+                }
+            }
+
+            // Special cases
+            // A: Badge for total channels
+            .textBadge-1fdDPJ{
+                background-color: $SystemFillColorSolidNeutralBackground !important; // Override inline
+                @include TypeCaption;
+            }
+        }
+    }
+}
