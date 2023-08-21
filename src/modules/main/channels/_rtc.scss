@@ -40,6 +40,8 @@
             }
 
             .contents-3NembX{
+                // Display: flex required to fix alignment of soundboard icon when using non-English - see #249
+                display: flex;
                 font-size: 0;
                 svg{
                     margin-right: 0;
