@@ -1,3 +1,79 @@
+// Server guide
+.theme-dark .homeContainer-1T8N7y{
+    height: calc(100% - 1px);
+    padding: 0;
+    background-color: $LayerFillColorDefault;
+    border-top: 1px solid $CardStrokeColorDefault;
+    border-left: 1px solid $CardStrokeColorDefault;
+    border-radius: 8px 0 0 0;
+    .scrollerBase-1Pkza4{
+        overflow: none !important;
+    }
+
+    // Banner
+    .header-20qCMo{
+        margin-top: 0;
+        .headerArtWrapper-2o2rZd{
+            margin: 0;
+            border-radius: 0;
+            .headerArt-UqZaX6{
+                // padding-top: ;
+                border-radius: 8px 0 0 0;
+            }
+        }
+
+        // Server icon
+        .headerIcon-3Q7cOC{
+            border: 0;
+            border-radius: 50%;
+        }
+    }
+
+    // Info boxes
+    .row--LCpto{
+        background-color: $SystemFillColorAttentionBackground;
+        border: 1px solid $CardStrokeColorDefault;
+        border-radius: 4px;
+        .messageContent-iSvcqA{
+            color: $TextFillColorPrimary !important; // override inline
+        }
+    }
+
+    // Sidebar
+    .sidebarCardWrapper-34oCuK{
+        background-color: $SystemFillColorAttentionBackground;
+        border: 1px solid $CardStrokeColorDefault;
+        border-radius: 4px;
+    }
+
+
+}
+// Server Guide continued
+// Remove chat background when the 'thread' pane is open
+.theme-dark .chatContent-3KubbW{
+    background: transparent;
+}
+
+
+// Channels & Roles > Customise
+.theme-dark .pageBody-29jwEZ{
+    .prompt-1sE27N{
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        border: 0;
+    }
+
+    .optionButtonWrapper-2lbogO{
+        background-color: $CardBackgroundFillColorDefault;
+        border-width: 1px 1px 0 1px;
+        border-style: solid;
+        border-color: $CardStrokeColorDefault;
+        border-radius: 4px;
+    }
+}
+
+// Channels & Roles > Browse channels
 .theme-dark .content-1jQy2l{
     .container-27tlK1{
         background-color: $CardBackgroundFillColorDefault;
