@@ -420,6 +420,38 @@
         }
     }
 
+    // Family Centre
+    &#family-center-tab{
+        // Activity tab boxes
+        .container-2WMFjc,
+        .container-jV-A82,
+        .container-1iKw09,
+        .box-3QCU9{
+            background-color: $SystemFillColorAttentionBackground;
+            border: 1px solid $CardStrokeColorDefault;
+            border-radius: 4px;
+            box-shadow: none;
+        }
+        // Make the layout full-width
+        .banner-3Hf665,
+        .featureCards-1Jt7gz,
+        .container-1iKw09{
+            max-width: unset;
+        }
+
+        // My family tab boxes
+        .box-3QCU9H{
+            background-color: $SystemFillColorAttentionBackground;
+            border: 1px solid $CardStrokeColorDefault;
+            border-radius: 4px;
+            box-shadow: none;
+        }
+        // Make the layout full-width
+        .container-3Ok1v9{
+            max-width: unset;
+        }
+    }
+
     // Subscriptions
     &#subscriptions-tab{
         .sectionTitle-3vprZ6{
