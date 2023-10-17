@@ -1,4 +1,4 @@
-.theme-dark .form-3gdLxP, // Main chatbox
+.theme-dark .form-3qe0Ni, // Main chatbox
 .theme-dark .submitContainer-1DHMA0{ // Thread start
     margin-top: 0;
     padding-right: 17px;
@@ -8,7 +8,7 @@
         display: none;
     }
 
-    .channelTextArea-1FufC0,
+    .channelTextArea-1deLlK,
     .channelTextArea-1VQBuV{
         margin-bottom: 8px;
         background-color: $ControlFillColorDefault;
@@ -228,16 +228,16 @@
 
     // Various chatbox states
     // Announce channel follow
-    .wrapper-2SplAX{
+    .wrapper-IjGAlW{
         margin-bottom: 16px;
         background-color: $ControlFillColorDisabled;
         border: 1px solid $ControlStrokeColorDefault;
         // Remove image
-        .content-2M_BlY{
+        .content-1YKiCa{
             img{
                 display: none;
             }
-            .title-Do_30w{
+            .title-ZqmuTf{
                 color: $TextFillColorDisabled !important; // Override inline
                 @include TypeBody;
             }

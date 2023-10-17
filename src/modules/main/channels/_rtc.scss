@@ -1,11 +1,11 @@
-.theme-dark .container-1zzFcN{
+.theme-dark .container-2NLBJg{
     background-color: transparent;
     border-top: 0;
     border-bottom: 0;
     padding-bottom: 0;
 
     // Connection status/disconnect
-    .connection-3k9QeF{
+    .connection-3wznVd{
         height: 32px;
     }
     .rtcConnectionStatus-c5A6Av{
@@ -18,12 +18,12 @@
     .subtext-2HDqJ7{
         @include TypeCaption;
     }
-    .voiceUsers-3gPcwY{
+    .voiceUsers-g1MlmH{
         padding-top: 4px;
     }
 
     // Video/screen share buttons
-    .actionButtons-2vEOUh{
+    .actionButtons-1DmM2g{
         grid-gap: 4px;
         // !importants to make these appear as 'default' button instead of accent
         button{
@@ -69,7 +69,7 @@
         @include TypeBody;
     }
     // NOTE: 2022-02-19 - Removing the stream buttons when you don't have permission. This may cause the channels jiggling bug to resurface. See #31.
-    .actions-zk2vB_{
+    .actions-_dBVGH{
         .disabledButtonWrapper-2Oz3aY{
             display: none;
         }
@@ -77,7 +77,7 @@
 }
 
 // Icons
-html[lang^="en-"].theme-dark .panels-3wFtMD .button-1EGGcP{
+html[lang^="en-"].theme-dark .panels-3wFtMD .button-2gNyE9{
     &::before{
         @include FontIconFluent;
         font-size: 16px;
