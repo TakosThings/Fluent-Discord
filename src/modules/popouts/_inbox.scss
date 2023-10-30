@@ -1,4 +1,4 @@
-.theme-dark .recentMentionsPopout-2bI1ZN{
+.theme-dark .recentMentionsPopout__826a9{
     // NOTE - 2022-06-08: Calculation is based on: 100vh - titlebar - toolbar - (margin-top + margin-bottom)
     max-height: calc(100vh - 32px - 48px - 16px) !important;  // Override inline
     margin: 8px;
@@ -7,11 +7,11 @@
     border: 1px solid $SurfaceStrokeColorDefault;
     border-radius: 8px;
 
-    .header-1w9Q93{
+    .header_f5cc88{
         background-color: transparent;
         // Tabs
-        .tabBar-1qdMr5{
-            .tab-TRrPC8{
+        .tabBar__2aa8e{
+            .tab_a8a066{
                 padding-left: 0;
                 padding-right: 0;
                 margin-right: 16px;
@@ -22,7 +22,7 @@
                     color: $TextFillColorSecondary;
                 }
 
-                &.active-1grPyy{
+                &.active__7e7af{
                     background-color: transparent;
                     color: $AccentTextFillColorPrimary;
                     &::before{
@@ -43,10 +43,10 @@
     }
 
     // No messages
-    .iconContainer-33_6mP{
+    .iconContainer__65ce5{
         display: none;
     }
-    .header-3rvP-v{
+    .header__6edd3{
         margin-bottom: 24px;
         @include TypeBodyLarge;
     }
@@ -54,25 +54,25 @@
     // Results
     // Mentions
     // NOTE: 2023-01-04 - Mentions tab scroller uses a different class which doesn't have L/R padding
-    .scroller-MIi2ab{
+    .scroller__90038{
         padding: 0 0 0 16px;
     }
 
-    .container-iA3Qrz, // Mentions
-    .channel-3NJZ1V{ // Unreads
+    .container__56e52, // Mentions
+    .channel_d48f2d{ // Unreads
         padding-bottom: 16px;
-        .channelHeader-DFRX8q{
+        .channelHeader__5d30c{
             top: -1px;
             padding-right: 16px; // Fixes dismiss buttons butting up on right side
             background-color: $SolidBackgroundFillColorSecondary;
             border-radius: 4px 4px 0 0;
-            .guildIcon-IklRcj{
+            .guildIcon_cccd03{
                 background-color: transparent;
                 border-radius: 50%;
             }
         }
-        .messageContainer-3VTXBC, // Mentions
-        .messages-23can0{ // Unreads
+        .messageContainer_aa7d14, // Mentions
+        .messages_f7999e{ // Unreads
             margin-left: 0;
             background-color: $CardBackgroundFillColorDefault;
             border: 1px solid $CardStrokeColorDefault;
@@ -81,11 +81,11 @@
     }
 
     // Unread headers have a collapse button
-    .channel-3NJZ1V{
-        .channelHeader-DFRX8q{
+    .channel_d48f2d{
+        .channelHeader__5d30c{
             padding-left: 48px;
         }
-        .collapseButton-39-IRc{
+        .collapseButton_b18eab{
             left: 16px;
             &::before{
                 content: "\E70D";
@@ -99,7 +99,7 @@
     }
 
     // Buttons
-    .button-1_oXub{
+    .button_ddf91e{
         background-color: $ControlFillColorDefault;
         border-width: 1px;
         border-style: outset;

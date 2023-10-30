@@ -1,13 +1,13 @@
 // A drop-shadow filter is added by this plugin which causes images to flicker and z-fight when scrolling chat.
 // See #30
-.theme-dark .imageAccessory-2yA7Kb > div:not(.selected-7JJuv5) > svg {
+.theme-dark .imageAccessory__64ab2 > div:not(.selected__4b947) > svg {
     filter: unset !important;
 }
 
 // Chat box icons
-.theme-dark .buttonContainer-2lnNiN.fm-buttonContainer{
+.theme-dark .buttonContainer__8b164.fm-buttonContainer{
     align-items: flex-start;
-    .button-ejjZWC{
+    .button_afdfd9{
         width: 32px;
         height: 32px;
         margin-top: 6px;

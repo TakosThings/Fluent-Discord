@@ -1,35 +1,35 @@
 .theme-dark{
     // Backdrop
-    .backdrop-2ByYRN{
+    .backdrop__7e89b{
         background: $SmokeFillColorDefault !important; // Override inline
         opacity: 1 !important; // Override inline
     }
 
     // Body
-    .root-1CAIjD{
+    .root_a28985{
         background-color: $SolidBackgroundFillColorBase;
         border: 1px solid $SurfaceStrokeColorDefault;
         border-radius: 8px;
     }
 
     // Headers
-    .header-1ffhsl, // eg. notification settings
-    .header-1LEkUo, // eg. change password
+    .header__6d5ea, // eg. notification settings
+    .header__3f48d, // eg. change password
     .header-1kWa4s, // eg. change username
     .header-1R3myj{ // eg. edit email
         padding: 24px;
         background-color: $LayerFillColorAlt;
         border-radius: 8px 8px 0 0;
         align-items: unset;
-        .heading-lg-semibold-14ouVv, // eg. notification settings
-        .title-2tnl9d, // eg. change password
+        .heading-lg-semibold__85c17, // eg. notification settings
+        .title_febac9, // eg. change password
         .title-3JPglK, // eg. change username
         .title-3VYtQS{ // eg. edit email
             @include TypeSubtitle;
             text-align: left;
         }
-        .text-md-normal-2rFCH3, // eg. notification settings
-        .subtitle-3sUbvY, // eg. change password
+        .text-md-normal__6a4eb, // eg. notification settings
+        .subtitle_b332a0, // eg. change password
         .subtitle-36U6vW, // eg. change username
         .subtitle-3Kkhfr{ // eg. edit email
             @include TypeBody;
@@ -38,13 +38,13 @@
         }
 
         // Remove divider line in notification settings
-        &.separator-3C440w{
+        &.separator__925e8{
             box-shadow: none;
         }
     }
 
     // Content
-    .content-1OG56Q{
+    .content__764ce{
         padding-right: 24px !important;
         padding-left: 24px;
         background-color: $LayerFillColorAlt;
@@ -57,17 +57,17 @@
     }
 
     // Footer
-    .footer-IubaaS{
+    .footer__89240{
         padding: 24px;
         background-color: transparent;
 
         // Remove divider line in notification settings
-        &.footerSeparator-3U8YsT{
+        &.footerSeparator__57d95{
             box-shadow: none;
         }
 
         // Add gap between buttons
-        .button-ejjZWC{
+        .button_afdfd9{
             margin-left: 8px;
         }
     }
@@ -89,7 +89,7 @@
         display: none;
     }
     // NOTE: 2023-06-13 - Style fix for the verify email modal which uses the wrong class for the actions div
-    .headerImage-2osrlm ~ div .content-1OG56Q{
+    .headerImage-2osrlm ~ div .content__764ce{
         background-color: transparent;
     }
     .buttons-1TBWBN{
@@ -104,15 +104,15 @@
         }
     }
     // Enter phone number
-    .phoneField-3NAPDv{
-        .countryButton-1cNDvB{
+    .phoneField__65729{
+        .countryButton__499be{
             min-width: 64px;
         }
     }
 
     // Create channel modal
     // Modal has a bunch of rubbish inline CSS...
-    .modal-1Kmy_E.root-1CAIjD.small-2xUY-3.fullscreenOnMobile-2971EC[style="opacity: 1; transform: scale(1);"]{
+    .modal-1Kmy_E.root_a28985.small__05f7b.fullscreenOnMobile__96797[style="opacity: 1; transform: scale(1);"]{
         max-height: unset !important;
         min-height: unset !important;
     }
@@ -124,14 +124,14 @@
             @include TypeSubtitle;
             text-align: left;
         }
-        .text-sm-normal-AEQz4v{
+        .text-sm-normal_d9d853{
             @include TypeBody;
             text-align: left;
         }
     }
 
     // Event info modal
-    .content-1OG56Q > div[style*="width: 600px;"]{
+    .content__764ce > div[style*="width: 600px;"]{
         width: 552px !important;
 
         > div[style*="width: 600px;"]{

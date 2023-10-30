@@ -1,28 +1,28 @@
 .theme-dark{
-    .guildSidebar-UHnQqs{
+    .guildSidebar__8763f{
         background: $SolidBackgroundFillColorBase;
-        .guildDescription-2-W9iK{
+        .guildDescription_af6f40{
             color: $TextFillColorPrimary;
         }
     }
-    .modal-2TOYtq{
+    .modal_b38209{
         background-color: $CardBackgroundFillColorDefault;
         border-radius: 0;
         // Remove waving hand GIF
-        .animationAndSparklesContainer-7Fwx3i{
+        .animationAndSparklesContainer_f5565f{
             display: none;
         }
         // Headers
-        .header-EmaVAp{
+        .header__14708{
             @include TypeSubtitle;
             text-align: left;
         }
-        .subheader-37bSfX{
+        .subheader_b02893{
             @include TypeBody;
             color: $TextFillColorPrimary;
             text-align: left;
         }
-        hr.divider-1zHRlg{
+        hr.divider_e8e5fa{
             display: none;
         }
 

@@ -1,5 +1,5 @@
-.theme-dark .form-3qe0Ni, // Main chatbox
-.theme-dark .submitContainer-1DHMA0{ // Thread start
+.theme-dark .form__13a2c, // Main chatbox
+.theme-dark .submitContainer_b4471d{ // Thread start
     margin-top: 0;
     padding-right: 17px;
     padding-left: 15px;
@@ -8,8 +8,8 @@
         display: none;
     }
 
-    .channelTextArea-1deLlK,
-    .channelTextArea-1VQBuV{
+    .channelTextArea__2e60f,
+    .channelTextArea__56a36{
         margin-bottom: 8px;
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
@@ -24,33 +24,33 @@
             border-bottom-color: $AccentBase;
         }
     }
-    .scrollableContainer-15eg7h{
+    .scrollableContainer__33e06{
         background-color: transparent;
         border-radius: 4px;
         overflow-y: auto;
     }
 
-    .sansAttachButton-1ERHue{
+    .sansAttachButton__996a4{
         padding-left: 0;
     }
 
     // User's input text
-    .textArea-2CLwUE{
+    .textArea__74543{
         height: 45px;
         min-height: 45px;
     }
-    .slateTextArea-27tjG0{
+    .slateTextArea__0661c{
         right: 8px;
         left: 8px;
         color: $TextFillColorPrimary;
-        &.placeholder-1rCBhr{
+        &.placeholder_e68c63{
             color: $TextFillColorSecondary;
         }
     }
 
 
     // Upload button
-    .attachButton-_ACFSu{
+    .attachButton_b1db83{
         width: 32px;
         height: 32px;
         margin: 6px 0 0 6px;
@@ -70,7 +70,7 @@
                 color: $TextFillColorPrimary;
             }
         }
-        .contents-3NembX{
+        .contents_fb6220{
             display: none;
         }
     }
@@ -78,7 +78,7 @@
     // Bot command bot icon
     // NOTE - 2022-12-18: This can be tested using the `/embed create` command from Carl-bot
     // NOTE - 2022-12-18: `:not(button)` is required because the normal attach button uses the same class
-    .attachButton-1ijpt9:not(button){
+    .attachButton_eba568:not(button){
         margin-left: 0;
     }
 
@@ -90,7 +90,7 @@
     .expression-picker-chat-input-button{
         margin: 6px 4px 0 0;
         align-items: flex-start;
-        .button-ejjZWC{
+        .button_afdfd9{
             height: 32px;
             width: 32px;
             border: 1px solid transparent;
@@ -100,8 +100,8 @@
                 font-size: 18px;
             }
             &:hover,
-            &.active-z80xEj,
-            &.emojiButtonHovered-s44uQ8{
+            &.active_a5045e,
+            &.emojiButtonHovered__4c6c4{
                 background-color: $ControlFillColorDisabled;
                 border-color: $ControlStrokeColorDefault;
                 &::before{
@@ -111,14 +111,14 @@
         }
 
         // Always hide the emoji button icon since it can be directly selected
-        .emojiButton-1fMsf3{
-            .contents-3NembX{
+        .emojiButton__30ec7{
+            .contents_fb6220{
                 display: none;
             }
         }
 
         // Replace sticker icon
-        .contents-3NembX.stickerButton-1-nFh2{
+        .contents_fb6220.stickerButton__8af38{
             &::before{
                 content: "\F4AA"; // Sticker2
                 @include FontIconFluent;
@@ -130,8 +130,8 @@
         }
 
         // Replace GIF icon
-        .button-ejjZWC[aria-label*="GIF"]{
-            .contents-3NembX{
+        .button_afdfd9[aria-label*="GIF"]{
+            .contents_fb6220{
                 &::before{
                     content: "\F4A9"; // GIF
                     @include FontIconFluent;
@@ -144,15 +144,15 @@
         }
 
     }
-    .buttons-uaqb-5{
+    .buttons_ce5b56{
         height: unset;
         margin-right: 0;
         // Remove gift
-        & > .button-ejjZWC{
+        & > .button_afdfd9{
             display: none;
         }
         // Set a static emoji icon
-        .emojiButton-3FRTuj{
+        .emojiButton__8ff6a{
             margin: 0 4px 0 0;
             &::before{
                 content: "\E76E"; //Emoji2
@@ -163,13 +163,13 @@
         }
 
         // Send button
-        .separator-3ng7S5{
+        .separator__8424b{
             margin-top: 6px;
             margin-left: -4px;
             &::before{
                 display: none;
             }
-            .button-y6hemj{
+            .button__8d734{
                 width: 32px;
                 height: 32px;
                 margin-right: 4px;
@@ -185,7 +185,7 @@
                 &:hover:not(:disabled):before{
                     color: $TextFillColorPrimary;
                 }
-                .contents-3NembX{
+                .contents_fb6220{
                     display: none;
                 }
             }
@@ -193,7 +193,7 @@
     }
 
     // Is Typing
-    .typing-2J1mQU{
+    .typing__6fd1d{
         height: 20px;
         top: -20px;
         right: 16px;
@@ -217,27 +217,27 @@
             }
         }
         // Slowmode font-weight
-        .cooldownWrapper-2k1jHK{
+        .cooldownWrapper_de448f{
             font-weight: normal;
         }
         // Fix position of countdown timer
-        .text-3S7XCz:not(:empty) + .cooldownWrapper-2k1jHK{
+        .text_ca54e9:not(:empty) + .cooldownWrapper_de448f{
             margin-bottom: 14px;
         }
     }
 
     // Various chatbox states
     // Announce channel follow
-    .wrapper-IjGAlW{
+    .wrapper_fbbb73{
         margin-bottom: 16px;
         background-color: $ControlFillColorDisabled;
         border: 1px solid $ControlStrokeColorDefault;
         // Remove image
-        .content-1YKiCa{
+        .content_cecbc1{
             img{
                 display: none;
             }
-            .title-ZqmuTf{
+            .title__77790{
                 color: $TextFillColorDisabled !important; // Override inline
                 @include TypeBody;
             }
@@ -245,21 +245,21 @@
     }
 
     // No permission
-    .textAreaDisabled-10ObTX{
-        .placeholder-1_mJY1{
+    .textAreaDisabled__60cc6{
+        .placeholder__4bea5{
             color: $TextFillColorSecondary;
             @include TypeBody;
         }
     }
 
     // Showing command help
-    .attachedBars-2BCP3l{
+    .attachedBars_da3c74{
         background-color: $CardStrokeColorDefaultSolid;
         border-radius: 4px 4px 0 0;
-        .title-158kHv{
+        .title__139aa{
             @include TypeBody;
         }
-        .option-Tt7anD{
+        .option__32fd1{
             margin-left: 0;
             @include TypeBody;
             &::before{
@@ -269,25 +269,25 @@
                 content: "}";
             }
 
-            &.active-WHsd77{
+            &.active_cff9ad{
                 background-color: transparent !important;
             }
         }
     }
 
     // Replying to message
-    .clipContainer-31nYlH{
+    .clipContainer__99c30{
         margin-top: 0;
     }
-    .replyBar-1oi75v{
+    .replyBar_b64d74{
         background-color: transparent;
-        .replyLabel-WWnhHi{
+        .replyLabel__401e8{
             color: $TextFillColorPrimary;
         }
     }
 
     // Hide 'game support game invites' message
-    .activityInviteEducation-3dYEeQ, // Main chatbox
+    .activityInviteEducation__5e642, // Main chatbox
     .applicationCommandEducation-1stoia{ // Thread
         display: none;
     }

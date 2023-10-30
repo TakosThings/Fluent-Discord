@@ -5,7 +5,7 @@
         background-color: $LayerFillColorDefault;
         border-bottom: 0;
         border-left: 1px solid $CardStrokeColorDefault;
-        .item-2GWPIy{
+        .item__48dda{
             background-color: transparent;
             border-radius: 0;
             &:hover{
@@ -25,7 +25,7 @@
                 transition: transform 167ms Cubic-bezier(0,0,0,1),
                             opacity 167ms Cubic-bezier(0,0,0,1);
             }
-            &.selected-1sf9UK::before{
+            &.selected__5711d::before{
                 background-color: $AccentBase;
 
                 transform: scaleX(100%);
@@ -35,15 +35,15 @@
         }
     }
 
-    .privateChannels-oVe7HL{
+    .privateChannels__93473{
         margin-left: 1px;
         background-color: $LayerFillColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
         // Search
-        .searchBar-3TnChZ{
+        .searchBar_e4ea2a{
             box-shadow: none;
         }
-        .searchBarComponent-3N7dCG{
+        .searchBarComponent__22760{
             background-color: transparent;
             @include TypeBody;
             color: $TextFillColorPrimary;
@@ -57,7 +57,7 @@
 
 
         // Contacts
-        .scroller-WSmht3{
+        .scroller__4b984{
             background-color: transparent;
         }
     }
@@ -85,7 +85,7 @@
     }
     .ChannelDms-channelpopout-buttons{
         margin-right: 32px;
-        .iconWrapper-2awDjA{
+        .iconWrapper_af9215{
             &::before{
                 @include FontIconFluent;
                 font-size: 16px;
@@ -131,35 +131,35 @@
     }
 
     // Chat
-    .chatContent-2O4SXb{
+    .chatContent__5dca8{
         // New messages bar
-        .barBase-3xxDXu{
+        .barBase__4e0ba{
             min-height: 32px;
             border: 1px solid $CardStrokeColorDefault;
             box-shadow: none;
             border-radius: 4px;
-            .barButtonMain-2GIx4o{
+            .barButtonMain__0f5c6{
                 @include TypeBody;
             }
-            .barButtonAlt-TQoCdZ{
+            .barButtonAlt__4b48f{
                 display: none;
             }
         }
-        .newMessagesBar-1hF-9G{
+        .newMessagesBar__8b6d7{
             top: 8px;
             background-color: $AccentLight1;
-            .barButtonBase-Sk2mdB{
+            .barButtonBase__8fa46{
                 color: $TextOnAccentFillColorPrimary;
             }
         }
         // Old messages bar
-        .jumpToPresentBar-1cEnH0{
+        .jumpToPresentBar__0ff7f{
             bottom: 8px;
             padding-bottom: 0;
             background-color: $CardStrokeColorDefaultSolid;
         }
         // Errored bar
-        .messagesErrorBar-1IQ1rH{
+        .messagesErrorBar__06c0a{
             bottom: 8px;
             background-color: $SystemFillColorCriticalBackground;
             border-color: $CardStrokeColorDefault;
@@ -167,18 +167,18 @@
         }
 
         // Divider
-        .divider-2rZFJK{
+        .divider_b9338f{
             justify-content: flex-end;
             border-color: $DividerStrokeColorDefault;
-            .content-3spvdd,
-            .unreadPill-3nEWYM{
+            .content_d67847,
+            .unreadPill__715fc{
                 padding: 2px 8px;
                 background-color: $SystemFillColorSolidNeutralBackground;
                 color: $TextFillColorPrimary;
                 @include TypeCaption;
                 font-weight: normal;
             }
-            .unreadPill-3nEWYM{
+            .unreadPill__715fc{
                 height: unset;
                 top: 0px;
                 background-color: $SystemFillColorCriticalBackground;
@@ -189,13 +189,13 @@
                     display: none;
                 }
             }
-            &.isUnread-3Lojb-{
+            &.isUnread__6f880{
                 // NOTE: 2021-08-29 - The border should technically be SystemFillColorCriticalBackground, but is barely visisble, so using the text fill instead.
                 border-color: $SystemFillColorCritical;
-                .content-3spvdd{
+                .content_d67847{
                     border-radius: 8px 0 0 8px;
                 }
-                .unreadPill-3nEWYM{
+                .unreadPill__715fc{
                     position: relative;
                 }
             }

@@ -1,46 +1,46 @@
 // Server guide
-.theme-dark .homeContainer-1T8N7y{
+.theme-dark .homeContainer_a4aa0a{
     height: calc(100% - 1px);
     padding: 0;
     background-color: $LayerFillColorDefault;
     border-top: 1px solid $CardStrokeColorDefault;
     border-left: 1px solid $CardStrokeColorDefault;
     border-radius: 8px 0 0 0;
-    .scrollerBase-1Pkza4{
+    .scrollerBase_dc3aa9{
         overflow: none !important;
     }
 
     // Banner
-    .header-20qCMo{
+    .header__35687{
         margin-top: 0;
-        .headerArtWrapper-2o2rZd{
+        .headerArtWrapper__5d8d9{
             margin: 0;
             border-radius: 0;
-            .headerArt-UqZaX6{
+            .headerArt_e3ee19{
                 // padding-top: ;
                 border-radius: 8px 0 0 0;
             }
         }
 
         // Server icon
-        .headerIcon-3Q7cOC{
+        .headerIcon__8b099{
             border: 0;
             border-radius: 50%;
         }
     }
 
     // Info boxes
-    .row--LCpto{
+    .row__70f4c{
         background-color: $SystemFillColorAttentionBackground;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 4px;
-        .messageContent-iSvcqA{
+        .messageContent__164c9{
             color: $TextFillColorPrimary !important; // override inline
         }
     }
 
     // Sidebar
-    .sidebarCardWrapper-34oCuK{
+    .sidebarCardWrapper__2c840{
         background-color: $SystemFillColorAttentionBackground;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 4px;
@@ -50,21 +50,21 @@
 }
 // Server Guide continued
 // Remove chat background when the 'thread' pane is open
-.theme-dark .chatContent-2O4SXb{
+.theme-dark .chatContent__5dca8{
     background: transparent;
 }
 
 
 // Channels & Roles > Customise
-.theme-dark .pageBody-29jwEZ{
-    .prompt-1sE27N{
+.theme-dark .pageBody_bfae74{
+    .prompt__1b100{
         margin: 0;
         padding: 0;
         background-color: transparent;
         border: 0;
     }
 
-    .optionButtonWrapper-2lbogO{
+    .optionButtonWrapper__4072c{
         background-color: $CardBackgroundFillColorDefault;
         border-width: 1px 1px 0 1px;
         border-style: solid;
@@ -74,33 +74,33 @@
 }
 
 // Channels & Roles > Browse channels
-.theme-dark .content-18rAwf{
-    .container-27tlK1{
+.theme-dark .content__1a4fe{
+    .container__6a848{
         background-color: $CardBackgroundFillColorDefault;
     }
-    .channelRow-4X_3fi{
+    .channelRow__96673{
         background-color: $CardBackgroundFillColorDefault;
         border-width: 1px 1px 0 1px;
         border-style: solid;
         border-color: $CardStrokeColorDefault;
-        &.firstChannel-3vAGDY{
+        &.firstChannel__94f31{
             border-radius: 4px 4px 0 0;
         }
-        &.lastChannel-21yyBC{
+        &.lastChannel__129f1{
             border-radius: 0 0 4px 4px;
         }
     }
-    .separator-3vTHjS{
+    .separator__3cfd2{
         display: none;
     }
 
     // Fix for channel checkboxes not displaying
-    .channelActions-2FvDct .checkbox-1LuCGM{
+    .channelActions__39164 .checkbox_c7f690{
         display: block;
     }
 
     // Category row has some issues
-    .categoryRow-2VIZ6m{
+    .categoryRow_df4323{
         .checkbox-f1HnKB{
             svg{
                 width: 12px;

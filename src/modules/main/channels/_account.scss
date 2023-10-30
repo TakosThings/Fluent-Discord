@@ -1,23 +1,23 @@
 // Remove background from RTC/account
-.theme-dark .panels-3wFtMD{
+.theme-dark .panels__58331{
     background-color: transparent;
 
     // Remove 1px margin from bottom of panel
-    .container-1CH86i{
+    .container_ca50b9{
         background-color: transparent;
         height: 48px;
         margin-bottom: 0;
     }
 
     // Remove margin on avatar/username wrapper
-    .avatarWrapper-12uuu4{
+    .avatarWrapper_ba5175{
         margin-right: 0;
         &:hover{
             background-color: transparent;
         }
     }
 
-    .button-12Fmur{
+    .button__4f306{
         margin-left: 4px;
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
@@ -29,7 +29,7 @@
         &:active{
             background-color: $ControlFillColorTertiary;
         }
-        .contents-3NembX{ // Non-EN sizing fix
+        .contents_fb6220{ // Non-EN sizing fix
             svg{
                 position: absolute;
                 top: 7px;
@@ -51,11 +51,11 @@
 }
 
 // Icon replacements
-html[lang^="en-"].theme-dark .panels-3wFtMD{
-    :not(.button-2gNyE9, .rtcConnectionStatusLabel-Nodt6L) > .contents-3NembX{
+html[lang^="en-"].theme-dark .panels__58331{
+    :not(.button__66e8c, .rtcConnectionStatusLabel__7029b) > .contents_fb6220{
         display: none;
     }
-    .button-12Fmur{
+    .button__4f306{
         &::before{
             @include FontIconFluent;
             font-size: 16px;

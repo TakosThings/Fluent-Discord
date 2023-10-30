@@ -1,39 +1,39 @@
-.theme-dark .contentColumn-1C7as6{
+.theme-dark .contentColumn_dc7d36{
     // Roles
     // Fix header
     &#roles-tab{
-        .title-lXcL8p{
+        .title__3e421{
             @include TypeTitle;
         }
 
 
         // Advanced permissions
-        .contentContainer-3hXFtK{
+        .contentContainer__23092{
             left: 256px;
         }
-        .contentWidth-3aWel5{
+        .contentWidth_b55791{
             max-width: calc(1000px - 232px);
         }
 
         // Left
-        .container-JyRf62{
-            .titleContainer-3fPic2{
+        .container_ee1515{
+            .titleContainer_e558ff{
                 padding-top: 40px;
                 background-color: transparent;
-                .titleText-3LapIU{
+                .titleText__2ee04{
                     @include TypeSubtitle;
                     text-transform: none;
                 }
             }
-            .list-1AJFv_{
+            .list__41249{
                 padding: 0 16px 96px 16px;
             }
         }
         // Right
-        .header-JUTO-g{
+        .header__63c59{
             padding-top: 40px;
             background-color: $CardStrokeColorDefaultSolid;
-            .titleText-35PD5k{
+            .titleText_c58c2c{
                 @include TypeSubtitle;
                 text-transform: none;
             }
@@ -44,7 +44,7 @@
     // Server template
     // Fix header
     &#guild_templates-tab{
-        .title-lXcL8p{
+        .title__3e421{
             @include TypeTitle;
         }
     }
@@ -52,45 +52,45 @@
     // Custom invite link
     // Fix header
     &#vanity_url-tab{
-        .title-lXcL8p{
+        .title__3e421{
             @include TypeTitle;
         }
     }
 
     // Integrations
     &#integrations-tab{
-        .title-lXcL8p{
+        .title__3e421{
             @include TypeTitle;
         }
     }
 
     // Automod
     // Fix card background
-    .editCard-K9Q9mb{
+    .editCard_dfa091{
         background-color: $CardBackgroundFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
 
-        .ruleIconContainer-dXW56-{
+        .ruleIconContainer_baf164{
             background-color: transparent;
         }
-        .actionContainer-EzNGrb{
+        .actionContainer_d21d10{
             padding: 4px 8px;
             background-color: $SystemFillColorSolidNeutral;
-            .actionIcon-2VtFPq{
+            .actionIcon__2a5f8{
                 color: $TextFillColorPrimary;
             }
-            .actionTextHeader-yeCKjC{
+            .actionTextHeader__87eb9{
                 color: $TextFillColorPrimary !important;
                 font-weight: normal;
             }
         }
 
 
-        .mentionLimitContainer-zBzr5i,
-        .actionContainer-2krsiT{
+        .mentionLimitContainer__0f0ff,
+        .actionContainer__51bd9{
             background-color: $CardBackgroundFillColorDefault;
         }
-        .keywordListContainer-9ux8nU{
+        .keywordListContainer_fdf41c{
             margin-bottom: 0;
             background-color: transparent;
         }
@@ -100,7 +100,7 @@
         }
 
         // Select/drop down
-        .container-1SX9VC{
+        .container_e4c233{
             background-color: $ControlFillColorDefault;
         }
         .resultsList-2Bp-2_{
@@ -110,7 +110,7 @@
         }
 
         // Textarea
-        .keywordsTextArea-3QkFoG{
+        .keywordsTextArea_d5eadb{
             background-color: $ControlFillColorDefault;
             border: 1px solid;
             border-bottom-width: 2px;
@@ -134,7 +134,7 @@
     // Server boot status
     // Fix title
     &#guild_premium-tab{
-        .title-lXcL8p{
+        .title__3e421{
             @include TypeTitle;
         }
     }
@@ -155,10 +155,10 @@
     }
 
     // Always display the emoji name textbox
-    .emojiInput-B8MGXq{
+    .emojiInput__4fe54{
         opacity: 1;
     }
-    .emojiAliasPlaceholder-3oShSx{
+    .emojiAliasPlaceholder__71733{
         display: none;
     }
 }

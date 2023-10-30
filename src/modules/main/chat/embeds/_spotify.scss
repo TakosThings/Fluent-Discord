@@ -1,31 +1,31 @@
-.theme-dark .invite-3uuHYQ{
+.theme-dark .invite__2a93b{
     background-color: $CardBackgroundFillColorDefault;
     border: 1px solid $SurfaceStrokeColorFlyout;
     border-radius: 8px;
 
     // Header
-    .header-1Fx4D1{
+    .header__8b673{
         color: $TextFillColorPrimary;
         @include FontNormal;
         @include TypeBodyStrong;
         text-transform: none;
     }
 
-    .partyStatus-2-VcyG{
+    .partyStatus__6a567{
         @include TypeBody;
     }
-    .details-1nO3iV,
-    .state-3Nm83F{
+    .details__2923a,
+    .state__9cb82{
         font-size: inherit;
     }
 
     // Artwork
-    .artwork-28Cmnt{
+    .artwork__34afd{
         border-radius: 4px;
     }
 
     // Ended
-    .artworkSpotifySessionEnded-D18iXB{
+    .artworkSpotifySessionEnded__8272a{
         background-image: none;
         &::before{
             content: "\E15B"; // Stop
@@ -40,6 +40,6 @@
     }
 }
 
-.theme-dark iframe.embedSpotify-1rDvOE{
+.theme-dark iframe.embedSpotify_d58077{
     border-radius: 4px;
 }

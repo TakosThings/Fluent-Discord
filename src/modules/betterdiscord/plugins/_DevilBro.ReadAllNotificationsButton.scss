@@ -1,8 +1,8 @@
-.theme-dark .listItem-3SmSlK.frame-oXWS21{
+.theme-dark .listItem_fa7b36.frame-oXWS21{
     &:active{
         transform: none;
     }
-    .childWrapper-1j_1ub{
+    .childWrapper__01b9c{
         background-color: transparent;
         color: $TextFillColorSecondary;
         font-size: 10px;
@@ -18,7 +18,7 @@
 }
 
 // Message action
-.theme-dark .menu-1QACrS .item-1OdjEX{
+.theme-dark .menu_dc52c6 .item-1OdjEX{
     &[id="message-actions-personalpins-pin-note"]::before{
         content: "\E70B"; // Note
     }

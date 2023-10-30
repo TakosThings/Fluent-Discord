@@ -3,11 +3,11 @@
     background-color: $SystemFillColorAttentionBackground;
     border: 1px solid $CardStrokeColorDefault;
     border-radius: 4px;
-    .item-1TA5qI{
+    .item_b7fb7e{
         margin-bottom: 0;
         border: 1px solid transparent;
         border-radius: 4px;
-        &.itemFilled-2Fo7lr{
+        &.itemFilled__373d7{
             background-color: transparent;
         }
         &[aria-checked=true]{
@@ -19,7 +19,7 @@
 
         // Privacy & Safety
         // Remove coloured bars on left side
-        .radioBar-1XgZqD{
+        .radioBar__40e1b{
             border: 0;
         }
 
@@ -50,14 +50,14 @@
 }
 
 // Toggle switch
-.theme-dark .control-10qYax{
-    .container-1QtPKm{
+.theme-dark .control_f6cce7{
+    .container__871ba{
         background-color: transparent !important; // Override inline
         svg{
             display: none;
         }
     }
-    .input-125oad{
+    .input_be50d1{
         width: 40px;
         height: 20px;
         margin: 0;
@@ -96,16 +96,16 @@
 }
 
 // Radio button
-.theme-dark .item-1TA5qI{
-    .radioBar-1XgZqD{
+.theme-dark .item_b7fb7e{
+    .radioBar__40e1b{
         padding: 12px 24px !important;
         // Label
-        .info-3cKxwI{
-            .text-md-medium-2n7Vn5{
+        .info__05cbd{
+            .text-md-medium_b12de1{
                 @include TypeBody;
                 color: $TextFillColorPrimary;
             }
-            .text-sm-normal-AEQz4v{
+            .text-sm-normal_d9d853{
                 @include TypeCaption;
                 color: $TextFillColorSecondary;
             }
@@ -128,7 +128,7 @@
             }
         }
     }
-    &[aria-checked=true] .radioBar-1XgZqD{
+    &[aria-checked=true] .radioBar__40e1b{
         > div:first-child{
             background-color: $AccentTextFillColorPrimary;
             border-color: $AccentTextFillColorPrimary;
@@ -152,12 +152,12 @@
     }
 
     &:hover{
-        .radioBar-1XgZqD > div:first-child{
+        .radioBar__40e1b > div:first-child{
             background-color: $ControlAltFillColorTertiary;
         }
     }
     &[aria-checked=true]:hover{
-        .radioBar-1XgZqD > div:first-child{
+        .radioBar__40e1b > div:first-child{
             background-color: $AccentTextFillColorSecondary;
             &::before{
                 transform: scale(1.167);
@@ -167,9 +167,9 @@
 }
 
 // Checkbox (in settings UI)
-.theme-dark .checkboxWrapper-3zdYym{
-    .input-1y_Uys,
-    .box-qwm0Q_{
+.theme-dark .checkboxWrapper__02583{
+    .input_f56cea,
+    .box__66058{
         width: 18px;
         height: 18px;
         position: relative;
@@ -185,9 +185,9 @@
             display: none;
         }
     }
-    &.checked-22NTbO{
-        .input-1y_Uys,
-        .box-qwm0Q_{
+    &.checked__24ad6{
+        .input_f56cea,
+        .box__66058{
             background-color: $AccentTextFillColorPrimary !important;
             border-color: $AccentTextFillColorPrimary !important;
             &:hover{
@@ -203,13 +203,13 @@
             }
         }
     }
-    .checkbox-1LuCGM{
+    .checkbox_c7f690{
         display: none;
     }
 }
 // Checkbox (in context menu)
-.theme-dark .menu-2TXYjN .item-5ApiZt[role="menuitemcheckbox"]{
-    .iconContainer-Ksy8Oj{
+.theme-dark .menu_dc52c6 .item__183e8[role="menuitemcheckbox"]{
+    .iconContainer__829e7{
         width: 18px;
         height: 18px;
         position: relative;
@@ -221,7 +221,7 @@
             display: none;
         }
     }
-    &[aria-checked=true] .iconContainer-Ksy8Oj{
+    &[aria-checked=true] .iconContainer__829e7{
         background-color: $AccentTextFillColorPrimary;
         border-color: $AccentTextFillColorPrimary;
         color: $TextOnAccentFillColorPrimary;
@@ -234,15 +234,15 @@
             font-size: 16px;
         }
     }
-    &:hover .iconContainer-Ksy8Oj{
+    &:hover .iconContainer__829e7{
         background-color: $ControlAltFillColorTertiary;
     }
-    &[aria-checked=true]:hover .iconContainer-Ksy8Oj{
+    &[aria-checked=true]:hover .iconContainer__829e7{
         background-color: $AccentTextFillColorSecondary;
     }
 }
 // Checkbox (in partner programme (server settings))
-.inputReadonly-2iSlw6{
+.inputReadonly_aff436{
     z-index: 1;
     width: 22px !important;
     height: 22px !important;

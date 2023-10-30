@@ -1,6 +1,6 @@
 // This file is courtesy of Discord's Department of Redundancy Depart at Discord
 // Add server modal has light theme manually applied to it for some reason.
-.theme-light .root-1CAIjD{
+.theme-light .root_a28985{
     background: $SolidBackgroundFillColorBase;
     border: 1px solid $SurfaceStrokeColorDefault;
     border-radius: 8px;
@@ -26,7 +26,7 @@
     }
 
     // Content
-    .content-1OG56Q{
+    .content__764ce{
         padding: 24px 24px 0 24px;
         background-color: $CardBackgroundFillColorDefault;
     }
@@ -168,7 +168,7 @@
     }
 
     // Content
-    .content-1OG56Q{
+    .content__764ce{
         background-color: $CardBackgroundFillColorDefault;
     }
     .optionsList-dmHy1l{
@@ -197,7 +197,7 @@
     }
 
     // Content
-    .content-1OG56Q{
+    .content__764ce{
         background-color: $CardBackgroundFillColorDefault;
     }
     .createGuild-2m1V10{
@@ -213,7 +213,7 @@
         background-color: $CardBackgroundFillColorDefault;
         align-items: unset;
         .title-1LqMUp,
-        .text-sm-normal-AEQz4v{
+        .text-sm-normal_d9d853{
             text-align: left;
             color: $TextFillColorPrimary;
         }
@@ -221,7 +221,7 @@
             margin: 0;
             @include TypeSubtitle;
         }
-        .text-sm-normal-AEQz4v{
+        .text-sm-normal_d9d853{
             @include TypeBody;
             color: $TextFillColorPrimary !important; // Override inline
         }
@@ -230,7 +230,7 @@
         display: none;
     }
     // Content
-    .content-1OG56Q{
+    .content__764ce{
         padding-top: 24px;
         border-radius: 0;
     }

@@ -1,17 +1,17 @@
 // Main UI transparency
 .theme-dark{
-    .sidebar-1tnWFu, // channels
-    .container-1NXEtd,
-    .wrapper-1_HaEi, // guilds
-    .scroller-3X7KbA{ // guilds scroll
+    .sidebar_ded4b5, // channels
+    .container__590e2,
+    .wrapper_a7e7a8, // guilds
+    .scroller__3d071{ // guilds scroll
         background-color: transparent;
     }
 
     // Settings transparency
-    .layer-86YKbF,
-    .standardSidebarView-E9Pc3j,
-    .contentRegionScroller-2_GT_N,
-    .contentRegion-3HkfJJ{
+    .layer_e552e0,
+    .standardSidebarView__1129a,
+    .contentRegionScroller__86c79,
+    .contentRegion__0bec1{
         background-color: transparent;
     }
 
@@ -22,7 +22,7 @@
     //
     // NOTE: 2022-10-16 - Have to use the #{} trick because SASS and CSS saturate() functions collide and throw an error on compile when using a CSS var
     //    See: https://github.com/sass/libsass/issues/151#issuecomment-54477631
-    .bg-1QIAus{
+    .bg__7adbf{
         margin-top: -10px; // Hides the black bar at top of titlebar (ie. grabber)
         background: var(--fluent-acrylic-background);
         background-size: cover;

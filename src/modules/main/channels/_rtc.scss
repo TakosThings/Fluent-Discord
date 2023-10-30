@@ -1,29 +1,29 @@
-.theme-dark .container-2NLBJg{
+.theme-dark .container_d667ff{
     background-color: transparent;
     border-top: 0;
     border-bottom: 0;
     padding-bottom: 0;
 
     // Connection status/disconnect
-    .connection-3wznVd{
+    .connection__5bb32{
         height: 32px;
     }
-    .rtcConnectionStatus-c5A6Av{
+    .rtcConnectionStatus__40882{
         padding-bottom: 0;
         @include TypeBody;
-        .button-ejjZWC{
+        .button_afdfd9{
             line-height: 16px;
         }
     }
-    .subtext-2HDqJ7{
+    .subtext__8f869{
         @include TypeCaption;
     }
-    .voiceUsers-g1MlmH{
+    .voiceUsers_c72ec5{
         padding-top: 4px;
     }
 
     // Video/screen share buttons
-    .actionButtons-1DmM2g{
+    .actionButtons_b58cbb{
         grid-gap: 4px;
         // !importants to make these appear as 'default' button instead of accent
         button{
@@ -39,7 +39,7 @@
                 background-color: $ControlFillColorTertiary !important;
             }
 
-            .contents-3NembX{
+            .contents_fb6220{
                 // Display: flex required to fix alignment of soundboard icon when using non-English - see #249
                 display: flex;
                 font-size: 0;
@@ -49,7 +49,7 @@
             }
         }
         // This only applies to the soundboard button when you are muted (for whatever reason)
-        .disabledButtonWrapper-1m0hYZ{
+        .disabledButtonWrapper__69c70{
             background-color: transparent;
         }
     }
@@ -60,16 +60,16 @@
 }
 
 // Streaming game/app
-.theme-dark .activityPanel-9icbyU{
+.theme-dark .activityPanel__22355{
     background-color: transparent;
     padding-bottom: 0;
     border-top: 0;
     border-bottom: 0;
-    .title-338goq{
+    .title__10613{
         @include TypeBody;
     }
     // NOTE: 2022-02-19 - Removing the stream buttons when you don't have permission. This may cause the channels jiggling bug to resurface. See #31.
-    .actions-_dBVGH{
+    .actions__9256d{
         .disabledButtonWrapper-2Oz3aY{
             display: none;
         }
@@ -77,12 +77,12 @@
 }
 
 // Icons
-html[lang^="en-"].theme-dark .panels-3wFtMD .button-2gNyE9{
+html[lang^="en-"].theme-dark .panels__58331 .button__66e8c{
     &::before{
         @include FontIconFluent;
         font-size: 16px;
     }
-    .contents-3NembX{
+    .contents_fb6220{
         display: none;
     }
 }

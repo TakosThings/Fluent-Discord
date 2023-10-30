@@ -1,6 +1,6 @@
-.theme-dark .container-2cd8Mz{
+.theme-dark .container__5c7e7{
     // Body
-    .tabBody-2dgbAs{
+    .tabBody_b3d268{
         background-color: $LayerFillColorDefault;
         border-top: 1px solid $CardStrokeColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
@@ -10,13 +10,13 @@
         }
 
         // Search bar
-        .searchBar-2aylmZ{
+        .searchBar_ff8800{
             margin: 18px 20px 8px 20px;
             background-color: transparent;
         }
 
         // Header
-        .title-x4dI75{
+        .title_dc625c{
             @include TypeSubtitle;
             color: $TextFillColorPrimary;
             letter-spacing: normal;
@@ -24,66 +24,66 @@
         }
 
         // Item
-        .peopleListItem-u6dGxF.active-2UF8Zh,
-        .peopleListItem-u6dGxF:hover{
+        .peopleListItem_d14722.active__6b8ff,
+        .peopleListItem_d14722:hover{
             border-radius: 4px;
         }
 
         // Username
-        .username-Qpc78p{
+        .username__81ee6{
             @include TypeBodyStrong;
         }
         // User Status
-        .text-MPIeXO{
+        .text__1dddb{
             @include TypeCaption;
         }
 
         // Buttons
-        .actionButton-3-B2x-{
+        .actionButton__23182{
             background-color: transparent;
             visibility: hidden;
         }
 
         // Show buttons when hovered
-        .peopleListItem-u6dGxF.active-2UF8Zh .actionButton-3-B2x-,
-        .peopleListItem-u6dGxF:hover .actionButton-3-B2x-{
+        .peopleListItem_d14722.active__6b8ff .actionButton__23182,
+        .peopleListItem_d14722:hover .actionButton__23182{
             visibility: visible;
         }
     }
 
     // Empty
-    .friendsEmpty-gs15T1{
-        .image-20MDYu{
+    .friendsEmpty__822fa{
+        .image__98a59{
             filter: brightness(200%)
         }
-        .text-27cdrj{
+        .text__1c14c{
             @include TypeBody;
             color: $TextFillColorPrimary;
         }
     }
 
     // Add friend
-    .header-30YxSJ{
+    .header__6113c{
         padding: 20px;
     }
-    .addFriendInputWrapper-kkoSV9{
+    .addFriendInputWrapper__4bf8e{
         padding: 0;
         background-color: transparent;
         border: 0;
-        .input-3O04eu{
+        .input_d266e7{
             padding: 0 12px;
             letter-spacing: normal;
         }
     }
     // Remove hint text
-    .addFriendHint-1EVQJY{
+    .addFriendHint__6df3d{
         display: none;
     }
 }
 
 // Icon replacements
-html[lang^="en-"].theme-dark .container-2cd8Mz{
-    .actionButton-3-B2x-{
+html[lang^="en-"].theme-dark .container__5c7e7{
+    .actionButton__23182{
         &::before{
             @include FontIconFluent;
             color: $TextFillColorSecondary;

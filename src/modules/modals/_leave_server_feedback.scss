@@ -1,26 +1,26 @@
 .theme-dark{
-    .header-C83U_D{
+    .header_c2c186{
         @include TypeSubtitle;
         text-align: left;
     }
-    .ratingBody-1GrX6N{
+    .ratingBody__30ec1{
         @include TypeBody;
             color: $TextFillColorPrimary;
             text-align: left;
     }
 
-    .problemInfo-1QppuA{
-        .root-cw9rWQ{
+    .problemInfo__4ad5d{
+        .root_b4f834{
             background-color: $CardBackgroundFillColorDefault;
             border: 1px solid $CardStrokeColorDefault;
             border-radius: 4px;
         }
-        .option-1O-Hwt{
+        .option_f70eea{
             &:hover{
                 background-color: $CardBackgroundFillColorSecondary;
             }
         }
-        .text-3MkjKY{
+        .text_f09abc{
             @include TypeBody;
         }
     }

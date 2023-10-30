@@ -1,4 +1,4 @@
-.theme-dark .menu-2TXYjN{
+.theme-dark .menu_dc52c6{
     min-width: 280px;
     background: $AcrylicBackgroundFillColorDefault;
     border: 1px solid $SurfaceStrokeColorDefault;
@@ -17,19 +17,19 @@
         border-radius: 8px;
     }
 
-    .scroller-nxCRu_{
+    .scroller__750f5{
         padding: 4px 8px;
         max-height: calc(100vh - 64px);
     }
 
     // Separators
-    .separator-12G2Op{
+    .separator__18122{
         margin: 10px 4px;
         border-bottom-color: $DividerStrokeColorDefault;
     }
 
     // Item
-    .item-5ApiZt{
+    .item__183e8{
         min-height: 34px;
         margin: 2px 0 2px -4px;
         padding: 4px 12px;
@@ -37,14 +37,14 @@
         @include TypeBody;
         color: $TextFillColorPrimary;
         transition: background-color $AnimationFadeInOut;
-        &.focused-3LIdPu{
+        &.focused__27621{
             background-color: $SubtleFillColorSecondary;
             transition: background-color $AnimationFadeInOut;
         }
-        &.colorDanger-3umuSx{
+        &.colorDanger_eec36d{
             color: $SystemFillColorCritical;
         }
-        &.disabled--8Sav3{
+        &.disabled_a32bfe{
             color: $TextFillColorDisabled;
             opacity: 1;
         }
@@ -59,23 +59,23 @@
         // Remove subtext on Spotify menu items
         &[id*="spotify"],
         &[id*="listen"]{
-            .subtext-1mqKVB{
+            .subtext__8a015{
                 display: none;
             }
         }
 
         // Remove left margin from 'Upload file' option
-        .optionName-1ebPjH{
+        .optionName__81070{
             margin: 0;
         }
 
         // Fix font size in upload menu
-        .optionLabel-1o-h-l{
+        .optionLabel__254ef{
             @include TypeBody;
         }
 
         // Items with subtext
-        .subtext-1mqKVB{
+        .subtext__8a015{
             margin-top: 0;
             @include TypeCaption;
             color: $TextFillColorSecondary;
@@ -86,31 +86,31 @@
 
         // Remove Discord icons, unless it's a checkbox
         &:not([role="menuitemcheckbox"]):not([role="menuitemradio"]){
-            .icon-3XHs8t{
+            .icon_f09dde{
                 display: none;
             }
         }
         // Remove icons from upload/attach menu
-        .optionIcon-1Ft8w0{
+        .optionIcon__2b48d{
             display: none;
         }
 
         // Fix grabber position
-        .grabber-3R-Rx9{
+        .grabber_d2868c{
             margin-top: -0px;
         }
     }
 
     // Emoji items
-    .button-1zW0-r{
+    .button__3ecb4{
         width: 24px;
         height: 24px;
         background-color: transparent;
-        &.focused-H4w81f{
+        &.focused__47631{
             background-color: $SubtleFillColorSecondary;
             box-shadow: none;
         }
-        .icon-Yl4xbA{
+        .icon_babf0a{
             width: 18px;
             height: 18px;
 

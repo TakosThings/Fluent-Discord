@@ -1,4 +1,4 @@
-.theme-dark .attachment-1PZZB2{
+.theme-dark .attachment_f3cf2c{
     width: 400px;
     position: relative;
     background-color: $CardBackgroundFillColorDefault;
@@ -8,7 +8,7 @@
 
     img{
         display: none;
-        & ~ .attachmentInner-1fP7iq{
+        & ~ .attachmentInner__94b5f{
             position: relative;
             padding-left: 40px;
             &::before{
@@ -19,36 +19,36 @@
                 @include FontIconFluent;
                 font-size: 24px;
             }
-            .filenameLinkWrapper-3Rc6sk a{
+            .filenameLinkWrapper__56a0d a{
                 line-height: 20px;
             }
         }
 
     }
 
-    img[title="acrobat"] ~ .attachmentInner-1fP7iq::before{
+    img[title="acrobat"] ~ .attachmentInner__94b5f::before{
         content: "\ea90"; // PDF
     }
-    img[title="archive"] ~ .attachmentInner-1fP7iq::before{
+    img[title="archive"] ~ .attachmentInner__94b5f::before{
         content: "\f012"; // ZipFolder
     }
-    img[title="document"] ~ .attachmentInner-1fP7iq::before{
+    img[title="document"] ~ .attachmentInner__94b5f::before{
         content: "\f000"; // KnowledgeArticle
     }
-    img[title="spreadsheet"] ~ .attachmentInner-1fP7iq::before{
+    img[title="spreadsheet"] ~ .attachmentInner__94b5f::before{
         content: "\E9F9"; // ReportDocument
     }
-    img[title="unknown"] ~ .attachmentInner-1fP7iq::before{
+    img[title="unknown"] ~ .attachmentInner__94b5f::before{
         content: "\e9ce"; // Unknown
     }
 
-    img[title="ae"] ~ .attachmentInner-1fP7iq::before,
-    img[title="ai"] ~ .attachmentInner-1fP7iq::before,
-    img[title="sketch"] ~ .attachmentInner-1fP7iq::before{
+    img[title="ae"] ~ .attachmentInner__94b5f::before,
+    img[title="ai"] ~ .attachmentInner__94b5f::before,
+    img[title="sketch"] ~ .attachmentInner__94b5f::before{
         content: "\e8a5"; // Document
     }
 
-    .metadata-1E7Z4i{
+    .metadata__541c7{
         color: $TextFillColorSecondary;
         @include TypeCaption;
         font-weight: normal;
