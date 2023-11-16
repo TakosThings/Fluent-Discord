@@ -1,4 +1,4 @@
-.theme-dark .quickswitcher-pKcM9U{
+.theme-dark .quickswitcher_a3d29a{
     height: 100%;
     background-color: $SolidBackgroundFillColorBase;
 
@@ -9,7 +9,7 @@
         color: $TextFillColorPrimary;
     }
 
-    .input-3r5zZY{
+    .input__848cd{
         height: 32px;
         background-color: transparent;
         border: 1px solid;
@@ -34,21 +34,21 @@
     }
 
     // Scroll content
-    .scroller-2qwVWY{
+    .scroller__52ae7 {
         max-height: unset;
-        margin-top: 0;
+        margin-top: 12px;
         margin-right: -4px;
         background-color: transparent;
         overflow-y: auto !important; // Override inline
     }
 
-    .header-1ZpMzy{
+    .header_a2a437{
         @include TypeBodyStrong;
         color: $TextFillColorPrimary;
         text-transform: none;
     }
 
-    .result-u66Ywh{
+    .result__25f11{
         &[aria-selected=true]{
             background-color: $SubtleFillColorSecondary;
             &::before{
@@ -63,11 +63,12 @@
             }
         }
 
-        .name-3qeTY-{
+        .name__43a5f{
             @include TypeBody;
             color: $TextFillColorPrimary;
-            .username-wzYIu4,
-            .note-OhIxFa{
+            line-height: 32px;
+            .username__24792,
+            .note__181ba{
                 margin: 0;
                 opacity: 1;
                 @include TypeCaption;
@@ -75,7 +76,7 @@
                 text-transform: none;
             }
         }
-        .miscContainer-33U-X-{
+        .miscContainer__3e350{
             opacity: 1;
             @include TypeBody;
             color: $TextFillColorTertiary;
@@ -83,23 +84,23 @@
     }
 
     // Footer
-    .protip-1jXzAl{
-        .pro-3GwLMX{
+    .protip__84833{
+        .pro_db62e1{
             display: none;
         }
-        .tip-Jl__cG{
+        .tip__5f672{
             @include TypeCaption;
             color: $TextFillColorSecondary;
             opacity: 1;
         }
-        .autocompleteQuerySymbol-1iAOG7{
+        .autocompleteQuerySymbol__3068e{
             background-color: transparent;
             @include FontMonospace;
         }
     }
 
     // Remove 'tutorial'
-    .tutorial-1iwync{
+    .tutorial_af9431{
         display: none;
     }
 }

@@ -1,4 +1,4 @@
-.theme-dark .tooltip-33Jwqe{
+.theme-dark .tooltip__01384{
     padding: 8px 12px;
     background: $AcrylicBackgroundFillColorBase;
     border: 1px solid $SurfaceStrokeColorFlyout;
@@ -7,18 +7,10 @@
     @include Elevation16;
     // box-sizing: unset;
     @include TypeBody;
-    .tooltipPointer-sMBQqe{
+    .tooltipPointer_a79354{
         display: none;
     }
-    .tooltipContent-38tm3I{
+    .tooltipContent__79a2d{
         padding: 0;
-    }
-}
-
-// Hide settings button tooltip
-.theme-dark .layer-2BGhQ8{
-    &[style*="left: -29px;"],       //  100%, 110%, 125%, 150%, 175%
-    &[style*="left: -30px;"]{       //  50%, 67%, 75%, 80%, 90%, 200%
-        display: none;
     }
 }

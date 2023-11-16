@@ -1,61 +1,35 @@
 .theme-dark{
     // Avatar
-    .avatar-1YsFQ1{
+    .avatar__445f3{
         svg circle{
             display: none;
         }
     }
 
     // Body
-    .overlayBackground-1KgwVi{
+    .overlayBackground__86b78{
         border-radius: 4px;
     }
 
     // Tabs
-    .tabBarContainer-2UG0vy{
+    .tabBarContainer__63f55{
         margin-bottom: 20px;
         border: 0;
     }
-    .tabBar-2StdUa{
-        gap: 24px;
-        .item-2GWPIy{
-            border: 0;
-            color: $TextFillColorSecondary;
-            @include TypeBody;
-            line-height: 40px;
-            &:hover{
-                color: $TextFillColorPrimary;
-            }
-            &.selected-1sf9UK{
-                color: $TextFillColorPrimary;
-                &::before{
-                    content: "";
-                    width: 16px;
-                    height: 3px;
-                    position: absolute;
-                    bottom: 0;
-                    left: calc(50% - 8px);
-                    background-color: $AccentFillColorDefault;
-                    border-radius: 999px;
-                }
-            }
-        }
-    }
 
     // Section headers
-    .userInfoSectionHeader-48g5Qj,
-    .headerText-3g1XK9{
+    .userInfoSectionHeader__31b66{
         @include TypeBodyStrong;
         text-transform: none;
     }
 
     // Connected accounts
-    .connectedAccountContainer-3aLMHJ{
+    .connectedAccountContainer__23f00{
         padding: 8px;
-        .connectedAccountNameText-tCbPXH{
+        .connectedAccountNameText__00810{
             @include TypeBody;
         }
-        .anchor-1MIwyf{
+        .anchor_c8ddc0{
             text-decoration: none;
             &::before{
                 content: "\E8A7";
@@ -69,14 +43,14 @@
     }
 
     // Mutual servers/friends
-    .listRow-Y5zoF8{
+    .listRow__60937{
         border: 1px solid transparent;
         &:hover{
             background-color: $ControlFillColorDefault;
             border-color: $ControlStrokeColorDefault;
             border-radius: 4px;
         }
-        .listAvatar-2GhWlb{
+        .listAvatar__907d4{
             border-radius: 50%;
         }
     }

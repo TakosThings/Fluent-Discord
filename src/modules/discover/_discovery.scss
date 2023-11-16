@@ -1,37 +1,37 @@
 .theme-dark{
-    .discoverHeader-1vsvZ0{
+    .discoverHeader_fae7fd{
         @include TypeBodyStrong;
     }
 
-    .pageWrapper-2PwDoS{
+    .pageWrapper_fef757{
         background-color: $LayerFillColorDefault;
         border-top: 1px solid $CardStrokeColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
         border-radius: 8px 0 0 0;
     }
 
-    .sidebar-1tnWFu{
-        .container-1oeRFJ{
+    .sidebar_ded4b5{
+        .container__4f20e{
             height: 32px;
             margin-bottom: 2px;
             position: relative;
 
-            .itemInner-3e_4G4{
+            .itemInner__9e755{
                 height: 32px;
                 padding: 0 8px;
             }
 
-            .avatar-6qzftW{
+            .avatar__6337f{
                 width: 16px;
                 height: 16px;
             }
-            .name-3Vmqxm{
+            .name__16feb{
                 @include TypeBody;
                 color: $TextFillColorPrimary;
             }
 
-            &.selected-1-Z6gm{
-                .itemInner-3e_4G4{
+            &.selected__9800b{
+                .itemInner__9e755{
                     background-color: $SubtleFillColorSecondary;
                 }
 
@@ -51,8 +51,8 @@
 
     // Main
     // Search
-    .container-2rCwVJ{
-        .searchBox-31Zv9h{
+    .container__9a3a4{
+        .searchBox_a63854{
             background-color: transparent;
             box-shadow: none;
 
@@ -60,7 +60,7 @@
             &:focus-within{
                 box-shadow: none;
             }
-            .searchBoxInput-3h4etz{
+            .searchBoxInput__73c9c{
                 @include TypeBody;
                 color: $TextFillColorPrimary;
                 &::placeholder{
@@ -68,8 +68,8 @@
                     color: $TextFillColorSecondary;
                 }
             }
-            .clearIcon-TMIIUa,
-            .searchIcon-34RNw9{
+            .clearIcon__91449,
+            .searchIcon_f30c40{
                 width: 16px;
                 height: 16px;
                 position: absolute;
@@ -79,7 +79,7 @@
                     fill: #FFF;
                 }
             }
-            .cta-25g9OT{
+            .cta_f18d68{
                 display: none;
             }
         }
@@ -87,13 +87,13 @@
 
     // Search results
     // Header
-    .header-3lOo5J{
+    .header__809e1{
         @include TypeSubtitle;
         color: $TextFillColorPrimary;
     }
 
     // Search box
-    .searchBox-pyIJJj{
+    .searchBox_a63854{
         padding-right: 0;
         background-color: transparent;
         border: 0;
@@ -103,7 +103,7 @@
         &:focus-within{
             box-shadow: none;
         }
-        .searchBoxInput-P0mWHW{
+        .searchBoxInput__73c9c{
             @include TypeBody;
             color: $TextFillColorPrimary;
             &::placeholder{
@@ -111,8 +111,8 @@
                 color: $TextFillColorSecondary;
             }
         }
-        .clearIcon-TMIIUa,
-        .searchIcon-34RNw9{
+        .clearIcon__91449,
+        .searchIcon_e60ea8{
             width: 16px;
             height: 16px;
             position: absolute;
@@ -122,21 +122,18 @@
                 fill: #FFF;
             }
         }
-        .cta-25g9OT{
-            display: none;
-        }
     }
 
     // Results
-    .categories-2LoSbA{
-        .categoryPill-1zjNrr{
+    .categories_e49c23{
+        .categoryPill_c95cea{
             .categoryLabel-2m4AT-{
                 @include TypeBody;
                 color: $TextFillColorSecondary;
             }
-            &.selected-bLcqYK{
+            &.selected__24846{
                 background-color: $AccentBase;
-                .categoryLabel-2m4AT-{
+                .categoryLabel__44b10{
                     color: $TextFillColorPrimary;
                 }
             }

@@ -1,5 +1,5 @@
-html[lang^="en-"].theme-dark .toolbar-3_r2xA{
-    .iconWrapper-2awDjA{
+html[lang^="en-"].theme-dark .toolbar__88c63{
+    .iconWrapper_af9215{
         // Threads
         &[aria-label="Threads"]::before{
             content: "\E8C4"; // ShowBcc
@@ -104,8 +104,12 @@ html[lang^="en-"].theme-dark .toolbar-3_r2xA{
             content: "\E163"; // Calendar
         }
     }
-    .button-ejjZWC{
+    .button_afdfd9{
         // Call tiles
+        // Invite
+        &[aria-label="Invite"]::before{
+            content: "\E1E2"; // AddFriend
+        }
         // Focus
         &[aria-label="Focus"]::before,
         &[aria-label="Grid"]::before{
@@ -118,7 +122,7 @@ html[lang^="en-"].theme-dark .toolbar-3_r2xA{
     }
 
     // Stage channel
-    .button-ejjZWC{
+    .button_afdfd9{
         // Show chat
         &[aria-label^="Show Chat"]::before{
             content: "\E8A0"; // OpenPane

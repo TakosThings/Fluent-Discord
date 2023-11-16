@@ -8,7 +8,7 @@
 }
 
 // Also includes the RTC controls icons to save having another file
-html[lang^="en-"].theme-dark .panels-3wFtMD .button-12Fmur{
+html[lang^="en-"].theme-dark .panels__58331 .button_afdfd9{
     &[aria-label="Deafen"][aria-checked=true]::before{
         content: "\E74F"; // Mute
     }
@@ -60,7 +60,7 @@ html[lang^="en-"].theme-dark .panels-3wFtMD .button-12Fmur{
     }
 }
 
-html[lang^="en-"].theme-dark .panels-3wFtMD .actionButtons-1DmM2g button.button-2gNyE9{
+html[lang^="en-"].theme-dark .panels__58331 .actionButtons_b58cbb button.button_afdfd9{
     &[aria-label*="camera" i]::before{
         content: "\E156"; // WebCam
     }

@@ -31,7 +31,7 @@ $isAutoFile: false;
 @import 'modules/ui/tooltip';
 
 // Main UI
-// Order: main, then home, then discover, then boost, alphabetic
+// Order: main, then home, then discover, alphabetic
 @import 'modules/main/channels/account';
 @import 'modules/main/channels/channels';
 @import 'modules/main/channels/rtc';
@@ -63,7 +63,6 @@ $isAutoFile: false;
 @import 'modules/home/members';
 @import 'modules/home/toolbar';
 @import 'modules/discover/discovery';
-@import 'modules/boost/boost';
 
 // Loadscreen
 // Order: None, alphabetic

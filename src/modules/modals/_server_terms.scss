@@ -1,49 +1,44 @@
 .theme-dark{
-    .guildSidebar-UHnQqs{
+    .guildSidebar__8763f{
         background: $SolidBackgroundFillColorBase;
-        .guildDescription-2-W9iK{
+        .guildDescription_af6f40{
             color: $TextFillColorPrimary;
         }
     }
-    .modal-2TOYtq{
+    .modal_b38209{
         background-color: $CardBackgroundFillColorDefault;
         border-radius: 0;
         // Remove waving hand GIF
-        .animationAndSparklesContainer-7Fwx3i{
+        .animationAndSparklesContainer_f5565f{
             display: none;
         }
         // Headers
-        .header-EmaVAp{
+        .header__14708{
             @include TypeSubtitle;
             text-align: left;
         }
-        .subheader-37bSfX{
+        .subheader_b02893{
             @include TypeBody;
             color: $TextFillColorPrimary;
             text-align: left;
         }
-        hr.divider-1zHRlg{
+        hr.divider_e8e5fa{
             display: none;
         }
 
-        // Terms
-        .verificationForm-ktA3ma{
-            margin-top: 24px;
-        }
-
-        .formFieldWrapper-2LV3S6{
+        .termsFieldBody__2e9c4{
             background-color: $CardBackgroundFillColorDefault;
             border: 1px solid $CardStrokeColorDefault;
             border-radius: 4px;
         }
-        .termsRowContent-2Qx-E5{
+        .termsRowContent__82e2f{
             @include TypeBody;
             color: $TextFillColorPrimary;
         }
 
         // Accept checkbox
-        .checkboxWrapper-2fDzaA{
-            .input-3xr72x{
+        .checkboxWrapper__02583{
+            .input_f56cea{
                 // Yes Discord, it was completely necessary to in-line the dimensions...
                 width: 18px !important; // Override inline
                 height: 18px !important; // Override inline
@@ -51,9 +46,6 @@
                     top: 0;
                     left: 0;
                 }
-            }
-            .checkboxText-2F08go{
-                @include TypeBody;
             }
         }
     }

@@ -1,12 +1,12 @@
 .theme-dark{
-    .art-1TvEXv{
+    .art_d9e8a6{
         display: none;
         &~form{
-            .headerText-27nUQU{
+            .headerText__91f5e{
                 align-self: baseline;
                 @include TypeSubtitle;
             }
-            .headerDescription-yFPU-Q{
+            .headerDescription_fc3801{
                 padding: 0;
                 @include TypeBody;
                 color: $TextFillColorPrimary;
@@ -23,49 +23,49 @@
                     box-shadow: inset 0 0 0 2px $AccentBase;
                 }
             }
-            .sourceName-3Wf8QG{
+            .sourceName__7e932{
                 @include TypeBody;
             }
 
             // Stream settings
-            .card-m7VgZ8{
+            .card__7756d{
                 height: 32px;
                 padding: 0 8px;
                 background-color: $ControlFillColorDefault;
                 border: 0;
                 border-radius: 4px;
                 color: $TextFillColorSecondary;
-                .channelInfo-3xAwr2,
-                .ellipsisText-1-5iVA{
+                .channelInfo__3cdb6,
+                .ellipsisText_beb1e7{
                     @include TypeBody;
                     color: $TextFillColorPrimary;
                 }
-                .changeButton-2kfgQt{
+                .changeButton__192a1{
                     margin-right: -8px;
                 }
             }
 
-            .qualitySettingsContainer-2LjkfM{
+            .qualitySettingsContainer__5cacd{
                 padding: 0;
                 border: 0;
             }
 
-            .group-1_ptLP{
-                .selectorButton-3fWZ0_{
+            .group_d76384{
+                .selectorButton_c6ae93{
                     background-color: transparent;
                     border: 1px solid $ControlStrokeColorOnAccentDefault;
 
                     &:hover{
                         background-color: $ControlFillColorSecondary;
                     }
-                    &.selectorButtonSelected-3cQUnj{
+                    &.selectorButtonSelected_fbe8fc{
                         background-color: $AccentFillColorDefault;
                         color: $TextOnAccentFillColorPrimary;
                         &:hover{
                             background-color: $AccentFillColorSecondary;
                         }
                     }
-                    &.selectorButtonPremiumRequired-IZXhgV{
+                    &.selectorButtonPremiumRequired_ce72d6{
                         cursor: not-allowed;
                         &:hover{
                             background-color: transparent;

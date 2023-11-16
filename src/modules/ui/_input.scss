@@ -1,11 +1,11 @@
-.theme-dark .title-3hptVQ{
+.theme-dark .title__317f4{
     color: $TextFillColorPrimary;
     @include TypeBody;
     text-transform: none;
 }
 
 // NOTE: 2022-03-26 - hiddenDiv-2qTqSF is used in the credit card field. See #99
-.theme-dark .input-3O04eu:not(.hiddenDiv-2qTqSF){
+.theme-dark .input_d266e7:not(.hiddenDiv__457a8){
     height: 32px;
     background-color: $ControlFillColorDefault;
     border: 1px solid;
@@ -16,7 +16,7 @@
     color: $TextFillColorSecondary;
 
     // Sizing
-    &.inputDefault-Ciwd-{
+    &.inputDefault__80165{
         padding: 0 12px;
         // height: 32px;
     }
@@ -34,45 +34,23 @@
         color: $TextFillColorSecondary;
     }
 
-    &.textArea-3WXAeD,
-    &.textarea-_59yqs{
+    &.textarea_c5a7a3, // eg. user popout note textarea
+    &.textArea__97e3f{ // eg. channel MOTD textare
         padding: 4px 12px;
     }
 }
 // Create channel prefix
-.theme-dark .inputPrefix-1HHwWv{
+.theme-dark .inputPrefix__96ae7{
     top: 8px;
-    ~ .input-3O04eu{
+    ~ .input_d266e7{
         // TODO - 2022-06-08: Resolve this conflict
-        padding-left: 32px !important; // Conflicts with .theme-dark .input-3O04eu:not(.hiddenDiv-2qTqSF)
-    }
-}
-
-// Multi inline field
-// Change username modal
-.theme-dark .multiInput-1VARjC{
-    &.input-3O04eu{
-        background-color: transparent;
-        border: none;
-    }
-    .multiInputLast-35zVz0{
-        margin-left: 4px;
-        &::before{
-            display: none;
-        }
-    }
-    .inputPrefix-3Nqilo{
-        display: none;
-    }
-    // Remove Nitro promotion
-    .questionMark-3V9mGJ{
-        display: none;
+        padding-left: 32px !important; // Conflicts with .theme-dark .input_d266e7:not(.hiddenDiv-2qTqSF)
     }
 }
 
 // Select
 .theme-dark{
-    .select-Zz0IcO{
+    .select__0eb48{
         padding: 3px 8px 3px 12px;
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
@@ -83,10 +61,10 @@
     }
 
     // Options popout
-    .popout-15UxD6{
+    .popout_a6e77f{
         background: $SolidbackgroundFillColorQuarternary;
         border: 1px solid $SurfaceStrokeColorFlyout;
-        .option-Uc12mm{
+        .option_be8b2e{
             min-height: 32px;
             margin: 4px;
             padding: 8px;
@@ -115,7 +93,7 @@
                     background-color: $SubtleFillColorSecondary;
                     border-radius: 4px;
                 }
-                .selectedIcon-122rMx{
+                .selectedIcon__4b0ba{
                     display: none;
                 }
             }
@@ -124,12 +102,12 @@
 }
 
 // Keybind
-.theme-dark .container-30qY7E{
+.theme-dark .container__0c807{
     height: 32px;
     background-color: $ControlFillColorDefault;
     border: 1px solid $ControlStrokeColorDefault;
     border-radius: 4px;
-    .button-ZJ9ZzX{
+    .button_afdfd9{
         min-height: calc(32px - 6px);
         height: calc(32px - 6px);
         margin: 2px;
@@ -137,19 +115,19 @@
 }
 
 // Slider
-.slider-1mmyV6{
-    .bar-2H7Q9u{
+.slider__22e99{
+    .bar_e58961{
         height: 3px;
         background-color: $ControlStrongStrokeColorDefault;
         border-radius: 2px;
     }
-    .barFill-3RgCsY{
+    .barFill__30e17{
         height: 3px;
         position: absolute;
         background-color: $AccentBase;
         border-radius: 2px;
     }
-    .grabber-3R-Rx9{
+    .grabber_d2868c{
         width: 18px;
         height: 18px;
         margin-top: -11px;
@@ -173,7 +151,7 @@
 
 // Text formatting toolbar
 // Highlight text in the chat box to open the formatting bar
-.theme-dark .toolbar-37BrJ5{
+.theme-dark .toolbar_c7b525{
     padding: 4px;
     background: $AcrylicBackgroundFillColorDefault;
     backdrop-filter: blur(10px);
@@ -188,22 +166,22 @@
         margin-right: 4px;
         &:hover{
             background-color: $SubtleFillColorSecondary;
-            &.active-136ioF{
+            &.active__05fbc{
                 background-color: $AccentTextFillColorSecondary;
             }
         }
         &:last-child{
             margin-right: 0;
         }
-        &.active-136ioF{
+        &.active__05fbcF{
             background-color: $AccentFillColorDefault;
-            .icon-3g7qdA{
+            .icon__5a617{
                 color: $TextOnAccentFillColorPrimary;
             }
         }
 
-        .buttonInner-1RE0NV,
-        .icon-3g7qdA{
+        .buttonInner__1dbe5,
+        .icon__5a617{
             width: 16px;
             height: 16px;
         }
@@ -212,19 +190,13 @@
 }
 
 // Copy box
-.copyInput-3AbKWB{
+.copyInput_c1c679{
     height: 42px;
     margin-bottom: 8px;
     background-color: $ControlFillColorDefault;
     border: 1px solid $ControlStrokeColorDefault;
     border-radius: 4px;
-    .input-2QVoG3{
+    .input__770f1{
         @include TypeBody;
     }
-}
-
-// Search
-// Found in Server settings: Roles, Bans, Members
-.container-2oNtJn{
-    background-color: transparent;
 }

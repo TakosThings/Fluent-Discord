@@ -1,35 +1,35 @@
-.theme-dark .root-1e2tfc{
+.theme-dark .root__46d4f {
     min-height: auto !important; // Modal is longer than necessary
     background-color: $SolidBackgroundFillColorBase;
     border: 1px solid $SurfaceStrokeColorDefault;
     border-radius: 8px;
     justify-content: space-between;
 
-    .icon-kZI9Yh{
+    .icon_cde413{
         margin: 0 0 16px 0;
     }
 
-    .titleGroup-Wf8cWW{
+    .titleGroup__3c0da{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        .title-1xszmS{
+        .title__2cf9b{
             @include TypeSubtitle;
         }
-        .subtitle-NatkZZ{
+        .subtitle__54bf3{
             margin-bottom: 16px;
             @include TypeBody;
             color: $TextFillColorPrimary;
         }
     }
 
-    .actions-AdUAR0{
-        .actionButton-2S7dMn{
+    .actions__231c6{
+        .actionButton__517cf{
             min-width: 94px;
             height: 32px;
             margin-right: 8px;
 
-            &.red-3T8maV{
+            &.red_a51ba8{
                 background-color: transparent;
                 border: 1px solid $SystemFillColorCritical;
                 &:hover{
@@ -44,7 +44,7 @@
                     color: $SystemFillColorCritical;
                 }
             }
-            &.green-3wkLbx{
+            &.green__7e4a1{
                 background-color: $AccentFillColorDefault;
                 &:hover{
                     background-color: $AccentFillColorSecondary;
@@ -61,7 +61,7 @@
                 font-size: 16px;
                 color: $TextOnAccentFillColorPrimary;
             }
-            .centerIcon-JYpTUi{
+            .centerIcon__6075a{
                 display: none;
             }
         }

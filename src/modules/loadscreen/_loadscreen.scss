@@ -1,5 +1,5 @@
 // Hide titlebar
-.theme-dark .container-2RRFHK{
+.theme-dark .container__4bde3{
     padding-top: 32px;
     top: -32px;
 }
@@ -78,7 +78,7 @@
 }
 
 
-.theme-dark .container-2RRFHK{
+.theme-dark .container__4bde3{
     background-color: #000;
 
     // Loading blob animations
@@ -96,7 +96,7 @@
         animation: fluent-loading-blob2-path 20s infinite, fluent-loading-blob-fade 1332ms ease-out;
     }
 }
-.content-3m6Dij{
+.content__0e954{
     width: 64px;
     height: 64px;
     &::before{
@@ -108,7 +108,7 @@
     }
 }
 
-.content-3m6Dij{
+.content__0e954{
     video{
         display: none;
     }
@@ -123,12 +123,12 @@
     }
 
     // Loading circle
-    .text-2oT_0D{
+    .text__32559{
         width: 64px;
         height: 64px;
         display: block;
         animation: fluent-loading-circle 1.5s linear infinite;
-        .body-15LvnD{
+        .body_c562e6{
             line-height: unset;
             font-size: 0;
 
@@ -154,17 +154,17 @@
             }
         }
 
-        .tipTitle-1uYSgK,
-        .tip-LnjT57{
+        .tipTitle_a7615c,
+        .tip__6e299{
             display: none;
         }
     }
 }
 
 // Links
-.problemsText-OxAwuw{
+.problemsText__046e8{
     color: $TextFillColorPrimary;
 }
-.anchor-1MIwyf{
+.anchor_c8ddc0{
     color: $AccentTextFillColorPrimary;
 }

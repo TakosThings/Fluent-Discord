@@ -1,4 +1,4 @@
-.theme-dark .container-2NLBJg{
+.theme-dark .container_d667ff{
     background-color: transparent;
     border-top: 0;
     border-bottom: 0;
@@ -11,19 +11,19 @@
     .rtcConnectionStatus-c5A6Av{
         padding-bottom: 0;
         @include TypeBody;
-        .button-ejjZWC{
+        .button_afdfd9{
             line-height: 16px;
         }
     }
     .subtext-2HDqJ7{
         @include TypeCaption;
     }
-    .voiceUsers-g1MlmH{
+    .voiceUsers__4147e{
         padding-top: 4px;
     }
 
     // Video/screen share buttons
-    .actionButtons-1DmM2g{
+    .actionButtons_b58cbb{
         grid-gap: 4px;
         // !importants to make these appear as 'default' button instead of accent
         button{
@@ -39,7 +39,7 @@
                 background-color: $ControlFillColorTertiary !important;
             }
 
-            .contents-3NembX{
+            .contents_fb6220{
                 // Display: flex required to fix alignment of soundboard icon when using non-English - see #249
                 display: flex;
                 font-size: 0;
@@ -48,19 +48,15 @@
                 }
             }
         }
-        // This only applies to the soundboard button when you are muted (for whatever reason)
-        .disabledButtonWrapper-1m0hYZ{
-            background-color: transparent;
+        // Hide buttons when you don't have permission. This also hides the soundboard when you are muted
+        .disabledButtonWrapper__69c70{
+            display: none;
         }
-    }
-    // NOTE: 2022-02-19 - Removing the stream buttons when you don't have permission. This may cause the channels jiggling bug to resurface. See #31.
-    .disabledButtonWrapper-2Oz3aY{
-        display: none;
     }
 }
 
 // Streaming game/app
-.theme-dark .activityPanel-9icbyU{
+.theme-dark .activityPanel__22355{
     background-color: transparent;
     padding-bottom: 0;
     border-top: 0;
@@ -68,21 +64,15 @@
     .title-338goq{
         @include TypeBody;
     }
-    // NOTE: 2022-02-19 - Removing the stream buttons when you don't have permission. This may cause the channels jiggling bug to resurface. See #31.
-    .actions-_dBVGH{
-        .disabledButtonWrapper-2Oz3aY{
-            display: none;
-        }
-    }
 }
 
 // Icons
-html[lang^="en-"].theme-dark .panels-3wFtMD .button-2gNyE9{
+html[lang^="en-"].theme-dark .panels__58331 .button_afdfd9:not(.rtcConnectionStatusLabel__7029b) {
     &::before{
         @include FontIconFluent;
         font-size: 16px;
     }
-    .contents-3NembX{
+    .contents_fb6220{
         display: none;
     }
 }

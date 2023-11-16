@@ -1,21 +1,15 @@
-// Background in thread members list
-.members-2y1nVj, .members-2y1nVj>div{
-    background-color: transparent;
-}
+.theme-dark .container_b2ce9c{
+    background: $LayerOnMicaBaseAltFillColor;
 
-.theme-dark .container-2vWgD2{
-    background-color: $LayerFillColorDefault;
-
-    .members-2y1nVj,
-    .members-2y1nVj > div{
+    .members__9f47b{
         background-color: transparent;
     }
 
     // Group header
-    .membersGroup-2YoqY-{
+    .membersGroup__85843{
         padding: 20px 8px 0 15px;
     }
-    .container-q97qHp{
+    .container_de798d{
         color: $TextFillColorPrimary;
         @include TypeBodyStrong;
         text-transform: none;
@@ -23,22 +17,23 @@
 
 
     // Member
-    .container-1oeRFJ{
+    .container__4f20e{
         margin-left: 7px;
+        background: transparent;
         color: $TextFillColorPrimary;
         // Greyscale offline avatars
-        &.offline-22aM7E{
-            .avatar-6qzftW{
+        &.offline_c1fd80{
+            .avatar__6337f{
                 filter: grayscale(100%);
             }
             &:hover{
-                .avatar-6qzftW{
+                .avatar__6337f{
                     filter: grayscale(0%);
                 }
             }
         }
     }
-    .layout-1qmrhw{
+    .layout_bb8e67{
         border: 1px solid transparent;
         &:hover{
             background-color: $SubtleFillColorSecondary;
@@ -63,7 +58,7 @@
         }
     }
     // Selected (user popout open)
-    .selected-1-Z6gm .layout-1qmrhw{
+    .selected__9800b .layout_bb8e67{
         background-color: $SubtleFillColorSecondary;
         border-color: $SubtleFillColorSecondary;
         &::before{
@@ -74,31 +69,15 @@
         }
     }
     // Username
-    .name-3Vmqxm{
+    .name__16feb{
         @include TypeBody;
     }
     // Activity
-    .activity-2EQDZv{
+    .activity__3cbac{
         @include TypeCaption;
         color: $TextFillColorSecondary;
         strong{
             @include TypeCaption;
-        }
-    }
-}
-
-// Empty state
-.theme-dark .members-2y1nVj{
-    &.emptyState-2DwxJe{
-        .emptyStateHeader-3X-dcc{
-            display: none;
-        }
-        .emptyStateIconContainer-1Jbvk4{
-            background-color: transparent;
-        }
-        .emptyStateSubtext-hyd30M{
-            background-color: transparent;
-            color: $TextFillColorSecondary;
         }
     }
 }

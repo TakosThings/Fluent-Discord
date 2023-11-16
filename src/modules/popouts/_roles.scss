@@ -1,16 +1,16 @@
-.theme-dark .container-2O1UgZ{
+.theme-dark .container_d27846{
     background-color: $SolidBackgroundFillColorBase;
     border: 1px solid $SurfaceStrokeColorDefault;
     border-radius: 8px;
 
     // Search
-    .container-2oNtJn{
+    .container__7712a {
         background-color: transparent;
         border-radius: 0;
     }
 
     // Items
-    .item-1BCeuB{
+    .item__287de{
         &:hover{
             background-color: $SubtleFillColorSecondary;
             box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary;
@@ -18,7 +18,7 @@
     }
 
     // No results
-    .empty-1RfdnO{
+    .empty__81067{
         &::before{
             content: "\E25B";
             @include FontIconFluent;

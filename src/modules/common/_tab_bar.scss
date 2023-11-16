@@ -1,20 +1,20 @@
 .theme-dark{
-    .tabBar-1_P75h,         // A: Guild > Channels & Roles
-    .tabBar-2hXqzU,         // B: User profile modal
-    .tabBar-11FwuO,         // C: User Settings > Profiles
-    .settingsTabBar-1Fi_kb, // D: User Settings > Family Centre
-    .tabBar-3lflCo{         // E: Event information modal
+    .tabBar_d4764b,         // A: Guild > Channels & Roles
+    .tabBar__35f81,         // B: User profile modal
+    .tabBar__22a9a,         // C: User Settings > Profiles
+    .settingsTabBar__19aa3, // D: User Settings > Family Centre
+    .tabBar_a685ae{         // E: Event information modal
         border-bottom: 0;
 
         // Items
-        .item-2GWPIy{
+        .item__48dda{
             @include TypeBody;
             color: $TextFillColorPrimary;
             border: 0;
             &:hover{
                 color: $TextFillColorSecondary;
             }
-            &.selected-1sf9UK{
+            &.selected__5711d{
                 border: 0;
                 &::before{
                     content: "";
@@ -30,7 +30,7 @@
 
             // Special cases
             // A: Badge for total channels
-            .textBadge-1fdDPJ{
+            .textBadge__45d79{
                 background-color: $SystemFillColorSolidNeutralBackground !important; // Override inline
                 @include TypeCaption;
             }
