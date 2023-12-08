@@ -222,6 +222,14 @@
             .content_b60865{
                 padding-left: 32px;
             }
+            // Change border to same green used on guild list
+            .avatarSpeaking_c95053{
+                box-shadow:  0 0 0 2px $SystemFillColorSuccess,inset 0 0 0 3px $FocusStrokeColorInner
+            }
+            // Change user speaking colour to green
+            .usernameSpeaking__78095{
+                color: $SystemFillColorSuccess;
+            }
         }
 
         // Unread channel pill
