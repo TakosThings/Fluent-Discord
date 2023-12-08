@@ -1,14 +1,14 @@
-.theme-dark .contentColumn-1C7as6{
+.theme-dark .contentColumn_dc7d36{
     // Permissions
     // Fix header
     &#permissions-tab{
-        .title-lXcL8p{
+        .title__3e421{
             @include TypeTitle;
         }
 
         // Advanced permissions
         // Header
-        .advancedModeDivider-2GZv7R ~ .button_afdfd9{
+        .advancedModeDivider_e7970d ~ .button_afdfd9{
             margin-top: 32px;
             .contents_fb6220{
                 h2{
@@ -17,21 +17,21 @@
             }
         }
         // Sidebar
-        .sidebarScrollable-2mW9Ls{
-            .scroller-3_YDR2{
+        .sidebarScrollable__4aad1{
+            .scroller__52680{
                 background-color: transparent;
             }
         }
 
         // Permissions list
         // Fix width
-        .sidebarScrollable-2mW9Ls+.content-2ssVKB{
+        .sidebarScrollable__4aad1+.content__5937e{
             max-width: calc(1000px - 232px);
         }
 
         // The permissions
-        .permissionsForm-35gjPz{
-            .flex-2S1XBF.vertical-3aLnqW{
+        .permissionsForm__8e630{
+            .flex_f5fbb7.vertical__1e37a{
                 margin-bottom: 8px;
                 padding: 8px 16px;
                 background-color: $CardBackgroundFillColorDefault;
@@ -41,7 +41,7 @@
                     @include TypeBody;
                     line-height: 32px;
                 }
-                .description-foE_WP{
+                .description__7af71{
                     margin-right: 100px;
                     @include TypeCaption;
                 }

@@ -1,50 +1,37 @@
-.theme-dark .container-3s2w-i{
+.theme-dark .container_def45c{
     background-color: transparent;
     border-radius: 0;
 
     // Toolbar
-    .container-ZMc96U{
+    .container__11d72{
         background-color: transparent;
-        .children-3xh0VB{
+        .children__32014{
             // Removes small gradient
             &::after{
                 display: none;
             }
-            > .iconWrapper-2awDjA{
+            > .iconWrapper_af9215{
                 display: none;
             }
-            .title-17SveM{
+            .title__9e2b0{
                 @include TypeBodyStrong;
             }
         }
     }
 
-    // Chat
-    .chat-3t9F_n, // Server guide
-    .chat-1-OBC7, // Viewing thread
-    .chat-1rZYgu, // Creating new thread
-    .chat-25x62K{ // Forum thread
-        background-color: $LayerFillColorDefault;
-        border-top: 1px solid $CardStrokeColorDefault;
-        border-left: 1px solid $CardStrokeColorDefault;
-        border-radius: 8px 0 0 0;
-        &::before{
-            display: none;
-        }
-    }
     // Archived header
-    .chatHeaderBar-2fUORh{
+    .chatHeaderBar_c1df53{
         margin: 8px;
         background-color: $SystemFillColorSolidNeutralBackground;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 8px;
-        .colorHeaderSecondary-3Sp3Ft{
+        .chatHeaderBarText__7696a{
             color: $TextFillColorPrimary;
         }
     }
 
     // Forum thread
-    .container-3YcgdM{
+    .container__8ee50{
         margin: 16px;
         padding: 4px 8px;
         background: $MicaBackgroundFillColorBase;
@@ -57,17 +44,13 @@
             @include Elevation32;
         }
 
-        // Fix reactions position
-        .reactions-3HFE-S{
-            margin-bottom: -3px;
-        }
-
         // Fix follow/link button sizes
-        .button-DAkLIy{
+        .button__59d49 {
             min-width: unset;
         }
-        .addReactButton-3bSQb6,
-        .buttonInner-3aRbcx{
+        .buttonInner__2771e,
+        .reactionInner__00d5f,
+        .addReactButton__59750{
             background-color: $ControlFillColorDefault;
             border-width: 1px;
             border-style: outset;
@@ -75,31 +58,20 @@
             border-radius: 4px;
         }
     }
-    .divider-AZrXIA{
+    .divider_ffec75{
         display: none;
-    }
-
-    // Start of history
-    .container-1yy5xN{
-        .iconWrapper-3plkqh{
-            display: none;
-        }
-        .colorHeaderSecondary-g5teka{
-            color: $TextFillColorPrimary;
-            @include TypeBody;
-        }
     }
 }
 
-.theme-dark .chat-9g_3Xj.threadSidebarOpen-lv7sGl{
+.theme-dark .chat__52833.threadSidebarOpen_fa231d{
     border-radius: 0;
-    .content-18rAwf{
+    .content__1a4fe{
         border-right: 1px solid $CardStrokeColorDefault;
         border-radius: 8px 8px 0 0;
     }
 }
 
-.theme-dark .resizeHandle-2F4Beb{
+.theme-dark .resizeHandle_f1a098{
     position: relative;
     background-color: transparent;
     &::before{
@@ -122,13 +94,13 @@
 }
 
 // Narrow window
-.theme-dark .chatLayerWrapper-1K7IFZ{
-    .container-3s2w-i{
+.theme-dark .chatLayerWrapper__29dd6{
+    .container_def45c {
         background-color: $SolidBackgroundFillColorBase;
-        &.floating-1T0kDs{
+        &.floating_f021e2{
             border-left: 0;
         }
-        .chat-1-OBC7{
+        .chat__1d65d{
             border-radius: 0;
         }
     }

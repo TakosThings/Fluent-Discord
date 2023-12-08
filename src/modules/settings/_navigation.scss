@@ -1,18 +1,18 @@
-.theme-dark .sidebarRegion-1VBisG{
+.theme-dark .sidebarRegion__60457{
     flex: 0;
 }
 // Hide scrollbar when not required
-.theme-dark .sidebarRegionScroller-FXiQOh{
+.theme-dark .sidebarRegionScroller__1fa7e {
     background-color: transparent;
 }
 
-.theme-dark .sidebar-nqHbhN{
+.theme-dark .sidebar__9e3e2{
     // NOTE: 2023-06-13 - 6px to account for the scrollbar
     width: calc(320px - 6px);
     padding: 40px 4px;
 
     // Section header
-    .side-1lrxIh .eyebrow-1Shfyi{
+    .side_b4b3f6 .eyebrow_f53856{
         padding: 0 0 0 8px;
         @include TypeBodyStrong;
         color: $TextFillColorPrimary;
@@ -21,12 +21,12 @@
         svg{
             display: none;
         }
-        .category-CysNYv{
+        .category_f995ff{
             @include TypeCaption;
         }
     }
 
-    .side-1lrxIh .item-2GWPIy{
+    .side_b4b3f6 .item__48dda{
         padding: 0 12px 0 16px;
         margin-bottom: 4px;
         border: 1px solid transparent;
@@ -54,7 +54,7 @@
             transition: transform 167ms Cubic-bezier(0,0,0,1),
                         opacity 167ms Cubic-bezier(0,0,0,1);
         }
-        &.selected-1sf9UK{
+        &.selected__5711d{
             background-color: $SubtleFillColorSecondary;
             &::before{
                 transform: scaleY(100%);
@@ -63,37 +63,28 @@
                             opacity 250ms Cubic-bezier(0.55,0.55,0,1);
             }
         }
-        // Beta badge
-        .textBadge-1fdDPJ{
-            height: auto;
-            padding: 2px 8px;
-            background-color: $SystemFillColorSolidNeutralBackground !important; // Override inline
-            @include TypeBody;
-            text-transform: none;
-            border-radius: 24px;
-        }
         // Special cases
         // Remove right side Nitro icon (may differ in some regions)
-        .premiumLabel-3HPvdB svg{
+        .premiumLabel_f2cd55 svg{
             display: none;
         }
         // Remove background div from nitro option
-        .selectedBackground-1t6xXq{
+        .selectedBackground_d847da{
             display: none;
         }
         // Delete channel trash icon
-        .tabBarItemContainer-2HdIlr{
+        .tabBarItemContainer_d74773{
             svg{
                 display: none;
             }
         }
     }
     // Divider
-    .side-1lrxIh .separator-2N511j{
+    .side_b4b3f6 .separator_fdbcfd{
         margin: 0 -8px;
     }
 
-    .info-3pQQBb{
+    .info__755e1{
         // Make all version info match colours
         span{
             color: $TextFillColorSecondary !important; // Override inline

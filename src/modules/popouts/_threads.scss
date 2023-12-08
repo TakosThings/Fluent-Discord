@@ -1,43 +1,29 @@
-.theme-dark .browser-mnQ1T7{
+.theme-dark .browser_fece63{
     background: $MicaBackgroundFillColorBase;
     backdrop-filter: blur(16px);
     border: 1px solid $SurfaceStrokeColorDefault;
     border-radius: 8px;
 
     // header
-    .header-3_zmOb{
+    .header__53b07{
         height: unset;
         min-height: unset;
         padding: 12px 24px;
 
         background-color: transparent;
-        .threadIcon-rd1kqG{
+        .threadIcon__046f1{
             display: none;
         }
-        .title-10Au0i{
+        .title__47111{
             @include TypeSubtitle;
-        }
-         // Search
-         .searchIcon-zpxirk{
-            width: 32px;
-            height: 32px;
-            background-color: $ControlFillColorDefault;
-            border: 1px solid $ControlStrokeColorDefault;
-            border-radius: 4px;
-            svg{
-                margin: 6px;
-            }
-        }
-        .searchBox-3IjAC1{
-            background-color: transparent;
         }
     }
 
     // Thread list
-    .list-3YHPPb{
+    .list__19127{
         padding: 0 24px !important; // Override inline
 
-        .sectionHeader-QsOv68{
+        .sectionHeader_a94dc1{
             @include TypeBodyStrong;
             color: $TextFillColorPrimary !important; // Override inline
             text-transform: capitalize;
@@ -45,22 +31,19 @@
     }
 
     // Thread
-    .container-2rzKKA{
+    .container__6604b{
         background-color: $CardBackgroundFillColorDefault;
         border-radius: 4px;
-        .threadNameLine-1FNzAW{
+        .threadNameLine__5046f{
             margin-bottom: 4px;
             @include TypeBody;
-            .threadName-2k9mLl{
+            .threadName__5c543{
                 color: $TextFillColorPrimary;
             }
         }
-        .subtext-21DUaG{
+        .subtext_f83288{
             @include TypeCaption;
             color: $TextFillColorSecondary;
-            .markup-eYLPri{
-                @include TypeCaption;
-            }
         }
     }
 }

@@ -1,89 +1,31 @@
-.theme-dark .container-3wLKDe{
+.theme-dark .chat__52833{
     background-color: transparent;
+}
 
-    // Search
-    .header-1Uy0p6{
-        border: 0;
-        box-shadow: none;
-        cursor: default;
-        &.mainCard-3KBsBI{
-            background-color: transparent;
-            border: 0;
-        }
-
-        .container-JhuCwn{
-            padding: 0;
-        }
-
-        .form-25Aujy{
-            position: relative;
-            .prefixElement-1U4XhR{
-                position: absolute;
-                left: 12px;
-                margin-top: 4px;
-                z-index: 1;
-                svg{
-                    width: 16px;
-                }
-            }
-            .title-1v5ZfI{
-                margin-top: 0;
-                padding: 4px 12px 4px 36px;
-                &::placeholder{
-                    @include TypeBody;
-                }
-            }
-
-            .submitButton-3B-dZd{
-                margin-left: 8px;
-            }
-
-            .contentContainer-2xwoXK{
-                padding-left: 0;
-            }
-            .textArea-2CLwUE{
-                height: auto !important;
-                margin-top: 8px;
-                padding: 4px 12px;
-                background-color: $ControlFillColorDefault;
-                border: 1px solid;
-                border-bottom-width: 2px;
-                border-color: $ControlStrokeColorDefault;
-                border-radius: 4px;
-            }
-        }
-        .uploadInput-3fblkw{
-            background-color: $ControlFillColorDefault;
-            border: 1px solid $ControlStrokeColorDefault;
-            border-radius: 4px;
-        }
-    }
-
-    // Sidebar
-    .sidebarCard-1Gn1ch{
-        background-color: $LayerFillColorAlt;
-        border: 1px solid $CardStrokeColorDefault;
-        border-radius: 8px;
-    }
+.theme-dark .container_b181b6{
+    background-color: $LayerFillColorDefault;
+    border-top: 1px solid $CardStrokeColorDefault;
+    border-left: 1px solid $CardStrokeColorDefault;
+    border-radius: 8px 0 0 0;
 
     // Threads
-    .mainCard-3KBsBI{
+    .mainCard__8a660{
         background-color: $LayerFillColorAlt;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 8px;
 
-        &.container-2qVG6q:active,
-        &.container-2qVG6q:hover{
+        &.container__99b06:active,
+        &.container__99b06:hover{
             transform: none;
             box-shadow: none;
             border-color: $CardStrokeColorDefaultSolid;
         }
 
-        .channelNameSpan-2CGJt7{
+        .postTitleText__11fd1{
             color: $TextFillColorPrimary !important; // Override inline
             @include TypeBodyStrong;
         }
-        .messageContent-1SOr75{
+        .messageContent_f4fbd7{
             @include TypeBody;
         }
     }

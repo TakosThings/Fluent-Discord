@@ -1,24 +1,24 @@
-.theme-dark .layer-86YKbF{
-    .contentRegion-3HkfJJ{
+.theme-dark .layer__2efaa{
+    .contentRegion__0bec1{
         background-color: $LayerFillColorDefault;
         border-top: 1px solid $CardStrokeColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
         border-radius: 7px 0 0 0;
     }
-    .contentColumnDefault-1C7as6{
+    .contentColumnDefault_c66386{
         padding: 32px;
     }
-    .contentRegionShownSidebar-fHXkEg{
+    .contentRegionShownSidebar__610ed{
         // justify-content: center;
     }
-    .contentColumn-1C7as6,
+    .contentColumn_dc7d36,
     .customColumn-2n-oKU{
         max-width: 1000px;
         padding: 44px 32px;
     }
 
     // Close button
-    .closeButton-PCZcma{
+    .closeButton__34341{
         width: 32px;
         height: 32px;
         flex: 0 0 32px;
@@ -29,39 +29,39 @@
             fill: $TextFillColorPrimary;
         }
     }
-    .keybind-13vtq8{
+    .keybind__57645{
         @include TypeBody;
         color: $TextFillColorPrimary;
     }
 
     // Title
-    .sectionTitle-LdcnyP{
-        .title-lXcL8p{
+    .sectionTitle_e32631{
+        .title__3e421{
             margin-bottom: 32px;
             @include TypeTitle;
         }
     }
 
     // Setting container
-    .container-31PmuA{
+    .container_c52416{
         margin-bottom: 8px;
         padding: 18px 24px;
         background-color: $CardBackgroundFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 4px;
 
-        .title-2yADjX{
+        .title__28a65{
             @include TypeBody;
         }
-        .note-3SS3a9{
+        .note__24c83{
             margin-right: 64px;
         }
-        .description-foE_WP, .labelDescriptor-2top7R{
+        .description__7af71, .labelDescriptor-2top7R{
             @include TypeCaption;
             color: $TextFillColorSecondary;
         }
 
-        .divider-3nqZNm{
+        .divider_a2339a{
             display: none;
         }
     }
@@ -77,7 +77,7 @@
         opacity: 1;
     }
 }
-.contentColumn-1C7as6 > div:first-child{
+.contentColumn_dc7d36 > div:first-child{
     animation: fluent-settings-pages-transition 250ms cubic-bezier(0, 0, 0, 1);
 }
 
@@ -91,6 +91,6 @@
         transform: translateY(0);
     }
 }
-.animating-1rIrGV{
+.animating__27211{
     animation: fluent-layer-transition 250ms cubic-bezier(0,0,0,1);
 }

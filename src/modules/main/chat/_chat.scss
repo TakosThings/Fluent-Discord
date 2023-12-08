@@ -1,262 +1,258 @@
-.theme-dark .chat__52833,
-.theme-dark .chat-1-OBC7,
-.theme-dark .chat-25x62K{ // Forum thread chat
-    background: transparent;
 
-    .chatContent__5dca8{
-        background-color: $LayerFillColorDefault;
-        border-top: 1px solid $CardStrokeColorDefault;
-        border-left: 1px solid $CardStrokeColorDefault;
-        border-radius: 8px 0 0 0;
-        // Remove drop-shadow
-        &::before{
-            content: unset;
+.chatContent__5dca8{
+    background-color: $LayerFillColorDefault;
+    border-top: 1px solid $CardStrokeColorDefault;
+    border-left: 1px solid $CardStrokeColorDefault;
+    border-radius: 8px 0 0 0;
+    // Remove drop-shadow
+    &::before{
+        content: unset;
+    }
+}
+.container-cH6QoY, // Stage
+.chatContent-2O4SXb{
+    background-color: transparent;
+}
+
+// New/old messages bars
+.barBase__4e0ba{
+    margin: 0 auto;
+    max-width: 598px;
+    min-height: 32px;
+    border: 1px solid $CardStrokeColorDefault;
+    box-shadow: none;
+    border-radius: 4px;
+    .barButtonMain__0f5c6{
+        @include TypeBody;
+    }
+    .barButtonAlt__4b48f{
+        display: none;
+    }
+}
+// New messages bar
+.newMessagesBar__8b6d7{
+    top: 8px;
+    background-color: $AccentLight1;
+    .barButtonBase__8fa46{
+        color: $TextOnAccentFillColorPrimary;
+    }
+}
+// Old messages bar
+.jumpToPresentBar__0ff7f{
+    bottom: 8px;
+    padding-bottom: 0;
+    background-color: $CardStrokeColorDefaultSolid;
+}
+// Errored bar
+.messagesErrorBar__06c0a{
+    bottom: 8px;
+    background-color: $SystemFillColorCriticalBackground;
+    border-color: $CardStrokeColorDefault;
+    padding-bottom: 0;
+}
+
+// Start of server
+.container_b03b4b{
+    align-items: flex-start;
+    padding: 0;
+    .titleName_feada3{
+        text-align: left;
+        @include TypeTitle;
+        p{
+            margin-right: .5rem;
+            display: inline-block;
         }
     }
-    .container-cH6QoY, // Stage
-    .chatContent-2O4SXb{
-        background-color: transparent;
+    .subtitle__1ce53{
+        text-align: left;
+        color: $TextFillColorPrimary;
+        @include TypeBody;
     }
+}
 
-    // New/old messages bars
-    .barBase__4e0ba{
-        margin: 0 auto;
-        max-width: 598px;
-        min-height: 32px;
-        border: 1px solid $CardStrokeColorDefault;
-        box-shadow: none;
-        border-radius: 4px;
-        .barButtonMain__0f5c6{
-            @include TypeBody;
-        }
-        .barButtonAlt__4b48f{
+// Start of channel
+.container_b03b4b{
+    padding: 16px;
+    .header__4080b{
+        @include TypeTitle;
+    }
+    .description__57d03{
+        color: $TextFillColorPrimary;
+        @include TypeBody;
+    }
+}
+.emptyChannelIcon__1a1ba{
+    display: none;
+}
+
+// Divider
+.divider_b9338f{
+    justify-content: flex-end;
+    border-color: $DividerStrokeColorDefault;
+    .content_d67847,
+    .unreadPill__715fc{
+        padding: 2px 8px;
+        background-color: $SystemFillColorSolidNeutralBackground;
+        color: $TextFillColorPrimary;
+        @include TypeCaption;
+    }
+    .unreadPill__715fc{
+        height: unset;
+        top: -1px;
+        background-color: $SystemFillColorCriticalBackground;
+        border-radius: 8px;
+        color: $SystemFillColorCritical;
+        text-transform: capitalize;
+        svg{
             display: none;
         }
     }
-    // New messages bar
-    .newMessagesBar__8b6d7{
-        top: 8px;
-        background-color: $AccentLight1;
-        .barButtonBase__8fa46{
-            color: $TextOnAccentFillColorPrimary;
-        }
-    }
-    // Old messages bar
-    .jumpToPresentBar__0ff7f{
-        bottom: 8px;
-        padding-bottom: 0;
-        background-color: $CardStrokeColorDefaultSolid;
-    }
-    // Errored bar
-    .messagesErrorBar__06c0a{
-        bottom: 8px;
-        background-color: $SystemFillColorCriticalBackground;
-        border-color: $CardStrokeColorDefault;
-        padding-bottom: 0;
-    }
-
-    // Start of server
-    .container_b03b4b{
-        align-items: flex-start;
-        padding: 0;
-        .titleName_feada3{
-            text-align: left;
-            @include TypeTitle;
-            p{
-                margin-right: .5rem;
-                display: inline-block;
-            }
-        }
-        .subtitle__1ce53{
-            text-align: left;
-            color: $TextFillColorPrimary;
-            @include TypeBody;
-        }
-    }
-
-    // Start of channel
-    .container_b03b4b{
-        padding: 16px;
-        .header__4080b{
-            @include TypeTitle;
-        }
-        .description__57d03{
-            color: $TextFillColorPrimary;
-            @include TypeBody;
-        }
-    }
-    .emptyChannelIcon__1a1ba{
-        display: none;
-    }
-
-    // Divider
-    .divider_b9338f{
-        justify-content: flex-end;
-        border-color: $DividerStrokeColorDefault;
-        .content_d67847,
-        .unreadPill__715fc{
-            padding: 2px 8px;
-            background-color: $SystemFillColorSolidNeutralBackground;
-            color: $TextFillColorPrimary;
-            @include TypeCaption;
+    &.isUnread__6f880{
+        // NOTE: 2021-08-29 - The border should technically be SystemFillColorCriticalBackground, but is barely visisble, so using the text fill instead.
+        border-color: $SystemFillColorCritical;
+        .content_d67847{
+            border-radius: 8px 0 0 8px;
         }
         .unreadPill__715fc{
-            height: unset;
-            top: -1px;
-            background-color: $SystemFillColorCriticalBackground;
-            border-radius: 8px;
-            color: $SystemFillColorCritical;
-            text-transform: capitalize;
-            svg{
-                display: none;
-            }
-        }
-        &.isUnread__6f880{
-            // NOTE: 2021-08-29 - The border should technically be SystemFillColorCriticalBackground, but is barely visisble, so using the text fill instead.
-            border-color: $SystemFillColorCritical;
-            .content_d67847{
-                border-radius: 8px 0 0 8px;
-            }
-            .unreadPill__715fc{
-                position: relative;
-            }
-        }
-        // Border radius when date and new message divider are combined
-        span+span{
-            border-radius: 0 8px 8px 0 !important; // Override inline
+            position: relative;
         }
     }
+    // Border radius when date and new message divider are combined
+    span+span{
+        border-radius: 0 8px 8px 0 !important; // Override inline
+    }
+}
 
-    // Chat message
-    .message__80c10{
-        // Remove hover
-        &:hover{
-            background-color: transparent !important; // Force catch-all to avoid adding .mouse-mode etc classes for this
-        }
-        // Remove background on mentioned message
-        &.mentioned__58017{
-            background-color: transparent;
-            &::before{
-                left: 3px;
-                background-color: $SystemFillColorCaution;
-                border-radius: 1px;
-            }
+// Chat message
+.message__80c10{
+    // Remove hover
+    &:hover{
+        background-color: transparent !important; // Force catch-all to avoid adding .mouse-mode etc classes for this
+    }
+    // Remove background on mentioned message
+    &.mentioned__58017{
+        background-color: transparent;
+        &::before{
+            left: 3px;
+            background-color: $SystemFillColorCaution;
+            border-radius: 1px;
         }
     }
+}
 
-    // Reactions
-    .reaction_fef95b,
-    .reaction-102jx9{ // Threads channel
+// Reactions
+.reaction_fef95b,
+.reaction-102jx9{ // Threads channel
+    background-color: $ControlFillColorDefault;
+    border: 1px solid $ControlStrokeColorDefault;
+    color: $TextFillColorPrimary;
+    border-radius: 4px;
+    &:hover{
+        background-color: $ControlFillColorSecondary;
+    }
+    &:active{
+        background-color: $ControlFillColorTertiary;
+    }
+    &.reactionMe__98f57{
+        border-color: $AccentBase;
+    }
+    .reactionCount_b49901{
+        color: $TextFillColorPrimary;
+        @include TypeBody;
+    }
+    &.reactionReadOnly__97592{
+        background-color: $ControlFillColorDisabled;
+        border: 1px solid $ControlStrokeColorDefault;
+        .reactionCount_b49901{
+            color: $TextFillColorDisabled;
+        }
+        &:hover .reactionCount_b49901{
+            color: $TextFillColorDisabled;
+        }
+    }
+}
+
+// Thread
+.container__767d1{
+    background-color: $CardBackgroundFillColorDefault;
+    border: 1px solid $SurfaceStrokeColorFlyout;
+    border-radius: 8px;
+}
+
+// Blocked message
+.compact_cd7e32 .blockedSystemMessage_e58a4c{
+    margin-left: -5ch;
+    .iconContainer_dfc268{
+        margin-right: 1ch;
+        padding-top: 2px;
+        &::before{
+            content: "\ECE4"; // Blocked2
+            @include FontIconFluent
+        }
+        svg{
+            display: none;
+        }
+    }
+}
+.cozy_d67381 .blockedSystemMessage_e58a4c{
+    .iconContainer_dfc268{
+        padding-top: 2px;
+        &::before{
+            content: "\ECE4"; // Blocked2
+            @include FontIconFluent
+        }
+        svg{
+            display: none;
+        }
+    }
+}
+
+// Loading chat messages
+.wrapper-3HVHpV{
+    background-color: transparent;
+    // The placeholding items wrappers
+    .wrapper-15CKyy{
+        background-color: transparent;
+    }
+}
+
+// Edit message
+.channelTextArea-220_Gz{
+    .scrollableContainer-15eg7h{
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
-        color: $TextFillColorPrimary;
+        border-bottom: 2px solid $ControlStrokeColorDefault;
         border-radius: 4px;
         &:hover{
             background-color: $ControlFillColorSecondary;
         }
-        &:active{
-            background-color: $ControlFillColorTertiary;
+        &:focus-within{
+            background-color: $ControlFillColorInputActiveBrush;
+            border-color: $ControlStrokeColorDefault;
+            border-bottom-color: $AccentBase;
         }
-        &.reactionMe__98f57{
-            border-color: $AccentBase;
+    }
+    .emojiButton-3FRTuj{
+        height: 32px;
+        width: 32px;
+        margin: 6px 4px 0 0;
+        border: 1px solid transparent;
+        &::before{
+            content: "\E76E"; //Emoji2
+            color: $TextFillColorSecondary;
+            @include FontIconFluent;
+            font-size: 16px;
         }
-        .reactionCount_b49901{
-            color: $TextFillColorPrimary;
-            @include TypeBody;
-        }
-        &.reactionReadOnly__97592{
+        &.emojiButtonHovered-s44uQ8{
             background-color: $ControlFillColorDisabled;
-            border: 1px solid $ControlStrokeColorDefault;
-            .reactionCount_b49901{
-                color: $TextFillColorDisabled;
-            }
-            &:hover .reactionCount_b49901{
-                color: $TextFillColorDisabled;
-            }
-        }
-    }
-
-    // Thread
-    .container__767d1{
-        background-color: $CardBackgroundFillColorDefault;
-        border: 1px solid $SurfaceStrokeColorFlyout;
-        border-radius: 8px;
-    }
-
-    // Blocked message
-    .compact_cd7e32 .blockedSystemMessage_e58a4c{
-        margin-left: -5ch;
-        .iconContainer_dfc268{
-            margin-right: 1ch;
-            padding-top: 2px;
+            border-color: $ControlStrokeColorDefault;
             &::before{
-                content: "\ECE4"; // Blocked2
-                @include FontIconFluent
-            }
-            svg{
-                display: none;
+                color: $TextFillColorPrimary;
             }
         }
-    }
-    .cozy_d67381 .blockedSystemMessage_e58a4c{
-        .iconContainer_dfc268{
-            padding-top: 2px;
-            &::before{
-                content: "\ECE4"; // Blocked2
-                @include FontIconFluent
-            }
-            svg{
-                display: none;
-            }
-        }
-    }
-
-    // Loading chat messages
-    .wrapper-3HVHpV{
-        background-color: transparent;
-        // The placeholding items wrappers
-        .wrapper-15CKyy{
-            background-color: transparent;
-        }
-    }
-
-    // Edit message
-    .channelTextArea-220_Gz{
-        .scrollableContainer-15eg7h{
-            background-color: $ControlFillColorDefault;
-            border: 1px solid $ControlStrokeColorDefault;
-            border-bottom: 2px solid $ControlStrokeColorDefault;
-            border-radius: 4px;
-            &:hover{
-                background-color: $ControlFillColorSecondary;
-            }
-            &:focus-within{
-                background-color: $ControlFillColorInputActiveBrush;
-                border-color: $ControlStrokeColorDefault;
-                border-bottom-color: $AccentBase;
-            }
-        }
-        .emojiButton-3FRTuj{
-            height: 32px;
-            width: 32px;
-            margin: 6px 4px 0 0;
-            border: 1px solid transparent;
-            &::before{
-                content: "\E76E"; //Emoji2
-                color: $TextFillColorSecondary;
-                @include FontIconFluent;
-                font-size: 16px;
-            }
-            &.emojiButtonHovered-s44uQ8{
-                background-color: $ControlFillColorDisabled;
-                border-color: $ControlStrokeColorDefault;
-                &::before{
-                    color: $TextFillColorPrimary;
-                }
-            }
-            .contents_fb6220{
-                display: none;
-            }
+        .contents_fb6220{
+            display: none;
         }
     }
 }
+
