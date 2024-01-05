@@ -6,6 +6,7 @@ A Windows 11 theme for Discord
 * From [Releases](https://github.com/TakosThings/Fluent-Discord/releases/latest)
   * `Fluent-Discord.theme.css` will automatically update with new releases
   * `Fluent-Discord-static.theme.css` if you prefer to manually update
+* [Github.io link](https://takosthings.github.io/Fluent-Discord/Fluent-Discord.theme.css) (Right-click > Copy Link)
 
 ### Optional Extras
 * [EmojiReplace](https://betterdiscord.app/theme/EmojiReplace) theme by DevilBro to get Windows 11 emoji on Discord
