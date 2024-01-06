@@ -1,4 +1,4 @@
-.theme-dark .translateButton-DhP9x8{
+.theme-dark .translateButton_DhP9x8{
     width: 32px;
     height: 32px;
     padding: 0;
@@ -10,9 +10,8 @@
     }
 }
 
-.theme-dark .menu-1QACrS .item-1OdjEX{
+.theme-dark .menu_dc52c6 .item__183e8{
     &[id="message-translator-translate-message"]::before{
-        content: "\E9CE"; // Unknown
-        visibility: hidden;
+        content: "\F2B7"; // LocaleLanguage
     }
 }
