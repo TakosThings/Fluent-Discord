@@ -1,6 +1,0 @@
-.theme-dark .container-2NLBJg[style*="transition"]{
-    // Removes the Webcam icon which gets applied because of the hack to target the video and screenshare buttons
-    .actionButtons-1DmM2g .button-2gNyE9::before{
-        content: unset !important; // Override plugin CSS
-    }
-}
