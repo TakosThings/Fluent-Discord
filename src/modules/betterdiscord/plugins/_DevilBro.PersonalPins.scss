@@ -1,18 +1,13 @@
-html[lang^="en-"].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA.cursorPointer-B3uwDA{
+html[lang^="en-"].theme-dark .toolbar__88c63 .iconWrapper_af9215.cursorPointer_B3uwDA{
     &::before{ // Annoyingly has no aria-label
         content: "\E70B"; // Note
     }
 }
 
-.theme-dark .popout-xwjvsX.messagesPopoutWrap-3zryHW.themedPopout-1TrfdI{
-    // Search
-    .container-2oNtJn{
-        background-color: transparent;
-    }
-
+.theme-dark .popout_xwjvsX.messagesPopoutWrap_b3b384.themedPopout_1TrfdI{
     // Tabs
-    .tabBar-1qdMr5{
-        .tab-TRrPC8{
+    .tabBar__2aa8e{
+        .tab_a8a066{
             padding-left: 0;
             padding-right: 0;
             margin-right: 16px;
@@ -23,7 +18,7 @@ html[lang^="en-"].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA.cursorPointer-B
                 color: $TextFillColorSecondary;
             }
 
-            &.active-1grPyy{
+            &.selected__5711d{
                 background-color: transparent;
                 color: $AccentTextFillColorPrimary;
                 &::before{
@@ -43,17 +38,8 @@ html[lang^="en-"].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA.cursorPointer-B
     }
 
     // Sorting
-    .quickSelectWrapper-UCfTKz{
-        .quickSelectLabel-ArUyd9{
-            @include TypeBody;
-            color: $TextFillColorPrimary;
-        }
+    .quickSelectLabel_cf5c1b{
+        @include TypeBody;
+        color: $TextFillColorPrimary;
     }
-
-    // Body
-    .messagesPopout-eVzQcI.list-PIKebU.mini-GMiniS{
-        padding: 16px;
-        padding-right: 16px !important; // Override inline
-    }
-
 }
