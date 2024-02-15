@@ -12,6 +12,9 @@
     border-top: 1px solid $CardStrokeColorDefault;
     border-left: 1px solid $CardStrokeColorDefault;
     border-radius: 8px 0 0 0;
+    &::before{
+        content: unset;
+    }
 
     // Customise tab
     // Customisation questions
