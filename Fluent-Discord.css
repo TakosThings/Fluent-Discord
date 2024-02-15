@@ -1361,6 +1361,9 @@ html[lang^=en-].theme-dark .panels__58331 .button_afdfd9:not(.rtcConnectionStatu
   border-left: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 8px 0 0 0;
 }
+.theme-dark .content__1a4fe::before {
+  content: unset;
+}
 .theme-dark .content__1a4fe .prompt__1b100 {
   background-color: rgba(58, 58, 58, 0.3);
   border-top: 1px solid rgba(0, 0, 0, 0.25);
@@ -6083,7 +6086,7 @@ html[lang^=en-].theme-dark .container__5c7e7 .actionButton__23182 svg {
   color: rgba(255, 255, 255, 0.786) !important;
 }
 .theme-dark .sidebar__9e3e2 .info__755e1::before {
-  content: "Fluent Discord 1.10.1";
+  content: "Fluent Discord 1.10.2";
   color: rgba(255, 255, 255, 0.786);
   font-size: 12px;
   line-height: 16px;
