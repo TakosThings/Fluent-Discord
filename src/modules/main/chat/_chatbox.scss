@@ -74,6 +74,22 @@
             display: none;
         }
     }
+    // Upload button when command is entered
+    .hasConnectedBar__277ab .attachButton_eba568{
+        // Hide our upload icon
+        &::before{
+            content: "";
+        }
+        // Position the slash icon
+        .icon_e5875d{
+            padding: 4px;
+        }
+        // Remove hover effects
+        &:hover{
+            background-color: transparent;
+            border-color: transparent;
+        }
+    }
 
     // Bot command bot icon
     // NOTE - 2022-12-18: This can be tested using the `/embed create` command from Carl-bot
