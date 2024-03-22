@@ -22,47 +22,26 @@
             color: $TextFillColorPrimary;
         }
     }
-
-    .actions__231c6{
-        .actionButton__517cf{
-            min-width: 94px;
-            height: 32px;
-            margin-right: 8px;
-
-            &.red_a51ba8{
-                background-color: transparent;
-                border: 1px solid $SystemFillColorCritical;
-                &:hover{
-                    background-color: lighten($SystemFillColorCriticalBackground, 20%);
+    .actionButton__517cf{
+        .red_a51ba8{
+            padding: 16px 14px 14px 16px; // Hack to fix whatever the hell Discord has done here
+            background-color: transparent;
+            border: 1px solid $SystemFillColorCritical;
+            &:hover{
+                background-color: lighten($SystemFillColorCriticalBackground, 20%);
+                color: $TextFillColorPrimary;
+                &::before{
                     color: $TextFillColorPrimary;
-                    &::before{
-                        color: $TextFillColorPrimary;
-                    }
-                }
-                &::before{
-                    content: "\E137"; // HangUp
-                    color: $SystemFillColorCritical;
                 }
             }
-            &.green__7e4a1{
-                background-color: $AccentFillColorDefault;
-                &:hover{
-                    background-color: $AccentFillColorSecondary;
-                }
-                &:active{
-                    background-color: $AccentFillColorTertiary;
-                }
-                &::before{
-                    content: "\E13A"; // Phone
-                }
+        }
+        .green__7e4a1{
+            background-color: $AccentFillColorDefault;
+            &:hover{
+                background-color: $AccentFillColorSecondary;
             }
-            &::before{
-                @include FontIconFluent;
-                font-size: 16px;
-                color: $TextOnAccentFillColorPrimary;
-            }
-            .centerIcon__6075a{
-                display: none;
+            &:active{
+                background-color: $AccentFillColorTertiary;
             }
         }
     }
