@@ -124,8 +124,8 @@
                 @include FontIconFluent;
                 font-size: 18px;
             }
-            svg{
-                display: none;
+            .lottieIcon__9d8ab{
+                display: none !important; // Override in-line
             }
         }
 
@@ -137,8 +137,8 @@
                     @include FontIconFluent;
                     font-size: 18px;
                 }
-                svg{
-                    display: none;
+                .lottieIcon__9d8ab{
+                    display: none !important; // Override in-line
                 }
             }
         }
