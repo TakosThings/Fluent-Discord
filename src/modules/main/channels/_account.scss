@@ -30,12 +30,10 @@
             background-color: $ControlFillColorTertiary;
         }
         .contents_fb6220{ // Non-EN sizing fix
-            svg{
+            .lottieIcon__9d8ab{
                 position: absolute;
-                top: 7px;
-                left: 7px;
-                width: 16px;
-                height: 16px;
+                top: 5px;
+                left: 5px;
             }
         }
         &:first-child{
