@@ -776,13 +776,13 @@
   background-color: rgba(255, 255, 255, 0.5442);
 }
 
-.theme-dark .auto_a48086::-webkit-scrollbar {
+.theme-dark .auto__76cc7::-webkit-scrollbar {
   width: 12px;
 }
-.theme-dark .auto_a48086::-webkit-scrollbar-track {
+.theme-dark .auto__76cc7::-webkit-scrollbar-track {
   background-color: transparent;
 }
-.theme-dark .auto_a48086::-webkit-scrollbar-thumb {
+.theme-dark .auto__76cc7::-webkit-scrollbar-thumb {
   background-color: rgba(255, 255, 255, 0.5442);
 }
 
@@ -885,12 +885,10 @@ html.theme-dark.app-focused .winButton__88672 {
 .theme-dark .panels__58331 .button__4f306:active {
   background-color: rgba(255, 255, 255, 0.0326);
 }
-.theme-dark .panels__58331 .button__4f306 .contents_fb6220 svg {
+.theme-dark .panels__58331 .button__4f306 .contents_fb6220 .lottieIcon__9d8ab {
   position: absolute;
-  top: 7px;
-  left: 7px;
-  width: 16px;
-  height: 16px;
+  top: 5px;
+  left: 5px;
 }
 .theme-dark .panels__58331 .button__4f306:first-child {
   margin-left: 0;
@@ -1766,6 +1764,19 @@ html[lang^=en-].theme-dark .wrapper_c727b6 .button_d553e5[aria-label] svg {
 .theme-dark .submitContainer-1DHMA0 .attachButton_eba568 .contents_fb6220 {
   display: none;
 }
+.theme-dark .form__13a2c .hasConnectedBar__277ab .attachButton_eba568::before,
+.theme-dark .submitContainer-1DHMA0 .hasConnectedBar__277ab .attachButton_eba568::before {
+  content: "";
+}
+.theme-dark .form__13a2c .hasConnectedBar__277ab .attachButton_eba568 .icon_e5875d,
+.theme-dark .submitContainer-1DHMA0 .hasConnectedBar__277ab .attachButton_eba568 .icon_e5875d {
+  padding: 4px;
+}
+.theme-dark .form__13a2c .hasConnectedBar__277ab .attachButton_eba568:hover,
+.theme-dark .submitContainer-1DHMA0 .hasConnectedBar__277ab .attachButton_eba568:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
 .theme-dark .form__13a2c .attachButton-1ijpt9:not(button),
 .theme-dark .submitContainer-1DHMA0 .attachButton-1ijpt9:not(button) {
   margin-left: 0;
@@ -1814,9 +1825,9 @@ html[lang^=en-].theme-dark .wrapper_c727b6 .button_d553e5[aria-label] svg {
   font-family: "Segoe Fluent Icons", "Segoe MDL2 Assets";
   font-size: 18px;
 }
-.theme-dark .form__13a2c .expression-picker-chat-input-button .contents_fb6220.stickerButton__8af38 svg,
-.theme-dark .submitContainer-1DHMA0 .expression-picker-chat-input-button .contents_fb6220.stickerButton__8af38 svg {
-  display: none;
+.theme-dark .form__13a2c .expression-picker-chat-input-button .contents_fb6220.stickerButton__8af38 .lottieIcon__9d8ab,
+.theme-dark .submitContainer-1DHMA0 .expression-picker-chat-input-button .contents_fb6220.stickerButton__8af38 .lottieIcon__9d8ab {
+  display: none !important;
 }
 .theme-dark .form__13a2c .expression-picker-chat-input-button .button_afdfd9[aria-label*=GIF] .contents_fb6220::before,
 .theme-dark .submitContainer-1DHMA0 .expression-picker-chat-input-button .button_afdfd9[aria-label*=GIF] .contents_fb6220::before {
@@ -1824,9 +1835,9 @@ html[lang^=en-].theme-dark .wrapper_c727b6 .button_d553e5[aria-label] svg {
   font-family: "Segoe Fluent Icons", "Segoe MDL2 Assets";
   font-size: 18px;
 }
-.theme-dark .form__13a2c .expression-picker-chat-input-button .button_afdfd9[aria-label*=GIF] .contents_fb6220 svg,
-.theme-dark .submitContainer-1DHMA0 .expression-picker-chat-input-button .button_afdfd9[aria-label*=GIF] .contents_fb6220 svg {
-  display: none;
+.theme-dark .form__13a2c .expression-picker-chat-input-button .button_afdfd9[aria-label*=GIF] .contents_fb6220 .lottieIcon__9d8ab,
+.theme-dark .submitContainer-1DHMA0 .expression-picker-chat-input-button .button_afdfd9[aria-label*=GIF] .contents_fb6220 .lottieIcon__9d8ab {
+  display: none !important;
 }
 .theme-dark .form__13a2c .buttons_ce5b56,
 .theme-dark .submitContainer-1DHMA0 .buttons_ce5b56 {
@@ -4303,45 +4314,26 @@ html[lang^=en-].theme-dark .container__5c7e7 .actionButton__23182 svg {
   line-height: 20px;
   color: #FFF;
 }
-.theme-dark .root__46d4f .actions__231c6 .actionButton__517cf {
-  min-width: 94px;
-  height: 32px;
-  margin-right: 8px;
-}
-.theme-dark .root__46d4f .actions__231c6 .actionButton__517cf.red_a51ba8 {
+.theme-dark .root__46d4f .actionButton__517cf .red_a51ba8 {
+  padding: 16px 14px 14px 16px;
   background-color: transparent;
   border: 1px solid #FF99A4;
 }
-.theme-dark .root__46d4f .actions__231c6 .actionButton__517cf.red_a51ba8:hover {
+.theme-dark .root__46d4f .actionButton__517cf .red_a51ba8:hover {
   background-color: #854d4b;
   color: #FFF;
 }
-.theme-dark .root__46d4f .actions__231c6 .actionButton__517cf.red_a51ba8:hover::before {
+.theme-dark .root__46d4f .actionButton__517cf .red_a51ba8:hover::before {
   color: #FFF;
 }
-.theme-dark .root__46d4f .actions__231c6 .actionButton__517cf.red_a51ba8::before {
-  content: "\e137";
-  color: #FF99A4;
-}
-.theme-dark .root__46d4f .actions__231c6 .actionButton__517cf.green__7e4a1 {
+.theme-dark .root__46d4f .actionButton__517cf .green__7e4a1 {
   background-color: hsl(var(--fluent-accent-hue-sat), calc(var(--fluent-accent-lightness) + 20%));
 }
-.theme-dark .root__46d4f .actions__231c6 .actionButton__517cf.green__7e4a1:hover {
+.theme-dark .root__46d4f .actionButton__517cf .green__7e4a1:hover {
   background-color: hsl(var(--fluent-accent-hue-sat), calc(var(--fluent-accent-lightness) + 25%));
 }
-.theme-dark .root__46d4f .actions__231c6 .actionButton__517cf.green__7e4a1:active {
+.theme-dark .root__46d4f .actionButton__517cf .green__7e4a1:active {
   background-color: hsl(var(--fluent-accent-hue-sat), calc(var(--fluent-accent-lightness) + 20%));
-}
-.theme-dark .root__46d4f .actions__231c6 .actionButton__517cf.green__7e4a1::before {
-  content: "\e13a";
-}
-.theme-dark .root__46d4f .actions__231c6 .actionButton__517cf::before {
-  font-family: "Segoe Fluent Icons", "Segoe MDL2 Assets";
-  font-size: 16px;
-  color: rgba(var(--fluent-text-on-accent-color), 100%);
-}
-.theme-dark .root__46d4f .actions__231c6 .actionButton__517cf .centerIcon__6075a {
-  display: none;
 }
 
 .theme-dark .header_c2c186 {
@@ -6086,7 +6078,7 @@ html[lang^=en-].theme-dark .container__5c7e7 .actionButton__23182 svg {
   color: rgba(255, 255, 255, 0.786) !important;
 }
 .theme-dark .sidebar__9e3e2 .info__755e1::before {
-  content: "Fluent Discord 1.10.2";
+  content: "Fluent Discord 1.10.3";
   color: rgba(255, 255, 255, 0.786);
   font-size: 12px;
   line-height: 16px;
@@ -8130,6 +8122,13 @@ html[lang^=en-].theme-dark .toolbar__88c63 .iconWrapper_af9215.cursorPointer_B3u
 
 .voiceTimer {
   margin-top: 0 !important;
+}
+
+.chatCounter_XOMPsh {
+  top: -20px;
+  font-size: 11px;
+  line-height: 20px;
+  color: #b5bac1;
 }
 
 .bd-sidebar-header h2 {
