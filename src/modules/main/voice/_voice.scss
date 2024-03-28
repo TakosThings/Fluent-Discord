@@ -137,8 +137,10 @@
                 &.contextMenuContainer__7fb37{
                     margin: 0 4px;
                     display: flex;
+                    svg{
+                        width: 72px !important; // Force width
+                    }
                     foreignObject{
-                        width: 64px !important; // Force width
                         mask: none;
                     }
                     .button__581d0{
