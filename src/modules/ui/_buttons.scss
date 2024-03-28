@@ -1,24 +1,24 @@
-.theme-dark .button_afdfd9{
+.theme-dark .button__581d0{
     border-radius: 4px;
     @include TypeBody;
 
     // Sizes
-    &.sizeMin__94642, // eg. Add server 'back' buttons
-    &.sizeSmall__71a98,
-    &.sizeMedium_c6fa98, // eg. Create new server
-    &.sizeLarge__9049d, // eg. Add a keybind
-    &.sizeXlarge__53ea0{ // eg. Untrusted link modal
+    &.sizeMin__508da, // eg. Add server 'back' buttons
+    &.sizeSmall_da7d10,
+    &.sizeMedium__60c12, // eg. Create new server
+    &.sizeLarge_b395a7, // eg. Add a keybind
+    &.sizeXlarge__6885c{ // eg. Untrusted link modal
         min-width: 120px;
         min-height: 32px;
         height: 32px;
     }
 
     // Filled buttons
-    &.lookFilled__19298{
+    &.lookFilled__950dd{
         // Brand buttons
-        &.colorBrand_b2253e,
-        &.colorGreen__5f181, // Join server terms modal
-        &.colorBrandNew_fd170a{ // eg. User Settings > Accessibility > TTS Rate
+        &.colorBrand__27d57,
+        &.colorGreen__75c93, // Join server terms modal
+        &.colorBrandNew__8872c{ // eg. User Settings > Accessibility > TTS Rate
             background-color: $AccentFillColorDefault;
             border-width: 1px;
             border-style: inset;
@@ -32,8 +32,8 @@
             }
         }
         // Grey
-        &.colorPrimary__6ed40,
-        &.buttonColor__6f6b0, // "Example Button" in User Settings>Profile
+        &.colorPrimary_ebe632,
+        &.buttonColor__8c13f, // "Example Button" in User Settings>Profile
         &.buttonColor-28DXIe{ // Voice screen invite button
             background-color: $ControlFillColorDefault;
             border-width: 1px;
@@ -49,7 +49,7 @@
         }
 
         // Red
-        &.colorRed_d6b062{
+        &.colorRed__5a617{
             background-color: $SystemFillColorCriticalBackground;
             color: $SystemFillColorCritical;
             &:hover{
@@ -72,8 +72,8 @@
     }
 
     // Outlined
-    &.lookOutlined__46d54{
-        &.colorBrand_b2253e{ // eg. Request Data
+    &.lookOutlined__014b5{
+        &.colorBrand__27d57{ // eg. Request Data
             border-color: $ControlStrokeColorDefault;
             color: $TextFillColorPrimary;
             &:hover{
@@ -83,7 +83,7 @@
                 background-color: $ControlFillColorTertiary;
             }
         }
-        &.colorRed_d6b062{
+        &.colorRed__5a617{
             border-color: $SystemFillColorCritical;
             color: $SystemFillColorCritical;
             &:hover{
@@ -98,9 +98,9 @@
     }
 
     // Blank
-    &.lookBlank__7ca0a{ // eg. Add server 'back' buttons
+    &.lookBlank_a5b4ca{ // eg. Add server 'back' buttons
         color: $TextFillColorPrimary;
-        &.backButton__576ea{
+        &.backButton__68a1c{
             background-color: $ControlFillColorDefault;
             border-width: 1px;
             border-style: outset;
@@ -116,7 +116,7 @@
     }
 
     // Link button
-    &.lookLink__93965{ // eg. Reveal email button
+    &.lookLink_a2da25{ // eg. Reveal email button
         background-color: $ControlFillColorDefault;
         border-width: 1px;
         border-style: outset;
@@ -124,7 +124,7 @@
         color: $TextFillColorPrimary;
         &:hover{
             background-color: $ControlFillColorSecondary;
-            .contents_fb6220{
+            .contents__322f4{
                 background-image: none;
             }
         }
@@ -134,14 +134,14 @@
     }
 
     // Button with loading ellipses (Server Settings > Save changes)
-    &.submitting_df2bfa{
-        .spinner__97e4c{
+    &.submitting__91002{
+        .spinner__6ee08{
             display: flex;
         }
     }
 
     // Animations
-    .buttonShine__0be03{
+    .buttonShine_fb742e{
         display: none;
     }
 }

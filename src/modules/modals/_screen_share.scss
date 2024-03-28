@@ -2,11 +2,11 @@
     .art_d9e8a6{
         display: none;
         &~form{
-            .headerText__91f5e{
+            .headerText_fe00dd{
                 align-self: baseline;
                 @include TypeSubtitle;
             }
-            .headerDescription_fc3801{
+            .headerDescription_e1f9ad{
                 padding: 0;
                 @include TypeBody;
                 color: $TextFillColorPrimary;
@@ -23,7 +23,7 @@
                     box-shadow: inset 0 0 0 2px $AccentBase;
                 }
             }
-            .sourceName__7e932{
+            .sourceName__12565{
                 @include TypeBody;
             }
 
@@ -35,37 +35,37 @@
                 border: 0;
                 border-radius: 4px;
                 color: $TextFillColorSecondary;
-                .channelInfo__3cdb6,
-                .ellipsisText_beb1e7{
+                .channelInfo__24c14,
+                .ellipsisText__3c350{
                     @include TypeBody;
                     color: $TextFillColorPrimary;
                 }
-                .changeButton__192a1{
+                .changeButton__81ea2{
                     margin-right: -8px;
                 }
             }
 
-            .qualitySettingsContainer__5cacd{
+            .qualitySettingsContainer__8f353{
                 padding: 0;
                 border: 0;
             }
 
             .group_d76384{
-                .selectorButton_c6ae93{
+                .selectorButton_ea0609{
                     background-color: transparent;
                     border: 1px solid $ControlStrokeColorOnAccentDefault;
 
                     &:hover{
                         background-color: $ControlFillColorSecondary;
                     }
-                    &.selectorButtonSelected_fbe8fc{
+                    &.selectorButtonSelected__707fb{
                         background-color: $AccentFillColorDefault;
                         color: $TextOnAccentFillColorPrimary;
                         &:hover{
                             background-color: $AccentFillColorSecondary;
                         }
                     }
-                    &.selectorButtonPremiumRequired_ce72d6{
+                    &.selectorButtonPremiumRequired__9df5b{
                         cursor: not-allowed;
                         &:hover{
                             background-color: transparent;

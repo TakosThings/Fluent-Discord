@@ -5,25 +5,25 @@
     border-radius: 8px;
     justify-content: space-between;
 
-    .icon_cde413{
+    .icon__7ff89{
         margin: 0 0 16px 0;
     }
 
-    .titleGroup__3c0da{
+    .titleGroup_e0214f{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        .title__2cf9b{
+        .title_bb75dc{
             @include TypeSubtitle;
         }
-        .subtitle__54bf3{
+        .subtitle__69e8a{
             margin-bottom: 16px;
             @include TypeBody;
             color: $TextFillColorPrimary;
         }
     }
-    .actionButton__517cf{
-        .red_a51ba8{
+    .actionButton__985bb{
+        .red__45e65{
             padding: 16px 14px 14px 16px; // Hack to fix whatever the hell Discord has done here
             background-color: transparent;
             border: 1px solid $SystemFillColorCritical;
@@ -35,7 +35,7 @@
                 }
             }
         }
-        .green__7e4a1{
+        .green_a14a3a{
             background-color: $AccentFillColorDefault;
             &:hover{
                 background-color: $AccentFillColorSecondary;

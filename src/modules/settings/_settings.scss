@@ -1,24 +1,24 @@
-.theme-dark .layer__2efaa{
-    .contentRegion__0bec1{
+.theme-dark .layer_f7d46a{
+    .contentRegion__08eba{
         background-color: $LayerFillColorDefault;
         border-top: 1px solid $CardStrokeColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
         border-radius: 7px 0 0 0;
     }
-    .contentColumnDefault_c66386{
+    .contentColumnDefault__78de3{
         padding: 32px;
     }
-    .contentRegionShownSidebar__610ed{
+    .contentRegionShownSidebar__9d1b9{
         // justify-content: center;
     }
-    .contentColumn_dc7d36,
+    .contentColumn__5f80b,
     .customColumn-2n-oKU{
         max-width: 1000px;
         padding: 44px 32px;
     }
 
     // Close button
-    .closeButton__34341{
+    .closeButton__8177f{
         width: 32px;
         height: 32px;
         flex: 0 0 32px;
@@ -29,39 +29,39 @@
             fill: $TextFillColorPrimary;
         }
     }
-    .keybind__57645{
+    .keybind_a619c1{
         @include TypeBody;
         color: $TextFillColorPrimary;
     }
 
     // Title
-    .sectionTitle_e32631{
-        .title__3e421{
+    .sectionTitle__3e02b{
+        .title__1b7e8{
             margin-bottom: 32px;
             @include TypeTitle;
         }
     }
 
     // Setting container
-    .container_c52416{
+    .container__7ad1e{
         margin-bottom: 8px;
         padding: 18px 24px;
         background-color: $CardBackgroundFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 4px;
 
-        .title__28a65{
+        .title__8b9e4{
             @include TypeBody;
         }
         .note__24c83{
             margin-right: 64px;
         }
-        .description__7af71, .labelDescriptor-2top7R{
+        .description_b0e07c, .labelDescriptor-2top7R{
             @include TypeCaption;
             color: $TextFillColorSecondary;
         }
 
-        .divider_a2339a{
+        .divider__14bb6{
             display: none;
         }
     }
@@ -77,7 +77,7 @@
         opacity: 1;
     }
 }
-.contentColumn_dc7d36 > div:first-child{
+.contentColumn__5f80b > div:first-child{
     animation: fluent-settings-pages-transition 250ms cubic-bezier(0, 0, 0, 1);
 }
 
@@ -91,6 +91,6 @@
         transform: translateY(0);
     }
 }
-.animating__27211{
+.animating_b7d085{
     animation: fluent-layer-transition 250ms cubic-bezier(0,0,0,1);
 }

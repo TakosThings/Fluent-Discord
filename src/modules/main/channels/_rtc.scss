@@ -1,4 +1,4 @@
-.theme-dark .container_d667ff{
+.theme-dark .container_e1958d{
     background-color: transparent;
     border-top: 0;
     border-bottom: 0;
@@ -11,19 +11,19 @@
     .rtcConnectionStatus-c5A6Av{
         padding-bottom: 0;
         @include TypeBody;
-        .button_afdfd9{
+        .button__581d0{
             line-height: 16px;
         }
     }
     .subtext-2HDqJ7{
         @include TypeCaption;
     }
-    .voiceUsers__4147e{
+    .voiceUsers__12c6d{
         padding-top: 4px;
     }
 
     // Video/screen share buttons
-    .actionButtons_b58cbb{
+    .actionButtons__85e3c{
         grid-gap: 4px;
         // !importants to make these appear as 'default' button instead of accent
         button{
@@ -39,7 +39,7 @@
                 background-color: $ControlFillColorTertiary !important;
             }
 
-            .contents_fb6220{
+            .contents__322f4{
                 // Display: flex required to fix alignment of soundboard icon when using non-English - see #249
                 display: flex;
                 font-size: 0;
@@ -49,14 +49,14 @@
             }
         }
         // Hide buttons when you don't have permission. This also hides the soundboard when you are muted
-        .disabledButtonWrapper__69c70{
+        .disabledButtonWrapper_b04230{
             display: none;
         }
     }
 }
 
 // Streaming game/app
-.theme-dark .activityPanel__22355{
+.theme-dark .activityPanel_b73e7a{
     background-color: transparent;
     padding-bottom: 0;
     border-top: 0;
@@ -67,12 +67,12 @@
 }
 
 // Icons
-html[lang^="en-"].theme-dark .panels__58331 .button_afdfd9:not(.rtcConnectionStatusLabel__7029b) {
+html[lang^="en-"].theme-dark .panels__58331 .button__581d0:not(.rtcConnectionStatusLabel_c2abfa) {
     &::before{
         @include FontIconFluent;
         font-size: 16px;
     }
-    .contents_fb6220{
+    .contents__322f4{
         display: none;
     }
 }

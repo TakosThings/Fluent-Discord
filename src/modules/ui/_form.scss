@@ -7,7 +7,7 @@
         margin-bottom: 0;
         border: 1px solid transparent;
         border-radius: 4px;
-        &.itemFilled__373d7{
+        &.itemFilled__5a849{
             background-color: transparent;
         }
         &[aria-checked=true]{
@@ -19,13 +19,13 @@
 
         // Privacy & Safety
         // Remove coloured bars on left side
-        .radioBar__40e1b{
+        .radioBar__70669{
             border: 0;
         }
 
         .info__05cbd{
             grid-gap: 0;
-            .text-md-medium__5151a{
+            .text-md-medium_a84e09{
                 @include TypeBody;
             }
 
@@ -40,11 +40,11 @@
                 }
             }
             // Fixes for Privacy settings
-            .text-md-medium__5151a{
+            .text-md-medium_a84e09{
                 @include TypeBodyStrong;
                 color: $TextFillColorPrimary;
             }
-            .text-sm-normal_e612c7{
+            .text-sm-normal__95a78{
                 @include TypeCaption;
                 color: $TextFillColorSecondary;
             }
@@ -53,14 +53,14 @@
 }
 
 // Toggle switch
-.theme-dark .control_f6cce7{
-    .container__871ba{
+.theme-dark .control__6a084{
+    .container__2ed72{
         background-color: transparent !important; // Override inline
         svg{
             display: none;
         }
     }
-    .input_be50d1{
+    .input__3e05b{
         width: 40px;
         height: 20px;
         margin: 0;
@@ -99,8 +99,8 @@
 }
 
 // Checkbox (in settings UI)
-.theme-dark .checkboxWrapper__02583{
-    .input_f56cea,
+.theme-dark .checkboxWrapper_a2bcc8{
+    .input__52838,
     .box-qwm0Q_{
         width: 18px;
         height: 18px;
@@ -117,8 +117,8 @@
             display: none;
         }
     }
-    &.checked__24ad6{
-        .input_f56cea,
+    &.checked__16f88{
+        .input__52838,
         .box-qwm0Q_{
             background-color: $AccentTextFillColorPrimary !important;
             border-color: $AccentTextFillColorPrimary !important;
@@ -135,13 +135,13 @@
             }
         }
     }
-    .checkbox_c7f690{
+    .checkbox_fcf2ad{
         display: none;
     }
 }
 // Checkbox (in context menu)
-.theme-dark .menu_dc52c6 .item__183e8[role="menuitemcheckbox"]{
-    .iconContainer__829e7{
+.theme-dark .menu__088f7 .item__183e8[role="menuitemcheckbox"]{
+    .iconContainer__5d61c{
         width: 18px;
         height: 18px;
         position: relative;
@@ -153,7 +153,7 @@
             display: none;
         }
     }
-    &[aria-checked=true] .iconContainer__829e7{
+    &[aria-checked=true] .iconContainer__5d61c{
         background-color: $AccentTextFillColorPrimary;
         border-color: $AccentTextFillColorPrimary;
         color: $TextOnAccentFillColorPrimary;
@@ -166,21 +166,21 @@
             font-size: 16px;
         }
     }
-    &:hover .iconContainer__829e7{
+    &:hover .iconContainer__5d61c{
         background-color: $ControlAltFillColorTertiary;
     }
-    &[aria-checked=true]:hover .iconContainer__829e7{
+    &[aria-checked=true]:hover .iconContainer__5d61c{
         background-color: $AccentTextFillColorSecondary;
     }
 }
 
 // Textbox with emoji button (set custom status modal)
-.theme-dark .inputContainer_e8ca07{
-    .emojiButtonContainer__59552{
+.theme-dark .inputContainer__50c76{
+    .emojiButtonContainer__58b36{
         right: 0;
         left: unset;
-        ~ .inputWrapper__934f5{
-            .input_d266e7{
+        ~ .inputWrapper_ecb776{
+            .input_f27786{
                 padding-right: 40px;
             }
         }

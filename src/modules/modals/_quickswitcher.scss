@@ -1,4 +1,4 @@
-.theme-dark .quickswitcher_a3d29a{
+.theme-dark .quickswitcher_b5bb0a{
     height: 100%;
     background-color: $SolidBackgroundFillColorBase;
 
@@ -9,7 +9,7 @@
         color: $TextFillColorPrimary;
     }
 
-    .input__848cd{
+    .input__2a648{
         height: 32px;
         background-color: transparent;
         border: 1px solid;
@@ -34,7 +34,7 @@
     }
 
     // Scroll content
-    .scroller__52ae7 {
+    .scroller_d4b86c {
         max-height: unset;
         margin-top: 12px;
         margin-right: -4px;
@@ -42,7 +42,7 @@
         overflow-y: auto !important; // Override inline
     }
 
-    .header_a2a437{
+    .header__794a7{
         @include TypeBodyStrong;
         color: $TextFillColorPrimary;
         text-transform: none;
@@ -63,11 +63,11 @@
             }
         }
 
-        .name__43a5f{
+        .name__901c7{
             @include TypeBody;
             color: $TextFillColorPrimary;
             line-height: 32px;
-            .username__24792,
+            .username__9d688,
             .note__181ba{
                 margin: 0;
                 opacity: 1;
@@ -76,7 +76,7 @@
                 text-transform: none;
             }
         }
-        .miscContainer__3e350{
+        .miscContainer_f977de{
             opacity: 1;
             @include TypeBody;
             color: $TextFillColorTertiary;
@@ -93,14 +93,14 @@
             color: $TextFillColorSecondary;
             opacity: 1;
         }
-        .autocompleteQuerySymbol__3068e{
+        .autocompleteQuerySymbol__31549{
             background-color: transparent;
             @include FontMonospace;
         }
     }
 
     // Remove 'tutorial'
-    .tutorial_af9431{
+    .tutorial__01565{
         display: none;
     }
 }

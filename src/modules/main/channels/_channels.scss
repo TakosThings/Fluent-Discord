@@ -1,13 +1,13 @@
 // Remove border radius from top-left
-.theme-dark.platform-win .sidebar_ded4b5{
+.theme-dark.platform-win .sidebar_e031be{
     border-radius: 0;
 
     // Channel header
-    .header__104ca{
+    .header__77c95{
         background-color: transparent;
         box-shadow: none;
         cursor: default;
-        .name_c08dbc{
+        .name_e8e549{
             @include TypeBodyStrong;
             cursor: pointer;
             &:hover{
@@ -15,11 +15,11 @@
             }
         }
         // Remove guild boost icon
-        .guildIconV2Container__53cdb{
+        .guildIconV2Container_ddc448{
             display: none;
         }
         // Remove dropdown icon
-        .headerChildren__7cd0b{
+        .headerChildren_e6a96f{
             display: none;
         }
     }
@@ -38,18 +38,18 @@
     }
 
     // Remove server banner
-    .animatedContainer__341f6{
+    .animatedContainer__0e828{
         display: none;
     }
-    .animatedBannerHoverLayer__4274d{
+    .animatedBannerHoverLayer__3cef6{
         display: none;
     }
-    .content__23cab > div[style="height: 84px;"]{
+    .content__690c5 > div[style="height: 84px;"]{
         display: none;
     }
 
     // Remove boost goal meter
-    .container__4f639{
+    .container_bc43c1{
         display: none;
     }
     .content-2a4AW9 > div[style="height: 16px;"]{
@@ -63,15 +63,15 @@
 
 
     // Category
-    .containerDefault__23a29{
-        .wrapperCommon_d71dee{
+    .containerDefault_e3b32b{
+        .wrapperCommon__2578a{
             margin: 0 0 0 8px;
             padding-left: 10px;
             border: 1px solid transparent;
             border-radius: 4px;
             color: $TextFillColorPrimary;
             &:hover{
-                .name__590d6{
+                .name__27f04{
                     color: $TextFillColorSecondary;
                 }
             }
@@ -79,14 +79,14 @@
             // Wrapper types
             // Muted
             &.muted_de6e6e{
-                .name__590d6{
+                .name__27f04{
                     color: $TextFillColorDisabled;
                 }
             }
 
             // Colapse chevrons
             // Remove default chevron
-            .icon_ef4486{
+            .icon__3aa8e{
                 display: none;
             }
             // Chevron replacement
@@ -96,7 +96,7 @@
                 @include FontIconFluent;
                 font-size: 12px;
             }
-            &.collapsed__8fe3c{
+            &.collapsed_c227d2{
                 &::after{
                     content: "\E70D"; // ChevronDown
                 }
@@ -104,18 +104,18 @@
         }
 
         // Category name
-        .container_de798d{
+        .container__43554{
             color: $TextFillColorPrimary;
             @include TypeBody;
             text-transform: none;
         }
 
         // Hide 'Create Channel' buttons when not hovered
-        .children_d4d259{
+        .children_d18c7d{
             visibility: hidden;
         }
         &:hover{
-            .children_d4d259{
+            .children_d18c7d{
                 visibility: visible;
             }
         }
@@ -123,36 +123,36 @@
 
     // Channels
     // Indent channels
-    .containerDefault__23a29 ~ .containerDefault__3187b .link__95dc0{
+    .containerDefault_e3b32b ~ .containerDefault_ae2ea4 .link_ddbb36{
         padding-left: 23px;
     }
-    .containerDefault__3187b{
+    .containerDefault_ae2ea4{
         // The channel
-        &.wrapper__7bcde, // Required for Server guide, events, and channels & roles channels
-        .wrapper__7bcde{
+        &.wrapper__612a5, // Required for Server guide, events, and channels & roles channels
+        .wrapper__612a5{
             // Channel name
-            .name__8d1ec{
+            .name__4eb92{
                 color: $TextFillColorSecondary;
                 @include TypeBody;
             }
             // Icon
-            .icon_eff5d4{
+            .icon__67ab4{
                 width: 16px;
             }
 
             // Hide channel buttons when not hovered
-            .children_a486f8 .iconItem__8e3b8{
+            .children__563f2 .iconItem__56989{
                 visibility: hidden;
             }
 
             &:hover{
-                .link__95dc0{
+                .link_ddbb36{
                     background-color: $SubtleFillColorSecondary;
                     box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary; // Using box-shadow because borders cause the div to grow
                 }
 
                 // Reveal channel buttons
-                .children_a486f8 .iconItem__8e3b8{
+                .children__563f2 .iconItem__56989{
                     visibility: visible;
                 }
             }
@@ -175,7 +175,7 @@
 
             // Channel types
             // Selected channel
-            &.modeSelected__487d6{
+            &.modeSelected__473f1{
                 // Pill
                 &::before{
                     transform: scaleY(100%);
@@ -183,34 +183,34 @@
                     transition: transform 250ms Cubic-bezier(0.55,0.55,0,1),
                                 opacity 250ms Cubic-bezier(0.55,0.55,0,1);
                 }
-                .link__95dc0{
+                .link_ddbb36{
                     background-color: $SubtleFillColorSecondary;
                 }
                 // Channel icon
-                .icon_eff5d4{
+                .icon__67ab4{
                     color: $TextFillColorPrimary;
                 }
-                .name__8d1ec{
+                .name__4eb92{
                     color: $TextFillColorPrimary;
                 }
             }
             // Unread channel
             &.modeUnread_f74c03{
                 // Channel icon
-                .icon_eff5d4{
+                .icon__67ab4{
                     color: $TextFillColorSecondary;
                 }
-                .name__8d1ec{
+                .name__4eb92{
                     color: $TextFillColorSecondary;
                 }
             }
             // Muted channel
-            &.modeMuted__0aeea{
+            &.modeMuted_f0a72e{
                 // Channel icon
-                .icon_eff5d4{
+                .icon__67ab4{
                     color: $TextFillColorDisabled;
                 }
-                .name__8d1ec{
+                .name__4eb92{
                     color: $TextFillColorDisabled;
                 }
             }
@@ -219,15 +219,15 @@
         // The voice channel user
         .list__02208{
             padding-left: 8px;
-            .content_b60865{
+            .content__3b07e{
                 padding-left: 32px;
             }
             // Change border to same green used on guild list
-            .avatarSpeaking_c95053{
+            .avatarSpeaking_f239de{
                 box-shadow:  0 0 0 2px $SystemFillColorSuccess,inset 0 0 0 3px $FocusStrokeColorInner
             }
             // Change user speaking colour to green
-            .usernameSpeaking__78095{
+            .usernameSpeaking__22f2f{
                 color: $SystemFillColorSuccess;
             }
         }
@@ -243,11 +243,11 @@
         }
         // Threads
         // Thread channel
-        .typeThread__2f91c{
-            &.wrapper__7bcde{
+        .typeThread__5fb37{
+            &.wrapper__612a5{
                 margin-left: 8px;
             }
-            .link__95dc0{
+            .link_ddbb36{
                 margin-left: 0;
                 padding-left: 48px;
             }
@@ -255,13 +255,13 @@
     }
 
     // Voice
-    .listDefault__205d0 .clickable__137bc:hover .content_b60865{
+    .listDefault__4e3fa .clickable_a2c5ad:hover .content__3b07e{
         background-color: $SubtleFillColorSecondary;
         box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary; // Using box-shadow because borders cause the div to grow
     }
 
     // Show all voice channels button
-    .voiceChannelsButton__46c37{
+    .voiceChannelsButton_fd0b98{
         background-color: $ControlFillColorDefault;
         border-width: 1px;
         border-style: outset;
@@ -278,25 +278,25 @@
 
     // Threads
     // Active threads
-    .wrapper__7bcde{
+    .wrapper__612a5{
         &:hover{
-            .link__95dc0{
+            .link_ddbb36{
                 background-color: $SubtleFillColorSecondary;
                 box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary; // Using box-shadow because borders cause the div to grow
             }
         }
-        .name__8d1ec{
+        .name__4eb92{
             @include TypeBody;
             color: $TextFillColorPrimary;
         }
     }
     // Channel tree spine
-    .spine__88e6d, .spineBorder_bdec8b{
+    .spine__88e6d, .spineBorder__52981{
         left: 40px;
     }
 
     // Unread badge
-    .numberBadge__50328{
+    .numberBadge__40d6f{
         background-color: $SystemFillColorCritical !important; // For some reason this is in line
         @include TypeCaption;
         color: $TextOnAccentFillColorPrimary;

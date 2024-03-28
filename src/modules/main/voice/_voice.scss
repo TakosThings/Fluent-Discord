@@ -5,7 +5,7 @@
 //     transform: unset !important;
 // }
 // Draw debug borders on top toolbar buttons
-// .toolbar__88c63{
+// .toolbar__62fb5{
 //     border: 1px solid red;
 //     div[role=button],
 //     button[type=button]{
@@ -13,7 +13,7 @@
 //     }
 // }
 
-.theme-dark .wrapper_bd2abe{
+.theme-dark .wrapper__6bf2d{
     background-color: #000;
     border-radius: 8px 0 0 0;
 
@@ -23,38 +23,38 @@
     }
 
     // Round top-left corner
-    .callContainer_cbde45{
+    .callContainer__1477d{
         border-radius: 8px 0 0 0;
     }
 
     // Toolbars
-    .videoControls__40f61{
+    .videoControls_af6621{
         // Top
-        .topControls_d202b0{
-            .upperContainer__993ba{
-                .children__32014{
+        .topControls_e834ab{
+            .upperContainer__57565{
+                .children_cde9af{
                     // Remove voice icon
-                    .iconWrapper_af9215{
+                    .iconWrapper_de6cd1{
                         display: none;
                     }
-                    .title__9e2b0{
+                    .title__84e16{
                         padding-left: 12px;
                         @include TypeBodyStrong
                     }
-                    .playingText_f2f60c{
+                    .playingText__44fce{
                         color: $TextFillColorSecondary;
                         @include TypeBody;
                     }
                 }
 
                 // Quality
-                .liveQualityIndicator_e98ef7{
+                .liveQualityIndicator__5a1de{
                     height: 20px;
                     margin-right: 0;
                     padding: 0 12px;
                     background-color: $SystemFillColorSolidNeutralBackground !important; // Override inline
                     border-radius: 10px 0 0 10px;
-                    .qualityIndicator_a92418{
+                    .qualityIndicator__36cd4{
                         height: 20px;
                         @include TypeBody;
                     }
@@ -79,13 +79,13 @@
 
 
                 // Go to "REF: Chat button" for chat button CSS
-                .divider_c09b64{
+                .divider_bdb894{
                     display: none;
                 }
             }
         }
         // REF: Chat button
-        ~ div > .button_afdfd9{
+        ~ div > .button__581d0{
             width: 64px;
             height: 36px;
             top: 6px;
@@ -106,11 +106,11 @@
         }
 
         // Bottom
-        .bottomControls__8bd89{
-            .controlButton_ab2899{
+        .bottomControls__72d8d{
+            .controlButton__863c7{
                 height: 32px;
                 margin: 0 4px;
-                &.button_afdfd9{
+                &.button__581d0{
                     min-width: 64px;
                     height: 32px;
                     padding: 8px 16px;
@@ -126,7 +126,7 @@
                     }
                 }
 
-                .contents_fb6220{
+                .contents__322f4{
                     // Non-EN style fixes
                     svg{
                         width: 16px !important; // Icons are otherwise too large
@@ -134,14 +134,14 @@
                     }
                 }
 
-                &.contextMenuContainer_fc4df6{
+                &.contextMenuContainer__7fb37{
                     margin: 0 4px;
                     display: flex;
                     foreignObject{
                         width: 64px !important; // Force width
                         mask: none;
                     }
-                    .button_afdfd9{
+                    .button__581d0{
                         min-width: 64px;
                         height: 32px;
                         padding: 8px 16px;
@@ -157,7 +157,7 @@
                         }
                     }
                 }
-                .contextMenuNub__7c02f{
+                .contextMenuNub_bea150{
                     max-height: 32px;
                     position: relative;
                     padding: 7px 8px;
@@ -169,7 +169,7 @@
             }
 
             // Popout/fullscreen
-            .rightTrayIcon_c708db{
+            .rightTrayIcon__38c41{
                 width: 32px;
                 height: 32px;
                 margin-left: 8px;
@@ -198,7 +198,7 @@
         &.tile_f5f57f:hover{
             border-color: $ControlStrokeColorDefault;
         }
-        .overlayTitle_a9f7c6{
+        .overlayTitle_de9b41{
             background-color: $ControlOnImageFillColorDefault;
             border-radius: 4px;
         }
@@ -228,8 +228,8 @@
 
 // Icon replacements
 // Top toolbar (excludes Inbox button)
-html[lang^="en-"].theme-dark .toolbar__88c63{
-    .button_afdfd9{
+html[lang^="en-"].theme-dark .toolbar__62fb5{
+    .button__581d0{
         &::before{
             @include FontIconFluent;
             width: 62px;
@@ -247,7 +247,7 @@ html[lang^="en-"].theme-dark .toolbar__88c63{
 }
 // Bottom toolbar (mic/speaker mute, leave, activity buttons)
 // NOTE - 2023-03-07: Discord removed aria-label from activity and react buttons, so only remove default icons from buttons WITH an aria-label set
-html[lang^="en-"].theme-dark .wrapper__3f3a7 .button_afdfd9[aria-label]{
+html[lang^="en-"].theme-dark .wrapper__4d4fe .button__581d0[aria-label]{
     &::before{
         @include FontIconFluent;
         width: 62px;

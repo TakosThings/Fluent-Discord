@@ -1,11 +1,11 @@
-.theme-dark .container__5c7e7{
+.theme-dark .container_bd15da{
     background-color: transparent;
     // Toolbar
-    .container__11d72{
+    .container__26baa{
         background-color: transparent;
 
         // Remove icon
-        .children__32014 > .iconWrapper_af9215{
+        .children_cde9af > .iconWrapper_de6cd1{
             display: none;
         }
 
@@ -20,7 +20,7 @@
                 background-color: transparent;
                 color: $TextFillColorSecondary;
             }
-            &.selected__5711d{
+            &.selected_a523ff{
                 background-color: transparent;
                 &::before{
                     content: "";
@@ -33,9 +33,9 @@
                 }
             }
             // Add friend button
-            &.addFriend__80542{
+            &.addFriend__4c0a2{
                 background-color: transparent;
-                &.selected__5711d{
+                &.selected_a523ff{
                     color: $TextFillColorPrimary;
                 }
             }
@@ -49,11 +49,11 @@
         }
 
         // Remove gradient on right-side of tab bar
-        .children__32014::after{
+        .children_cde9af::after{
             display: none;
         }
         // Remove divider between Group DM and Inbox
-        .divider_c09b64{
+        .divider_bdb894{
             display: none;
         }
     }

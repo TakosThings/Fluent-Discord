@@ -1,23 +1,23 @@
-.theme-dark .userPopoutOuter_d739b2{
+.theme-dark .userPopoutOuter__3884e{
     @include Elevation32;
 
     // 'plebium' mode
-    .userProfileInnerThemedNonPremium__3d0a6{
+    .userProfileInnerThemedNonPremium_ed9022{
         background: $AcrylicBackgroundFillColorBase;
         border: 1px solid $SurfaceStrokeColorDefault;
         border-radius: 8px;
-        .overlayBackground__86b78{
+        .overlayBackground__2666e{
             background: $LayerOnAcrylicFillColorDefult;
             border-radius: 4px;
         }
     }
 
-    .overlayBackground__86b78{
+    .overlayBackground__2666e{
         border-radius: 4px;
     }
 
     // Only display scroll bar when we need it
-    .scroller__83262{
+    .scroller_f9a667{
         padding: 0 12px !important;
         overflow-y: auto !important;
     }
@@ -28,51 +28,51 @@
     }
 
     // Section title
-    .title_ef4a6d,
-    .headerText__7d203{ // 'Deprecated' spotify title
+    .title__392bc,
+    .headerText_c0138d{ // 'Deprecated' spotify title
         @include TypeBodyStrong;
         text-transform: none;
     }
 
     // Roles
-    .role__631a3{
+    .role_d81130{
         padding: 4px 4px 4px 0px;
         background-color: transparent;
         border: 1px solid $ControlStrokeColorDefault;
         border-radius: 12px;
         @include TypeCaption;
-        &.addButton_c648bf{
+        &.addButton__6f12b{
             padding: 4px;
         }
     }
 
     // Remove double border on message box
-    .messageInputContainer__768e6{
+    .messageInputContainer_a93946{
         border: 0;
     }
 
     // Spotify/games
-    .assetsLargeImage_b88a59{
+    .assetsLargeImage__57902{
         border-radius: 4px;
     }
-    .timeBarUserPopoutV2_c5b927{
+    .timeBarUserPopoutV2__5d401{
         .bar_e63719{
             height: 3px;
             background-color: $ControlStrokeColorDefault;
         }
-        .barInner_d1abc6{
+        .barInner__0f713{
             height: 3px;
             background-color: $AccentBase;
         }
 
         // Timecode
-        .text__13126{
+        .text__6822d{
             @include TypeCaption;
             color: $TextFillColorTertiary;
         }
     }
     // Remove buttons we can't interact with
-    .disabledButtonWrapper__69c70{
+    .disabledButtonWrapper_b04230{
         display: none;
     }
 }

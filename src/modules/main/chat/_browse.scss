@@ -1,11 +1,11 @@
 // Channels & Roles
-.theme-dark .header__60bef {
+.theme-dark .header__71942 {
     background-color: transparent;
-    .iconWrapper_af9215{
+    .iconWrapper_de6cd1{
         display: none;
     }
 }
-.theme-dark .content__1a4fe {
+.theme-dark .content__01e65 {
     height: calc(100% - 1px);
     padding: 0;
     background-color: $LayerFillColorDefault;
@@ -25,7 +25,7 @@
         border-radius: 8px 0 0 0;
     }
     // My profile
-    .profileCard_bd55ee{
+    .profileCard__1d74b{
         background-color: $LayerFillColorDefault;
         border-top: 1px solid $CardStrokeColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
@@ -33,30 +33,30 @@
     }
 
     // Browse channels
-    .channelRow__96673 {
+    .channelRow__538ef {
         background-color: $CardBackgroundFillColorDefault;
         border-width: 1px 1px 0 1px;
         border-style: solid;
         border-color: $CardStrokeColorDefault;
-        &.firstChannel__94f31{
+        &.firstChannel_c06b53{
             border-radius: 4px 4px 0 0;
         }
-        &.lastChannel__129f1{
+        &.lastChannel__0a967{
             border-radius: 0 0 4px 4px;
         }
     }
-    .separator__3cfd2{
+    .separator__68570{
         display: none;
     }
 
     // Fix for channel checkboxes not displaying
-    .channelActions__39164 .checkbox_c7f690{
+    .channelActions__04de2 .checkbox_fcf2ad{
         display: block;
     }
 
     // Category row has some issues
-    .categoryRow_df4323{
-        .checkbox_c7f690{
+    .categoryRow__8a080{
+        .checkbox_fcf2ad{
             display: block;
         }
     }

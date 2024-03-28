@@ -1,40 +1,40 @@
-.theme-dark .audioControls__9fbe9,
-.theme-dark .videoControls__96149{
+.theme-dark .audioControls_da7066,
+.theme-dark .videoControls__7bc92{
     height: 48px;
     padding: 0 8px;
     background-color: $SolidbackgroundFillColorQuarternary;
     border: 1px solid $SurfaceStrokeColorFlyout;
     border-radius: 8px;
     box-sizing: border-box;
-    .mediaBarWrapper_f312bd{
+    .mediaBarWrapper_e90a7a{
         height: 4px;
         background-color: $ControlStrongFillColorDefault;
         border-radius: 2px;
     }
-    .durationTimeDisplay_acef46,
-    .durationTimeSeparator__8b5d8{
+    .durationTimeDisplay_ba3ad5,
+    .durationTimeSeparator__04e51{
         @include FontNormal;
         font-weight: normal;
         font-size: 14px;
     }
-    .mediaBarProgress__29db2{
+    .mediaBarProgress_a3b7f1{
         background-color: $AccentLight1;
         border-radius: 2px;
     }
-    .mediaBarGrabber_c64ff9{
+    .mediaBarGrabber__1d527{
         background-color: $AccentLight1;
         border: 4px solid #454545;
         border-radius: 50%;
         top: -2px;
     }
-    .fakeEdges__17ee5{
+    .fakeEdges_bbed67{
         &::before,
         &::after{
             display: none;
         }
     }
 
-    .mediaBarInteractionVolume_f4c833{
+    .mediaBarInteractionVolume_cc44ff{
         height: 32px;
         padding: 0 16px;
         background-color: $SolidbackgroundFillColorQuarternary;
@@ -43,7 +43,7 @@
     }
 }
 
-.theme-dark .videoControls__96149{
+.theme-dark .videoControls__7bc92{
     width: calc(100% - 16px);
     bottom: 8px;
     left: 8px;
@@ -58,35 +58,35 @@
     }
 }
 // Remove default video player animations
-.theme-dark .videoControls__96149{
+.theme-dark .videoControls__7bc92{
     transform: unset !important; // Override inline
 }
-.theme-dark .wrapperControlsHidden__143af {
-    .videoControls__96149{
+.theme-dark .wrapperControlsHidden_ce304d {
+    .videoControls__7bc92{
         animation: $AnimationSoftDismiss fluent-hide-video-controls;
         opacity: 0;
     }
 }
 
-.theme-dark .messageAttachment_b97504{
-    .wrapperAudio__555ce{
+.theme-dark .messageAttachment__5dae1{
+    .wrapperAudio__178e9{
         background-color: $CardBackgroundFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 8px;
     }
 
-    .metadataContent__391c4{
-        .metadataDownload__6b32d{
+    .metadataContent_bec6a7{
+        .metadataDownload__9673d{
             @include TypeBody;
         }
-        .metadataSize__42428{
+        .metadataSize_b161e9{
             color: $TextFillColorTertiary;
             font-weight: normal;
             opacity: 1;
         }
     }
     // Remove icon
-    .audioMetadata_e546a8::before{
+    .audioMetadata__84e00::before{
         display: none;
     }
 }

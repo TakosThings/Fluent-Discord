@@ -1,6 +1,6 @@
-.theme-dark .container__5c7e7{
+.theme-dark .container_bd15da{
     // Body
-    .tabBody_b3d268{
+    .tabBody_a90ea8{
         background-color: $LayerFillColorDefault;
         border-top: 1px solid $CardStrokeColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
@@ -10,13 +10,13 @@
         }
 
         // Search bar
-        .searchBar_ff8800{
+        .searchBar__310d8{
             margin: 18px 20px 8px 20px;
             background-color: transparent;
         }
 
         // Header
-        .title_dc625c{
+        .title_c42cad{
             @include TypeSubtitle;
             color: $TextFillColorPrimary;
             letter-spacing: normal;
@@ -24,66 +24,66 @@
         }
 
         // Item
-        .peopleListItem_d14722.active__6b8ff,
-        .peopleListItem_d14722:hover{
+        .peopleListItem_dab480.active__6b8ff,
+        .peopleListItem_dab480:hover{
             border-radius: 4px;
         }
 
         // Username
-        .username__81ee6{
+        .username__267df{
             @include TypeBodyStrong;
         }
         // User Status
-        .text__1dddb{
+        .text_bd79a3{
             @include TypeCaption;
         }
 
         // Buttons
-        .actionButton__23182{
+        .actionButton__2b4bb{
             background-color: transparent;
             visibility: hidden;
         }
 
         // Show buttons when hovered
-        .peopleListItem_d14722.active__6b8ff .actionButton__23182,
-        .peopleListItem_d14722:hover .actionButton__23182{
+        .peopleListItem_dab480.active__6b8ff .actionButton__2b4bb,
+        .peopleListItem_dab480:hover .actionButton__2b4bb{
             visibility: visible;
         }
     }
 
     // Empty
-    .friendsEmpty__822fa{
-        .image__98a59{
+    .friendsEmpty__38a29{
+        .image__08515{
             filter: brightness(200%)
         }
-        .text__1c14c{
+        .text__0e310{
             @include TypeBody;
             color: $TextFillColorPrimary;
         }
     }
 
     // Add friend
-    .header__6113c{
+    .header__6ddae{
         padding: 20px;
     }
-    .addFriendInputWrapper__4bf8e{
+    .addFriendInputWrapper__2b30b{
         padding: 0;
         background-color: transparent;
         border: 0;
-        .input_d266e7{
+        .input_f27786{
             padding: 0 12px;
             letter-spacing: normal;
         }
     }
     // Remove hint text
-    .addFriendHint__6df3d{
+    .addFriendHint__6eee6{
         display: none;
     }
 }
 
 // Icon replacements
-html[lang^="en-"].theme-dark .container__5c7e7{
-    .actionButton__23182{
+html[lang^="en-"].theme-dark .container_bd15da{
+    .actionButton__2b4bb{
         &::before{
             @include FontIconFluent;
             color: $TextFillColorSecondary;

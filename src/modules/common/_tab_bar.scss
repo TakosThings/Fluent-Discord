@@ -2,7 +2,7 @@
     .tabBar_d4764b,         // A: Guild > Channels & Roles
     .tabBar__35f81,         // B: User profile modal
     .tabBar__22a9a,         // C: User Settings > Profiles
-    .settingsTabBar__19aa3, // D: User Settings > Family Centre
+    .settingsTabBar_feac86, // D: User Settings > Family Centre
     .tabBar_a685ae{         // E: Event information modal
         border-bottom: 0;
 
@@ -14,7 +14,7 @@
             &:hover{
                 color: $TextFillColorSecondary;
             }
-            &.selected__5711d{
+            &.selected_a523ff{
                 border: 0;
                 &::before{
                     content: "";
@@ -30,7 +30,7 @@
 
             // Special cases
             // A: Badge for total channels
-            .textBadge__45d79{
+            .textBadge_f05120{
                 background-color: $SystemFillColorSolidNeutralBackground !important; // Override inline
                 @include TypeCaption;
             }

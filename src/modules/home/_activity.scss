@@ -1,46 +1,46 @@
-.theme-dark .nowPlayingColumn_f5023f{
+.theme-dark .nowPlayingColumn_b025fe{
     background: transparent;
-    .container__0a6a9{
+    .container__3673d{
         background-color: $LayerFillColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
     }
-    .scroller__00e7e{
+    .scroller__7c25e{
         border: 0;
     }
 
     // Header
-    .header__123bf{
+    .header_c56a27{
         @include TypeSubtitle;
     }
 
     // User data consent card
     .card_f887fe.outer_a41cf3{
         background-color: $LayerFillColorDefault;
-        .header_f0a693,
+        .header_f3c380,
         .defaultColor__77578 {
             text-align: left;
         }
     }
 
     // Card
-    .wrapper__6e669{
+    .wrapper__3c6d5{
         background-color: $LayerFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         &:hover{
             background-color: $LayerFillColorAlt;
         }
     }
-    .inset__0bfb3{
+    .inset__61d5b{
         background-color: $LayerFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 4px;
-        .section_efc22d{
+        .section__253ec{
             background-color: transparent;
         }
     }
 
     // Empty
-    .emptyCard_f82dde{
+    .emptyCard__204d9{
         background-color: $LayerFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         align-items: baseline;

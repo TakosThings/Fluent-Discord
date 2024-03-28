@@ -1,5 +1,5 @@
-.theme-dark .privateChannels__93473{
-    .link__2e8e1[href="/channels/@me"]{
+.theme-dark .privateChannels__9b518{
+    .link__3a950[href="/channels/@me"]{
         .avatar__7bd22{
             &::before{
                 content: "\E13D"; // Contact
@@ -11,20 +11,20 @@
             }
         }
     }
-    .link__2e8e1[href="/store"]{
+    .link__3a950[href="/store"]{
         display: none;
     }
 
-    .interactive_a868bc{
+    .interactive__3e804{
         &:hover,
         &:focus-within{
             background-color: $SubtleFillColorSecondary;
             box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary;
-            .name__02dbd{
+            .name_f842e4{
                 color: $TextFillColorPrimary;
             }
         }
-        &.selected_d94cf9{
+        &.selected__37292{
             background-color: $SubtleFillColorSecondary;
         }
 
@@ -33,19 +33,19 @@
         }
 
         // Name
-        .name__02dbd{
+        .name_f842e4{
             @include TypeBody;
             color: $TextFillColorSecondary;
         }
         // Activity
-        .activityText__84949{
+        .activityText__56d3b{
             @include TypeCaption;
             color: $TextFillColorSecondary;
         }
     }
 
     // DMs header
-    .privateChannelsHeaderContainer_ddcec6 {
+    .privateChannelsHeaderContainer_b22dc9 {
         height: auto;
         padding: 12px;
         color: $TextFillColorPrimary;

@@ -1,37 +1,37 @@
-.theme-dark .container_def45c{
+.theme-dark .container__694a1{
     background-color: transparent;
     border-radius: 0;
 
     // Toolbar
-    .container__11d72{
+    .container__26baa{
         background-color: transparent;
-        .children__32014{
+        .children_cde9af{
             // Removes small gradient
             &::after{
                 display: none;
             }
-            > .iconWrapper_af9215{
+            > .iconWrapper_de6cd1{
                 display: none;
             }
-            .title__9e2b0{
+            .title__84e16{
                 @include TypeBodyStrong;
             }
         }
     }
 
     // Archived header
-    .chatHeaderBar_c1df53{
+    .chatHeaderBar__9e6ac{
         margin: 8px;
         background-color: $SystemFillColorSolidNeutralBackground;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 8px;
-        .chatHeaderBarText__7696a{
+        .chatHeaderBarText_bd01c4{
             color: $TextFillColorPrimary;
         }
     }
 
     // Forum thread
-    .container__8ee50{
+    .container__68e43{
         margin: 16px;
         padding: 4px 8px;
         background: $MicaBackgroundFillColorBase;
@@ -45,12 +45,12 @@
         }
 
         // Fix follow/link button sizes
-        .button__59d49 {
+        .button_c99026 {
             min-width: unset;
         }
-        .buttonInner__2771e,
-        .reactionInner__00d5f,
-        .addReactButton__59750{
+        .buttonInner__865de,
+        .reactionInner_d6d30f,
+        .addReactButton__4342f{
             background-color: $ControlFillColorDefault;
             border-width: 1px;
             border-style: outset;
@@ -58,20 +58,20 @@
             border-radius: 4px;
         }
     }
-    .divider_ffec75{
+    .divider__4df9f{
         display: none;
     }
 }
 
-.theme-dark .chat__52833.threadSidebarOpen_fa231d{
+.theme-dark .chat__52833.threadSidebarOpen__62c31{
     border-radius: 0;
-    .content__1a4fe{
+    .content__01e65{
         border-right: 1px solid $CardStrokeColorDefault;
         border-radius: 8px 8px 0 0;
     }
 }
 
-.theme-dark .resizeHandle_f1a098{
+.theme-dark .resizeHandle_cc9d34{
     position: relative;
     background-color: transparent;
     &::before{
@@ -94,10 +94,10 @@
 }
 
 // Narrow window
-.theme-dark .chatLayerWrapper__29dd6{
-    .container_def45c {
+.theme-dark .chatLayerWrapper__1b344{
+    .container__694a1 {
         background-color: $SolidBackgroundFillColorBase;
-        &.floating_f021e2{
+        &.floating__8f631{
             border-left: 0;
         }
         .chat__1d65d{

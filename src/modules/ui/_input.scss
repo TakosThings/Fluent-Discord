@@ -1,11 +1,11 @@
-.theme-dark .title__317f4{
+.theme-dark .title__7a155{
     color: $TextFillColorPrimary;
     @include TypeBody;
     text-transform: none;
 }
 
 // NOTE: 2022-03-26 - hiddenDiv-2qTqSF is used in the credit card field. See #99
-.theme-dark .input_d266e7:not(.hiddenDiv__457a8){
+.theme-dark .input_f27786:not(.hiddenDiv__5e506){
     height: 32px;
     background-color: $ControlFillColorDefault;
     border: 1px solid;
@@ -16,7 +16,7 @@
     color: $TextFillColorSecondary;
 
     // Sizing
-    &.inputDefault__80165{
+    &.inputDefault__22335{
         padding: 0 12px;
         // height: 32px;
     }
@@ -34,23 +34,23 @@
         color: $TextFillColorSecondary;
     }
 
-    &.textarea_c5a7a3, // eg. user popout note textarea
-    &.textArea__97e3f{ // eg. channel MOTD textare
+    &.textarea__0461c, // eg. user popout note textarea
+    &.textArea__6e373{ // eg. channel MOTD textare
         padding: 4px 12px;
     }
 }
 // Create channel prefix
-.theme-dark .inputPrefix__96ae7{
+.theme-dark .inputPrefix_e93062{
     top: 8px;
-    ~ .input_d266e7{
+    ~ .input_f27786{
         // TODO - 2022-06-08: Resolve this conflict
-        padding-left: 32px !important; // Conflicts with .theme-dark .input_d266e7:not(.hiddenDiv-2qTqSF)
+        padding-left: 32px !important; // Conflicts with .theme-dark .input_f27786:not(.hiddenDiv-2qTqSF)
     }
 }
 
 // Select
 .theme-dark{
-    .select__0eb48{
+    .select_fe2671{
         padding: 3px 8px 3px 12px;
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
@@ -64,7 +64,7 @@
     .popout_a6e77f{
         background: $SolidbackgroundFillColorQuarternary;
         border: 1px solid $SurfaceStrokeColorFlyout;
-        .option_be8b2e{
+        .option_eb83e4{
             min-height: 32px;
             margin: 4px;
             padding: 8px;
@@ -93,7 +93,7 @@
                     background-color: $SubtleFillColorSecondary;
                     border-radius: 4px;
                 }
-                .selectedIcon__4b0ba{
+                .selectedIcon_e9ecc2{
                     display: none;
                 }
             }
@@ -102,12 +102,12 @@
 }
 
 // Keybind
-.theme-dark .container__0c807{
+.theme-dark .container__8267c{
     height: 32px;
     background-color: $ControlFillColorDefault;
     border: 1px solid $ControlStrokeColorDefault;
     border-radius: 4px;
-    .button_afdfd9{
+    .button__581d0{
         min-height: calc(32px - 6px);
         height: calc(32px - 6px);
         margin: 2px;
@@ -121,13 +121,13 @@
         background-color: $ControlStrongStrokeColorDefault;
         border-radius: 2px;
     }
-    .barFill__30e17{
+    .barFill__1f56b{
         height: 3px;
         position: absolute;
         background-color: $AccentBase;
         border-radius: 2px;
     }
-    .grabber_d2868c{
+    .grabber_e3daf3{
         width: 18px;
         height: 18px;
         margin-top: -11px;
@@ -151,7 +151,7 @@
 
 // Text formatting toolbar
 // Highlight text in the chat box to open the formatting bar
-.theme-dark .toolbar_c7b525{
+.theme-dark .toolbar__894c6{
     padding: 4px;
     background: $AcrylicBackgroundFillColorDefault;
     backdrop-filter: blur(10px);
@@ -175,13 +175,13 @@
         }
         &.active__05fbcF{
             background-color: $AccentFillColorDefault;
-            .icon__5a617{
+            .icon__2c9bf{
                 color: $TextOnAccentFillColorPrimary;
             }
         }
 
-        .buttonInner__1dbe5,
-        .icon__5a617{
+        .buttonInner__878f4,
+        .icon__2c9bf{
             width: 16px;
             height: 16px;
         }
@@ -190,13 +190,13 @@
 }
 
 // Copy box
-.copyInput_c1c679{
+.copyInput_f549fd{
     height: 42px;
     margin-bottom: 8px;
     background-color: $ControlFillColorDefault;
     border: 1px solid $ControlStrokeColorDefault;
     border-radius: 4px;
-    .input__770f1{
+    .input__9fba8{
         @include TypeBody;
     }
 }

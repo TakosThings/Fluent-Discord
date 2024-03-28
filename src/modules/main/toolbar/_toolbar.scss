@@ -1,4 +1,4 @@
-.theme-dark .title_b7d661, // Normal toolbar
+.theme-dark .title_d4ba1a, // Normal toolbar
 .theme-dark .container-ZMc96U{ // Browse channels toolbar
     padding: 0 0 0 20px;
     &.themed_b152d4{
@@ -6,22 +6,22 @@
     }
     // Channel & MOTD
     // Remove hash symbol
-    .children__32014{
+    .children_cde9af{
         // Gradient at end of MOTD field
         &::after{
             display: none;
         }
-        .iconWrapper_af9215{
+        .iconWrapper_de6cd1{
             display: none;
         }
     }
     // Channel name
-    .title__9e2b0{
+    .title__84e16{
         @include TypeBodyStrong
     }
 
     // Remove divider
-    .divider_c09b64{
+    .divider_bdb894{
         display: none;
     }
 
@@ -38,9 +38,9 @@
 }
 
 // Toolbar
-.theme-dark .toolbar__88c63{
+.theme-dark .toolbar__62fb5{
     // Using these selectors so there are fewer conflicts in the voice screen
-    div[role=button]:not(.iconLayout__9fbb1), // :not excludes the search/clear button in the search bar
+    div[role=button]:not(.iconLayout__9d9a4), // :not excludes the search/clear button in the search bar
     button[type=button]{
         width: 60px;
         height: 32px;
@@ -59,7 +59,7 @@
         }
 
         // Selected
-        &.selected_be2668{
+        &.selected__1fc53{
             background-color: $AccentFillColorSecondary;
             &::before{
                 color: $TextOnAccentFillColorPrimary;
@@ -79,7 +79,7 @@
         left: 38px;
         @include TypeCaption;
     }
-    .iconBadge_cc5031{
+    .iconBadge__20a6b{
         width: 16px;
         height: 3px;
         right: 22px;
@@ -91,8 +91,8 @@
 }
 
 // Icon replacements
-html[lang^="en-"].theme-dark .toolbar__88c63{
-    .iconWrapper_af9215{
+html[lang^="en-"].theme-dark .toolbar__62fb5{
+    .iconWrapper_de6cd1{
         &::before{
             @include FontIconFluent;
             width: 60px;
@@ -103,7 +103,7 @@ html[lang^="en-"].theme-dark .toolbar__88c63{
             display: block;
         }
         // Remove default icon
-        .icon__4cb88,
+        .icon_ae0b42,
         .controlIcon-35oS15{
             display: none;
         }

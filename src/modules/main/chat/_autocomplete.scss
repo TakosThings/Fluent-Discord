@@ -1,12 +1,12 @@
-.theme-dark .channelTextArea__2e60f{
+.theme-dark .channelTextArea_c2094b{
     &:focus-within{
-        .autocomplete_df266d{
+        .autocomplete__743a5{
             border-color: $ControlStrokeColorDefault;
         }
     }
 }
 
-.theme-dark .autocomplete_df266d{
+.theme-dark .autocomplete__743a5{
     bottom: calc(100% + 4px);
     box-shadow: none;
     background-color: $CardStrokeColorDefaultSolid;
@@ -17,7 +17,7 @@
         background-color: $CardStrokeColorDefault;
     }
 
-    .section_e983c1{
+    .section__4da0b{
         > div[role=button]{
             width: 32px;
             height: 32px;
@@ -35,16 +35,16 @@
                 height: 24px;
                 margin: 4px;
             }
-            .wrapper__9ae30{
+            .wrapper_eb6fe5{
                 padding: 0 !important; // Override inline
             }
         }
     }
 
     // Commands header
-    .categoryHeader_f97a5f{
+    .categoryHeader__70c8e{
         background-color: $CardStrokeColorDefaultSolid;
-        .headerLabel_e9f74f{
+        .headerLabel_febbb2{
             @include TypeBody;
             color: $TextFillColorPrimary;
             text-transform: none;
@@ -52,7 +52,7 @@
     }
 
     // Commands matching: header
-    .contentTitle_b7c496{
+    .contentTitle_b6c2bb{
         @include TypeBody;
         color: $TextFillColorPrimary;
         text-transform: none;

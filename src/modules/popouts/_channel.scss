@@ -15,12 +15,12 @@
         color: $TextFillColorPrimary !important; // Override inline
     }
     // Channel user count
-    .container__60a4a{
+    .container__03b79{
         background-color: transparent;
         svg{
             display: none;
         }
-        .userCountText__4e977{
+        .userCountText_ac9788{
             color: $TextFillColorSecondary;
         }
     }
@@ -31,12 +31,12 @@
         background-color: $ControlStrokeColorDefault;
         margin: 0 8px;
     }
-    .barInner_d1abc6{
+    .barInner__0f713{
         height: 3px;
         background-color: $AccentBase;
     }
     // Timecode
-    .text__13126{
+    .text__6822d{
         @include TypeCaption;
     }
 }
@@ -48,30 +48,30 @@
     border: 1px solid $SurfaceStrokeColorFlyout;
     border-radius: 8px;
     @include Elevation32;
-    .title_d9bf6b{
+    .title_d9421c{
         @include TypeBodyStrong;
         color: $TextFillColorPrimary !important; // Override inline
         text-transform: none;
     }
 
-    .row__4daf2:hover{
+    .row__9e25f:hover{
         background-color: $AccentBase;
         color: $TextOnAccentFillColorPrimary;
-        .timestamp_e48059{
+        .timestamp__8f948{
             color: $TextOnAccentFillColorPrimary;
         }
     }
 }
 
 // Stream preview
-.theme-dark .streamPreview__1846c{
+.theme-dark .streamPreview__965fa{
     background: $SolidBackgroundFillColorSecondary;
     backdrop-filter: blur(16px);
     border: 1px solid $SurfaceStrokeColorFlyout;
     border-radius: 8px;
     @include Elevation32;
 
-    .previewContainer_bb1924{
+    .previewContainer__1e0bb{
         background-color: transparent;
     }
 

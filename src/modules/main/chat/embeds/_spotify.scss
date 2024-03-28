@@ -4,28 +4,28 @@
     border-radius: 8px;
 
     // Header
-    .header__8b673{
+    .header__1c712{
         color: $TextFillColorPrimary;
         @include FontNormal;
         @include TypeBodyStrong;
         text-transform: none;
     }
 
-    .partyStatus__6a567 {
+    .partyStatus__12fc2 {
         @include TypeBody;
     }
-    .details__2923a,
+    .details__22e62,
     .state__9cb82{
         font-size: inherit;
     }
 
     // Artwork
-    .artwork__34afd{
+    .artwork_ea47dd{
         border-radius: 4px;
     }
 
     // Ended
-    .artworkSpotifySessionEnded__8272a{
+    .artworkSpotifySessionEnded_c0cf09{
         background-image: none;
         &::before{
             content: "\E15B"; // Stop

@@ -1,16 +1,16 @@
-.theme-dark .container_b2ce9c{
+.theme-dark .container_f79ab4{
     background: $LayerOnMicaBaseAltFillColor;
     border-left: 1px solid $CardStrokeColorDefault;
 
-    .members__9f47b{
+    .members__573eb{
         background-color: transparent;
     }
 
     // Group header
-    .membersGroup__85843{
+    .membersGroup_cad095{
         padding: 20px 8px 0 15px;
     }
-    .container_de798d{
+    .container__43554{
         color: $TextFillColorPrimary;
         @include TypeBodyStrong;
         text-transform: none;
@@ -18,12 +18,12 @@
 
 
     // Member
-    .container__4f20e{
+    .container_a48b21{
         margin-left: 7px;
         background: transparent;
         color: $TextFillColorPrimary;
         // Greyscale offline avatars
-        &.offline_c1fd80{
+        &.offline__55fab{
             .avatar__6337f{
                 filter: grayscale(100%);
             }
@@ -59,7 +59,7 @@
         }
     }
     // Selected (user popout open)
-    .selected__9800b .layout_bb8e67{
+    .selected__7f4cb .layout_bb8e67{
         background-color: $SubtleFillColorSecondary;
         border-color: $SubtleFillColorSecondary;
         &::before{
@@ -70,11 +70,11 @@
         }
     }
     // Username
-    .name__16feb{
+    .name__7afe8{
         @include TypeBody;
     }
     // Activity
-    .activity__3cbac{
+    .activity_bafb94{
         @include TypeCaption;
         color: $TextFillColorSecondary;
         strong{

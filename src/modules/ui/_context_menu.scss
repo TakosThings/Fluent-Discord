@@ -1,4 +1,4 @@
-.theme-dark .menu_dc52c6{
+.theme-dark .menu__088f7{
     min-width: 280px;
     background: $AcrylicBackgroundFillColorDefault;
     border: 1px solid $SurfaceStrokeColorDefault;
@@ -17,13 +17,13 @@
         border-radius: 8px;
     }
 
-    .scroller__750f5{
+    .scroller__8f066{
         padding: 4px 8px;
         max-height: calc(100vh - 64px);
     }
 
     // Separators
-    .separator__18122{
+    .separator__174fc{
         margin: 10px 4px;
         border-bottom-color: $DividerStrokeColorDefault;
     }
@@ -37,14 +37,14 @@
         @include TypeBody;
         color: $TextFillColorPrimary;
         transition: background-color $AnimationFadeInOut;
-        &.focused__27621{
+        &.focused_dcafb9{
             background-color: $SubtleFillColorSecondary;
             transition: background-color $AnimationFadeInOut;
         }
-        &.colorDanger_eec36d{
+        &.colorDanger__08c25{
             color: $SystemFillColorCritical;
         }
-        &.disabled_a32bfe{
+        &.disabled_a4e144{
             color: $TextFillColorDisabled;
             opacity: 1;
         }
@@ -65,17 +65,17 @@
         }
 
         // Remove left margin from 'Upload file' option
-        .optionName__81070{
+        .optionName__5eac3{
             margin: 0;
         }
 
         // Fix font size in upload menu
-        .optionLabel__254ef{
+        .optionLabel_a33d86{
             @include TypeBody;
         }
 
         // Items with subtext
-        .subtext__8a015{
+        .subtext__694e2{
             margin-top: 0;
             @include TypeCaption;
             color: $TextFillColorSecondary;
@@ -86,23 +86,23 @@
 
         // Remove Discord icons, unless it's a checkbox
         &:not([role="menuitemcheckbox"]):not([role="menuitemradio"]){
-            .icon_f09dde{
+            .icon__0bfbf{
                 display: none;
             }
         }
         // Remove icons from upload/attach menu
-        .optionIcon__2b48d{
+        .optionIcon__5a169{
             display: none;
         }
 
         // Fix grabber position
-        .grabber_d2868c{
+        .grabber_e3daf3{
             margin-top: -0px;
         }
     }
 
     // Emoji items
-    .button__3ecb4{
+    .button_bfb8e1{
         width: 24px;
         height: 24px;
         background-color: transparent;
@@ -110,7 +110,7 @@
             background-color: $SubtleFillColorSecondary;
             box-shadow: none;
         }
-        .icon_babf0a{
+        .icon_a88807{
             width: 18px;
             height: 18px;
 

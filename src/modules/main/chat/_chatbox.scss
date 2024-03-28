@@ -1,4 +1,4 @@
-.theme-dark .form__13a2c, // Main chatbox
+.theme-dark .form_d8a4a1, // Main chatbox
 .theme-dark .submitContainer-1DHMA0{ // Thread start
     margin-top: 0;
     padding-right: 17px;
@@ -8,7 +8,7 @@
         display: none;
     }
 
-    .channelTextArea__2e60f,
+    .channelTextArea_c2094b,
     .channelTextArea-1VQBuV{
         margin-bottom: 8px;
         background-color: $ControlFillColorDefault;
@@ -24,22 +24,22 @@
             border-bottom-color: $AccentBase;
         }
     }
-    .scrollableContainer__33e06{
+    .scrollableContainer_ff917f{
         background-color: transparent;
         border-radius: 4px;
         overflow-y: auto;
     }
 
-    .sansAttachButton__996a4{
+    .sansAttachButton__5f863{
         padding-left: 0;
     }
 
     // User's input text
-    .textArea__74543{
+    .textArea_a86690{
         height: 45px;
         min-height: 45px;
     }
-    .slateTextArea__0661c{
+    .slateTextArea_b19976{
         right: 8px;
         left: 8px;
         color: $TextFillColorPrimary;
@@ -50,7 +50,7 @@
 
 
     // Upload button
-    .attachButton_eba568{
+    .attachButton__5f6dc{
         width: 32px;
         height: 32px;
         margin: 6px 0 0 6px;
@@ -70,18 +70,18 @@
                 color: $TextFillColorPrimary;
             }
         }
-        .contents_fb6220{
+        .contents__322f4{
             display: none;
         }
     }
     // Upload button when command is entered
-    .hasConnectedBar__277ab .attachButton_eba568{
+    .hasConnectedBar__7d21e .attachButton__5f6dc{
         // Hide our upload icon
         &::before{
             content: "";
         }
         // Position the slash icon
-        .icon_e5875d{
+        .icon__58cfe{
             padding: 4px;
         }
         // Remove hover effects
@@ -106,7 +106,7 @@
     .expression-picker-chat-input-button{
         margin: 6px 4px 0 0;
         align-items: flex-start;
-        .button_afdfd9{
+        .button__581d0{
             height: 32px;
             width: 32px;
             border: 1px solid transparent;
@@ -117,7 +117,7 @@
             }
             &:hover,
             &.active-z80xEj,
-            &.emojiButtonHovered__4c6c4{
+            &.emojiButtonHovered__7519c{
                 background-color: $ControlFillColorDisabled;
                 border-color: $ControlStrokeColorDefault;
                 &::before{
@@ -127,48 +127,48 @@
         }
 
         // Always hide the emoji button icon since it can be directly selected
-        .emojiButton__8ff6a{
-            .contents_fb6220{
+        .emojiButton__176c8{
+            .contents__322f4{
                 display: none;
             }
         }
 
         // Replace sticker icon
-        .contents_fb6220.stickerButton__8af38{
+        .contents__322f4.stickerButton_c02bc0{
             &::before{
                 content: "\F4AA"; // Sticker2
                 @include FontIconFluent;
                 font-size: 18px;
             }
-            .lottieIcon__9d8ab{
+            .lottieIcon_c7076c{
                 display: none !important; // Override in-line
             }
         }
 
         // Replace GIF icon
-        .button_afdfd9[aria-label*="GIF"]{
-            .contents_fb6220{
+        .button__581d0[aria-label*="GIF"]{
+            .contents__322f4{
                 &::before{
                     content: "\F4A9"; // GIF
                     @include FontIconFluent;
                     font-size: 18px;
                 }
-                .lottieIcon__9d8ab{
+                .lottieIcon_c7076c{
                     display: none !important; // Override in-line
                 }
             }
         }
 
     }
-    .buttons_ce5b56{
+    .buttons__7ecff{
         height: unset;
         margin-right: 0;
         // Remove gift
-        & > .button_afdfd9{
+        & > .button__581d0{
             display: none;
         }
         // Set a static emoji icon
-        .emojiButton__8ff6a{
+        .emojiButton__176c8{
             margin: 0 4px 0 0;
             &::before{
                 content: "\E76E"; //Emoji2
@@ -179,13 +179,13 @@
         }
 
         // Send button
-        .separator__8424b{
+        .separator__666aa{
             margin-top: 6px;
             margin-left: -4px;
             &::before{
                 display: none;
             }
-            .button_afdfd9{
+            .button__581d0{
                 width: 32px;
                 height: 32px;
                 margin-right: 4px;
@@ -201,7 +201,7 @@
                 &:hover:not(:disabled):before{
                     color: $TextFillColorPrimary;
                 }
-                .contents_fb6220{
+                .contents__322f4{
                     display: none;
                 }
             }
@@ -233,27 +233,27 @@
             }
         }
         // Slowmode font-weight
-        .cooldownWrapper_de448f{
+        .cooldownWrapper__193b2{
             font-weight: normal;
         }
         // Fix position of countdown timer
-        .text_ca54e9:not(:empty) + .cooldownWrapper_de448f{
+        .text_eb454c:not(:empty) + .cooldownWrapper__193b2{
             margin-bottom: 14px;
         }
     }
 
     // Various chatbox states
     // Announce channel follow
-    .wrapper_fbbb73{
+    .wrapper__57349{
         margin-bottom: 16px;
         background-color: $ControlFillColorDisabled;
         border: 1px solid $ControlStrokeColorDefault;
         // Remove image
-        .content_cecbc1{
+        .content__98536{
             img{
                 display: none;
             }
-            .title__77790{
+            .title__3b5e7{
                 color: $TextFillColorDisabled !important; // Override inline
                 @include TypeBody;
             }
@@ -261,18 +261,18 @@
     }
 
     // No permission
-    .textAreaDisabled__60cc6{
-        .placeholder_e68c63{
+    .textAreaDisabled__38376{
+        .placeholder_dec8c7{
             color: $TextFillColorSecondary;
             @include TypeBody;
         }
     }
 
     // Showing command help
-    .attachedBars_da3c74{
+    .attachedBars_c1606a{
         background-color: $CardStrokeColorDefaultSolid;
         border-radius: 4px 4px 0 0;
-        .name__6775a{
+        .name__12c49{
             @include TypeBody;
         }
         .option-Tt7anD{
@@ -292,12 +292,12 @@
     }
 
     // Replying to message
-    .clipContainer__99c30{
+    .clipContainer_ab9cf6{
         margin-top: 0;
     }
-    .replyBar_b64d74{
+    .replyBar_ed6afc{
         background-color: transparent;
-        .replyLabel__401e8{
+        .replyLabel__84289{
             color: $TextFillColorPrimary;
         }
     }

@@ -1,4 +1,4 @@
-.theme-dark .recentMentionsPopout__826a9{
+.theme-dark .recentMentionsPopout__40c54{
     // NOTE - 2022-06-08: Calculation is based on: 100vh - titlebar - toolbar - (margin-top + margin-bottom)
     max-height: calc(100vh - 32px - 48px - 16px) !important;  // Override inline
     margin: 8px;
@@ -7,10 +7,10 @@
     border: 1px solid $SurfaceStrokeColorDefault;
     border-radius: 8px;
 
-    .header__28ebb {
+    .header__58a85 {
         background-color: transparent;
         // Tabs
-        .topPill__0cdf1{
+        .topPill__63ad4{
             .tab_a8a066 {
                 padding-left: 0;
                 padding-right: 0;
@@ -54,25 +54,25 @@
     // Results
     // Mentions
     // NOTE: 2023-01-04 - Mentions tab scroller uses a different class which doesn't have L/R padding
-    .scroller__90038 {
+    .scroller__64264 {
         padding: 0 0 0 16px;
     }
 
-    .container__56e52, // Mentions
-    .channel_d48f2d{ // Unreads
+    .container__7c2c1, // Mentions
+    .channel__36a7e{ // Unreads
         padding-bottom: 16px;
-        .channelHeader__5d30c{
+        .channelHeader_ea0f89{
             top: -1px;
             padding-right: 16px; // Fixes dismiss buttons butting up on right side
             background-color: $SolidBackgroundFillColorSecondary;
             border-radius: 4px 4px 0 0;
-            .guildIcon_cccd03 {
+            .guildIcon__6a5d6 {
                 background-color: transparent;
                 border-radius: 50%;
             }
         }
-        .messageContainer_aa7d14, // Mentions
-        .messages_f7999e{ // Unreads
+        .messageContainer_cb3d47, // Mentions
+        .messages__1aaa1{ // Unreads
             margin-left: 0;
             background-color: $CardBackgroundFillColorDefault;
             border: 1px solid $CardStrokeColorDefault;
@@ -81,11 +81,11 @@
     }
 
     // Unread headers have a collapse button
-    .channel_d48f2d{
-        .channelHeader__5d30c{
+    .channel__36a7e{
+        .channelHeader_ea0f89{
             padding-left: 48px;
         }
-        .collapseButton_b18eab{
+        .collapseButton_f8165c{
             left: 16px;
             &::before{
                 content: "\E70D";
@@ -99,7 +99,7 @@
     }
 
     // Buttons
-    .button_ddf91e {
+    .button__292b6 {
         background-color: $ControlFillColorDefault;
         border-width: 1px;
         border-style: outset;

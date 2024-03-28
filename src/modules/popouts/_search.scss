@@ -1,16 +1,16 @@
-.theme-dark .container_d6dad3{
+.theme-dark .container__84c26{
     background: $MicaBackgroundFillColorBase;
     backdrop-filter: blur(16px);
     border: 1px solid $SurfaceStrokeColorDefault;
     border-radius: 8px;
 
-    .header_b24bd1{
+    .header__00739{
         @include TypeBodyStrong;
         color: $TextFillColorPrimary;
         text-transform: none;
     }
 
-    .option_b5597b{
+    .option__91497{
         margin: 1px 10px;
         height: 32px;
         border: 1px solid transparent;
@@ -23,16 +23,16 @@
             display: none;
         }
 
-        .filter_bd5fe7,
+        .filter__851fb,
         .answer__9ff92,
-        .displayedNick_df9a16,
-        .displayUsername_aea59a,
-        .nonText_cbb69b,
+        .displayedNick_ee206c,
+        .displayUsername__41697,
+        .nonText_fbd88d,
         strong{
             @include TypeBody;
         }
 
-        .filter_bd5fe7,
+        .filter__851fb,
         .displayedNick-1atSpT,
         strong{
             color: $TextFillColorPrimary;
@@ -50,9 +50,9 @@
     }
 
     // "Search for..." header
-    .queryContainer_c359fe{
+    .queryContainer_c1cb2f{
         background-color: $CardStrokeColorDefault;
-        queryText__5bb6b{
+        queryText__92bb8{
             @include TypeBody;
             color: $TextFillColorPrimary;
             text-transform: none;

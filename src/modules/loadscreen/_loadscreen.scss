@@ -1,5 +1,5 @@
 // Hide titlebar
-.theme-dark .container__4bde3{
+.theme-dark .container__827e6{
     padding-top: 32px;
     top: -32px;
 }
@@ -78,7 +78,7 @@
 }
 
 
-.theme-dark .container__4bde3{
+.theme-dark .container__827e6{
     background-color: #000;
 
     // Loading blob animations
@@ -96,7 +96,7 @@
         animation: fluent-loading-blob2-path 20s infinite, fluent-loading-blob-fade 1332ms ease-out;
     }
 }
-.content__0e954{
+.content_de05de{
     width: 64px;
     height: 64px;
     &::before{
@@ -108,7 +108,7 @@
     }
 }
 
-.content__0e954{
+.content_de05de{
     video{
         display: none;
     }
@@ -123,12 +123,12 @@
     }
 
     // Loading circle
-    .text__32559{
+    .text__35f5c{
         width: 64px;
         height: 64px;
         display: block;
         animation: fluent-loading-circle 1.5s linear infinite;
-        .body_c562e6{
+        .body_cb04a0{
             line-height: unset;
             font-size: 0;
 
@@ -154,7 +154,7 @@
             }
         }
 
-        .tipTitle_a7615c,
+        .tipTitle_ebc1d5,
         .tip__6e299{
             display: none;
         }
@@ -162,7 +162,7 @@
 }
 
 // Links
-.problemsText__046e8{
+.problemsText__5f1c5{
     color: $TextFillColorPrimary;
 }
 .anchor_c8ddc0{

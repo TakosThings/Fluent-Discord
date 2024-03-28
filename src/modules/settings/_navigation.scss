@@ -1,18 +1,18 @@
-.theme-dark .sidebarRegion__60457{
+.theme-dark .sidebarRegion__36437{
     flex: 0;
 }
 // Hide scrollbar when not required
-.theme-dark .sidebarRegionScroller__1fa7e {
+.theme-dark .sidebarRegionScroller__8113e {
     background-color: transparent;
 }
 
-.theme-dark .sidebar__9e3e2{
+.theme-dark .sidebar__02e8d{
     // NOTE: 2023-06-13 - 6px to account for the scrollbar
     width: calc(320px - 6px);
     padding: 40px 4px;
 
     // Section header
-    .side_b4b3f6 .eyebrow_f53856{
+    .side_b4b3f6 .eyebrow_b3f8ba{
         padding: 0 0 0 8px;
         @include TypeBodyStrong;
         color: $TextFillColorPrimary;
@@ -21,7 +21,7 @@
         svg{
             display: none;
         }
-        .category_f995ff{
+        .category__6faaf{
             @include TypeCaption;
         }
     }
@@ -54,7 +54,7 @@
             transition: transform 167ms Cubic-bezier(0,0,0,1),
                         opacity 167ms Cubic-bezier(0,0,0,1);
         }
-        &.selected__5711d{
+        &.selected_a523ff{
             background-color: $SubtleFillColorSecondary;
             &::before{
                 transform: scaleY(100%);
@@ -65,22 +65,22 @@
         }
         // Special cases
         // Remove right side Nitro icon (may differ in some regions)
-        .premiumLabel_f2cd55 svg{
+        .premiumLabel__68f78 svg{
             display: none;
         }
         // Remove background div from nitro option
-        .selectedBackground_d847da{
+        .selectedBackground__4039b{
             display: none;
         }
         // Delete channel trash icon
-        .tabBarItemContainer_d74773{
+        .tabBarItemContainer__5d798{
             svg{
                 display: none;
             }
         }
     }
     // Divider
-    .side_b4b3f6 .separator_fdbcfd{
+    .side_b4b3f6 .separator_d14fb1{
         margin: 0 -8px;
     }
 

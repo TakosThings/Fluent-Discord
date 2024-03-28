@@ -1,10 +1,10 @@
-html[lang^="en-"].theme-dark .toolbar__88c63 .iconWrapper_af9215.cursorPointer_B3uwDA{
+html[lang^="en-"].theme-dark .toolbar__62fb5 .iconWrapper_de6cd1.cursorPointer_B3uwDA{
     &::before{ // Annoyingly has no aria-label
         content: "\E70B"; // Note
     }
 }
 
-.theme-dark .popout_xwjvsX.messagesPopoutWrap_b3b384.themedPopout_1TrfdI{
+.theme-dark .popout_xwjvsX.messagesPopoutWrap__10dd1.themedPopout_1TrfdI{
     // Tabs
     .tabBar__2aa8e{
         .tab_a8a066{
@@ -18,7 +18,7 @@ html[lang^="en-"].theme-dark .toolbar__88c63 .iconWrapper_af9215.cursorPointer_B
                 color: $TextFillColorSecondary;
             }
 
-            &.selected__5711d{
+            &.selected_a523ff{
                 background-color: transparent;
                 color: $AccentTextFillColorPrimary;
                 &::before{
@@ -38,7 +38,7 @@ html[lang^="en-"].theme-dark .toolbar__88c63 .iconWrapper_af9215.cursorPointer_B
     }
 
     // Sorting
-    .quickSelectLabel_cf5c1b{
+    .quickSelectLabel__79774{
         @include TypeBody;
         color: $TextFillColorPrimary;
     }

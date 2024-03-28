@@ -2,30 +2,30 @@
     background-color: transparent;
 }
 
-.theme-dark .container_b181b6{
+.theme-dark .container_b92032{
     background-color: $LayerFillColorDefault;
     border-top: 1px solid $CardStrokeColorDefault;
     border-left: 1px solid $CardStrokeColorDefault;
     border-radius: 8px 0 0 0;
 
     // Threads
-    .mainCard__8a660{
+    .mainCard__0ec2c{
         background-color: $LayerFillColorAlt;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 8px;
 
-        &.container__99b06:active,
-        &.container__99b06:hover{
+        &.container_de2a56:active,
+        &.container_de2a56:hover{
             transform: none;
             box-shadow: none;
             border-color: $CardStrokeColorDefaultSolid;
         }
 
-        .postTitleText__11fd1{
+        .postTitleText__39597{
             color: $TextFillColorPrimary !important; // Override inline
             @include TypeBodyStrong;
         }
-        .messageContent_f4fbd7{
+        .messageContent__6ae89{
             @include TypeBody;
         }
     }

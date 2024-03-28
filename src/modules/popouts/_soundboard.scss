@@ -5,11 +5,11 @@
     border-radius: 8px;
 
     // Search box
-    .header_bf5f46{
+    .header__93ab0{
         box-shadow: none;
     }
     // Volume control
-    .settingsClickArea__307ff{
+    .settingsClickArea__2839d{
         width: 32px;
         height: 32px;
         border-width: 1px;
@@ -28,14 +28,14 @@
     }
 
     // Servers
-    .categoryList__173de{
+    .categoryList__2f64f{
         background-color: $SolidBackgroundFillColorBase;
     }
 
     // Sounds
     // Section header
-    .sectionHeader_c664ae{
-        .sectionTitle__8df35{
+    .sectionHeader_d974fe{
+        .sectionTitle__1a48e{
             @include TypeBodyStrong;
             text-transform: none;
             color: $TextFillColorPrimary;
@@ -43,7 +43,7 @@
     }
 
     // Sound
-    .soundButton__5ad7b{
+    .soundButton__845c7{
         background-color: $ControlFillColorDefault;
         border-width: 1px;
         border-style: outset;
@@ -56,28 +56,28 @@
         &:active{
             background-color: $ControlFillColorTertiary;
         }
-        .ssoundName__35f8b{
+        .ssoundName__5285b{
             @include TypeBody;
         }
-        .buttonOverlayBackground_ec646a{
+        .buttonOverlayBackground__9265a{
             background-color: $ControlFillColorInputActiveBrush;
             opacity: 1;
         }
     }
 
     // keybind reminder
-    .keybindHint__70c7e{
+    .keybindHint__28b43{
         margin: 8px;
         padding: 8px 16px;
         background-color: $SystemFillColorAttentionBackground;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 4px;
-        .warningIcon__86fcb{
+        .warningIcon__63992{
             color: $SystemFillColorAttention;
             // Wrong icon used for this type of info bar, so rotate it 180deg to change it into an 'i'
             transform: rotate(180deg);
         }
-        .keybindHintText_b2d248{
+        .keybindHintText__8244b{
             @include TypeBody;
         }
     }

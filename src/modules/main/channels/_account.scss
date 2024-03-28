@@ -3,21 +3,21 @@
     background-color: transparent;
 
     // Remove 1px margin from bottom of panel
-    .container_ca50b9{
+    .container_debb33{
         background-color: transparent;
         height: 48px;
         margin-bottom: 0;
     }
 
     // Remove margin on avatar/username wrapper
-    .avatarWrapper_ba5175{
+    .avatarWrapper__500a6{
         margin-right: 0;
         &:hover{
             background-color: transparent;
         }
     }
 
-    .button__4f306{
+    .button_ae40a4{
         margin-left: 4px;
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
@@ -29,8 +29,8 @@
         &:active{
             background-color: $ControlFillColorTertiary;
         }
-        .contents_fb6220{ // Non-EN sizing fix
-            .lottieIcon__9d8ab{
+        .contents__322f4{ // Non-EN sizing fix
+            .lottieIcon_c7076c{
                 position: absolute;
                 top: 5px;
                 left: 5px;

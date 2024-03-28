@@ -1,4 +1,4 @@
-.theme-dark .contentWrapper__321ed,
+.theme-dark .contentWrapper_e0bb2c,
 .theme-dark #emoji-picker-tab-panel{
     background: $MicaBackgroundFillColorBase;
     backdrop-filter: blur(16px);
@@ -6,7 +6,7 @@
     border-radius: 8px;
 }
 
-.theme-dark .contentWrapper__321ed #emoji-picker-tab-panel{
+.theme-dark .contentWrapper_e0bb2c #emoji-picker-tab-panel{
     background: transparent;
     backdrop-filter: none;
     border: 0;
@@ -15,8 +15,8 @@
 
 .theme-dark{
     // Navigation
-    .nav__2bf35{
-        .navButton__05cc7 {
+    .nav_b56420{
+        .navButton_b588d0 {
             padding-left: 0;
             padding-right: 0;
             margin-left: 0;
@@ -29,7 +29,7 @@
             }
 
         }
-        .navButtonActive__735cb {
+        .navButtonActive__0c878 {
             background-color: transparent;
             color: $AccentTextFillColorPrimary;
             &::before{
@@ -48,12 +48,12 @@
     }
 
     // Header
-    .emojiPickerHasTabWrapper__80686 .header__55964{
+    .emojiPickerHasTabWrapper__63198 .header_e5d8b2{
         padding: 0 12px 12px;
     }
-    .header__55964, // Emoji
-    .header_f71767, // Stickers
-    .header_f7f1f3{ // GIFs
+    .header_e5d8b2, // Emoji
+    .header__643ce, // Stickers
+    .header_aac16f{ // GIFs
         background-color: transparent;
         box-shadow: none;
     }
@@ -61,15 +61,15 @@
     .inner__178b2{
         padding: 0;
     }
-    .container__7712a{ // GIFs search
+    .container__33507{ // GIFs search
         background-color: transparent;
     }
     // Emoji search
     // Fix inherited height
-    .medium__2d9f3 .input_f4043f{
+    .medium_c22914 .input__745d4{
         height: 32px;
     }
-    .input_f4043f{
+    .input__745d4{
         margin: 0;
         padding-right: 32px;
         background-color: $ControlFillColorDefault;
@@ -92,14 +92,14 @@
         }
     }
     // Search clear button
-    .iconLayout__9fbb1{
+    .iconLayout__9d9a4{
         position: absolute;
         top: 6px;
         right: 4px;
-        &.medium__2d9f3{
+        &.medium_c22914{
             width: 22px;
             height: 22px;
-            .iconContainer__8fa9c{
+            .iconContainer__9f124{
                 width: 16px;
                 height: 16px;
             }
@@ -108,12 +108,12 @@
 
     // Emoji
     // Sidebar
-    .categoryList_f8c48f{
+    .categoryList_eac4ac{
         background-color: $SolidBackgroundFillColorBase;
     }
     // Replace emoji icons
-    .categoryItemDefaultCategory__67fe7{
-        &.categoryItem__39904{
+    .categoryItemDefaultCategory__6c3db{
+        &.categoryItem__4a642{
             svg{
                 display: none;
             }
@@ -159,22 +159,22 @@
         }
     }
     // Info bar
-    .inspector__993e1 {
+    .inspector__80c84 {
         background-color: $SolidBackgroundFillColorSecondary;
     }
     // "Popular" badge in info bar
-    .topGuildEmojiBadge__24efb{
+    .topGuildEmojiBadge__4dc3a{
         display: none;
     }
 
     // Emoji category header
-    .header_c3c744,
+    .header__3028e,
     .wrapper-1NNaWG{
         margin: 0 -8px;
         padding: 0 16px;
         background-color: $SolidBackgroundFillColorTertiary;
         border-radius: 4px;
-        .headerLabel_e9f74f{
+        .headerLabel_febbb2{
             @include TypeBodyStrong;
             color: $TextFillColorPrimary;
             text-transform: none;
@@ -182,45 +182,45 @@
     }
 
     // Colour change
-    .diversitySelectorButton_a4f274{
+    .diversitySelectorButton__3fd6f{
         width: 30px;
         height: 30px;
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
         border-radius: 4px;
         position: relative;
-        .diversityEmojiItemImage__4387d{
+        .diversityEmojiItemImage__644ce{
             margin: 3px;
         }
     }
     // Diversity selector in stand alone emoji popout (eg. reaction)
-    .diversitySelectorOptions__846c5 {
+    .diversitySelectorOptions_daea2d {
         // top: 0;
         right: 12px;
     }
-    .diversitySelectorOptions__846c5 {
+    .diversitySelectorOptions_daea2d {
         border: 1px solid $ControlStrokeColorDefault;
-        .diversityEmojiItem__6505f{
+        .diversityEmojiItem__48e39{
             width: 30px;
             height: 30px;
             padding: 0;
         }
-        .diversityEmojiItemImage__4387d{
+        .diversityEmojiItemImage__644ce{
             margin: 3px;
         }
     }
 
 
     // Nitro prompt
-    .premiumPromo__2d678{
+    .premiumPromo__9e1ca{
         background-color: $CardStrokeColorDefaultSolid;
-        .premiumPromoImage_a670c5{
+        .premiumPromoImage__0f616{
             display: none;
         }
-        .premiumPromoTitle__68b72{
+        .premiumPromoTitle_abafab{
             @include TypeBodyLarge;
         }
-        .premiumPromoDescription_a33e5d{
+        .premiumPromoDescription_c432cb{
             @include TypeBody;
             color: $TextFillColorPrimary;
         }

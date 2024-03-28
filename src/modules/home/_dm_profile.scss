@@ -1,20 +1,20 @@
-.theme-dark .profilePanel__12596{
-    .userProfileOuterUnthemed__48723{
+.theme-dark .profilePanel_e2cafe{
+    .userProfileOuterUnthemed_e14365{
         background-color: transparent;
         border-left: 1px solid $CardStrokeColorDefault;
     }
-    .userPanelInnerThemed__1804b{
+    .userPanelInnerThemed_c2aed9{
         background: $LayerFillColorDefault;
     }
 
     // Section title
-    .title_ef4a6d,
+    .title__392bc,
     .headerText-3g1XK9{ // 'Deprecated' spotify title
         @include TypeBodyStrong;
         text-transform: none;
     }
 
-    .overlayBackground__86b78{
+    .overlayBackground__2666e{
         background-color: $LayerOnAcrylicFillColorDefult;
     }
 }

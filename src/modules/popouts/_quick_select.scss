@@ -1,11 +1,11 @@
 // Voice call > Region select
-.theme-dark .quickSelectPopout_c0cf80 {
+.theme-dark .quickSelectPopout__56a98 {
     background: $MicaBackgroundFillColorBase;
     backdrop-filter: blur(16px);
     border: 1px solid $SurfaceStrokeColorDefault;
     border-radius: 8px;
     padding: 8px;
-    .quickSelectPopoutOption__39224{
+    .quickSelectPopoutOption_b852b1{
         max-height: 34px;
         border-radius: 4px;
         position: relative;
@@ -32,7 +32,7 @@
             }
         }
     }
-    .regionSelectName__7c81f{
+    .regionSelectName_e97b48{
         height: auto;
         @include TypeBody;
         color: $TextFillColorPrimary;
