@@ -241,11 +241,11 @@
             }
         }
         // Slowmode font-weight
-        .cooldownWrapper_d7ebeb{
+        .cooldownWrapper_f85cd6{
             font-weight: normal;
         }
         // Fix position of countdown timer
-        .text_d7ebeb:not(:empty) + .cooldownWrapper_d7ebeb{
+        .text_d7ebeb:not(:empty) + .cooldownWrapper_f85cd6{
             margin-bottom: 14px;
         }
     }
