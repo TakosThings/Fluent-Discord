@@ -7,14 +7,10 @@
         "url": "https://github.com/TakosThings/Fluent-Discord"
     },
     "repository": "git:TakosThings/Fluent-Discord",
-    "os": [
-        "win32",
-        "linux"
-    ],
     "scripts": {
         "build-static": "sass src/fluent.scss:dist/Fluent-Discord-static.theme.css --no-charset --no-source-map",
         "build-auto": "sass src/fluent-auto.scss:dist/Fluent-Discord.theme.css --no-charset --no-source-map",
-        "dev": "sass src/fluent.scss:%APPDATA%/BetterDiscord/themes/Fluent-Discord.theme.css --no-charset --no-source-map --watch"
+        "dev": "sass src/fluent.scss:%APPDATA%/Vencord/themes/Fluent-Discord.theme.css --no-charset --no-source-map --watch"
     },
     "devDependencies": {
         "sass": "^1.49.7"
