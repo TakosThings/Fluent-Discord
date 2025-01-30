@@ -1,46 +1,46 @@
 .theme-dark{
     // To find: Hover on channel with active threads and click 'See All' on the popout
-    .modal_a60b1b{
+    .modal__9a792{
         background-color: $SolidBackgroundFillColorBase !important; // Override inline
     }
 
-    .container_e664f3{
+    .container_d9c882{
         background-color: transparent;
     }
 
     // Header
-    .header_e664f3{
+    .header_d9c882{
         height: unset;
         min-height: unset;
         padding: 24px 24px 0 24px;
         background-color: transparent;
         // Remove icon
-        .threadIcon_e664f3{
+        .threadIcon_d9c882{
             display: none;
         }
         // Remove divider
-        .divider_e664f3{
+        .divider_d9c882{
             display: none;
         }
         // Remove spacer
-        .spacer_e664f3{
+        .spacer_d9c882{
             display: none;
         }
     }
 
     // Thread list
-    .list_c6aa12{
+    .list_c441f0{
         padding: 0 24px;
         padding-right: 24px !important;
     }
     // Sub headers
-    .sectionHeader_c6aa12{
+    .sectionHeader_c441f0{
         @include TypeBodyStrong;
         text-transform: none;
         margin-top: 24px;
     }
     // List item
-    .container_acb8b3{
+    .container__6764b{
         height: auto;
         padding: 12px;
         background-color: $SubtleFillColorSecondary;
@@ -50,21 +50,21 @@
             background-color: $SubtleFillColorTertiary;
         }
         &:active{
-            .threadNameLine_acb8b3 span{
+            .threadNameLine__6764b span{
                 color: $TextFillColorSecondary;
             }
 
         }
 
         // Thread title
-        .threadNameLine_acb8b3{
+        .threadNameLine__6764b{
             @include TypeBodyStrong;
             span{
                 color: $TextFillColorPrimary;
             }
         }
         // Subtext
-        .subtext_acb8b3{
+        .subtext__6764b{
             margin-top: 8px;
             @include TypeCaption;
             color: $TextFillColorSecondary !important;
@@ -75,15 +75,15 @@
 // Redundancy in the moderator's Active Threads modal 🙃
 .theme-dark{
     // To find: Be a moderator in a server with active threads. Open 'Active Threads' from the server dropdown
-    .container_f30e90{
+    .container_a8217b{
         background-color: transparent;
     }
-    .header_f30e90{
+    .header_a8217b{
         height: unset;
         min-height: unset;
         padding: 24px;
         background-color: transparent;
-        .threadIcon_f30e90{
+        .threadIcon_a8217b{
             display: none;
         }
     }

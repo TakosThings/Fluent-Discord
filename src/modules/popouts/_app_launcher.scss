@@ -1,10 +1,10 @@
-.theme-dark .contentWrapper_f7506e{
+.theme-dark .contentWrapper__9c62c{
     background: $MicaBackgroundFillColorBase;
     backdrop-filter: blur(16px);
     // Search
-    .container_c18ec9.medium_c18ec9{
+    .container_a45028.medium_a45028{
         background-color: transparent;
-        input.input_c18ec9{
+        input.input_a45028{
             height: 32px;
             padding: 0 8px;
             border: 1px solid;
@@ -27,16 +27,16 @@
                 color: $TextFillColorSecondary;
             }
         }
-        .iconLayout_c18ec9 {
+        .iconLayout_a45028 {
             position: absolute;
             top: 6px;
             right: 8px;
 
             // Home friends table seach bar
-            &.medium_c18ec9{
+            &.medium_a45028{
                 width: 22px;
                 height: 22px;
-                .iconContainer_c18ec9{
+                .iconContainer_a45028{
                     width: 16px;
                     height: 16px;
                 }
@@ -45,7 +45,7 @@
     }
 
     // Cards
-    .container_e5da8b{
+    .container_cb32c7{
         background-color: $ControlFillColorDefault;
         border-width: 1px;
         border-style: outset;
@@ -57,30 +57,30 @@
     }
 
     // App "profile"
-    .container_ec8cd2{
+    .container__7bdb0{
 
         background-color: transparent;
         .profileAndVideoContainer_e80fe9{
             padding: 0 8px;
             border: 0;
         }
-        .overviewContainerNoVideo_e80fe9{
+        .overviewContainerNoVideo__95856{
             background-color: transparent;
             padding: 0;
         }
 
         // List of commands
-        .contentContainer_f37ac2{
+        .contentContainer_c94584{
             padding: 0 24px;
         }
-        .commandContainer_f37ac2{
+        .commandContainer_c94584{
             background-color: $ControlFillColorDefault;
             border-width: 1px;
             border-style: outset;
             border-color: $ControlElevationBorder;
             border-radius: 4px;
         }
-        .command_f37ac2{
+        .command_c94584{
             background-color: transparent;
         }
     }

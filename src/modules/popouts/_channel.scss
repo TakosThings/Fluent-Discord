@@ -15,68 +15,68 @@
         color: $TextFillColorPrimary !important; // Override inline
     }
     // Channel user count
-    .container_c23582{
+    .container_b1bfd4{
         background-color: transparent;
         svg{
             display: none;
         }
-        .userCountText_c23582{
+        .userCountText_b1bfd4{
             color: $TextFillColorSecondary;
         }
     }
 
     // Timebar
-    .bar_ec2fa7 {
+    .bar_c8b06d {
         height: 3px;
         background-color: $ControlStrokeColorDefault;
         margin: 0 8px;
     }
-    .barInner_ec2fa7{
+    .barInner_c8b06d{
         height: 3px;
         background-color: $AccentBase;
     }
     // Timecode
-    .text_ec2fa7{
+    .text_c8b06d{
         @include TypeCaption;
     }
 }
 
 // Active thread
-.popout_c5b389{
+.popout__76f04{
     background: $SolidBackgroundFillColorSecondary;
     backdrop-filter: blur(16px);
     border: 1px solid $SurfaceStrokeColorFlyout;
     border-radius: 8px;
     @include Elevation32;
-    .title_c5b389{
+    .title__76f04{
         @include TypeBodyStrong;
         color: $TextFillColorPrimary !important; // Override inline
         text-transform: none;
     }
 
-    .row_c5b389:hover{
+    .row__76f04:hover{
         background-color: $AccentBase;
         color: $TextOnAccentFillColorPrimary;
-        .timestamp_c5b389{
+        .timestamp__76f04{
             color: $TextOnAccentFillColorPrimary;
         }
     }
 }
 
 // Stream preview
-.theme-dark .streamPreview_adbea6{
+.theme-dark .streamPreview__6da2d{
     background: $SolidBackgroundFillColorSecondary;
     backdrop-filter: blur(16px);
     border: 1px solid $SurfaceStrokeColorFlyout;
     border-radius: 8px;
     @include Elevation32;
 
-    .previewContainer_adbea6{
+    .previewContainer__6da2d{
         background-color: transparent;
     }
 
     // Remove tip
-    .protip_adbea6{
+    .protip__6da2d{
         display: none;
     }
 }

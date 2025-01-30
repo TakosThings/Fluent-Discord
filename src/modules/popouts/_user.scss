@@ -29,19 +29,19 @@
 
     // Section title
     .title_c4a579,
-    .headerText_c1d9fd{ // 'Deprecated' spotify title
+    .headerText__2ef49{ // 'Deprecated' spotify title
         @include TypeBodyStrong;
         text-transform: none;
     }
 
     // Roles
-    .role_e4010c{
+    .role__48c1c{
         padding: 4px 4px 4px 0px;
         background-color: transparent;
         border: 1px solid $ControlStrokeColorDefault;
         border-radius: 12px;
         @include TypeCaption;
-        &.addButton_e4010c{
+        &.addButton__48c1c{
             padding: 4px;
         }
     }
@@ -52,27 +52,27 @@
     }
 
     // Spotify/games
-    .assetsLargeImage_c1d9fd{
+    .assetsLargeImage__2ef49{
         border-radius: 4px;
     }
     .timeBarUserPopoutV2_c1d9fd{
-        .bar_ec2fa7{
+        .bar_c8b06d{
             height: 3px;
             background-color: $ControlStrokeColorDefault;
         }
-        .barInner_ec2fa7{
+        .barInner_c8b06d{
             height: 3px;
             background-color: $AccentBase;
         }
 
         // Timecode
-        .text_ec2fa7{
+        .text_c8b06d{
             @include TypeCaption;
             color: $TextFillColorTertiary;
         }
     }
     // Remove buttons we can't interact with
-    .disabledButtonWrapper_dd4f85{
+    .disabledButtonWrapper__201d5{
         display: none;
     }
 }

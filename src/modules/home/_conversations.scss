@@ -1,6 +1,6 @@
-.theme-dark .privateChannels_f0963d{
-    .link_c91bad[href="/channels/@me"]{
-        .avatar_ec8679{
+.theme-dark .privateChannels__35e86{
+    .link__972a0[href="/channels/@me"]{
+        .avatar__20a53{
             &::before{
                 content: "\E13D"; // Contact
                 @include FontIconFluent;
@@ -12,50 +12,50 @@
         }
     }
     // Remove the nitro button
-    .link_c91bad[href="/store"]{
+    .link__972a0[href="/store"]{
         display: none;
     }
 
     // Remove badges from the shop button
-    .channel_c91bad{
-        .link_c91bad[data-list-item-id*="___shop"]{
-            .newBadge_a25714{
+    .channel__972a0{
+        .link__972a0[data-list-item-id*="___shop"]{
+            .newBadge__4ed1a{
                 display: none;
             }
         }
     }
 
-    .interactive_c91bad{
+    .interactive__972a0{
         &:hover,
         &:focus-within{
             background-color: $SubtleFillColorSecondary;
             box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary;
-            .name_ec8679{
+            .name__20a53{
                 color: $TextFillColorPrimary;
             }
         }
-        &.selected_f5eb4b{
+        &.selected_bf202d{
             background-color: $SubtleFillColorSecondary;
         }
 
-        .layout_ec8679{
+        .layout__20a53{
             padding: 0 8px;
         }
 
         // Name
-        .name_ec8679{
+        .name__20a53{
             @include TypeBody;
             color: $TextFillColorSecondary;
         }
         // Activity
-        .activityText_c91bad{
+        .activityText__972a0{
             @include TypeCaption;
             color: $TextFillColorSecondary;
         }
     }
 
     // DMs header
-    .privateChannelsHeaderContainer_c47fa9 {
+    .privateChannelsHeaderContainer__99e7c {
         height: auto;
         padding: 12px;
         color: $TextFillColorPrimary;

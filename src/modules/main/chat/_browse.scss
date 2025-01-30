@@ -1,11 +1,11 @@
 // Channels & Roles
-.theme-dark .header_f1fd9c{
+.theme-dark .header__0b563{
     background: transparent !important; // Override inline
-    .iconWrapper_fc4f04{
+    .iconWrapper__9293f{
         display: none;
     }
 }
-.theme-dark .content_a7d72e {
+.theme-dark .content_f75fb0 {
     height: calc(100% - 1px);
     padding: 0;
     background: $LayerFillColorDefault !important; // Override inline
@@ -18,14 +18,14 @@
 
     // Customise tab
     // Customisation questions
-    .prompt_c6b11b{
+    .prompt__5d7c9{
         background-color: $LayerFillColorDefault;
         border-top: 1px solid $CardStrokeColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
         border-radius: 8px 0 0 0;
     }
     // My profile
-    .profileCard_c6b11b{
+    .profileCard__5d7c9{
         background-color: $LayerFillColorDefault;
         border-top: 1px solid $CardStrokeColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
@@ -33,42 +33,42 @@
     }
 
     // Browse channels
-    .pageBody_c2efea{
+    .pageBody__41ed7{
         background-color: transparent;
     }
-    .channelRow_f04d06 {
+    .channelRow_e4503a {
         background-color: $CardBackgroundFillColorDefault;
         border-width: 1px 1px 0 1px;
         border-style: solid;
         border-color: $CardStrokeColorDefault;
-        &.firstChannel_f04d06{
+        &.firstChannel_e4503a{
             border-radius: 4px 4px 0 0;
         }
-        &.lastChannel_f04d06{
+        &.lastChannel_e4503a{
             border-radius: 0 0 4px 4px;
         }
     }
-    .separator_f04d06{
+    .separator_e4503a{
         display: none;
     }
 
     // Fix for channel checkboxes not displaying
-    .channelActions_f04d06 .checkbox_f6cde8{
+    .channelActions_e4503a .checkbox_f525d3{
         display: block;
     }
 
     // Category row has some issues
-    .categoryRow_f04d06{
-        .checkbox_f6cde8{
+    .categoryRow_e4503a{
+        .checkbox_f525d3{
             display: block;
         }
     }
 }
 
 // Members
-.theme-dark .page_d20375{
+.theme-dark .page_c791b2{
     background-color: transparent !important;
-    .header_d20375{
+    .header_c791b2{
         box-shadow: none;
     }
     .scroller_d20375{
@@ -78,11 +78,11 @@
         border-radius: 8px 0 0 0;
     }
 
-    .content_a7d72e{
+    .content_f75fb0{
         background-color: transparent !important;
         // border: 0;
     }
-    .mainTableContainer_e23072{
+    .mainTableContainer__09a38{
         background-color: transparent;
         box-shadow: none;
     }

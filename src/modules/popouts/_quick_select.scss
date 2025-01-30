@@ -1,5 +1,5 @@
 // Voice call > Region select
-.theme-dark .quickSelectPopout_abbf45 {
+.theme-dark .quickSelectPopout_ebaca5 {
     background: $MicaBackgroundFillColorBase;
     backdrop-filter: blur(16px);
     border: 1px solid $SurfaceStrokeColorDefault;
@@ -17,7 +17,7 @@
         }
         &.selected{
             background-color: $SubtleFillColorSecondary;
-            .check_ccb5ca{
+            .check__5621e{
                 display: none;
             }
             &::before{
@@ -32,7 +32,7 @@
             }
         }
     }
-    .regionSelectName_ccb5ca{
+    .regionSelectName__5621e{
         height: auto;
         @include TypeBody;
         color: $TextFillColorPrimary;

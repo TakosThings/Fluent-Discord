@@ -28,7 +28,7 @@
 }
 
 // Version info in sidebar
-.info_c5a741 .bd-text-muted{
+.info__2debe .bd-text-muted{
     color: $TextFillColorSecondary;
 }
 
@@ -269,7 +269,7 @@
             }
             &.selected{
                 background-color: $SubtleFillColorSecondary;
-                .check_ccb5ca{
+                .check__5621e{
                     display: none;
                 }
                 &::before{

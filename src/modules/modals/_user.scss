@@ -24,12 +24,12 @@
     }
 
     // Connected accounts
-    .connectedAccountContainer_ab12c6{
+    .connectedAccountContainer_e6abe8{
         padding: 8px;
-        .connectedAccountNameText_ab12c6{
+        .connectedAccountNameText_e6abe8{
             @include TypeBody;
         }
-        .anchor_af404b{
+        .anchor_edefb8{
             text-decoration: none;
             &::before{
                 content: "\E8A7";
@@ -43,14 +43,14 @@
     }
 
     // Mutual servers/friends
-    .listRow_d2d6cb{
+    .listRow__9d78f{
         border: 1px solid transparent;
         &:hover{
             background-color: $ControlFillColorDefault;
             border-color: $ControlStrokeColorDefault;
             border-radius: 4px;
         }
-        .listAvatar_d2d6cb{
+        .listAvatar__9d78f{
             border-radius: 50%;
         }
     }

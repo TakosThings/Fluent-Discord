@@ -1,46 +1,46 @@
-.theme-dark .title_a7d72e, // Normal toolbar
-.theme-dark .container_fc4f04{ // Browse channels toolbar
+.theme-dark .title_f75fb0, // Normal toolbar
+.theme-dark .container__9293f{ // Browse channels toolbar
     padding: 0 0 0 20px;
-    &.themed_fc4f04{
+    &.themed__9293f{
         background-color: transparent;
     }
     // Channel & MOTD
     // Remove hash symbol
-    .children_fc4f04{
+    .children__9293f{
         // Gradient at end of MOTD field
         &::after{
             display: none;
         }
-        .iconWrapper_fc4f04{
+        .iconWrapper__9293f{
             display: none;
         }
     }
     // Channel name
-    .title_fc4f04{
+    .title__9293f{
         @include TypeBodyStrong
     }
 
     // Remove divider
-    .divider_fc4f04{
+    .divider__9293f{
         display: none;
     }
 
     // MOTD
-    .topic_bf3bbb{
+    .topic__6ec1a{
         color: $TextFillColorPrimary;
         @include TypeBody;
     }
 
     // Add some margin to the caret when in fullscreen thread view
-    .caret_fc4f04{
+    .caret__9293f{
         margin-right: 8px;
     }
 }
 
 // Toolbar
-.theme-dark .toolbar_fc4f04{
+.theme-dark .toolbar__9293f{
     // Using these selectors so there are fewer conflicts in the voice screen
-    div[role=button]:not(.iconLayout_effbe2), // :not excludes the search/clear button in the search bar
+    div[role=button]:not(.iconLayout_fea832), // :not excludes the search/clear button in the search bar
     button[type=button]{
         width: 60px;
         height: 32px;
@@ -59,7 +59,7 @@
         }
 
         // Selected
-        &.selected_fc4f04{
+        &.selected__9293f{
             background-color: $AccentFillColorSecondary;
             &::before{
                 color: $TextOnAccentFillColorPrimary;
@@ -79,7 +79,7 @@
         left: 38px;
         @include TypeCaption;
     }
-    .iconBadge_fc4f04{
+    .iconBadge__9293f{
         width: 16px;
         height: 3px;
         right: 22px;
@@ -91,8 +91,8 @@
 }
 
 // Icon replacements
-html[lang^="en-"].theme-dark .toolbar_fc4f04{
-    .iconWrapper_fc4f04{
+html[lang^="en-"].theme-dark .toolbar__9293f{
+    .iconWrapper__9293f{
         &::before{
             @include FontIconFluent;
             width: 60px;
@@ -103,7 +103,7 @@ html[lang^="en-"].theme-dark .toolbar_fc4f04{
             display: block;
         }
         // Remove default icon
-        .icon_fc4f04,
+        .icon__9293f,
         .controlIcon-35oS15{
             display: none;
         }

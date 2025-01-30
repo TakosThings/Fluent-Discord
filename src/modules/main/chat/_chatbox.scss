@@ -1,5 +1,5 @@
-.theme-dark .form_a7d72e, // Main chatbox
-.theme-dark .submitContainer_fb4810{ // Thread start
+.theme-dark .form_f75fb0, // Main chatbox
+.theme-dark .submitContainer_fb64c9{ // Thread start
     margin-top: 0;
     padding-right: 17px;
     padding-left: 15px;
@@ -9,8 +9,8 @@
         display: none;
     }
 
-    .channelTextArea_a7d72e,
-    .channelTextArea_bdf0de{
+    .channelTextArea_f75fb0,
+    .channelTextArea__74017{
         margin-bottom: 8px;
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
@@ -25,36 +25,36 @@
             border-bottom-color: $AccentBase;
         }
     }
-    .themedBackground_bdf0de{
+    .themedBackground__74017{
         background: transparent;
     }
-    .scrollableContainer_bdf0de{
+    .scrollableContainer__74017{
         background-color: transparent;
         border-radius: 4px;
         overflow-y: auto;
     }
 
-    .sansAttachButton_bdf0de {
+    .sansAttachButton__74017 {
         padding-left: 0;
     }
 
     // User's input text
-    .textArea_bdf0de{
+    .textArea__74017{
         height: 45px;
         min-height: 45px;
     }
-    .slateTextArea_e52116{
+    .slateTextArea_ec4baf{
         right: 8px;
         left: 8px;
         color: $TextFillColorPrimary;
-        &.placeholder_a552a6 {
+        &.placeholder__1b31f {
             color: $TextFillColorSecondary;
         }
     }
 
 
     // Upload button
-    .attachButton_bdf0de {
+    .attachButton__74017 {
         width: 32px;
         height: 32px;
         margin: 6px 0 6px 6px;
@@ -74,18 +74,18 @@
                 color: $TextFillColorPrimary;
             }
         }
-        .contents_dd4f85{
+        .contents__201d5{
             display: none;
         }
     }
     // Upload button when command is entered
-    .hasStackedBar_bdf0de .attachButton_bdf0de {
+    .hasStackedBar__74017 .attachButton__74017 {
         // Hide our upload icon
         &::before{
             content: "";
         }
         // Position the slash icon
-        .icon_da5ed7{
+        .icon__4d3a9{
             padding: 4px;
         }
         // Remove hover effects
@@ -98,7 +98,7 @@
     // Bot command bot icon
     // NOTE - 2022-12-18: This can be tested using the `/embed create` command from Carl-bot
     // NOTE - 2022-12-18: `:not(button)` is required because the normal attach button uses the same class
-    .attachButton_bdf0de :not(button){
+    .attachButton__74017 :not(button){
         margin-left: 0;
     }
 
@@ -110,7 +110,7 @@
     .expression-picker-chat-input-button{
         margin: 6px 4px 6px 0;
         align-items: flex-start;
-        .button_dd4f85{
+        .button__201d5{
             height: 32px;
             width: 32px;
             border: 1px solid transparent;
@@ -120,8 +120,8 @@
                 font-size: 18px;
             }
             &:hover,
-            &.active_f9af59,
-            &.emojiButtonHovered_d91a75{
+            &.active__24af7,
+            &.emojiButtonHovered__04eed{
                 background-color: $ControlFillColorDisabled;
                 border-color: $ControlStrokeColorDefault;
                 &::before{
@@ -135,48 +135,48 @@
         }
 
         // Always hide the emoji button icon since it can be directly selected
-        .emojiButton_d91a75{
-            .contents_dd4f85{
+        .emojiButton__04eed{
+            .contents__201d5{
                 display: none;
             }
         }
 
         // Replace sticker icon
-        .contents_dd4f85.stickerButton_bdf0de{
+        .contents__201d5.stickerButton__74017{
             &::before{
                 content: "\F4AA"; // Sticker2
                 @include FontIconFluent;
                 font-size: 18px;
             }
-            .lottieIcon_f73ef7{
+            .lottieIcon__5eb9b{
                 display: none !important; // Override in-line
             }
         }
 
         // Replace GIF icon
-        .button_dd4f85[aria-label*="GIF"]{
-            .contents_dd4f85{
+        .button__201d5[aria-label*="GIF"]{
+            .contents__201d5{
                 &::before{
                     content: "\F4A9"; // GIF
                     @include FontIconFluent;
                     font-size: 18px;
                 }
-                .lottieIcon_f73ef7{
+                .lottieIcon__5eb9b{
                     display: none !important; // Override in-line
                 }
             }
         }
 
     }
-    .buttons_bdf0de{
+    .buttons__74017{
         height: unset;
         margin-right: 0;
         // Remove gift
-        & > .button_dd4f85{
+        & > .button__201d5{
             display: none;
         }
         // Set a static emoji icon
-        .emojiButton_d91a75{
+        .emojiButton__04eed{
             margin: 0 4px 0 0;
             &::before{
                 content: "\E76E"; //Emoji2
@@ -187,13 +187,13 @@
         }
 
         // Send button
-        .separator_a06035{
+        .separator_aa63ab{
             margin-top: 6px;
             margin-left: -4px;
             &::before{
                 display: none;
             }
-            .button_dd4f85{
+            .button__201d5{
                 width: 32px;
                 height: 32px;
                 margin-right: 4px;
@@ -209,7 +209,7 @@
                 &:hover:not(:disabled):before{
                     color: $TextFillColorPrimary;
                 }
-                .contents_dd4f85{
+                .contents__201d5{
                     display: none;
                 }
             }
@@ -217,7 +217,7 @@
     }
 
     // Is Typing
-    .typing_d7ebeb{
+    .typing_b88801{
         height: 20px;
         top: -20px;
         right: 16px;
@@ -241,27 +241,27 @@
             }
         }
         // Slowmode font-weight
-        .cooldownWrapper_f85cd6{
+        .cooldownWrapper_b21699{
             font-weight: normal;
         }
         // Fix position of countdown timer
-        .text_d7ebeb:not(:empty) + .cooldownWrapper_f85cd6{
+        .text_b88801:not(:empty) + .cooldownWrapper_b21699{
             margin-bottom: 14px;
         }
     }
 
     // Various chatbox states
     // Announce channel follow
-    .wrapper_faf5ab{
+    .wrapper__44df5{
         margin-bottom: 16px;
         background-color: $ControlFillColorDisabled;
         border: 1px solid $ControlStrokeColorDefault;
         // Remove image
-        .content_faf5ab{
+        .content__44df5{
             img{
                 display: none;
             }
-            .title_faf5ab{
+            .title__44df5{
                 color: $TextFillColorDisabled !important; // Override inline
                 @include TypeBody;
             }
@@ -270,20 +270,20 @@
 
     // No permission
     .textAreaDisabled_d0696b{
-        .placeholder_a552a6{
+        .placeholder__1b31f{
             color: $TextFillColorSecondary;
             @include TypeBody;
         }
     }
 
     // Showing command help
-    .stackedBars_bdf0de{
+    .stackedBars__74017{
         background-color: $CardStrokeColorDefaultSolid;
         border-radius: 4px 4px 0 0;
-        .name_f60904{
+        .name__84522{
             @include TypeBody;
         }
-        .option_bea3ee{
+        .option_a19535{
             margin-left: 0;
             @include TypeBody;
             &::before{
@@ -293,52 +293,52 @@
                 content: "}";
             }
 
-            &.active_bea3ee{
+            &.active_a19535{
                 background-color: transparent !important;
             }
         }
     }
 
     // Replying to message
-    .clipContainer_b11c5e{
+    .clipContainer__841c8{
         margin-top: 0;
     }
-    .replyBar_b11c5e{
+    .replyBar__841c8{
         background-color: transparent;
-        .replyLabel_b11c5e{
+        .replyLabel__841c8{
             color: $TextFillColorPrimary;
         }
     }
 
     // Hide 'game support game invites' message
-    .activityInviteEducation_d7ebeb, // Main chatbox
+    .activityInviteEducation_b88801, // Main chatbox
     .applicationCommandEducation-1stoia{ // Thread
         display: none;
     }
 
     // App launcher
-    .channelAppLauncher_df39bd{
+    .channelAppLauncher_e6e74f{
         margin-bottom: 8px;
         margin-left: 8px;
         // Icon replacement
         .app-launcher-entrypoint{
-            .contents_dd4f85::before{
+            .contents__201d5::before{
                 content: "\ED35"; // Apps
                 @include FontIconFluent;
                 font-size: 18px;
                 color: $TextFillColorSecondary;
             }
-            &:hover .contents_dd4f85::before{
+            &:hover .contents__201d5::before{
                 color: $TextFillColorPrimary;
             }
-            &.buttonActive_df39bd::before{
+            &.buttonActive_e6e74f::before{
                 color: $TextFillColorPrimary;
             }
-            .lottieIcon_f73ef7{
+            .lottieIcon__5eb9b{
                 display: none !important;
             }
         }
-        .button_df39bd{
+        .button_e6e74f{
             width: 48px;
             height: 48px;
             background-color: $ControlFillColorDefault;
@@ -349,7 +349,7 @@
             &:hover{
                 background-color: $ControlFillColorSecondary;
             }
-            &.buttonActive_df39bd{
+            &.buttonActive_e6e74f{
                 background-color: $ControlFillColorTertiary;
             }
         }

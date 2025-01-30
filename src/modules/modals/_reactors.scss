@@ -1,14 +1,14 @@
-.theme-dark .container_f2bfbb{
-    .scroller_f2bfbb{
+.theme-dark .container_cc2dff{
+    .scroller_cc2dff{
         background-color: $CardBackgroundFillColorDefault;
     }
 
-    .reactionDefault_f2bfbb{
+    .reactionDefault_cc2dff{
         &:hover{
             background-color: $SubtleFillColorSecondary;
         }
     }
-    .reactionSelected_f2bfbb{
+    .reactionSelected_cc2dff{
         position: relative;
         background-color: $SubtleFillColorSecondary;
         &::before{
@@ -23,15 +23,15 @@
         }
     }
 
-    .reactors_f2bfbb{
+    .reactors_cc2dff{
         background-color: transparent;
     }
 
-    .name_f2bfbb{
+    .name_cc2dff{
         @include TypeBody;
         color: $TextFillColorPrimary;
     }
-    .username_f2bfbb{
+    .username_cc2dff{
         opacity: 1;
         @include TypeBody;
         color: $TextFillColorSecondary;

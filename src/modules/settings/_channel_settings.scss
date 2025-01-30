@@ -1,16 +1,16 @@
-.theme-dark .contentColumn_c25c6d{
+.theme-dark .contentColumn__23e6b{
     // Permissions
     // Fix header
     &#permissions-tab{
-        .title_c46f6a{
+        .title_b717a1{
             @include TypeTitle;
         }
 
         // Advanced permissions
         // Header
-        .advancedModeDivider_cd9517 ~ .button_dd4f85{
+        .advancedModeDivider__4914c ~ .button__201d5{
             margin-top: 32px;
-            .contents_dd4f85{
+            .contents__201d5{
                 h2{
                     @include TypeBodyStrong;
                 }
@@ -30,8 +30,8 @@
         }
 
         // The permissions
-        .permissionsForm_a49993{
-            .flex_dc333f.vertical_ec1a20{
+        .permissionsForm__0ab2c{
+            .flex__7c0ba.vertical_abf706{
                 margin-bottom: 8px;
                 padding: 8px 16px;
                 background-color: $CardBackgroundFillColorDefault;
@@ -41,7 +41,7 @@
                     @include TypeBody;
                     line-height: 32px;
                 }
-                .description_b89ec7{
+                .description_ddd181{
                     margin-right: 100px;
                     @include TypeCaption;
                 }

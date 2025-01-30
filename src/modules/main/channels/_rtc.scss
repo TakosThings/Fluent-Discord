@@ -1,29 +1,29 @@
-.theme-dark .container_adcaac{
+.theme-dark .container_e131a9{
     background-color: transparent;
     border-top: 0;
     border-bottom: 0;
     padding-bottom: 0;
 
     // Connection status/disconnect
-    .connection_adcaac{
+    .connection_e131a9{
         height: 32px;
     }
     .rtcConnectionStatus_c0cb95{
         padding-bottom: 0;
         @include TypeBody;
-        .button_dd4f85{
+        .button__201d5{
             line-height: 16px;
         }
     }
-    .subtext_be40e6{
+    .subtext__339d0{
         @include TypeCaption;
     }
-    .voiceUsers_fb2f1c{
+    .voiceUsers__68617{
         padding-top: 4px;
     }
 
     // Video/screen share buttons
-    .actionButtons_adcaac{
+    .actionButtons_e131a9{
         grid-gap: 4px;
         // !importants to make these appear as 'default' button instead of accent
         button{
@@ -39,7 +39,7 @@
                 background-color: $ControlFillColorTertiary !important;
             }
 
-            .contents_dd4f85{
+            .contents__201d5{
                 // Display: flex required to fix alignment of soundboard icon when using non-English - see #249
                 display: flex;
                 font-size: 0;
@@ -49,14 +49,14 @@
             }
         }
         // Hide buttons when you don't have permission. This also hides the soundboard when you are muted
-        .disabledButtonWrapper_dd4f85{
+        .disabledButtonWrapper__201d5{
             display: none;
         }
     }
 }
 
 // Streaming game/app
-.theme-dark .activityPanel_a4d4d9{
+.theme-dark .activityPanel_c48ade{
     background-color: transparent;
     padding-bottom: 0;
     border-top: 0;
@@ -67,20 +67,20 @@
 }
 
 // Icons
-html[lang^="en-"].theme-dark .panels_a4d4d9 .button_dd4f85{
+html[lang^="en-"].theme-dark .panels_c48ade .button__201d5{
     &::before{
         @include FontIconFluent;
         font-size: 16px;
     }
-    .contents_dd4f85{
+    .contents__201d5{
         display: none;
     }
 }
 
 // Fix connection status text not appearing
-.rtcConnectionStatus_c02c63 .contents_dd4f85{
+.rtcConnectionStatus__06d62 .contents__201d5{
     display: block !important;
-    .rtcConnectionStatusLabel_c02c63{
+    .rtcConnectionStatusLabel__06d62{
         font-weight: 500;
     }
 }

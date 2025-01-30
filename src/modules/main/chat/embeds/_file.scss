@@ -1,4 +1,4 @@
-.theme-dark .fileWrapper_f46c86{
+.theme-dark .fileWrapper__0ccae{
     width: 400px;
     position: relative;
     background-color: $CardBackgroundFillColorDefault;
@@ -8,7 +8,7 @@
 
     img{
         display: none;
-        & ~ .fileInner_f46c86{
+        & ~ .fileInner__0ccae{
             position: relative;
             padding-left: 40px;
             &::before{
@@ -19,36 +19,36 @@
                 @include FontIconFluent;
                 font-size: 24px;
             }
-            .filenameLinkWrapper_f46c86 a{
+            .filenameLinkWrapper__0ccae a{
                 line-height: 20px;
             }
         }
 
     }
 
-    img[title="acrobat"] ~ .fileInner_f46c86::before{
+    img[title="acrobat"] ~ .fileInner__0ccae::before{
         content: "\ea90"; // PDF
     }
-    img[title="archive"] ~ .fileInner_f46c86::before{
+    img[title="archive"] ~ .fileInner__0ccae::before{
         content: "\f012"; // ZipFolder
     }
-    img[title="document"] ~ .fileInner_f46c86::before{
+    img[title="document"] ~ .fileInner__0ccae::before{
         content: "\f000"; // KnowledgeArticle
     }
-    img[title="spreadsheet"] ~ .fileInner_f46c86::before{
+    img[title="spreadsheet"] ~ .fileInner__0ccae::before{
         content: "\E9F9"; // ReportDocument
     }
-    img[title="unknown"] ~ .fileInner_f46c86::before{
+    img[title="unknown"] ~ .fileInner__0ccae::before{
         content: "\e9ce"; // Unknown
     }
 
-    img[title="ae"] ~ .fileInner_f46c86::before,
-    img[title="ai"] ~ .fileInner_f46c86::before,
-    img[title="sketch"] ~ .fileInner_f46c86::before{
+    img[title="ae"] ~ .fileInner__0ccae::before,
+    img[title="ai"] ~ .fileInner__0ccae::before,
+    img[title="sketch"] ~ .fileInner__0ccae::before{
         content: "\e8a5"; // Document
     }
 
-    .metadata_f46c86{
+    .metadata__0ccae{
         color: $TextFillColorSecondary;
         @include TypeCaption;
         font-weight: normal;

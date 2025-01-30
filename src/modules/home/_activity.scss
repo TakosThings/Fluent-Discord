@@ -1,46 +1,46 @@
-.theme-dark .nowPlayingColumn_c2739c{
+.theme-dark .nowPlayingColumn__133bf{
     background: transparent;
-    .container_bf550a{
+    .container__7d20c{
         background-color: $LayerFillColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
     }
-    .scroller_bf550a{
+    .scroller__7d20c{
         border: 0;
     }
 
     // Header
-    .header_bf550a{
+    .header__7d20c{
         @include TypeSubtitle;
     }
 
     // User data consent card
-    .card_ae5e0b.outer_ac5d22{
+    .card__2eab1.outer_bf1984{
         background-color: $LayerFillColorDefault;
-        .header_ae5e0b,
+        .header__2eab1,
         .defaultColor__77578 {
             text-align: left;
         }
     }
 
     // Card
-    .wrapper_cd82a7{
+    .wrapper__00943{
         background-color: $LayerFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         &:hover{
             background-color: $LayerFillColorAlt;
         }
     }
-    .inset_ac5d22{
+    .inset_bf1984{
         background-color: $LayerFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 4px;
-        .section_cd82a7{
+        .section__00943{
             background-color: transparent;
         }
     }
 
     // Empty
-    .emptyCard_f02fcf{
+    .emptyCard__7e549{
         background-color: $LayerFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         align-items: baseline;

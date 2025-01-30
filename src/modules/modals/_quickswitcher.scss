@@ -1,4 +1,4 @@
-.theme-dark .quickswitcher_f4e139{
+.theme-dark .quickswitcher_ac6cb0{
     height: 100%;
     background-color: $SolidBackgroundFillColorBase;
 
@@ -9,7 +9,7 @@
         color: $TextFillColorPrimary;
     }
 
-    .input_f4e139{
+    .input_ac6cb0{
         height: 32px;
         background-color: transparent;
         border: 1px solid;
@@ -34,7 +34,7 @@
     }
 
     // Scroll content
-    .scroller_f4e139 {
+    .scroller_ac6cb0 {
         max-height: unset;
         margin-top: 12px;
         margin-right: -4px;
@@ -42,13 +42,13 @@
         overflow-y: auto !important; // Override inline
     }
 
-    .header_e3c1c6{
+    .header__71961{
         @include TypeBodyStrong;
         color: $TextFillColorPrimary;
         text-transform: none;
     }
 
-    .result_e3c1c6{
+    .result__71961{
         &[aria-selected=true]{
             background-color: $SubtleFillColorSecondary;
             &::before{
@@ -63,12 +63,12 @@
             }
         }
 
-        .name_e3c1c6{
+        .name__71961{
             @include TypeBody;
             color: $TextFillColorPrimary;
             line-height: 32px;
-            .username_e3c1c6,
-            .note_e3c1c6{
+            .username__71961,
+            .note__71961{
                 margin: 0;
                 opacity: 1;
                 @include TypeCaption;
@@ -76,7 +76,7 @@
                 text-transform: none;
             }
         }
-        .miscContainer_f4e139{
+        .miscContainer_ac6cb0{
             opacity: 1;
             @include TypeBody;
             color: $TextFillColorTertiary;
@@ -84,23 +84,23 @@
     }
 
     // Footer
-    .protip_f4e139{
-        .pro_b5053a{
+    .protip_ac6cb0{
+        .pro__30cbe{
             display: none;
         }
-        .tip_b5053a{
+        .tip__30cbe{
             @include TypeCaption;
             color: $TextFillColorSecondary;
             opacity: 1;
         }
-        .autocompleteQuerySymbol_f4e139{
+        .autocompleteQuerySymbol_ac6cb0{
             background-color: transparent;
             @include FontMonospace;
         }
     }
 
     // Remove 'tutorial'
-    .tutorial_c36bbe{
+    .tutorial__73f2a{
         display: none;
     }
 }

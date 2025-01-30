@@ -1,12 +1,12 @@
-.theme-dark .button_dd4f85{
+.theme-dark .button__201d5{
     border-radius: 4px;
     @include TypeBody;
 
     // Sizes
-    &.sizeMin_dd4f85, // eg. Add server 'back' buttons
-    &.sizeSmall_dd4f85,
-    &.sizeMedium_dd4f85, // eg. Create new server
-    &.sizeLarge_dd4f85, // eg. Add a keybind
+    &.sizeMin__201d5, // eg. Add server 'back' buttons
+    &.sizeSmall__201d5,
+    &.sizeMedium__201d5, // eg. Create new server
+    &.sizeLarge__201d5, // eg. Add a keybind
     &.sizeXlarge__6885c{ // eg. Untrusted link modal
         min-width: 120px;
         min-height: 32px;
@@ -14,10 +14,10 @@
     }
 
     // Filled buttons
-    &.lookFilled_dd4f85{
+    &.lookFilled__201d5{
         // Brand buttons
-        &.colorBrand_dd4f85,
-        &.colorGreen_dd4f85, // Join server terms modal
+        &.colorBrand__201d5,
+        &.colorGreen__201d5, // Join server terms modal
         &.colorBrandNew__8872c{ // eg. User Settings > Accessibility > TTS Rate
             background-color: $AccentFillColorDefault;
             border-width: 1px;
@@ -32,9 +32,9 @@
             }
         }
         // Grey
-        &.colorPrimary_dd4f85,
+        &.colorPrimary__201d5,
         &.buttonColor_dfbe6b, // "Example Button" in User Settings>Profile
-        &.buttonColor_d4af21{ // Voice screen invite button
+        &.buttonColor__7b3e8{ // Voice screen invite button
             background-color: $ControlFillColorDefault;
             border-width: 1px;
             border-style: outset;
@@ -49,7 +49,7 @@
         }
 
         // Red
-        &.colorRed_dd4f85{
+        &.colorRed__201d5{
             background-color: $SystemFillColorCriticalBackground;
             color: $SystemFillColorCritical;
             &:hover{
@@ -72,8 +72,8 @@
     }
 
     // Outlined
-    &.lookOutlined_dd4f85{
-        &.colorBrand_dd4f85{ // eg. Request Data
+    &.lookOutlined__201d5{
+        &.colorBrand__201d5{ // eg. Request Data
             border-color: $ControlStrokeColorDefault;
             color: $TextFillColorPrimary;
             &:hover{
@@ -83,7 +83,7 @@
                 background-color: $ControlFillColorTertiary;
             }
         }
-        &.colorRed_dd4f85{
+        &.colorRed__201d5{
             border-color: $SystemFillColorCritical;
             color: $SystemFillColorCritical;
             &:hover{
@@ -98,9 +98,9 @@
     }
 
     // Blank
-    &.lookBlank_dd4f85{ // eg. Add server 'back' buttons
+    &.lookBlank__201d5{ // eg. Add server 'back' buttons
         color: $TextFillColorPrimary;
-        &.backButton_f5507e{
+        &.backButton__78f69{
             background-color: $ControlFillColorDefault;
             border-width: 1px;
             border-style: outset;
@@ -116,7 +116,7 @@
     }
 
     // Link button
-    &.lookLink_dd4f85{ // eg. Reveal email button
+    &.lookLink__201d5{ // eg. Reveal email button
         background-color: $ControlFillColorDefault;
         border-width: 1px;
         border-style: outset;
@@ -124,7 +124,7 @@
         color: $TextFillColorPrimary;
         &:hover{
             background-color: $ControlFillColorSecondary;
-            .contents_dd4f85{
+            .contents__201d5{
                 background-image: none;
             }
         }

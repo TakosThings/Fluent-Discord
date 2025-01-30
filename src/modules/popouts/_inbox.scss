@@ -1,4 +1,4 @@
-.theme-dark .recentMentionsPopout_ddb5b4{
+.theme-dark .recentMentionsPopout__95796{
     // NOTE - 2022-06-08: Calculation is based on: 100vh - titlebar - toolbar - (margin-top + margin-bottom)
     max-height: calc(100vh - 32px - 48px - 16px) !important;  // Override inline
     margin: 8px;
@@ -7,11 +7,11 @@
     border: 1px solid $SurfaceStrokeColorDefault;
     border-radius: 8px;
 
-    .header_f0cd33 {
+    .header_ab6641 {
         background-color: transparent;
         // Tabs
-        .topPill_a0{
-            .tab_f0cd33 {
+        .topPill_b3f026{
+            .tab_ab6641 {
                 padding-left: 0;
                 padding-right: 0;
                 margin-right: 16px;
@@ -43,10 +43,10 @@
     }
 
     // No messages
-    .iconContainer_b0914a{
+    .iconContainer_d404a3{
         display: none;
     }
-    .header_b0914a{
+    .header_d404a3{
         margin-bottom: 24px;
         @include TypeBodyLarge;
     }
@@ -54,25 +54,25 @@
     // Results
     // Mentions
     // NOTE: 2023-01-04 - Mentions tab scroller uses a different class which doesn't have L/R padding
-    .scroller_ddb5b4 {
+    .scroller__95796 {
         padding: 0 0 0 16px;
     }
 
-    .container_ddb5b4, // Mentions
-    .channel_d09ffd{ // Unreads
+    .container__95796, // Mentions
+    .channel__427f0{ // Unreads
         padding-bottom: 16px;
-        .channelHeader_f3978e{
+        .channelHeader__35a7e{
             top: -1px;
             padding-right: 16px; // Fixes dismiss buttons butting up on right side
             background-color: $SolidBackgroundFillColorSecondary;
             border-radius: 4px 4px 0 0;
-            .guildIcon_f3978e {
+            .guildIcon__35a7e {
                 background-color: transparent;
                 border-radius: 50%;
             }
         }
-        .messageContainer_ddb5b4, // Mentions
-        .messages_c06487{ // Unreads
+        .messageContainer__95796, // Mentions
+        .messages__1ccd1{ // Unreads
             margin-left: 0;
             background-color: $CardBackgroundFillColorDefault;
             border: 1px solid $CardStrokeColorDefault;
@@ -81,11 +81,11 @@
     }
 
     // Unread headers have a collapse button
-    .channel_d09ffd{
-        .channelHeader_f3978e{
+    .channel__427f0{
+        .channelHeader__35a7e{
             padding-left: 48px;
         }
-        .collapseButton_d09ffd{
+        .collapseButton__427f0{
             left: 16px;
             &::before{
                 content: "\E70D";

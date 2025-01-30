@@ -1,13 +1,13 @@
-.theme-dark .container_cbd271{
+.theme-dark .container_c8ffbb{
     background: $LayerOnMicaBaseAltFillColor;
     border-left: 1px solid $CardStrokeColorDefault;
 
-    .members_cbd271{
+    .members_c8ffbb{
         background-color: transparent;
     }
 
     // Group header
-    .membersGroup_cbd271{
+    .membersGroup_c8ffbb{
         padding: 20px 8px 0 15px;
     }
     .container_cc72c1{
@@ -18,23 +18,23 @@
 
 
     // Member
-    .container_d808b0{
+    .container__91a9d{
         margin-left: 7px;
         background: transparent;
         color: $TextFillColorPrimary;
         // Greyscale offline avatars
-        &.offline_a31c43{
-            .avatar_d808b0{
+        &.offline__5d473{
+            .avatar__91a9d{
                 filter: grayscale(100%);
             }
             &:hover{
-                .avatar_d808b0{
+                .avatar__91a9d{
                     filter: grayscale(0%);
                 }
             }
         }
     }
-    .layout_d808b0{
+    .layout__91a9d{
         border: 1px solid transparent;
         &:hover{
             background-color: $SubtleFillColorSecondary;
@@ -59,7 +59,7 @@
         }
     }
     // Selected (user popout open)
-    .selected_d808b0 .layout_d808b0{
+    .selected__91a9d .layout__91a9d{
         background-color: $SubtleFillColorSecondary;
         border-color: $SubtleFillColorSecondary;
         &::before{
@@ -70,11 +70,11 @@
         }
     }
     // Username
-    .name_d808b0{
+    .name__91a9d{
         @include TypeBody;
     }
     // Activity
-    .activity_a31c43{
+    .activity__5d473{
         @include TypeCaption;
         color: $TextFillColorSecondary;
         strong{
@@ -83,11 +83,11 @@
     }
 
     // Activity
-    .container_c64476{
+    .container__0f2e8{
         background-color: transparent;
         border: 1px solid transparent;
         border-radius: 4px;
-        &.selected_c64476{
+        &.selected__0f2e8{
             background-color: $SubtleFillColorSecondary;
             border-color: $SubtleFillColorSecondary;
         }
@@ -96,6 +96,6 @@
 
 // Remove avatar borders/decorations
 // This also removes them from user profile popouts and modals, but not cozy chat.
-.avatarDecoration_c51b4e{
+.avatarDecoration__44b0c{
     display: var(--fluent-show-avatar-decorations);
 }

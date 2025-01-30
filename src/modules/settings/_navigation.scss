@@ -1,22 +1,22 @@
-.theme-dark .sidebarRegion_c25c6d{
+.theme-dark .sidebarRegion__23e6b{
     flex: 0;
 }
 // Hide scrollbar when not required
-.theme-dark .sidebarRegionScroller_c25c6d {
+.theme-dark .sidebarRegionScroller__23e6b {
     background-color: transparent;
 }
 
-.theme-dark .sidebar_c25c6d{
+.theme-dark .sidebar__23e6b{
     // NOTE: 2023-06-13 - 6px to account for the scrollbar
     width: calc(320px - 6px);
     padding: 40px 4px;
 
-    .searchBar_e7c031 {
+    .searchBar_c7e907 {
         margin-left: 8px;
     }
 
     // Section header
-    .side_a0 .eyebrow_dc00ef{
+    .side_b3f026 .eyebrow_cf4812{
         padding: 0 0 0 8px;
         @include TypeBodyStrong;
         color: $TextFillColorPrimary;
@@ -25,12 +25,12 @@
         svg{
             display: none;
         }
-        .category_c394c4{
+        .category__3ddc0{
             @include TypeCaption;
         }
     }
 
-    .side_a0 .item_a0{
+    .side_b3f026 .item_b3f026{
         padding: 0 12px 0 16px;
         margin-bottom: 4px;
         border: 1px solid transparent;
@@ -58,7 +58,7 @@
             transition: transform 167ms Cubic-bezier(0,0,0,1),
                         opacity 167ms Cubic-bezier(0,0,0,1);
         }
-        &.selected_a0{
+        &.selected_b3f026{
             background-color: $SubtleFillColorSecondary;
             &::before{
                 transform: scaleY(100%);
@@ -69,26 +69,26 @@
         }
         // Special cases
         // Remove right side Nitro icon (may differ in some regions)
-        .premiumLabel_ae3c77 svg{
+        .premiumLabel_e681d1 svg{
             display: none;
         }
         // Remove background div from nitro option
-        .selectedBackground_ae3c77{
+        .selectedBackground_e681d1{
             display: none;
         }
         // Delete channel trash icon
-        .tabBarItemContainer_e7c031{
+        .tabBarItemContainer_c7e907{
             svg{
                 display: none;
             }
         }
     }
     // Divider
-    .side_a0 .separator_a0{
+    .side_b3f026 .separator_b3f026{
         margin: 0 -8px;
     }
 
-    .info_c5a741{
+    .info__2debe{
         // Make all version info match colours
         span{
             color: $TextFillColorSecondary !important; // Override inline

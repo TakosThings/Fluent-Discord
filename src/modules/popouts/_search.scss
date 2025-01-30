@@ -1,16 +1,16 @@
-.theme-dark .container_eedf95{
+.theme-dark .container__55c99{
     background: $MicaBackgroundFillColorBase;
     backdrop-filter: blur(16px);
     border: 1px solid $SurfaceStrokeColorDefault;
     border-radius: 8px;
 
-    .header_b0286e{
+    .header__56fec{
         @include TypeBodyStrong;
         color: $TextFillColorPrimary;
         text-transform: none;
     }
 
-    .option_b0286e{
+    .option__56fec{
         margin: 1px 10px;
         height: 32px;
         border: 1px solid transparent;
@@ -23,36 +23,36 @@
             display: none;
         }
 
-        .filter_b0286e,
-        .answer_b0286e,
-        .displayedNick_b0286e,
-        .displayUsername_b0286e,
-        .nonText_b0286e,
+        .filter__56fec,
+        .answer__56fec,
+        .displayedNick__56fec,
+        .displayUsername__56fec,
+        .nonText__56fec,
         strong{
             @include TypeBody;
         }
 
-        .filter_b0286e,
-        .displayedNick_b0286e,
+        .filter__56fec,
+        .displayedNick__56fec,
         strong{
             color: $TextFillColorPrimary;
             @include TypeBody;
         }
-        .answer_b0286e,
-        .displayUsername_b0286e{
+        .answer__56fec,
+        .displayUsername__56fec{
             color: $TextFillColorSecondary;
             @include TypeBody;
         }
     }
-    .resultsGroup_b0286e .resultsGroup_b0286e,
-    .resultsGroup_b0286e .searchLearnMore_b0286e{
+    .resultsGroup__56fec .resultsGroup__56fec,
+    .resultsGroup__56fec .searchLearnMore__56fec{
         top: 16px;
     }
 
     // "Search for..." header
-    .queryContainer_eedf95{
+    .queryContainer__55c99{
         background-color: $CardStrokeColorDefault;
-        queryText_eedf95{
+        queryText__55c99{
             @include TypeBody;
             color: $TextFillColorPrimary;
             text-transform: none;

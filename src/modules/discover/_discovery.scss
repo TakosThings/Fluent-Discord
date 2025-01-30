@@ -10,8 +10,8 @@
         border-radius: 8px 0 0 0;
     }
 
-    .sidebar_a4d4d9{
-        .container_d808b0{
+    .sidebar_c48ade{
+        .container__91a9d{
             height: 32px;
             margin-bottom: 2px;
             position: relative;
@@ -21,16 +21,16 @@
                 padding: 0 8px;
             }
 
-            .avatar_d808b0{
+            .avatar__91a9d{
                 width: 16px;
                 height: 16px;
             }
-            .name_d808b0{
+            .name__91a9d{
                 @include TypeBody;
                 color: $TextFillColorPrimary;
             }
 
-            &.selected_d808b0{
+            &.selected__91a9d{
                 .itemInner_c72b37{
                     background-color: $SubtleFillColorSecondary;
                 }

@@ -14,11 +14,11 @@
 	100% { transform: rotate(140deg); }
 }
 
-.spinner_b6db20{
-    .inner_b6db20:not(.pulsingEllipsis_b6db20){
+.spinner__0b5bb{
+    .inner__0b5bb:not(.pulsingEllipsis__0b5bb){
         display: block;
         animation: fluent-loading-circle 1s linear infinite;
-        .item_b6db20:first-child{
+        .item__0b5bb:first-child{
             width: 32px;
             height: 32px;
             position: absolute;
@@ -40,7 +40,7 @@
                 box-sizing: border-box;
             }
         }
-        .item_b6db20:last-child{
+        .item__0b5bb:last-child{
             display: none;
         }
     }
