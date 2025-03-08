@@ -9,19 +9,38 @@
     // Group header
     .membersGroup_c8ffbb{
         padding: 20px 8px 0 15px;
-    }
-    .container_cc72c1{
         color: $TextFillColorPrimary;
         @include TypeBodyStrong;
         text-transform: none;
     }
 
-
     // Member
     .container__91a9d{
         margin-left: 7px;
         background: transparent;
+        border: 1px solid transparent;
         color: $TextFillColorPrimary;
+        &:hover{
+            background-color: $SubtleFillColorSecondary;
+            border-color: $SubtleFillColorSecondary;
+            .childContainer__91a9d{
+                background-color: transparent;
+            }
+        }
+        // Selected (user popout open)
+        &.selected__91a9d{
+            background-color: $SubtleFillColorSecondary;
+            border-color: $SubtleFillColorSecondary;
+            &::before{
+                transform: scaleY(100%);
+                opacity: 1;
+                transition: transform 250ms Cubic-bezier(0.55,0.55,0,1),
+                            opacity 250ms Cubic-bezier(0.55,0.55,0,1);
+            }
+            .childContainer__91a9d{
+                background-color: transparent;
+            }
+        }
         // Greyscale offline avatars
         &.offline__5d473{
             .avatar__91a9d{
@@ -34,41 +53,7 @@
             }
         }
     }
-    .layout__91a9d{
-        border: 1px solid transparent;
-        &:hover{
-            background-color: $SubtleFillColorSecondary;
-            border-color: $SubtleFillColorSecondary;
-        }
-        &::before{
-            content: "";
-            width: 3px;
-            height: 16px;
-            position: absolute;
-            width: 3px;
-            height: 16px;
-            top: 16px;
-            left: 0;
-            background-color: $AccentFillColorDefault;
-            border-radius: 999px;
 
-            transform: scaleY(0%);
-            opacity: .3;
-            transition: transform 167ms Cubic-bezier(0,0,0,1),
-                        opacity 167ms Cubic-bezier(0,0,0,1);
-        }
-    }
-    // Selected (user popout open)
-    .selected__91a9d .layout__91a9d{
-        background-color: $SubtleFillColorSecondary;
-        border-color: $SubtleFillColorSecondary;
-        &::before{
-            transform: scaleY(100%);
-            opacity: 1;
-            transition: transform 250ms Cubic-bezier(0.55,0.55,0,1),
-                        opacity 250ms Cubic-bezier(0.55,0.55,0,1);
-        }
-    }
     // Username
     .name__91a9d{
         @include TypeBody;
@@ -83,13 +68,10 @@
     }
 
     // Activity
-    .container__0f2e8{
-        background-color: transparent;
-        border: 1px solid transparent;
-        border-radius: 4px;
-        &.selected__0f2e8{
-            background-color: $SubtleFillColorSecondary;
-            border-color: $SubtleFillColorSecondary;
+    .activityText__5d473{
+        color: $TextFillColorSecondary;
+        strong{
+            font-weight: normal;
         }
     }
 }
