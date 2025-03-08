@@ -1,0 +1,45 @@
+.vc-settings-quickActions-card{
+    padding: 0;
+    border: 0;
+}
+.vc-settings-quickActions-pill{
+    background-color: $ControlFillColorDefault;
+    border-width: 1px;
+    border-style: outset;
+    border-color: $ControlElevationBorder;
+    color: $TextFillColorPrimary;
+    &:hover{
+        background-color: $ControlFillColorSecondary;
+        box-shadow: none;
+        transform: none;
+    }
+    &:active{
+        background-color: $ControlFillColorTertiary;
+    }
+}
+
+// Theme and plugin card
+.vc-addon-card{
+    background-color: $SystemFillColorNeutralBackground;
+    border: 1px solid $ControlStrokeColorDefault;
+    // Highlight enabled cards
+    &:has(.input__87bf1[checked]){
+        background-color: $SystemFillColorSuccesBackground;
+    }
+    &:hover{
+        background-color: $SystemFillColorNeutralBackground;
+        box-shadow: none;
+        transform: none;
+    }
+    .vc-addon-name{
+        font-size: 14px;
+    }
+}
+
+// Unique tab styles
+#vencordsettings-tab .vc-settings-quickActions-card{
+    grid-template-columns: repeat(5,1fr);
+}
+#vencordthemes-tab .vc-settings-quickActions-card{
+    grid-template-columns: repeat(3,1fr);
+}
