@@ -1,51 +1,51 @@
-.theme-dark .members_c8ffbb{
-    background-color: $LayerFillColorDefault;
+// .theme-dark .members_c8ffbb{
+//     background-color: $LayerFillColorDefault;
 
-    // Group header
-    .membersGroup_c8ffbb{
-        padding: 20px 8px 0 16px;
-        color: $TextFillColorPrimary;
-        @include TypeBodyStrong;
-        text-transform: none;
-    }
+//     // Group header
+//     .membersGroup_c8ffbb{
+//         padding: 20px 8px 0 16px;
+//         color: $TextFillColorPrimary;
+//         @include TypeBodyStrong;
+//         text-transform: none;
+//     }
 
-     // Member
-     .container__91a9d{
-        background-color: transparent;
-        color: $TextFillColorPrimary;
-        // Greyscale offline avatars
-        &.offline__5d473{
-            .avatar__91a9d{
-                filter: grayscale(100%);
-            }
-            &:hover{
-                .avatar__91a9d{
-                    filter: grayscale(0%);
-                }
-            }
-        }
-        .layout__91a9d{
-            border: 1px solid transparent;
-            &:hover{
-                background-color: $SubtleFillColorSecondary;
-                border-color: $SubtleFillColorSecondary;
-            }
-        }
-        &[aria-expanded=true] .layout__91a9d{
-            background-color: $SubtleFillColorSecondary;
-            border-color: $SubtleFillColorSecondary;
-        }
-        // Username
-        .name__91a9d{
-            @include TypeBody;
-        }
-        // Activity
-        .activity__5d473{
-            @include TypeCaption;
-            color: $TextFillColorSecondary;
-            strong{
-                @include TypeCaption;
-            }
-        }
-    }
-}
+//      // Member
+//      .container__91a9d{
+//         background-color: transparent;
+//         color: $TextFillColorPrimary;
+//         // Greyscale offline avatars
+//         &.offline__5d473{
+//             .avatar__91a9d{
+//                 filter: grayscale(100%);
+//             }
+//             &:hover{
+//                 .avatar__91a9d{
+//                     filter: grayscale(0%);
+//                 }
+//             }
+//         }
+//         .layout__91a9d{
+//             border: 1px solid transparent;
+//             &:hover{
+//                 background-color: $SubtleFillColorSecondary;
+//                 border-color: $SubtleFillColorSecondary;
+//             }
+//         }
+//         &[aria-expanded=true] .layout__91a9d{
+//             background-color: $SubtleFillColorSecondary;
+//             border-color: $SubtleFillColorSecondary;
+//         }
+//         // Username
+//         .name__91a9d{
+//             @include TypeBody;
+//         }
+//         // Activity
+//         .activity__5d473{
+//             @include TypeCaption;
+//             color: $TextFillColorSecondary;
+//             strong{
+//                 @include TypeCaption;
+//             }
+//         }
+//     }
+// }
