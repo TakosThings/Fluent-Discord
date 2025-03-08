@@ -172,7 +172,9 @@
         height: unset;
         margin-right: 0;
         // Remove gift
-        & > .container_c0c49a{
+        // Collection of fixes since this breaks every week
+        & > .container_c0c49a,
+        & > .button__201d5{
             display: none;
         }
         // Set a static emoji icon
