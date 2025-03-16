@@ -14,7 +14,6 @@ A Windows 11 theme for Discord
 ## Getting Help
 * Visit the [wiki](https://github.com/TakosThings/Fluent-Discord/wiki)
 * Open an [issue](https://github.com/TakosThings/Fluent-Discord/issues)
-* Join the [Discord server](https://discord.gg/ZYrCacRuez)
 
 ## Preview
 ![Preview](https://raw.githubusercontent.com/TakosThings/Fluent-Discord/develop/images/ui-1.5.5.png)
