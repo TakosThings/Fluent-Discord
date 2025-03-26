@@ -1,54 +1,83 @@
-.theme-dark .titleBar__421ed{
-    background-color: transparent;
-    &.withFrame__421ed{
-        height: calc(32px - 4px);
-    }
-    .wordmarkWindows__421ed{
-        color: $TextFillColorDisabled;
-        &::after{
-            content: "Discord";
-            top: 9px;
-            left: 16px;
-            display: block;
-            position: absolute;
-            @include TypeCaption;
+.theme-dark .bar_c38106{
+    .title_c38106{
+        justify-content: flex-start;
+        left: 16px;
+        .guildIcon__85643{
+            border-radius: 10px;
         }
-        svg{
+        .defaultColor__4bd52{
+            color: $TextFillColorSecondary;
+        }
+    }
+
+
+
+    // Remove help button
+    .trailing_c38106{
+        gap: 0;
+        a.anchor_edefb8{
             display: none;
         }
     }
+    // Inbox
+    .recentsIcon_c99c29{
+        .button__85643{
+            width: 46px;
+            &::before{
+                content: "\E715"; // Mail
+                @include FontIconFluent;
+            }
+            &:hover{
+                background-color: $ControlFillColorSecondary;
+            }
+            svg{
+                display: none;
+            }
+        }
+    }
 
-    // Controls
-    .winButton__421ed{
+    // window controls
+    .winButtons_c38106{
+        gap: 0;
+    }
+    .winButton_c38106{
         width: 46px;
-        height: 32px;
-        background-color: transparent;
-        color: $TextFillColorDisabled;
-        transition: background-color $AnimationFadeInOut;
-
         &:hover{
             background-color: $ControlFillColorSecondary;
-            color: $TextFillColorPrimary; // Always change button icon color to primary when hovering
-        }
-        &:active{
-            background-color: $ControlFillColorTertiary;
         }
 
-        &.winButtonClose__421ed{
+        // Close button
+        &.winButtonClose_c38106{
             &:hover{
                 background-color: #C42B1C;
             }
             &:active{
                 background-color: rgba(#C42B1C, 90%);
             }
+
         }
     }
 }
 
+
 // Change titlebar name and controls colour when app is focused
 html.theme-dark.app-focused{
-    .wordmarkWindows__421ed,
-    .winButton__421ed{
+    .title_c38106{
+        .defaultColor__4bd52{
+            color: $TextFillColorPrimary;
+        }
+    }
+    .winButton_c38106{
         color: $TextFillColorPrimary;
     }
+
+    // .defaultColor__4bd52,
+    // .winButton__421ed{
+    //     color: $TextFillColorPrimary;
+    // }
+}
+
+// Make titlebar height 32px
+.visual-refresh{
+    --custom-app-top-bar-height: calc(20px + var(--space-sm));
 }
