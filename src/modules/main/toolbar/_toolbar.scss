@@ -1,18 +1,18 @@
 .theme-dark .title_f75fb0, // Normal toolbar
 .theme-dark .container__9293f{ // Browse channels toolbar
-    padding: 0 0 0 20px;
+    padding: 0 0 0 8px;
     &.themed__9293f{
         background-color: transparent;
     }
     // Channel & MOTD
-    // Remove hash symbol
+    // Re-colour channel symbol
     .children__9293f{
         // Gradient at end of MOTD field
         &::after{
             display: none;
         }
-        .iconWrapper__9293f{
-            display: none;
+        .iconWrapper__9293f svg{
+            color: $TextFillColorPrimary;
         }
     }
     // Channel name
@@ -20,12 +20,10 @@
         @include TypeBodyStrong
     }
 
-    // Remove divider
-    .divider__9293f{
-        display: none;
-    }
-
     // MOTD
+    .dot__9293f{
+        color: $TextFillColorDisabled;
+    }
     .topic__6ec1a{
         color: $TextFillColorPrimary;
         @include TypeBody;
@@ -39,12 +37,13 @@
 
 // Toolbar
 .theme-dark .toolbar__9293f{
+    gap: 4px;
+    margin-right: 4px;
     // Using these selectors so there are fewer conflicts in the voice screen
     div[role=button]:not(.iconLayout_fea832), // :not excludes the search/clear button in the search bar
     button[type=button]{
         width: 60px;
         height: 32px;
-        margin: 0 4px 0 0;
         border-radius: 4px;
         transition: background-color $AnimationFadeInOut;
         &:hover{
