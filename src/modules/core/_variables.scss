@@ -28,9 +28,9 @@ $TextOnAccentFillColorSelected:                 #FFF;                           
 // Control Fill - Fills used for standard controls: Button, Dropdown, Search
 $ControlFillColorDefault:                       rgba(#FFF, 6.05%);                                  // Rest
 $ControlFillColorSecondary:                     rgba(#FFF, 8.37%);                                  // Hover
-$ControlFillColorTertiary:                      rgba(#FFF, 3.26%);                                  // Pressed
+$ControlFillColorTertiary:                      rgba(#FFF, 4.19%);                                  // Pressed
 $ControlFillColorQuarternary:                   rgba(#FFF, 6.05);                                   // Rest (Pill Button control)
-$ControlFillColorDisabled:                      rgba(#FFF, 4.19%);                                  // Disabled
+$ControlFillColorDisabled:                      rgba(#F9F9F9, 30%);                                 // Disabled
 $ControlFillColorTransparent:                   transparent;                                        // Rest
 $ControlFillColorInputActiveBrush:              rgba(#1E1E1E, 70%);                                 // Active/focused text input fields
 // Control Alt Fill - Fills used for the 'off' states of toggle type controls: Toggle, Radio , Checkbox, Rating Control
@@ -48,12 +48,12 @@ $ControlStrongFillColorDisabled:                rgba(#FFF, 24.65%);             
 $SubtleFillColorTransparent:                    transparent;                                        // Rest
 $SubtleFillColorSecondary:                      rgba(#FFF, 6.05%);                                  // Hover
 $SubtleFillColorTertiary:                       rgba(#FFF, 4.19%);                                  // Pressed
-$SubtleFillColorDisabled:                       #1E1E1E;                                            // Disabled
+$SubtleFillColorDisabled:                       transparent;                                            // Disabled
 // Control On Image Fill - Used for controls living on top of imagery. Currently used only for grid view checkbox
 $ControlOnImageFillColorDefault:                rgba(#1C1C1C, 70%);                                 // Rest
 $ControlOnImageFillColorSecondary:              #1A1A1A;                                            // Hover
 $ControlOnImageFillColorTertiary:               #131313;                                            // Pressed
-$ControlOnImageFillColorDisabled:               transparent;                                        // Disabled
+$ControlOnImageFillColorDisabled:               #1E1E1E;                                            // Disabled
 // Accent Fill - Used for accent fills on controls: Primary button, Selected toggle controls, Pill selected indicator
 $AccentFillColorDefault:                        $AccentLight2;                                      // Rest
 $AccentFillColorSecondary:                      $AccentLight3;                                      // Hover
@@ -79,13 +79,14 @@ $ControlStrokeColorOnAccentTertiary:            rgba(#000, 21.69%);             
 $ControlStrokeColorOnAccentDisabled:            rgba(#000, 20%);                                    // Disabled
 $ControlStrokeColorForStrongFillWhenOnImage:    rgba(#000, 42%);                                    // When used with a 'strong' fill colour, ensures a 3:1 contrast on any background
 // Card Stroke - Card and layer stroke colors
-$CardStrokeColorDefault:                        rgba(#000, 25%);                                    // Card and layer strokes
+$CardStrokeColorDefault:                        rgba(#000, 10%);                                    // Card and layer strokes
 $CardStrokeColorDefaultSolid:                   #1C1C1C;                                            // Solid equivalent of Card Stroke/Default used in command bar for expanded states
 // Control Strong Stokes - Control strokes that must meet contrast ratio requirements of 3:1: Radio button, Toggle Switch, Checkbox
 $ControlStrongStrokeColorDefault:               rgba(#FFF, 60.47%);
 $ControlStrongStrokeColorDisabled:              rgba(#FFF, 15.81%);
 // Surface Stroke - Strokes on background surfaces (i.e flyouts, windows, dialogs)
 $SurfaceStrokeColorDefault:                     rgba(#757575, 40%);                                 // Windows & dialog borders, theme inverse
+$SurfaceStrokeColorDefaultSnapped:              #757575;
 $SurfaceStrokeColorFlyout:                      rgba(#000000, 20%);                                 // Control flyouts, always dark
 // Divider Stroke - Divider and graphic lines. Theme inverse.
 $DividerStrokeColorDefault:                     rgba(#FFF, 8.37%);                                  // Content dividers
@@ -142,6 +143,14 @@ $SystemFillColorCriticalBackground:             #442726;                        
 $SystemFillColorNeutralBackground:              rgba(#FFF, 3.26%);                                  // Infobar background
 $SystemFillColorSolidNeutralBackground:         #2E2E2E;                                            // Neutral badges over content
 $SystemFillColorSolidAttentionBackground:       #2E2E2E;
+
+// Shell
+// Control Close Text - Text colors on the close button in caption controls
+$ShellCaptionCloseTextFillColorPrimary:         #FFFFFF;
+$ShellCaptionCloseTextFillColorSecondary:       rgba(#FFFFFF, 70%);
+// Close Fill - Back plates on the close button in caption controls
+$ShellCaptionCloseFillColorPrimaryBrush:        #C42B1C;
+$ShellCaptionCloseFillColorPrimaryBrush:        rgba(#C42B1C, 90%);
 
 // Animation
 // Fast Invoke
