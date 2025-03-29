@@ -1,18 +1,12 @@
-.theme-dark .form_f75fb0, // Main chatbox
-.theme-dark .submitContainer_fb64c9{ // Thread start
-    margin-top: 0;
-    padding-right: 17px;
-    padding-left: 15px;
-    // Remove gradient on left and right
-    &::before,
-    &::after{
-        display: none;
+.theme-dark{
+    .form_f75fb0{
+        padding-left: 17px;
+        padding-right: 15px;
     }
 
-    .channelTextArea_f75fb0,
     .channelTextArea__74017{
         margin-bottom: 8px;
-        background-color: $ControlFillColorDefault;
+        background: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
         border-bottom: 2px solid $ControlStrokeColorDefault;
         border-radius: 4px;
@@ -24,40 +18,40 @@
             border-color: $ControlStrokeColorDefault;
             border-bottom-color: $AccentBase;
         }
+        &.channelTextAreaDisabled__74017{
+            background-color: $ControlFillColorDisabled;
+        }
     }
     .themedBackground__74017{
         background: transparent;
     }
     .scrollableContainer__74017{
-        background-color: transparent;
         border-radius: 4px;
         overflow-y: auto;
     }
-
     .sansAttachButton__74017 {
         padding-left: 0;
     }
 
-    // User's input text
+    // Text input
     .textArea__74017{
-        height: 45px;
-        min-height: 45px;
+        height: 40px;
+        min-height: 40px;
     }
     .slateTextArea_ec4baf{
-        right: 8px;
-        left: 8px;
+        min-height: 40px;
+        padding: 10px 0;
         color: $TextFillColorPrimary;
         &.placeholder__1b31f {
             color: $TextFillColorSecondary;
         }
     }
 
-
     // Upload button
-    .attachButton__74017 {
+    button.attachButton__74017 {
         width: 32px;
         height: 32px;
-        margin: 6px 0 6px 6px;
+        margin: 4px 0 4px 4px;
         border: 1px solid transparent;
         border-radius: 2px;
         &::before{
@@ -78,38 +72,23 @@
             display: none;
         }
     }
-    // Upload button when command is entered
-    .hasStackedBar__74017 .attachButton__74017 {
-        // Hide our upload icon
-        &::before{
-            content: "";
-        }
-        // Position the slash icon
-        .icon__4d3a9{
-            padding: 4px;
-        }
-        // Remove hover effects
-        &:hover{
-            background-color: transparent;
-            border-color: transparent;
-        }
+    // Command icon (eg. /tenor command)
+    .icon__4d3a9{
+        padding: 6px 4px 6px 24px;
     }
 
-    // Bot command bot icon
-    // NOTE - 2022-12-18: This can be tested using the `/embed create` command from Carl-bot
-    // NOTE - 2022-12-18: `:not(button)` is required because the normal attach button uses the same class
-    .attachButton__74017 :not(button){
-        margin-left: 0;
-    }
-
-    .codeBlockSyntax-2MZ-Qy{
-        font-family: Consolas, monospace;
-    }
-
-    // Gift/GIF/Sticker/Emoji buttons
-    .expression-picker-chat-input-button{
-        margin: 6px 4px 6px 0;
-        align-items: flex-start;
+    // Button group within chatbox
+    .buttons__74017{
+        height: 40px;
+        gap: 4px;
+        // Remove the gift button
+        & > button{
+            display: none;
+        }
+        // Add 8px margin to last button
+        & > div:last-of-type{
+            margin-right: 4px;
+        }
         .button__201d5{
             height: 32px;
             width: 32px;
@@ -128,92 +107,72 @@
                     color: $TextFillColorPrimary;
                 }
             }
-
-        }
-        &:last-of-type{
-            margin-right: 0;
         }
 
-        // Always hide the emoji button icon since it can be directly selected
-        .emojiButton__04eed{
-            .contents__201d5{
-                display: none;
-            }
-        }
-
-        // Replace sticker icon
-        .contents__201d5.stickerButton__74017{
+        // Button replacements
+        // Common reuse
+        .button__201d5[aria-label*="GIF"] .contents__201d5, // GIF
+        .contents__201d5.stickerButton__74017,              // Sticker
+        .emojiButton__04eed,                                // Emoji
+        .channelAppLauncher_e6e74f .button__201d5,          // App Launcher
+        .container_aa63ab .button__201d5{
             &::before{
-                content: "\F4AA"; // Sticker2
                 @include FontIconFluent;
+                color: $TextFillColorSecondary;
                 font-size: 18px;
+            }
+            &:hover::before{
+                color: $TextFillColorPrimary;
             }
             .lottieIcon__5eb9b{
                 display: none !important; // Override in-line
             }
-        }
 
+        }
         // Replace GIF icon
-        .button__201d5[aria-label*="GIF"]{
-            .contents__201d5{
-                &::before{
-                    content: "\F4A9"; // GIF
-                    @include FontIconFluent;
-                    font-size: 18px;
-                }
-                .lottieIcon__5eb9b{
-                    display: none !important; // Override in-line
-                }
+        .button__201d5[aria-label*="GIF"] .contents__201d5{
+            &::before{
+                content: "\F4A9"; // GIF
             }
         }
-
-    }
-    .buttons__74017{
-        height: unset;
-        margin-right: 0;
-        // Remove gift
-        // Collection of fixes since this breaks every week
-        & > .container_c0c49a,
-        & > .button__201d5{
-            display: none;
+        // Replace sticker icon
+        .contents__201d5.stickerButton__74017{
+            &::before{
+                content: "\F4AA"; // Sticker2
+            }
         }
-        // Set a static emoji icon
+        // Replace emoji button icon
         .emojiButton__04eed{
-            margin: 0 4px 0 0;
             &::before{
-                content: "\E76E"; //Emoji2
-                color: $TextFillColorSecondary;
-                @include FontIconFluent;
-                font-size: 16px;
+                content: "\E76E"; // Emoji2
             }
-        }
-
-        // Send button
-        .separator_aa63ab{
-            margin-top: 6px;
-            margin-left: -4px;
-            &::before{
+            .contents__201d5{
                 display: none;
             }
-            .button__201d5{
-                width: 32px;
-                height: 32px;
-                margin-right: 4px;
-                &::before{
-                    content: "\E122";
-                    color: $TextFillColorSecondary;
-                    @include FontIconFluent;
-                    font-size: 18px;
-                }
-                &:disabled::before{
-                    color: $TextFillColorDisabled;
-                }
-                &:hover:not(:disabled):before{
-                    color: $TextFillColorPrimary;
-                }
-                .contents__201d5{
-                    display: none;
-                }
+        }
+        // Replace App Launcher button icon
+        .channelAppLauncher_e6e74f .button__201d5{
+            &::before{
+                content: "\ED35"; // Apps
+            }
+        }
+        // Replace Send button icon
+        .separator_aa63ab{
+            display: none;
+        }
+        .container_aa63ab .button__201d5{
+            &::before{
+                content: "\E122";
+                color: $TextFillColorDisabled;
+            }
+            &:disabled{
+                pointer-events: none;
+            }
+            &:enabled::before{
+                color: $TextFillColorSecondary;
+            }
+            .contents__201d5{
+                display: none;
             }
         }
     }
@@ -230,34 +189,38 @@
         align-items: flex-end;
         justify-content: flex-end;
         pointer-events: none;
+        strong{
+            font-weight: normal;
+        }
         svg{
             display: none;
         }
-        span[class^="text-"]{
-            // Force text to right side when slowmode is enabled
-            top: 0;
-            right: 0;
-            position: absolute;
-            strong{
-                font-weight: normal;
-            }
-        }
-        // Slowmode font-weight
-        .cooldownWrapper_b21699{
-            font-weight: normal;
-        }
-        // Fix position of countdown timer
-        .text_b88801:not(:empty) + .cooldownWrapper_b21699{
-            margin-bottom: 14px;
+        // Slowmode font-size
+        .cooldownText_b21699{
+            font-size: 11px;
         }
     }
 
     // Various chatbox states
+    // No Permission
+    .textAreaDisabled__74017 {
+        .placeholder__1b31f {
+            color: $TextFillColorSecondary;
+            @include TypeBody;
+        }
+        // Fixes a scrollbar appearing
+        .slateTextArea_ec4baf{
+            padding: 15px 0;
+        }
+    }
     // Announce channel follow
     .wrapper__44df5{
-        margin-bottom: 16px;
+        height: 40px;
+        margin: 0 0 8px 0;
+        padding: 0;
         background-color: $ControlFillColorDisabled;
         border: 1px solid $ControlStrokeColorDefault;
+        border-radius: 4px;
         // Remove image
         .content__44df5{
             img{
@@ -268,20 +231,14 @@
                 @include TypeBody;
             }
         }
-    }
-
-    // No permission
-    .textAreaDisabled_d0696b{
-        .placeholder__1b31f{
-            color: $TextFillColorSecondary;
-            @include TypeBody;
+        .buttonContainer__44df5{
+            margin-right: 4px;
         }
     }
 
-    // Showing command help
+        // Showing command help
     .stackedBars__74017{
         background-color: $CardStrokeColorDefaultSolid;
-        border-radius: 4px 4px 0 0;
         .name__84522{
             @include TypeBody;
         }
@@ -300,60 +257,8 @@
             }
         }
     }
-
-    // Replying to message
-    .clipContainer__841c8{
-        margin-top: 0;
-    }
-    .replyBar__841c8{
-        background-color: transparent;
-        .replyLabel__841c8{
-            color: $TextFillColorPrimary;
-        }
-    }
-
-    // Hide 'game support game invites' message
-    .activityInviteEducation_b88801, // Main chatbox
-    .applicationCommandEducation-1stoia{ // Thread
-        display: none;
-    }
-
-    // App launcher
-    .channelAppLauncher_e6e74f{
-        margin-bottom: 8px;
-        margin-left: 8px;
-        // Icon replacement
-        .app-launcher-entrypoint{
-            .contents__201d5::before{
-                content: "\ED35"; // Apps
-                @include FontIconFluent;
-                font-size: 18px;
-                color: $TextFillColorSecondary;
-            }
-            &:hover .contents__201d5::before{
-                color: $TextFillColorPrimary;
-            }
-            &.buttonActive_e6e74f::before{
-                color: $TextFillColorPrimary;
-            }
-            .lottieIcon__5eb9b{
-                display: none !important;
-            }
-        }
-        .button_e6e74f{
-            width: 48px;
-            height: 48px;
-            background-color: $ControlFillColorDefault;
-            border-width: 1px;
-            border-style: outset;
-            border-color: $ControlElevationBorder;
-            color: $TextFillColorPrimary;
-            &:hover{
-                background-color: $ControlFillColorSecondary;
-            }
-            &.buttonActive_e6e74f{
-                background-color: $ControlFillColorTertiary;
-            }
-        }
+    // Fixes the border radius of the background for the command help which has higher priority than the theme for some reason
+    .floatingBars__74017:empty+.stackedBars__74017:nth-child(2), .stackedBars__74017:first-child{
+        border-radius: 4px 4px 0 0;
     }
 }
