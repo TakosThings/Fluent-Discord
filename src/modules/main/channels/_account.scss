@@ -1,6 +1,7 @@
 // Remove background from RTC/account
 .theme-dark .panels_c48ade{
-    background-color: transparent;
+    background-color: $LayerFillColorAlt;
+    border-radius: 4px;
 
     // Remove 1px margin from bottom of panel
     .container__37e49{
