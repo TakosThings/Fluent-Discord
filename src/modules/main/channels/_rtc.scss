@@ -8,35 +8,77 @@
     .connection_e131a9{
         height: 32px;
     }
-    .rtcConnectionStatus_c0cb95{
+    .rtcConnectionStatus__06d62 {
         padding-bottom: 0;
-        @include TypeBody;
         .button__201d5{
             line-height: 16px;
         }
+        .text-md\/medium_cf4812{
+            @include TypeBody;
+        }
     }
-    .subtext__339d0{
-        @include TypeCaption;
+    .subtext__339d0 .text-sm\/medium_cf4812{
+        @include TypeBody;
+        color: $TextFillColorPrimary !important; // Override inline
     }
     .voiceUsers__68617{
         padding-top: 4px;
     }
 
+    // Connection status colours
+    .rtcConnectionQualityFine__06d62{
+        .ping__06d62 path{
+            fill: $SystemFillColorSuccess;
+        }
+        .rtcConnectionStatusConnected__06d62{
+            color: $SystemFillColorSuccess;
+        }
+    }
+    .rtcConnectionQualityAverage__06d62{
+        .ping__06d62 path{
+            fill: $SystemFillColorCaution;
+        }
+        .rtcConnectionStatusConnected__06d62{
+            color: $SystemFillColorCaution;
+        }
+    }
+    .rtcConnectionQualityBad__06d62{
+        .ping__06d62 path{
+            fill: $SystemFillColorCritical;
+        }
+        .rtcConnectionStatusConnected__06d62{
+            color: $SystemFillColorCritical;
+        }
+    }
+
+    @keyframes fluent-streaming-pulse {
+        0%, 100%{
+            background-color: $SystemFillColorCriticalBackground;
+        }
+        50%{
+            background-color: $ControlFillColorDefault;
+        }
+    }
+
     // Video/screen share buttons
     .actionButtons_e131a9{
         grid-gap: 4px;
-        // !importants to make these appear as 'default' button instead of accent
-        button{
+        .button__201d5 {
             min-width: unset;
-            background-color: $ControlFillColorDefault !important;
-            border: 1px solid $ControlStrokeColorDefault !important;
+            background-color: $ControlFillColorDefault;
+            border: 1px solid $ControlStrokeColorDefault;
             border-radius: 4px;
-            color: $TextFillColorPrimary !important;
+            color: $TextFillColorPrimary;
             &:hover{
-                background-color: $ControlFillColorSecondary !important;
+                background-color: $ControlFillColorSecondary;
             }
             &:active{
-                background-color: $ControlFillColorTertiary !important;
+                background-color: $ControlFillColorTertiary;
+            }
+            &.buttonActive_e131a9{
+                background-color: transparent;
+                // background-color: $SystemFillColorCriticalBackground !important;
+                animation: fluent-streaming-pulse 3s ease-in-out infinite;
             }
 
             .contents__201d5{
@@ -84,3 +126,6 @@ html[lang^="en-"].theme-dark .panels_c48ade .button__201d5{
         font-weight: 500;
     }
 }
+
+
+
