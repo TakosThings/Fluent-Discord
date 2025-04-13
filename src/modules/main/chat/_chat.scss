@@ -1,7 +1,21 @@
 .theme-dark{
-    .chatContent_f75fb0{
-        background: $LayerFillColorDefault;
+    .chat_f75fb0{
+        background: transparent;
+        border-top: 0;
+        &[data-has-border=true]{
+            border-top: 0;
+        }
     }
+
+    .content_f75fb0{
+        background-color: $LayerFillColorAlt;
+        border-left: 1px solid $CardStrokeColorDefault;
+        border-radius: 8px 0 0 0;
+    }
+    .chatContent_f75fb0{
+        background-color: transparent;
+    }
+
     // New/old messages bars
     .barBase__0f481{
         margin: 0 auto;
