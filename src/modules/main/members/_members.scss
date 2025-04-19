@@ -76,8 +76,15 @@
     }
 }
 
-// Remove avatar borders/decorations
+// Remove Nitro decorations
+// Avatar decorations
 // This also removes them from user profile popouts and modals, but not cozy chat.
 .avatarDecoration__44b0c{
-    display: var(--fluent-show-avatar-decorations);
+    display: var(--fluent-show-nitro-decorations);
+}
+// Member list background
+.nameplated__91a9d{
+    .container__4bbc6{
+        display: var(--fluent-show-nitro-decorations);
+    }
 }
