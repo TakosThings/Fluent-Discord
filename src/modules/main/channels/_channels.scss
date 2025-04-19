@@ -9,6 +9,10 @@
         border: 0;
         border-radius: 0;
     }
+    // Increase bottom margin of channels list so there is a consistent margin around the account box
+    .container__2637a{
+        padding-bottom: calc(var(--custom-app-panels-height, 0) + 12px);
+    }
 
     // Server header
     .header_f37cb1{
