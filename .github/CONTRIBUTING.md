@@ -12,10 +12,6 @@ The following is out of scope of this project
 * Discord in the web browser
 * Features gated behind a Discord Nitro subscription (or HypeSquad membership)
 
-## Plugin Compatibility Requests
-* You may request compatibility for any plugin published on [betterdiscord.app](https://betterdiscord.app/plugins).
-* Open an issue using the [template](https://github.com/TakosThings/Fluent-Discord/issues/new?assignees=&labels=better+discord%2Cplugin+compatibility&template=plugin_compat.yml&title=Plugin+name+here). 
-
 ## Pull Requests
 * Major changes: Open an issue using the *Change proposal* template to discuss your changes 
 * Small changes and tweaks can get away without an issue
@@ -32,10 +28,10 @@ The following is out of scope of this project
 * Node.js
 
 ### Setup
-* `npm i` to install required packages (Dart SASS and Cross-OS)
+* `npm i` to install required packages
 
 #### NPM Commands
-* `npm run dev` watches files for changes and automatically builds and emits the theme to your BetterDiscord themes folder. BD will reload the theme with the changes each time.
+* `npm run dev` watches files for changes and automatically builds and emits the theme to your Vencord themes folder. Your changes will live update each time you save. Use `CTRL+C` to stop the script.
 * `npm run build-static` builds and emits a 'static' theme file to the dist directory
 * `npm run build-auto` builds and emits the auto-updating theme file. This file only contains user vars and imports the theme from GitHub.
 
@@ -59,12 +55,20 @@ The following is out of scope of this project
 * In context menus, when an appropriate icon isn't available set the icon to `\E9CE` (Unknown) and add `visibility: hidden;` This will provide the correct spacing to indent the item label and hides the icon.
 
 ### Plugin Compatibility
-Use the [Plugin Compatibility Request](https://github.com/TakosThings/Fluent-Discord/issues/new?assignees=&labels=better+discord%2Cplugin+compatibility&template=plugin_compat.yml&title=Plugin+name+here) issue template to request compatibility for a plugin. The plugin __must__ be approved on [betterdiscord.app](https://betterdiscord.app)
-
 If you are interested in creating a PR for a plugin use the following formatting:
+
+#### BetterDiscord
 * Create a new file in `src/modules/betterdiscord/plugins` with the following formatting: `_GitHubUsername.PluginName.scss`. Note the underscore at the start of the filename. Capitalisation should also match the username and plugin name. Example: `_TakosThings.FluentDiscord.scss`
 * Add an import to `src/modules/betterdiscord/_plugin_compat.scss` with the following formatting:
 ```SCSS
 // https://betterdiscord.app/plugin/PluginName
 @import "_GitHubUsername.PluginName.scss";
+```
+
+#### Vencord
+* Create a new file in `src/modules/vencord/plugins` with the following formatting: `_PluginName.scss`. Note the underscore at the start of the filename. Capitalisation should also match the username and plugin name. Example: `AnonymiseFileNames.scss`
+* Add an import to `src/modules/vencord/_plugin_compat.scss` with the following formatting:
+```SCSS
+// PluginName
+@import "PluginName.scss";
 ```
