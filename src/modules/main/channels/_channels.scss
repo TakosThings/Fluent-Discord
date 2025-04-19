@@ -321,6 +321,7 @@
         background-color: $SystemFillColorCritical !important; // For some reason this is in line
         @include TypeCaption;
         color: $TextOnAccentFillColorPrimary;
+        font-weight: 700;
     }
 
     // Unread bars
