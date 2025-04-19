@@ -27,6 +27,9 @@
                     background-color: $AccentTextFillColorPrimary;
                     border-radius: 999px;
                 }
+                &::after{
+                    display: none;
+                }
             }
 
             // Special cases
