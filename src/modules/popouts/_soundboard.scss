@@ -43,7 +43,7 @@
     }
 
     // Sound
-    .soundButton__6d4ed{
+    .soundButton__9be63{
         background-color: $ControlFillColorDefault;
         border-width: 1px;
         border-style: outset;
@@ -56,10 +56,10 @@
         &:active{
             background-color: $ControlFillColorTertiary;
         }
-        .ssoundName__6d4ed{
+        .ssoundName__9be63{
             @include TypeBody;
         }
-        .buttonOverlayBackground__6d4ed{
+        .buttonOverlayBackground__9be63{
             background-color: $ControlFillColorInputActiveBrush;
             opacity: 1;
         }
