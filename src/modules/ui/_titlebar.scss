@@ -1,12 +1,13 @@
 .theme-dark .bar_c38106{
     .title_c38106{
         justify-content: flex-start;
-        left: 16px;
-        .guildIcon__85643{
-            border-radius: 10px;
-        }
-        .defaultColor__4bd52{
+        left: 8px;
+        &::before{
+            content: "Discord";
             color: $TextFillColorSecondary;
+        }
+        .title__85643{
+            display: none;
         }
     }
 
@@ -62,10 +63,8 @@
 
 // Change titlebar name and controls colour when app is focused
 html.theme-dark.app-focused{
-    .title_c38106{
-        .defaultColor__4bd52{
-            color: $TextFillColorPrimary;
-        }
+    .title_c38106::before{
+        color: $TextFillColorPrimary;
     }
     .winButton_c38106{
         color: $TextFillColorPrimary;
