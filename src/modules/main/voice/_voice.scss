@@ -27,6 +27,15 @@
         border-radius: 8px 0 0 0;
     }
 
+    // Quality indicator
+    .liveQualityIndicator__30845{
+        .liveLarge_a7acae{
+            width: auto !important; // Override conflict
+            height: 16px !important; // Override conflict
+            font-weight: normal;
+        }
+    }
+
     // Buttons bar
     .buttonSection__1405b{
         border-radius: 4px;
