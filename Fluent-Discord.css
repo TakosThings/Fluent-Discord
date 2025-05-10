@@ -826,13 +826,14 @@
 
 .theme-dark .bar_c38106 .title_c38106 {
   justify-content: flex-start;
-  left: 16px;
+  left: 8px;
 }
-.theme-dark .bar_c38106 .title_c38106 .guildIcon__85643 {
-  border-radius: 10px;
-}
-.theme-dark .bar_c38106 .title_c38106 .defaultColor__4bd52 {
+.theme-dark .bar_c38106 .title_c38106::before {
+  content: "Discord";
   color: rgba(255, 255, 255, 0.786);
+}
+.theme-dark .bar_c38106 .title_c38106 .title__85643 {
+  display: none;
 }
 .theme-dark .bar_c38106 .trailing_c38106 {
   gap: 0;
@@ -869,7 +870,7 @@
   background-color: rgba(196, 43, 28, 0.9);
 }
 
-html.theme-dark.app-focused .title_c38106 .defaultColor__4bd52 {
+html.theme-dark.app-focused .title_c38106::before {
   color: #FFF;
 }
 html.theme-dark.app-focused .winButton_c38106 {
@@ -1729,6 +1730,7 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
 }
 
 .theme-dark .form_f75fb0 {
+  margin-top: 0;
   padding-left: 17px;
   padding-right: 15px;
 }
@@ -2513,7 +2515,7 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
 }
 
 .theme-dark .guilds_c48ade {
-  width: 52px;
+  width: 60px;
   background-color: transparent;
 }
 .theme-dark .wrapper_ef3116 {
@@ -2693,11 +2695,11 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
 }
 .theme-dark .listItem__650eb {
   width: 44px;
-  margin-left: 4px;
+  margin-left: 8px;
 }
 .theme-dark .wrapper_cc5dd2 {
-  width: 44px;
-  height: 44px;
+  width: 44px !important;
+  height: 44px !important;
   border-radius: 4px;
 }
 .theme-dark .wrapper_cc5dd2 svg {
@@ -2710,6 +2712,15 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
   width: 36px;
   height: auto;
   border-radius: 50%;
+}
+.theme-dark .childWrapper__6e9f8 {
+  background-color: transparent;
+}
+.theme-dark .childWrapper__6e9f8:hover {
+  background-color: transparent;
+}
+.theme-dark .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 {
+  background-color: transparent;
 }
 .theme-dark .blobContainer_e5445c.selected_e5445c .wrapper_cc5dd2 {
   background-color: rgba(255, 255, 255, 0.0837);
@@ -2780,51 +2791,58 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
   transition: none;
   font-weight: 400;
 }
-.theme-dark .wrapper__48112 {
+.theme-dark .folderGroup__48112 {
   width: 52px;
 }
-.theme-dark .expandedFolderBackground__48112 {
+.theme-dark .folderGroupBackground__48112 {
   width: 44px;
-  left: 4px;
-  background-color: rgba(255, 255, 255, 0.0605);
+  left: 8px;
   border-radius: 4px;
   border: 0;
 }
-.theme-dark .folder__48112, .theme-dark .folderIconWrapper__48112 {
+.theme-dark .hiddenVisually__27f77, .theme-dark .folderPreviewWrapper__48112 {
   border-radius: 4px;
 }
-.theme-dark .folderIcon__48112 .wrapper_cc5dd2 {
+.theme-dark .folderIcon__48112::before {
+  content: "\e8b7";
+  font-family: "Segoe Fluent Icons", "Segoe MDL2 Assets";
+  color: rgba(var(--fluent-text-on-accent-color), 100%);
+  position: absolute;
+  font-size: 32px;
+}
+.theme-dark .folderIcon__48112::after {
+  content: "\e8d5";
+  font-family: "Segoe Fluent Icons", "Segoe MDL2 Assets";
+  font-size: 32px;
+}
+.theme-dark .folderIcon__48112 svg {
+  display: none;
+}
+.theme-dark .folderHeader__48112 .wrapper_cc5dd2 {
   width: 44px !important;
   height: 44px !important;
 }
-.theme-dark .folderIcon__48112 svg {
+.theme-dark .folderHeader__48112 svg {
   left: 2px;
 }
-.theme-dark .folderIcon__48112 foreignobject {
-  mask: none;
-}
-.theme-dark .folderIconWrapper__48112 {
-  width: 44px;
-  height: 44px;
-}
-.theme-dark .closedFolderIconWrapper__48112 {
+.theme-dark .folderPreview__48112 {
   width: 44px;
   height: 44px;
   gap: 1px;
 }
-.theme-dark .guildIcon__48112 {
+.theme-dark .folderPreviewGuildIcon__48112 {
   width: 18px;
   height: 18px;
   border-radius: 50% !important;
 }
-.theme-dark .isExpanded__48112 .folderIcon__48112 {
+.theme-dark .isExpanded__48112 .folderHeader__48112 {
   margin-bottom: 0;
 }
-.theme-dark .isExpanded__48112 .folderIcon__48112 .wrapper_cc5dd2 {
+.theme-dark .isExpanded__48112 .folderHeader__48112 .wrapper_cc5dd2 {
   width: 44px !important;
   height: 44px !important;
 }
-.theme-dark .folder__48112.hover__48112 .expandedFolderIconWrapper__48112 {
+.theme-dark .hiddenVisually__27f77.hover__48112 .expandedFolderIconWrapper__48112 {
   background-color: transparent;
 }
 .theme-dark .unreadMentionsIndicatorBottom_ef3116,
@@ -3160,6 +3178,11 @@ html[lang^=en-].theme-dark .toolbar__9293f .iconWrapper__9293f .controlIcon-35oS
 }
 .theme-dark .wrapper_cb9592 .callContainer_cb9592 {
   border-radius: 8px 0 0 0;
+}
+.theme-dark .wrapper_cb9592 .liveQualityIndicator__30845 .liveLarge_a7acae {
+  width: auto !important;
+  height: 16px !important;
+  font-weight: normal;
 }
 .theme-dark .wrapper_cb9592 .buttonSection__1405b {
   border-radius: 4px;
@@ -5650,7 +5673,7 @@ html[lang^=en-].theme-dark .container__133bf .actionButton_f8fa06 svg {
   text-transform: none;
   color: #FFF;
 }
-.theme-dark .picker__09f65 .soundButton__6d4ed {
+.theme-dark .picker__09f65 .soundButton__9be63 {
   background-color: rgba(255, 255, 255, 0.0605);
   border-width: 1px;
   border-style: outset;
@@ -5658,20 +5681,20 @@ html[lang^=en-].theme-dark .container__133bf .actionButton_f8fa06 svg {
   border-radius: 4px;
   color: #FFF;
 }
-.theme-dark .picker__09f65 .soundButton__6d4ed:hover {
+.theme-dark .picker__09f65 .soundButton__9be63:hover {
   background-color: rgba(255, 255, 255, 0.0837);
 }
-.theme-dark .picker__09f65 .soundButton__6d4ed:active {
+.theme-dark .picker__09f65 .soundButton__9be63:active {
   background-color: rgba(255, 255, 255, 0.0419);
 }
-.theme-dark .picker__09f65 .soundButton__6d4ed .ssoundName__6d4ed {
+.theme-dark .picker__09f65 .soundButton__9be63 .ssoundName__9be63 {
   font-feature-settings: "rclt" 0;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
 }
-.theme-dark .picker__09f65 .soundButton__6d4ed .buttonOverlayBackground__6d4ed {
+.theme-dark .picker__09f65 .soundButton__9be63 .buttonOverlayBackground__9be63 {
   background-color: rgba(30, 30, 30, 0.7);
   opacity: 1;
 }
@@ -5993,7 +6016,7 @@ html[lang^=en-].theme-dark .container__133bf .actionButton_f8fa06 svg {
   color: rgba(255, 255, 255, 0.786) !important;
 }
 .theme-dark .sidebar__23e6b .info__2debe::before {
-  content: "Fluent Discord 1.12.1";
+  content: "Fluent Discord 1.12.2";
   color: rgba(255, 255, 255, 0.786);
   font-size: 12px;
   line-height: 16px;
