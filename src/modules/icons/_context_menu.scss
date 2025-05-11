@@ -6,8 +6,14 @@
     &[id="user-settings-cog-Profile_Customization"]::before{
         content: "\E7EE"; // OtherUser
     }
-    &[id="user-settings-cog-Privacy___Safety"]::before{
+    &[id="user-settings-cog-Content___Social"]::before{
+        content: "\E72E"; // Lock
+    }
+    &[id="user-settings-cog-Data___Privacy"]::before{
         content: "\EA18"; // Shield
+    }
+    &[id="user-settings-cog-Family_Center"]::before{
+        content: "\EBDA"; // Family
     }
     &[id="user-settings-cog-Authorized_Apps"]::before{
         content: "\E8D7"; // Permissions
@@ -17,6 +23,9 @@
     }
     &[id="user-settings-cog-Connections"]::before{
         content: "\F0B9"; // Connected
+    }
+    &[id="user-settings-cog-Settings_Clips"]::before{
+        content: "\E77C"; // Memo
     }
     &[id="user-settings-cog-Friend_Requests"]::before{
         content: "\E1E2"; // AddFriend
@@ -79,6 +88,10 @@
     }
     &[id="user-settings-cog-changelog"]::before{
         content: "\E77C"; // Memo
+    }
+    &[id="user-settings-cog-merchandise"]::before{
+        content: "$";
+        @include FontNormal;
     }
     &[id="user-settings-cog-Hypesquad_Online"]::before{
         content: "\F157"; // DialShape2
@@ -301,6 +314,12 @@
     }
     &[id="channel-context-invite-people"]::before{
         content: "\E1E2"; // AddFriend
+    }
+    &[id="channel-context-opt-in-favorite-channel"]::before{
+        content: "\E734"; // FavoriteStar
+    }
+    &[id="channel-context-opt-into-channel"]::before{
+        content: "\E738"; // Remove
     }
     &[id="channel-context-invite-to-listen"]::before{
         content: "\F623"; // MusicSharing
