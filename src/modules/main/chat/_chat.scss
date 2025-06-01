@@ -188,6 +188,11 @@
         border-radius: 8px;
     }
 
-    // Edit message
-
+    // Embedded image
+    // Remove AI slop buttons
+    .imageContainer__0f481{
+        .hoverButton__06ab4[aria-label="Edit Image with Apps"]{
+            display: none;
+        }
+    }
 }
