@@ -1,10 +1,12 @@
 .theme-dark .fileWrapper__0ccae{
     width: 400px;
     position: relative;
-    background-color: $CardBackgroundFillColorDefault;
-    border: 1px solid $SurfaceStrokeColorFlyout;
-    border-color: $SurfaceStrokeColorFlyout; // Override Discord CSS
-    border-radius: 8px;
+
+    .file__0ccae{
+        background-color: $CardBackgroundFillColorDefault;
+        border: 1px solid $SurfaceStrokeColorFlyout;
+        border-color: $SurfaceStrokeColorFlyout; // Override Discord CSS
+    }
 
     img{
         display: none;
