@@ -18,7 +18,7 @@
   letter-spacing: normal;
 }
 
-.theme-dark .wrapper_a7c28c {
+.theme-dark .wrapper_f61d60 {
   background-color: transparent;
   color: hsl(var(--fluent-accent-hue-sat), calc(var(--fluent-accent-lightness) + 25%));
   font-weight: normal;
@@ -390,9 +390,6 @@
 .theme-dark .menu_c1e9c4 .item_c1e9c4 .optionIcon__77820 {
   display: none;
 }
-.theme-dark .menu_c1e9c4 .item_c1e9c4 .grabber_a562c8 {
-  margin-top: 0px;
-}
 .theme-dark .menu_c1e9c4 .button_f563df {
   width: 24px;
   height: 24px;
@@ -471,6 +468,7 @@
 
 .theme-dark .container__87bf1 {
   background-color: transparent !important;
+  border: 0;
 }
 .theme-dark .container__87bf1 svg {
   display: none;
@@ -960,7 +958,7 @@ html.theme-dark.app-focused .winButton_c38106 {
   padding-bottom: calc(var(--custom-app-panels-height, 0) + 12px);
 }
 .theme-dark .header_f37cb1 {
-  border-bottom: 0;
+  border: 0;
 }
 .theme-dark .header_f37cb1:hover {
   background-color: transparent;
@@ -1728,6 +1726,13 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 8px;
 }
+.theme-dark .imageContainer__0f481 .hoverButton__06ab4[aria-label="Edit Image with Apps"] {
+  display: none;
+}
+.theme-dark .wrapper_d852db,
+.theme-dark .wrapper_fc8177 {
+  background: transparent;
+}
 
 .theme-dark .form_f75fb0 {
   margin-top: 0;
@@ -1804,7 +1809,7 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
   height: 40px;
   gap: 4px;
 }
-.theme-dark .buttons__74017 > button {
+.theme-dark .buttons__74017 .container_c0c49a {
   display: none;
 }
 .theme-dark .buttons__74017 > div:last-of-type {
@@ -1901,6 +1906,9 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
 }
 .theme-dark .typing_b88801 .cooldownText_b21699 {
   font-size: 11px;
+}
+.theme-dark .textAreaDisabled__74017 {
+  overflow: hidden;
 }
 .theme-dark .textAreaDisabled__74017 .placeholder__1b31f {
   color: rgba(255, 255, 255, 0.786);
@@ -2212,10 +2220,11 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
 .theme-dark .fileWrapper__0ccae {
   width: 400px;
   position: relative;
+}
+.theme-dark .fileWrapper__0ccae .file__0ccae {
   background-color: rgba(255, 255, 255, 0.0512);
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-color: rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
 }
 .theme-dark .fileWrapper__0ccae img {
   display: none;
@@ -3304,7 +3313,18 @@ html[lang^=en-].theme-dark .wrapper__1405b .button__201d5[aria-label] svg {
 .theme-dark .privateChannels__35e86 .link__972a0[href="/store"] {
   display: none;
 }
+.theme-dark .privateChannels__35e86 .channel__972a0 .link__972a0[data-list-item-id*=___shop] .avatar__20a53::before {
+  content: "\e13d";
+  font-family: "Segoe Fluent Icons", "Segoe MDL2 Assets";
+  color: rgba(255, 255, 255, 0.786);
+}
+.theme-dark .privateChannels__35e86 .channel__972a0 .link__972a0[data-list-item-id*=___shop] .avatar__20a53 svg {
+  display: none;
+}
 .theme-dark .privateChannels__35e86 .channel__972a0 .link__972a0[data-list-item-id*=___shop] .newBadge__4ed1a {
+  display: none;
+}
+.theme-dark .privateChannels__35e86 .sectionDivider__35e86 {
   display: none;
 }
 .theme-dark .privateChannels__35e86 .interactive__972a0:hover, .theme-dark .privateChannels__35e86 .interactive__972a0:focus-within {
@@ -3370,6 +3390,7 @@ html[lang^=en-].theme-dark .wrapper__1405b .button__201d5[aria-label] svg {
 }
 .theme-dark .sidebar_c48ade .searchBar__35e86 {
   box-shadow: none;
+  border-bottom: 0;
 }
 .theme-dark .sidebar_c48ade .searchBar__35e86 button {
   background-color: transparent;
@@ -3380,9 +3401,6 @@ html[lang^=en-].theme-dark .wrapper__1405b .button__201d5[aria-label] svg {
   line-height: 20px;
   color: rgba(255, 255, 255, 0.786);
   text-align: center;
-}
-.theme-dark .sidebar_c48ade .searchBar__35e86 button::after {
-  content: "...";
 }
 .theme-dark .sidebar_c48ade .searchBar__35e86 button:hover {
   text-decoration: underline;
@@ -6016,7 +6034,7 @@ html[lang^=en-].theme-dark .container__133bf .actionButton_f8fa06 svg {
   color: rgba(255, 255, 255, 0.786) !important;
 }
 .theme-dark .sidebar__23e6b .info__2debe::before {
-  content: "Fluent Discord 1.12.2";
+  content: "Fluent Discord 1.12.3";
   color: rgba(255, 255, 255, 0.786);
   font-size: 12px;
   line-height: 16px;
@@ -6972,8 +6990,14 @@ html[lang^=en-].theme-dark .toolbar__9293f .button__201d5[aria-label^="Show Chat
 .theme-dark .menu_c1e9c4 .item_c1e9c4[id=user-settings-cog-Profile_Customization]::before {
   content: "\e7ee";
 }
-.theme-dark .menu_c1e9c4 .item_c1e9c4[id=user-settings-cog-Privacy___Safety]::before {
+.theme-dark .menu_c1e9c4 .item_c1e9c4[id=user-settings-cog-Content___Social]::before {
+  content: "\e72e";
+}
+.theme-dark .menu_c1e9c4 .item_c1e9c4[id=user-settings-cog-Data___Privacy]::before {
   content: "\ea18";
+}
+.theme-dark .menu_c1e9c4 .item_c1e9c4[id=user-settings-cog-Family_Center]::before {
+  content: "\ebda";
 }
 .theme-dark .menu_c1e9c4 .item_c1e9c4[id=user-settings-cog-Authorized_Apps]::before {
   content: "\e8d7";
@@ -6983,6 +7007,9 @@ html[lang^=en-].theme-dark .toolbar__9293f .button__201d5[aria-label^="Show Chat
 }
 .theme-dark .menu_c1e9c4 .item_c1e9c4[id=user-settings-cog-Connections]::before {
   content: "\f0b9";
+}
+.theme-dark .menu_c1e9c4 .item_c1e9c4[id=user-settings-cog-Settings_Clips]::before {
+  content: "\e77c";
 }
 .theme-dark .menu_c1e9c4 .item_c1e9c4[id=user-settings-cog-Friend_Requests]::before {
   content: "\e1e2";
@@ -7045,6 +7072,10 @@ html[lang^=en-].theme-dark .toolbar__9293f .button__201d5[aria-label^="Show Chat
 }
 .theme-dark .menu_c1e9c4 .item_c1e9c4[id=user-settings-cog-changelog]::before {
   content: "\e77c";
+}
+.theme-dark .menu_c1e9c4 .item_c1e9c4[id=user-settings-cog-merchandise]::before {
+  content: "$";
+  font-family: var(--font-primary);
 }
 .theme-dark .menu_c1e9c4 .item_c1e9c4[id=user-settings-cog-Hypesquad_Online]::before {
   content: "\f157";
@@ -7252,6 +7283,12 @@ html[lang^=en-].theme-dark .toolbar__9293f .button__201d5[aria-label^="Show Chat
 }
 .theme-dark .menu_c1e9c4 .item_c1e9c4[id=channel-context-invite-people]::before {
   content: "\e1e2";
+}
+.theme-dark .menu_c1e9c4 .item_c1e9c4[id=channel-context-opt-in-favorite-channel]::before {
+  content: "\e734";
+}
+.theme-dark .menu_c1e9c4 .item_c1e9c4[id=channel-context-opt-into-channel]::before {
+  content: "\e738";
 }
 .theme-dark .menu_c1e9c4 .item_c1e9c4[id=channel-context-invite-to-listen]::before {
   content: "\f623";
