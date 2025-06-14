@@ -10,9 +10,6 @@
             @include TypeBody;
             color: $TextFillColorSecondary;
             text-align: center;
-            &::after{
-                content: "...";
-            }
             &:hover{
                 text-decoration: underline;
             }
