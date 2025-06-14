@@ -205,6 +205,7 @@
     // Various chatbox states
     // No Permission
     .textAreaDisabled__74017 {
+        overflow: hidden;
         .placeholder__1b31f {
             color: $TextFillColorSecondary;
             @include TypeBody;
