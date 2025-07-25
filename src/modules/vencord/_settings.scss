@@ -32,7 +32,7 @@
         transform: none;
     }
     .vc-addon-name{
-        font-size: 14px;
+        @include TypeBodyStrong;
     }
 }
 

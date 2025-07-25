@@ -96,8 +96,7 @@
         &::before{
             content: "Fluent Discord #{$version}";
             color: $TextFillColorSecondary;
-            font-size: 12px;
-            line-height: 16px;
+            @include TypeCaption;
         }
     }
 }

@@ -97,7 +97,7 @@
             &::before{
                 color: $TextFillColorSecondary;
                 @include FontIconFluent;
-                font-size: 18px;
+                font-size: 16px;
             }
             &:hover,
             &.active__24af7,
@@ -120,7 +120,7 @@
             &::before{
                 @include FontIconFluent;
                 color: $TextFillColorSecondary;
-                font-size: 18px;
+                font-size: 16px;
             }
             &:hover::before{
                 color: $TextFillColorPrimary;
@@ -181,12 +181,11 @@
     // Is Typing
     .typing_b88801{
         height: 20px;
-        top: -20px;
+        top: -24px;
         right: 16px;
         bottom: unset;
         background-color: transparent;
-        font-size: 11px;
-        line-height: 20px;
+        @include TypeCaption;
         align-items: flex-end;
         justify-content: flex-end;
         pointer-events: none;
@@ -198,7 +197,7 @@
         }
         // Slowmode font-size
         .cooldownText_b21699{
-            font-size: 11px;
+            @include TypeCaption;
         }
     }
 
