@@ -145,3 +145,71 @@
         display: none;
     }
 }
+
+// Time for redundancy!
+// New buttons
+// These appear on the My Account User Settings page
+.theme-dark .button__6af3a{
+    border-radius: 4px;
+    span{
+        @include TypeBody;
+    }
+
+    // Primary - Blue
+    &.primary__6af3a{
+        background-color: $AccentFillColorDefault;
+        border-width: 1px;
+        border-style: inset;
+        border-color: $AccentControlElevationBorder;
+        color: $TextOnAccentFillColorPrimary;
+        &:hover{
+            background-color: $AccentFillColorSecondary;
+        }
+        &:active{
+            background-color: $AccentFillColorTertiary;
+        }
+    }
+    // Secondary - Grey
+    &.secondary__6af3a{
+        background-color: $ControlFillColorDefault;
+        border-width: 1px;
+        border-style: outset;
+        border-color: $ControlElevationBorder;
+        color: $TextFillColorPrimary;
+        &:hover{
+            background-color: $ControlFillColorSecondary;
+        }
+        &:active{
+            background-color: $ControlFillColorTertiary;
+        }
+    }
+
+    // Primary critical - red
+    &.critical-primary__6af3a{
+        background-color: $SystemFillColorCriticalBackground;
+        color: $SystemFillColorCritical;
+        &:hover{
+            background-color: lighten($SystemFillColorCriticalBackground, 20%);
+            color: $TextFillColorPrimary;
+        }
+        &:active{
+            background-color: lighten($SystemFillColorCriticalBackground, 40%);
+            color: $TextOnAccentFillColorPrimary;
+        }
+    }
+
+    // Secondary critical - red text, grey background
+    &.critical-secondary__6af3a{
+        background-color: $ControlFillColorDefault;
+        border-width: 1px;
+        border-style: outset;
+        border-color: $SystemFillColorCritical;
+            color: $SystemFillColorCritical;
+        &:hover{
+            background-color: $ControlFillColorSecondary;
+        }
+        &:active{
+            background-color: $ControlFillColorTertiary;
+        }
+    }
+}
