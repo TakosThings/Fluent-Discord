@@ -306,6 +306,68 @@
   display: none;
 }
 
+.theme-dark .button__6af3a {
+  border-radius: 4px;
+}
+.theme-dark .button__6af3a span {
+  font-feature-settings: "rclt" 0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.theme-dark .button__6af3a.primary__6af3a {
+  background-color: hsl(var(--fluent-accent-hue-sat), calc(var(--fluent-accent-lightness) + 20%));
+  border-width: 1px;
+  border-style: inset;
+  border-color: rgba(255, 255, 255, 0.08) rgba(255, 255, 255, 0.08) rgba(0, 0, 0, 0.4);
+  color: rgba(var(--fluent-text-on-accent-color), 100%);
+}
+.theme-dark .button__6af3a.primary__6af3a:hover {
+  background-color: hsl(var(--fluent-accent-hue-sat), calc(var(--fluent-accent-lightness) + 25%));
+}
+.theme-dark .button__6af3a.primary__6af3a:active {
+  background-color: hsl(var(--fluent-accent-hue-sat), calc(var(--fluent-accent-lightness) + 20%));
+}
+.theme-dark .button__6af3a.secondary__6af3a {
+  background-color: rgba(255, 255, 255, 0.0605);
+  border-width: 1px;
+  border-style: outset;
+  border-color: rgba(255, 255, 255, 0.09) rgba(255, 255, 255, 0.07) rgba(255, 255, 255, 0.07) rgba(255, 255, 255, 0.07);
+  color: #FFF;
+}
+.theme-dark .button__6af3a.secondary__6af3a:hover {
+  background-color: rgba(255, 255, 255, 0.0837);
+}
+.theme-dark .button__6af3a.secondary__6af3a:active {
+  background-color: rgba(255, 255, 255, 0.0419);
+}
+.theme-dark .button__6af3a.critical-primary__6af3a {
+  background-color: #442726;
+  color: #FF99A4;
+}
+.theme-dark .button__6af3a.critical-primary__6af3a:hover {
+  background-color: #854d4b;
+  color: #FFF;
+}
+.theme-dark .button__6af3a.critical-primary__6af3a:active {
+  background-color: #b7817f;
+  color: rgba(var(--fluent-text-on-accent-color), 100%);
+}
+.theme-dark .button__6af3a.critical-secondary__6af3a {
+  background-color: rgba(255, 255, 255, 0.0605);
+  border-width: 1px;
+  border-style: outset;
+  border-color: #FF99A4;
+  color: #FF99A4;
+}
+.theme-dark .button__6af3a.critical-secondary__6af3a:hover {
+  background-color: rgba(255, 255, 255, 0.0837);
+}
+.theme-dark .button__6af3a.critical-secondary__6af3a:active {
+  background-color: rgba(255, 255, 255, 0.0419);
+}
+
 .theme-dark .menu_c1e9c4 {
   min-width: 280px;
   background: linear-gradient(0deg, rgba(44, 44, 44, 0.15), rgba(44, 44, 44, 0.15)), rgba(44, 44, 44, 0.96);
@@ -560,7 +622,7 @@
   border: 1px solid rgba(255, 255, 255, 0.5442);
   border-radius: 4px;
 }
-.theme-dark .menu_c1e9c4 .item_c1e9c4[role=menuitemcheckbox] .iconContainer_c1e9c4 svg {
+.theme-dark .menu_c1e9c4 .item_c1e9c4[role=menuitemcheckbox] .iconContainer_c1e9c4 .checkbox_f525d3 {
   display: none;
 }
 .theme-dark .menu_c1e9c4 .item_c1e9c4[role=menuitemcheckbox][aria-checked=true] .iconContainer_c1e9c4 {
@@ -710,6 +772,7 @@
 
 .slider_a562c8 .bar_a562c8 {
   height: 3px;
+  top: 10px;
   background-color: rgba(255, 255, 255, 0.6047);
   border-radius: 2px;
 }
@@ -738,6 +801,12 @@
   width: 18px;
   height: 18px;
   border: 5px solid #454545;
+}
+.slider_a562c8.hasMarks_a562c8 .bar_a562c8 {
+  top: 34px;
+}
+.slider_a562c8.hasMarks_a562c8 .grabber_a562c8 {
+  margin-top: 2px;
 }
 
 .theme-dark .toolbar_bba883 {
@@ -1812,6 +1881,9 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
 .theme-dark .buttons__74017 .container_c0c49a {
   display: none;
 }
+.theme-dark .buttons__74017 > button {
+  display: none;
+}
 .theme-dark .buttons__74017 > div:last-of-type {
   margin-right: 4px;
 }
@@ -1823,7 +1895,7 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
 .theme-dark .buttons__74017 .button__201d5::before {
   color: rgba(255, 255, 255, 0.786);
   font-family: "Segoe Fluent Icons", "Segoe MDL2 Assets";
-  font-size: 18px;
+  font-size: 16px;
 }
 .theme-dark .buttons__74017 .button__201d5:hover, .theme-dark .buttons__74017 .button__201d5.active__24af7, .theme-dark .buttons__74017 .button__201d5.emojiButtonHovered__04eed {
   background-color: rgba(249, 249, 249, 0.3);
@@ -1839,7 +1911,7 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
 .theme-dark .buttons__74017 .container_aa63ab .button__201d5::before {
   font-family: "Segoe Fluent Icons", "Segoe MDL2 Assets";
   color: rgba(255, 255, 255, 0.786);
-  font-size: 18px;
+  font-size: 16px;
 }
 .theme-dark .buttons__74017 .button__201d5[aria-label*=GIF] .contents__201d5:hover::before,
 .theme-dark .buttons__74017 .contents__201d5.stickerButton__74017:hover::before,
@@ -1864,7 +1936,7 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
 .theme-dark .buttons__74017 .emojiButton__04eed::before {
   content: "\e76e";
 }
-.theme-dark .buttons__74017 .emojiButton__04eed .contents__201d5 {
+.theme-dark .buttons__74017 .emojiButton__04eed .spriteContainer__04eed {
   display: none;
 }
 .theme-dark .buttons__74017 .channelAppLauncher_e6e74f .button__201d5::before {
@@ -1888,12 +1960,13 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
 }
 .theme-dark .typing_b88801 {
   height: 20px;
-  top: -20px;
+  top: -24px;
   right: 16px;
   bottom: unset;
   background-color: transparent;
-  font-size: 11px;
-  line-height: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
   align-items: flex-end;
   justify-content: flex-end;
   pointer-events: none;
@@ -1905,7 +1978,9 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
   display: none;
 }
 .theme-dark .typing_b88801 .cooldownText_b21699 {
-  font-size: 11px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
 }
 .theme-dark .textAreaDisabled__74017 {
   overflow: hidden;
@@ -6034,9 +6109,10 @@ html[lang^=en-].theme-dark .container__133bf .actionButton_f8fa06 svg {
   color: rgba(255, 255, 255, 0.786) !important;
 }
 .theme-dark .sidebar__23e6b .info__2debe::before {
-  content: "Fluent Discord 1.12.3";
+  content: "Fluent Discord 1.12.4";
   color: rgba(255, 255, 255, 0.786);
   font-size: 12px;
+  font-weight: 400;
   line-height: 16px;
 }
 
@@ -6530,6 +6606,11 @@ html[lang^=en-].theme-dark .container__133bf .actionButton_f8fa06 svg {
   padding: 16px;
   margin-bottom: 0;
 }
+.theme-dark .contentColumn__23e6b .basicThemeSelectors_fbfab6::after {
+  content: 'Fluent Discord - Select the "Dark" option';
+  padding-left: 4px;
+  color: #FF99A4;
+}
 .theme-dark .contentColumn__23e6b .premiumFeatureBorder__65c15 {
   margin: 0;
   background: transparent;
@@ -6538,7 +6619,12 @@ html[lang^=en-].theme-dark .container__133bf .actionButton_f8fa06 svg {
 .theme-dark .contentColumn__23e6b .premiumFeatureBorder__65c15 .headings__67a11 .title__67a11::after {
   content: "Fluent Discord - Colour themes are not supported";
   padding-left: 4px;
-  color: rgba(255, 255, 255, 0.3628);
+  color: #FF99A4;
+}
+.theme-dark .contentColumn__23e6b .presets_a00e6e:has(.appIconSelectionContainer__8a3d7)::after {
+  content: 'Fluent Discord - In-app Icon is not supported. Select the "Default" option.';
+  padding-left: 4px;
+  color: #FF99A4;
 }
 .theme-dark .contentColumn__23e6b .preview__5d148 {
   background-color: rgba(58, 58, 58, 0.3);
@@ -6799,10 +6885,10 @@ html[lang^=en-].theme-dark .wrapper__1405b .button__201d5[aria-label="Share Your
 html[lang^=en-].theme-dark .wrapper__1405b .button__201d5[aria-label="Stop Streaming"]::before {
   content: "\ea14";
 }
-html[lang^=en-].theme-dark .wrapper__1405b .button__201d5[aria-label="Turn On Microphone"]::before {
+html[lang^=en-].theme-dark .wrapper__1405b .button__201d5[aria-label=Unmute]::before {
   content: "\ec54";
 }
-html[lang^=en-].theme-dark .wrapper__1405b .button__201d5[aria-label="Turn Off Microphone"]::before {
+html[lang^=en-].theme-dark .wrapper__1405b .button__201d5[aria-label=Mute]::before {
   content: "\e720";
 }
 html[lang^=en-].theme-dark .wrapper__1405b .button__201d5[aria-label=Disconnect]::before {
@@ -8540,7 +8626,10 @@ html[lang^=en-].theme-dark .toolbar__9293f .iconWrapper__9293f[aria-label="Keywo
   transform: none;
 }
 .vc-addon-card .vc-addon-name {
+  font-feature-settings: "fina" 1, "init" 1;
   font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
 }
 
 #vencordsettings-tab .vc-settings-quickActions-card {
