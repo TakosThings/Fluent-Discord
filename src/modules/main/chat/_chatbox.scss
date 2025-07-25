@@ -83,9 +83,14 @@
         height: 40px;
         gap: 4px;
         // Remove the gift button
+        // Nesting is updated *very* frequently, so try to catch as many configurations as possible
         .container_c0c49a{
             display: none;
         }
+        & > button{
+            display: none;
+        }
+
         // Add 8px margin to last button
         & > div:last-of-type{
             margin-right: 4px;
