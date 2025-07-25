@@ -118,6 +118,7 @@
 .slider_a562c8{
     .bar_a562c8{
         height: 3px;
+        top: 10px;
         background-color: $ControlStrongStrokeColorDefault;
         border-radius: 2px;
     }
@@ -145,6 +146,14 @@
             width: 18px;
             height: 18px;
             border: 5px solid #454545;
+        }
+    }
+    &.hasMarks_a562c8{
+        .bar_a562c8{
+            top: 34px;
+        }
+        .grabber_a562c8{
+            margin-top: 2px;
         }
     }
 }
