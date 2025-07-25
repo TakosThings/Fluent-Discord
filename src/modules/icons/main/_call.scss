@@ -9,10 +9,10 @@ html[lang^="en-"].theme-dark .wrapper__1405b .button__201d5{
     &[aria-label="Stop Streaming"]::before{
         content: "\EA14"; // DisconnectDisplay
     }
-    &[aria-label="Turn On Microphone"]::before{
+    &[aria-label="Unmute"]::before{
         content: "\EC54"; // MicOff
     }
-    &[aria-label="Turn Off Microphone"]::before{
+    &[aria-label="Mute"]::before{
         content: "\E720"; // Microphone
     }
     &[aria-label="Disconnect"]::before{
