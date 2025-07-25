@@ -363,6 +363,12 @@
     .presets__67a11{
         padding: 16px;
         margin-bottom: 0;
+
+    }
+    .basicThemeSelectors_fbfab6::after{
+        content: "Fluent Discord - Select the \"Dark\" option";
+        padding-left: 4px;
+        color: $SystemFillColorCritical;
     }
     // Nitro themes
     .premiumFeatureBorder__65c15{
@@ -373,8 +379,15 @@
             .title__67a11::after{
                 content: "Fluent Discord - Colour themes are not supported";
                 padding-left: 4px;
-                color: $TextFillColorDisabled;
+                color: $SystemFillColorCritical;
             }
+        }
+    }
+    .presets_a00e6e:has(.appIconSelectionContainer__8a3d7){
+        &::after{
+        content: "Fluent Discord - In-app Icon is not supported. Select the \"Default\" option.";
+        padding-left: 4px;
+        color: $SystemFillColorCritical;
         }
     }
 
