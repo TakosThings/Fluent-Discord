@@ -1848,40 +1848,41 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
 .theme-dark .slateTextArea_ec4baf.placeholder__1b31f {
   color: rgba(255, 255, 255, 0.786);
 }
-.theme-dark button.attachButton__74017 {
+.theme-dark .attachButton__74017 {
   width: 32px;
   height: 32px;
   margin: 4px 0 4px 4px;
   border: 1px solid transparent;
   border-radius: 2px;
 }
-.theme-dark button.attachButton__74017::before {
+.theme-dark .attachButton__74017::before {
   content: "\e898";
   color: rgba(255, 255, 255, 0.786);
   font-family: "Segoe Fluent Icons", "Segoe MDL2 Assets";
   font-size: 16px;
 }
-.theme-dark button.attachButton__74017:hover, .theme-dark button.attachButton__74017[aria-expanded=true] {
+.theme-dark .attachButton__74017:hover, .theme-dark .attachButton__74017[aria-expanded=true] {
   background-color: rgba(255, 255, 255, 0.0837);
   border-color: rgba(255, 255, 255, 0.0698);
 }
-.theme-dark button.attachButton__74017:hover::before, .theme-dark button.attachButton__74017[aria-expanded=true]::before {
+.theme-dark .attachButton__74017:hover::before, .theme-dark .attachButton__74017[aria-expanded=true]::before {
   color: #FFF;
 }
-.theme-dark button.attachButton__74017 .contents__201d5 {
+.theme-dark .attachButton__74017 .attachButtonInner__0923f {
   display: none;
 }
+.theme-dark .hasStackedBar__74017 .attachButton__74017::before {
+  content: unset;
+}
 .theme-dark .icon__4d3a9 {
-  padding: 6px 4px 6px 24px;
+  padding: 4px;
 }
 .theme-dark .buttons__74017 {
   height: 40px;
   gap: 4px;
 }
+.theme-dark .buttons__74017 > .button__74017, .theme-dark .buttons__74017 > button,
 .theme-dark .buttons__74017 .container_c0c49a {
-  display: none;
-}
-.theme-dark .buttons__74017 > button {
   display: none;
 }
 .theme-dark .buttons__74017 > div:last-of-type {
@@ -6109,7 +6110,7 @@ html[lang^=en-].theme-dark .container__133bf .actionButton_f8fa06 svg {
   color: rgba(255, 255, 255, 0.786) !important;
 }
 .theme-dark .sidebar__23e6b .info__2debe::before {
-  content: "Fluent Discord 1.12.4";
+  content: "Fluent Discord 1.12.5";
   color: rgba(255, 255, 255, 0.786);
   font-size: 12px;
   font-weight: 400;
