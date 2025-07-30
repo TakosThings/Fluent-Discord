@@ -49,7 +49,7 @@
     }
 
     // Upload button
-    button.attachButton__74017 {
+    .attachButton__74017 {
         width: 32px;
         height: 32px;
         margin: 4px 0 4px 4px;
@@ -69,13 +69,18 @@
                 color: $TextFillColorPrimary;
             }
         }
-        .contents__201d5{
+        .attachButtonInner__0923f{
             display: none;
         }
     }
     // Command icon (eg. /tenor command)
+    .hasStackedBar__74017 .attachButton__74017{
+        &::before{
+            content: unset;
+        }
+    }
     .icon__4d3a9{
-        padding: 6px 4px 6px 24px;
+        padding: 4px;
     }
 
     // Button group within chatbox
@@ -84,10 +89,9 @@
         gap: 4px;
         // Remove the gift button
         // Nesting is updated *very* frequently, so try to catch as many configurations as possible
+        & > .button__74017,
+        & > button,
         .container_c0c49a{
-            display: none;
-        }
-        & > button{
             display: none;
         }
 
