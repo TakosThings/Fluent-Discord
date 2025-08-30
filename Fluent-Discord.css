@@ -104,6 +104,14 @@
 .theme-dark .top_b3f026 .item_b3f026:hover {
   color: rgba(255, 255, 255, 0.786);
 }
+.theme-dark .tabBar__0b563 .item_b3f026::after,
+.theme-dark .tabBar_b9fccc .item_b3f026::after,
+.theme-dark .tabBar_d6f9e9 .item_b3f026::after,
+.theme-dark .settingsTabBar_dc2e0e .item_b3f026::after,
+.theme-dark .tabBar__4efb4 .item_b3f026::after,
+.theme-dark .top_b3f026 .item_b3f026::after {
+  display: none;
+}
 .theme-dark .tabBar__0b563 .item_b3f026.selected_b3f026,
 .theme-dark .tabBar_b9fccc .item_b3f026.selected_b3f026,
 .theme-dark .tabBar_d6f9e9 .item_b3f026.selected_b3f026,
@@ -990,7 +998,6 @@ html.theme-dark.app-focused .winButton_c38106 {
   margin-right: 0;
 }
 .theme-dark .panels_c48ade .button__67645 {
-  margin-left: 4px;
   background-color: rgba(255, 255, 255, 0.0605);
   border: 1px solid rgba(255, 255, 255, 0.0698);
   border-radius: 4px;
@@ -3014,22 +3021,17 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
   font-weight: 400;
   line-height: 20px;
 }
-.theme-dark .container_c8ffbb .activity__5d473 {
+.theme-dark .container_c8ffbb .truncated_c9d15c {
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
   color: rgba(255, 255, 255, 0.786);
 }
-.theme-dark .container_c8ffbb .activity__5d473 strong {
+.theme-dark .container_c8ffbb .truncated_c9d15c strong {
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
-}
-.theme-dark .container_c8ffbb .activityText__5d473 {
   color: rgba(255, 255, 255, 0.786);
-}
-.theme-dark .container_c8ffbb .activityText__5d473 strong {
-  font-weight: normal;
 }
 
 .avatarDecoration__44b0c {
@@ -3050,9 +3052,10 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 20px;
+  border: 0;
   border-radius: 4px;
   cursor: pointer;
-  transition: background-color 83ms linear;
+  transition: background-color 83ms linear, width 333ms cubic-bezier(0, 0, 0, 1);
 }
 .theme-dark .chat_f75fb0 .search__49676 .searchBar__97492:hover {
   background-color: rgba(255, 255, 255, 0.0837);
@@ -3063,7 +3066,7 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
   display: none;
 }
 .theme-dark .chat_f75fb0 .search__49676 .searchBar__97492 .icon__97492 {
-  margin-top: 2px;
+  height: 24px;
 }
 .theme-dark .chat_f75fb0 .search__49676 .search__97492:not(.focused__97492):not(.open__97492)::before {
   content: "\e721";
@@ -3087,6 +3090,7 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
   border: 1px solid rgba(255, 255, 255, 0.0698);
   border-bottom-width: 2px;
   border-radius: 4px;
+  transition: width 167ms cubic-bezier(1, 0, 1, 1);
 }
 .theme-dark .chat_f75fb0 .search__49676 .search__97492.focused__97492 .searchBar__97492 {
   background-color: rgba(30, 30, 30, 0.7);
@@ -3094,7 +3098,12 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
   border-bottom-color: hsl(var(--fluent-accent-hue-sat), var(--fluent-accent-lightness));
 }
 .theme-dark .chat_f75fb0 .search__49676 .search__97492.open__97492 .icon__97492,
-.theme-dark .chat_f75fb0 .search__49676 .search__97492.focused__97492 .icon__97492,
+.theme-dark .chat_f75fb0 .search__49676 .search__97492.focused__97492 .icon__97492 {
+  width: 24px;
+  height: 24px;
+  display: block;
+  padding: 4px 0 0 4px;
+}
 .theme-dark .chat_f75fb0 .search__49676 .search__97492.open__97492 .searchBar__97492 .public-DraftEditorPlaceholder-root,
 .theme-dark .chat_f75fb0 .search__49676 .search__97492.focused__97492 .searchBar__97492 .public-DraftEditorPlaceholder-root {
   display: block;
@@ -3118,10 +3127,6 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
 .theme-dark .chat_f75fb0 .search__49676 .search__97492 .searchBar__97492 .DraftEditor-root .public-DraftEditorPlaceholder-root {
   padding: 3px 8px 0;
   box-sizing: border-box;
-}
-.theme-dark .chat_f75fb0 .search__49676 .search__97492.open__97492 .searchBar__97492 .DraftEditor-root,
-.theme-dark .chat_f75fb0 .search__49676 .search__97492.focused__97492 .searchBar__97492 .DraftEditor-root {
-  margin-right: 32px;
 }
 .theme-dark .chat_f75fb0 .search__49676 .seasearch__97492rch .searchBar__97492 .public-DraftEditorPlaceholder-root {
   color: rgba(255, 255, 255, 0.786);
@@ -4836,54 +4841,12 @@ html[lang^=en-].theme-dark .container__133bf .actionButton_f8fa06 svg {
   display: none;
 }
 
-.theme-dark .avatar_ec3b75 svg circle {
-  display: none;
-}
-.theme-dark .overlayBackground_c69a7b {
-  border-radius: 4px;
-}
-.theme-dark .tabBarContainer_b9fccc {
-  margin-bottom: 20px;
+.theme-dark .user-profile-modal-v2 {
+  background-color: transparent;
   border: 0;
 }
-.theme-dark .userInfoSectionHeader_a24910 {
-  font-feature-settings: "fina" 1, "init" 1;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
-  text-transform: none;
-}
-.theme-dark .connectedAccountContainer_e6abe8 {
-  padding: 8px;
-}
-.theme-dark .connectedAccountContainer_e6abe8 .connectedAccountNameText_e6abe8 {
-  font-feature-settings: "rclt" 0;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-}
-.theme-dark .connectedAccountContainer_e6abe8 .anchor_edefb8 {
-  text-decoration: none;
-}
-.theme-dark .connectedAccountContainer_e6abe8 .anchor_edefb8::before {
-  content: "\e8a7";
-  color: #FFF;
-  font-family: "Segoe Fluent Icons", "Segoe MDL2 Assets";
-}
-.theme-dark .connectedAccountContainer_e6abe8 .anchor_edefb8 svg {
-  display: none;
-}
-.theme-dark .listRow__9d78f {
-  border: 1px solid transparent;
-}
-.theme-dark .listRow__9d78f:hover {
-  background-color: rgba(255, 255, 255, 0.0605);
-  border-color: rgba(255, 255, 255, 0.0698);
-  border-radius: 4px;
-}
-.theme-dark .listRow__9d78f .listAvatar__9d78f {
-  border-radius: 50%;
+.theme-dark .user-profile-modal-v2 .inner_c0bea0 {
+  padding: 24px 24px 0 24px;
 }
 
 .theme-dark .contentWrapper__9c62c {
@@ -6110,7 +6073,7 @@ html[lang^=en-].theme-dark .container__133bf .actionButton_f8fa06 svg {
   color: rgba(255, 255, 255, 0.786) !important;
 }
 .theme-dark .sidebar__23e6b .info__2debe::before {
-  content: "Fluent Discord 1.12.5";
+  content: "Fluent Discord 1.13.0";
   color: rgba(255, 255, 255, 0.786);
   font-size: 12px;
   font-weight: 400;
@@ -6847,7 +6810,7 @@ html[lang^=en-].theme-dark .panels_c48ade .button__201d5[aria-label=Disconnect]:
 html[lang^=en-].theme-dark .panels_c48ade .button__201d5[aria-label="Leave Activity"]::before, html[lang^=en-].theme-dark .panels_c48ade .button__201d5[aria-label="Disconnect Quietly"]::before {
   content: "\e11f";
 }
-html[lang^=en-].theme-dark .panels_c48ade .button__201d5[aria-label*=Stream]::before, html[lang^=en-].theme-dark .panels_c48ade .button__201d5[aria-label*="Go Live"]::before, html[lang^=en-].theme-dark .panels_c48ade .button__201d5[aria-label*="Navigate to a server to start streaming."]::before {
+html[lang^=en-].theme-dark .panels_c48ade .button__201d5[aria-label*=Stream]::before, html[lang^=en-].theme-dark .panels_c48ade .button__201d5[aria-label*="Go Live"]::before, html[lang^=en-].theme-dark .panels_c48ade .button__201d5[aria-label*="Navigate to a server to start streaming."]::before, html[lang^=en-].theme-dark .panels_c48ade .button__201d5[aria-label*="You can't stream into this server."]::before {
   content: "\ebc6";
 }
 html[lang^=en-].theme-dark .panels_c48ade .button__201d5[aria-label="Stop Streaming"]::before {
@@ -8639,4 +8602,23 @@ html[lang^=en-].theme-dark .toolbar__9293f .iconWrapper__9293f[aria-label="Keywo
 
 #vencordthemes-tab .vc-settings-quickActions-card {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.theme-dark .vc-ranb-button.button__201d5 {
+  min-width: unset;
+  width: 60px;
+}
+.theme-dark .vc-ranb-button.button__201d5 .contents__201d5 {
+  padding: 2px;
+  background-color: rgba(255, 255, 255, 0.0605);
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.theme-dark .vc-ranb-button.button__201d5 .contents__201d5:hover {
+  background-color: rgba(255, 255, 255, 0.0837);
+}
+.theme-dark .vc-ranb-button.button__201d5 .contents__201d5:active {
+  background-color: rgba(255, 255, 255, 0.0419);
 }
