@@ -1,0 +1,18 @@
+.theme-dark{
+    .vc-ranb-button.button__201d5{
+        min-width: unset;
+        width: 60px;
+        .contents__201d5{
+            padding: 2px;
+            background-color: $ControlFillColorDefault;
+            border-radius: 4px;
+            @include TypeCaption;
+            &:hover{
+                background-color: $ControlFillColorSecondary;
+            }
+            &:active{
+                background-color: $ControlFillColorTertiary;
+            }
+        }
+    }
+}
