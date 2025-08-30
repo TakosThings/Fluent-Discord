@@ -121,8 +121,8 @@
 
         // Button replacements
         // Common reuse
-        .button__201d5[aria-label*="GIF"] .contents__201d5, // GIF
-        .contents__201d5.stickerButton__74017,              // Sticker
+        .button__74017[aria-label*="GIF"] .buttonWrapper__24af7, // GIF
+        .button__74017.stickerButton__74017,              // Sticker
         .emojiButton__04eed,                                // Emoji
         .channelAppLauncher_e6e74f .button__201d5,          // App Launcher
         .container_aa63ab .button__201d5{
@@ -140,13 +140,13 @@
 
         }
         // Replace GIF icon
-        .button__201d5[aria-label*="GIF"] .contents__201d5{
+        .button__74017[aria-label*="GIF"] .buttonWrapper__24af7{
             &::before{
                 content: "\F4A9"; // GIF
             }
         }
         // Replace sticker icon
-        .contents__201d5.stickerButton__74017{
+        .button__74017.stickerButton__74017{
             &::before{
                 content: "\F4AA"; // Sticker2
             }
