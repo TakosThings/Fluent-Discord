@@ -1,57 +1,9 @@
 .theme-dark{
-    // Avatar
-    .avatar_ec3b75{
-        svg circle{
-            display: none;
-        }
-    }
-
-    // Body
-    .overlayBackground_c69a7b{
-        border-radius: 4px;
-    }
-
-    // Tabs
-    .tabBarContainer_b9fccc{
-        margin-bottom: 20px;
+    .user-profile-modal-v2{
+        background-color: transparent;
         border: 0;
-    }
-
-    // Section headers
-    .userInfoSectionHeader_a24910{
-        @include TypeBodyStrong;
-        text-transform: none;
-    }
-
-    // Connected accounts
-    .connectedAccountContainer_e6abe8{
-        padding: 8px;
-        .connectedAccountNameText_e6abe8{
-            @include TypeBody;
-        }
-        .anchor_edefb8{
-            text-decoration: none;
-            &::before{
-                content: "\E8A7";
-                color: $TextFillColorPrimary;
-                @include FontIconFluent;
-            }
-            svg{
-                display: none;
-            }
-        }
-    }
-
-    // Mutual servers/friends
-    .listRow__9d78f{
-        border: 1px solid transparent;
-        &:hover{
-            background-color: $ControlFillColorDefault;
-            border-color: $ControlStrokeColorDefault;
-            border-radius: 4px;
-        }
-        .listAvatar__9d78f{
-            border-radius: 50%;
+        .inner_c0bea0{
+            padding: 24px 24px 0 24px;
         }
     }
 }
