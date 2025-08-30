@@ -15,6 +15,9 @@
             &:hover{
                 color: $TextFillColorSecondary;
             }
+            &::after{
+                display: none;
+            }
             &.selected_b3f026{
                 border: 0;
                 &::before{
