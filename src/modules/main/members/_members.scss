@@ -59,19 +59,12 @@
         @include TypeBody;
     }
     // Activity
-    .activity__5d473{
+    .truncated_c9d15c{
         @include TypeCaption;
         color: $TextFillColorSecondary;
         strong{
             @include TypeCaption;
-        }
-    }
-
-    // Activity
-    .activityText__5d473{
-        color: $TextFillColorSecondary;
-        strong{
-            font-weight: normal;
+            color: $TextFillColorSecondary;
         }
     }
 }
