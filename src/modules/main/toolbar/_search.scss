@@ -7,9 +7,11 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: 20px;
+        border: 0;
         border-radius: 4px;
         cursor: pointer;
-        transition: background-color $AnimationFadeInOut;
+        transition: background-color $AnimationFadeInOut,
+                    width $AnimationFastInvokeMedium;
         &:hover{
             background-color: $ControlFillColorSecondary;
             transition: background-color $AnimationFadeInOut;
@@ -19,7 +21,7 @@
             display: none;
         }
         .icon__97492{
-            margin-top: 2px;
+            height: 24px;
         }
     }
 
@@ -47,6 +49,7 @@
         border: 1px solid $ControlStrokeColorDefault;
         border-bottom-width: 2px;
         border-radius: 4px;
+        transition: width $AnimationSoftDismiss;
     }
     .search__97492.focused__97492 .searchBar__97492{
         background-color: $ControlFillColorInputActiveBrush;
@@ -55,7 +58,12 @@
     }
 
     .search__97492.open__97492 .icon__97492,
-    .search__97492.focused__97492 .icon__97492,
+    .search__97492.focused__97492 .icon__97492{
+        width: 24px;
+        height: 24px;
+        display: block;
+        padding: 4px 0 0 4px;
+    }
     .search__97492.open__97492 .searchBar__97492 .public-DraftEditorPlaceholder-root,
     .search__97492.focused__97492 .searchBar__97492 .public-DraftEditorPlaceholder-root{
         display: block;
@@ -77,10 +85,6 @@
         }
     }
     // Add margin to textarea when open/focused so text doesn't appear over the search/clear icon
-    .search__97492.open__97492 .searchBar__97492 .DraftEditor-root,
-    .search__97492.focused__97492 .searchBar__97492 .DraftEditor-root{
-        margin-right: 32px;
-    }
     .seasearch__97492rch .searchBar__97492 .public-DraftEditorPlaceholder-root{
         color: $TextFillColorSecondary;
         @include TypeBody;
