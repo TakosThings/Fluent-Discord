@@ -47,7 +47,8 @@ html[lang^="en-"].theme-dark .panels_c48ade .button__201d5{
     // Streaming
     &[aria-label*="Stream"]::before,
     &[aria-label*="Go Live"]::before,
-    &[aria-label*="Navigate to a server to start streaming."]::before{
+    &[aria-label*="Navigate to a server to start streaming."]::before,
+    &[aria-label*="You can't stream into this server."]::before{
         content: "\EBC6"; // Project
     }
     &[aria-label="Stop Streaming"]::before{
