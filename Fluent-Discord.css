@@ -907,7 +907,7 @@
   content: "Discord";
   color: rgba(255, 255, 255, 0.786);
 }
-.theme-dark .bar_c38106 .title_c38106 .title__85643 {
+.theme-dark .bar_c38106 .title_c38106 .title_bb0d86 {
   display: none;
 }
 .theme-dark .bar_c38106 .trailing_c38106 {
@@ -1912,8 +1912,8 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
 .theme-dark .buttons__74017 .button__201d5:hover::before, .theme-dark .buttons__74017 .button__201d5.active__24af7::before, .theme-dark .buttons__74017 .button__201d5.emojiButtonHovered__04eed::before {
   color: #FFF;
 }
-.theme-dark .buttons__74017 .button__201d5[aria-label*=GIF] .contents__201d5::before,
-.theme-dark .buttons__74017 .contents__201d5.stickerButton__74017::before,
+.theme-dark .buttons__74017 .button__74017[aria-label*=GIF] .buttonWrapper__24af7::before,
+.theme-dark .buttons__74017 .button__74017.stickerButton__74017::before,
 .theme-dark .buttons__74017 .emojiButton__04eed::before,
 .theme-dark .buttons__74017 .channelAppLauncher_e6e74f .button__201d5::before,
 .theme-dark .buttons__74017 .container_aa63ab .button__201d5::before {
@@ -1921,24 +1921,24 @@ html[lang^=en-].theme-dark .wrapper_f7ecac .button_f7ecac[aria-label] svg {
   color: rgba(255, 255, 255, 0.786);
   font-size: 16px;
 }
-.theme-dark .buttons__74017 .button__201d5[aria-label*=GIF] .contents__201d5:hover::before,
-.theme-dark .buttons__74017 .contents__201d5.stickerButton__74017:hover::before,
+.theme-dark .buttons__74017 .button__74017[aria-label*=GIF] .buttonWrapper__24af7:hover::before,
+.theme-dark .buttons__74017 .button__74017.stickerButton__74017:hover::before,
 .theme-dark .buttons__74017 .emojiButton__04eed:hover::before,
 .theme-dark .buttons__74017 .channelAppLauncher_e6e74f .button__201d5:hover::before,
 .theme-dark .buttons__74017 .container_aa63ab .button__201d5:hover::before {
   color: #FFF;
 }
-.theme-dark .buttons__74017 .button__201d5[aria-label*=GIF] .contents__201d5 .lottieIcon__5eb9b,
-.theme-dark .buttons__74017 .contents__201d5.stickerButton__74017 .lottieIcon__5eb9b,
+.theme-dark .buttons__74017 .button__74017[aria-label*=GIF] .buttonWrapper__24af7 .lottieIcon__5eb9b,
+.theme-dark .buttons__74017 .button__74017.stickerButton__74017 .lottieIcon__5eb9b,
 .theme-dark .buttons__74017 .emojiButton__04eed .lottieIcon__5eb9b,
 .theme-dark .buttons__74017 .channelAppLauncher_e6e74f .button__201d5 .lottieIcon__5eb9b,
 .theme-dark .buttons__74017 .container_aa63ab .button__201d5 .lottieIcon__5eb9b {
   display: none !important;
 }
-.theme-dark .buttons__74017 .button__201d5[aria-label*=GIF] .contents__201d5::before {
+.theme-dark .buttons__74017 .button__74017[aria-label*=GIF] .buttonWrapper__24af7::before {
   content: "\f4a9";
 }
-.theme-dark .buttons__74017 .contents__201d5.stickerButton__74017::before {
+.theme-dark .buttons__74017 .button__74017.stickerButton__74017::before {
   content: "\f4aa";
 }
 .theme-dark .buttons__74017 .emojiButton__04eed::before {
@@ -6073,7 +6073,7 @@ html[lang^=en-].theme-dark .container__133bf .actionButton_f8fa06 svg {
   color: rgba(255, 255, 255, 0.786) !important;
 }
 .theme-dark .sidebar__23e6b .info__2debe::before {
-  content: "Fluent Discord 1.13.0";
+  content: "Fluent Discord 1.13.1";
   color: rgba(255, 255, 255, 0.786);
   font-size: 12px;
   font-weight: 400;
