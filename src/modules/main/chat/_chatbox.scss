@@ -36,12 +36,12 @@
 
     // Text input
     .textArea__74017{
-        height: 40px;
-        min-height: 40px;
+        height: 48px;
+        min-height: 48px;
     }
     .slateTextArea_ec4baf{
-        min-height: 40px;
-        padding: 10px 0;
+        min-height: 48px;
+        padding: 14px 0;
         color: $TextFillColorPrimary;
         &.placeholder__1b31f {
             color: $TextFillColorSecondary;
@@ -55,7 +55,7 @@
     .attachButton__74017 {
         width: 32px;
         height: 32px;
-        margin: 4px 0 4px 4px;
+        margin: 8px 0 8px 8px;
         border: 1px solid transparent;
         border-radius: 2px;
         &::before{
@@ -88,7 +88,7 @@
 
     // Button group within chatbox
     .buttons__74017{
-        height: 40px;
+        height: 48px;
         gap: 4px;
         // Remove the gift button
         // Nesting is updated *very* frequently, so try to catch as many configurations as possible
