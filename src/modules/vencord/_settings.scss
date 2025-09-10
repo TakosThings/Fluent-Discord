@@ -23,7 +23,7 @@
     background-color: $SystemFillColorNeutralBackground;
     border: 1px solid $ControlStrokeColorDefault;
     // Highlight enabled cards
-    &:has(.input__87bf1[checked]){
+    &:has(.input__6f89e[checked]){
         background-color: $SystemFillColorSuccesBackground;
     }
     &:hover{

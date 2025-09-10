@@ -5,7 +5,7 @@
 }
 
 // NOTE: 2022-03-26 - hiddenDiv-2qTqSF is used in the credit card field. See #99
-.theme-dark .input__0f084:not(.hiddenDiv__8b579){
+.theme-dark .input__0ed4f:not(.hiddenDiv__8b579){
     height: 32px;
     background-color: $ControlFillColorDefault;
     border: 1px solid;
@@ -35,16 +35,16 @@
     }
 
     &.textarea_dde0a8, // eg. user popout note textarea
-    &.textArea__7aff3{ // eg. channel MOTD textare
+    &.textArea__89a34{ // eg. channel MOTD textare
         padding: 4px 12px;
     }
 }
 // Create channel prefix
 .theme-dark .inputPrefix_b545d5{
     top: 8px;
-    ~ .input__0f084{
+    ~ .input__0ed4f{
         // TODO - 2022-06-08: Resolve this conflict
-        padding-left: 32px !important; // Conflicts with .theme-dark .input__0f084:not(.hiddenDiv-2qTqSF)
+        padding-left: 32px !important; // Conflicts with .theme-dark .input__0ed4f:not(.hiddenDiv-2qTqSF)
     }
 }
 

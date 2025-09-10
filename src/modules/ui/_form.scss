@@ -53,14 +53,14 @@
 }
 
 // Toggle switch
-.theme-dark .container__87bf1{
+.theme-dark .container__6f89e{
     background-color: transparent !important; // Override inline
     border: 0;
     svg{
         display: none;
     }
 }
-.input__87bf1{
+.input__6f89e{
     width: 40px;
     height: 20px;
     margin: 0;
@@ -178,8 +178,8 @@
     .emojiButtonContainer__9b8f6{
         right: 0;
         left: unset;
-        ~ .inputWrapper__0f084{
-            .input__0f084{
+        ~ .inputWrapper__0ed4f{
+            .input__0ed4f{
                 padding-right: 40px;
             }
         }
