@@ -201,4 +201,12 @@
     .wrapper_fc8177{ // Chat line item
         background: transparent;
     }
+
+    // Remove gradient at bottom of chat
+    .chatGradient__36d07 {
+        display: none;
+    }
+    .scrollerSpacer__36d07{
+        height: 16px;
+    }
 }
