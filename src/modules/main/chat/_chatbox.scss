@@ -191,17 +191,23 @@
     }
 
     // Is Typing
+    .inTextChannel_b88801.base_b88801{
+        right: 16px;
+        left: unset;
+    }
     .typing_b88801{
         height: 20px;
         top: -24px;
-        right: 16px;
         bottom: unset;
         background-color: transparent;
         @include TypeCaption;
         align-items: flex-end;
         justify-content: flex-end;
         pointer-events: none;
-        strong{
+        .text_b88801{
+            margin-left: 8px;
+        }
+        &.inTextChannel_b88801 .text_b88801>strong{ // Fighting specificity
             font-weight: normal;
         }
         svg{
