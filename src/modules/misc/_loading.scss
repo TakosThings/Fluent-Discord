@@ -14,11 +14,11 @@
 	100% { transform: rotate(140deg); }
 }
 
-.spinner__0b5bb{
-    .inner__0b5bb:not(.pulsingEllipsis__0b5bb){
+.spinner__46696{
+    .inner__46696:not(.pulsingEllipsis__46696){
         display: block;
         animation: fluent-loading-circle 1s linear infinite;
-        .item__0b5bb:first-child{
+        .item__46696:first-child{
             width: 32px;
             height: 32px;
             position: absolute;
@@ -40,7 +40,7 @@
                 box-sizing: border-box;
             }
         }
-        .item__0b5bb:last-child{
+        .item__46696:last-child{
             display: none;
         }
     }

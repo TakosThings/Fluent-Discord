@@ -16,7 +16,7 @@
     }
 
     // Section header
-    .side_b3f026 .eyebrow_cf4812{
+    .side_aa8da2 .eyebrow_cf4812{
         padding: 0 0 0 8px;
         @include TypeBodyStrong;
         color: $TextFillColorPrimary;
@@ -30,7 +30,7 @@
         }
     }
 
-    .side_b3f026 .item_b3f026{
+    .side_aa8da2 .item_aa8da2{
         padding: 0 12px 0 16px;
         margin-bottom: 4px;
         border: 1px solid transparent;
@@ -58,7 +58,7 @@
             transition: transform 167ms Cubic-bezier(0,0,0,1),
                         opacity 167ms Cubic-bezier(0,0,0,1);
         }
-        &.selected_b3f026{
+        &.selected_aa8da2{
             background-color: $SubtleFillColorSecondary;
             &::before{
                 transform: scaleY(100%);
@@ -84,7 +84,7 @@
         }
     }
     // Divider
-    .side_b3f026 .separator_b3f026{
+    .side_aa8da2 .separator_aa8da2{
         margin: 0 -8px;
     }
 

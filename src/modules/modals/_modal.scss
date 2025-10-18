@@ -14,7 +14,7 @@
 
     // Headers
     .header__49fc1, // eg. notification settings
-    // .header__6dc27, // eg. change password
+    // .header__802af, // eg. change password
     // .header-1kWa4s, // eg. change username
     .header-1R3myj{ // eg. edit email
         padding: 24px;
@@ -22,14 +22,14 @@
         border-radius: 8px 8px 0 0;
         align-items: unset;
         .heading-lg-semibold__58a54, // eg. notification settings
-        .title__6dc27, // eg. change password
+        .title__802af, // eg. change password
         .title_b404ff, // eg. change username
         .title_ad198f{ // eg. edit email
             @include TypeSubtitle;
             text-align: left;
         }
         .text-md-normal__6e567, // eg. notification settings
-        .subtitle__6dc27, // eg. change password
+        .subtitle__802af, // eg. change password
         .subtitle_b404ff, // eg. change username
         .subtitle_ad198f{ // eg. edit email
             @include TypeBody;

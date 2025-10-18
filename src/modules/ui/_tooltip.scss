@@ -1,4 +1,4 @@
-.theme-dark .tooltip__382e7{
+.theme-dark .tooltip_c36707{
     padding: 8px 12px;
     background: $AcrylicBackgroundFillColorBase;
     border: 1px solid $SurfaceStrokeColorFlyout;
@@ -7,10 +7,10 @@
     @include Elevation16;
     // box-sizing: unset;
     @include TypeBody;
-    .tooltipPointer__382e7{
+    .tooltipPointer_c36707{
         display: none;
     }
-    .tooltipContent__382e7{
+    .tooltipContent_c36707{
         padding: 0;
     }
 }
