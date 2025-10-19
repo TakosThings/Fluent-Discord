@@ -209,3 +209,9 @@
         @include TypeBody;
     }
 }
+
+// Text selection
+::selection{
+    background-color: $AccentBase;
+    color: $TextOnAccentFillColorPrimary;
+}
