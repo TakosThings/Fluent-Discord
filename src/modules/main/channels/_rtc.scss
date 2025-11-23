@@ -109,7 +109,7 @@
 }
 
 // Icons
-html[lang^="en-"].theme-dark .panels__5e434 .button__201d5{
+html[lang^="en-"].theme-dark .panels__5e434 .button__201d5[aria-label]{
     &::before{
         @include FontIconFluent;
         font-size: 16px;
