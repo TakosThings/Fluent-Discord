@@ -21,25 +21,32 @@
         }
     }
     // Inbox
-    .recentsIcon_c99c29{
-        .button__85643{
-            width: 46px;
-            &::before{
-                content: "\E715"; // Mail
-                @include FontIconFluent;
-            }
-            &:hover{
-                background-color: $ControlFillColorSecondary;
-            }
-            svg{
-                display: none;
-            }
+    .clickable_c99c29{
+        width: 46px;
+        height: 32px;
+        margin: 0;
+        justify-content: center;
+        &::before{
+            content: "\E715"; // Mail
+            @include FontIconFluent;
+        }
+        &:hover{
+            background-color: $ControlFillColorSecondary;
+        }
+        &[aria-expanded=true]{
+            background-color: $ControlFillColorTertiary;
+        }
+        svg{
+            display: none;
         }
     }
 
     // window controls
     .winButtons_c38106{
         gap: 0;
+        &.winButtonsWithDivider_c38106::before{
+            content: unset;
+        }
     }
     .winButton_c38106{
         width: 46px;
@@ -69,11 +76,9 @@ html.theme-dark.app-focused{
     .winButton_c38106{
         color: $TextFillColorPrimary;
     }
-
-    // .defaultColor__4bd52,
-    // .winButton__421ed{
-    //     color: $TextFillColorPrimary;
-    // }
+    .clickable_c99c29::before{
+        color: $TextFillColorPrimary;
+    }
 }
 
 // Make titlebar height 32px
