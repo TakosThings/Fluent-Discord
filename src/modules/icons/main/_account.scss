@@ -21,6 +21,10 @@ html[lang^="en-"].theme-dark .panels__5e434 .button__201d5{
     &[aria-label="Mute"][aria-checked=false]::before{
         content: "\E720"; // Microphone
     }
+    &.buttonChevron__37e49::before{
+        content: "\E70D";
+        font-size: 8px;
+    }
     &[aria-label^="User settings" i]::before{
         content: "\E713"; // Settings
     }

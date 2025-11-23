@@ -47,10 +47,24 @@
             margin-left: 0;
         }
 
+        // Mic and speaker button with attached menu
+        &.micButtonWithMenu__37e49{
+            border-radius: 4px 0 0 4px;
+        }
+        &.buttonChevron__37e49{
+            margin-inline-start: 0;
+            border-width: 1px 1px 1px 0;
+            border-radius: 0 4px 4px 0;
+        }
+
         // Make muted buttons red
         &[aria-checked=true]{
             border-color: $SystemFillColorCritical;
             color: $SystemFillColorCritical;
+            & ~ .buttonChevron__37e49{
+                border-color: $SystemFillColorCritical;
+            color: $SystemFillColorCritical;
+            }
         }
     }
 }
