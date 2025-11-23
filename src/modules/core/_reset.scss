@@ -21,3 +21,14 @@
 ::after{
     letter-spacing: normal;
 }
+
+// Override nitro username fonts
+.cherryBomb__89a31,
+.chicle__89a31,
+.museoModerno__89a31,
+.neoCastel__89a31,
+.pixelify__89a31,
+.sinistre__89a31,
+.zillaSlab__89a31{
+    font-family: var(--font-primary);
+}
