@@ -18,6 +18,16 @@
   letter-spacing: normal;
 }
 
+.cherryBomb__89a31,
+.chicle__89a31,
+.museoModerno__89a31,
+.neoCastel__89a31,
+.pixelify__89a31,
+.sinistre__89a31,
+.zillaSlab__89a31 {
+  font-family: var(--font-primary);
+}
+
 .theme-dark .wrapper_f61d60 {
   background-color: transparent;
   color: hsl(var(--fluent-accent-hue-sat), calc(var(--fluent-accent-lightness) + 25%));
@@ -884,9 +894,12 @@
   width: 12px;
 }
 .theme-dark .auto_d125d2::-webkit-scrollbar-track {
+  margin-bottom: 8px;
   background-color: transparent;
 }
 .theme-dark .auto_d125d2::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+  border: 4px solid transparent;
   background-color: rgba(255, 255, 255, 0.5442);
 }
 
@@ -921,21 +934,30 @@
 .theme-dark .bar_c38106 .trailing_c38106 a.anchor_edefb8 {
   display: none;
 }
-.theme-dark .bar_c38106 .recentsIcon_c99c29 .button__85643 {
+.theme-dark .bar_c38106 .clickable_c99c29 {
   width: 46px;
+  height: 32px;
+  margin: 0;
+  justify-content: center;
 }
-.theme-dark .bar_c38106 .recentsIcon_c99c29 .button__85643::before {
+.theme-dark .bar_c38106 .clickable_c99c29::before {
   content: "\e715";
   font-family: "Segoe Fluent Icons", "Segoe MDL2 Assets";
 }
-.theme-dark .bar_c38106 .recentsIcon_c99c29 .button__85643:hover {
+.theme-dark .bar_c38106 .clickable_c99c29:hover {
   background-color: rgba(255, 255, 255, 0.0837);
 }
-.theme-dark .bar_c38106 .recentsIcon_c99c29 .button__85643 svg {
+.theme-dark .bar_c38106 .clickable_c99c29[aria-expanded=true] {
+  background-color: rgba(255, 255, 255, 0.0419);
+}
+.theme-dark .bar_c38106 .clickable_c99c29 svg {
   display: none;
 }
 .theme-dark .bar_c38106 .winButtons_c38106 {
   gap: 0;
+}
+.theme-dark .bar_c38106 .winButtons_c38106.winButtonsWithDivider_c38106::before {
+  content: unset;
 }
 .theme-dark .bar_c38106 .winButton_c38106 {
   width: 46px;
@@ -954,6 +976,9 @@ html.theme-dark.app-focused .title_c38106::before {
   color: #FFF;
 }
 html.theme-dark.app-focused .winButton_c38106 {
+  color: #FFF;
+}
+html.theme-dark.app-focused .clickable_c99c29::before {
   color: #FFF;
 }
 
@@ -1023,7 +1048,19 @@ html.theme-dark.app-focused .winButton_c38106 {
 .theme-dark .panels__5e434 .button__67645:first-child {
   margin-left: 0;
 }
+.theme-dark .panels__5e434 .button__67645.micButtonWithMenu__37e49 {
+  border-radius: 4px 0 0 4px;
+}
+.theme-dark .panels__5e434 .button__67645.buttonChevron__37e49 {
+  margin-inline-start: 0;
+  border-width: 1px 1px 1px 0;
+  border-radius: 0 4px 4px 0;
+}
 .theme-dark .panels__5e434 .button__67645[aria-checked=true] {
+  border-color: #FF99A4;
+  color: #FF99A4;
+}
+.theme-dark .panels__5e434 .button__67645[aria-checked=true] ~ .buttonChevron__37e49 {
   border-color: #FF99A4;
   color: #FF99A4;
 }
@@ -1408,11 +1445,11 @@ html.theme-dark.app-focused .winButton_c38106 {
   line-height: 20px;
 }
 
-html[lang^=en-].theme-dark .panels__5e434 .button__201d5::before {
+html[lang^=en-].theme-dark .panels__5e434 .button__201d5[aria-label]::before {
   font-family: "Segoe Fluent Icons", "Segoe MDL2 Assets";
   font-size: 16px;
 }
-html[lang^=en-].theme-dark .panels__5e434 .button__201d5 .contents__201d5 {
+html[lang^=en-].theme-dark .panels__5e434 .button__201d5[aria-label] .contents__201d5 {
   display: none;
 }
 
@@ -3514,6 +3551,9 @@ html[lang^=en-].theme-dark .wrapper__1405b .button__201d5[aria-label] svg {
   background-color: transparent;
 }
 
+.theme-dark .container__133bf {
+  border-top: 0;
+}
 .theme-dark .container__133bf .tabBody__133bf {
   background-color: rgba(58, 58, 58, 0.3);
   border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -6097,7 +6137,7 @@ html[lang^=en-].theme-dark .container__133bf .actionButton_f8fa06 svg {
   color: rgba(255, 255, 255, 0.786) !important;
 }
 .theme-dark .sidebar__23e6b .info__2debe::before {
-  content: "Fluent Discord 1.13.4";
+  content: "Fluent Discord 1.13.5";
   color: rgba(255, 255, 255, 0.786);
   font-size: 12px;
   font-weight: 400;
@@ -6818,6 +6858,10 @@ html[lang^=en-].theme-dark .panels__5e434 .button__201d5[aria-label=Mute][aria-c
 }
 html[lang^=en-].theme-dark .panels__5e434 .button__201d5[aria-label=Mute][aria-checked=false]::before {
   content: "\e720";
+}
+html[lang^=en-].theme-dark .panels__5e434 .button__201d5.buttonChevron__37e49::before {
+  content: "\e70d";
+  font-size: 8px;
 }
 html[lang^=en-].theme-dark .panels__5e434 .button__201d5[aria-label^="User settings" i]::before {
   content: "\e713";
