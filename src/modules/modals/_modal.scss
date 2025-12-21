@@ -6,15 +6,15 @@
     }
 
     // Body
-    .root__49fc1{
+    ._49fc18ba07c5025f-root{
         background-color: $SolidBackgroundFillColorBase;
         border: 1px solid $SurfaceStrokeColorDefault;
         border-radius: 8px;
     }
 
     // Headers
-    .header__49fc1, // eg. notification settings
-    // .header__802af, // eg. change password
+    ._49fc18ba07c5025f-header, // eg. notification settings
+    // ._2aeb5b11ab8fdc77-header, // eg. change password
     // .header-1kWa4s, // eg. change username
     .header-1R3myj{ // eg. edit email
         padding: 24px;
@@ -22,14 +22,14 @@
         border-radius: 8px 8px 0 0;
         align-items: unset;
         .heading-lg-semibold__58a54, // eg. notification settings
-        .title__802af, // eg. change password
+        .title__88fd6, // eg. change password
         .title_b404ff, // eg. change username
         .title_ad198f{ // eg. edit email
             @include TypeSubtitle;
             text-align: left;
         }
         .text-md-normal__6e567, // eg. notification settings
-        .subtitle__802af, // eg. change password
+        .subtitle__88fd6, // eg. change password
         .subtitle_b404ff, // eg. change username
         .subtitle_ad198f{ // eg. edit email
             @include TypeBody;
@@ -38,13 +38,13 @@
         }
 
         // Remove divider line in notification settings
-        &.separator__49fc1{
+        &._49fc18ba07c5025f-separator{
             box-shadow: none;
         }
     }
 
     // Content
-    .content__49fc1{
+    ._49fc18ba07c5025f-content{
         padding-right: 24px !important;
         padding-left: 24px;
         background-color: $LayerFillColorAlt;
@@ -57,17 +57,17 @@
     }
 
     // Footer
-    .footer__49fc1{
+    ._49fc18ba07c5025f-footer{
         padding: 24px;
         background-color: transparent;
 
         // Remove divider line in notification settings
-        &.footerSeparator__49fc1{
+        &._49fc18ba07c5025f-footerSeparator{
             box-shadow: none;
         }
 
         // Add gap between buttons
-        .button__201d5{
+        ._201d5e8a3c09670a-button{
             margin-left: 8px;
         }
     }
@@ -85,7 +85,7 @@
         display: none;
     }
     // NOTE: 2023-06-13 - Style fix for the verify email modal which uses the wrong class for the actions div
-    .headerImage_a62824 ~ div .content__49fc1{
+    .headerImage_a62824 ~ div ._49fc18ba07c5025f-content{
         background-color: transparent;
     }
     .buttons_ce7406{
@@ -100,7 +100,7 @@
         }
     }
     // Enter phone number
-    .phoneField_a0c54f{
+    .a0c54f499c2e5848-phoneField{
         .countryButton_a0c54f{
             min-width: 64px;
         }
@@ -116,7 +116,7 @@
     }
 
     // Event info modal
-    .card__88264{
+    ._8826425bb0684b12-card{
         background-color: $LayerFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 8px;

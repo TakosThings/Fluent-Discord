@@ -1,15 +1,15 @@
-.theme-dark .picker__09f65{
+.theme-dark ._09f65b4b8a3f8d26-picker{
     background: $MicaBackgroundFillColorBase;
     backdrop-filter: blur(16px);
     border: 1px solid $SurfaceStrokeColorDefault;
     border-radius: 8px;
 
     // Search box
-    .header__0856d{
+    ._0856d03b83e324b0-header{
         box-shadow: none;
     }
     // Volume control
-    .settingsClickArea__61424{
+    ._614244fbcb264b94-settingsClickArea{
         width: 32px;
         height: 32px;
         border-width: 1px;
@@ -28,14 +28,14 @@
     }
 
     // Servers
-    .categoryList_a1e0e0{
+    .a1e0e01524490cf9-categoryList{
         background-color: $SolidBackgroundFillColorBase;
     }
 
     // Sounds
     // Section header
-    .sectionHeader__61424{
-        .sectionTitle__61424{
+    ._614244fbcb264b94-sectionHeader{
+        ._614244fbcb264b94-sectionTitle{
             @include TypeBodyStrong;
             text-transform: none;
             color: $TextFillColorPrimary;
@@ -43,7 +43,7 @@
     }
 
     // Sound
-    .soundButton__9be63{
+    ._9be63f0b86033228-soundButton{
         background-color: $ControlFillColorDefault;
         border-width: 1px;
         border-style: outset;
@@ -56,28 +56,28 @@
         &:active{
             background-color: $ControlFillColorTertiary;
         }
-        .ssoundName__9be63{
+        .s_9be63f0b86033228-soundName{
             @include TypeBody;
         }
-        .buttonOverlayBackground__9be63{
+        ._9be63f0b86033228-buttonOverlayBackground{
             background-color: $ControlFillColorInputActiveBrush;
             opacity: 1;
         }
     }
 
     // keybind reminder
-    .keybindHint__46002{
+    ._46002dafa54b8395-keybindHint{
         margin: 8px;
         padding: 8px 16px;
         background-color: $SystemFillColorAttentionBackground;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 4px;
-        .warningIcon__46002{
+        ._46002dafa54b8395-warningIcon{
             color: $SystemFillColorAttention;
             // Wrong icon used for this type of info bar, so rotate it 180deg to change it into an 'i'
             transform: rotate(180deg);
         }
-        .keybindHintText__46002{
+        ._46002dafa54b8395-keybindHintText{
             @include TypeBody;
         }
     }

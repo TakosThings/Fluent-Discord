@@ -1,10 +1,10 @@
-.theme-dark .privateChannels_e6b769{
-    .scroller__99e7c{
+.theme-dark .e6b7699ce8339e1c-privateChannels{
+    ._99e7cad8d4c55236-scroller{
         margin-bottom: 64px;
     }
 
-    .link__972a0[href="/channels/@me"]{
-        .avatar__20a53{
+    ._972a0d22c8afa7f0-link[href="/channels/@me"]{
+        ._20a53846fe2e8513-avatar{
             &::before{
                 content: "\E13D"; // Contact
                 @include FontIconFluent;
@@ -16,14 +16,14 @@
         }
     }
     // Remove the nitro button
-    .link__972a0[href="/store"]{
+    ._972a0d22c8afa7f0-link[href="/store"]{
         display: none;
     }
 
     // Remove badges from the shop button
-    .channel__972a0{
-        .link__972a0[data-list-item-id*="___shop"]{
-            .avatar__20a53{
+    ._972a0d22c8afa7f0-channel{
+        ._972a0d22c8afa7f0-link[data-list-item-id*="___shop"]{
+            ._20a53846fe2e8513-avatar{
                 &::before{
                     content: "\E13D"; // Contact
                     @include FontIconFluent;
@@ -34,35 +34,35 @@
                 }
             }
             // Remove badges from the shop button
-            .newBadge__4ed1a{
+            ._4ed1af9a212b8f4f-newBadge{
                 display: none;
             }
         }
     }
 
-    .sectionDivider_e6b769{
+    .e6b7699ce8339e1c-sectionDivider{
         display: none;
     }
 
-    .interactive__972a0{
+    ._972a0d22c8afa7f0-interactive{
         &:hover,
         &:focus-within{
             background-color: $SubtleFillColorSecondary;
             box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary;
-            .name__20a53{
+            ._20a53846fe2e8513-name{
                 color: $TextFillColorPrimary;
             }
         }
-        &.selected_bf202d{
+        &.bf202d63ad53e289-selected{
             background-color: $SubtleFillColorSecondary;
         }
 
-        .layout__20a53{
+        ._20a53846fe2e8513-layout{
             padding: 0 8px;
         }
 
         // Name
-        .name__20a53{
+        ._20a53846fe2e8513-name{
             @include TypeBody;
             color: $TextFillColorSecondary;
         }
@@ -74,7 +74,7 @@
     }
 
     // DMs header
-    .privateChannelsHeaderContainer__99e7c {
+    ._99e7cad8d4c55236-privateChannelsHeaderContainer {
         height: auto;
         padding: 12px;
         color: $TextFillColorPrimary;

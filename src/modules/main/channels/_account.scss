@@ -1,10 +1,10 @@
 // Remove background from RTC/account
-.theme-dark .panels__5e434{
+.theme-dark ._5e434347c823b592-panels{
     background-color: $SolidBackgroundFillColorTertiary;
     border-radius: 4px;
 
     // Remove 1px margin from bottom of panel
-    .container__37e49{
+    ._37e49614b9f110a9-container{
         background-color: transparent;
         height: 48px;
         margin-bottom: 0;
@@ -12,20 +12,20 @@
     }
 
     // Remove margin on avatar/username wrapper
-    .avatarWrapper__37e49{
+    ._37e49614b9f110a9-avatarWrapper{
         margin-right: 0;
         &:hover{
             background-color: transparent;
         }
     }
 
-    .buttons__37e49{
+    ._37e49614b9f110a9-buttons{
         gap: 4px;
     }
     .buttonSpace__37e49{
         margin-right: 0;
     }
-    .button__67645{
+    ._67645e1530f1195d-button{
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
         border-radius: 4px;
@@ -36,8 +36,8 @@
         &:active{
             background-color: $ControlFillColorTertiary;
         }
-        .contents__201d5{ // Non-EN sizing fix
-            .lottieIcon__5eb9b{
+        ._201d5e8a3c09670a-contents{ // Non-EN sizing fix
+            ._5eb9b3cc7c2b1ce8-lottieIcon{
                 position: absolute;
                 top: 5px;
                 left: 5px;
@@ -48,10 +48,10 @@
         }
 
         // Mic and speaker button with attached menu
-        &.micButtonWithMenu__37e49{
+        &._37e49614b9f110a9-micButtonWithMenu{
             border-radius: 4px 0 0 4px;
         }
-        &.buttonChevron__37e49{
+        &._37e49614b9f110a9-buttonChevron{
             margin-inline-start: 0;
             border-width: 1px 1px 1px 0;
             border-radius: 0 4px 4px 0;
@@ -61,7 +61,7 @@
         &[aria-checked=true]{
             border-color: $SystemFillColorCritical;
             color: $SystemFillColorCritical;
-            & ~ .buttonChevron__37e49{
+            & ~ ._37e49614b9f110a9-buttonChevron{
                 border-color: $SystemFillColorCritical;
             color: $SystemFillColorCritical;
             }

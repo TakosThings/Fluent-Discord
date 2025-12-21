@@ -1,6 +1,6 @@
-.theme-dark .chat_f75fb0 .search__49676{
+.theme-dark .f75fb00fb7356cbe-chat ._496769951eb140fe-search{
     margin: 0 4px 0 0;
-    .searchBar__97492{
+    ._974928fe84ca9647-searchBar{
         width: 60px;
         height: 32px;
         background-color: transparent;
@@ -17,16 +17,16 @@
             transition: background-color $AnimationFadeInOut;
         }
         .public-DraftEditorPlaceholder-root,
-        .icon__97492{
+        ._974928fe84ca9647-icon{
             display: none;
         }
-        .icon__97492{
+        ._974928fe84ca9647-icon{
             height: 24px;
         }
     }
 
     // Icon when not active
-    .search__97492:not(.focused__97492):not(.open__97492)::before{
+    ._974928fe84ca9647-search:not(._974928fe84ca9647-focused):not(._974928fe84ca9647-open)::before{
         content: "\e721"; // Search
         width: 60px;
         font-size: 16px;
@@ -37,9 +37,9 @@
         position: absolute;
     }
 
-    .search__97492.focused__97492 .searchBar__97492,
-    .search__97492.open__97492 .searchBar__97492,
-    .search__97492.popout-open .searchBar__97492{
+    ._974928fe84ca9647-search._974928fe84ca9647-focused ._974928fe84ca9647-searchBar,
+    ._974928fe84ca9647-search._974928fe84ca9647-open ._974928fe84ca9647-searchBar,
+    ._974928fe84ca9647-search.popout-open ._974928fe84ca9647-searchBar{
         width: 232px;
         height: 32px;
         margin: 0;
@@ -51,27 +51,27 @@
         border-radius: 4px;
         transition: width $AnimationSoftDismiss;
     }
-    .search__97492.focused__97492 .searchBar__97492{
+    ._974928fe84ca9647-search._974928fe84ca9647-focused ._974928fe84ca9647-searchBar{
         background-color: $ControlFillColorInputActiveBrush;
         border-color: $ControlStrokeColorDefault;
         border-bottom-color: $AccentBase;
     }
 
-    .search__97492.open__97492 .icon__97492,
-    .search__97492.focused__97492 .icon__97492{
+    ._974928fe84ca9647-search._974928fe84ca9647-open ._974928fe84ca9647-icon,
+    ._974928fe84ca9647-search._974928fe84ca9647-focused ._974928fe84ca9647-icon{
         width: 24px;
         height: 24px;
         display: block;
         padding: 4px 0 0 4px;
     }
-    .search__97492.open__97492 .searchBar__97492 .public-DraftEditorPlaceholder-root,
-    .search__97492.focused__97492 .searchBar__97492 .public-DraftEditorPlaceholder-root{
+    ._974928fe84ca9647-search._974928fe84ca9647-open ._974928fe84ca9647-searchBar .public-DraftEditorPlaceholder-root,
+    ._974928fe84ca9647-search._974928fe84ca9647-focused ._974928fe84ca9647-searchBar .public-DraftEditorPlaceholder-root{
         display: block;
     }
-    .search__97492 .DraftEditor-root .DraftEditor-editorContainer{
+    ._974928fe84ca9647-search .DraftEditor-root .DraftEditor-editorContainer{
         height: 26px;
     }
-    .search__97492 .searchBar__97492 .DraftEditor-root{
+    ._974928fe84ca9647-search ._974928fe84ca9647-searchBar .DraftEditor-root{
         width: 100%;
         color: $TextFillColorPrimary;
         @include TypeBody;
@@ -85,7 +85,7 @@
         }
     }
     // Add margin to textarea when open/focused so text doesn't appear over the search/clear icon
-    .seasearch__97492rch .searchBar__97492 .public-DraftEditorPlaceholder-root{
+    .sea_974928fe84ca9647-searchrch ._974928fe84ca9647-searchBar .public-DraftEditorPlaceholder-root{
         color: $TextFillColorSecondary;
         @include TypeBody;
     }

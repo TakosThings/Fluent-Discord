@@ -1,16 +1,16 @@
 // Main UI transparency
 .theme-dark{
-    .sidebar__5e434, // channels
-    .container__2637a{ // channels
+    ._5e434347c823b592-sidebar, // channels
+    ._2637a2609f343032-container{ // channels
         background-color: transparent;
     }
 
     // Settings transparency
-    .layer__960e4,
-    .standardSidebarView__23e6b,
-    .sidebarRegionScroller__23e6b,
-    .contentRegion__23e6b,
-    .contentRegionScroller__23e6b{
+    ._960e4207cea8323e-layer,
+    ._23e6b439306f125a-standardSidebarView,
+    ._23e6b439306f125a-sidebarRegionScroller,
+    ._23e6b439306f125a-contentRegion,
+    ._23e6b439306f125a-contentRegionScroller{
         background: transparent;
     }
 
@@ -21,7 +21,7 @@
     //
     // NOTE: 2022-10-16 - Have to use the #{} trick because SASS and CSS saturate() functions collide and throw an error on compile when using a CSS var
     //    See: https://github.com/sass/libsass/issues/151#issuecomment-54477631
-    .bg__960e4{
+    ._960e4207cea8323e-bg{
         margin-top: -10px; // Hides the black bar at top of titlebar (ie. grabber)
         background: var(--fluent-acrylic-background);
         background-size: cover;

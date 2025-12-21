@@ -1,12 +1,12 @@
-.theme-dark .button__201d5{
+.theme-dark ._201d5e8a3c09670a-button{
     border-radius: 4px;
     @include TypeBody;
 
     // Sizes
-    &.sizeMin__201d5, // eg. Add server 'back' buttons
-    &.sizeSmall__201d5,
-    &.sizeMedium__201d5, // eg. Create new server
-    &.sizeLarge__201d5, // eg. Add a keybind
+    &._201d5e8a3c09670a-sizeMin, // eg. Add server 'back' buttons
+    &._201d5e8a3c09670a-sizeSmall,
+    &._201d5e8a3c09670a-sizeMedium, // eg. Create new server
+    &._201d5e8a3c09670a-sizeLarge, // eg. Add a keybind
     &.sizeXlarge__6885c{ // eg. Untrusted link modal
         min-width: 120px;
         min-height: 32px;
@@ -14,10 +14,10 @@
     }
 
     // Filled buttons
-    &.lookFilled__201d5{
+    &._201d5e8a3c09670a-lookFilled{
         // Brand buttons
-        &.colorBrand__201d5,
-        &.colorGreen__201d5, // Join server terms modal
+        &._201d5e8a3c09670a-colorBrand,
+        &._201d5e8a3c09670a-colorGreen, // Join server terms modal
         &.colorBrandNew__8872c{ // eg. User Settings > Accessibility > TTS Rate
             background-color: $AccentFillColorDefault;
             border-width: 1px;
@@ -32,7 +32,7 @@
             }
         }
         // Grey
-        &.colorPrimary__201d5,
+        &._201d5e8a3c09670a-colorPrimary,
         &.buttonColor_dfbe6b, // "Example Button" in User Settings>Profile
         &.buttonColor__7b3e8{ // Voice screen invite button
             background-color: $ControlFillColorDefault;
@@ -49,7 +49,7 @@
         }
 
         // Red
-        &.colorRed__201d5{
+        &._201d5e8a3c09670a-colorRed{
             background-color: $SystemFillColorCriticalBackground;
             color: $SystemFillColorCritical;
             &:hover{
@@ -72,8 +72,8 @@
     }
 
     // Outlined
-    &.lookOutlined__201d5{
-        &.colorBrand__201d5{ // eg. Request Data
+    &._201d5e8a3c09670a-lookOutlined{
+        &._201d5e8a3c09670a-colorBrand{ // eg. Request Data
             border-color: $ControlStrokeColorDefault;
             color: $TextFillColorPrimary;
             &:hover{
@@ -83,7 +83,7 @@
                 background-color: $ControlFillColorTertiary;
             }
         }
-        &.colorRed__201d5{
+        &._201d5e8a3c09670a-colorRed{
             border-color: $SystemFillColorCritical;
             color: $SystemFillColorCritical;
             &:hover{
@@ -98,9 +98,9 @@
     }
 
     // Blank
-    &.lookBlank__201d5{ // eg. Add server 'back' buttons
+    &._201d5e8a3c09670a-lookBlank{ // eg. Add server 'back' buttons
         color: $TextFillColorPrimary;
-        &.backButton__78f69{
+        &._78f6989168778e7c-backButton{
             background-color: $ControlFillColorDefault;
             border-width: 1px;
             border-style: outset;
@@ -116,7 +116,7 @@
     }
 
     // Link button
-    &.lookLink__201d5{ // eg. Reveal email button
+    &._201d5e8a3c09670a-lookLink{ // eg. Reveal email button
         background-color: $ControlFillColorDefault;
         border-width: 1px;
         border-style: outset;
@@ -124,7 +124,7 @@
         color: $TextFillColorPrimary;
         &:hover{
             background-color: $ControlFillColorSecondary;
-            .contents__201d5{
+            ._201d5e8a3c09670a-contents{
                 background-image: none;
             }
         }
@@ -149,14 +149,14 @@
 // Time for redundancy!
 // New buttons
 // These appear on the My Account User Settings page
-.theme-dark .button_a22cb0{
+.theme-dark .a22cb0c66246f5d3-button{
     border-radius: 4px;
     span{
         @include TypeBody;
     }
 
     // Primary - Blue
-    &.primary_a22cb0{
+    &.a22cb0c66246f5d3-primary{
         background-color: $AccentFillColorDefault;
         border-width: 1px;
         border-style: inset;
@@ -170,7 +170,7 @@
         }
     }
     // Secondary - Grey
-    &.secondary_a22cb0{
+    &.a22cb0c66246f5d3-secondary{
         background-color: $ControlFillColorDefault;
         border-width: 1px;
         border-style: outset;
@@ -185,7 +185,7 @@
     }
 
     // Primary critical - red
-    &.critical-primary_a22cb0{
+    &.a22cb0c66246f5d3-critical-primary{
         background-color: $SystemFillColorCriticalBackground;
         color: $SystemFillColorCritical;
         &:hover{
@@ -199,7 +199,7 @@
     }
 
     // Secondary critical - red text, grey background
-    &.critical-secondary_a22cb0{
+    &.a22cb0c66246f5d3-critical-secondary{
         background-color: $ControlFillColorDefault;
         border-width: 1px;
         border-style: outset;

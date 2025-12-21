@@ -1,16 +1,16 @@
-.theme-dark .searchResultsWrap_a9e706{
+.theme-dark .a9e7064fdee8e9b0-searchResultsWrap{
     background-color: $LayerFillColorDefault;
     border-left: 1px solid $CardStrokeColorDefault;
 
-    .searchHeader_f3b986{
+    .f3b986a284a18c78-searchHeader{
         background-color: transparent;
-        .totalResults_f3b986 > div{
+        .f3b986a284a18c78-totalResults > div{
             @include TypeBodyStrong;
         }
     }
     // Tabs (new/old/relevant)
-    .searchHeaderTabList_f3b986 {
-        .item_aa8da2 {
+    .f3b986a284a18c78-searchHeaderTabList {
+        .aa8da23faa27393c-item {
             padding-left: 0;
             padding-right: 0;
             margin-right: 16px;
@@ -21,7 +21,7 @@
                 color: $TextFillColorSecondary;
             }
 
-            &.selected_aa8da2 {
+            &.aa8da23faa27393c-selected {
                 background-color: transparent;
                 color: $AccentTextFillColorPrimary;
                 &::before{
@@ -41,7 +41,7 @@
     }
 
     // Result
-    .searchResult__02a39{
+    ._02a39cb2980ceaaf-searchResult{
         background-color: $CardBackgroundFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 4px;
@@ -50,7 +50,7 @@
         }
     }
     // Jump button
-    .button__02a39{
+    ._02a39cb2980ceaaf-button{
         padding: 4px 8px;
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorOnAccentDefault;

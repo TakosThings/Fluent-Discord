@@ -23,42 +23,42 @@
                     box-shadow: inset 0 0 0 2px $AccentBase;
                 }
             }
-            .sourceName_a2de16{
+            .a2de1626f02751e5-sourceName{
                 @include TypeBody;
             }
 
             // Stream settings
-            .card__4bb93{
+            ._4bb93312e84f332e-card{
                 height: 32px;
                 padding: 0 8px;
                 background-color: $ControlFillColorDefault;
                 border: 0;
                 border-radius: 4px;
                 color: $TextFillColorSecondary;
-                .channelInfo__248f3,
-                .ellipsisText__885c5{
+                ._248f3d614c5ab7ad-channelInfo,
+                ._885c53313f188564-ellipsisText{
                     @include TypeBody;
                     color: $TextFillColorPrimary;
                 }
-                .changeButton__885c5{
+                ._885c53313f188564-changeButton{
                     margin-right: -8px;
                 }
             }
 
-            .qualitySettingsContainer_c6d3dc{
+            .c6d3dc100d5624e2-qualitySettingsContainer{
                 padding: 0;
                 border: 0;
             }
 
             .group_d76384{
-                .selectorButton_c6d3dc{
+                .c6d3dc100d5624e2-selectorButton{
                     background-color: transparent;
                     border: 1px solid $ControlStrokeColorOnAccentDefault;
 
                     &:hover{
                         background-color: $ControlFillColorSecondary;
                     }
-                    &.selectorButtonSelected_c6d3dc{
+                    &.c6d3dc100d5624e2-selectorButtonSelected{
                         background-color: $AccentFillColorDefault;
                         color: $TextOnAccentFillColorPrimary;
                         &:hover{

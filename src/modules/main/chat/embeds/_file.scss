@@ -1,8 +1,8 @@
-.theme-dark .fileWrapper__0ccae{
+.theme-dark ._0ccaee68b77c7469-fileWrapper{
     width: 400px;
     position: relative;
 
-    .file__0ccae{
+    ._0ccaee68b77c7469-file{
         background-color: $CardBackgroundFillColorDefault;
         border: 1px solid $SurfaceStrokeColorFlyout;
         border-color: $SurfaceStrokeColorFlyout; // Override Discord CSS
@@ -10,7 +10,7 @@
 
     img{
         display: none;
-        & ~ .fileInner__0ccae{
+        & ~ ._0ccaee68b77c7469-fileInner{
             position: relative;
             padding-left: 40px;
             &::before{
@@ -21,36 +21,36 @@
                 @include FontIconFluent;
                 font-size: 24px;
             }
-            .filenameLinkWrapper__0ccae a{
+            ._0ccaee68b77c7469-filenameLinkWrapper a{
                 line-height: 20px;
             }
         }
 
     }
 
-    img[title="acrobat"] ~ .fileInner__0ccae::before{
+    img[title="acrobat"] ~ ._0ccaee68b77c7469-fileInner::before{
         content: "\ea90"; // PDF
     }
-    img[title="archive"] ~ .fileInner__0ccae::before{
+    img[title="archive"] ~ ._0ccaee68b77c7469-fileInner::before{
         content: "\f012"; // ZipFolder
     }
-    img[title="document"] ~ .fileInner__0ccae::before{
+    img[title="document"] ~ ._0ccaee68b77c7469-fileInner::before{
         content: "\f000"; // KnowledgeArticle
     }
-    img[title="spreadsheet"] ~ .fileInner__0ccae::before{
+    img[title="spreadsheet"] ~ ._0ccaee68b77c7469-fileInner::before{
         content: "\E9F9"; // ReportDocument
     }
-    img[title="unknown"] ~ .fileInner__0ccae::before{
+    img[title="unknown"] ~ ._0ccaee68b77c7469-fileInner::before{
         content: "\e9ce"; // Unknown
     }
 
-    img[title="ae"] ~ .fileInner__0ccae::before,
-    img[title="ai"] ~ .fileInner__0ccae::before,
-    img[title="sketch"] ~ .fileInner__0ccae::before{
+    img[title="ae"] ~ ._0ccaee68b77c7469-fileInner::before,
+    img[title="ai"] ~ ._0ccaee68b77c7469-fileInner::before,
+    img[title="sketch"] ~ ._0ccaee68b77c7469-fileInner::before{
         content: "\e8a5"; // Document
     }
 
-    .metadata__0ccae{
+    ._0ccaee68b77c7469-metadata{
         color: $TextFillColorSecondary;
         @include TypeCaption;
         font-weight: normal;

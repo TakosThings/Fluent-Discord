@@ -3,11 +3,11 @@
     background-color: $SystemFillColorAttentionBackground;
     border: 1px solid $CardStrokeColorDefault;
     border-radius: 4px;
-    .item__88a69{
+    ._88a69141dd70013a-item{
         margin-bottom: 0;
         border: 1px solid transparent;
         border-radius: 4px;
-        &.itemFilled__88a69{
+        &._88a69141dd70013a-itemFilled{
             background-color: transparent;
         }
         &[aria-checked=true]{
@@ -19,11 +19,11 @@
 
         // Privacy & Safety
         // Remove coloured bars on left side
-        .radioBar__88a69{
+        ._88a69141dd70013a-radioBar{
             border: 0;
         }
 
-        .info__88a69{
+        ._88a69141dd70013a-info{
             grid-gap: 0;
             .text-md-medium_a84e09{
                 @include TypeBody;
@@ -53,14 +53,14 @@
 }
 
 // Toggle switch
-.theme-dark .container__3f21e{
+.theme-dark ._3f21e80f8677ec40-container{
     background-color: transparent !important; // Override inline
     border: 0;
     svg{
         display: none;
     }
 }
-.input__3f21e{
+._3f21e80f8677ec40-input{
     width: 40px;
     height: 20px;
     margin: 0;
@@ -140,8 +140,8 @@
     }
 }
 // Checkbox (in context menu)
-.theme-dark .menu_c1e9c4 .item_c1e9c4[role="menuitemcheckbox"]{
-    .iconContainer_c1e9c4{
+.theme-dark .c1e9c47c23f12ca3-menu .c1e9c47c23f12ca3-item[role="menuitemcheckbox"]{
+    .c1e9c47c23f12ca3-iconContainer{
         width: 18px;
         height: 18px;
         position: relative;
@@ -152,7 +152,7 @@
             display: none;
         }
     }
-    &[aria-checked=true] .iconContainer_c1e9c4{
+    &[aria-checked=true] .c1e9c47c23f12ca3-iconContainer{
         background-color: $AccentTextFillColorPrimary;
         border-color: $AccentTextFillColorPrimary;
         color: $TextOnAccentFillColorPrimary;
@@ -165,10 +165,10 @@
             font-size: 16px;
         }
     }
-    &:hover .iconContainer_c1e9c4{
+    &:hover .c1e9c47c23f12ca3-iconContainer{
         background-color: $ControlAltFillColorTertiary;
     }
-    &[aria-checked=true]:hover .iconContainer_c1e9c4{
+    &[aria-checked=true]:hover .c1e9c47c23f12ca3-iconContainer{
         background-color: $AccentTextFillColorSecondary;
     }
 }
@@ -178,8 +178,8 @@
     .emojiButtonContainer__9b8f6{
         right: 0;
         left: unset;
-        ~ .inputWrapper__0ed4f{
-            .input__0ed4f{
+        ~ ._0ed4fc708cdbac0d-inputWrapper{
+            ._0ed4fc708cdbac0d-input{
                 padding-right: 40px;
             }
         }

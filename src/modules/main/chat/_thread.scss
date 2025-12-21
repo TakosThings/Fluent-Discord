@@ -1,37 +1,37 @@
-.theme-dark .container__01ae2{
+.theme-dark ._01ae244280823725-container{
     background-color: transparent;
     border-radius: 0;
 
     // Toolbar
-    .container__9293f{
+    ._9293f6b2fc12398a-container{
         background-color: transparent;
-        .children__9293f{
+        ._9293f6b2fc12398a-children{
             // Removes small gradient
             &::after{
                 display: none;
             }
-            > .iconWrapper__9293f{
+            > ._9293f6b2fc12398a-iconWrapper{
                 display: none;
             }
-            .title__9293f{
+            ._9293f6b2fc12398a-title{
                 @include TypeBodyStrong;
             }
         }
     }
 
     // Archived header
-    .chatHeaderBar_a5700d{
+    .a5700d36f7c29ded-chatHeaderBar{
         margin: 8px;
         background-color: $SystemFillColorSolidNeutralBackground;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 8px;
-        .chatHeaderBarText_a5700d{
+        .a5700d36f7c29ded-chatHeaderBarText{
             color: $TextFillColorPrimary;
         }
     }
 
     // Forum thread
-    .container__34c2c{
+    ._34c2c51cfce1632e-container{
         margin: 16px;
         padding: 4px 8px;
         background: $MicaBackgroundFillColorBase;
@@ -39,7 +39,7 @@
         border-radius: 8px;
 
         // Only apply filter when stickied
-        &.header__34c2c{
+        &._34c2c51cfce1632e-header{
             backdrop-filter: blur(8px);
             @include Elevation32;
         }
@@ -49,8 +49,8 @@
             min-width: unset;
         }
         .buttonInner__34c2c,
-        .reactionInner_f8896c,
-        .addReactButton__34c2c{
+        .f8896c4f6be18f59-reactionInner,
+        ._34c2c51cfce1632e-addReactButton{
             background-color: $ControlFillColorDefault;
             border-width: 1px;
             border-style: outset;
@@ -58,12 +58,12 @@
             border-radius: 4px;
         }
     }
-    .divider_ee23ac{
+    .ee23ac2acd215184-divider{
         display: none;
     }
 }
 
-.theme-dark .chat_a44415{
+.theme-dark .a44415a3320e67de-chat{
     border-top: 1px solid $CardStrokeColorDefault;
     border-left: 1px solid $CardStrokeColorDefault;
     border-radius: 8px 0 0 0;
@@ -71,18 +71,18 @@
         display: none;
     }
 }
-.theme-dark .chat_f75fb0.threadSidebarOpen_f75fb0{
+.theme-dark .f75fb00fb7356cbe-chat.f75fb00fb7356cbe-threadSidebarOpen{
     border-radius: 0;
-    .content_f75fb0{
+    .f75fb00fb7356cbe-content{
         border-right: 1px solid $CardStrokeColorDefault;
         border-radius: 8px 8px 0 0;
     }
-    .chatContent_f75fb0{
+    .f75fb00fb7356cbe-chatContent{
         border-radius: 8px 8px 0 0;
     }
 }
 
-.theme-dark .resizeHandle__01ae2{
+.theme-dark ._01ae244280823725-resizeHandle{
     position: relative;
     background-color: transparent;
     &::before{
@@ -105,13 +105,13 @@
 }
 
 // Narrow window
-.theme-dark .chatLayerWrapper__01ae2{
-    .container__01ae2 {
+.theme-dark ._01ae244280823725-chatLayerWrapper{
+    ._01ae244280823725-container {
         background-color: $SolidBackgroundFillColorBase;
-        &.floating__01ae2{
+        &._01ae244280823725-floating{
             border-left: 0;
         }
-        .chat_f02135{
+        .f02135b221cc85a6-chat{
             border-radius: 0;
         }
     }

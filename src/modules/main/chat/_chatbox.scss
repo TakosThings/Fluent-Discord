@@ -1,11 +1,11 @@
 .theme-dark{
-    .form_f75fb0{
+    .f75fb00fb7356cbe-form{
         margin-top: 0;
         padding-left: 17px;
         padding-right: 15px;
     }
 
-    .channelTextArea__74017{
+    ._740174f3d6a2c8fe-channelTextArea{
         margin-bottom: 8px;
         background: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
@@ -19,40 +19,40 @@
             border-color: $ControlStrokeColorDefault;
             border-bottom-color: $AccentBase;
         }
-        &.channelTextAreaDisabled__74017{
+        &._740174f3d6a2c8fe-channelTextAreaDisabled{
             background-color: $ControlFillColorDisabled;
         }
     }
-    .themedBackground__74017{
+    ._740174f3d6a2c8fe-themedBackground{
         background: transparent;
     }
-    .scrollableContainer__74017{
+    ._740174f3d6a2c8fe-scrollableContainer{
         border-radius: 4px;
         overflow-y: auto;
     }
-    .sansAttachButton__74017 {
+    ._740174f3d6a2c8fe-sansAttachButton {
         padding-left: 0;
     }
 
     // Text input
-    .textArea__74017{
+    ._740174f3d6a2c8fe-textArea{
         height: 48px;
         min-height: 48px;
     }
-    .slateTextArea_ec4baf{
+    .ec4baf0360ff3578-slateTextArea{
         min-height: 48px;
         padding: 14px 0;
         color: $TextFillColorPrimary;
-        &.placeholder__1b31f {
+        &._1b31f471f0bb10ab-placeholder {
             color: $TextFillColorSecondary;
         }
     }
 
     // Upload button
-    .attachWrapper__0923f{
+    ._0923f156a0410684-attachWrapper{
         padding: 0;
     }
-    .attachButton__74017 {
+    ._740174f3d6a2c8fe-attachButton {
         width: 32px;
         height: 32px;
         margin: 8px 0 8px 8px;
@@ -72,29 +72,29 @@
                 color: $TextFillColorPrimary;
             }
         }
-        .attachButtonInner__0923f{
+        ._0923f156a0410684-attachButtonInner{
             display: none;
         }
     }
     // Command icon (eg. /tenor command)
-    .hasStackedBar__74017 .attachButton__74017{
+    ._740174f3d6a2c8fe-hasStackedBar ._740174f3d6a2c8fe-attachButton{
         &::before{
             content: unset;
         }
     }
-    .icon__4d3a9{
+    ._4d3a93bb8f6e0dd9-icon{
         padding: 4px;
     }
 
     // Button group within chatbox
-    .buttons__74017{
+    ._740174f3d6a2c8fe-buttons{
         height: 48px;
         gap: 4px;
         // Remove the gift button
         // Nesting is updated *very* frequently, so try to catch as many configurations as possible
-        & > .button__74017,
+        & > ._740174f3d6a2c8fe-button,
         & > button,
-        .container_c0c49a{
+        .c0c49a3e5c8626ac-container{
             display: none;
         }
 
@@ -102,7 +102,7 @@
         & > div:last-of-type{
             margin-right: 4px;
         }
-        .button__201d5{
+        ._201d5e8a3c09670a-button{
             height: 32px;
             width: 32px;
             border: 1px solid transparent;
@@ -112,8 +112,8 @@
                 font-size: 16px;
             }
             &:hover,
-            &.active__24af7,
-            &.emojiButtonHovered__04eed{
+            &._24af7f4d0326ba4f-active,
+            &._04eede68d145ae81-emojiButtonHovered{
                 background-color: $ControlFillColorDisabled;
                 border-color: $ControlStrokeColorDefault;
                 &::before{
@@ -124,11 +124,11 @@
 
         // Button replacements
         // Common reuse
-        .button__74017[aria-label*="GIF"] .buttonWrapper__24af7, // GIF
-        .button__74017.stickerButton__74017,              // Sticker
-        .emojiButton__04eed,                                // Emoji
-        .channelAppLauncher_e6e74f .button__201d5,          // App Launcher
-        .container_aa63ab .button__201d5{
+        ._740174f3d6a2c8fe-button[aria-label*="GIF"] ._24af7f4d0326ba4f-buttonWrapper, // GIF
+        ._740174f3d6a2c8fe-button._740174f3d6a2c8fe-stickerButton,              // Sticker
+        ._04eede68d145ae81-emojiButton,                                // Emoji
+        .channelAppLauncher_e6e74f ._201d5e8a3c09670a-button,          // App Launcher
+        .aa63abf63dbd9cce-container ._201d5e8a3c09670a-button{
             &::before{
                 @include FontIconFluent;
                 color: $TextFillColorSecondary;
@@ -137,43 +137,43 @@
             &:hover::before{
                 color: $TextFillColorPrimary;
             }
-            .lottieIcon__5eb9b{
+            ._5eb9b3cc7c2b1ce8-lottieIcon{
                 display: none !important; // Override in-line
             }
 
         }
         // Replace GIF icon
-        .button__74017[aria-label*="GIF"] .buttonWrapper__24af7{
+        ._740174f3d6a2c8fe-button[aria-label*="GIF"] ._24af7f4d0326ba4f-buttonWrapper{
             &::before{
                 content: "\F4A9"; // GIF
             }
         }
         // Replace sticker icon
-        .button__74017.stickerButton__74017{
+        ._740174f3d6a2c8fe-button._740174f3d6a2c8fe-stickerButton{
             &::before{
                 content: "\F4AA"; // Sticker2
             }
         }
         // Replace emoji button icon
-        .emojiButton__04eed{
+        ._04eede68d145ae81-emojiButton{
             &::before{
                 content: "\E76E"; // Emoji2
             }
-            .spriteContainer__04eed{
+            ._04eede68d145ae81-spriteContainer{
                 display: none;
             }
         }
         // Replace App Launcher button icon
-        .channelAppLauncher_e6e74f .button__201d5{
+        .channelAppLauncher_e6e74f ._201d5e8a3c09670a-button{
             &::before{
                 content: "\ED35"; // Apps
             }
         }
         // Replace Send button icon
-        .separator_aa63ab{
+        .aa63abf63dbd9cce-separator{
             display: none;
         }
-        .container_aa63ab .button__201d5{
+        .aa63abf63dbd9cce-container ._201d5e8a3c09670a-button{
             &::before{
                 content: "\E122";
                 color: $TextFillColorDisabled;
@@ -184,18 +184,18 @@
             &:enabled::before{
                 color: $TextFillColorSecondary;
             }
-            .contents__201d5{
+            ._201d5e8a3c09670a-contents{
                 display: none;
             }
         }
     }
 
     // Is Typing
-    .inTextChannel_b88801.base_b88801{
+    .b8880176888cc928-inTextChannel.b8880176888cc928-base{
         right: 16px;
         left: unset;
     }
-    .typing_b88801{
+    .b8880176888cc928-typing{
         height: 20px;
         top: -24px;
         bottom: unset;
@@ -204,36 +204,36 @@
         align-items: flex-end;
         justify-content: flex-end;
         pointer-events: none;
-        .text_b88801{
+        .b8880176888cc928-text{
             margin-left: 8px;
         }
-        &.inTextChannel_b88801 .text_b88801>strong{ // Fighting specificity
+        &.b8880176888cc928-inTextChannel .b8880176888cc928-text>strong{ // Fighting specificity
             font-weight: normal;
         }
         svg{
             display: none;
         }
         // Slowmode font-size
-        .cooldownText_b21699{
+        .b216994de061a9e2-cooldownText{
             @include TypeCaption;
         }
     }
 
     // Various chatbox states
     // No Permission
-    .textAreaDisabled__74017 {
+    ._740174f3d6a2c8fe-textAreaDisabled {
         overflow: hidden;
-        .placeholder__1b31f {
+        ._1b31f471f0bb10ab-placeholder {
             color: $TextFillColorSecondary;
             @include TypeBody;
         }
         // Fixes a scrollbar appearing
-        .slateTextArea_ec4baf{
+        .ec4baf0360ff3578-slateTextArea{
             padding: 15px 0;
         }
     }
     // Announce channel follow
-    .wrapper__44df5{
+    ._44df51b030bd5ece-wrapper{
         height: 40px;
         margin: 0 0 8px 0;
         padding: 0;
@@ -241,27 +241,27 @@
         border: 1px solid $ControlStrokeColorDefault;
         border-radius: 4px;
         // Remove image
-        .content__44df5{
+        ._44df51b030bd5ece-content{
             img{
                 display: none;
             }
-            .title__44df5{
+            ._44df51b030bd5ece-title{
                 color: $TextFillColorDisabled !important; // Override inline
                 @include TypeBody;
             }
         }
-        .buttonContainer__44df5{
+        ._44df51b030bd5ece-buttonContainer{
             margin-right: 4px;
         }
     }
 
         // Showing command help
-    .stackedBars__74017{
+    ._740174f3d6a2c8fe-stackedBars{
         background-color: $CardStrokeColorDefaultSolid;
-        .name__84522{
+        ._8452288fe5be9b1d-name{
             @include TypeBody;
         }
-        .option_a19535{
+        .a195358c0257a1b0-option{
             margin-left: 0;
             @include TypeBody;
             &::before{
@@ -271,13 +271,13 @@
                 content: "}";
             }
 
-            &.active_a19535{
+            &.a195358c0257a1b0-active{
                 background-color: transparent !important;
             }
         }
     }
     // Fixes the border radius of the background for the command help which has higher priority than the theme for some reason
-    .floatingBars__74017:empty+.stackedBars__74017:nth-child(2), .stackedBars__74017:first-child{
+    ._740174f3d6a2c8fe-floatingBars:empty+._740174f3d6a2c8fe-stackedBars:nth-child(2), ._740174f3d6a2c8fe-stackedBars:first-child{
         border-radius: 4px 4px 0 0;
     }
 }

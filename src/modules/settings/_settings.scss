@@ -1,24 +1,24 @@
-.theme-dark .layer__960e4{
-    .contentRegion__23e6b{
+.theme-dark ._960e4207cea8323e-layer{
+    ._23e6b439306f125a-contentRegion{
         background-color: $LayerFillColorDefault;
         border-top: 1px solid $CardStrokeColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
         border-radius: 7px 0 0 0;
     }
-    .contentColumnDefault__23e6b{
+    ._23e6b439306f125a-contentColumnDefault{
         padding: 32px;
     }
-    .contentRegionShownSidebar__23e6b{
+    ._23e6b439306f125a-contentRegionShownSidebar{
         // justify-content: center;
     }
-    .contentColumn__23e6b,
-    .customColumn__23e6b{
+    ._23e6b439306f125a-contentColumn,
+    ._23e6b439306f125a-customColumn{
         max-width: 1000px;
         padding: 44px 32px;
     }
 
     // Close button
-    .closeButton_c2b141{
+    .c2b141c0f80863fb-closeButton{
         width: 32px;
         height: 32px;
         flex: 0 0 32px;
@@ -29,14 +29,14 @@
             fill: $TextFillColorPrimary;
         }
     }
-    .keybind_c2b141{
+    .c2b141c0f80863fb-keybind{
         @include TypeBody;
         color: $TextFillColorPrimary;
     }
 
     // Title
     .sectionTitle__7bffb{
-        .title_b717a1{
+        .b717a15017b82443-title{
             margin-bottom: 32px;
             @include TypeTitle;
         }
@@ -56,12 +56,12 @@
         .note__0d850{
             margin-right: 64px;
         }
-        .description_ddd181, .labelDescriptor_ddd181{
+        .ddd1814f7cd3e6fd-description, .ddd1814f7cd3e6fd-labelDescriptor{
             @include TypeCaption;
             color: $TextFillColorSecondary;
         }
 
-        .divider__1de9c{
+        ._44f7f7e71cbca2e4-divider{
             display: none;
         }
     }
@@ -77,7 +77,7 @@
         opacity: 1;
     }
 }
-.contentColumn__23e6b > *{
+._23e6b439306f125a-contentColumn > *{
     animation: fluent-settings-pages-transition 250ms cubic-bezier(0, 0, 0, 1);
 }
 
@@ -91,6 +91,6 @@
         transform: translateY(0);
     }
 }
-.animating__960e4{
+._960e4207cea8323e-animating{
     animation: fluent-layer-transition 250ms cubic-bezier(0,0,0,1);
 }

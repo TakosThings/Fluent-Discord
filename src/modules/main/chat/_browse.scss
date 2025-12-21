@@ -1,11 +1,11 @@
 // Channels & Roles
-.theme-dark .header__0b563{
+.theme-dark ._0b56311ebc6682e2-header{
     background: transparent !important; // Override inline
-    .iconWrapper__9293f{
+    ._9293f6b2fc12398a-iconWrapper{
         display: none;
     }
 }
-.theme-dark .content_f75fb0 {
+.theme-dark .f75fb00fb7356cbe-content {
     height: calc(100% - 1px);
     padding: 0;
     background: $LayerFillColorDefault !important; // Override inline
@@ -18,14 +18,14 @@
 
     // Customise tab
     // Customisation questions
-    .prompt__5d7c9{
+    ._5d7c9a81ac5dd074-prompt{
         background-color: $LayerFillColorDefault;
         border-top: 1px solid $CardStrokeColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
         border-radius: 8px 0 0 0;
     }
     // My profile
-    .profileCard__5d7c9{
+    ._5d7c9a81ac5dd074-profileCard{
         background-color: $LayerFillColorDefault;
         border-top: 1px solid $CardStrokeColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
@@ -33,32 +33,32 @@
     }
 
     // Browse channels
-    .pageBody__41ed7{
+    ._41ed70e52483df6d-pageBody{
         background-color: transparent;
     }
-    .channelRow_e4503a {
+    .e4503acec53c64dd-channelRow {
         background-color: $CardBackgroundFillColorDefault;
         border-width: 1px 1px 0 1px;
         border-style: solid;
         border-color: $CardStrokeColorDefault;
-        &.firstChannel_e4503a{
+        &.e4503acec53c64dd-firstChannel{
             border-radius: 4px 4px 0 0;
         }
-        &.lastChannel_e4503a{
+        &.e4503acec53c64dd-lastChannel{
             border-radius: 0 0 4px 4px;
         }
     }
-    .separator_e4503a{
+    .e4503acec53c64dd-separator{
         display: none;
     }
 
     // Fix for channel checkboxes not displaying
-    .channelActions_e4503a .checkbox_f525d3{
+    .e4503acec53c64dd-channelActions .checkbox_f525d3{
         display: block;
     }
 
     // Category row has some issues
-    .categoryRow_e4503a{
+    .e4503acec53c64dd-categoryRow{
         .checkbox_f525d3{
             display: block;
         }
@@ -66,9 +66,9 @@
 }
 
 // Members
-.theme-dark .page_c791b2{
+.theme-dark .c791b281f2fedc32-page{
     background-color: transparent !important;
-    .header_c791b2{
+    .c791b281f2fedc32-header{
         box-shadow: none;
     }
     .scroller_d20375{
@@ -78,11 +78,11 @@
         border-radius: 8px 0 0 0;
     }
 
-    .content_f75fb0{
+    .f75fb00fb7356cbe-content{
         background-color: transparent !important;
         // border: 0;
     }
-    .mainTableContainer__09a38{
+    ._09a38002c6c2466d-mainTableContainer{
         background-color: transparent;
         box-shadow: none;
     }

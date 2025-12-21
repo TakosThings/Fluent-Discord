@@ -1,12 +1,12 @@
-.theme-dark .channelTextArea_f75fb0{
+.theme-dark .f75fb00fb7356cbe-channelTextArea{
     &:focus-within{
-        .autocomplete__13533{
+        ._13533e3c5791980f-autocomplete{
             border-color: $ControlStrokeColorDefault;
         }
     }
 }
 
-.theme-dark .autocomplete__13533{
+.theme-dark ._13533e3c5791980f-autocomplete{
     right: 0;
     bottom: calc(100% + 4px);
     left: 0;
@@ -15,11 +15,11 @@
     border: 1px solid $ControlStrokeColorDefault;
     border-radius: 4px;
 
-    .rail_d1405b{
+    .d1405bf11dcfb07a-rail{
         background-color: $CardStrokeColorDefault;
     }
 
-    .section_b1e4f3{
+    .b1e4f3fb96801b99-section{
         > div[role=button]{
             width: 32px;
             height: 32px;
@@ -37,16 +37,16 @@
                 height: 24px;
                 margin: 4px;
             }
-            .wrapper_ca5f52{
+            .ca5f52b68137f12b-wrapper{
                 padding: 0 !important; // Override inline
             }
         }
     }
 
     // Commands header
-    .categoryHeader_d1405b{
+    .d1405bf11dcfb07a-categoryHeader{
         background-color: $CardStrokeColorDefaultSolid;
-        .headerLabel__14245{
+        ._14245bb948377a25-headerLabel{
             @include TypeBody;
             color: $TextFillColorPrimary;
             text-transform: none;
@@ -54,7 +54,7 @@
     }
 
     // Commands matching: header
-    .contentTitle__13533{
+    ._13533e3c5791980f-contentTitle{
         @include TypeBody;
         color: $TextFillColorPrimary;
         text-transform: none;
@@ -69,21 +69,21 @@
     }
 
     // Command
-    .base__13533{
+    ._13533e3c5791980f-base{
         &.selected-3H3-RC{
             background-color: $SubtleFillColorSecondary;
             box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary; // Using box-shadow because borders cause the div to grow;
         }
-        .title__920ab{
+        ._920abe02ba8772be-title{
             @include FontMonospace;
             @include TypeBody;
         }
-        .usageWrapper__920ab{
-            .optionalCount__920ab{
+        ._920abe02ba8772be-usageWrapper{
+            ._920abe02ba8772be-optionalCount{
                 @include TypeBody;
                 color: $TextFillColorTertiary;
             }
-            .option__920ab{
+            ._920abe02ba8772be-option{
                 padding: 0;
                 margin-left: 1ch;
                 background-color: transparent;
@@ -99,7 +99,7 @@
         }
 
         // Command description
-        .description__920ab{
+        ._920abe02ba8772be-description{
             @include TypeCaption;
             color: $TextFillColorTertiary;
         }

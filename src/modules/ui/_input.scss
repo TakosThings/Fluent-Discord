@@ -1,11 +1,11 @@
-.theme-dark .title_ace4f5{
+.theme-dark .ace4f5a2d9b7fc28-title{
     color: $TextFillColorPrimary;
     @include TypeBody;
     text-transform: none;
 }
 
 // NOTE: 2022-03-26 - hiddenDiv-2qTqSF is used in the credit card field. See #99
-.theme-dark .input__0ed4f:not(.hiddenDiv__8b579){
+.theme-dark ._0ed4fc708cdbac0d-input:not(._8b579725ff08eeaa-hiddenDiv){
     height: 32px;
     background-color: $ControlFillColorDefault;
     border: 1px solid;
@@ -35,22 +35,22 @@
     }
 
     &.textarea_dde0a8, // eg. user popout note textarea
-    &.textArea__89a34{ // eg. channel MOTD textare
+    &._89a343a153c6f2ec-textArea{ // eg. channel MOTD textare
         padding: 4px 12px;
     }
 }
 // Create channel prefix
 .theme-dark .inputPrefix_b545d5{
     top: 8px;
-    ~ .input__0ed4f{
+    ~ ._0ed4fc708cdbac0d-input{
         // TODO - 2022-06-08: Resolve this conflict
-        padding-left: 32px !important; // Conflicts with .theme-dark .input__0ed4f:not(.hiddenDiv-2qTqSF)
+        padding-left: 32px !important; // Conflicts with .theme-dark ._0ed4fc708cdbac0d-input:not(.hiddenDiv-2qTqSF)
     }
 }
 
 // Select
 .theme-dark{
-    .select__3f413{
+    .a16aea1526925c2c-select{
         padding: 3px 8px 3px 12px;
         background-color: $ControlFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
@@ -61,10 +61,10 @@
     }
 
     // Options popout
-    .popout__3f413{
+    .a16aea1526925c2c-popout{
         background: $SolidbackgroundFillColorQuarternary;
         border: 1px solid $SurfaceStrokeColorFlyout;
-        .option__3f413{
+        .a16aea1526925c2c-option{
             min-height: 32px;
             margin: 4px;
             padding: 8px;
@@ -93,7 +93,7 @@
                     background-color: $SubtleFillColorSecondary;
                     border-radius: 4px;
                 }
-                .selectedIcon__3f413{
+                .a16aea1526925c2c-selectedIcon{
                     display: none;
                 }
             }
@@ -102,12 +102,12 @@
 }
 
 // Keybind
-.theme-dark .container_f89b2c{
+.theme-dark .f89b2c40b824acaf-container{
     height: 32px;
     background-color: $ControlFillColorDefault;
     border: 1px solid $ControlStrokeColorDefault;
     border-radius: 4px;
-    .button__201d5{
+    ._201d5e8a3c09670a-button{
         min-height: calc(32px - 6px);
         height: calc(32px - 6px);
         margin: 2px;
@@ -115,20 +115,20 @@
 }
 
 // Slider
-.slider_a562c8{
-    .bar_a562c8{
+.a562c840daab72a7-slider{
+    .a562c840daab72a7-bar{
         height: 3px;
         top: 10px;
         background-color: $ControlStrongStrokeColorDefault;
         border-radius: 2px;
     }
-    .barFill_a562c8{
+    .a562c840daab72a7-barFill{
         height: 3px;
         position: absolute;
         background-color: $AccentBase;
         border-radius: 2px;
     }
-    .grabber_a562c8{
+    .a562c840daab72a7-grabber{
         width: 18px;
         height: 18px;
         margin-top: -11px;
@@ -148,11 +148,11 @@
             border: 5px solid #454545;
         }
     }
-    &.hasMarks_a562c8{
-        .bar_a562c8{
+    &.a562c840daab72a7-hasMarks{
+        .a562c840daab72a7-bar{
             top: 34px;
         }
-        .grabber_a562c8{
+        .a562c840daab72a7-grabber{
             margin-top: 2px;
         }
     }
@@ -160,7 +160,7 @@
 
 // Text formatting toolbar
 // Highlight text in the chat box to open the formatting bar
-.theme-dark .toolbar_bba883{
+.theme-dark .bba88350df28dff1-toolbar{
     padding: 4px;
     background: $AcrylicBackgroundFillColorDefault;
     backdrop-filter: blur(10px);
@@ -184,13 +184,13 @@
         }
         &.active__05fbcF{
             background-color: $AccentFillColorDefault;
-            .icon_bba883{
+            .bba88350df28dff1-icon{
                 color: $TextOnAccentFillColorPrimary;
             }
         }
 
         .buttonInner__878f4,
-        .icon_bba883{
+        .bba88350df28dff1-icon{
             width: 16px;
             height: 16px;
         }
@@ -199,7 +199,7 @@
 }
 
 // Copy box
-.copyInput_fffc15{
+.fffc15720e237bf1-copyInput{
     height: 42px;
     margin-bottom: 8px;
     background-color: $ControlFillColorDefault;

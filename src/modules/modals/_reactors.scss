@@ -1,14 +1,14 @@
-.theme-dark .container_b7f4b4{
-    .scroller_b7f4b4{
+.theme-dark .b7f4b43fe1b6e285-container{
+    .b7f4b43fe1b6e285-scroller{
         background-color: $CardBackgroundFillColorDefault;
     }
 
-    .reactionDefault_b7f4b4{
+    .b7f4b43fe1b6e285-reactionDefault{
         &:hover{
             background-color: $SubtleFillColorSecondary;
         }
     }
-    .reactionSelected_b7f4b4{
+    .b7f4b43fe1b6e285-reactionSelected{
         position: relative;
         background-color: $SubtleFillColorSecondary;
         &::before{
@@ -23,15 +23,15 @@
         }
     }
 
-    .reactors_b7f4b4{
+    .b7f4b43fe1b6e285-reactors{
         background-color: transparent;
     }
 
-    .name_b7f4b4{
+    .b7f4b43fe1b6e285-name{
         @include TypeBody;
         color: $TextFillColorPrimary;
     }
-    .username_b7f4b4{
+    .userb7f4b43fe1b6e285-name{
         opacity: 1;
         @include TypeBody;
         color: $TextFillColorSecondary;

@@ -1,12 +1,12 @@
-.theme-dark .bar_c38106{
-    .title_c38106{
+.theme-dark .c38106a3f0c3ca76-bar{
+    .c38106a3f0c3ca76-title{
         justify-content: flex-start;
         left: 8px;
         &::before{
             content: "Discord";
             color: $TextFillColorSecondary;
         }
-        .title_edbb22{
+        .edbb22df99c39831-title{
             display: none;
         }
     }
@@ -14,14 +14,14 @@
 
 
     // Remove help button
-    .trailing_c38106{
+    .c38106a3f0c3ca76-trailing{
         gap: 0;
-        a.anchor_edefb8{
+        a.edefb8e22d63c542-anchor{
             display: none;
         }
     }
     // Inbox
-    .clickable_c99c29{
+    .c99c29809d200a61-clickable{
         width: 46px;
         height: 32px;
         margin: 0;
@@ -42,20 +42,20 @@
     }
 
     // window controls
-    .winButtons_c38106{
+    .c38106a3f0c3ca76-winButtons{
         gap: 0;
-        &.winButtonsWithDivider_c38106::before{
+        &.c38106a3f0c3ca76-winButtonsWithDivider::before{
             content: unset;
         }
     }
-    .winButton_c38106{
+    .c38106a3f0c3ca76-winButton{
         width: 46px;
         &:hover{
             background-color: $ControlFillColorSecondary;
         }
 
         // Close button
-        &.winButtonClose_c38106{
+        &.c38106a3f0c3ca76-winButtonClose{
             &:hover{
                 background-color: #C42B1C;
             }
@@ -70,13 +70,13 @@
 
 // Change titlebar name and controls colour when app is focused
 html.theme-dark.app-focused{
-    .title_c38106::before{
+    .c38106a3f0c3ca76-title::before{
         color: $TextFillColorPrimary;
     }
-    .winButton_c38106{
+    .c38106a3f0c3ca76-winButton{
         color: $TextFillColorPrimary;
     }
-    .clickable_c99c29::before{
+    .c99c29809d200a61-clickable::before{
         color: $TextFillColorPrimary;
     }
 }

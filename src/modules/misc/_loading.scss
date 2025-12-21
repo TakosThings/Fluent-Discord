@@ -14,11 +14,11 @@
 	100% { transform: rotate(140deg); }
 }
 
-.spinner__46696{
-    .inner__46696:not(.pulsingEllipsis__46696){
+._46696d17714f10ab-spinner{
+    ._46696d17714f10ab-spinner:not(._46696d17714f10ab-pulsingEllipsis){
         display: block;
         animation: fluent-loading-circle 1s linear infinite;
-        .item__46696:first-child{
+        ._46696d17714f10ab-item:first-child{
             width: 32px;
             height: 32px;
             position: absolute;
@@ -40,7 +40,7 @@
                 box-sizing: border-box;
             }
         }
-        .item__46696:last-child{
+        ._46696d17714f10ab-item:last-child{
             display: none;
         }
     }

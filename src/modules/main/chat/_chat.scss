@@ -1,5 +1,5 @@
 .theme-dark{
-    .chat_f75fb0{
+    .f75fb00fb7356cbe-chat{
         background: transparent;
         border-top: 0;
         &[data-has-border=true]{
@@ -7,46 +7,46 @@
         }
     }
 
-    .content_f75fb0{
+    .f75fb00fb7356cbe-content{
         background-color: $LayerFillColorAlt;
         border-left: 1px solid $CardStrokeColorDefault;
         border-radius: 8px 0 0 0;
     }
-    .chatContent_f75fb0{
+    .f75fb00fb7356cbe-chatContent{
         background-color: transparent;
     }
 
     // New/old messages bars
-    .barBase__0f481{
+    ._0f481cbbd7530492-barBase{
         margin: 0 auto;
         max-width: 598px;
         min-height: 32px;
         border: 1px solid $CardStrokeColorDefault;
         box-shadow: none;
         border-radius: 4px;
-        .barButtonMain__0f481{
+        ._0f481cbbd7530492-barButtonMain{
             @include TypeBody;
         }
-        .barButtonAlt__0f481{
+        ._0f481cbbd7530492-barButtonAlt{
             display: none;
         }
     }
     // New messages bar
-    .newMessagesBar__0f481{
+    ._0f481cbbd7530492-newMessagesBar{
         top: 8px;
         background-color: $AccentLight1;
-        .barButtonBase__0f481{
+        ._0f481cbbd7530492-barButtonBase{
             color: $TextOnAccentFillColorPrimary;
         }
     }
     // Old messages bar
-    .jumpToPresentBar__0f481{
+    ._0f481cbbd7530492-jumpToPresentBar{
         bottom: 8px;
         padding-bottom: 0;
         background-color: $CardStrokeColorDefaultSolid;
     }
     // Errored bar
-    .messagesErrorBar__0f481{
+    ._0f481cbbd7530492-messagesErrorBar{
         bottom: 8px;
         background-color: $SystemFillColorCriticalBackground;
         border-color: $CardStrokeColorDefault;
@@ -54,7 +54,7 @@
     }
 
     // Reactions
-    .reaction__23977,.reactionBtn__23977 {
+    ._23977d5b7cef7361-reaction,._23977d5b7cef7361-reactionBtn {
         background-color: $ControlFillColorDefault;
         border-width: 1px;
         border-style: outset;
@@ -67,29 +67,29 @@
         &:active{
             background-color: $ControlFillColorTertiary;
         }
-        &.reactionMe__23977{
+        &._23977d5b7cef7361-reactionMe{
             border-color: $AccentBase;
         }
-        &.reactionMe__23977 .reactionCount__23977,
-        .reactionCount__23977{
+        &._23977d5b7cef7361-reactionMe ._23977d5b7cef7361-reactionCount,
+        ._23977d5b7cef7361-reactionCount{
             color: $TextFillColorPrimary;
             @include TypeBody;
         }
-        &.reactionReadOnly__23977{
+        &._23977d5b7cef7361-reactionReadOnly{
             background-color: $ControlFillColorDisabled;
             border: 1px solid $ControlStrokeColorDefault;
-            .reactionCount__23977{
+            ._23977d5b7cef7361-reactionCount{
                 color: $TextFillColorDisabled;
             }
-            &:hover .reactionCount__23977{
+            &:hover ._23977d5b7cef7361-reactionCount{
                 color: $TextFillColorDisabled;
             }
         }
     }
 
     // Mentioned
-    .message__5126c{
-        &.mentioned__5126c{
+    ._5126c0cd07f243a0-message{
+        &._5126c0cd07f243a0-mentioned{
             background-color: $SystemFillColorCautionBackground;
             &::before{
                 left: 4px;
@@ -100,17 +100,17 @@
     }
 
     // Divider
-    .divider__908e2{
+    ._908e20001ad67812-divider{
         justify-content: flex-end;
         border-color: $DividerStrokeColorDefault;
-        .content__908e2,
-        .unreadPill__908e2{
+        ._908e20001ad67812-content,
+        ._908e20001ad67812-unreadPill{
             padding: 2px 8px;
             background-color: $SystemFillColorSolidNeutralBackground;
             color: $TextFillColorPrimary;
             @include TypeCaption;
         }
-        .unreadPill__908e2{
+        ._908e20001ad67812-unreadPill{
             height: unset;
             top: -1px;
             background-color: $SystemFillColorCriticalBackground;
@@ -121,13 +121,13 @@
                 display: none;
             }
         }
-        &.isUnread__908e2{
+        &._908e20001ad67812-isUnread{
             // NOTE: 2021-08-29 - The border should technically be SystemFillColorCriticalBackground, but is barely visisble, so using the text fill instead.
             border-color: $SystemFillColorCritical;
-            .content__908e2{
+            ._908e20001ad67812-content{
                 border-radius: 8px 0 0 8px;
             }
-            .unreadPill__908e2{
+            ._908e20001ad67812-unreadPill{
                 position: relative;
             }
         }
@@ -138,20 +138,20 @@
     }
 
     // inline code
-    .markup__75297 code{
+    ._752971923a1e6683-markup code{
         background-color: $LayerFillColorDefault;
     }
 
     // Remove avatar borders/decorations
-    .avatarDecoration_c19a55{
+    .c19a557985eb7793-avatarDecoration{
         display: var(--fluent-show-nitro-decorations);
     }
 
     // Start of server
-    .container__00de6{
+    ._00de6f6c14b53606-container{
         align-items: flex-start;
         padding: 0;
-        .titleName_aae012{
+        .aae01227de06a74c-titleName{
             text-align: left;
             @include TypeTitle;
             p{
@@ -159,7 +159,7 @@
                 display: inline-block;
             }
         }
-        .subtitle_aae012{
+        .aae01227de06a74c-subtitle{
             text-align: left;
             color: $TextFillColorPrimary;
             @include TypeBody;
@@ -167,22 +167,22 @@
     }
 
     // Start of channel
-    .container__00de6{
+    ._00de6f6c14b53606-container{
         padding: 16px;
-        .header__00de6{
+        ._00de6f6c14b53606-header{
             @include TypeTitle;
         }
-        .description__00de6{
+        ._00de6f6c14b53606-description{
             color: $TextFillColorPrimary;
             @include TypeBody;
         }
     }
-    .emptyChannelIcon__00de6{
+    ._00de6f6c14b53606-emptyChannelIcon{
         display: none;
     }
 
     // Thread
-    .container__9271d{
+    ._9271d23503a01b50-container{
         background-color: $CardBackgroundFillColorDefault;
         border: 1px solid $SurfaceStrokeColorFlyout;
         border-radius: 8px;
@@ -190,23 +190,23 @@
 
     // Embedded image
     // Remove AI slop buttons
-    .imageContainer__0f481{
-        .hoverButton__06ab4[aria-label="Edit Image with Apps"]{
+    ._0f481cbbd7530492-imageContainer{
+        ._06ab41fd2ef7af3f-hoverButton[aria-label="Edit Image with Apps"]{
             display: none;
         }
     }
 
     // Loading chat content
-    .wrapper_d852db, // Loading container
-    .wrapper_fc8177{ // Chat line item
+    ._6c79861fd96f56b1-wrapper, // Loading container
+    .fc817765600a960a-wrapper{ // Chat line item
         background: transparent;
     }
 
     // Remove gradient at bottom of chat
-    .chatGradientBase__36d07 {
+    ._36d072eab2b2e737-chatGradientBase {
         display: none;
     }
-    .scrollerSpacer__36d07{
+    ._36d072eab2b2e737-scrollerSpacer{
         height: 16px;
     }
 }

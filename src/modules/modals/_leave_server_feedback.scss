@@ -4,18 +4,18 @@
         text-align: left;
     }
 
-    .problemInfo__6c12c{
-        .root__66e7e{
+    ._6c12c295172334d8-problemInfo{
+        ._66e7e7f9b4da60b0-root{
             background-color: $CardBackgroundFillColorDefault;
             border: 1px solid $CardStrokeColorDefault;
             border-radius: 4px;
         }
-        .option__66e7e{
+        ._66e7e7f9b4da60b0-option{
             &:hover{
                 background-color: $CardBackgroundFillColorSecondary;
             }
         }
-        .text__66e7e{
+        ._66e7e7f9b4da60b0-text{
             @include TypeBody;
         }
     }

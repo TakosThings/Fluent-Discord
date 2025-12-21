@@ -1,21 +1,21 @@
 .theme-dark{
-    .sidebar__5e434{
+    ._5e434347c823b592-sidebar{
         &::after{
             display: none;
         }
     }
-    .sidebarList__5e434{
+    ._5e434347c823b592-sidebarList{
         background-color: transparent;
         border: 0;
         border-radius: 0;
     }
     // Increase bottom margin of channels list so there is a consistent margin around the account box
-    .container__2637a{
+    ._2637a2609f343032-container{
         padding-bottom: calc(var(--custom-app-panels-height, 0) + 12px);
     }
 
     // Server header
-    .header_f37cb1{
+    .f37cb1984c371ee5-header{
         border: 0;
         &:hover{
             background-color: transparent;
@@ -26,8 +26,8 @@
         }
     }
     // Removes background when hovered or when the popout menu is open
-    .header_f37cb1:hover,
-    .selected_f37cb1 .header_f37cb1{
+    .f37cb1984c371ee5-header:hover,
+    .selected_f37cb1 .f37cb1984c371ee5-header{
         background-color: transparent;
         text-decoration: underline;
         h2{
@@ -35,23 +35,23 @@
         }
     }
     // Remove caret
-    .headerChildren_f37cb1{
+    .f37cb1984c371ee5-headerChildren{
         display: none;
     }
 
     // Remove server banner
-    .animatedContainer_f37cb1{
+    .f37cb1984c371ee5-animatedContainer{
         display: none;
     }
-    .animatedBannerHoverLayer_f37cb1{
+    .f37cb1984c371ee5-animatedBannerHoverLayer{
         display: none;
     }
-    .content_d125d2 > div[style="height: 84px;"]{
+    .d125d22cdfd32cfe-content > div[style="height: 84px;"]{
         display: none;
     }
-    .headerEllipseBackdrop_f37cb1,
-    .headerEllipseForeground_f37cb1,
-    .headerGlass_f37cb1{
+    .f37cb1984c371ee5-headerEllipseBackdrop,
+    .f37cb1984c371ee5-headerEllipseForeground,
+    .f37cb1984c371ee5-headerGlass{
         display: none;
     }
 
@@ -61,30 +61,30 @@
     }
 
         // Category
-    .containerDefault__29444{
-        .wrapperCommon__29444{
+    ._29444ba32c7fbeab-containerDefault{
+        ._29444ba32c7fbeab-wrapperCommon{
             margin: 0 0 0 8px;
             padding-left: 10px;
             border: 1px solid transparent;
             border-radius: 4px;
             color: $TextFillColorPrimary;
             &:hover{
-                .name__29444{
+                ._29444ba32c7fbeab-name{
                     color: $TextFillColorSecondary;
                 }
             }
 
             // Wrapper types
             // Muted
-            &.muted__29444{
-                .name__29444{
+            &._29444ba32c7fbeab-muted{
+                ._29444ba32c7fbeab-name{
                     color: $TextFillColorDisabled;
                 }
             }
 
             // Colapse chevrons
             // Remove default chevron
-            .icon__29444{
+            ._29444ba32c7fbeab-icon{
                 display: none;
             }
             // Chevron replacement
@@ -94,7 +94,7 @@
                 @include FontIconFluent;
                 font-size: 12px;
             }
-            &.collapsed__29444{
+            &._29444ba32c7fbeab-collapsed{
                 &::after{
                     content: "\E70D"; // ChevronDown
                 }
@@ -102,18 +102,18 @@
         }
 
         // Category name
-        .container__13cf1{
+        ._13cf1aa56cd732d2-container{
             color: $TextFillColorPrimary;
             @include TypeBody;
             text-transform: none;
         }
 
         // Hide 'Create Channel' buttons when not hovered
-        .children__29444{
+        ._29444ba32c7fbeab-children{
             visibility: hidden;
         }
         &:hover{
-            .children__29444{
+            ._29444ba32c7fbeab-children{
                 visibility: visible;
             }
         }
@@ -121,37 +121,37 @@
 
     // Channels
     // Indent channels
-    .containerDefault__29444 ~ .containerDefault_c69b6d .link__2ea32{
+    ._29444ba32c7fbeab-containerDefault ~ .c69b6db0641110f6-containerDefault ._2ea32c412048f708-link{
         padding-left: 23px;
     }
-    .containerDefault_c69b6d{
+    .c69b6db0641110f6-containerDefault{
         // The channel
-        &.wrapper__2ea32, // Required for Server guide, events, and channels & roles channels
-        .wrapper__2ea32{
+        &._2ea32c412048f708-wrapper, // Required for Server guide, events, and channels & roles channels
+        ._2ea32c412048f708-wrapper{
             // Channel name
-            .name__2ea32{
+            ._2ea32c412048f708-name{
                 color: $TextFillColorSecondary;
                 @include TypeBody;
             }
             // Icon
-            .icon__2ea32{
+            ._2ea32c412048f708-icon{
                 width: 16px;
             }
 
             // Hide channel buttons when not hovered
-            .children__2ea32 .iconItem_c69b6d{
+            ._2ea32c412048f708-children .c69b6db0641110f6-iconItem{
                 visibility: hidden;
             }
 
             &:hover{
-                .link__2ea32{
+                ._2ea32c412048f708-link{
                     background-color: $SubtleFillColorSecondary;
                     box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary; // Using box-shadow because borders cause the div to grow
                     border-radius: 4px;
                 }
 
                 // Reveal channel buttons
-                .children__2ea32 .iconItem_c69b6d{
+                ._2ea32c412048f708-children .c69b6db0641110f6-iconItem{
                     visibility: visible;
                 }
             }
@@ -175,7 +175,7 @@
 
             // Channel types
             // Selected channel
-            &.modeSelected__2ea32{
+            &._2ea32c412048f708-modeSelected{
                 // Pill
                 &::before{
                     transform: scaleY(100%);
@@ -183,20 +183,20 @@
                     transition: transform 250ms Cubic-bezier(0.55,0.55,0,1),
                                 opacity 250ms Cubic-bezier(0.55,0.55,0,1);
                 }
-                .link__2ea32{
+                ._2ea32c412048f708-link{
                     background-color: $SubtleFillColorSecondary;
                     border-radius: 4px;
                 }
                 // Channel icon
-                .icon__2ea32{
+                ._2ea32c412048f708-icon{
                     color: $TextFillColorPrimary;
                 }
-                .name__2ea32{
+                ._2ea32c412048f708-name{
                     color: $TextFillColorPrimary;
                 }
             }
             // Unread channel
-            &.modeUnreadImportant__2ea32{
+            &._2ea32c412048f708-modeUnreadImportant{
                 // Pill
                 &::before{
                     background-color: $TextFillColorPrimary;
@@ -206,25 +206,25 @@
                                 opacity 250ms Cubic-bezier(0.55,0.55,0,1);
                 }
                 // Channel icon
-                .icon__2ea32{
+                ._2ea32c412048f708-icon{
                     color: $TextFillColorSecondary;
                 }
-                .name__2ea32{
+                ._2ea32c412048f708-name{
                     color: $TextFillColorSecondary;
                 }
             }
             // Muted channel
-            &.modeMuted__2ea32{
+            &._2ea32c412048f708-modeMuted{
                 // Channel icon
-                .icon__2ea32{
+                ._2ea32c412048f708-icon{
                     color: $TextFillColorDisabled;
                 }
-                .name__2ea32{
+                ._2ea32c412048f708-name{
                     color: $TextFillColorDisabled;
                 }
             }
             // Connected channel
-            &.modeConnected__2ea32{
+            &._2ea32c412048f708-modeConnected{
                 // Pill
                 &::before{
                     background-color: $SystemFillColorSuccess;
@@ -234,24 +234,24 @@
                                 opacity 250ms Cubic-bezier(0.55,0.55,0,1);
                     z-index: 1;
                 }
-                .link__2ea32{
+                ._2ea32c412048f708-link{
                     background-color: $SystemFillColorSuccesBackground;
                     border-radius: 4px;
                 }
                 // Channel icon
-                .icon__2ea32{
+                ._2ea32c412048f708-icon{
                     color: $SystemFillColorSuccess;
                 }
-                .name__2ea32{
+                ._2ea32c412048f708-name{
                     color: $SystemFillColorSuccess;
                 }
             }
         }
 
         // The voice channel user
-        .list_c3cd7d{
+        .c3cd7d38925bcd00-list{
             padding-left: 8px;
-            .content__07f91{
+            ._07f9193042954787-content{
                 padding-left: 32px;
             }
             // Change border to same green used on guild list
@@ -259,22 +259,22 @@
                 box-shadow:  0 0 0 2px $SystemFillColorSuccess,inset 0 0 0 3px $FocusStrokeColorInner
             }
             // Change user speaking colour to green
-            .usernameSpeaking__07f91{
+            ._07f9193042954787-usernameSpeaking{
                 color: $SystemFillColorSuccess;
             }
         }
 
         // Unread channel pill
-        .unread__2ea32{
+        ._2ea32c412048f708-unread{
             display: none;
         }
         // Threads
         // Thread channel
-        .typeThread__2ea32{
-            &.wrapper__2ea32{
+        ._2ea32c412048f708-typeThread{
+            &._2ea32c412048f708-wrapper{
                 margin-left: 8px;
             }
-            .link__2ea32{
+            ._2ea32c412048f708-link{
                 margin-left: 0;
                 padding-left: 48px;
             }
@@ -282,7 +282,7 @@
     }
 
     // Voice
-    .listDefault__07f91 .clickable__07f91:hover .content__07f91{
+    ._07f9193042954787-listDefault ._07f9193042954787-clickable:hover ._07f9193042954787-content{
         background-color: $SubtleFillColorSecondary;
         box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary; // Using box-shadow because borders cause the div to grow
         border-radius: 4px;
@@ -306,25 +306,25 @@
 
     // Threads
     // Active threads
-    .wrapper__2ea32{
+    ._2ea32c412048f708-wrapper{
         &:hover{
-            .link__2ea32{
+            ._2ea32c412048f708-link{
                 background-color: $SubtleFillColorSecondary;
                 box-shadow: inset 0 0 0 1px $SubtleFillColorSecondary; // Using box-shadow because borders cause the div to grow
             }
         }
-        .name__2ea32{
+        ._2ea32c412048f708-name{
             @include TypeBody;
             color: $TextFillColorPrimary;
         }
     }
     // Channel tree spine
-    .spine__5b40b, .spineBorder__5b40b{
+    ._5b40bdd67543ba35-spine, ._5b40bdd67543ba35-spineBorder{
         left: 40px;
     }
 
     // Unread badge
-    .numberBadge__2b1f5 {
+    ._2b1f52e43a8f1c02-numberBadge {
         background-color: $SystemFillColorCritical !important; // For some reason this is in line
         @include TypeCaption;
         color: $TextOnAccentFillColorPrimary;
@@ -332,8 +332,8 @@
     }
 
     // Unread bars
-    .unread__629e4{
-        .bar__3b95d{
+    ._629e4c86564a4ee7-unread{
+        ._3b95d7d910416e54-bar{
             background-color: $SystemFillColorCriticalBackground;
         }
         span{
@@ -343,9 +343,9 @@
     }
 
     // X in Voice bar
-    .bar__7aaec{
+    ._7aaec78b97ff00f7-bar{
         background-color: $MicaBackgroundFillColorAlt;
-        .barText__7aaec{
+        ._7aaec78b97ff00f7-barText{
             text-transform: none;
         }
     }

@@ -1,52 +1,52 @@
-.theme-dark .container_e131a9{
+.theme-dark .e131a99484292a19-container{
     background-color: transparent;
     border-top: 0;
     border-bottom: 0;
     padding-bottom: 0;
 
     // Connection status/disconnect
-    .connection_e131a9{
+    .e131a99484292a19-connection{
         height: 32px;
     }
-    .rtcConnectionStatus__06d62 {
+    ._06d6249a1f2584ac-rtcConnectionStatus {
         padding-bottom: 0;
-        .button__201d5{
+        ._201d5e8a3c09670a-button{
             line-height: 16px;
         }
         .text-md\/medium_cf4812{
             @include TypeBody;
         }
     }
-    .subtext__339d0 .text-sm\/medium_cf4812{
+    ._339d0fce6b76910a-subtext .text-sm\/medium_cf4812{
         @include TypeBody;
         color: $TextFillColorPrimary !important; // Override inline
     }
-    .voiceUsers__68617{
+    ._68617e68b7bb4785-voiceUsers{
         padding-top: 4px;
     }
 
     // Connection status colours
-    .rtcConnectionQualityFine__06d62{
-        .ping__06d62 path{
+    ._06d6249a1f2584ac-rtcConnectionQualityFine{
+        ._06d6249a1f2584ac-ping path{
             fill: $SystemFillColorSuccess;
         }
-        .rtcConnectionStatusConnected__06d62{
+        ._06d6249a1f2584ac-rtcConnectionStatusConnected{
             color: $SystemFillColorSuccess;
         }
     }
-    .rtcConnectionQualityAverage__06d62{
-        .ping__06d62 path{
+    ._06d6249a1f2584ac-rtcConnectionQualityAverage{
+        ._06d6249a1f2584ac-ping path{
             fill: $SystemFillColorCaution;
         }
-        .rtcConnectionStatusConnected__06d62{
+        ._06d6249a1f2584ac-rtcConnectionStatusConnected{
             color: $SystemFillColorCaution;
         }
     }
-    .rtcConnectionQualityBad__06d62{
-        .ping__06d62 path{
+    ._06d6249a1f2584ac-rtcConnectionQualityBad{
+        ._06d6249a1f2584ac-ping path{
             fill: $SystemFillColorCritical;
         }
-        .rtcConnectionStatusConnected__06d62{
+        ._06d6249a1f2584ac-rtcConnectionStatusConnected{
             color: $SystemFillColorCritical;
         }
     }
@@ -61,9 +61,9 @@
     }
 
     // Video/screen share buttons
-    .actionButtons_e131a9{
+    .e131a99484292a19-actionButtons{
         grid-gap: 4px;
-        .button__201d5 {
+        ._201d5e8a3c09670a-button {
             min-width: unset;
             background-color: $ControlFillColorDefault;
             border: 1px solid $ControlStrokeColorDefault;
@@ -75,13 +75,13 @@
             &:active{
                 background-color: $ControlFillColorTertiary;
             }
-            &.buttonActive_e131a9{
+            &.e131a99484292a19-buttonActive{
                 background-color: transparent;
                 // background-color: $SystemFillColorCriticalBackground !important;
                 animation: fluent-streaming-pulse 3s ease-in-out infinite;
             }
 
-            .contents__201d5{
+            ._201d5e8a3c09670a-contents{
                 // Display: flex required to fix alignment of soundboard icon when using non-English - see #249
                 display: flex;
                 font-size: 0;
@@ -91,14 +91,14 @@
             }
         }
         // Hide buttons when you don't have permission. This also hides the soundboard when you are muted
-        .disabledButtonWrapper__201d5{
+        ._201d5e8a3c09670a-disabledButtonWrapper{
             display: none;
         }
     }
 }
 
 // Streaming game/app
-.theme-dark .activityPanel__5e434{
+.theme-dark ._5e434347c823b592-activityPanel{
     background-color: transparent;
     padding-bottom: 0;
     border-top: 0;
@@ -109,20 +109,20 @@
 }
 
 // Icons
-html[lang^="en-"].theme-dark .panels__5e434 .button__201d5[aria-label]{
+html[lang^="en-"].theme-dark ._5e434347c823b592-panels ._201d5e8a3c09670a-button[aria-label]{
     &::before{
         @include FontIconFluent;
         font-size: 16px;
     }
-    .contents__201d5{
+    ._201d5e8a3c09670a-contents{
         display: none;
     }
 }
 
 // Fix connection status text not appearing
-.rtcConnectionStatus__06d62 .contents__201d5{
+._06d6249a1f2584ac-rtcConnectionStatus ._201d5e8a3c09670a-contents{
     display: block !important;
-    .rtcConnectionStatusLabel__06d62{
+    ._06d6249a1f2584ac-rtcConnectionStatusLabel{
         font-weight: 500;
     }
 }

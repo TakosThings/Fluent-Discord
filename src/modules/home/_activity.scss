@@ -1,46 +1,46 @@
-.theme-dark .nowPlayingColumn__133bf{
+.theme-dark ._133bf5eea8e33a34-nowPlayingColumn{
     background: transparent;
-    .container__7d20c{
+    ._7d20cf18f8a2784c-container{
         background-color: $LayerFillColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
     }
-    .scroller__7d20c{
+    ._7d20cf18f8a2784c-scroller{
         border: 0;
     }
 
     // Header
-    .header__7d20c{
+    ._7d20cf18f8a2784c-header{
         @include TypeSubtitle;
     }
 
     // User data consent card
-    .card__2eab1.outer_bf1984{
+    .eafb9cc569d6dcbd-card.bf1984a18b3ec6f0-outer{
         background-color: $LayerFillColorDefault;
-        .header__2eab1,
+        .eafb9cc569d6dcbd-header,
         .defaultColor__77578 {
             text-align: left;
         }
     }
 
     // Card
-    .wrapper__00943{
+    ._00943886e1cf89d1-wrapper{
         background-color: $LayerFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         &:hover{
             background-color: $LayerFillColorAlt;
         }
     }
-    .inset_bf1984{
+    .bf1984a18b3ec6f0-inset{
         background-color: $LayerFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         border-radius: 4px;
-        .section__00943{
+        ._00943886e1cf89d1-section{
             background-color: transparent;
         }
     }
 
     // Empty
-    .emptyCard__7e549{
+    ._7e549558f336cddb-emptyCard{
         background-color: $LayerFillColorDefault;
         border: 1px solid $CardStrokeColorDefault;
         align-items: baseline;

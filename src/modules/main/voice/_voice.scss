@@ -1,11 +1,11 @@
 // DEBUG: 2022-06-04 - Useful debug snippets to help with theming
 // Force display voice screen elements (toolbars)
-// .root_bfe55a.idle_bfe55a *{
+// .bfe55a0aaaf62375-root.bfe55a0aaaf62375-idle *{
 //     opacity: 1 !important;
 //     transform: unset !important;
 // }
 // Draw debug borders on top toolbar buttons
-// .toolbar__9293f{
+// ._9293f6b2fc12398a-toolbar{
 //     border: 1px solid red;
 //     div[role=button],
 //     button[type=button]{
@@ -13,23 +13,23 @@
 //     }
 // }
 
-.theme-dark .wrapper_cb9592{
+.theme-dark .cb9592ad77576717-wrapper{
     background-color: #000;
     border-radius: 8px 0 0 0;
 
     // Attach borders in call
-    ~ .content_f75fb0{
+    ~ .f75fb00fb7356cbe-content{
         border-radius: 0;
     }
 
     // Round top-left corner
-    .callContainer_cb9592{
+    .cb9592ad77576717-callContainer{
         border-radius: 8px 0 0 0;
     }
 
     // Quality indicator
-    .liveQualityIndicator__30845{
-        .liveLarge_a7acae{
+    ._30845ecfafc292c8-liveQualityIndicator{
+        .a7acaedd978a9637-liveLarge{
             width: auto !important; // Override conflict
             height: 16px !important; // Override conflict
             font-weight: normal;
@@ -37,11 +37,11 @@
     }
 
     // Buttons bar
-    .buttonSection__1405b{
+    ._1405b3b8e8eb5fd0-buttonSection{
         border-radius: 4px;
     }
-    .attachedCaretButtonContainer_f1ceac{
-        .button__201d5[aria-label="More Options"]{
+    .f1ceaca61b18918e-attachedCaretButtonContainer{
+        ._201d5e8a3c09670a-button[aria-label="More Options"]{
             svg{
                 display: block !important;
             }
@@ -49,20 +49,20 @@
     }
 
     // User tiles
-    .tile__2f4f7{
+    ._2f4f7eb58b61c328-tile{
         background-color: $SubtleFillColorTertiary;
         border: 1px solid transparent;
         border-radius: 4px;
         // Only apply border colour to users
-        &.tile__2f4f7:hover{
+        &._2f4f7eb58b61c328-tile:hover{
             border-color: $ControlStrokeColorDefault;
         }
-        .overlayTitle__2f4f7{
+        ._2f4f7eb58b61c328-overlayTitle{
             background-color: $ControlOnImageFillColorDefault;
             border-radius: 4px;
         }
         // Status button
-        .status__2f4f7{
+        ._2f4f7eb58b61c328-status{
             background-color: $ControlOnImageFillColorDefault;
             border-radius: 4px;
             &:hover{
@@ -73,7 +73,7 @@
             }
         }
     }
-    .participantsButton__211d1{
+    ._211d1cc3f7e37d69-participantsButton{
         background-color: $ControlOnImageFillColorDefault;
         border: 1px solid $ControlStrokeColorDefault;
         &:hover{
@@ -87,8 +87,8 @@
 
 // Icon replacements
 // Top toolbar (excludes Inbox button)
-html[lang^="en-"].theme-dark .toolbar__9293f{
-    .button__201d5{
+html[lang^="en-"].theme-dark ._9293f6b2fc12398a-toolbar{
+    ._201d5e8a3c09670a-button{
         &::before{
             @include FontIconFluent;
             width: 62px;
@@ -106,7 +106,7 @@ html[lang^="en-"].theme-dark .toolbar__9293f{
 }
 // Bottom toolbar (mic/speaker mute, leave, activity buttons)
 // NOTE - 2023-03-07: Discord removed aria-label from activity and react buttons, so only remove default icons from buttons WITH an aria-label set
-html[lang^="en-"].theme-dark .wrapper__1405b .button__201d5[aria-label]{
+html[lang^="en-"].theme-dark ._1405b3b8e8eb5fd0-wrapper ._201d5e8a3c09670a-button[aria-label]{
     &::before{
         @include FontIconFluent;
         width: 62px;

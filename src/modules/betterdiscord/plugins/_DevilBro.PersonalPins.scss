@@ -1,13 +1,13 @@
-html[lang^="en-"].theme-dark .toolbar__9293f .iconWrapper__9293f.cursorPointer_B3uwDA{
+html[lang^="en-"].theme-dark ._9293f6b2fc12398a-toolbar ._9293f6b2fc12398a-iconWrapper.cursorPointer_B3uwDA{
     &::before{ // Annoyingly has no aria-label
         content: "\E70B"; // Note
     }
 }
 
-.theme-dark .popout_xwjvsX.messagesPopoutWrap_e8b59c.themedPopout_1TrfdI{
+.theme-dark .popout_xwjvsX.e8b59c4b335dd2fc-messagesPopoutWrap.themedPopout_1TrfdI{
     // Tabs
-    .tabBar_ab6641{
-        .tab_ab6641{
+    .ab66419eae73260f-tabBar{
+        .ab66419eae73260f-tab{
             padding-left: 0;
             padding-right: 0;
             margin-right: 16px;
@@ -18,7 +18,7 @@ html[lang^="en-"].theme-dark .toolbar__9293f .iconWrapper__9293f.cursorPointer_B
                 color: $TextFillColorSecondary;
             }
 
-            &.selected_aa8da2{
+            &.aa8da23faa27393c-selected{
                 background-color: transparent;
                 color: $AccentTextFillColorPrimary;
                 &::before{

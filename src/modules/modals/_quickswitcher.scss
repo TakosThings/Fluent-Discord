@@ -1,4 +1,4 @@
-.theme-dark .quickswitcher_ac6cb0{
+.theme-dark .ac6cb02cd15b4b3b-quickswitcher{
     height: 100%;
     background-color: $SolidBackgroundFillColorBase;
 
@@ -9,7 +9,7 @@
         color: $TextFillColorPrimary;
     }
 
-    .input_ac6cb0{
+    .ac6cb02cd15b4b3b-input{
         height: 32px;
         background-color: transparent;
         border: 1px solid;
@@ -34,7 +34,7 @@
     }
 
     // Scroll content
-    .scroller_ac6cb0 {
+    .ac6cb02cd15b4b3b-scroller {
         max-height: unset;
         margin-top: 12px;
         margin-right: -4px;
@@ -42,13 +42,13 @@
         overflow-y: auto !important; // Override inline
     }
 
-    .header__71961{
+    ._71961da99d37ac57-header{
         @include TypeBodyStrong;
         color: $TextFillColorPrimary;
         text-transform: none;
     }
 
-    .result__71961{
+    ._71961da99d37ac57-result{
         &[aria-selected=true]{
             background-color: $SubtleFillColorSecondary;
             &::before{
@@ -63,12 +63,12 @@
             }
         }
 
-        .name__71961{
+        ._71961da99d37ac57-name{
             @include TypeBody;
             color: $TextFillColorPrimary;
             line-height: 32px;
-            .username__71961,
-            .note__71961{
+            .user_71961da99d37ac57-name,
+            ._71961da99d37ac57-note{
                 margin: 0;
                 opacity: 1;
                 @include TypeCaption;
@@ -76,7 +76,7 @@
                 text-transform: none;
             }
         }
-        .miscContainer_ac6cb0{
+        .ac6cb02cd15b4b3b-miscContainer{
             opacity: 1;
             @include TypeBody;
             color: $TextFillColorTertiary;
@@ -84,23 +84,23 @@
     }
 
     // Footer
-    .protip_ac6cb0{
-        .pro__30cbe{
+    .ac6cb02cd15b4b3b-protip{
+        ._30cbe28ac3d3507e-pro{
             display: none;
         }
-        .tip__30cbe{
+        ._30cbe28ac3d3507e-tip{
             @include TypeCaption;
             color: $TextFillColorSecondary;
             opacity: 1;
         }
-        .autocompleteQuerySymbol_ac6cb0{
+        .ac6cb02cd15b4b3b-autocompleteQuerySymbol{
             background-color: transparent;
             @include FontMonospace;
         }
     }
 
     // Remove 'tutorial'
-    .tutorial__73f2a{
+    ._73f2a239bd174194-tutorial{
         display: none;
     }
 }

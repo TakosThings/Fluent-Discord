@@ -1,10 +1,10 @@
-.theme-dark .wrapper_f7ecac{
+.theme-dark .f7ecaca5c80dbf3a-wrapper{
     background-color: $ControlOnImageFillColorDefault;
     border: 1px solid $ControlStrokeColorDefault;
 }
 
-html[lang^="en-"].theme-dark .wrapper_f7ecac{
-    .button_f7ecac[aria-label]{
+html[lang^="en-"].theme-dark .f7ecaca5c80dbf3a-wrapper{
+    .f7ecaca5c80dbf3a-button[aria-label]{
         &::before{
             @include FontIconFluent;
         }

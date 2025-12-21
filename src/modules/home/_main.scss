@@ -1,7 +1,7 @@
-.theme-dark .container__133bf{
+.theme-dark ._133bf5eea8e33a34-container{
     border-top: 0;
     // Body
-    .tabBody__133bf{
+    ._133bf5eea8e33a34-tabBody{
         background-color: $LayerFillColorDefault;
         border-top: 1px solid $CardStrokeColorDefault;
         border-left: 1px solid $CardStrokeColorDefault;
@@ -11,13 +11,13 @@
         }
 
         // Search bar
-        .searchBar__5ec2f{
+        ._5ec2fb8b5de26b21-searchBar{
             margin: 18px 20px 8px 20px;
             background-color: transparent;
         }
 
         // Header
-        .title__1472a{
+        ._1472a8142d02ea23-title{
             @include TypeSubtitle;
             color: $TextFillColorPrimary;
             letter-spacing: normal;
@@ -25,35 +25,35 @@
         }
 
         // Item
-        .peopleListItem_cc6179.active_cc6179,
-        .peopleListItem_cc6179:hover{
+        .cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active,
+        .cc61794aab086a2e-peopleListItem:hover{
             border-radius: 4px;
         }
 
         // Username
-        .username__0a06e{
+        ._0a06ed6ea040aa1b-username{
             @include TypeBodyStrong;
         }
         // User Status
-        .text__19b6d{
+        ._19b6da809e654e70-text{
             @include TypeCaption;
         }
 
         // Buttons
-        .actionButton_f8fa06{
+        .f8fa068db52f043f-actionButton{
             background-color: transparent;
             visibility: hidden;
         }
 
         // Show buttons when hovered
-        .peopleListItem_cc6179.active_cc6179 .actionButton_f8fa06,
-        .peopleListItem_cc6179:hover .actionButton_f8fa06{
+        .cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active .f8fa068db52f043f-actionButton,
+        .cc61794aab086a2e-peopleListItem:hover .f8fa068db52f043f-actionButton{
             visibility: visible;
         }
     }
 
     // Empty
-    .friendsEmpty_c7ea19{
+    .c7ea19a1be2e0a89-friendsEmpty{
         .image__08515{
             filter: brightness(200%)
         }
@@ -64,27 +64,27 @@
     }
 
     // Add friend
-    .header__94b08{
+    ._94b083577c5dbbb3-header{
         padding: 20px;
     }
-    .addFriendInputWrapper__72ba7{
+    ._72ba79a5dfa2ce86-addFriendInputWrapper{
         padding: 0;
         background-color: transparent;
         border: 0;
-        .input__0ed4f{
+        ._0ed4fc708cdbac0d-input{
             padding: 0 12px;
             letter-spacing: normal;
         }
     }
     // Remove hint text
-    .addFriendHint__72ba7{
+    ._72ba79a5dfa2ce86-addFriendHint{
         display: none;
     }
 }
 
 // Icon replacements
-html[lang^="en-"].theme-dark .container__133bf{
-    .actionButton_f8fa06{
+html[lang^="en-"].theme-dark ._133bf5eea8e33a34-container{
+    .f8fa068db52f043f-actionButton{
         &::before{
             @include FontIconFluent;
             color: $TextFillColorSecondary;

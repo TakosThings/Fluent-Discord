@@ -10,8 +10,8 @@
         border-radius: 8px 0 0 0;
     }
 
-    .sidebar_c48ade{
-        .container__91a9d{
+    ._5e434347c823b592-sidebar{
+        ._91a9d7f7e5248a56-container{
             height: 32px;
             margin-bottom: 2px;
             position: relative;
@@ -21,16 +21,16 @@
                 padding: 0 8px;
             }
 
-            .avatar__91a9d{
+            ._91a9d7f7e5248a56-avatar{
                 width: 16px;
                 height: 16px;
             }
-            .name__91a9d{
+            ._91a9d7f7e5248a56-name{
                 @include TypeBody;
                 color: $TextFillColorPrimary;
             }
 
-            &.selected__91a9d{
+            &._91a9d7f7e5248a56-selected{
                 .itemInner_c72b37{
                     background-color: $SubtleFillColorSecondary;
                 }

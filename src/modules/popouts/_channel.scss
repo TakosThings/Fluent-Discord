@@ -15,68 +15,68 @@
         color: $TextFillColorPrimary !important; // Override inline
     }
     // Channel user count
-    .container_b1bfd4{
+    .b1bfd4bdd69b9a6d-container{
         background-color: transparent;
         svg{
             display: none;
         }
-        .userCountText_b1bfd4{
+        .b1bfd4bdd69b9a6d-userCountText{
             color: $TextFillColorSecondary;
         }
     }
 
     // Timebar
-    .bar_c8b06d {
+    .c8b06d02ca1314f9-bar {
         height: 3px;
         background-color: $ControlStrokeColorDefault;
         margin: 0 8px;
     }
-    .barInner_c8b06d{
+    .c8b06d02ca1314f9-barInner{
         height: 3px;
         background-color: $AccentBase;
     }
     // Timecode
-    .text_c8b06d{
+    .c8b06d02ca1314f9-text{
         @include TypeCaption;
     }
 }
 
 // Active thread
-.popout__76f04{
+._76f047ded9fef6d4-popout{
     background: $SolidBackgroundFillColorSecondary;
     backdrop-filter: blur(16px);
     border: 1px solid $SurfaceStrokeColorFlyout;
     border-radius: 8px;
     @include Elevation32;
-    .title__76f04{
+    ._76f047ded9fef6d4-title{
         @include TypeBodyStrong;
         color: $TextFillColorPrimary !important; // Override inline
         text-transform: none;
     }
 
-    .row__76f04:hover{
+    ._76f047ded9fef6d4-row:hover{
         background-color: $AccentBase;
         color: $TextOnAccentFillColorPrimary;
-        .timestamp__76f04{
+        ._76f047ded9fef6d4-timestamp{
             color: $TextOnAccentFillColorPrimary;
         }
     }
 }
 
 // Stream preview
-.theme-dark .streamPreview__6da2d{
+.theme-dark ._6da2d8abf659f945-streamPreview{
     background: $SolidBackgroundFillColorSecondary;
     backdrop-filter: blur(16px);
     border: 1px solid $SurfaceStrokeColorFlyout;
     border-radius: 8px;
     @include Elevation32;
 
-    .previewContainer__6da2d{
+    ._6da2d8abf659f945-previewContainer{
         background-color: transparent;
     }
 
     // Remove tip
-    .protip__6da2d{
+    ._6da2d8abf659f945-protip{
         display: none;
     }
 }

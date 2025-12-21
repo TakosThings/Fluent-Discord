@@ -1,13 +1,13 @@
-.theme-dark .container_c8ffbb{
+.theme-dark .c8ffbb79449f399c-container{
     background: $LayerOnMicaBaseAltFillColor;
     border-left: 1px solid $CardStrokeColorDefault;
 
-    .members_c8ffbb{
+    .c8ffbb79449f399c-members{
         background-color: transparent;
     }
 
     // Group header
-    .membersGroup_c8ffbb{
+    .c8ffbb79449f399c-membersGroup{
         padding: 20px 8px 0 15px;
         color: $TextFillColorPrimary;
         @include TypeBodyStrong;
@@ -15,7 +15,7 @@
     }
 
     // Member
-    .container__91a9d{
+    ._91a9d7f7e5248a56-container{
         margin-left: 7px;
         background: transparent;
         border: 1px solid transparent;
@@ -23,12 +23,12 @@
         &:hover{
             background-color: $SubtleFillColorSecondary;
             border-color: $SubtleFillColorSecondary;
-            .childContainer__91a9d{
+            ._91a9d7f7e5248a56-childContainer{
                 background-color: transparent;
             }
         }
         // Selected (user popout open)
-        &.selected__91a9d{
+        &._91a9d7f7e5248a56-selected{
             background-color: $SubtleFillColorSecondary;
             border-color: $SubtleFillColorSecondary;
             &::before{
@@ -37,17 +37,17 @@
                 transition: transform 250ms Cubic-bezier(0.55,0.55,0,1),
                             opacity 250ms Cubic-bezier(0.55,0.55,0,1);
             }
-            .childContainer__91a9d{
+            ._91a9d7f7e5248a56-childContainer{
                 background-color: transparent;
             }
         }
         // Greyscale offline avatars
-        &.offline__5d473{
-            .avatar__91a9d{
+        &._5d473ecff348c314-offline{
+            ._91a9d7f7e5248a56-avatar{
                 filter: grayscale(100%);
             }
             &:hover{
-                .avatar__91a9d{
+                ._91a9d7f7e5248a56-avatar{
                     filter: grayscale(0%);
                 }
             }
@@ -55,11 +55,11 @@
     }
 
     // Username
-    .name__91a9d{
+    ._91a9d7f7e5248a56-name{
         @include TypeBody;
     }
     // Activity
-    .truncated_c9d15c{
+    .c9d15c8a962de3c8-truncated{
         @include TypeCaption;
         color: $TextFillColorSecondary;
         strong{
@@ -72,12 +72,12 @@
 // Remove Nitro decorations
 // Avatar decorations
 // This also removes them from user profile popouts and modals, but not cozy chat.
-.avatarDecoration__44b0c{
+._44b0c28be7879b7b-avatarDecoration{
     display: var(--fluent-show-nitro-decorations);
 }
 // Member list background
-.nameplated__91a9d{
-    .container__4bbc6{
+._91a9d7f7e5248a56-nameplated{
+    ._4bbc6dc06e75ad52-container{
         display: var(--fluent-show-nitro-decorations);
     }
 }

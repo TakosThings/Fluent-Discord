@@ -1,4 +1,4 @@
-.theme-dark .menu_c1e9c4{
+.theme-dark .c1e9c47c23f12ca3-menu{
     min-width: 280px;
     background: $AcrylicBackgroundFillColorDefault;
     border: 1px solid $SurfaceStrokeColorDefault;
@@ -17,19 +17,19 @@
         border-radius: 8px;
     }
 
-    .scroller_c1e9c4{
+    .c1e9c47c23f12ca3-scroller{
         padding: 4px 8px;
         max-height: calc(100vh - 64px);
     }
 
     // Separators
-    .separator_c1e9c4{
+    .c1e9c47c23f12ca3-separator{
         margin: 10px 4px;
         border-bottom-color: $DividerStrokeColorDefault;
     }
 
     // Item
-    .item_c1e9c4{
+    .c1e9c47c23f12ca3-item{
         min-height: 34px;
         margin: 2px 0 2px -4px;
         padding: 4px 12px;
@@ -37,14 +37,14 @@
         @include TypeBody;
         color: $TextFillColorPrimary;
         transition: background-color $AnimationFadeInOut;
-        &.focused_c1e9c4{
+        &.c1e9c47c23f12ca3-focused{
             background-color: $SubtleFillColorSecondary;
             transition: background-color $AnimationFadeInOut;
         }
-        &.colorDanger_c1e9c4{
+        &.c1e9c47c23f12ca3-colorDanger{
             color: $SystemFillColorCritical;
         }
-        &.disabled_c1e9c4{
+        &.c1e9c47c23f12ca3-disabled{
             color: $TextFillColorDisabled;
             opacity: 1;
         }
@@ -59,23 +59,23 @@
         // Remove subtext on Spotify menu items
         &[id*="spotify"],
         &[id*="listen"]{
-            .subtext_c1e9c4{
+            .c1e9c47c23f12ca3-subtext{
                 display: none;
             }
         }
 
         // Remove left margin from 'Upload file' option
-        .optionName__77820{
+        ._778207026e0e04d5-optionName{
             margin: 0;
         }
 
         // Fix font size in upload menu
-        .optionLabel__77820{
+        ._778207026e0e04d5-optionLabel{
             @include TypeBody;
         }
 
         // Items with subtext
-        .subtext_c1e9c4{
+        .c1e9c47c23f12ca3-subtext{
             margin-top: 0;
             @include TypeCaption;
             color: $TextFillColorSecondary;
@@ -86,26 +86,26 @@
 
         // Remove Discord icons, unless it's a checkbox
         &:not([role="menuitemcheckbox"]):not([role="menuitemradio"]):not([id^="message-add-reaction"]){
-            .icon_c1e9c4{
+            .c1e9c47c23f12ca3-icon{
                 display: none;
             }
         }
         // Remove icons from upload/attach menu
-        .optionIcon__77820{
+        ._778207026e0e04d5-optionIcon{
             display: none;
         }
     }
 
     // Emoji items
-    .button_f563df{
+    .f563df886a7377be-button{
         width: 24px;
         height: 24px;
         background-color: transparent;
-        &.focused_f563df{
+        &.f563df886a7377be-focused{
             background-color: $SubtleFillColorSecondary;
             box-shadow: none;
         }
-        .icon_f563df{
+        .f563df886a7377be-icon{
             width: 18px;
             height: 18px;
 

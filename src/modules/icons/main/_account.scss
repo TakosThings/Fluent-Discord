@@ -8,7 +8,7 @@
 }
 
 // Also includes the RTC controls icons to save having another file
-html[lang^="en-"].theme-dark .panels__5e434 .button__201d5{
+html[lang^="en-"].theme-dark ._5e434347c823b592-panels ._201d5e8a3c09670a-button{
     &[aria-label="Deafen"][aria-checked=true]::before{
         content: "\E74F"; // Mute
     }
@@ -21,7 +21,7 @@ html[lang^="en-"].theme-dark .panels__5e434 .button__201d5{
     &[aria-label="Mute"][aria-checked=false]::before{
         content: "\E720"; // Microphone
     }
-    &.buttonChevron__37e49::before{
+    &._37e49614b9f110a9-buttonChevron::before{
         content: "\E70D";
         font-size: 8px;
     }
@@ -65,7 +65,7 @@ html[lang^="en-"].theme-dark .panels__5e434 .button__201d5{
     }
 }
 
-html[lang^="en-"].theme-dark .panels__5e434 .actionButtons_e131a9 button.button__201d5{
+html[lang^="en-"].theme-dark ._5e434347c823b592-panels .e131a99484292a19-actionButtons button._201d5e8a3c09670a-button{
     &[aria-label*="camera" i]::before{
         content: "\E156"; // WebCam
     }
@@ -80,7 +80,7 @@ html[lang^="en-"].theme-dark .panels__5e434 .actionButtons_e131a9 button.button_
     }
 }
 
-html[lang^="en-"].theme-dark .popover_c97e55 .button_c97e55{
+html[lang^="en-"].theme-dark .c97e55feac203869-popover .c97e55feac203869-button{
     &[aria-label^="Edit"]::before{
         content: "\E70F" // Edit
     }
