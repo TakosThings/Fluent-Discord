@@ -180,7 +180,7 @@
     }
 
     // Open folder
-    ._48112cbe77dc5022-folderHeader{
+    ._48112cbe77dc5022-folderIcon{
         &::before{
             content: "\E8B7"; // Folder Open
             @include FontIconFluent;
@@ -194,6 +194,13 @@
             font-size: 32px;
         }
         svg{
+            display: none;
+        }
+    }
+
+    // Opened Folder
+    ._48112cbe77dc5022-isExpanded{
+        ._48112cbe77dc5022-folderPreviewWrapper{
             display: none;
         }
     }
